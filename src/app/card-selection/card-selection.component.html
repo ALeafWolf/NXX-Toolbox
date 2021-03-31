@@ -1,1 +1,59 @@
-<p>card-selection works!</p>
+<div class="p-2">
+    <div class="row m-2">
+        <a class="col-md-1 col-2" routerLink="/">
+            <img class="img-fluid" src="../../assets/images/back2_btm1.png">
+        </a>
+        <div class="col">
+            <label for="character">角色</label>
+            <select class="custom-select" name="character">
+                <option value="All" selected>All</option>
+                <option value="夏彦">夏彦</option>
+                <option value="左然">左然</option>
+                <option value="莫弈">莫弈</option>
+                <option value="陆景和">陆景和</option>
+            </select>
+        </div>
+        <div class="col">
+            <label for="rarity">稀有度</label>
+            <select class="custom-select" name="rarity">
+                <option value="All" selected>All</option>
+                <option value="R">R</option>
+                <option value="MR">MR</option>
+                <option value="SR">SR</option>
+                <option value="SSR">SSR</option>
+            </select>
+        </div>
+        <div class="col">
+            <label for="type">属性</label>
+            <select class="custom-select" name="type">
+                <option value="All" selected>All</option>
+                <option value="夏彦">逻辑</option>
+                <option value="左然">共情</option>
+                <option value="莫弈">直觉</option>
+            </select>
+        </div>
+    </div>
+    <div class="row justify-content-around mt-4">
+        <div class="col-3 col-md-2">
+            <a [routerLink]="['/card-value-setting/左然/心有千千结']" routerLinkActive="active">
+                <img class="img-fluid" src="../../assets/images/左然/心有千千结.png">
+            </a>
+        </div>
+        <div class="col-3 col-md-2">
+            <a routerLink="/card-value-setting/莫弈/松雪童话" routerLinkActive="active">
+                <img class="img-fluid" src="../../assets/images/莫弈/松雪童话.png">
+            </a>
+        </div>
+        <div class="col-3 col-md-2">
+            <a routerLink="/card-value-setting/夏彦/荧荧眸光" routerLinkActive="active">
+                <img class="img-fluid" src="../../assets/images/夏彦/荧荧眸光.png">
+            </a>
+        </div>
+        
+        <div class="col-3 col-md-2">
+            <a routerLink="/card-value-setting/陆景和/琥珀昙华" routerLinkActive="active">
+                <img class="img-fluid" src="../../assets/images/陆景和/琥珀昙华.png">
+            </a>
+        </div>
+
+</div>

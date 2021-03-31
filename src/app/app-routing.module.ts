@@ -3,10 +3,18 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './site-home/site-home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SkillListComponent } from './skill-list/skill-list.component';
+import { CardSelectionComponent } from './card-selection/card-selection.component';
+import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
+
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'skills', component: SkillListComponent},
+  {path: 'card-selection', component: CardSelectionComponent},
+  {
+    path: 'card-value-setting/:charname/:cardname', 
+    component: CardValueSettingComponent
+  },
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent},
 
