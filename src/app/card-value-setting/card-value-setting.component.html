@@ -1,106 +1,148 @@
-<div class="row py-2">
-    <a class="col-md-1 col-2" routerLink="/">
-        <img class="img-fluid" src="../../assets/images/back2_btm1.png">
-        返回
-    </a>
-    <h2 class="col">{{charName}} - {{cardName}}</h2>
-    <a class="col-md-1 col-2" routerLink="/">
-        <img class="img-fluid" src="../../assets/images/trash2-50.png">
-        删除
-    </a>
-</div>
-<div class="row justify-content-center">
-    <div class="col-4 col-lg-3 col-xl-2">
-        <img class="img-fluid" src="../../assets/images/左然/心有千千结-full.png">
-    </div>
-    <div class="col-8 col-lg-7">
-        <div class="row justify-content-center">
-            <div class="col-4 col-md-3">
-                <select class="custom-select" id="inputGroupSelect01">
-                    <option value="1" selected>1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
-            </div>
-            <div class="col-6">
-                以退为进β<br />使对方防御力降低9%
-            </div>
+<div class="row justify-content-center">    
+    <div class="col-7 col-sm-6 col-lg-4">
+        <div class="col-12 row py-2">
+            <a class="col-3" routerLink="/">
+                <img class="img-fluid" src="../../assets/images/back2_btm1.png">
+            </a>
+            <a class="col-3" routerLink="/">
+                <img class="img-fluid" src="../../assets/images/trash2-50.png">
+            </a>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-4 col-md-3">
-                <select class="custom-select" id="inputGroupSelect01">
-                    <option value="1" selected>1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
-            </div>
-            <div class="col-6">
-                以退为进β<br />使对方防御力降低9%
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-4 col-md-3">
-                <select class="custom-select" id="inputGroupSelect01">
-                    <option value="1" selected>1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                </select>
-            </div>
-            <div class="col-6">
-                以退为进β<br />使对方防御力降低9%
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <table class="table table-dark table-striped col-8 text-center">
-                <thead>
-                    <th>材料</th>
-                    <th>数量</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="../../assets/images/btn_coin_s.png"></td>
-                        <td>3000</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/共情印象I.png"></td>
-                        <td>5</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/钢笔.png"></td>
-                        <td>60</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/平板电脑.png"></td>
-                        <td>60</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/共情印象II.png"></td>
-                        <td>30</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/领带夹.png"></td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/蓝宝石袖扣.png"></td>
-                        <td>50</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/共情印象III.png"></td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/手枪模型.png"></td>
-                        <td>0</td>
-                    </tr>
-                    <tr>
-                        <td><img class="icon" src="../../assets/images/材料/高级律师徽章.png"></td>
-                        <td>0</td>
-                    </tr>
-                </tbody>
+        <div class="col-12 row justify-content-center">
+            <table class="table table-sm table-dark text-center" style="color: white;">
+                <tr>
+                    <th colspan="3">
+                        思绪面板
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        等级
+                    </th>
+                    <td>
+                        100
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        说服力
+                    </th>
+                    <td>
+                        3000
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        防御力
+                    </th>
+                    <td>
+                        100
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">
+                        星级
+                    </th>
+                    <td>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <th colspan="3">
+                        技能
+                    </th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        以退为进β<br />使对方防御力降低9%
+                    </td>
+                    <td>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        以退为进β<br />使对方防御力降低9%
+                    </td>
+                    <td>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        以退为进β<br />使对方防御力降低9%
+                    </td>
+                    <td>
+                        <select class="custom-select" id="inputGroupSelect01">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <th colspan="3">升级材料消耗</th>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="../../assets/images/btn_coin_s.png"></td>
+                    <td colspan="2">3000</td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="../../assets/images/材料/共情印象I.png"></td>
+                    <td><img class="icon" src="../../assets/images/材料/钢笔.png"></td>
+                    <td><img class="icon" src="../../assets/images/材料/平板电脑.png"></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>60</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="../../assets/images/材料/共情印象II.png"></td>
+                    <td><img class="icon" src="../../assets/images/材料/领带夹.png"></td>
+                    <td><img class="icon" src="../../assets/images/材料/蓝宝石袖扣.png"></td>
+                </tr>
+                <tr>
+                    <td>30</td>
+                    <td>50</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="../../assets/images/材料/共情印象III.png"></td>
+                    <td><img class="icon" src="../../assets/images/材料/手枪模型.png"></td>
+                    <td><img class="icon" src="../../assets/images/材料/高级律师徽章.png"></td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
             </table>
         </div>
-
     </div>
-
+    <div class="col-5 col-md-4 col-xl-3 text-center">
+        <h2>{{charName}} - {{cardName}}</h2>
+        <div class="bg-dark p-2">
+            战力 9000
+        </div>
+        <img class="img-fluid" src="../../assets/images/左然/心有千千结-full.png">
+    </div>
 </div>
