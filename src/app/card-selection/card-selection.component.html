@@ -1,5 +1,5 @@
-<div class="p-2">
-    <div class="row m-2">
+<div class="row p-2">
+    <div class="col-12 row m-2">
         <a class="col-md-1 col-2" routerLink="/">
             <img class="img-fluid" src="../../assets/images/back2_btm1.png">
         </a>
@@ -33,27 +33,10 @@
             </select>
         </div>
     </div>
-    <div class="row justify-content-around mt-4">
-        <div class="col-3 col-md-2">
-            <a [routerLink]="['/card-value-setting/左然/心有千千结']" routerLinkActive="active">
-                <img class="img-fluid" src="../../assets/images/左然/心有千千结.png">
+    <div class="col-12 row justify-content-around mt-4">
+        <div class="col-3 col-md-2 my-1" *ngFor="let c of cards">
+            <a [routerLink]="['/card-value-setting/', c.character, c.id]" routerLinkActive="active">
+                <img class="img-fluid" src="{{'../../assets/images/' + c.character + '/' + c.id + '.png'}}">
             </a>
         </div>
-        <div class="col-3 col-md-2">
-            <a routerLink="/card-value-setting/莫弈/松雪童话" routerLinkActive="active">
-                <img class="img-fluid" src="../../assets/images/莫弈/松雪童话.png">
-            </a>
-        </div>
-        <div class="col-3 col-md-2">
-            <a routerLink="/card-value-setting/夏彦/荧荧眸光" routerLinkActive="active">
-                <img class="img-fluid" src="../../assets/images/夏彦/荧荧眸光.png">
-            </a>
-        </div>
-        
-        <div class="col-3 col-md-2">
-            <a routerLink="/card-value-setting/陆景和/琥珀昙华" routerLinkActive="active">
-                <img class="img-fluid" src="../../assets/images/陆景和/琥珀昙华.png">
-            </a>
-        </div>
-
 </div>

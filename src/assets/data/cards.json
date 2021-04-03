@@ -1,0 +1,434 @@
+[
+    {
+        "id": "心跳记忆",
+        "name": "心跳记忆",
+        "type": "直觉",
+        "rank": "SSR",
+        "character": "左然",
+        "skills": [
+            "先声夺势 III",
+            "直感思维 III",
+            "绝对理性 III"
+        ]
+    },
+    {
+        "id": "醉意入怀",
+        "name": "醉意入怀",
+        "type": "逻辑",
+        "rank": "SSR",
+        "character": "左然",
+        "skills": [
+            "层层深入γ III",
+            "抽丝剥茧 III",
+            "滴水不漏 III"
+        ]
+    },
+    {
+        "id": "心有千千结",
+        "name": "心有千千结",
+        "type": "共情",
+        "rank": "SSR",
+        "character": "左然",
+        "skills": [
+            "以退为进β III",
+            "律法全能 III",
+            "律典经纬 III"
+        ]
+    },
+    {
+        "id": "铃音予梦",
+        "name": "铃音予梦",
+        "type": "共情",
+        "rank": "SSR",
+        "character": "左然",
+        "skills": [
+            "循循善诱γ III",
+            "有条不紊 III",
+            "釜底抽薪 III"
+        ]
+    },
+    {
+        "id": "一步之遥",
+        "name": "一步之遥",
+        "type": "直觉",
+        "rank": "SSR",
+        "character": "左然",
+        "skills": [
+            "明察秋毫α III",
+            "本能回避 III",
+            "锐辞庭辩 III"
+        ]
+    },
+    {
+        "id": "天心漫游",
+        "name": "天心漫游",
+        "type": "逻辑",
+        "rank": "SSR",
+        "character": "左然",
+        "skills": [
+            "以理服人β III",
+            "无懈可击 III",
+            "锐辞庭辩 III"
+        ]
+    },
+    {
+        "id": "咫尺远近",
+        "name": "咫尺远近",
+        "type": "直觉",
+        "rank": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 III",
+            "？？？ III",
+            "？？？ III"
+        ]
+    },
+    {
+        "id": "危情邀约",
+        "name": "危情邀约",
+        "type": "共情",
+        "rank": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "层层升入β III",
+            "张弛有度 III",
+            "顺水推舟 III"
+        ]
+    },
+    {
+        "id": "舞夜流光",
+        "name": "舞夜流光",
+        "type": "逻辑",
+        "rank": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "以德服人α III",
+            "自我评估 III",
+            "谈话引导 III"
+        ]
+    },
+    {
+        "id": "心悬一线",
+        "name": "心悬一线",
+        "type": "逻辑",
+        "rank": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "以德服人γ III",
+            "温文尔雅 III",
+            "纵横捭阖 III"
+        ]
+    },
+    {
+        "id": "明暗之境",
+        "name": "明暗之境",
+        "type": "直觉",
+        "rank": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 III",
+            "盛装舞步 III",
+            "攻势化解 III"
+        ]
+    },
+    {
+        "id": "焰落琉彩",
+        "name": "舞夜流光",
+        "type": "逻辑",
+        "rank": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "循循善诱α III",
+            "预见之明 III",
+            "人格侧写 III"
+        ]
+    },
+    {
+        "id": "人间烟火",
+        "name": "人间烟火",
+        "type": "直觉",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "示假隐真γ II",
+            "趋利避害 II",
+            "正本清源 II"
+        ]
+    },
+    {
+        "id": "秋叶寄梦",
+        "name": "秋叶寄梦",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "以理服人β II",
+            "律法全能 II",
+            "引譬连类 II"
+        ]
+    },
+    {
+        "id": "冷暖心知",
+        "name": "冷暖心知",
+        "type": "共情",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "循循善诱β II",
+            "情感投射 II",
+            "顺水推舟 II"
+        ]
+    },
+    {
+        "id": "会心一击",
+        "name": "会心一击",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "先声夺势 II",
+            "张弛有度 II",
+            "纵横捭阖 II"
+        ]
+    },
+    {
+        "id": "纸幕光影",
+        "name": "纸幕光影",
+        "type": "直觉",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "明察秋毫γ II",
+            "敏锐观察 II",
+            "锐辞庭辩 II"
+        ]
+    },
+    {
+        "id": "暇光一隅",
+        "name": "暇光一隅",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "设问否定β II",
+            "有条不紊 II",
+            "机锋对弈 II"
+        ]
+    },
+    {
+        "id": "锋芒退尽",
+        "name": "锋芒退尽",
+        "type": "共情",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "以退为进γ II",
+            "举一反三 II",
+            "击其薄弱 II"
+        ]
+    },
+    {
+        "id": "长夜微明",
+        "name": "长夜微明",
+        "type": "直觉",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "避实就虚β II",
+            "遇见之明 II",
+            "正本清源 II"
+        ]
+    },
+    {
+        "id": "抉择",
+        "name": "抉择",
+        "type": "共情",
+        "rank": "SR",
+        "character": "左然",
+        "skills": [
+            "先声夺势 II",
+            "？？？ II",
+            "锐辞庭辩 II"
+        ]
+    },
+    {
+        "id": "虚妄之泪",
+        "name": "虚妄之泪",
+        "type": "共情",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "循循善诱γ II",
+            "盛装舞步 II",
+            "釜底抽薪 II"
+        ]
+    },
+    {
+        "id": "指尖温度",
+        "name": "指尖温度",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "以理服人β II",
+            "无懈可击 II",
+            "纵横捭阖 II"
+        ]
+    },
+    {
+        "id": "水“逆”",
+        "name": "水“逆”",
+        "type": "直觉",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "明察秋毫α II",
+            "敏锐观察 II",
+            "攻势化解 II"
+        ]
+    },
+    {
+        "id": "塑心",
+        "name": "塑心",
+        "type": "共情",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "层层深入γ II",
+            "情绪感染 II",
+            "釜底抽薪 II"
+        ]
+    },
+    {
+        "id": "绅士游戏",
+        "name": "绅士游戏",
+        "type": "直觉",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 II",
+            "张弛有度 II",
+            "防微虑远 II"
+        ]
+    },
+    {
+        "id": "初光倾泻",
+        "name": "初光倾泻",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "设问否定γ II",
+            "演绎推理 II",
+            "滴水不漏 II"
+        ]
+    },
+    {
+        "id": "入局",
+        "name": "入局",
+        "type": "共情",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "循循善诱γ II",
+            "？？？ II",
+            "？？？ II"
+        ]
+    },
+    {
+        "id": "凉夏",
+        "name": "凉夏",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势",
+            "演绎推理 II",
+            "引譬连类 II"
+        ]
+    },
+    {
+        "id": "松雪童话",
+        "name": "松雪童话",
+        "type": "直觉",
+        "rank": "SR",
+        "character": "莫弈",
+        "skills": [
+            "避实就虚β II",
+            "敏锐观察 II",
+            "箱庭疗法 II"
+        ]
+    },
+    {
+        "id": "心意",
+        "name": "心意",
+        "type": "直觉",
+        "rank": "MR",
+        "character": "左然",
+        "skills": [
+            "先声夺势 II",
+            "锐辞庭辩 II",
+            "遇见之明 II"
+        ]
+    },
+    {
+        "id": "约定",
+        "name": "约定",
+        "type": "共情",
+        "rank": "MR",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 II",
+            "人格侧写 II",
+            "还施彼身 II"
+        ]
+    },
+    {
+        "id": "荧荧眸光",
+        "name": "荧荧眸光",
+        "type": "直觉",
+        "rank": "SSR",
+        "character": "夏彦",
+        "skills": [
+            "洞察秋毫β III",
+            "遇见之明 III",
+            "侦探头脑 III"
+        ]
+    },
+    {
+        "id": "完美营救",
+        "name": "完美营救",
+        "type": "逻辑",
+        "rank": "SR",
+        "character": "夏彦",
+        "skills": [
+            "以理服人γ II",
+            "抽丝剥茧 II",
+            "机锋对弈 II"
+        ]
+    },
+    {
+        "id": "琥珀昙华",
+        "name": "琥珀昙华",
+        "type": "共情",
+        "rank": "SR",
+        "character": "陆景和",
+        "skills": [
+            "层层深入γ II",
+            "还施彼身 II",
+            "釜底抽薪 II"
+        ]
+    },
+    {
+        "id": "眸中景",
+        "name": "眸中景",
+        "type": "直觉",
+        "rank": "SSR",
+        "character": "陆景和",
+        "skills": [
+            "层层深入γ III",
+            "举一反三 III",
+            "攻势化解 III"
+        ]
+    }
+]

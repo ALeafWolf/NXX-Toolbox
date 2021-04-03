@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { DataService } from '../data.service';
 
 
 @Component({
@@ -9,16 +10,26 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CardValueSettingComponent implements OnInit {
 
-  charName: String;
-  cardName: String;
+  char: String;
+  id: String;
+  cards;
+  card;
 
-  constructor(private _route: ActivatedRoute) {
-    this.charName = this._route.snapshot.params.charname
-    this.cardName = this._route.snapshot.params.cardname
+  constructor(private _route: ActivatedRoute, private _data: DataService) {
+    this.char = this._route.snapshot.params.charname
+    this.id = this._route.snapshot.params.id
 
   }
 
   ngOnInit(): void {
+    this._data.getCards().subscribe((data) =>{
+      this.cards = data;
+      this.cards.forEach(element => {
+        if(element.id == this.id){
+          this.card = element
+        }
+      });
+    })
   }
 
 }
