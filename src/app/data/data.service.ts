@@ -15,9 +15,12 @@ export class DataService {
   getSkills(){
     return this._http.get('assets/data/skills.json');
   }
-  getSkillRss(){
-    return this._http.get('assets/data/skill-level-up-rss.json');
+  getSkillRssList(){
+    return this._http.get('assets/data/skill-level-up-rss2.json');
   }
+  // getSkillRss(rank: string[3]){
+  //   return this._http.get('assets/data/skill-level-up-rss.json');
+  // }
 
   //load data from locatStorage
   getItem(key: string){

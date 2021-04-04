@@ -55,7 +55,7 @@
                 </tr>
                 <tr *ngFor="let s of card.skills">
                     <td colspan="2">
-                        {{s}}<br />使对方防御力降低9%
+                        {{s}}<br />{{skillsInfo[card.skills.indexOf(s)]}}
                     </td>
                     <td>
                         {{skills[card.skills.indexOf(s)]}}
@@ -108,5 +108,8 @@
         战力 9000 {{card.rank}}
         </div>
         <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
+    </div>
+    <div>
+        <span *ngFor="let i of skillLevelUpRssList">i.2</span>
     </div>
 </div>

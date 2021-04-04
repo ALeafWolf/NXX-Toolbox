@@ -17,7 +17,7 @@ export class CardValueComponent implements OnInit {
   //from data service
   charRssGroup;
   card;
-  skillRssList;
+  skillLevelUpRssList;
   rss;
 
   //skill rss
@@ -33,14 +33,22 @@ export class CardValueComponent implements OnInit {
   userData;
   star = 1
   skills = [1, 1, 1]
+  skillsInfo = ["", "", ""]
+
 
   constructor(private _route: ActivatedRoute, private _data: DataService) {
     this.id = this._route.snapshot.params.id;
     this.char = this._route.snapshot.params.charname;
     this.charRssGroup = SkillInfo.getSkillRssGroup(this.char);
+
+    
+
+    
   }
 
   ngOnInit(): void {
+    this.userData = JSON.parse(this._data.getItem(this.id))
+
     this._data.getCards().subscribe((data: any[]) =>{
       data.forEach(c => {
         if(c.id == this.id){
@@ -48,30 +56,43 @@ export class CardValueComponent implements OnInit {
         }
       });
     })
-    this._data.getSkillRss().subscribe((data) =>{
-      this.skillRssList = data;
-    })
 
-    this.userData = JSON.parse(this._data.getItem(this.id))
+    this._data.getSkills().subscribe((data: any[]) => {
+      if(this.card){
+        let des = []
+        for(let skillName of this.card.skills){
+          for(let s of data){
+            if(s.name == skillName){
+              //replace X in the description with correct number
+              let line = s.description.toString()
+              let str = line.replace("X", s.nums[0].toString())
+              des.push(str)
+            }
+          }
+        }
+        this.skillsInfo = des
+      }
+      
+    });
+
+    this._data.getSkillRssList().subscribe((data) =>{
+      this.skillLevelUpRssList = data;
+    })
 
     //if localStorage has user's data for this card
     if(this.userData){
       this.skills = this.userData.skills
       this.calculateRss()
     }
+
+    
   }
 
   calculateRss(){
-    // let rss;
-    switch(this.card.rank){
-      case "SSR":
-        this.rss = this.skillRssList.SSR;
-      case "SR":
-        this.rss = this.skillRssList.SR;
-      case "MR":
-        this.rss = this.skillRssList.SR;
+    // this.skillLevelUpRssList.forEach(element => {
+      
+    // });
 
-    }
   }
 
 }

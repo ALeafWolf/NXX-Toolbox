@@ -1,0 +1,165 @@
+[
+    {
+        "name": "先声夺势 I",
+        "type": "通用",
+        "rank": "R",
+        "description": [
+            "对单个观点造成说服力X%的伤害"
+        ],
+        "nums": [108, 140.04]
+    },
+    {
+        "name": "先声夺势 II",
+        "type": "通用",
+        "rank": "MR SR",
+        "description": [
+            "对单个观点造成说服力X%的伤害"
+        ],
+        "nums": [109, 145]
+    },
+    {
+        "name": "先声夺势 III",
+        "type": "通用",
+        "rank": "SSR",
+        "description": [
+            "对单个观点造成说服力X%的伤害"
+        ],
+        "nums": [110, 149.9]
+    },
+    {
+        "name": "层层深入α I",
+        "type": "通用",
+        "rank": "R",
+        "description": [
+            "自身说服力提升X%，持续1回合"
+        ],
+        "nums": [5.4, 27]
+    },
+    {
+        "name": "层层深入α II",
+        "type": "通用",
+        "rank": "MR SR",
+        "description": [
+            "自身说服力提升X%，持续1回合"
+        ],
+        "nums": [6.8, 33.98]
+    },
+    {
+        "name": "层层深入α III",
+        "type": "通用",
+        "rank": "SSR",
+        "description": [
+            "自身说服力提升X%，持续1回合"
+        ],
+        "nums": [9, 45]
+    },
+    
+    {
+        "name": "层层深入β I",
+        "type": "通用",
+        "rank": "R",
+        "description": [
+            "自身说服力提升X%，持续2回合"
+        ],
+        "nums": [3, 14.97]
+    },
+    {
+        "name": "层层深入β II",
+        "type": "通用",
+        "rank": "MR SR",
+        "description": [
+            "自身说服力提升X%，持续2回合"
+        ],
+        "nums": [3.8, 19.01]
+    },
+    {
+        "name": "层层深入β III",
+        "type": "通用",
+        "rank": "SSR",
+        "description": [
+            "自身说服力提升X%，持续2回合"
+        ],
+        "nums": [5, 24.98]
+    },
+    {
+        "name": "层层深入γ I",
+        "type": "通用",
+        "rank": "R",
+        "description": [
+            "自身说服力提升X%，持续3回合"
+        ],
+        "nums": [2.2, 11.02]
+    },
+    {
+        "name": "层层深入γ II",
+        "type": "通用",
+        "rank": "MR SR",
+        "description": [
+            "自身说服力提升X%，持续3回合"
+        ],
+        "nums": [2.7, 13.5]
+    },
+    {
+        "name": "层层深入γ III",
+        "type": "通用",
+        "rank": "SSR",
+        "description": [
+            "自身说服力提升X%，持续3回合"
+        ],
+        "nums": [3.6, 18]
+    },
+    {
+        "name": "直感思维 I",
+        "type": "通用",
+        "rank": "R",
+        "description": [
+            "主战思绪中每有一张直觉的思绪，该思绪基础说服力增加X%"
+        ],
+        "nums": [-1, -1]
+    },
+    {
+        "name": "直感思维 II",
+        "type": "通用",
+        "rank": "MR SR",
+        "description": [
+            "主战思绪中每有一张直觉的思绪，该思绪基础说服力增加X%"
+        ],
+        "nums": [1.15, 5.83]
+    },
+    {
+        "name": "直感思维 III",
+        "type": "通用",
+        "rank": "SSR",
+        "description": [
+            "主战思绪中每有一张直觉的思绪，该思绪基础说服力增加X%"
+        ],
+        "nums": [1.44, 7.2]
+    },
+    {
+        "name": "绝对理性 I",
+        "type": "左然",
+        "rank": "R",
+        "description": [
+            "主战思绪中所有左然思绪的基础防御力增加X"
+        ],
+        "nums": [-1, -1]
+    },
+    {
+        "name": "绝对理性 II",
+        "type": "左然",
+        "rank": "MR SR",
+        "description": [
+            "主战思绪中所有左然思绪的基础防御力增加X"
+        ],
+        "nums": [-1, -1]
+    },
+    {
+        "name": "绝对理性 III",
+        "type": "左然",
+        "rank": "SSR",
+        "description": [
+            "主战思绪中所有左然思绪的基础防御力增加X"
+        ],
+        "nums": [27, 135]
+    }
+]

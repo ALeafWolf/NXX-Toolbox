@@ -1,9 +1,10 @@
 <div class="row">
     <div class="col-12 row justify-content-evenly">
         <div class="col">
-            <label for="character">角色</label>
+            <label for="character">适用角色</label>
             <select class="custom-select" name="character">
                 <option value="All" selected>All</option>
+                <option value="通用">通用</option>
                 <option value="夏彦">夏彦</option>
                 <option value="左然">左然</option>
                 <option value="莫弈">莫弈</option>
@@ -33,14 +34,22 @@
     <div class="col-12">
         <table class="table table-sm table-dark text-center mt-2">
             <tr>
-                <th>图标</th>
-                <th>名称</th>
-                <th colspan="2">描述</th>
+                <th rowspan="2">图标</th>
+                <th rowspan="2">名称</th>
+                <th rowspan="2">思绪稀有度</th>
+                <th rowspan="2">描述</th>
+                <th colspan="2">技能数值</th>
             </tr>
             <tr>
+                <th>LV1</th>
+                <th>LV10</th>
+            </tr>
+            <tr *ngFor="let s of skillList">
                 <td></td>
-                <td></td>
-                <td colspan="2"></td>
+                <td>{{s.name}}</td>
+                <td>{{s.rank}}</td>
+                <td>{{s.description}}</td>
+                <td *ngFor="let n of s.nums">{{n}}</td>
             </tr>
         </table>
     </div>
