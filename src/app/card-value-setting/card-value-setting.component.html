@@ -2,10 +2,10 @@
     <div class="col-7 col-sm-6 col-lg-4">
         <div class="col-12 row py-2">
             <a class="col-3" [routerLink]="['/card-value', char, id]">
-                <img class="img-fluid" src="../../assets/images/btn_ok.png">
+                <img class="img-fluid" src="assets/images/btn_ok.png">
             </a>
             <a class="col-3" routerLink="/">
-                <img class="img-fluid" src="../../assets/images/btn_delete.png">
+                <img class="img-fluid" src="assets/images/btn_delete.png">
             </a>
         </div>
         <div class="col-12 row justify-content-center">
@@ -28,7 +28,7 @@
                         说服力
                     </th>
                     <td>
-                        3000
+                        {{card.attack}}
                     </td>
                 </tr>
                 <tr>
@@ -36,7 +36,7 @@
                         防御力
                     </th>
                     <td>
-                        100
+                        {{card.defence}}
                     </td>
                 </tr>
                 <tr>
@@ -121,9 +121,9 @@
     <div class="col-5 col-md-4 col-xl-3 text-center">
         <h4 class="my-3">{{char}} - {{id}}</h4>
         <div class="bg-dark p-2">
-            <img class="img-fluid" src="{{'../../assets/images/' + card.type + '.png'}}">
+            <img class="img-fluid" src="{{'assets/images/' + card.type + '.png'}}">
             战力 9000
         </div>
-        <img class="img-fluid" src="{{'../../assets/images/' + char + '/' + id + '-full.png'}}">
+        <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
     </div>
 </div>

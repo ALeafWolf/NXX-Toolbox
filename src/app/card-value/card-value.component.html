@@ -28,7 +28,7 @@
                         说服力
                     </th>
                     <td>
-                        3000
+                        {{card.attack}}
                     </td>
                 </tr>
                 <tr>
@@ -36,7 +36,7 @@
                         防御力
                     </th>
                     <td>
-                        100
+                        {{card.defence}}
                     </td>
                 </tr>
                 <tr>
@@ -44,7 +44,7 @@
                         星级
                     </th>
                     <td>
-                        1
+                        {{star}}
                     </td>
                     
                 </tr>
@@ -58,7 +58,7 @@
                         {{s}}<br />使对方防御力降低9%
                     </td>
                     <td>
-                        1
+                        {{skills[card.skills.indexOf(s)]}}
                     </td>
                 </tr>
                 <tr>
@@ -66,37 +66,37 @@
                 </tr>
                 <tr>
                     <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
-                    <td colspan="2">0</td>
+                    <td colspan="2">{{coin}}</td>
                 </tr>
                 <tr>
-                    <td><img class="icon" src="assets/images/材料/共情印象I.png"></td>
-                    <td><img class="icon" src="assets/images/材料/钢笔.png"></td>
-                    <td><img class="icon" src="assets/images/材料/平板电脑.png"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象I.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.png'}}"></td>
                 </tr>
                 <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>{{lv1Common}}</td>
+                    <td>{{lv1Specific}}</td>
+                    <td>{{lv1Specific}}</td>
                 </tr>
                 <tr>
-                    <td><img class="icon" src="assets/images/材料/共情印象II.png"></td>
-                    <td><img class="icon" src="assets/images/材料/领带夹.png"></td>
-                    <td><img class="icon" src="assets/images/材料/蓝宝石袖扣.png"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象II.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.png'}}"></td>
                 </tr>
                 <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>{{lv2Common}}</td>
+                    <td>{{lv2Specific}}</td>
+                    <td>{{lv2Specific}}</td>
                 </tr>
                 <tr>
-                    <td><img class="icon" src="assets/images/材料/共情印象III.png"></td>
-                    <td><img class="icon" src="assets/images/材料/手枪模型.png"></td>
-                    <td><img class="icon" src="assets/images/材料/高级律师徽章.png"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象III.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.png'}}"></td>
                 </tr>
                 <tr>
-                    <td>0</td>
-                    <td>0</td>
-                    <td>0</td>
+                    <td>{{lv3Common}}</td>
+                    <td>{{lv3Specific}}</td>
+                    <td>{{lv3Specific}}</td>
                 </tr>
             </table>
         </div>
@@ -105,7 +105,7 @@
         <h4 class="my-3">{{char}} - {{id}}</h4>
         <div class="bg-dark p-2">
         <img class="img-fluid" src="{{'assets/images/' + card.type + '.png'}}">
-        战力 9000 
+        战力 9000 {{card.rank}}
         </div>
         <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
     </div>
