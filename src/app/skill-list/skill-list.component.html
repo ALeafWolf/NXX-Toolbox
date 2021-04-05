@@ -1,3 +1,11 @@
+<div class="row justify-content-center">
+    <div class="col-10 text-center bg-dark p-4 my-2">
+        <h4>技能资料参考：</h4>
+        <a href="https://bbs.nga.cn/read.php?tid=26103617" target="_blank">[攻略] [技能] 法考真题全攻略——思绪技能详解</a><br/>
+        <a href="https://bbs.nga.cn/read.php?tid=25852781" target="_blank">[硬核攻略] [我们的目标是变强] 养卡宝典：全图鉴战斗数值资料库excel+自选卡组计算加成后说服力/技能升级潜力</a><br/>
+        <a href="https://bbs.nga.cn/read.php?tid=25503032" target="_blank">自用《未定卡牌技能表》excel分享，欢迎下载随心二改</a>
+    </div>
+</div>
 <div class="row">
     <div class="col-12 row justify-content-evenly">
         <div class="col">
@@ -15,7 +23,7 @@
             <label for="rarity">稀有度</label>
             <select class="custom-select" name="rarity">
                 <option value="All" selected>All</option>
-                <option value="R">R</option>
+                <!-- <option value="R">R</option> -->
                 <option value="MR">MR</option>
                 <option value="SR">SR</option>
                 <option value="SSR">SSR</option>
@@ -25,28 +33,31 @@
             <label for="type">属性</label>
             <select class="custom-select" name="type">
                 <option value="All" selected>All</option>
-                <option value="夏彦">逻辑</option>
-                <option value="左然">共情</option>
-                <option value="莫弈">直觉</option>
+                <option value="逻辑">逻辑</option>
+                <option value="共情">共情</option>
+                <option value="直觉">直觉</option>
             </select>
         </div>
     </div>
-    <div class="col-12">
-        <table class="table table-sm table-dark text-center mt-2">
+    <div class="col-12 my-2">
+        <table class="table table-sm table-dark text-center">
             <tr>
                 <th rowspan="2">图标</th>
                 <th rowspan="2">名称</th>
-                <th rowspan="2">思绪稀有度</th>
-                <th rowspan="2">描述</th>
+                <th colspan="2">思绪</th>
+                <th rowspan="2">技能描述</th>
                 <th colspan="2">技能数值</th>
             </tr>
             <tr>
+                <th>适用角色</th>
+                <th>稀有度</th>
                 <th>LV1</th>
                 <th>LV10</th>
             </tr>
             <tr *ngFor="let s of skillList">
                 <td></td>
                 <td>{{s.name}}</td>
+                <td>{{s.type}}</td>
                 <td>{{s.rank}}</td>
                 <td>{{s.description}}</td>
                 <td *ngFor="let n of s.nums">{{n}}</td>
