@@ -3,7 +3,7 @@
         "id": "最佳拍档",
         "name": "最佳拍档",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "层层深入β III",
@@ -17,7 +17,7 @@
         "id": "微醺视线",
         "name": "微醺视线",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "层层深入β III",
@@ -31,7 +31,7 @@
         "id": "千灯如昼",
         "name": "千灯如昼",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "层层深入β III",
@@ -45,7 +45,7 @@
         "id": "虹色心跳",
         "name": "虹色心跳",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "循循善诱β III",
@@ -59,7 +59,7 @@
         "id": "温馥予怀",
         "name": "温馥予怀",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "层层深入β III",
@@ -73,7 +73,7 @@
         "id": "荧荧眸光",
         "name": "荧荧眸光",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "洞察秋毫β III",
@@ -87,7 +87,7 @@
         "id": "此心安处",
         "name": "此心安处",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "夏彦",
         "skills": [
             "先声夺势 III",
@@ -101,7 +101,7 @@
         "id": "心跳记忆",
         "name": "心跳记忆",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "左然",
         "skills": [
             "先声夺势 III",
@@ -115,7 +115,7 @@
         "id": "醉意入怀",
         "name": "醉意入怀",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "左然",
         "skills": [
             "层层深入γ III",
@@ -129,7 +129,7 @@
         "id": "心有千千结",
         "name": "心有千千结",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "左然",
         "skills": [
             "以退为进β III",
@@ -143,7 +143,7 @@
         "id": "铃音予梦",
         "name": "铃音予梦",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "左然",
         "skills": [
             "循循善诱γ III",
@@ -157,7 +157,7 @@
         "id": "一步之遥",
         "name": "一步之遥",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "左然",
         "skills": [
             "明察秋毫α III",
@@ -171,7 +171,7 @@
         "id": "天心漫游",
         "name": "天心漫游",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "左然",
         "skills": [
             "以理服人β III",
@@ -185,7 +185,7 @@
         "id": "咫尺远近",
         "name": "咫尺远近",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "莫弈",
         "skills": [
             "先声夺势 III",
@@ -199,7 +199,7 @@
         "id": "危情邀约",
         "name": "危情邀约",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "莫弈",
         "skills": [
             "层层升入β III",
@@ -213,7 +213,7 @@
         "id": "舞夜流光",
         "name": "舞夜流光",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "莫弈",
         "skills": [
             "以德服人α III",
@@ -227,7 +227,7 @@
         "id": "心悬一线",
         "name": "心悬一线",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "莫弈",
         "skills": [
             "以德服人γ III",
@@ -241,7 +241,7 @@
         "id": "明暗之境",
         "name": "明暗之境",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "莫弈",
         "skills": [
             "先声夺势 III",
@@ -255,7 +255,7 @@
         "id": "焰落琉彩",
         "name": "舞夜流光",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "莫弈",
         "skills": [
             "循循善诱α III",
@@ -269,7 +269,7 @@
         "id": "冤家路窄",
         "name": "冤家路窄",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "先声夺势 III",
@@ -283,7 +283,7 @@
         "id": "眸中景",
         "name": "眸中景",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "层层深入γ III",
@@ -297,7 +297,7 @@
         "id": "绘恋春风",
         "name": "绘恋春风",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "层层深入γ III",
@@ -311,7 +311,7 @@
         "id": "悸乱微光",
         "name": "悸乱微光",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "明察秋毫γ III",
@@ -325,7 +325,7 @@
         "id": "终夜明辉",
         "name": "终夜明辉",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "层层深入α III",
@@ -339,7 +339,7 @@
         "id": "虚诞盛宴",
         "name": "虚诞盛宴",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "层层深入α III",
@@ -353,7 +353,7 @@
         "id": "极光之昼",
         "name": "极光之昼",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "明察秋毫β III",
@@ -367,7 +367,7 @@
         "id": "苍木为意",
         "name": "苍木为意",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "character": "陆景和",
         "skills": [
             "以理服人γ III",
@@ -381,7 +381,7 @@
         "id": "碧蓝之间",
         "name": "碧蓝之间",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -395,7 +395,7 @@
         "id": "斑斓光影",
         "name": "斑斓光影",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -409,7 +409,7 @@
         "id": "惊心一刻",
         "name": "惊心一刻",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -423,7 +423,7 @@
         "id": "完美营救",
         "name": "完美营救",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -437,7 +437,7 @@
         "id": "倾落心扉",
         "name": "倾落心扉",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -451,7 +451,7 @@
         "id": "彼时少年",
         "name": "彼时少年",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -465,7 +465,7 @@
         "id": "与子偕行",
         "name": "与子偕行",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -479,7 +479,7 @@
         "id": "掌中流光",
         "name": "掌中流光",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "夏彦",
         "skills": [
             "以理服人γ II",
@@ -493,7 +493,7 @@
         "id": "人间烟火",
         "name": "人间烟火",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "示假隐真γ II",
@@ -507,7 +507,7 @@
         "id": "秋叶寄梦",
         "name": "秋叶寄梦",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "以理服人β II",
@@ -521,7 +521,7 @@
         "id": "冷暖心知",
         "name": "冷暖心知",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "循循善诱β II",
@@ -535,7 +535,7 @@
         "id": "会心一击",
         "name": "会心一击",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "先声夺势 II",
@@ -549,7 +549,7 @@
         "id": "纸幕光影",
         "name": "纸幕光影",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "明察秋毫γ II",
@@ -563,7 +563,7 @@
         "id": "暇光一隅",
         "name": "暇光一隅",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "设问否定β II",
@@ -577,7 +577,7 @@
         "id": "锋芒退尽",
         "name": "锋芒退尽",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "以退为进γ II",
@@ -591,7 +591,7 @@
         "id": "长夜微明",
         "name": "长夜微明",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "避实就虚β II",
@@ -605,7 +605,7 @@
         "id": "抉择",
         "name": "抉择",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "左然",
         "skills": [
             "先声夺势 II",
@@ -619,7 +619,7 @@
         "id": "虚妄之泪",
         "name": "虚妄之泪",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "循循善诱γ II",
@@ -633,7 +633,7 @@
         "id": "指尖温度",
         "name": "指尖温度",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "以理服人β II",
@@ -647,7 +647,7 @@
         "id": "水“逆”",
         "name": "水“逆”",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "明察秋毫α II",
@@ -661,7 +661,7 @@
         "id": "塑心",
         "name": "塑心",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "层层深入γ II",
@@ -675,7 +675,7 @@
         "id": "绅士游戏",
         "name": "绅士游戏",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "先声夺势 II",
@@ -689,7 +689,7 @@
         "id": "初光倾泻",
         "name": "初光倾泻",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "设问否定γ II",
@@ -703,7 +703,7 @@
         "id": "入局",
         "name": "入局",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "循循善诱γ II",
@@ -717,7 +717,7 @@
         "id": "凉夏",
         "name": "凉夏",
         "type": "逻辑",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "先声夺势",
@@ -731,7 +731,7 @@
         "id": "松雪童话",
         "name": "松雪童话",
         "type": "直觉",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "莫弈",
         "skills": [
             "避实就虚β II",
@@ -745,7 +745,7 @@
         "id": "琥珀昙华",
         "name": "琥珀昙华",
         "type": "共情",
-        "rank": "SR",
+        "rarity": "SR",
         "character": "陆景和",
         "skills": [
             "层层深入γ II",
@@ -759,7 +759,7 @@
         "id": "陪伴",
         "name": "陪伴",
         "type": "逻辑",
-        "rank": "MR",
+        "rarity": "MR",
         "character": "夏彦",
         "skills": [
             "先声夺势 II",
@@ -773,7 +773,7 @@
         "id": "心意",
         "name": "心意",
         "type": "直觉",
-        "rank": "MR",
+        "rarity": "MR",
         "character": "左然",
         "skills": [
             "先声夺势 II",
@@ -787,7 +787,7 @@
         "id": "约定",
         "name": "约定",
         "type": "共情",
-        "rank": "MR",
+        "rarity": "MR",
         "character": "莫弈",
         "skills": [
             "先声夺势 II",
@@ -801,7 +801,7 @@
         "id": "信物",
         "name": "信物",
         "type": "直觉",
-        "rank": "MR",
+        "rarity": "MR",
         "character": "陆景和",
         "skills": [
             "先声夺势 II",

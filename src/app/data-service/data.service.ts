@@ -16,7 +16,7 @@ export class DataService {
     return this._http.get('assets/data/skills.json');
   }
   getSkillRssList(){
-    return this._http.get('assets/data/skill-level-up-rss2.json');
+    return this._http.get('assets/data/skill-level-up-rss.json');
   }
   // getSkillRss(rank: string[3]){
   //   return this._http.get('assets/data/skill-level-up-rss.json');

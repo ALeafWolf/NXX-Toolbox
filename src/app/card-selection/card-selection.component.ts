@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data/data.service';
+import { DataService } from '../data-service/data.service';
 
 @Component({
   selector: 'app-card-selection',
