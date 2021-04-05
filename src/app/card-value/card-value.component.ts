@@ -38,8 +38,6 @@ export class CardValueComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.userData = JSON.parse(this._data.getItem(this.id))
-
     this._data.getCards().subscribe((data: any[]) => {
       data.forEach(c => {
         if (c.id == this.id) {
@@ -89,6 +87,7 @@ export class CardValueComponent implements OnInit {
     }
   }
 
+  //calculate the rss cost for leveling skills
   calculateRss() {
     for (let i = 0; i < 3; i++) {
       let lvl = this.skills[i]
@@ -96,8 +95,21 @@ export class CardValueComponent implements OnInit {
         //lv2: index 0, lv10: index 8
         for (let j = 0; j < lvl - 1; j++) {
           this.coin += this.skillLevelUpRssList[j].coin
-          this.rss[j] += this.skillLevelUpRssList[j].impression
-          this.rss[j+1] += this.skillLevelUpRssList[j].item
+          //lv2-4
+          if(j < 3){
+            this.rss[0] += this.skillLevelUpRssList[j].impression
+            this.rss[1] += this.skillLevelUpRssList[j].item
+          }
+          //lv5-7
+          else if(j < 6){
+            this.rss[2] += this.skillLevelUpRssList[j].impression
+            this.rss[3] += this.skillLevelUpRssList[j].item
+          }
+          //lv8-10
+          else{
+            this.rss[4] += this.skillLevelUpRssList[j].impression
+            this.rss[5] += this.skillLevelUpRssList[j].item
+          }
         }
       }
     }
