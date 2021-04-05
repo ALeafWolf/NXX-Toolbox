@@ -25,18 +25,18 @@
                 </tr>
                 <tr>
                     <th colspan="2">
-                        说服力
+                        基础说服力
                     </th>
                     <td>
-                        {{card.attack}}
+                        {{att}}
                     </td>
                 </tr>
                 <tr>
                     <th colspan="2">
-                        防御力
+                        基础防御力
                     </th>
                     <td>
-                        {{card.defence}}
+                        {{def}}
                     </td>
                 </tr>
                 <tr>
@@ -105,11 +105,8 @@
         <h4 class="my-3">{{char}} - {{id}}</h4>
         <div class="bg-dark p-2">
         <img class="img-fluid" src="{{'assets/images/' + card.type + '.png'}}">
-        战力 9000 {{card.rarity}}
+        战力 {{power}} {{card.rarity}}
         </div>
         <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
-    </div>
-    <div>
-        <span *ngFor="let i of skillLevelUpRssList">i.2</span>
     </div>
 </div>

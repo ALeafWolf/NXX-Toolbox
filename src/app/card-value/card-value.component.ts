@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../data-service/data.service';
-import { SkillInfo } from '../model/skill-info';
+import { SkillInfo, CardInfo } from '../model/card-statistics';
 
 
 @Component({
@@ -26,9 +26,12 @@ export class CardValueComponent implements OnInit {
 
   //for localStorage
   userData;
-  star = 1
-  skills = [1, 1, 1]
-  skillsInfo = ["", "", ""]
+  star = 1;
+  att = 0;
+  def = 0;
+  skills = [1, 1, 1];
+  skillsInfo = ["", "", ""];
+  power = 0;
 
 
   constructor(private _route: ActivatedRoute, private _data: DataService) {
@@ -38,12 +41,17 @@ export class CardValueComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.userData = JSON.parse(this._data.getItem(this.id))
     this._data.getCards().subscribe((data: any[]) => {
       data.forEach(c => {
         if (c.id == this.id) {
-          this.card = c
+          this.card = c;
+          this.att = c.attack;
+          this.def = c.defence;
         }
       });
+      this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+
     })
 
     this._data.getSkills().subscribe((data: any[]) => {
@@ -59,9 +67,11 @@ export class CardValueComponent implements OnInit {
       })
       //if localStorage has user's data for this card
       if (this.userData) {
-        this.skills = this.userData.skills
-        this.star = this.userData.star
-        this.calculateRss()
+        this.skills = this.userData.skills;
+        this.star = this.userData.star;
+        this.calculateRss();
+        this.calculateCardStatistic();
+        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
     })
   }
@@ -113,7 +123,13 @@ export class CardValueComponent implements OnInit {
         }
       }
     }
-
   }
+
+  calculateCardStatistic(){
+      let x = 1 + (this.star - 1)*0.1
+      this.att = Math.round(this.att*x)
+      this.def = Math.round(this.def*x)
+  }
+
 
 }
