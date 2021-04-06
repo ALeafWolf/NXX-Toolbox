@@ -4,72 +4,60 @@
         "name": "先声夺势 I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
-        "description": [
-            "对单个观点造成说服力X%的伤害"
-        ],
+        "rarity": "R",
+        "description": "对单个观点造成说服力X%的伤害",
         "nums": [108, 140.04],
-        "tag": ["damage up"]
+        "tag": "damage up"
     },
     {
         "id": "先声夺势",
         "name": "先声夺势 II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
-        "description": [
-            "对单个观点造成说服力X%的伤害"
-        ],
+        "rarity": "MR SR",
+        "description": "对单个观点造成说服力X%的伤害",
         "nums": [109, 145],
-        "tag": ["damage up"]
+        "tag": "damage up"
     },
     {
         "id": "先声夺势",
         "name": "先声夺势 III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
-        "description": [
-            "对单个观点造成说服力X%的伤害"
-        ],
+        "rarity": "SSR",
+        "description": "对单个观点造成说服力X%的伤害",
         "nums": [110, 149.9],
-        "tag": ["damage up"]
+        "tag": "damage up"
     },
     {
         "id": "层层深入",
         "name": "层层深入α I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
-        "description": [
-            "自身说服力提升X%，持续1回合"
-        ],
+        "rarity": "R",
+        "description": "自身说服力提升X%，持续1回合",
         "nums": [5.4, 27],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入α II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
-        "description": [
-            "自身说服力提升X%，持续1回合"
-        ],
+        "rarity": "MR SR",
+        "description": "自身说服力提升X%，持续1回合",
         "nums": [6.8, 33.98],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入α III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
-        "description": [
-            "自身说服力提升X%，持续1回合"
-        ],
+        "rarity": "SSR",
+        "description": "自身说服力提升X%，持续1回合",
         "nums": [9, 45],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     
     {
@@ -77,211 +65,202 @@
         "name": "层层深入β I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
-        "description": [
-            "自身说服力提升X%，持续2回合"
-        ],
+        "rarity": "R",
+        "description": "自身说服力提升X%，持续2回合",
         "nums": [3, 14.97],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入β II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
-        "description": [
-            "自身说服力提升X%，持续2回合"
-        ],
+        "rarity": "MR SR",
+        "description":"自身说服力提升X%，持续2回合",
         "nums": [3.8, 19.01],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入β III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
-        "description": [
-            "自身说服力提升X%，持续2回合"
-        ],
+        "rarity": "SSR",
+        "description": "自身说服力提升X%，持续2回合",
         "nums": [5, 24.98],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入γ I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
-        "description": [
-            "自身说服力提升X%，持续3回合"
-        ],
+        "rarity": "R",
+        "description": "自身说服力提升X%，持续3回合",
         "nums": [2.2, 11.02],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入γ II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
-        "description": [
-            "自身说服力提升X%，持续3回合"
-        ],
+        "rarity": "MR SR",
+        "description": "自身说服力提升X%，持续3回合",
         "nums": [2.7, 13.5],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "层层深入",
         "name": "层层深入γ III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
-        "description": [
-            "自身说服力提升X%，持续3回合"
-        ],
+        "rarity": "SSR",
+        "description": "自身说服力提升X%，持续3回合",
         "nums": [3.6, 18],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以退为进",
         "name": "以退为进β I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身防御力提升X%，持续2回合"
         ],
         "nums": [7.2, 36],
-        "tag": ["defence up"]
+        "tag": "defence up"
     },
     {
         "id": "以退为进",
         "name": "以退为进β III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身防御力提升X%，持续2回合"
         ],
         "nums": [12, 59.97],
-        "tag": ["defence up"]
+        "tag": "defence up"
+
     },
     {
         "id": "以退为进",
         "name": "以退为进γ I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身防御力提升X%，持续3回合"
         ],
         "nums": [4.8, 23.97],
-        "tag": ["defence up"]
+        "tag": "defence up"
+
     },
     {
         "id": "以退为进",
         "name": "以退为进γ II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SSR",
+        "rarity": "MR SSR",
         "description": [
             "自身防御力提升X%，持续3回合"
         ],
         "nums": [6, 30.03],
-        "tag": ["defence up"]
+        "tag": "defence up"
+
     },
     {
         "id": "以理服人",
         "name": "以理服人α I",
         "char": "通用",
         "type": "逻辑",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身逻辑说服力提升X%，持续1回合"
         ],
         "nums": [6.6, 32.97],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人α II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身逻辑说服力提升X%，持续1回合"
         ],
         "nums": [8.2, 40.96],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人α III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身逻辑说服力提升X%，持续1回合"
         ],
         "nums": [11, 55.01],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人β I",
         "char": "通用",
         "type": "逻辑",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身逻辑说服力提升X%，持续2回合"
         ],
         "nums": [4.2, 21.03],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人β II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身逻辑说服力提升X%，持续2回合"
         ],
         "nums": [5.2, 25.99],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人β III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身逻辑说服力提升X%，持续2回合"
         ],
         "nums": [7, 34.99],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人γ I",
         "char": "通用",
         "type": "逻辑",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身逻辑说服力提升X%，持续3回合"
         ],
         "nums": [3.6, 18],
-        "tag": ["attack up"]
+        "tag": "attack up"
     },
     {
         "id": "以理服人",
         "name": "以理服人γ II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身逻辑说服力提升X%，持续3回合"
         ],
@@ -293,7 +272,7 @@
         "name": "以理服人γ III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身逻辑说服力提升X%，持续3回合"
         ],
@@ -305,7 +284,7 @@
         "name": "循循善诱α I",
         "char": "通用",
         "type": "共情",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身共情说服力提升X%，持续1回合"
         ],
@@ -317,7 +296,7 @@
         "name": "循循善诱α II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身共情说服力提升X%，持续1回合"
         ],
@@ -329,7 +308,7 @@
         "name": "循循善诱α III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身共情说服力提升X%，持续1回合"
         ],
@@ -341,7 +320,7 @@
         "name": "循循善诱β I",
         "char": "通用",
         "type": "共情",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身共情说服力提升X%，持续2回合"
         ],
@@ -353,7 +332,7 @@
         "name": "循循善诱β II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身共情说服力提升X%，持续2回合"
         ],
@@ -365,7 +344,7 @@
         "name": "循循善诱β III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身共情说服力提升X%，持续2回合"
         ],
@@ -377,7 +356,7 @@
         "name": "循循善诱γ I",
         "char": "通用",
         "type": "共情",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身共情说服力提升X%，持续3回合"
         ],
@@ -389,7 +368,7 @@
         "name": "循循善诱γ II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身共情说服力提升X%，持续3回合"
         ],
@@ -401,7 +380,7 @@
         "name": "循循善诱γ III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身共情说服力提升X%，持续3回合"
         ],
@@ -413,7 +392,7 @@
         "name": "洞察秋毫α I",
         "char": "通用",
         "type": "直觉",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身直觉说服力提升X%，持续1回合"
         ],
@@ -425,7 +404,7 @@
         "name": "洞察秋毫α II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身直觉说服力提升X%，持续1回合"
         ],
@@ -437,7 +416,7 @@
         "name": "洞察秋毫α III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身直觉说服力提升X%，持续1回合"
         ],
@@ -449,7 +428,7 @@
         "name": "洞察秋毫β I",
         "char": "通用",
         "type": "直觉",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身直觉说服力提升X%，持续2回合"
         ],
@@ -461,7 +440,7 @@
         "name": "洞察秋毫β II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身直觉说服力提升X%，持续2回合"
         ],
@@ -473,7 +452,7 @@
         "name": "洞察秋毫β III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身直觉说服力提升X%，持续2回合"
         ],
@@ -485,7 +464,7 @@
         "name": "洞察秋毫γ I",
         "char": "通用",
         "type": "直觉",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "自身直觉说服力提升X%，持续3回合"
         ],
@@ -497,7 +476,7 @@
         "name": "洞察秋毫γ II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "自身直觉说服力提升X%，持续3回合"
         ],
@@ -509,7 +488,7 @@
         "name": "洞察秋毫γ III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "自身直觉说服力提升X%，持续3回合"
         ],
@@ -521,7 +500,7 @@
         "name": "张弛有度 II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "进入辩论时，该思绪说服力提升X"
         ],
@@ -533,7 +512,7 @@
         "name": "张弛有度 III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "进入辩论时，该思绪说服力提升X"
         ],
@@ -544,7 +523,7 @@
         "name": "举一反三 II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "进入辩论时，该思绪基础说服力提升X%"
         ],
@@ -556,7 +535,7 @@
         "name": "举一反三 III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "进入辩论时，该思绪基础说服力提升X%"
         ],
@@ -568,7 +547,7 @@
         "name": "运筹帷幄 II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "进入辩论时，该思绪说服力提升X"
         ],
@@ -580,7 +559,7 @@
         "name": "运筹帷幄 III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "进入辩论时，该思绪说服力提升X"
         ],
@@ -591,7 +570,7 @@
         "name": "趋利避害 II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "进入辩论时，该思绪基础说服力提升X%"
         ],
@@ -603,7 +582,7 @@
         "name": "趋利避害 III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "进入辩论时，该思绪基础说服力提升X%"
         ],
@@ -615,7 +594,7 @@
         "name": "势如破竹 III",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "当该思绪处于战力加成时，额外提供X%的说服力加成"
         ],
@@ -627,7 +606,7 @@
         "name": "步步为营 III",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "当该思绪处于战力加成时，额外提供X%的防御力加成"
         ],
@@ -639,7 +618,7 @@
         "name": "侦探头脑 II",
         "char": "夏彦",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有夏彦思绪的基础说服力增加X"
         ],
@@ -651,7 +630,7 @@
         "name": "侦探头脑 III",
         "char": "夏彦",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有夏彦思绪的基础说服力增加X"
         ],
@@ -663,7 +642,7 @@
         "name": "真相还原 II",
         "char": "夏彦",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X"
         ],
@@ -675,7 +654,7 @@
         "name": "真相还原 III",
         "char": "夏彦",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X"
         ],
@@ -687,7 +666,7 @@
         "name": "瞬间捕捉 II",
         "char": "夏彦",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%"
         ],
@@ -699,7 +678,7 @@
         "name": "瞬间捕捉 III",
         "char": "夏彦",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%"
         ],
@@ -711,7 +690,7 @@
         "name": "锐辞庭辩 II",
         "char": "左然",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有左然思绪的基础说服力增加X"
         ],
@@ -723,7 +702,7 @@
         "name": "锐辞庭辩 III",
         "char": "左然",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有左然思绪的基础说服力增加X"
         ],
@@ -735,7 +714,7 @@
         "name": "律典经纬 II",
         "char": "左然",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有左然思绪的基础说服力增加X%"
         ],
@@ -747,7 +726,7 @@
         "name": "律典经纬 III",
         "char": "左然",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有左然思绪的基础说服力增加X%"
         ],
@@ -759,7 +738,7 @@
         "name": "律法全能 II",
         "char": "左然",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X"
         ],
@@ -771,7 +750,7 @@
         "name": "律法全能 III",
         "char": "左然",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X"
         ],
@@ -783,7 +762,7 @@
         "name": "人格侧写 II",
         "char": "莫弈",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有莫弈思绪的基础说服力增加X"
         ],
@@ -795,7 +774,7 @@
         "name": "人格侧写 III",
         "char": "莫弈",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有莫弈思绪的基础说服力增加X"
         ],
@@ -807,7 +786,7 @@
         "name": "谈话引导 II",
         "char": "莫弈",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有莫弈思绪的基础说服力增加X%"
         ],
@@ -819,7 +798,7 @@
         "name": "谈话引导 III",
         "char": "莫弈",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有莫弈思绪的基础说服力增加X%"
         ],
@@ -831,7 +810,7 @@
         "name": "盛装舞步 II",
         "char": "莫弈",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X"
         ],
@@ -843,7 +822,7 @@
         "name": "盛装舞步 III",
         "char": "莫弈",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X"
         ],
@@ -855,7 +834,7 @@
         "name": "商业谈判 II",
         "char": "陆景和",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有陆景和思绪的基础说服力增加X"
         ],
@@ -867,7 +846,7 @@
         "name": "商业谈判 III",
         "char": "陆景和",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有陆景和思绪的基础说服力增加X"
         ],
@@ -879,7 +858,7 @@
         "name": "名利博弈 II",
         "char": "陆景和",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有陆景和思绪的基础说服力增加X%"
         ],
@@ -891,7 +870,7 @@
         "name": "名利博弈 III",
         "char": "陆景和",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有陆景和思绪的基础说服力增加X%"
         ],
@@ -903,7 +882,7 @@
         "name": "年少锋锐 II",
         "char": "陆景和",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X"
         ],
@@ -915,7 +894,7 @@
         "name": "年少锋锐 III",
         "char": "陆景和",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X"
         ],
@@ -927,7 +906,7 @@
         "name": "纵横捭阖 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有逻辑思绪的基础说服力增加X"
         ],
@@ -939,7 +918,7 @@
         "name": "纵横捭阖 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有逻辑思绪的基础说服力增加X"
         ],
@@ -951,7 +930,7 @@
         "name": "机锋对弈 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有逻辑思绪的基础说服力增加X%"
         ],
@@ -963,7 +942,7 @@
         "name": "机锋对弈 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有逻辑思绪的基础说服力增加X%"
         ],
@@ -975,7 +954,7 @@
         "name": "演绎推理 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X"
         ],
@@ -987,7 +966,7 @@
         "name": "演绎推理 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X"
         ],
@@ -999,7 +978,7 @@
         "name": "抽丝剥茧 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%"
         ],
@@ -1011,7 +990,7 @@
         "name": "抽丝剥茧 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%"
         ],
@@ -1023,7 +1002,7 @@
         "name": "击其薄弱 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有共情思绪的基础说服力增加X"
         ],
@@ -1035,7 +1014,7 @@
         "name": "击其薄弱 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有共情思绪的基础说服力增加X"
         ],
@@ -1047,7 +1026,7 @@
         "name": "釜底抽薪 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有共情思绪的基础说服力增加X%"
         ],
@@ -1059,7 +1038,7 @@
         "name": "釜底抽薪 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有共情思绪的基础说服力增加X%"
         ],
@@ -1071,7 +1050,7 @@
         "name": "情绪感染 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X"
         ],
@@ -1083,7 +1062,7 @@
         "name": "情绪感染 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X"
         ],
@@ -1095,7 +1074,7 @@
         "name": "情感投射 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%"
         ],
@@ -1107,7 +1086,7 @@
         "name": "情感投射 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%"
         ],
@@ -1119,7 +1098,7 @@
         "name": "见微知著 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有直觉思绪的基础说服力增加X"
         ],
@@ -1131,7 +1110,7 @@
         "name": "见微知著 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有直觉思绪的基础说服力增加X"
         ],
@@ -1143,7 +1122,7 @@
         "name": "正本清源 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有直觉思绪的基础说服力增加X%"
         ],
@@ -1155,7 +1134,7 @@
         "name": "正本清源 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有直觉思绪的基础说服力增加X%"
         ],
@@ -1167,7 +1146,7 @@
         "name": "敏锐观察 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X"
         ],
@@ -1179,7 +1158,7 @@
         "name": "敏锐观察 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X"
         ],
@@ -1191,7 +1170,7 @@
         "name": "直感思维 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%"
         ],
@@ -1203,7 +1182,7 @@
         "name": "直感思维 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%"
         ],
@@ -1215,7 +1194,7 @@
         "name": "紧急避险 II",
         "char": "夏彦",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有夏彦思绪的基础防御力增加X"
         ],
@@ -1227,7 +1206,7 @@
         "name": "紧急避险 III",
         "char": "夏彦",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有夏彦思绪的基础防御力增加X"
         ],
@@ -1239,7 +1218,7 @@
         "name": "体能超群 II",
         "char": "夏彦",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有夏彦思绪的基础防御力增加X%"
         ],
@@ -1251,7 +1230,7 @@
         "name": "体能超群 III",
         "char": "夏彦",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有夏彦思绪的基础防御力增加X%"
         ],
@@ -1263,7 +1242,7 @@
         "name": "古物修复 II",
         "char": "夏彦",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X"
         ],
@@ -1275,7 +1254,7 @@
         "name": "古物修复 III",
         "char": "夏彦",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X"
         ],
@@ -1287,7 +1266,7 @@
         "name": "绝对理性 II",
         "char": "左然",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有左然思绪的基础防御力增加X"
         ],
@@ -1299,7 +1278,7 @@
         "name": "绝对理性 III",
         "char": "左然",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有左然思绪的基础防御力增加X"
         ],
@@ -1311,7 +1290,7 @@
         "name": "有条不紊 II",
         "char": "左然",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X"
         ],
@@ -1323,7 +1302,7 @@
         "name": "有条不紊 III",
         "char": "左然",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X"
         ],
@@ -1335,7 +1314,7 @@
         "name": "箱庭疗法 II",
         "char": "莫弈",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有莫弈思绪的基础防御力增加X"
         ],
@@ -1347,7 +1326,7 @@
         "name": "箱庭疗法 III",
         "char": "莫弈",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有莫弈思绪的基础防御力增加X"
         ],
@@ -1359,7 +1338,7 @@
         "name": "温文尔雅 II",
         "char": "莫弈",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X"
         ],
@@ -1371,7 +1350,7 @@
         "name": "温文尔雅 III",
         "char": "莫弈",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X"
         ],
@@ -1383,7 +1362,7 @@
         "name": "自我评估 II",
         "char": "莫弈",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%"
         ],
@@ -1395,7 +1374,7 @@
         "name": "自我评估 III",
         "char": "莫弈",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%"
         ],
@@ -1407,7 +1386,7 @@
         "name": "商业谈判 II",
         "char": "陆景和",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有陆景和思绪的基础防御力增加X"
         ],
@@ -1419,7 +1398,7 @@
         "name": "商业谈判 III",
         "char": "陆景和",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有陆景和思绪的基础防御力增加X"
         ],
@@ -1431,7 +1410,7 @@
         "name": "精英教育 II",
         "char": "陆景和",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X"
         ],
@@ -1443,7 +1422,7 @@
         "name": "精英教育 III",
         "char": "陆景和",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X"
         ],
@@ -1455,7 +1434,7 @@
         "name": "顺水推舟 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有共情思绪的基础防御力增加X"
         ],
@@ -1467,7 +1446,7 @@
         "name": "顺水推舟 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有共情思绪的基础防御力增加X"
         ],
@@ -1479,7 +1458,7 @@
         "name": "排比增势 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有共情思绪的基础防御力增加X%"
         ],
@@ -1491,7 +1470,7 @@
         "name": "排比增势 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有共情思绪的基础防御力增加X%"
         ],
@@ -1503,7 +1482,7 @@
         "name": "还施彼身 II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X"
         ],
@@ -1515,7 +1494,7 @@
         "name": "还施彼身 III",
         "char": "通用",
         "type": "共情",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X"
         ],
@@ -1527,7 +1506,7 @@
         "name": "引譬连类 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有逻辑思绪的基础防御力增加X"
         ],
@@ -1539,7 +1518,7 @@
         "name": "引譬连类 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有逻辑思绪的基础防御力增加X"
         ],
@@ -1551,7 +1530,7 @@
         "name": "滴水不漏 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有逻辑思绪的基础防御力增加X%"
         ],
@@ -1563,7 +1542,7 @@
         "name": "滴水不漏 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有逻辑思绪的基础防御力增加X%"
         ],
@@ -1575,7 +1554,7 @@
         "name": "无懈可击 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X"
         ],
@@ -1587,7 +1566,7 @@
         "name": "无懈可击 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X"
         ],
@@ -1599,7 +1578,7 @@
         "name": "因势利导 II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%"
         ],
@@ -1611,7 +1590,7 @@
         "name": "因势利导 III",
         "char": "通用",
         "type": "逻辑",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%"
         ],
@@ -1623,7 +1602,7 @@
         "name": "防微虑远 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有直觉思绪的基础防御力增加X"
         ],
@@ -1635,7 +1614,7 @@
         "name": "防微虑远 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有直觉思绪的基础防御力增加X"
         ],
@@ -1647,7 +1626,7 @@
         "name": "攻势化解 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中所有直觉思绪的基础防御力增加X%"
         ],
@@ -1659,7 +1638,7 @@
         "name": "攻势化解 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中所有直觉思绪的基础防御力增加X%"
         ],
@@ -1671,7 +1650,7 @@
         "name": "预见之明 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X"
         ],
@@ -1683,7 +1662,7 @@
         "name": "预见之明 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X"
         ],
@@ -1695,7 +1674,7 @@
         "name": "本能回避 II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%"
         ],
@@ -1707,7 +1686,7 @@
         "name": "本能回避 III",
         "char": "通用",
         "type": "直觉",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%"
         ],
@@ -1719,7 +1698,7 @@
         "name": "隐假示真α I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方说服力降低X%，持续1回合"
         ],
@@ -1731,7 +1710,7 @@
         "name": "隐假示真β I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方说服力降低X%，持续2回合"
         ],
@@ -1743,7 +1722,7 @@
         "name": "隐假示真β II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方说服力降低X%，持续2回合"
         ],
@@ -1755,7 +1734,7 @@
         "name": "隐假示真γ II",
         "char": "通用",
         "type": "通用",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方说服力降低X%，持续3回合"
         ],
@@ -1767,7 +1746,7 @@
         "name": "以德服人α I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方防御力降低X%，持续1回合"
         ],
@@ -1779,7 +1758,7 @@
         "name": "以德服人α III",
         "char": "通用",
         "type": "通用",
-        "rank": "SSR",
+        "rarity": "SSR",
         "description": [
             "使对方防御力降低X%，持续1回合"
         ],
@@ -1791,7 +1770,7 @@
         "name": "以德服人β I",
         "char": "通用",
         "type": "通用",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方防御力降低X%，持续2回合"
         ],
@@ -1803,7 +1782,7 @@
         "name": "设问否定α I",
         "char": "通用",
         "type": "逻辑",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方逻辑防御力降低X%，持续1回合"
         ],
@@ -1815,7 +1794,7 @@
         "name": "设问否定β I",
         "char": "通用",
         "type": "逻辑",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方逻辑防御力降低X%，持续2回合"
         ],
@@ -1827,7 +1806,7 @@
         "name": "设问否定β II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方逻辑防御力降低X%，持续2回合"
         ],
@@ -1839,7 +1818,7 @@
         "name": "设问否定γ I",
         "char": "通用",
         "type": "逻辑",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方逻辑防御力降低X%，持续3回合"
         ],
@@ -1851,7 +1830,7 @@
         "name": "设问否定γ II",
         "char": "通用",
         "type": "逻辑",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方逻辑防御力降低X%，持续3回合"
         ],
@@ -1863,7 +1842,7 @@
         "name": "引申归谬α I",
         "char": "通用",
         "type": "共情",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方共情防御力降低X%，持续1回合"
         ],
@@ -1875,7 +1854,7 @@
         "name": "引申归谬β I",
         "char": "通用",
         "type": "共情",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方共情防御力降低X%，持续2回合"
         ],
@@ -1887,7 +1866,7 @@
         "name": "引申归谬β II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方共情防御力降低X%，持续2回合"
         ],
@@ -1899,7 +1878,7 @@
         "name": "引申归谬γ I",
         "char": "通用",
         "type": "共情",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方共情防御力降低X%，持续3回合"
         ],
@@ -1911,7 +1890,7 @@
         "name": "引申归谬γ II",
         "char": "通用",
         "type": "共情",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方共情防御力降低X%，持续3回合"
         ],
@@ -1923,7 +1902,7 @@
         "name": "避实就虚α I",
         "char": "通用",
         "type": "直觉",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方直觉防御力降低X%，持续1回合"
         ],
@@ -1935,7 +1914,7 @@
         "name": "避实就虚β I",
         "char": "通用",
         "type": "直觉",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方直觉防御力降低X%，持续2回合"
         ],
@@ -1947,7 +1926,7 @@
         "name": "避实就虚β II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方直觉防御力降低X%，持续2回合"
         ],
@@ -1959,7 +1938,7 @@
         "name": "避实就虚γ I",
         "char": "通用",
         "type": "直觉",
-        "rank": "R",
+        "rarity": "R",
         "description": [
             "使对方直觉防御力降低X%，持续3回合"
         ],
@@ -1971,7 +1950,7 @@
         "name": "避实就虚γ II",
         "char": "通用",
         "type": "直觉",
-        "rank": "MR SR",
+        "rarity": "MR SR",
         "description": [
             "使对方直觉防御力降低X%，持续3回合"
         ],

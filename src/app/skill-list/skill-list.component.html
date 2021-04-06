@@ -10,8 +10,8 @@
     <div class="col-12 row justify-content-evenly">
         <div class="col">
             <label for="character">角色</label>
-            <select class="custom-select" name="character">
-                <option value="All" selected>All</option>
+            <select [(ngModel)] = "filterConditions[0]" (ngModelChange)="filterSkillList()" class="custom-select" name="character">
+                <option value="All">All</option>
                 <option value="通用">通用</option>
                 <option value="夏彦">夏彦</option>
                 <option value="左然">左然</option>
@@ -21,9 +21,9 @@
         </div>
         <div class="col">
             <label for="rarity">稀有度</label>
-            <select class="custom-select" name="rarity">
-                <option value="All" selected>All</option>
-                <!-- <option value="R">R</option> -->
+            <select [(ngModel)] = "filterConditions[1]" (ngModelChange)="filterSkillList()" class="custom-select" name="rarity">
+                <option value="All">All</option>
+                <option value="R">R</option>
                 <option value="MR">MR</option>
                 <option value="SR">SR</option>
                 <option value="SSR">SSR</option>
@@ -31,8 +31,8 @@
         </div>
         <div class="col">
             <label for="type">属性</label>
-            <select class="custom-select" name="type">
-                <option value="All" selected>All</option>
+            <select [(ngModel)] = "filterConditions[2]" (ngModelChange)="filterSkillList()" class="custom-select" name="type">
+                <option value="All">All</option>
                 <option value="通用">通用</option>
                 <option value="逻辑">逻辑</option>
                 <option value="共情">共情</option>
@@ -40,9 +40,9 @@
             </select>
         </div>
         <div class="col">
-            <label for="type">功能</label>
-            <select class="custom-select" name="type">
-                <option value="All" selected>All</option>
+            <label for="function">功能</label>
+            <select [(ngModel)] = "filterConditions[3]" (ngModelChange)="filterSkillList()" class="custom-select" name="function">
+                <option value="All">All</option>
                 <option value="damage up">单观点伤害</option>
                 <option value="attack up">说服力提升</option>
                 <option value="defence up">防御力提升</option>
@@ -73,7 +73,7 @@
                 <td>{{s.name}}</td>
                 <td>{{s.char}}</td>
                 <td><img class="img-fluid" src="{{'assets/images/' + s.type + '.png'}}"></td>
-                <td>{{s.rank}}</td>
+                <td>{{s.rarity}}</td>
                 <td>{{s.description}}</td>
                 <td *ngFor="let n of s.nums">{{n}}</td>
             </tr>

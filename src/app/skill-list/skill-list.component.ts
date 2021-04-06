@@ -8,14 +8,81 @@ import { DataService } from '../data-service/data.service';
 })
 export class SkillListComponent implements OnInit {
   
-  skillList;
+  fullSkillList: any[];
+  skillList: any[];
+  filterConditions = ["All", "All", "All", "All"]
 
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    this._data.getSkills().subscribe((data) =>{
+    this._data.getSkills().subscribe((data: any[]) =>{
       this.skillList = data;
+      this.fullSkillList = data;
     })
+  }
+
+  filterSkillList(){
+    let tempListHolder = this.fullSkillList
+    let finalListHolder = []
+    //character name filter
+    tempListHolder.forEach(skill => {
+      let condition = this.filterConditions[0]
+      if(condition == "All"){
+        finalListHolder.push(skill)
+      }else if(skill.char.includes(condition)){
+        finalListHolder.push(skill)
+      }
+    })
+    tempListHolder = finalListHolder
+    finalListHolder = []
+
+    //rarity filter
+    tempListHolder.forEach(skill => {
+      let condition = this.filterConditions[1]
+      if(condition == "All"){
+        finalListHolder.push(skill)
+      }else if(skill.rarity.includes(condition)){
+        finalListHolder.push(skill)
+      }
+    })
+    tempListHolder = finalListHolder
+    finalListHolder = []
+
+    //type filter
+    tempListHolder.forEach(skill => {
+      let condition = this.filterConditions[2]
+      if(condition == "All"){
+        finalListHolder.push(skill)
+      }else if(skill.type.includes(condition)){
+        finalListHolder.push(skill)
+      }
+    })
+    tempListHolder = finalListHolder
+    finalListHolder = []
+
+    //function filter
+    tempListHolder.forEach(skill => {
+      let condition = this.filterConditions[3]
+      if(condition == "All"){
+        finalListHolder.push(skill)
+      }else if(skill.tag.includes(condition)){
+        finalListHolder.push(skill)
+      }
+    })
+
+    this.skillList = finalListHolder;
+  }
+
+  filter(skillParam, condition, skillList:any[]){
+    let array = [];
+    skillList.forEach(item => {
+      if(condition == "All"){
+        array.push(item)
+      }else if(skillParam.includes(condition)){
+        array.push(item)
+      }
+    });
+    return array;
   }
 
 }
