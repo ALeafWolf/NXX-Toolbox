@@ -5,8 +5,8 @@
         </a>
         <div class="col">
             <label for="character">角色</label>
-            <select class="custom-select" name="character">
-                <option value="All" selected>All</option>
+            <select [(ngModel)] = "filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select" name="character">
+                <option value="All">All</option>
                 <option value="夏彦">夏彦</option>
                 <option value="左然">左然</option>
                 <option value="莫弈">莫弈</option>
@@ -15,9 +15,9 @@
         </div>
         <div class="col">
             <label for="rarity">稀有度</label>
-            <select class="custom-select" name="rarity">
-                <option value="All" selected>All</option>
-                <option value="R">R</option>
+            <select [(ngModel)] = "filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select" name="rarity">
+                <option value="All">All</option>
+                <!-- <option value="R">R</option> -->
                 <option value="MR">MR</option>
                 <option value="SR">SR</option>
                 <option value="SSR">SSR</option>
@@ -25,11 +25,11 @@
         </div>
         <div class="col">
             <label for="type">属性</label>
-            <select class="custom-select" name="type">
-                <option value="All" selected>All</option>
-                <option value="夏彦">逻辑</option>
-                <option value="左然">共情</option>
-                <option value="莫弈">直觉</option>
+            <select [(ngModel)] = "filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
+                <option value="All">All</option>
+                <option value="逻辑">逻辑</option>
+                <option value="共情">共情</option>
+                <option value="直觉">直觉</option>
             </select>
         </div>
     </div>
