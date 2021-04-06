@@ -6,12 +6,12 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "层层深入β III",
+            "先声夺势 III",
             "情感投射 III",
             "排比增势 III"
         ],
-        "attack": 2056,
-        "defence": 1124
+        "attack": 2014,
+        "defence": 1166
     },
     {
         "id": "微醺视线",
@@ -34,7 +34,7 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "层层深入β III",
+            "层层深入α III",
             "情感投射 III",
             "排比增势 III"
         ],
@@ -66,8 +66,8 @@
             "情感投射 III",
             "排比增势 III"
         ],
-        "attack": 2056,
-        "defence": 1124
+        "attack": 2120,
+        "defence": 1060
     },
     {
         "id": "荧荧眸光",
@@ -77,7 +77,7 @@
         "character": "夏彦",
         "skills": [
             "洞察秋毫β III",
-            "遇见之明 III",
+            "预见之明 III",
             "侦探头脑 III"
         ],
         "attack": 2014,
@@ -192,8 +192,8 @@
             "？？？ III",
             "？？？ III"
         ],
-        "attack": 1,
-        "defence": 1
+        "attack": 2014,
+        "defence": 1166
     },
     {
         "id": "危情邀约",
@@ -262,8 +262,8 @@
             "预见之明 III",
             "人格侧写 III"
         ],
-        "attack": 1,
-        "defence": 1
+        "attack": 2120,
+        "defence": 1060
     },
     {
         "id": "冤家路窄",
@@ -276,8 +276,8 @@
             "举一反三 III",
             "攻势化解 III"
         ],
-        "attack": 2056,
-        "defence": 1124
+        "attack": 2014,
+        "defence": 1166
     },
     {
         "id": "眸中景",
@@ -304,8 +304,8 @@
             "举一反三 III",
             "攻势化解 III"
         ],
-        "attack": 2056,
-        "defence": 1124
+        "attack": 2120,
+        "defence": 1060
     },
     {
         "id": "悸乱微光",
@@ -742,6 +742,62 @@
         "defence": 712
     },
     {
+        "id": "童心攻势",
+        "name": "童心攻势",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "陆景和",
+        "skills": [
+            "洞察秋毫β II",
+            "敏锐观察 II",
+            "防微虑远 II"
+        ],
+        "attack": 1536,
+        "defence": 839
+    },
+    {
+        "id": "弦外之音",
+        "name": "弦外之音",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "陆景和",
+        "skills": [
+            "循循善诱β II",
+            "年少锋锐 II",
+            "击其薄弱 II"
+        ],
+        "attack": 1504,
+        "defence": 871
+    },
+    {
+        "id": "底比斯之梦",
+        "name": "底比斯之梦",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "陆景和",
+        "skills": [
+            "以退为进γ II",
+            "演绎推理 II",
+            "滴水不漏 II"
+        ],
+        "attack": 1630,
+        "defence": 744
+    },
+    {
+        "id": "共舞云端",
+        "name": "共舞云端",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "陆景和",
+        "skills": [
+            "以理服人β II",
+            "敏锐观察 II",
+            "箱庭疗法 II"
+        ],
+        "attack": 1582,
+        "defence": 791
+    },
+    {
         "id": "琥珀昙华",
         "name": "琥珀昙华",
         "type": "共情",
@@ -756,6 +812,34 @@
         "defence": 712
     },
     {
+        "id": "心头撞鹿",
+        "name": "心头撞鹿",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "陆景和",
+        "skills": [
+            "先声夺势 II",
+            "举一反三 II",
+            "见微知著 II"
+        ],
+        "attack": 1662,
+        "defence": 712
+    },
+    {
+        "id": "坠入心扉",
+        "name": "坠入心扉",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "陆景和",
+        "skills": [
+            "引申归谬γ II",
+            "情绪感染 II",
+            "排比增势 II"
+        ],
+        "attack": 1582,
+        "defence": 791
+    },
+    {
         "id": "陪伴",
         "name": "陪伴",
         "type": "逻辑",
@@ -763,8 +847,8 @@
         "character": "夏彦",
         "skills": [
             "先声夺势 II",
-            "人格侧写 II",
-            "还施彼身 II"
+            "侦探头脑 II",
+            "无懈可击 II"
         ],
         "attack": 1637,
         "defence": 895
@@ -805,8 +889,8 @@
         "character": "陆景和",
         "skills": [
             "先声夺势 II",
-            "人格侧写 II",
-            "还施彼身 II"
+            "商业谈判 II",
+            "预见之明 II"
         ],
         "attack": 1637,
         "defence": 895
