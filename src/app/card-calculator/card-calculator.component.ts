@@ -8,10 +8,13 @@ import { DataService } from '../data-service/data.service';
 })
 export class CardCalculatorComponent implements OnInit {
   userData = []
+  totalPower = 0;
   constructor(private _data: DataService) {
     // this.userData = {...localStorage}
     Object.values(localStorage).forEach(item => {
-      this.userData.push(JSON.parse(item))
+      let i = JSON.parse(item)
+      this.totalPower += i.power
+      this.userData.push(i)
     })
   }
 

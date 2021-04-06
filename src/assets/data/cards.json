@@ -253,7 +253,7 @@
     },
     {
         "id": "焰落琉彩",
-        "name": "舞夜流光",
+        "name": "焰落琉彩",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "莫弈",
@@ -738,8 +738,8 @@
             "敏锐观察 II",
             "箱庭疗法 II"
         ],
-        "attack": 1,
-        "defence": 1
+        "attack": 1662,
+        "defence": 712
     },
     {
         "id": "琥珀昙华",

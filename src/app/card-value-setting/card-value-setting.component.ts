@@ -30,6 +30,7 @@ export class CardValueSettingComponent implements OnInit {
   def = 0;
   skills = [1, 1, 1];
   skillsInfo = ["", "", ""];
+  power = 0;
 
   constructor(private _route: ActivatedRoute, private _data: DataService) {
     this.char = this._route.snapshot.params.charname
@@ -48,6 +49,7 @@ export class CardValueSettingComponent implements OnInit {
           this.def = c.defence;
         }
       });
+      this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
     })
 
     this._data.getSkills().subscribe((data: any[]) => {
@@ -67,6 +69,7 @@ export class CardValueSettingComponent implements OnInit {
         this.star = this.userData.star
         this.calculateRss()
         this.calculateCardStatistic()
+        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
     })
   }
@@ -94,6 +97,8 @@ export class CardValueSettingComponent implements OnInit {
 
   //calculate the rss cost for leveling skills
   calculateRss() {
+    this.coin = 0;
+    this.rss = [0, 0, 0, 0, 0, 0]
     for (let i = 0; i < 3; i++) {
       let lvl = this.skills[i]
       if (lvl > 1) {
@@ -121,9 +126,31 @@ export class CardValueSettingComponent implements OnInit {
   }
 
   calculateCardStatistic(){
-      let x = 1 + (this.star - 1)*0.1
-      this.att = Math.round(this.att*x)
-      this.def = Math.round(this.def*x)
+    let x = 1 + (this.star - 1)*0.1
+    this.att = Math.round(this.card.attack*x)
+    this.def = Math.round(this.card.defence*x)
   }
 
+  updateData(){
+    this.calculateRss();
+    this.calculateCardStatistic();
+    this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+  }
+
+  saveUserData(){
+    let d = {
+      charName: this.card.character,
+      name: this.card.name,
+      star: this.star,
+      skills: this.skills,
+      power: this.power
+    }
+    localStorage.setItem(this.card.id, JSON.stringify(d))
+    console.log("saved")
+  }
+
+  deleteUserData(){
+    localStorage.removeItem(this.card.id)
+    console.log("deleted")
+  }
 }
