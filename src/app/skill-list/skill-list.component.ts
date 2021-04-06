@@ -41,7 +41,11 @@ export class SkillListComponent implements OnInit {
       let condition = this.filterConditions[1]
       if(condition == "All"){
         finalListHolder.push(skill)
-      }else if(skill.rarity.includes(condition)){
+      }else if(condition == "MR"||condition == "SR"){
+        if(skill.rarity.includes(condition)){
+          finalListHolder.push(skill)
+        }
+      }else if(skill.rarity == condition){
         finalListHolder.push(skill)
       }
     })
@@ -72,17 +76,4 @@ export class SkillListComponent implements OnInit {
 
     this.skillList = finalListHolder;
   }
-
-  filter(skillParam, condition, skillList:any[]){
-    let array = [];
-    skillList.forEach(item => {
-      if(condition == "All"){
-        array.push(item)
-      }else if(skillParam.includes(condition)){
-        array.push(item)
-      }
-    });
-    return array;
-  }
-
 }
