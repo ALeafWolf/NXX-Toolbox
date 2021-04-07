@@ -21,4 +21,9 @@ export class CardCalculatorComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  clearAllSavedData(){
+    this._data.clear()
+    window.location.reload()
+  }
+
 }

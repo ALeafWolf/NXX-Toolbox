@@ -16,6 +16,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SkillListComponent } from './skill-list/skill-list.component';
 import { CardValueComponent } from './card-value/card-value.component';
 import { CardCalculatorComponent } from './card-calculator/card-calculator.component';
+import { OtherComponent } from './other/other.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CardCalculatorComponent } from './card-calculator/card-calculator.compo
     PageNotFoundComponent,
     SkillListComponent,
     CardValueComponent,
-    CardCalculatorComponent
+    CardCalculatorComponent,
+    OtherComponent
   ],
   imports: [
     BrowserModule,

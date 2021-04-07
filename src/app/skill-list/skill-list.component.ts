@@ -29,7 +29,7 @@ export class SkillListComponent implements OnInit {
       let condition = this.filterConditions[0]
       if(condition == "All"){
         finalListHolder.push(skill)
-      }else if(skill.char.includes(condition)){
+      }else if(skill.character == condition){
         finalListHolder.push(skill)
       }
     })
@@ -69,11 +69,34 @@ export class SkillListComponent implements OnInit {
       let condition = this.filterConditions[3]
       if(condition == "All"){
         finalListHolder.push(skill)
-      }else if(skill.tag.includes(condition)){
+      }else if(skill.function.includes(condition)){
         finalListHolder.push(skill)
       }
     })
 
     this.skillList = finalListHolder;
   }
+
+
+  // filterSkills(){
+  //   let listHolder = []
+  //   this.fullSkillList.forEach(skill => {
+  //     let condition = this.filterConditions[0]
+  //     if(condition == "All" || skill.character == condition){
+  //       condition = this.filterConditions[1]
+  //       if(condition == "All" || ((condition == "MR"||condition == "SR") && skill.rarity.includes(condition)) || skill.rarity == condition){
+  //         condition = this.filterConditions[2]
+  //         if(condition == "All" || skill.type == condition){
+  //           condition = this.filterConditions[2]
+  //           if(condition == "All" || skill.function == condition){
+  //             listHolder.push(skill)
+  //           }
+  //         }
+  //       }
+  //     }
+  //   });
+  //   console.log(listHolder)
+  //   this.skillList = listHolder;
+  // }
+
 }

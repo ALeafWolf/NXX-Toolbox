@@ -35,7 +35,6 @@ export class CardSelectionComponent implements OnInit {
         }
       }
     });
-    console.log(listHolder)
     this.cards = listHolder;
   }
 

@@ -7,6 +7,7 @@ import { SkillListComponent } from './skill-list/skill-list.component';
 import { CardSelectionComponent } from './card-selection/card-selection.component';
 import { CardValueComponent } from './card-value/card-value.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
+import { OtherComponent } from './other/other.component';
 
 
 const routes: Routes = [
@@ -22,6 +23,7 @@ const routes: Routes = [
     path: 'card-value-setting/:charname/:id', 
     component: CardValueSettingComponent
   },
+  {path: 'other', component: OtherComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent},
 

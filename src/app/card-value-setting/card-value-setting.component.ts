@@ -18,6 +18,7 @@ export class CardValueSettingComponent implements OnInit {
   charRssGroup;
   card;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
+  skillDesList;
 
   //skill rss
   coin = 0;
@@ -53,7 +54,7 @@ export class CardValueSettingComponent implements OnInit {
     })
 
     this._data.getSkills().subscribe((data: any[]) => {
-      this.setSkillDisplay(data)
+      this.skillDesList = data
     });
 
     //get skill level up rss based on card's rarity
@@ -69,6 +70,7 @@ export class CardValueSettingComponent implements OnInit {
         this.star = this.userData.star
         this.calculateRss()
         this.calculateCardStatistic()
+        this.setSkillDisplay(this.skillDesList);
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
     })
@@ -84,6 +86,7 @@ export class CardValueSettingComponent implements OnInit {
           if (s.name == skillName) {
             //calculate correct number for the skill at matching lv
             let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
+            console.log(num)
             //replace X in the description with correct number
             let line = s.description.toString()
             let str = line.replace("X", num.toFixed(2).toString())
@@ -134,6 +137,7 @@ export class CardValueSettingComponent implements OnInit {
   updateData(){
     this.calculateRss();
     this.calculateCardStatistic();
+    this.setSkillDisplay(this.skillDesList);
     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
   }
 

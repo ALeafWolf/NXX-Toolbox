@@ -1,25 +1,28 @@
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
-        <h5>
+        <h6>
             此计算器目前不包括助战思绪和研修室的战力加成。<br/>
             战力的计算公式由本人从游戏数据里估算，所以并不保证完全准确。<br/>
             战力数值仅供参考。
-        </h5>
+        </h6>
     </div>
 </div>
 <div class="row pt-2">
     <div class="col-12 row justify-content-end m-2">
-        <div class="bg-dark px-2 py-1">
+        <a routerLink="/card-calculator" (click)="clearAllSavedData()">
+            <img class="img-fluid" src="assets/images/btn_delete.png">
+        </a>
+        <div class="bg-dark px-2 py-1 text-center">
             <h4>战力 {{totalPower}}</h4>
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-3 col-md-2" *ngFor="let i of userData">
+        <div class="col-3 col-lg-2" *ngFor="let i of userData">
             <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
                 <img class="img-fluid" src="{{'assets/images/' + i.charName + '/' + i.name + '.png'}}">
             </a>
         </div>
-        <div class="col-3 col-md-2">
+        <div class="col-3 col-lg-2">
             <a routerLink="/card-selection" routerLinkActive="active">
                 <img class="img-fluid" src="assets/images/boxgacha_icon_frame_1.png">
             </a>

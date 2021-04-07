@@ -7,8 +7,8 @@
         "character": "夏彦",
         "skills": [
             "先声夺势 III",
-            "情感投射 III",
-            "排比增势 III"
+            "演绎推理 III",
+            "紧急避险 III"
         ],
         "attack": 2014,
         "defence": 1166
@@ -34,9 +34,9 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "层层深入α III",
-            "情感投射 III",
-            "排比增势 III"
+            "以退为进 β III",
+            "瞬间捕捉 III",
+            "真相还原 III"
         ],
         "attack": 2056,
         "defence": 1124
@@ -62,9 +62,9 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "层层深入β III",
-            "情感投射 III",
-            "排比增势 III"
+            "以理服人α III",
+            "无懈可击 III",
+            "侦探头脑 III"
         ],
         "attack": 2120,
         "defence": 1060
@@ -189,8 +189,8 @@
         "character": "莫弈",
         "skills": [
             "先声夺势 III",
-            "？？？ III",
-            "？？？ III"
+            "敏锐观察 III",
+            "箱庭疗法 III"
         ],
         "attack": 2014,
         "defence": 1166
@@ -273,8 +273,8 @@
         "character": "陆景和",
         "skills": [
             "先声夺势 III",
-            "举一反三 III",
-            "攻势化解 III"
+            "情绪感染 III",
+            "商业谈判 III"
         ],
         "attack": 2014,
         "defence": 1166
@@ -300,9 +300,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "层层深入γ III",
-            "举一反三 III",
-            "攻势化解 III"
+            "以退为进β III",
+            "商业谈判 III",
+            "年少锋锐 III"
         ],
         "attack": 2120,
         "defence": 1060
@@ -328,9 +328,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "层层深入α III",
-            "因势利导 III",
-            "商业谈判 III"
+            "先声夺势 III",
+            "商业谈判 III",
+            "排比增势 III"
         ],
         "attack": 2056,
         "defence": 1124
@@ -384,12 +384,12 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "以退为进γ II",
+            "运筹帷幄 II",
+            "见微知著 II"
         ],
-        "attack": 1662,
-        "defence": 712
+        "attack": 1504,
+        "defence": 871
     },
     {
         "id": "斑斓光影",
@@ -398,12 +398,12 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "明察秋毫β II",
+            "敏锐观察 II",
+            "防微虑远 II"
         ],
-        "attack": 1662,
-        "defence": 712
+        "attack": 1583,
+        "defence": 791
     },
     {
         "id": "惊心一刻",
@@ -412,9 +412,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "先声夺势 II",
+            "运筹帷幄 II",
+            "情感投射 II"
         ],
         "attack": 1662,
         "defence": 712
@@ -440,12 +440,12 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "循循善诱β II",
+            "情绪感染 II",
+            "排比增势 II"
         ],
-        "attack": 1662,
-        "defence": 712
+        "attack": 1630,
+        "defence": 744
     },
     {
         "id": "彼时少年",
@@ -454,12 +454,12 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "层层深入γ II",
+            "运筹帷幄 II",
+            "纵横捭阖 II"
         ],
         "attack": 1583,
-        "defence": 792
+        "defence": 791
     },
     {
         "id": "与子偕行",
@@ -468,12 +468,26 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "示假隐真β II",
+            "张弛有度 II",
+            "纵横捭阖 II"
         ],
-        "attack": 1662,
-        "defence": 712
+        "attack": 1504,
+        "defence": 871
+    },
+    {
+        "id": "忆中人",
+        "name": "忆中人",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "夏彦",
+        "skills": [
+            "层层深入β II",
+            "直感思维 II",
+            "体能超群 II"
+        ],
+        "attack": 1630,
+        "defence": 744
     },
     {
         "id": "掌中流光",
@@ -482,9 +496,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "层层深入α II",
+            "古物修复 II",
+            "排比增势 II"
         ],
         "attack": 1662,
         "defence": 712
@@ -609,11 +623,11 @@
         "character": "左然",
         "skills": [
             "先声夺势 II",
-            "？？？ II",
+            "运筹帷幄 II",
             "锐辞庭辩 II"
         ],
-        "attack": 1,
-        "defence": 1
+        "attack": 1630,
+        "defence": 744
     },
     {
         "id": "虚妄之泪",
@@ -706,12 +720,12 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "循循善诱γ II",
-            "？？？ II",
-            "？？？ II"
+            "循循善诱α II",
+            "盛装舞步 II",
+            "情感投射 II"
         ],
-        "attack": 1,
-        "defence": 1
+        "attack": 1630,
+        "defence": 744
     },
     {
         "id": "凉夏",
@@ -862,7 +876,7 @@
         "skills": [
             "先声夺势 II",
             "锐辞庭辩 II",
-            "遇见之明 II"
+            "预见之明 II"
         ],
         "attack": 1637,
         "defence": 895

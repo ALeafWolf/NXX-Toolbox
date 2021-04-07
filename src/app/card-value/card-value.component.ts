@@ -19,6 +19,7 @@ export class CardValueComponent implements OnInit {
   charRssGroup;
   card;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
+  skillDesList;
 
   //skill rss
   coin = 0;
@@ -55,7 +56,7 @@ export class CardValueComponent implements OnInit {
     })
 
     this._data.getSkills().subscribe((data: any[]) => {
-      this.setSkillDisplay(data)
+      this.skillDesList = data
     });
 
     //get skill level up rss based on card's rarity
@@ -71,6 +72,7 @@ export class CardValueComponent implements OnInit {
         this.star = this.userData.star;
         this.calculateRss();
         this.calculateCardStatistic();
+        this.setSkillDisplay(this.skillDesList);
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
     })

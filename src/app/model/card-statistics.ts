@@ -19,11 +19,11 @@ export class SkillInfo{
 }
 
 export class CardInfo{
-    private static mrSkillPowerUp = 119
+    private static mrSkillPowerUp = 120
     private static srSkillPowerUp = 119
     private static ssrSkillPowerUp = 159
 
-    private static mrStarPowerUp = 227.5
+    private static mrStarPowerUp = 234.25
     private static srStarPowerUp = 240.75
     private static ssrStarPowerUp = 318
 
