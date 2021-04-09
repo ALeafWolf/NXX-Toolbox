@@ -8,23 +8,24 @@
     min-height: 100vh;
 }
 
-// #backgroundImage {
-//     position: relative;
-//     left: 0;
-//     top: 0px;
-//     max-width: 100vmax;
-//     opacity: 0.3;
-//     z-index: -1;
-// }
+#backgroundImage {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    max-width: 100vmax;
+    // opacity: 0.3;
+    z-index: -1;
+}
 
 #main-container {
     min-height: 100vh;
     background-image: url("assets/images/bg.png");
+    background-position: top left;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
     padding-bottom: 4.5rem;
     color: white;
-
 }
 
 footer {
@@ -36,6 +37,15 @@ footer {
 }
 
 img.icon{
-    height: 30px;
-    width: 30px;
+    max-height: 30px;
+    max-width: 30px;
+}
+
+img.cardIcon{
+    max-height: 60px;
+    max-width: 60px;
+}
+
+.smallFont{
+    font-size: 0.5em;
 }

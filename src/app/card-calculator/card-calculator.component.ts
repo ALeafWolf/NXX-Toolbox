@@ -8,6 +8,7 @@ import { DataService } from '../data-service/data.service';
 })
 export class CardCalculatorComponent implements OnInit {
   userData = []
+  emptyHolder;
   totalPower = 0;
   constructor(private _data: DataService) {
     // this.userData = {...localStorage}
@@ -16,9 +17,15 @@ export class CardCalculatorComponent implements OnInit {
       this.totalPower += i.power
       this.userData.push(i)
     })
+    this.generateEmptyHolder()
   }
 
   ngOnInit(): void {
+  }
+
+  generateEmptyHolder(){
+    let userLength = this.userData.length
+    this.emptyHolder = Array(15 - userLength).fill(0)
   }
 
   clearAllSavedData(){

@@ -17,6 +17,7 @@ import { SkillListComponent } from './skill-list/skill-list.component';
 import { CardValueComponent } from './card-value/card-value.component';
 import { CardCalculatorComponent } from './card-calculator/card-calculator.component';
 import { OtherComponent } from './other/other.component';
+import { CardListComponent } from './card-list/card-list.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { OtherComponent } from './other/other.component';
     SkillListComponent,
     CardValueComponent,
     CardCalculatorComponent,
-    OtherComponent
+    OtherComponent,
+    CardListComponent
   ],
   imports: [
     BrowserModule,

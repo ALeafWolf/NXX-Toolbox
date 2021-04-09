@@ -8,11 +8,14 @@ import { CardSelectionComponent } from './card-selection/card-selection.componen
 import { CardValueComponent } from './card-value/card-value.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
 import { OtherComponent } from './other/other.component';
+import { CardListComponent } from './card-list/card-list.component';
+
 
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'card-calculator', component: CardCalculatorComponent},
+  {path: 'cards', component: CardListComponent},
   {path: 'skills', component: SkillListComponent},
   {path: 'card-selection', component: CardSelectionComponent},
   {

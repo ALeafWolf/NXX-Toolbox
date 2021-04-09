@@ -1694,8 +1694,8 @@
         "function": ["defence up"]
     },
     {
-        "id": "隐假示真",
-        "name": "隐假示真α I",
+        "id": "示假隐真",
+        "name": "示假隐真α I",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -1706,8 +1706,8 @@
         "function": ["attack down"]
     },
     {
-        "id": "隐假示真",
-        "name": "隐假示真β I",
+        "id": "示假隐真",
+        "name": "示假隐真β I",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -1718,8 +1718,8 @@
         "function": ["attack down"]
     },
     {
-        "id": "隐假示真",
-        "name": "隐假示真β II",
+        "id": "示假隐真",
+        "name": "示假隐真β II",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -1730,8 +1730,8 @@
         "function": ["attack down"]
     },
     {
-        "id": "隐假示真",
-        "name": "隐假示真γ II",
+        "id": "示假隐真",
+        "name": "示假隐真γ II",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",

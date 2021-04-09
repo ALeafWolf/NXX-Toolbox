@@ -77,7 +77,10 @@ export class SkillListComponent implements OnInit {
     this.skillList = finalListHolder;
   }
 
-
+  resetFilters(){
+    this.filterConditions = ["All", "All", "All", "All"];
+    this.filterSkillList()
+  }
   // filterSkills(){
   //   let listHolder = []
   //   this.fullSkillList.forEach(skill => {

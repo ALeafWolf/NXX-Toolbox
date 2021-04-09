@@ -2,46 +2,28 @@ import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data-service/data.service';
 
 @Component({
-  selector: 'app-card-selection',
-  templateUrl: './card-selection.component.html',
-  styleUrls: ['./card-selection.component.scss']
+  selector: 'app-card-list',
+  templateUrl: './card-list.component.html',
+  styleUrls: ['./card-list.component.scss']
 })
-export class CardSelectionComponent implements OnInit {
+export class CardListComponent implements OnInit {
 
   allCards: any[];
   cards: any[];
   filterConditions = ["All", "All", "All"];
 
-  userData;
-
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
     this._data.getCards().subscribe((data: any[]) =>{
-      this.userData = Object.keys(localStorage)
       this.allCards = data
-      if(this.userData){
-        this.removeChosenCard(data)
-      }else{
-        this.allCards = data
-      }
-      this.cards = this.allCards
+      this.cards = data
     })
   }
 
-  removeChosenCard(cards:any[]){
-    let a = cards
-    let b;
-    this.userData.forEach(id => {
-      b = []
-      a.forEach(card => {
-        if(card.id != id){
-          b.push(card)
-        }
-      })
-      a = b
-    });
-    this.allCards = a
+  resetFilters(){
+    this.filterConditions = ["All", "All", "All"];
+    this.filterCards();
   }
 
   filterCards(){
@@ -59,11 +41,6 @@ export class CardSelectionComponent implements OnInit {
       }
     });
     this.cards = listHolder;
-  }
-
-  resetFilters(){
-    this.filterConditions = ["All", "All", "All"];
-    this.filterCards();
   }
 
 }

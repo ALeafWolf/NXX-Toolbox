@@ -31,6 +31,7 @@ export class CardValueComponent implements OnInit {
   att = 0;
   def = 0;
   skills = [1, 1, 1];
+  skillsID = ["", "", ""];
   skillsInfo = ["", "", ""];
   power = 0;
 
@@ -57,6 +58,7 @@ export class CardValueComponent implements OnInit {
 
     this._data.getSkills().subscribe((data: any[]) => {
       this.skillDesList = data
+      this.setSkillDisplay(this.skillDesList);
     });
 
     //get skill level up rss based on card's rarity
@@ -81,11 +83,13 @@ export class CardValueComponent implements OnInit {
   //set the string of skills that being display on the page
   setSkillDisplay(data: any[]) {
     if (this.card) {
+      let id = []
       let des = []
       for (let i = 0; i < 3; i++) {
         let skillName = this.card.skills[i]
         for (let s of data) {
           if (s.name == skillName) {
+            id.push(s.id)
             //calculate correct number for the skill at matching lv
             let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
             //replace X in the description with correct number
@@ -95,6 +99,7 @@ export class CardValueComponent implements OnInit {
           }
         }
       }
+      this.skillsID = id
       this.skillsInfo = des
     }
   }
@@ -133,5 +138,8 @@ export class CardValueComponent implements OnInit {
       this.def = Math.round(this.def*x)
   }
 
-
+  deleteUserData(){
+    localStorage.removeItem(this.card.id)
+    console.log("deleted")
+  }
 }

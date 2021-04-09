@@ -1,11 +1,14 @@
-<div class="row justify-content-center">    
+<div class="row justify-content-center">
     <div class="col-7 col-sm-6 col-lg-4">
         <div class="col-12 row py-2">
-            <a class="col-3 btn" routerLink="/card-calculator">
+            <!-- <a class="col-3 btn" routerLink="/card-calculator">
                 <img class="img-fluid" src="assets/images/back2_btm1.png">
-            </a>
+            </a> -->
             <a class="col-3 btn" [routerLink]="['/card-value-setting', char, id]">
                 <img class="img-fluid" src="assets/images/btn_edit.png">
+            </a>
+            <a class="col-3 btn" routerLink="/card-calculator" (click)="deleteUserData()">
+                <img class="img-fluid" src="assets/images/btn_delete.png">
             </a>
         </div>
         <div class="col-12 row justify-content-center">
@@ -46,23 +49,43 @@
                     <td>
                         {{star}}
                     </td>
-                    
+
                 </tr>
+
+            </table>
+
+            <table class="table table-sm table-dark text-center" style="color: white;">
+                <thead>
+                    <tr>
+                        <th colspan="3">
+                            技能
+                        </th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let s of card.skills">
+                    <tr>
+                        <td rowspan="2">
+                            <img class="icon" src="{{'assets/images/技能/' + skillsID[card.skills.indexOf(s)] + '.png'}}">
+                        </td>
+                        <td colspan="2">
+                            {{s}}<br />
+                        </td>
+
+                        <td rowspan="2">
+                            {{skills[card.skills.indexOf(s)]}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <span class="smallFont">{{skillsInfo[card.skills.indexOf(s)]}}</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table class="table table-sm table-dark text-center" style="color: white;">
                 <tr>
-                    <th colspan="3">
-                        技能
-                    </th>
-                </tr>
-                <tr *ngFor="let s of card.skills">
-                    <td colspan="2">
-                        {{s}}<br />{{skillsInfo[card.skills.indexOf(s)]}}
-                    </td>
-                    <td>
-                        {{skills[card.skills.indexOf(s)]}}
-                    </td>
-                </tr>
-                <tr>
-                    <th colspan="3">升级材料消耗</th>
+                    <th colspan="3">技能升级材料消耗</th>
                 </tr>
                 <tr>
                     <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
@@ -104,8 +127,8 @@
     <div class="col-5 col-md-4 col-xl-3 text-center">
         <h4 class="my-3">{{char}} - {{id}}</h4>
         <div class="bg-dark p-2">
-        <img class="img-fluid" src="{{'assets/images/' + card.type + '.png'}}">
-        战力 {{power}} {{card.rarity}}
+            <img class="img-fluid" src="{{'assets/images/' + card.type + '.png'}}">
+            战力 {{power}} {{card.rarity}}
         </div>
         <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
     </div>

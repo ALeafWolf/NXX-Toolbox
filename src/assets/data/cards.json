@@ -11,7 +11,11 @@
             "紧急避险 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "微醺视线",
@@ -25,7 +29,11 @@
             "排比增势 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "千灯如昼",
@@ -34,12 +42,15 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "以退为进 β III",
+            "以退为进β III",
             "瞬间捕捉 III",
             "真相还原 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "虹色心跳",
@@ -53,7 +64,10 @@
             "击其薄弱 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "温馥予怀",
@@ -67,7 +81,10 @@
             "侦探头脑 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "荧荧眸光",
@@ -81,7 +98,10 @@
             "侦探头脑 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "此心安处",
@@ -95,7 +115,10 @@
             "排比增势 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "心跳记忆",
@@ -109,7 +132,11 @@
             "绝对理性 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "醉意入怀",
@@ -123,7 +150,11 @@
             "滴水不漏 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "心有千千结",
@@ -137,7 +168,10 @@
             "律典经纬 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "铃音予梦",
@@ -151,7 +185,10 @@
             "釜底抽薪 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "一步之遥",
@@ -160,12 +197,15 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "明察秋毫α III",
+            "洞察秋毫α III",
             "本能回避 III",
             "锐辞庭辩 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "天心漫游",
@@ -179,7 +219,10 @@
             "锐辞庭辩 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "咫尺远近",
@@ -193,7 +236,11 @@
             "箱庭疗法 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "危情邀约",
@@ -202,12 +249,16 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "层层升入β III",
+            "层层深入β III",
             "张弛有度 III",
             "顺水推舟 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "舞夜流光",
@@ -221,7 +272,10 @@
             "谈话引导 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "心悬一线",
@@ -230,12 +284,15 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "以德服人γ III",
+            "以理服人γ III",
             "温文尔雅 III",
             "纵横捭阖 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "明暗之境",
@@ -249,7 +306,10 @@
             "攻势化解 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "焰落琉彩",
@@ -263,7 +323,10 @@
             "人格侧写 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "冤家路窄",
@@ -277,7 +340,11 @@
             "商业谈判 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "眸中景",
@@ -291,7 +358,11 @@
             "攻势化解 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "绘恋春风",
@@ -305,7 +376,10 @@
             "年少锋锐 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "累冲"
+        ]
     },
     {
         "id": "悸乱微光",
@@ -314,12 +388,15 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "明察秋毫γ III",
+            "洞察秋毫γ III",
             "精英教育 III",
             "见微知著 III"
         ],
         "attack": 2120,
-        "defence": 1060
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "终夜明辉",
@@ -333,7 +410,10 @@
             "排比增势 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "虚诞盛宴",
@@ -347,7 +427,10 @@
             "商业谈判 III"
         ],
         "attack": 2056,
-        "defence": 1124
+        "defence": 1124,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "极光之昼",
@@ -356,12 +439,15 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "明察秋毫β III",
+            "洞察秋毫β III",
             "预见之明 III",
             "商业谈判 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "苍木为意",
@@ -375,7 +461,10 @@
             "名利博弈 III"
         ],
         "attack": 2014,
-        "defence": 1166
+        "defence": 1166,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "碧蓝之间",
@@ -389,7 +478,11 @@
             "见微知著 II"
         ],
         "attack": 1504,
-        "defence": 871
+        "defence": 871,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "斑斓光影",
@@ -398,12 +491,16 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "明察秋毫β II",
+            "洞察秋毫β II",
             "敏锐观察 II",
             "防微虑远 II"
         ],
         "attack": 1583,
-        "defence": 791
+        "defence": 791,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "惊心一刻",
@@ -417,7 +514,10 @@
             "情感投射 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "完美营救",
@@ -431,7 +531,11 @@
             "机锋对弈 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "倾落心扉",
@@ -445,7 +549,11 @@
             "排比增势 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "彼时少年",
@@ -459,7 +567,10 @@
             "纵横捭阖 II"
         ],
         "attack": 1583,
-        "defence": 791
+        "defence": 791,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "与子偕行",
@@ -468,12 +579,15 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "示假隐真β II",
+            "示假隐真 II",
             "张弛有度 II",
             "纵横捭阖 II"
         ],
         "attack": 1504,
-        "defence": 871
+        "defence": 871,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "忆中人",
@@ -487,7 +601,10 @@
             "体能超群 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "掌中流光",
@@ -501,7 +618,10 @@
             "排比增势 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "人间烟火",
@@ -515,7 +635,11 @@
             "正本清源 II"
         ],
         "attack": 1662,
-        "defence": 713
+        "defence": 713,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "秋叶寄梦",
@@ -529,7 +653,11 @@
             "引譬连类 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "冷暖心知",
@@ -543,7 +671,11 @@
             "顺水推舟 II"
         ],
         "attack": 1535,
-        "defence": 838
+        "defence": 838,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "会心一击",
@@ -557,7 +689,10 @@
             "纵横捭阖 II"
         ],
         "attack": 1536,
-        "defence": 839
+        "defence": 839,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "纸幕光影",
@@ -566,12 +701,15 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "明察秋毫γ II",
+            "洞察秋毫γ II",
             "敏锐观察 II",
             "锐辞庭辩 II"
         ],
         "attack": 1583,
-        "defence": 792
+        "defence": 792,
+        "obtainedFrom": [
+            "累冲"
+        ]
     },
     {
         "id": "暇光一隅",
@@ -585,7 +723,10 @@
             "机锋对弈 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "锋芒退尽",
@@ -599,7 +740,10 @@
             "击其薄弱 II"
         ],
         "attack": 1583,
-        "defence": 792
+        "defence": 792,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "长夜微明",
@@ -609,11 +753,14 @@
         "character": "左然",
         "skills": [
             "避实就虚β II",
-            "遇见之明 II",
+            "预见之明 II",
             "正本清源 II"
         ],
         "attack": 1504,
-        "defence": 871
+        "defence": 871,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "抉择",
@@ -627,7 +774,10 @@
             "锐辞庭辩 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "虚妄之泪",
@@ -641,7 +791,11 @@
             "釜底抽薪 II"
         ],
         "attack": 1504,
-        "defence": 871
+        "defence": 871,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "指尖温度",
@@ -655,7 +809,11 @@
             "纵横捭阖 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "水“逆”",
@@ -664,12 +822,16 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "明察秋毫α II",
+            "洞察秋毫α II",
             "敏锐观察 II",
             "攻势化解 II"
         ],
         "attack": 1535,
-        "defence": 838
+        "defence": 838,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "塑心",
@@ -683,7 +845,11 @@
             "釜底抽薪 II"
         ],
         "attack": 1583,
-        "defence": 792
+        "defence": 792,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "绅士游戏",
@@ -697,7 +863,10 @@
             "防微虑远 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "初光倾泻",
@@ -711,7 +880,10 @@
             "滴水不漏 II"
         ],
         "attack": 1583,
-        "defence": 792
+        "defence": 792,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "入局",
@@ -725,7 +897,10 @@
             "情感投射 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "凉夏",
@@ -734,12 +909,15 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "先声夺势",
+            "先声夺势 II",
             "演绎推理 II",
             "引譬连类 II"
         ],
         "attack": 1503,
-        "defence": 870
+        "defence": 870,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "松雪童话",
@@ -753,7 +931,10 @@
             "箱庭疗法 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "童心攻势",
@@ -767,7 +948,11 @@
             "防微虑远 II"
         ],
         "attack": 1536,
-        "defence": 839
+        "defence": 839,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "弦外之音",
@@ -781,7 +966,11 @@
             "击其薄弱 II"
         ],
         "attack": 1504,
-        "defence": 871
+        "defence": 871,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "底比斯之梦",
@@ -795,7 +984,11 @@
             "滴水不漏 II"
         ],
         "attack": 1630,
-        "defence": 744
+        "defence": 744,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
     },
     {
         "id": "共舞云端",
@@ -809,7 +1002,10 @@
             "箱庭疗法 II"
         ],
         "attack": 1582,
-        "defence": 791
+        "defence": 791,
+        "obtainedFrom": [
+            "轮换"
+        ]
     },
     {
         "id": "琥珀昙华",
@@ -823,7 +1019,10 @@
             "釜底抽薪 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "心头撞鹿",
@@ -837,7 +1036,10 @@
             "见微知著 II"
         ],
         "attack": 1662,
-        "defence": 712
+        "defence": 712,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "坠入心扉",
@@ -851,7 +1053,10 @@
             "排比增势 II"
         ],
         "attack": 1582,
-        "defence": 791
+        "defence": 791,
+        "obtainedFrom": [
+            "常驻"
+        ]
     },
     {
         "id": "陪伴",
@@ -865,7 +1070,10 @@
             "无懈可击 II"
         ],
         "attack": 1637,
-        "defence": 895
+        "defence": 895,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "心意",
@@ -879,7 +1087,10 @@
             "预见之明 II"
         ],
         "attack": 1637,
-        "defence": 895
+        "defence": 895,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "约定",
@@ -893,7 +1104,10 @@
             "还施彼身 II"
         ],
         "attack": 1637,
-        "defence": 895
+        "defence": 895,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     },
     {
         "id": "信物",
@@ -907,7 +1121,27 @@
             "预见之明 II"
         ],
         "attack": 1637,
-        "defence": 895
+        "defence": 895,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "朝颜",
+        "name": "朝颜",
+        "type": "逻辑",
+        "rarity": "MR",
+        "character": "莫弈",
+        "skills": [
+            "？？？ II",
+            "？？？ II",
+            "？？？ II"
+        ],
+        "attack": 1637,
+        "defence": 895,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     }
     
 ]
