@@ -43,4 +43,12 @@ export class CardListComponent implements OnInit {
     this.cards = listHolder;
   }
 
+  removePostfix(input){
+    let a = "";
+    //remove α, β, γ, I, II, III from end of the skill name
+    let re = /α*β*γ*\s(I+)/
+    a = input.replace(re, "")
+    return a;
+  }
+
 }

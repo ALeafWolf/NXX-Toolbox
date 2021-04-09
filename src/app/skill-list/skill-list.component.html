@@ -74,10 +74,10 @@
                 <th>LV10</th>
             </tr>
             <tr *ngFor="let s of skillList">
-                <td><img class="icon" src="{{'assets/images/技能/' + s.id + '.png'}}"></td>
+                <td><img style="height: 50px; width: 50px;" src="{{'assets/images/技能/' + s.id + '.png'}}"></td>
                 <td>{{s.name}}</td>
                 <td class="d-none d-sm-table-cell">{{s.character}}</td>
-                <td class="d-none d-sm-table-cell"><img class="img-fluid" src="{{'assets/images/' + s.type + '.png'}}"></td>
+                <td class="d-none d-sm-table-cell"><img class="icon img-fluid" src="{{'assets/images/' + s.type + '.png'}}"></td>
                 <td class="d-none d-sm-table-cell">{{s.rarity}}</td>
                 <td>{{s.description}}</td>
                 <td *ngFor="let n of s.nums">{{n}}</td>

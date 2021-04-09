@@ -1382,8 +1382,8 @@
         "function": ["defence up"]
     },
     {
-        "id": "商业谈判",
-        "name": "商业谈判 II",
+        "id": "执行总裁",
+        "name": "执行总裁 II",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -1394,8 +1394,8 @@
         "function": ["defence up"]
     },
     {
-        "id": "商业谈判",
-        "name": "商业谈判 III",
+        "id": "执行总裁",
+        "name": "执行总裁 III",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",

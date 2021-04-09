@@ -44,6 +44,7 @@
                     <th>名称</th>
                     <th>稀有度</th>
                     <th>属性</th>
+                    <th>技能</th>
                     <th>获取方式</th>
                 </tr>
             </thead>
@@ -58,6 +59,11 @@
                     <td>{{c.rarity}}</td>
                     <td>
                         <img class="img-fluid icon" src="{{'assets/images/' + c.type + '.png'}}">
+                    </td>
+                    <td>
+                        <span *ngFor="let s of c.skills">
+                            <img class="img-fluid icon" src="{{'assets/images/技能/' + removePostfix(s) + '.png'}}">
+                        </span>
                     </td>
                     <td>
                         <span *ngFor="let o of c.obtainedFrom">
