@@ -24,6 +24,7 @@ export class CardValueComponent implements OnInit {
   //skill rss
   coin = 0;
   rss = [0, 0, 0, 0, 0, 0];
+  lv = 100;
 
   //for localStorage
   userData;
@@ -50,6 +51,9 @@ export class CardValueComponent implements OnInit {
           this.card = c;
           this.att = c.attack;
           this.def = c.defence;
+          if(c.rarity == "R"){
+            this.lv = 70
+          }
         }
       });
       this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);

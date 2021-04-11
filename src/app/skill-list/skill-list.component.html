@@ -1,8 +1,9 @@
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
         <h4>技能数值的资料参考自：</h4>
-        <a href="https://bbs.nga.cn/read.php?tid=26103617" target="_blank">[攻略] [技能] 法考真题全攻略——思绪技能详解</a><br/>
-        <a href="https://bbs.nga.cn/read.php?tid=25852781" target="_blank">[硬核攻略] [我们的目标是变强] 养卡宝典：全图鉴战斗数值资料库excel+自选卡组计算加成后说服力/技能升级潜力</a><br/>
+        <a href="https://bbs.nga.cn/read.php?tid=26103617" target="_blank">[攻略] [技能] 法考真题全攻略——思绪技能详解</a><br />
+        <a href="https://bbs.nga.cn/read.php?tid=25852781" target="_blank">[硬核攻略] [我们的目标是变强]
+            养卡宝典：全图鉴战斗数值资料库excel+自选卡组计算加成后说服力/技能升级潜力</a><br />
         <a href="https://bbs.nga.cn/read.php?tid=25503032" target="_blank">自用《未定卡牌技能表》excel分享，欢迎下载随心二改</a>
     </div>
 </div>
@@ -10,7 +11,8 @@
     <div class="col-12 row justify-content-evenly">
         <div class="col">
             <label for="character">角色</label>
-            <select [(ngModel)] = "filterConditions[0]" (ngModelChange)="filterSkillList()" class="custom-select" name="character">
+            <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterSkillList()" class="custom-select"
+                name="character">
                 <option value="All">All</option>
                 <option value="通用">通用</option>
                 <option value="夏彦">夏彦</option>
@@ -21,7 +23,8 @@
         </div>
         <div class="col">
             <label for="rarity">稀有度</label>
-            <select [(ngModel)] = "filterConditions[1]" (ngModelChange)="filterSkillList()" class="custom-select" name="rarity">
+            <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterSkillList()" class="custom-select"
+                name="rarity">
                 <option value="All">All</option>
                 <option value="R">R</option>
                 <option value="MR">MR</option>
@@ -31,7 +34,8 @@
         </div>
         <div class="col">
             <label for="type">属性</label>
-            <select [(ngModel)] = "filterConditions[2]" (ngModelChange)="filterSkillList()" class="custom-select" name="type">
+            <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterSkillList()" class="custom-select"
+                name="type">
                 <option value="All">All</option>
                 <option value="通用">通用</option>
                 <option value="逻辑">逻辑</option>
@@ -41,7 +45,8 @@
         </div>
         <div class="col">
             <label for="function">功能</label>
-            <select [(ngModel)] = "filterConditions[3]" (ngModelChange)="filterSkillList()" class="custom-select" name="function">
+            <select [(ngModel)]="filterConditions[3]" (ngModelChange)="filterSkillList()" class="custom-select"
+                name="function">
                 <option value="All">All</option>
                 <option value="damage up">单观点伤害</option>
                 <option value="attack up">说服力提升</option>
@@ -52,7 +57,7 @@
             </select>
         </div>
         <div class="col-1">
-            <a (click) = "resetFilters()">
+            <a (click)="resetFilters()">
                 <img src="assets/images/btn_reset.png">
             </a>
         </div>
@@ -74,14 +79,19 @@
                 <th>LV10</th>
             </tr>
             <tr *ngFor="let s of skillList">
-                <td><img style="height: 50px; width: 50px;" src="{{'assets/images/技能/' + s.id + '.png'}}"></td>
                 <td>
-                    <a [routerLink]="['/skill/',s.name]">
+                    <a [routerLink]="['/skill/',s.name]" target="_blank">
+                        <img style="height: 50px; width: 50px;" src="{{'assets/images/技能/' + s.id + '.png'}}">
+                    </a>
+                </td>
+                <td>
+                    <a [routerLink]="['/skill/',s.name]" target="_blank">
                         {{s.name}}
                     </a>
                 </td>
                 <td class="d-none d-sm-table-cell">{{s.character}}</td>
-                <td class="d-none d-sm-table-cell"><img class="icon img-fluid" src="{{'assets/images/' + s.type + '.png'}}"></td>
+                <td class="d-none d-sm-table-cell"><img class="icon img-fluid"
+                        src="{{'assets/images/' + s.type + '.png'}}"></td>
                 <td class="d-none d-sm-table-cell">{{s.rarity}}</td>
                 <td>{{s.description}}</td>
                 <td *ngFor="let n of s.nums">{{n}}</td>

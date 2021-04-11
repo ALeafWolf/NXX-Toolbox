@@ -372,8 +372,8 @@
         "character": "陆景和",
         "skills": [
             "以退为进β III",
-            "商业谈判 III",
-            "年少锋锐 III"
+            "年少锋锐 III",
+            "商业谈判 III"
         ],
         "attack": 2120,
         "defence": 1060,
@@ -463,7 +463,7 @@
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
-            "活动限定"
+            "轮换"
         ]
     },
     {
@@ -998,13 +998,13 @@
         "character": "陆景和",
         "skills": [
             "以理服人β II",
-            "敏锐观察 II",
-            "箱庭疗法 II"
+            "张弛有度 II",
+            "引譬连类 II"
         ],
         "attack": 1582,
         "defence": 791,
         "obtainedFrom": [
-            "轮换"
+            "常驻"
         ]
     },
     {
@@ -1144,6 +1144,590 @@
         ]
     },
     {
+        "id": "贴心服务",
+        "name": "贴心服务",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "层层深入γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "搭档",
+        "name": "搭档",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "循循善诱γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "等你",
+        "name": "等你",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "循循善诱β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "美味一刻",
+        "name": "美味一刻",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "设问否定γ I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "秘密",
+        "name": "秘密",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "以理服人β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "打招呼",
+        "name": "打招呼",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "洞察秋毫α I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "倦意",
+        "name": "倦意",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "洞察秋毫β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "热身",
+        "name": "热身",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "以退为进β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "准备就绪",
+        "name": "准备就绪",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "示假隐真β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "静候",
+        "name": "静候",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "先声夺势 I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "温馨小屋",
+        "name": "温馨小屋",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "循循善诱β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "相伴",
+        "name": "相伴",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "以理服人β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "注视",
+        "name": "注视",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "skills": [
+            "以退为进γ I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "量体裁衣",
+        "name": "量体裁衣",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "以退为进 I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "落雨",
+        "name": "落雨",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "设问否定β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "质询",
+        "name": "质询",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "以理服人α I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "精心挑选",
+        "name": "精心挑选",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "引申归谬γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "天台微风",
+        "name": "天台微风",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "引申归谬α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "再出发",
+        "name": "再出发",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "引申归谬β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "耐心等待",
+        "name": "耐心等待",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "层层深入β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "上膛",
+        "name": "上膛",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "层层深入γ I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "一切有我",
+        "name": "一切有我",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "以德服人α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "心际飞行",
+        "name": "心际飞行",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "洞察秋毫α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "共赏",
+        "name": "共赏",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "以理服人α I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "优雅",
+        "name": "优雅",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "以退为进β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "掌握",
+        "name": "掌握",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "观察",
+        "name": "观察",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "日常兴趣",
+        "name": "日常兴趣",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "以理服人γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "闲暇",
+        "name": "闲暇",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "意外来信",
+        "name": "意外来信",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "洞察秋毫γ I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "意外相遇",
+        "name": "意外相遇",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "避实就虚β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "绅士礼仪",
+        "name": "绅士礼仪",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "以退为进γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "另一面",
+        "name": "另一面",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "先声夺势 I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "装扮",
+        "name": "装扮",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "示假隐真α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "秘密贺礼",
+        "name": "秘密贺礼",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "以理服人γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
         "id": "祈愿",
         "name": "祈愿",
         "type": "共情",
@@ -1158,6 +1742,205 @@
         "obtainedFrom": [
             "活动限定"
         ]
+    },
+    {
+        "id": "插曲",
+        "name": "插曲",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "层层深入β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "邀约",
+        "name": "邀约",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "循循善诱α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "中场休息",
+        "name": "中场休息",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "以退为进γ I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "商谈",
+        "name": "商谈",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "设问否定β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "节拍",
+        "name": "节拍",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "层层深入β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "准备万全",
+        "name": "准备万全",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "层层深入γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "突发事故",
+        "name": "突发事故",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "避实就虚α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "气场",
+        "name": "气场",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "避实就虚γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮换"
+        ]
+    },
+    {
+        "id": "游刃有余",
+        "name": "游刃有余",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "以德服人β I",
+            "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "迷思",
+        "name": "迷思",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "以理服人β I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "胜券在握",
+        "name": "胜券在握",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "循循善诱α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "定格",
+        "name": "定格",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "skills": [
+            "层层深入α I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
     }
-    
 ]
