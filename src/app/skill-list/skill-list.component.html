@@ -75,7 +75,11 @@
             </tr>
             <tr *ngFor="let s of skillList">
                 <td><img style="height: 50px; width: 50px;" src="{{'assets/images/技能/' + s.id + '.png'}}"></td>
-                <td>{{s.name}}</td>
+                <td>
+                    <a [routerLink]="['/skill/',s.name]">
+                        {{s.name}}
+                    </a>
+                </td>
                 <td class="d-none d-sm-table-cell">{{s.character}}</td>
                 <td class="d-none d-sm-table-cell"><img class="icon img-fluid" src="{{'assets/images/' + s.type + '.png'}}"></td>
                 <td class="d-none d-sm-table-cell">{{s.rarity}}</td>

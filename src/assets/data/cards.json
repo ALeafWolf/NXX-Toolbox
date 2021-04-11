@@ -399,23 +399,6 @@
         ]
     },
     {
-        "id": "终夜明辉",
-        "name": "终夜明辉",
-        "type": "共情",
-        "rarity": "SSR",
-        "character": "陆景和",
-        "skills": [
-            "先声夺势 III",
-            "商业谈判 III",
-            "排比增势 III"
-        ],
-        "attack": 2056,
-        "defence": 1124,
-        "obtainedFrom": [
-            "轮换"
-        ]
-    },
-    {
         "id": "虚诞盛宴",
         "name": "虚诞盛宴",
         "type": "逻辑",
@@ -425,6 +408,23 @@
             "层层深入α III",
             "因势利导 III",
             "商业谈判 III"
+        ],
+        "attack": 2056,
+        "defence": 1124,
+        "obtainedFrom": [
+            "轮换"
+        ]
+    },
+    {
+        "id": "终夜明辉",
+        "name": "终夜明辉",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "skills": [
+            "先声夺势 III",
+            "商业谈判 III",
+            "排比增势 III"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -1139,6 +1139,22 @@
         ],
         "attack": 1637,
         "defence": 895,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "祈愿",
+        "name": "祈愿",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "循循善诱γ I",
+            "步步为营 I"
+        ],
+        "attack": 879,
+        "defence": 480,
         "obtainedFrom": [
             "活动限定"
         ]

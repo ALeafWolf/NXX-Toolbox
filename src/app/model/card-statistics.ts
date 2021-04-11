@@ -19,14 +19,17 @@ export class SkillInfo{
 }
 
 export class CardInfo{
+    private static rSkillPowerUp = 95
     private static mrSkillPowerUp = 120
     private static srSkillPowerUp = 119
     private static ssrSkillPowerUp = 159
 
+    private static rStarPowerUp = 113.25
     private static mrStarPowerUp = 234.25
     private static srStarPowerUp = 240.75
     private static ssrStarPowerUp = 318
 
+    private static rMaxPower = 1741
     private static mrMaxPower = 3248
     private static srMaxPower = 3092
     private static ssrMaxPower = 4134
@@ -34,6 +37,14 @@ export class CardInfo{
     static calculatePower(rarity:string, star: number, skills: number[]){
         let p = 0;
         switch(rarity){
+            case "R":
+                p = this.rMaxPower;
+                for(let i of skills){
+                    let s = i - 1;
+                    p += s * this.rSkillPowerUp;
+                }
+                p += this.rStarPowerUp * (star - 1)
+                break;
             case "MR":
                 p = this.mrMaxPower;
                 for(let i of skills){

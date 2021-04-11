@@ -1,0 +1,40 @@
+<div class="row py-4 justify-content-around">
+    <div class="col-8 col-md-4 text-center">
+        <div class="bg-dark py-2">
+            <h5>{{name}}</h5>
+            <img class="img-fluid" src="{{'assets/images/技能/' + skill.id + '.png'}}">
+        </div>
+    </div>
+    <div class="col-10 col-md-6">
+        <table class="table table-sm table-dark p-2 text-center">
+            <tr>
+                <th colspan="2">技能描述</th>
+                <td colspan="8">{{skill.description}}</td>
+            </tr>
+            <tr>
+                <th colspan="10">技能等级</th>
+            </tr>
+            <tr>
+                <th *ngFor="let s of skillStatistic">Lv{{skillStatistic.indexOf(s) + 1}}</th>
+            </tr>
+            <tr>
+                <td *ngFor="let s of skillStatistic">{{s}}</td>
+            </tr>
+            <tr>
+                <th colspan="10">相关思绪</th>
+            </tr>
+            <tr>
+                <td colspan="10">
+                    <span *ngFor="let c of cards">
+                        <a [routerLink]="['/card-value/', c.character, c.id]">
+                            <img class="img-fluid cardIcon" src="{{'assets/images/' + c.character + '/' + c.id + '.png'}}"
+                                alt="{{c.name}}">
+                        </a>
+                    </span>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+
+</div>

@@ -1,5 +1,55 @@
 [
     {
+        "rarity": "R",
+        "rss": [
+            {
+                "coin": 5250,
+                "impression": 3,
+                "item": 3
+            },
+            {
+                "coin": 10500,
+                "impression": 6,
+                "item": 6
+            },
+            {
+                "coin": 15750,
+                "impression": 9,
+                "item": 9
+            },
+            {
+                "coin": 22500,
+                "impression": 6,
+                "item": 6
+            },
+            {
+                "coin": 33750,
+                "impression": 9,
+                "item": 9
+            },
+            {
+                "coin": 50625,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 74250,
+                "impression": 9,
+                "item": 6
+            },
+            {
+                "coin": 99000,
+                "impression": 12,
+                "item": 9
+            },
+            {
+                "coin": 148500,
+                "impression": 18,
+                "item": 15
+            }
+        ]
+    },
+    {
         "rarity": "MR",
         "rss": [
             {

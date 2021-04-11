@@ -55,7 +55,11 @@
                             <img class="img-fluid cardIcon" src="{{'assets/images/' + c.character + '/' + c.id + '.png'}}">
                         </a>
                     </td>
-                    <td>{{c.name}}</td>
+                    <td>
+                        <a [routerLink]="['/card-value/', c.character, c.id]" routerLinkActive="active">
+                            {{c.name}}
+                        </a>
+                    </td>
                     <td>{{c.rarity}}</td>
                     <td>
                         <img class="img-fluid icon" src="{{'assets/images/' + c.type + '.png'}}">
