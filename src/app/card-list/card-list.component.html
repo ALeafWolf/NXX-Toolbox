@@ -1,7 +1,9 @@
+<button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
+    <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
+</button>
 <div class="row p-2">
     <div class="col-12 row justify-content-around m-2">
-
-        <div class="col-3 col-md-2">
+        <div class="col">
             <label for="character">角色</label>
             <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
                 name="character">
@@ -12,7 +14,7 @@
                 <option value="陆景和">陆景和</option>
             </select>
         </div>
-        <div class="col-3 col-md-2">
+        <div class="col">
             <label for="rarity">稀有度</label>
             <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select"
                 name="rarity">
@@ -23,13 +25,23 @@
                 <option value="SSR">SSR</option>
             </select>
         </div>
-        <div class="col-3 col-md-2">
+        <div class="col">
             <label for="type">属性</label>
             <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
                 <option value="All">All</option>
                 <option value="逻辑">逻辑</option>
                 <option value="共情">共情</option>
                 <option value="直觉">直觉</option>
+            </select>
+        </div>
+        <div class="col">
+            <label for="type">获取方式</label>
+            <select [(ngModel)]="filterConditions[3]" (ngModelChange)="filterCards()" class="custom-select" name="type">
+                <option value="All">All</option>
+                <option value="常驻">常驻</option>
+                <option value="轮替">轮替</option>
+                <option value="思绪残影凝结">思绪残影凝结</option>
+                <option value="活动限定">活动限定</option>
             </select>
         </div>
         <div class="col-1">
@@ -69,20 +81,18 @@
                     </td>
                     <td>
                         <span *ngFor="let s of c.skills">
-                            <a [routerLink]="['/skill', s]" routerLinkActive="active"
-                                target="_blank">
+                            <a [routerLink]="['/skill', s]" routerLinkActive="active" target="_blank">
                                 <img class="img-fluid icon" src="{{'assets/images/技能/' + removePostfix(s) + '.png'}}">
                             </a>
                         </span>
                     </td>
                     <td>
-                        <span *ngFor="let o of c.obtainedFrom">
-                            {{o}}
+                        <span class="smallFont" *ngFor="let o of c.obtainedFrom">
+                            {{o}}<br/>
                         </span>
                     </td>
                 </tr>
             </tbody>
-
         </table>
     </div>
 </div>

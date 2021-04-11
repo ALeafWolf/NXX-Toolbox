@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { DataService } from '../data-service/data.service';
 
 @Component({
@@ -12,6 +12,10 @@ export class SkillListComponent implements OnInit {
   skillList: any[];
   filterConditions = ["All", "All", "All", "All"]
 
+  @HostListener('window:scroll') onScroll(): void {
+    this.setToTopButtonDisplay()
+  }
+
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
@@ -19,6 +23,20 @@ export class SkillListComponent implements OnInit {
       this.skillList = data;
       this.fullSkillList = data;
     })
+  }
+
+  setToTopButtonDisplay() {
+    let btn = document.getElementById('toTopButton');
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+
+  toTopOfScreen() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 
   filterSkillList(){

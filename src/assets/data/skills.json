@@ -555,17 +555,6 @@
         "function": ["attack up"]
     },
     {
-        "id": "运筹帷幄",
-        "name": "运筹帷幄 III",
-        "character": "通用",
-        "type": "通用",
-        "rarity": "SSR",
-        "description": [
-            "进入辩论时，该思绪说服力提升X"
-        ],
-        "nums": [-1, -1],
-        "function": ["attack up"]
-    },{
         "id": "趋利避害",
         "name": "趋利避害 II",
         "character": "通用",
@@ -575,18 +564,6 @@
             "进入辩论时，该思绪基础说服力提升X%"
         ],
         "nums": [14.4, 72],
-        "function": ["attack up"]
-    },
-    {
-        "id": "趋利避害",
-        "name": "趋利避害 III",
-        "character": "通用",
-        "type": "通用",
-        "rarity": "SSR",
-        "description": [
-            "进入辩论时，该思绪基础说服力提升X%"
-        ],
-        "nums": [-1, -1],
         "function": ["attack up"]
     },
     {

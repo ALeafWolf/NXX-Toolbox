@@ -1,3 +1,6 @@
+<button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
+    <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
+</button>
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
         <h4>技能数值的资料参考自：</h4>
@@ -85,7 +88,7 @@
                     </a>
                 </td>
                 <td>
-                    <a [routerLink]="['/skill/',s.name]" target="_blank">
+                    <a class="smallFont" [routerLink]="['/skill/',s.name]" target="_blank">
                         {{s.name}}
                     </a>
                 </td>
@@ -93,7 +96,7 @@
                 <td class="d-none d-sm-table-cell"><img class="icon img-fluid"
                         src="{{'assets/images/' + s.type + '.png'}}"></td>
                 <td class="d-none d-sm-table-cell">{{s.rarity}}</td>
-                <td>{{s.description}}</td>
+                <td class="smallFont">{{s.description}}</td>
                 <td *ngFor="let n of s.nums">{{n}}</td>
             </tr>
         </table>
