@@ -1,8 +1,8 @@
 <button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
     <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
 </button>
-<div class="row p-2">
-    <div class="col-12 row justify-content-around m-2">
+<div class="row justify-content-center p-2">
+    <div class="col-12 col-md-10 row justify-content-around m-2">
         <div class="col">
             <label for="character">角色</label>
             <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
@@ -50,7 +50,7 @@
             </a>
         </div>
     </div>
-    <div class="col-12 my-2">
+    <div class="col-12 col-md-10 my-2">
         <table class="table table-sm table-dark text-center">
             <thead>
                 <tr>
