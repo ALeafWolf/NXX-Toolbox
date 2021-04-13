@@ -2,7 +2,7 @@
     <div class="col-12 row">
         <div class="col-6 col-md-4 row py-2">
             <div class="col-12 row py-2 justify-content-center">
-                <a class="col-4 btn" [routerLink]="['/card-calculator/', char, id]">
+                <a class="col-4 btn" [routerLink]="['/card-value-setting/', char, id]">
                     <img class="img-fluid" src="assets/images/btn_edit.png">
                 </a>
                 <a class="col-4 btn" routerLink="/card-calculator">
@@ -14,14 +14,14 @@
     </div>
     
     <div class="col-5 col-md-6 row justify-content-around">
-        <div class="col-12 col-sm-11 col-md-6 col-lg-5 mb-1">
-            <div class="bg-dark text-center py-1">
+        <div class="col-12 col-sm-11 col-md-7 col-lg-5 mb-1">
+            <div class="bg-dark text-center py-2">
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
                 <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
             <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
-        </div>
-        <table class="col-10 col-md-6 col-lg-4 table table-sm table-dark text-center smallFont" style="color: white;">
+        </div> 
+        <table class="col-10 col-md-7 col-lg-4 table table-sm table-dark text-center smallFont" style="color: white;">
             <tr>
                 <th colspan="3">技能升级材料消耗</th>
             </tr>
