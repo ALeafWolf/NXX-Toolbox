@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
     <div class="col-12 row">
         <div class="col-6 col-md-4 row py-2">
-            <div class="col-12 row py-2">
+            <div class="col-12 row py-2 justify-content-center">
                 <a class="col-4 btn" routerLink="/card-calculator" (click)="saveUserData()">
                     <img class="img-fluid" src="assets/images/btn_ok.png">
                 </a>
@@ -14,27 +14,59 @@
     </div>
     
     <div class="col-5 col-md-6 row justify-content-around">
-        <div class="col-12 col-sm-11 col-md-6 col-lg-5">
-            <div class="bg-dark text-center py-1">
+        <div class="col-12 col-sm-11 col-md-7 col-lg-5 mb-1">
+            <div class="bg-dark text-center py-2">
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
-                {{power}}
+                <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
             <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
-        </div>
-        <table class="col-11 col-md-7 col-lg-5 table table-sm table-dark text-center" style="color: white;">
+        </div> 
+        <table class="col-10 col-md-6 col-lg-4 table table-sm table-dark text-center smallFont" style="color: white;">
             <tr>
-                <th>
-                    星级
-                </th>
-                <td>
-                    <select [(ngModel)]="star" (ngModelChange)="updateData()">
-                        <option value=1>1</option>
-                        <option value=2>2</option>
-                        <option value=3>3</option>
-                        <option value=4>4</option>
-                        <option value=5>5</option>
-                    </select>
-                </td>
+                <th colspan="3">技能升级材料消耗</th>
+            </tr>
+            <tr>
+                <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
+                <td colspan="2">{{coin}}</td>
+            </tr>
+            <tr>
+                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象I.png'}}"></td>
+                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.png'}}"></td>
+                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.png'}}"></td>
+            </tr>
+            <tr>
+                <td>{{rss[0]}}</td>
+                <td>{{rss[1]}}</td>
+                <td>{{rss[1]}}</td>
+            </tr>
+            <tr>
+                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象II.png'}}"></td>
+                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.png'}}"></td>
+                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.png'}}"></td>
+            </tr>
+            <tr>
+                <td>{{rss[2]}}</td>
+                <td>{{rss[3]}}</td>
+                <td>{{rss[3]}}</td>
+            </tr>
+            <tr>
+                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象III.png'}}"></td>
+                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.png'}}"></td>
+                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.png'}}"></td>
+            </tr>
+            <tr>
+                <td>{{rss[4]}}</td>
+                <td>{{rss[5]}}</td>
+                <td>{{rss[5]}}</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="col-7 col-md-6 row justify-content-around text-center">
+        <table class="col-12 col-lg-4 table table-sm table-dark text-center" style="color: white;">
+            <tr>
+                <th>稀有度</th>
+                <td>{{card.rarity}}</td>
             </tr>
             <tr>
                 <th>
@@ -60,12 +92,22 @@
                     {{def}}
                 </td>
             </tr>
-            
+            <tr>
+                <th>
+                    星级
+                </th>
+                <td>
+                    <select [(ngModel)]="star" (ngModelChange)="updateData()">
+                        <option value=1>1</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5</option>
+                    </select>
+                </td>
+            </tr>
         </table>
-        
-    </div>
-    <div class="col-7 col-md-6 row justify-content-around text-center">
-        <table class="col-12 col-lg-7 table table-sm table-dark text-center" style="color: white;">
+        <table class="col-12 col-lg-6 table table-sm table-dark text-center" style="color: white;">
             <thead>
                 <tr>
                     <th colspan="3">
@@ -109,44 +151,6 @@
                 </tr>
             </tbody>
         </table>
-        <table class="col-12 col-lg-4 table table-sm table-dark text-center" style="color: white;">
-            <tr>
-                <th colspan="3">技能升级材料消耗</th>
-            </tr>
-            <tr>
-                <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
-                <td colspan="2">{{coin}}</td>
-            </tr>
-            <tr>
-                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象I.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.png'}}"></td>
-            </tr>
-            <tr>
-                <td>{{rss[0]}}</td>
-                <td>{{rss[1]}}</td>
-                <td>{{rss[1]}}</td>
-            </tr>
-            <tr>
-                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象II.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.png'}}"></td>
-            </tr>
-            <tr>
-                <td>{{rss[2]}}</td>
-                <td>{{rss[3]}}</td>
-                <td>{{rss[3]}}</td>
-            </tr>
-            <tr>
-                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象III.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.png'}}"></td>
-            </tr>
-            <tr>
-                <td>{{rss[4]}}</td>
-                <td>{{rss[5]}}</td>
-                <td>{{rss[5]}}</td>
-            </tr>
-        </table>
+        
     </div>
 </div>

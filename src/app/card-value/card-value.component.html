@@ -1,95 +1,27 @@
 <div class="row justify-content-center">
     <div class="col-12 row">
         <div class="col-6 col-md-4 row py-2">
-            <a class="col-3 cardIcon" [routerLink]="['/card-value-setting', char, id]">
-                <img src="assets/images/btn_edit.png">
-            </a>
-            <a class="col-3 cardIcon" routerLink="/card-calculator" (click)="deleteUserData()">
-                <img src="assets/images/btn_delete.png">
-            </a>
+            <div class="col-12 row py-2 justify-content-center">
+                <a class="col-4 btn" [routerLink]="['/card-calculator/', char, id]">
+                    <img class="img-fluid" src="assets/images/btn_edit.png">
+                </a>
+                <a class="col-4 btn" routerLink="/card-calculator">
+                    <img class="img-fluid" src="assets/images/btn_delete.png">
+                </a>
+            </div>
         </div>
         <h4 class="col col-md-4 my-3 text-center">{{char}} - {{id}}</h4>
     </div>
     
     <div class="col-5 col-md-6 row justify-content-around">
-        <div class="col-12 col-sm-11 col-md-6 col-lg-5 mb-2">
+        <div class="col-12 col-sm-11 col-md-6 col-lg-5 mb-1">
             <div class="bg-dark text-center py-1">
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
-                {{power}}
+                <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
             <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
         </div>
-        <table class="col-11 col-md-7 col-lg-5 table table-sm table-dark text-center" style="color: white;">
-            <tr>
-                <th>
-                    等级
-                </th>
-                <td>
-                    {{lv}}
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    基础说服力
-                </th>
-                <td>
-                    {{att}}
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    基础防御力
-                </th>
-                <td>
-                    {{def}}
-                </td>
-            </tr>
-            <tr>
-                <th>
-                    星级
-                </th>
-                <td>
-                    {{star}}
-                </td>
-            </tr>
-        </table>
-        
-    </div>
-    <div class="col-7 col-md-6 row justify-content-around text-center">
-        <table class="col-12 col-lg-7 table table-sm table-dark text-center" style="color: white;">
-            <thead>
-                <tr>
-                    <th colspan="3">
-                        技能
-                    </th>
-                </tr>
-            </thead>
-            <tbody *ngFor="let s of card.skills">
-                <tr>
-                    <td rowspan="2">
-                        <a [routerLink]="['/skill', s]" target="_blank">
-                            <img class="icon"
-                                src="{{'assets/images/技能/' + skillsID[card.skills.indexOf(s)] + '.png'}}">
-                        </a>
-                    </td>
-                    <td colspan="2">
-                        <a [routerLink]="['/skill', s]" target="_blank">
-                            {{s}}
-                        </a>
-                    </td>
-
-                    <td rowspan="2">
-                        {{skills[card.skills.indexOf(s)]}}
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <span class="smallFont">{{skillsInfo[card.skills.indexOf(s)]}}</span>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <table class="col-12 col-lg-4 table table-sm table-dark text-center" style="color: white;">
+        <table class="col-10 col-md-6 col-lg-4 table table-sm table-dark text-center smallFont" style="color: white;">
             <tr>
                 <th colspan="3">技能升级材料消耗</th>
             </tr>
@@ -128,5 +60,80 @@
                 <td>{{rss[5]}}</td>
             </tr>
         </table>
+    </div>
+
+    <div class="col-7 col-md-6 row justify-content-around text-center">
+        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center" style="color: white;">
+            <tr>
+                <th>稀有度</th>
+                <td>{{card.rarity}}</td>
+            </tr>
+            <tr>
+                <th>
+                    等级
+                </th>
+                <td>
+                    {{lv}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    基础说服力
+                </th>
+                <td>
+                    {{att}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    基础防御力
+                </th>
+                <td>
+                    {{def}}
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    星级
+                </th>
+                <td>
+                    {{star}}
+                </td>
+            </tr>
+        </table>
+        <table class="col-12 col-lg-6 table table-sm table-dark text-center" style="color: white;">
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        技能
+                    </th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let s of card.skills">
+                <tr>
+                    <td rowspan="2">
+                        <a [routerLink]="['/skill', s]" target="_blank">
+                            <img class="icon"
+                                src="{{'assets/images/技能/' + skillsID[card.skills.indexOf(s)] + '.png'}}">
+                        </a>
+                    </td>
+                    <td colspan="2">
+                        <a [routerLink]="['/skill', s]" target="_blank">
+                            {{s}}
+                        </a>
+                    </td>
+
+                    <td rowspan="2">
+                        {{skills[card.skills.indexOf(s)]}}
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <span class="smallFont">{{skillsInfo[card.skills.indexOf(s)]}}</span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
     </div>
 </div>

@@ -549,10 +549,10 @@
         "type": "通用",
         "rarity": "MR SR",
         "description": [
-            "进入辩论时，该思绪说服力提升X"
+            "进入辩论时，该思绪防御力提升X"
         ],
         "nums": [144, 770],
-        "function": ["attack up"]
+        "function": ["defence up"]
     },
     {
         "id": "趋利避害",
@@ -561,10 +561,10 @@
         "type": "通用",
         "rarity": "MR SR",
         "description": [
-            "进入辩论时，该思绪基础说服力提升X%"
+            "进入辩论时，该思绪基础防御力提升X%"
         ],
         "nums": [14.4, 72],
-        "function": ["attack up"]
+        "function": ["defence up"]
     },
     {
         "id": "势如破竹",
