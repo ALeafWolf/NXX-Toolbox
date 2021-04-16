@@ -16,7 +16,9 @@ export class CardListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService) { }
+  constructor(private _data: DataService) {
+
+  }
 
   ngOnInit(): void {
     this._data.getCards().subscribe((data: any[]) => {

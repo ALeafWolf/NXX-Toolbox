@@ -225,6 +225,23 @@
         ]
     },
     {
+        "id": "两心无间",
+        "name": "两心无间",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "左然",
+        "skills": [
+            "？？？ III",
+            "？？？ III",
+            "？？？ III"
+        ],
+        "attack": 2120,
+        "defence": 1060,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
         "id": "咫尺远近",
         "name": "咫尺远近",
         "type": "直觉",
@@ -1375,7 +1392,7 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "以退为进 I",
+            "以退为进β I",
             "势如破竹 I"
         ],
         "attack": 879,
