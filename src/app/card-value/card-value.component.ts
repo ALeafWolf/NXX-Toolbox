@@ -98,7 +98,9 @@ export class CardValueComponent implements OnInit {
             let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
             //replace X in the description with correct number
             let line = s.description.toString()
-            let str = line.replace("X", num.toFixed(2).toString())
+            let n = num.toFixed(2).toString()
+            console.log(n)
+            let str = line.replace("X", n)
             des.push(str)
           }
         }

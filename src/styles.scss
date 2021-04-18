@@ -5,7 +5,7 @@
 
 #page-container {
     position: relative;
-    min-height: 100vh;
+    min-height: 90vh;
 }
 
 // #backgroundImage {
@@ -17,13 +17,13 @@
 // }
 
 #main-container {
-    min-height: 100vh;
+    min-height: 90vh;
     background-image: url("assets/images/bg.png");
     background-position: top left;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-bottom: 4.5rem;
+    padding-bottom: 4.5em;
     color: white;
 }
 
@@ -42,6 +42,15 @@
 
 #topBtn{
     transform: rotate(90deg);
+}
+
+#homeBase{
+    max-height: 70%;
+}
+
+#homeScrollable{
+    overflow-y: scroll;
+    max-height: 500px;
 }
 
 footer {

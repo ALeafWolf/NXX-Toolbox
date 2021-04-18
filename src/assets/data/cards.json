@@ -231,12 +231,12 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "？？？ III",
-            "？？？ III",
-            "？？？ III"
+            "先声夺势 III",
+            "律法全能 III",
+            "滴水不漏 III"
         ],
-        "attack": 2120,
-        "defence": 1060,
+        "attack": 2014,
+        "defence": 1166,
         "obtainedFrom": [
             "活动限定"
         ]
@@ -1562,6 +1562,22 @@
         "skills": [
             "以理服人α I",
             "势如破竹 I"
+        ],
+        "attack": 879,
+        "defence": 480,
+        "obtainedFrom": [
+            "活动限定"
+        ]
+    },
+    {
+        "id": "揣摩",
+        "name": "揣摩",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "层层深入α I",
+            "步步为营 I"
         ],
         "attack": 879,
         "defence": 480,
