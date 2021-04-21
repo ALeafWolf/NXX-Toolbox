@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy --base-href=/tears-of-themis/"
+    "deploy": "ng deploy --base-href=/tears-of-themis-calculator/"
   },
   "private": true,
   "dependencies": {

@@ -8,14 +8,6 @@
     min-height: 90vh;
 }
 
-// #backgroundImage {
-//     position: absolute;
-//     left: 0;
-//     top: 0px;
-//     max-width: 100vmax;
-//     z-index: -1;
-// }
-
 #main-container {
     min-height: 90vh;
     background-image: url("assets/images/bg.png");
@@ -73,4 +65,8 @@ img.cardIcon {
 
 .smallFont {
     font-size: 0.75em;
+}
+
+img.calculatorIcon{
+    max-width: 90%;
 }

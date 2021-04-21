@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
         <h6 class="smallFont">
-            此计算器目前不包括助战思绪和研修室的战力加成。<br/>
+            此计算器目前不包括<span class="font-weight-bold">助战思绪</span>和<span class="font-weight-bold">研修室</span>的战力加成。<br/>
             战力的计算公式由本人通过游戏数据估算而成，所以并不保证没有误差。<br/>
             战力数值仅供参考。
         </h6>
@@ -19,12 +19,12 @@
     <div class="col-12 row justify-content-around">
         <div class="col-3 col-md-2" *ngFor="let i of userData">
             <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
-                <img class="img-fluid" src="{{'assets/images/' + i.charName + '/' + i.name + '.png'}}">
+                <img class="img-fluid calculatorIcon" src="{{'assets/images/' + i.charName + '/' + i.name + '.png'}}">
             </a>
         </div>
         <div class="col-3 col-md-2" *ngFor="let i of emptyHolder">
             <a routerLink="/card-selection" routerLinkActive="active">
-                <img class="img-fluid" src="assets/images/boxgacha_icon_frame_1.png">
+                <img class="img-fluid calculatorIcon" src="assets/images/boxgacha_icon_frame_1.png">
             </a>
         </div>
         
