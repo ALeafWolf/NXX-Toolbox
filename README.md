@@ -2,7 +2,7 @@
 [Click to enter the Calculator](https://aleafwolf.github.io/tears-of-themis-calculator)
 ## Development
 * Frontend: **Angular 11**, styling with **SCSS**, responsive layout with **Bootstrap**
-* Backend: Local json files (for now), planning to build a RESTful api for data retriving
+* Backend: Local json files (for now), planning to build a RESTful api for data retriving. User activity collecting with **Google Analytics**.
 * IDE: VS Code
 * Deployment: Github Page
 ## Run
