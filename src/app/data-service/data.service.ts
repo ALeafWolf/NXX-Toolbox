@@ -18,6 +18,9 @@ export class DataService {
   getSkillRssList(){
     return this._http.get('assets/data/skill-level-up-rss.json');
   }
+  getCardPoolHistory(){
+    return this._http.get('assets/data/card-pool-history.json');
+  }
 
   //load data from locatStorage
   getItem(key: string){

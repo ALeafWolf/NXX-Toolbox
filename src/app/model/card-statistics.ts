@@ -19,16 +19,19 @@ export class SkillInfo{
 }
 
 export class CardInfo{
+    //升技能战力，单个技能每升一级加一次，最多27次
     private static rSkillPowerUp = 95
     private static mrSkillPowerUp = 120
     private static srSkillPowerUp = 119
     private static ssrSkillPowerUp = 159
 
+    //升星战力，每升一星加一次，最多4次
     private static rStarPowerUp = 113.25
     private static mrStarPowerUp = 234.25
     private static srStarPowerUp = 240.75
     private static ssrStarPowerUp = 318
 
+    //基础战力
     private static rMaxPower = 1741
     private static mrMaxPower = 3248
     private static srMaxPower = 3092

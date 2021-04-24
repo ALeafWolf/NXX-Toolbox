@@ -1,0 +1,37 @@
+<button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
+    <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
+</button>
+<div class="row justify-content-center p-2">
+    <div class="col-12 col-md-10 my-2">
+        <table class="table table-sm table-dark text-center">
+            <thead>
+                <tr>
+                    <th>开始时间</th>
+                    <th>结束时间</th>
+                    <th>类型</th>
+                    <th>UP思绪</th>
+                    <th>公告</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="smallFont" *ngFor="let p of pools">
+                    <td>{{p.startDate}}</td>
+                    <td>{{p.endDate}}</td>
+                    <td>{{p.type}}</td>
+                    <td>
+                        <span *ngFor="let c of p.cards">
+                            <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
+                                <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
+                            </a>
+                        </span>
+                    </td>
+                    <td>
+                        <a *ngIf="p.bid" href="{{'https://www.weibo.com/7072153506/' + p.bid}}" target="_blank">
+                            <img class="img-fluid" style="width: 24px;" src="assets/images/weibo.png">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

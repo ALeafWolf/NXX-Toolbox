@@ -10,6 +10,7 @@ import { CardValueSettingComponent } from './card-value-setting/card-value-setti
 import { OtherComponent } from './other/other.component';
 import { CardListComponent } from './card-list/card-list.component';
 import { SkillDetailComponent } from './skill-detail/skill-detail.component';
+import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -27,6 +28,7 @@ const routes: Routes = [
     component: CardValueSettingComponent
   },
   {path: 'other', component: OtherComponent},
+  {path: 'card-pool-history', component: CardPoolHistoryComponent},
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: '**', component: PageNotFoundComponent},
 

@@ -15,8 +15,7 @@ export class AppComponent {
   constructor(public router: Router, private _titleService: Title) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
-        this.setTitle(event.urlAfterRedirects)
-        console.log(this._titleService.getTitle());
+        this.setTitle(event.urlAfterRedirects);
         gtag('config', 'G-R56QKY4DDW',
           {
             'page_title': this._titleService.getTitle(),
@@ -48,6 +47,9 @@ export class AppComponent {
         break;
       case '/other':
         s = '其他';
+        break;
+      case '/card-pool-history':
+        s = '往期女神之影';
         break;
       default:
         p = '牛叉叉牌计算器'
