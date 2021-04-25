@@ -70,3 +70,18 @@ img.cardIcon {
 img.calculatorIcon{
     max-width: 90%;
 }
+
+//cutsom style for dropdown at nav-dark
+li.dropdown > div.dropdown-menu > a.dropdown-item {
+    color: rgba(255, 255, 255, 0.5)
+}
+
+li.dropdown > div.dropdown-menu > a.dropdown-item.active {
+    color: #f8f9fa;
+    background-color: #343a40;
+}
+
+li.dropdown > div.dropdown-menu > a.dropdown-item:hover {
+    color: #f8f9fa;
+    background-color: #343a40;
+}

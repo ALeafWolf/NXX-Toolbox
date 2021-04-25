@@ -8,22 +8,23 @@
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/" routerLinkActive="active">主页</a>
+        <a class="nav-link" routerLink="/" routerLinkActive="active">主页</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/card-calculator" routerLinkActive="active">战力计算器</a>
+        <a class="nav-link" routerLink="/card-calculator" routerLinkActive="active">战力计算器</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button"
+          data-toggle="dropdown">资料索引</a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active">思绪列表</a>
+          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active">技能列表</a>
+          <!-- <div class="dropdown-divider"></div> -->
+          <a class="dropdown-item" routerLink="/card-pool-history" routerLinkActive="active">往期女神之影</a>
+        </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/cards" routerLinkActive="active">思绪列表</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/skills" routerLinkActive="active">技能列表</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/card-pool-history" routerLinkActive="active">往期女神之影</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" routerLink="/other" routerLinkActive="active">其他</a>
+        <a class="nav-link" routerLink="/other" routerLinkActive="active">其他</a>
       </li>
     </ul>
   </div>

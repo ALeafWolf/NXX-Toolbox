@@ -1,6 +1,18 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { DataService } from '../data-service/data.service';
 
+export type SortColumn = '';
+export type SortDirection = 'asc' | 'desc' | '';
+const rotate: {[key: string]: SortDirection} = { 'asc': 'desc', 'desc': '', '': 'asc' };
+
+const compare = (v1: string | number, v2: string | number) => v1 < v2 ? -1 : v1 > v2 ? 1 : 0;
+
+export interface SortEvent {
+  column: SortColumn;
+  direction: SortDirection;
+}
+
+
 @Component({
   selector: 'app-card-pool-history',
   templateUrl: './card-pool-history.component.html',
@@ -10,7 +22,6 @@ export class CardPoolHistoryComponent implements OnInit {
 
   pools;
   cards;
-  list;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
@@ -21,22 +32,10 @@ export class CardPoolHistoryComponent implements OnInit {
   ngOnInit(): void {
     this._data.getCards().subscribe((data: any[]) => {
       this.cards = data
-      if (this.pools) {
-        this.generateCardIcon()
-      }
     })
     this._data.getCardPoolHistory().subscribe((data: any[]) => {
       this.pools = data
-      if (this.cards) {
-        this.generateCardIcon()
-      }
     })
-  }
-
-  generateCardIcon() {
-    this.pools.forEach(p => {
-      
-    });
   }
 
   getImgSrc(name: string){
@@ -60,6 +59,10 @@ export class CardPoolHistoryComponent implements OnInit {
       }
     });
     return pre + param
+  }
+
+  onSort({column, direction}: SortEvent){
+
   }
 
   //to top button

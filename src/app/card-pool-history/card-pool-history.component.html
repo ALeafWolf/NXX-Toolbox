@@ -6,11 +6,11 @@
         <table class="table table-sm table-dark text-center">
             <thead>
                 <tr>
-                    <th>开始时间</th>
-                    <th>结束时间</th>
-                    <th>类型</th>
-                    <th>UP思绪</th>
-                    <th>公告</th>
+                    <th scope="col" sortable="startDate" (sort)="onSort($event)">开始时间</th>
+                    <th scope="col" sortable="endDate" (sort)="onSort($event)">结束时间</th>
+                    <th scope="col" sortable="type" (sort)="onSort($event)">类型</th>
+                    <th scope="col">UP思绪</th>
+                    <th scope="col">公告</th>
                 </tr>
             </thead>
             <tbody>
