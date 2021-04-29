@@ -10,7 +10,7 @@
                     <th scope="col" sortable="endDate" (sort)="onSort($event)">结束时间</th>
                     <th scope="col" sortable="type" (sort)="onSort($event)">类型</th>
                     <th scope="col">UP思绪</th>
-                    <th scope="col">公告</th>
+                    <th scope="col">相关公告</th>
                 </tr>
             </thead>
             <tbody>
@@ -28,6 +28,9 @@
                     <td>
                         <a *ngIf="p.bid" href="{{'https://www.weibo.com/7072153506/' + p.bid}}" target="_blank">
                             <img class="img-fluid" style="width: 24px;" src="assets/images/weibo.png">
+                        </a>
+                        <a *ngIf="p.bv" href="{{'https://www.bilibili.com/video/' + p.bv}}" target="_blank">
+                            <img class="img-fluid" style="width: 24px;" src="assets/images/bilibili.png">
                         </a>
                     </td>
                 </tr>

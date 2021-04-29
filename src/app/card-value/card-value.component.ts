@@ -20,6 +20,7 @@ export class CardValueComponent implements OnInit {
   card;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
   skillList;
+  skillDesList;
 
   //skill rss
   coin = 0;
@@ -47,28 +48,37 @@ export class CardValueComponent implements OnInit {
     //get corresponded userdata from localStorage
     this.userData = JSON.parse(this._data.getItem(this.id))
     //get corresponded card informations, then set data displayed on the page
-    this._data.getCard(this.id).subscribe((data: any[]) => {
+    this._data.getCard(this.id).toPromise().then((data: any[]) => {
       this.card = data[0];
       this.att = this.card.attack;
       this.def = this.card.defence;
       if (this.card.rarity == "R") {
         this.lv = 70
       }
-      this.card.skills.forEach(skill => {
-        this.skillList.push(skill);
-      });
-      console.log(this.skillList)
-      if (this.card) {
-        this.setSkillDisplay(this.skillList);
-      }
       this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+    }).catch(err => {
+      console.log(err)
     })
 
-    // this._data.getSkills().subscribe((data: any[]) => {
-    //   console.log(data)
-    //   this.skillDesList = data
-    //   this.setSkillDisplay(this.skillDesList);
-    // });
+    this._data.getSkills().subscribe((data: any[]) => {
+      let l = []
+      if (this.card.skills) {
+        for(let i = 0; i < 3; i++){
+          let name = this.card.skills[i]
+          data.forEach(skill => {
+            if(skill.name == name){
+              l.push(skill)
+            }
+          })
+          this.skillList = l; 
+          this.setSkillDisplay(l);
+        }
+      }
+    })
+
+    // this._data.getCard("心有千千结").toPromise().then(result => {
+    //   console.log(result)
+    // })
 
     //get skill level up rss based on card's rarity
     this._data.getSkillRssList().subscribe((data: any[]) => {
@@ -83,7 +93,7 @@ export class CardValueComponent implements OnInit {
         this.star = this.userData.star;
         this.calculateRss();
         this.calculateCardStatistic();
-        this.setSkillDisplay(this.skillList);
+        // this.setSkillDisplay(this.skillList);
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
     })
@@ -91,11 +101,13 @@ export class CardValueComponent implements OnInit {
 
   //set the string of skills that being display on the page
   setSkillDisplay(skills: any[]) {
+    // console.log(skills)
     let id = []
     let des = []
-    skills.forEach(skill => {
-      id.push(skill.id)
-    })
+    for(let i = 0; i < 3; i++){
+      let s = skills[i]
+      id.push(s.id)
+    }
     // for (let i = 0; i < 3; i++) {
     //   let skillName = this.card.skills[i]
     //   for (let s of data) {

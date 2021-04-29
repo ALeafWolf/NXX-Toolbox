@@ -17,7 +17,8 @@
         "endDate": "2020-09-09",
         "type": "活动",
         "cards": ["千灯如昼", "心有千千结", "凉夏"],
-        "bid": "JgC0AnO0k"
+        "bid": "JgC0AnO0k",
+        "bv": "BV1CD4y1U7W1"
     },
     {
         "startDate": "2020-08-28",
@@ -52,7 +53,8 @@
         "endDate": "2020-10-25",
         "type": "活动（限定）",
         "cards": ["虹色心跳", "铃音予梦", "心悬一线", "悸乱微光"],
-        "bid": "JmQralIgC"
+        "bid": "JmQralIgC",
+        "bv": "BV1Ek4y117wU"
     },
     {
         "startDate": "2020-10-09",
@@ -80,7 +82,8 @@
         "endDate": "2020-11-26",
         "type": "活动",
         "cards": ["明暗之境", "虚诞盛宴", "忆中人", "暇光一隅"],
-        "bid": "JteM4vRBV"
+        "bid": "JteM4vRBV",
+        "bv": "BV1Zp4y1k7SX"
     },
     {
         "startDate": "2020-11-20",
@@ -108,7 +111,8 @@
         "endDate": "2021-01-06",
         "type": "活动",
         "cards": ["一步之遥", "终夜明辉", "松雪童话"],
-        "bid": "JyHLB0Usu"
+        "bid": "JyHLB0Usu",
+        "bv": "BV1jA41147hh"
     },
     {
         "startDate": "2020-12-18",
@@ -144,7 +148,8 @@
         "endDate": "2021-02-22",
         "type": "活动（限定）",
         "cards": ["荧荧眸光", "天心漫游", "焰落琉彩", "极光之昼"],
-        "bid": "JEWm4uBXx"
+        "bid": "JEWm4uBXx",
+        "bv": "BV13y4y1p79T"
     },
     {
         "startDate": "2021-02-12",
@@ -172,7 +177,8 @@
         "endDate": "2021-04-15",
         "type": "活动",
         "cards": ["此心安处", "苍木为意"],
-        "bid": "K7uLthnTW"
+        "bid": "K7uLthnTW",
+        "bv": "BV1HK4y1T7yz"
     },
     {
         "startDate": "2021-03-26",
@@ -193,7 +199,7 @@
         "endDate": "2021-04-29",
         "type": "活动（限定）",
         "cards": ["两心无间"],
-        "bid": "KbrSFntNV"
+        "bid": "Kb97yCuhf"
     },
     {
         "startDate": "2021-04-23",
@@ -207,6 +213,7 @@
         "endDate": "2021-05-20",
         "type": "活动",
         "cards": ["惠雨归晴", "思酿"],
-        "bid": "KcYb30kA5"
+        "bid": "KcYb30kA5",
+        "bv": "BV1g64y117DM"
     }
 ]

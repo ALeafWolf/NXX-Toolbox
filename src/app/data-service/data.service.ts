@@ -34,12 +34,6 @@ export class DataService {
     // return this._http.get('assets/data/card-pool-history.json');
     return this._http.get(this.link + "cn/poolhistory");
   }
-  // getCardsTest(){
-  //   return this._http.get('http://localhost:8080/api/cn/cards');
-  // }
-  // getSkillsTest(){
-  //   return this._http.get('http://localhost:8080/api/cn/skills');
-  // }
 
   //load data from locatStorage
   getItem(key: string){

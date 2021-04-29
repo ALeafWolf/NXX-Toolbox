@@ -32,9 +32,11 @@ export class CardPoolHistoryComponent implements OnInit {
   ngOnInit(): void {
     this._data.getCards().subscribe((data: any[]) => {
       this.cards = data
+      console.log(data)
     })
     this._data.getCardPoolHistory().subscribe((data: any[]) => {
       this.pools = data
+      console.log(data)
     })
   }
 
