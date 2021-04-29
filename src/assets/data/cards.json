@@ -6,9 +6,9 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "先声夺势 III",
-            "演绎推理 III",
-            "紧急避险 III"
+            "先声夺势 Ⅲ",
+            "演绎推理 Ⅲ",
+            "紧急避险 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
@@ -24,9 +24,9 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "层层深入β III",
-            "情感投射 III",
-            "排比增势 III"
+            "层层深入β Ⅲ",
+            "情感投射 Ⅲ",
+            "排比增势 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -42,13 +42,14 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "以退为进β III",
-            "瞬间捕捉 III",
-            "侦探头脑 III"
+            "以退为进β Ⅲ",
+            "瞬间捕捉 Ⅲ",
+            "侦探头脑 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
         "obtainedFrom": [
+            "活动",
             "轮替"
         ]
     },
@@ -59,14 +60,14 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "循循善诱β III",
-            "古物修复 III",
-            "击其薄弱 III"
+            "循循善诱β Ⅲ",
+            "古物修复 Ⅲ",
+            "击其薄弱 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -76,14 +77,14 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "以理服人α III",
-            "无懈可击 III",
-            "侦探头脑 III"
+            "以理服人α Ⅲ",
+            "无懈可击 Ⅲ",
+            "侦探头脑 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -93,14 +94,14 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "洞察秋毫β III",
-            "预见之明 III",
-            "侦探头脑 III"
+            "洞察秋毫β Ⅲ",
+            "预见之明 Ⅲ",
+            "侦探头脑 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -110,13 +111,14 @@
         "rarity": "SSR",
         "character": "夏彦",
         "skills": [
-            "先声夺势 III",
-            "真相还原 III",
-            "排比增势 III"
+            "先声夺势 Ⅲ",
+            "真相还原 Ⅲ",
+            "排比增势 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
+            "活动",
             "轮替"
         ]
     },
@@ -127,9 +129,9 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "先声夺势 III",
-            "直感思维 III",
-            "绝对理性 III"
+            "先声夺势 Ⅲ",
+            "直感思维 Ⅲ",
+            "绝对理性 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
@@ -145,9 +147,9 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "层层深入γ III",
-            "抽丝剥茧 III",
-            "滴水不漏 III"
+            "层层深入γ Ⅲ",
+            "抽丝剥茧 Ⅲ",
+            "滴水不漏 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -163,13 +165,14 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "以退为进β III",
-            "律法全能 III",
-            "律典经纬 III"
+            "以退为进β Ⅲ",
+            "律法全能 Ⅲ",
+            "律典经纬 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
+            "活动",
             "轮替"
         ]
     },
@@ -180,14 +183,14 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "循循善诱γ III",
-            "有条不紊 III",
-            "釜底抽薪 III"
+            "循循善诱γ Ⅲ",
+            "有条不紊 Ⅲ",
+            "釜底抽薪 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -197,13 +200,14 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "洞察秋毫α III",
-            "本能回避 III",
-            "锐辞庭辩 III"
+            "洞察秋毫α Ⅲ",
+            "本能回避 Ⅲ",
+            "锐辞庭辩 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
+            "活动",
             "轮替"
         ]
     },
@@ -214,14 +218,14 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "以理服人β III",
-            "无懈可击 III",
-            "锐辞庭辩 III"
+            "以理服人β Ⅲ",
+            "无懈可击 Ⅲ",
+            "锐辞庭辩 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -231,14 +235,32 @@
         "rarity": "SSR",
         "character": "左然",
         "skills": [
-            "先声夺势 III",
-            "律法全能 III",
-            "滴水不漏 III"
+            "先声夺势 Ⅲ",
+            "律法全能 Ⅲ",
+            "滴水不漏 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "惠雨归晴",
+        "name": "惠雨归晴",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "左然",
+        "skills": [
+            "洞察秋毫γ Ⅲ",
+            "预见之明 Ⅲ",
+            "锐辞庭辩 Ⅲ"
+        ],
+        "attack": 2056,
+        "defence": 833,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
         ]
     },
     {
@@ -248,9 +270,9 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "先声夺势 III",
-            "敏锐观察 III",
-            "箱庭疗法 III"
+            "先声夺势 Ⅲ",
+            "敏锐观察 Ⅲ",
+            "箱庭疗法 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
@@ -266,9 +288,9 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "层层深入β III",
-            "张弛有度 III",
-            "顺水推舟 III"
+            "层层深入β Ⅲ",
+            "张弛有度 Ⅲ",
+            "顺水推舟 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -284,14 +306,14 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "以德服人α III",
-            "自我评估 III",
-            "谈话引导 III"
+            "以德服人α Ⅲ",
+            "自我评估 Ⅲ",
+            "谈话引导 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -301,14 +323,14 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "以理服人γ III",
-            "温文尔雅 III",
-            "纵横捭阖 III"
+            "以理服人γ Ⅲ",
+            "温文尔雅 Ⅲ",
+            "纵横捭阖 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -318,13 +340,14 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "先声夺势 III",
-            "盛装舞步 III",
-            "攻势化解 III"
+            "先声夺势 Ⅲ",
+            "盛装舞步 Ⅲ",
+            "攻势化解 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
         "obtainedFrom": [
+            "活动",
             "轮替"
         ]
     },
@@ -335,14 +358,32 @@
         "rarity": "SSR",
         "character": "莫弈",
         "skills": [
-            "循循善诱α III",
-            "预见之明 III",
-            "人格侧写 III"
+            "循循善诱α Ⅲ",
+            "预见之明 Ⅲ",
+            "人格侧写 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "思酿",
+        "name": "思酿",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "skills": [
+            "以退为进α Ⅲ",
+            "交响奏鸣 Ⅲ",
+            "引譬连类 Ⅲ"
+        ],
+        "attack": 2056,
+        "defence": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
         ]
     },
     {
@@ -352,9 +393,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "先声夺势 III",
-            "情绪感染 III",
-            "商业谈判 III"
+            "先声夺势 Ⅲ",
+            "情绪感染 Ⅲ",
+            "商业谈判 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
@@ -370,9 +411,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "层层深入γ III",
-            "举一反三 III",
-            "攻势化解 III"
+            "层层深入γ Ⅲ",
+            "举一反三 Ⅲ",
+            "攻势化解 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -388,14 +429,14 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "以退为进β III",
-            "年少锋锐 III",
-            "商业谈判 III"
+            "以退为进β Ⅲ",
+            "年少锋锐 Ⅲ",
+            "商业谈判 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "累冲"
+            "累计充值"
         ]
     },
     {
@@ -405,14 +446,14 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "洞察秋毫γ III",
-            "精英教育 III",
-            "见微知著 III"
+            "洞察秋毫γ Ⅲ",
+            "精英教育 Ⅲ",
+            "见微知著 Ⅲ"
         ],
         "attack": 2120,
         "defence": 1060,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -422,9 +463,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "层层深入α III",
-            "因势利导 III",
-            "商业谈判 III"
+            "层层深入α Ⅲ",
+            "因势利导 Ⅲ",
+            "商业谈判 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -439,9 +480,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "先声夺势 III",
-            "商业谈判 III",
-            "排比增势 III"
+            "先声夺势 Ⅲ",
+            "商业谈判 Ⅲ",
+            "排比增势 Ⅲ"
         ],
         "attack": 2056,
         "defence": 1124,
@@ -456,14 +497,14 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "洞察秋毫β III",
-            "预见之明 III",
-            "商业谈判 III"
+            "洞察秋毫β Ⅲ",
+            "预见之明 Ⅲ",
+            "商业谈判 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -473,9 +514,9 @@
         "rarity": "SSR",
         "character": "陆景和",
         "skills": [
-            "以理服人γ III",
-            "因势利导 III",
-            "名利博弈 III"
+            "以理服人γ Ⅲ",
+            "因势利导 Ⅲ",
+            "名利博弈 Ⅲ"
         ],
         "attack": 2014,
         "defence": 1166,
@@ -490,9 +531,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以退为进γ II",
-            "运筹帷幄 II",
-            "见微知著 II"
+            "以退为进γ Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "见微知著 Ⅱ"
         ],
         "attack": 1504,
         "defence": 871,
@@ -508,9 +549,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "洞察秋毫β II",
-            "敏锐观察 II",
-            "防微虑远 II"
+            "洞察秋毫β Ⅱ",
+            "敏锐观察 Ⅱ",
+            "防微虑远 Ⅱ"
         ],
         "attack": 1583,
         "defence": 791,
@@ -526,9 +567,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "先声夺势 II",
-            "运筹帷幄 II",
-            "情感投射 II"
+            "先声夺势 Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "情感投射 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
@@ -543,9 +584,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "以理服人γ II",
-            "抽丝剥茧 II",
-            "机锋对弈 II"
+            "以理服人γ Ⅱ",
+            "抽丝剥茧 Ⅱ",
+            "机锋对弈 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
@@ -561,9 +602,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "循循善诱β II",
-            "情绪感染 II",
-            "排比增势 II"
+            "循循善诱β Ⅱ",
+            "情绪感染 Ⅱ",
+            "排比增势 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
@@ -579,15 +620,15 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "层层深入γ II",
-            "运筹帷幄 II",
-            "纵横捭阖 II"
+            "层层深入γ Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "纵横捭阖 Ⅱ"
         ],
         "attack": 1583,
         "defence": 791,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -597,15 +638,15 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "示假隐真β II",
-            "张弛有度 II",
-            "纵横捭阖 II"
+            "示假隐真β Ⅱ",
+            "张弛有度 Ⅱ",
+            "纵横捭阖 Ⅱ"
         ],
         "attack": 1504,
         "defence": 871,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -615,9 +656,9 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "层层深入β II",
-            "直感思维 II",
-            "体能超群 II"
+            "层层深入β Ⅱ",
+            "直感思维 Ⅱ",
+            "体能超群 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
@@ -632,14 +673,14 @@
         "rarity": "SR",
         "character": "夏彦",
         "skills": [
-            "层层深入α II",
-            "古物修复 II",
-            "排比增势 II"
+            "层层深入α Ⅱ",
+            "古物修复 Ⅱ",
+            "排比增势 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -649,9 +690,9 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "示假隐真γ II",
-            "趋利避害 II",
-            "正本清源 II"
+            "示假隐真γ Ⅱ",
+            "趋利避害 Ⅱ",
+            "正本清源 Ⅱ"
         ],
         "attack": 1662,
         "defence": 713,
@@ -667,9 +708,9 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "以理服人β II",
-            "律法全能 II",
-            "引譬连类 II"
+            "以理服人β Ⅱ",
+            "律法全能 Ⅱ",
+            "引譬连类 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
@@ -685,9 +726,9 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "循循善诱β II",
-            "情感投射 II",
-            "顺水推舟 II"
+            "循循善诱β Ⅱ",
+            "情感投射 Ⅱ",
+            "顺水推舟 Ⅱ"
         ],
         "attack": 1535,
         "defence": 838,
@@ -703,9 +744,9 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "先声夺势 II",
-            "张弛有度 II",
-            "纵横捭阖 II"
+            "先声夺势 Ⅱ",
+            "张弛有度 Ⅱ",
+            "纵横捭阖 Ⅱ"
         ],
         "attack": 1536,
         "defence": 839,
@@ -720,14 +761,14 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "洞察秋毫γ II",
-            "敏锐观察 II",
-            "锐辞庭辩 II"
+            "洞察秋毫γ Ⅱ",
+            "敏锐观察 Ⅱ",
+            "锐辞庭辩 Ⅱ"
         ],
         "attack": 1583,
         "defence": 792,
         "obtainedFrom": [
-            "累冲"
+            "累计充值"
         ]
     },
     {
@@ -737,9 +778,9 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "设问否定β II",
-            "有条不紊 II",
-            "机锋对弈 II"
+            "设问否定β Ⅱ",
+            "有条不紊 Ⅱ",
+            "机锋对弈 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
@@ -748,21 +789,21 @@
         ]
     },
     {
-        "id": "锋芒退尽",
-        "name": "锋芒退尽",
+        "id": "锋芒褪尽",
+        "name": "锋芒褪尽",
         "type": "共情",
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "以退为进γ II",
-            "举一反三 II",
-            "击其薄弱 II"
+            "以退为进γ Ⅱ",
+            "举一反三 Ⅱ",
+            "击其薄弱 Ⅱ"
         ],
         "attack": 1583,
         "defence": 792,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -772,15 +813,15 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "避实就虚β II",
-            "预见之明 II",
-            "正本清源 II"
+            "避实就虚β Ⅱ",
+            "预见之明 Ⅱ",
+            "正本清源 Ⅱ"
         ],
         "attack": 1504,
         "defence": 871,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -790,15 +831,15 @@
         "rarity": "SR",
         "character": "左然",
         "skills": [
-            "先声夺势 II",
-            "运筹帷幄 II",
-            "锐辞庭辩 II"
+            "先声夺势 Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "锐辞庭辩 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -808,9 +849,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "循循善诱γ II",
-            "盛装舞步 II",
-            "釜底抽薪 II"
+            "循循善诱γ Ⅱ",
+            "盛装舞步 Ⅱ",
+            "釜底抽薪 Ⅱ"
         ],
         "attack": 1504,
         "defence": 871,
@@ -826,9 +867,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "以理服人β II",
-            "无懈可击 II",
-            "纵横捭阖 II"
+            "以理服人β Ⅱ",
+            "无懈可击 Ⅱ",
+            "纵横捭阖 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
@@ -844,9 +885,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "洞察秋毫α II",
-            "敏锐观察 II",
-            "攻势化解 II"
+            "洞察秋毫α Ⅱ",
+            "敏锐观察 Ⅱ",
+            "攻势化解 Ⅱ"
         ],
         "attack": 1535,
         "defence": 838,
@@ -862,9 +903,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "层层深入γ II",
-            "情绪感染 II",
-            "釜底抽薪 II"
+            "层层深入γ Ⅱ",
+            "情绪感染 Ⅱ",
+            "釜底抽薪 Ⅱ"
         ],
         "attack": 1583,
         "defence": 792,
@@ -880,9 +921,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "先声夺势 II",
-            "张弛有度 II",
-            "防微虑远 II"
+            "先声夺势 Ⅱ",
+            "张弛有度 Ⅱ",
+            "防微虑远 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
@@ -897,15 +938,15 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "设问否定γ II",
-            "演绎推理 II",
-            "滴水不漏 II"
+            "设问否定γ Ⅱ",
+            "演绎推理 Ⅱ",
+            "滴水不漏 Ⅱ"
         ],
         "attack": 1583,
         "defence": 792,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -915,15 +956,15 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "循循善诱α II",
-            "盛装舞步 II",
-            "情感投射 II"
+            "循循善诱α Ⅱ",
+            "盛装舞步 Ⅱ",
+            "情感投射 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -933,9 +974,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "先声夺势 II",
-            "演绎推理 II",
-            "引譬连类 II"
+            "先声夺势 Ⅱ",
+            "演绎推理 Ⅱ",
+            "引譬连类 Ⅱ"
         ],
         "attack": 1503,
         "defence": 870,
@@ -950,9 +991,9 @@
         "rarity": "SR",
         "character": "莫弈",
         "skills": [
-            "避实就虚β II",
-            "敏锐观察 II",
-            "箱庭疗法 II"
+            "避实就虚β Ⅱ",
+            "敏锐观察 Ⅱ",
+            "箱庭疗法 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
@@ -967,9 +1008,9 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "洞察秋毫β II",
-            "敏锐观察 II",
-            "防微虑远 II"
+            "洞察秋毫β Ⅱ",
+            "敏锐观察 Ⅱ",
+            "防微虑远 Ⅱ"
         ],
         "attack": 1536,
         "defence": 839,
@@ -985,9 +1026,9 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "循循善诱β II",
-            "年少锋锐 II",
-            "击其薄弱 II"
+            "循循善诱β Ⅱ",
+            "年少锋锐 Ⅱ",
+            "击其薄弱 Ⅱ"
         ],
         "attack": 1504,
         "defence": 871,
@@ -1003,9 +1044,9 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "以退为进γ II",
-            "演绎推理 II",
-            "滴水不漏 II"
+            "以退为进γ Ⅱ",
+            "演绎推理 Ⅱ",
+            "滴水不漏 Ⅱ"
         ],
         "attack": 1630,
         "defence": 744,
@@ -1021,9 +1062,9 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "以理服人β II",
-            "张弛有度 II",
-            "引譬连类 II"
+            "以理服人β Ⅱ",
+            "张弛有度 Ⅱ",
+            "引譬连类 Ⅱ"
         ],
         "attack": 1582,
         "defence": 791,
@@ -1038,14 +1079,14 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "层层深入γ II",
-            "还施彼身 II",
-            "釜底抽薪 II"
+            "层层深入γ Ⅱ",
+            "还施彼身 Ⅱ",
+            "釜底抽薪 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1055,15 +1096,15 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "先声夺势 II",
-            "举一反三 II",
-            "见微知著 II"
+            "先声夺势 Ⅱ",
+            "举一反三 Ⅱ",
+            "见微知著 Ⅱ"
         ],
         "attack": 1662,
         "defence": 712,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -1073,15 +1114,15 @@
         "rarity": "SR",
         "character": "陆景和",
         "skills": [
-            "引申归谬γ II",
-            "情绪感染 II",
-            "排比增势 II"
+            "引申归谬γ Ⅱ",
+            "情绪感染 Ⅱ",
+            "排比增势 Ⅱ"
         ],
         "attack": 1582,
         "defence": 791,
         "obtainedFrom": [
             "常驻",
-            "思绪残影凝结"
+            "主线思绪残影"
         ]
     },
     {
@@ -1091,14 +1132,14 @@
         "rarity": "MR",
         "character": "夏彦",
         "skills": [
-            "先声夺势 II",
-            "侦探头脑 II",
-            "无懈可击 II"
+            "先声夺势 Ⅱ",
+            "侦探头脑 Ⅱ",
+            "无懈可击 Ⅱ"
         ],
         "attack": 1637,
         "defence": 895,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1108,14 +1149,14 @@
         "rarity": "MR",
         "character": "左然",
         "skills": [
-            "先声夺势 II",
-            "锐辞庭辩 II",
-            "预见之明 II"
+            "先声夺势 Ⅱ",
+            "锐辞庭辩 Ⅱ",
+            "预见之明 Ⅱ"
         ],
         "attack": 1637,
         "defence": 895,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1125,14 +1166,14 @@
         "rarity": "MR",
         "character": "莫弈",
         "skills": [
-            "先声夺势 II",
-            "人格侧写 II",
-            "还施彼身 II"
+            "先声夺势 Ⅱ",
+            "人格侧写 Ⅱ",
+            "还施彼身 Ⅱ"
         ],
         "attack": 1637,
         "defence": 895,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1142,14 +1183,14 @@
         "rarity": "MR",
         "character": "陆景和",
         "skills": [
-            "先声夺势 II",
-            "商业谈判 II",
-            "预见之明 II"
+            "先声夺势 Ⅱ",
+            "商业谈判 Ⅱ",
+            "预见之明 Ⅱ"
         ],
         "attack": 1637,
         "defence": 895,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1159,14 +1200,14 @@
         "rarity": "MR",
         "character": "莫弈",
         "skills": [
-            "层层深入β II",
-            "盛装舞步 II",
-            "滴水不漏 II"
+            "层层深入β Ⅱ",
+            "盛装舞步 Ⅱ",
+            "滴水不漏 Ⅱ"
         ],
         "attack": 1637,
         "defence": 895,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1176,8 +1217,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "层层深入γ I",
-            "步步为营 I"
+            "层层深入γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1193,8 +1234,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "循循善诱γ I",
-            "步步为营 I"
+            "循循善诱γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1210,8 +1251,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "循循善诱β I",
-            "势如破竹 I"
+            "循循善诱β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1227,8 +1268,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "设问否定γ I",
-            "势如破竹 I"
+            "设问否定γ Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1244,8 +1285,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "以理服人β I",
-            "势如破竹 I"
+            "以理服人β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1261,8 +1302,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "洞察秋毫α I",
-            "势如破竹 I"
+            "洞察秋毫α Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1278,8 +1319,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "洞察秋毫β I",
-            "步步为营 I"
+            "洞察秋毫β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1295,8 +1336,8 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "以退为进β I",
-            "步步为营 I"
+            "以退为进β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1312,13 +1353,13 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "示假隐真β I",
-            "势如破竹 I"
+            "示假隐真β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1328,13 +1369,13 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "先声夺势 I",
-            "步步为营 I"
+            "先声夺势 Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1344,13 +1385,13 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "循循善诱β I",
-            "步步为营 I"
+            "循循善诱β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1360,13 +1401,13 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "以理服人β I",
-            "势如破竹 I"
+            "以理服人β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1376,13 +1417,13 @@
         "rarity": "R",
         "character": "夏彦",
         "skills": [
-            "以退为进γ I",
-            "势如破竹 I"
+            "以退为进γ Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1392,8 +1433,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "以退为进β I",
-            "势如破竹 I"
+            "以退为进β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1409,8 +1450,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "设问否定β I",
-            "势如破竹 I"
+            "设问否定β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1426,8 +1467,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "以理服人α I",
-            "势如破竹 I"
+            "以理服人α Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1443,8 +1484,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "引申归谬γ I",
-            "步步为营 I"
+            "引申归谬γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1460,8 +1501,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "引申归谬α I",
-            "步步为营 I"
+            "引申归谬α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1477,8 +1518,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "引申归谬β I",
-            "势如破竹 I"
+            "引申归谬β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1494,8 +1535,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "层层深入β I",
-            "步步为营 I"
+            "层层深入β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1511,8 +1552,8 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "层层深入γ I",
-            "势如破竹 I"
+            "层层深入γ Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1528,13 +1569,13 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "以德服人α I",
-            "步步为营 I"
+            "以德服人α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1544,13 +1585,13 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "洞察秋毫α I",
-            "步步为营 I"
+            "洞察秋毫α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1560,13 +1601,13 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "以理服人α I",
-            "势如破竹 I"
+            "以理服人α Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1576,13 +1617,13 @@
         "rarity": "R",
         "character": "左然",
         "skills": [
-            "层层深入α I",
-            "步步为营 I"
+            "层层深入α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1592,8 +1633,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "以退为进β I",
-            "势如破竹 I"
+            "以退为进β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1609,8 +1650,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "先声夺势 I",
-            "步步为营 I"
+            "先声夺势 Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1626,8 +1667,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "先声夺势 I",
-            "势如破竹 I"
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1643,8 +1684,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "以理服人γ I",
-            "步步为营 I"
+            "以理服人γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1660,8 +1701,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "先声夺势 I",
-            "势如破竹 I"
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1677,8 +1718,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "洞察秋毫γ I",
-            "势如破竹 I"
+            "洞察秋毫γ Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1694,8 +1735,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "避实就虚β I",
-            "步步为营 I"
+            "避实就虚β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1711,8 +1752,8 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "以退为进γ I",
-            "步步为营 I"
+            "以退为进γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1728,13 +1769,13 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "先声夺势 I",
-            "势如破竹 I"
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1744,13 +1785,13 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "示假隐真α I",
-            "步步为营 I"
+            "示假隐真α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1760,13 +1801,13 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "以理服人γ I",
-            "步步为营 I"
+            "以理服人γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1776,13 +1817,13 @@
         "rarity": "R",
         "character": "莫弈",
         "skills": [
-            "循循善诱γ I",
-            "步步为营 I"
+            "循循善诱γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1792,8 +1833,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "层层深入β I",
-            "势如破竹 I"
+            "层层深入β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1809,8 +1850,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "循循善诱α I",
-            "步步为营 I"
+            "循循善诱α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1826,8 +1867,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "以退为进γ I",
-            "势如破竹 I"
+            "以退为进γ Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1843,8 +1884,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "设问否定β I",
-            "步步为营 I"
+            "设问否定β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1860,8 +1901,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "层层深入β I",
-            "势如破竹 I"
+            "层层深入β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1877,8 +1918,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "层层深入γ I",
-            "步步为营 I"
+            "层层深入γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1894,8 +1935,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "避实就虚α I",
-            "步步为营 I"
+            "避实就虚α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1911,8 +1952,8 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "避实就虚γ I",
-            "步步为营 I"
+            "避实就虚γ Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
@@ -1928,13 +1969,13 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "以德服人β I",
-            "势如破竹 I"
+            "以德服人β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1944,13 +1985,13 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "以理服人β I",
-            "步步为营 I"
+            "以理服人β Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1960,13 +2001,13 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "循循善诱α I",
-            "步步为营 I"
+            "循循善诱α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     },
     {
@@ -1976,13 +2017,13 @@
         "rarity": "R",
         "character": "陆景和",
         "skills": [
-            "层层深入α I",
-            "步步为营 I"
+            "层层深入α Ⅰ",
+            "步步为营 Ⅰ"
         ],
         "attack": 879,
         "defence": 480,
         "obtainedFrom": [
-            "活动限定"
+            "活动（限定）"
         ]
     }
 ]

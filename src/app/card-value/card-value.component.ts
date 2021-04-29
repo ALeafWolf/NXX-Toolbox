@@ -19,7 +19,7 @@ export class CardValueComponent implements OnInit {
   charRssGroup;
   card;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
-  skillDesList;
+  skillList;
 
   //skill rss
   coin = 0;
@@ -44,26 +44,31 @@ export class CardValueComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    //get corresponded userdata from localStorage
     this.userData = JSON.parse(this._data.getItem(this.id))
-    this._data.getCards().subscribe((data: any[]) => {
-      data.forEach(c => {
-        if (c.id == this.id) {
-          this.card = c;
-          this.att = c.attack;
-          this.def = c.defence;
-          if(c.rarity == "R"){
-            this.lv = 70
-          }
-        }
+    //get corresponded card informations, then set data displayed on the page
+    this._data.getCard(this.id).subscribe((data: any[]) => {
+      this.card = data[0];
+      this.att = this.card.attack;
+      this.def = this.card.defence;
+      if (this.card.rarity == "R") {
+        this.lv = 70
+      }
+      this.card.skills.forEach(skill => {
+        this.skillList.push(skill);
       });
+      console.log(this.skillList)
+      if (this.card) {
+        this.setSkillDisplay(this.skillList);
+      }
       this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-
     })
 
-    this._data.getSkills().subscribe((data: any[]) => {
-      this.skillDesList = data
-      this.setSkillDisplay(this.skillDesList);
-    });
+    // this._data.getSkills().subscribe((data: any[]) => {
+    //   console.log(data)
+    //   this.skillDesList = data
+    //   this.setSkillDisplay(this.skillDesList);
+    // });
 
     //get skill level up rss based on card's rarity
     this._data.getSkillRssList().subscribe((data: any[]) => {
@@ -78,36 +83,37 @@ export class CardValueComponent implements OnInit {
         this.star = this.userData.star;
         this.calculateRss();
         this.calculateCardStatistic();
-        this.setSkillDisplay(this.skillDesList);
+        this.setSkillDisplay(this.skillList);
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
     })
   }
 
   //set the string of skills that being display on the page
-  setSkillDisplay(data: any[]) {
-    if (this.card) {
-      let id = []
-      let des = []
-      for (let i = 0; i < 3; i++) {
-        let skillName = this.card.skills[i]
-        for (let s of data) {
-          if (s.name == skillName) {
-            id.push(s.id)
-            //calculate correct number for the skill at matching lv
-            let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
-            //replace X in the description with correct number
-            let line = s.description.toString()
-            let n = num.toFixed(2).toString()
-            console.log(n)
-            let str = line.replace("X", n)
-            des.push(str)
-          }
-        }
-      }
-      this.skillsID = id
-      this.skillsInfo = des
-    }
+  setSkillDisplay(skills: any[]) {
+    let id = []
+    let des = []
+    skills.forEach(skill => {
+      id.push(skill.id)
+    })
+    // for (let i = 0; i < 3; i++) {
+    //   let skillName = this.card.skills[i]
+    //   for (let s of data) {
+    //     if (s.name == skillName) {
+    //       id.push(s.id)
+    //       //calculate correct number for the skill at matching lv
+    //       let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
+    //       //replace X in the description with correct number
+    //       let line = s.description.toString()
+    //       let n = num.toFixed(2).toString()
+    //       let str = line.replace("X", n)
+    //       des.push(str)
+    //     }
+    //   }
+    // }
+    this.skillsID = id
+    this.skillsInfo = des
+    console.log(this.skillsID)
   }
 
   //calculate the rss cost for leveling skills
@@ -119,17 +125,17 @@ export class CardValueComponent implements OnInit {
         for (let j = 0; j < lvl - 1; j++) {
           this.coin += this.skillLevelUpRssList[j].coin
           //lv2-4
-          if(j < 3){
+          if (j < 3) {
             this.rss[0] += this.skillLevelUpRssList[j].impression
             this.rss[1] += this.skillLevelUpRssList[j].item
           }
           //lv5-7
-          else if(j < 6){
+          else if (j < 6) {
             this.rss[2] += this.skillLevelUpRssList[j].impression
             this.rss[3] += this.skillLevelUpRssList[j].item
           }
           //lv8-10
-          else{
+          else {
             this.rss[4] += this.skillLevelUpRssList[j].impression
             this.rss[5] += this.skillLevelUpRssList[j].item
           }
@@ -138,13 +144,13 @@ export class CardValueComponent implements OnInit {
     }
   }
 
-  calculateCardStatistic(){
-      let x = 1 + (this.star - 1)*0.1
-      this.att = Math.round(this.att*x)
-      this.def = Math.round(this.def*x)
+  calculateCardStatistic() {
+    let x = 1 + (this.star - 1) * 0.1
+    this.att = Math.round(this.att * x)
+    this.def = Math.round(this.def * x)
   }
 
-  deleteUserData(){
+  deleteUserData() {
     localStorage.removeItem(this.card.id)
     console.log("deleted")
   }

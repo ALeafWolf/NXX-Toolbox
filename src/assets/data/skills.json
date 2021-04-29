@@ -1,7 +1,7 @@
 [
     {
         "id": "先声夺势",
-        "name": "先声夺势 I",
+        "name": "先声夺势 Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -11,7 +11,7 @@
     },
     {
         "id": "先声夺势",
-        "name": "先声夺势 II",
+        "name": "先声夺势 Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -21,7 +21,7 @@
     },
     {
         "id": "先声夺势",
-        "name": "先声夺势 III",
+        "name": "先声夺势 Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -31,7 +31,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入α I",
+        "name": "层层深入α Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -41,7 +41,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入α II",
+        "name": "层层深入α Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -51,7 +51,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入α III",
+        "name": "层层深入α Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -62,7 +62,7 @@
     
     {
         "id": "层层深入",
-        "name": "层层深入β I",
+        "name": "层层深入β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -72,7 +72,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入β II",
+        "name": "层层深入β Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -82,7 +82,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入β III",
+        "name": "层层深入β Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -92,7 +92,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入γ I",
+        "name": "层层深入γ Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -102,7 +102,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入γ II",
+        "name": "层层深入γ Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -112,7 +112,7 @@
     },
     {
         "id": "层层深入",
-        "name": "层层深入γ III",
+        "name": "层层深入γ Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -122,7 +122,19 @@
     },
     {
         "id": "以退为进",
-        "name": "以退为进β I",
+        "name": "以退为进α Ⅲ",
+        "character": "通用",
+        "type": "通用",
+        "rarity": "SSR",
+        "description": [
+            "自身防御力提升X%，持续1回合"
+        ],
+        "nums": [24, 120.03],
+        "function": "defence up"
+    },
+    {
+        "id": "以退为进",
+        "name": "以退为进β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -134,7 +146,7 @@
     },
     {
         "id": "以退为进",
-        "name": "以退为进β III",
+        "name": "以退为进β Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -147,7 +159,7 @@
     },
     {
         "id": "以退为进",
-        "name": "以退为进γ I",
+        "name": "以退为进γ Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -160,7 +172,7 @@
     },
     {
         "id": "以退为进",
-        "name": "以退为进γ II",
+        "name": "以退为进γ Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SSR",
@@ -173,7 +185,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人α I",
+        "name": "以理服人α Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
@@ -185,7 +197,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人α II",
+        "name": "以理服人α Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -197,7 +209,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人α III",
+        "name": "以理服人α Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -209,7 +221,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人β I",
+        "name": "以理服人β Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
@@ -221,7 +233,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人β II",
+        "name": "以理服人β Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -233,7 +245,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人β III",
+        "name": "以理服人β Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -245,7 +257,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人γ I",
+        "name": "以理服人γ Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
@@ -257,7 +269,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人γ II",
+        "name": "以理服人γ Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -269,7 +281,7 @@
     },
     {
         "id": "以理服人",
-        "name": "以理服人γ III",
+        "name": "以理服人γ Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -281,7 +293,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱α I",
+        "name": "循循善诱α Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
@@ -293,7 +305,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱α II",
+        "name": "循循善诱α Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -305,7 +317,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱α III",
+        "name": "循循善诱α Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -317,7 +329,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱β I",
+        "name": "循循善诱β Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
@@ -329,7 +341,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱β II",
+        "name": "循循善诱β Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -341,7 +353,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱β III",
+        "name": "循循善诱β Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -353,7 +365,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱γ I",
+        "name": "循循善诱γ Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
@@ -365,7 +377,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱γ II",
+        "name": "循循善诱γ Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -377,7 +389,7 @@
     },
     {
         "id": "循循善诱",
-        "name": "循循善诱γ III",
+        "name": "循循善诱γ Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -389,7 +401,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫α I",
+        "name": "洞察秋毫α Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
@@ -401,7 +413,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫α II",
+        "name": "洞察秋毫α Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -413,7 +425,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫α III",
+        "name": "洞察秋毫α Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -425,7 +437,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫β I",
+        "name": "洞察秋毫β Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
@@ -437,7 +449,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫β II",
+        "name": "洞察秋毫β Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -449,7 +461,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫β III",
+        "name": "洞察秋毫β Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -461,7 +473,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫γ I",
+        "name": "洞察秋毫γ Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
@@ -473,7 +485,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫γ II",
+        "name": "洞察秋毫γ Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -485,7 +497,7 @@
     },
     {
         "id": "洞察秋毫",
-        "name": "洞察秋毫γ III",
+        "name": "洞察秋毫γ Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -497,7 +509,7 @@
     },
     {
         "id": "张弛有度",
-        "name": "张弛有度 II",
+        "name": "张弛有度 Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -509,7 +521,7 @@
     },
     {
         "id": "张弛有度",
-        "name": "张弛有度 III",
+        "name": "张弛有度 Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -520,7 +532,7 @@
         "function": ["attack up"]
     },{
         "id": "举一反三",
-        "name": "举一反三 II",
+        "name": "举一反三 Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -532,7 +544,7 @@
     },
     {
         "id": "举一反三",
-        "name": "举一反三 III",
+        "name": "举一反三 Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -544,7 +556,7 @@
     },
     {
         "id": "运筹帷幄",
-        "name": "运筹帷幄 II",
+        "name": "运筹帷幄 Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -556,7 +568,7 @@
     },
     {
         "id": "趋利避害",
-        "name": "趋利避害 II",
+        "name": "趋利避害 Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -568,7 +580,7 @@
     },
     {
         "id": "势如破竹",
-        "name": "势如破竹 I",
+        "name": "势如破竹 Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -580,7 +592,7 @@
     },
     {
         "id": "步步为营",
-        "name": "步步为营 I",
+        "name": "步步为营 Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -592,7 +604,7 @@
     },
     {
         "id": "侦探头脑",
-        "name": "侦探头脑 II",
+        "name": "侦探头脑 Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -604,7 +616,7 @@
     },
     {
         "id": "侦探头脑",
-        "name": "侦探头脑 III",
+        "name": "侦探头脑 Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -616,7 +628,7 @@
     },
     {
         "id": "真相还原",
-        "name": "真相还原 II",
+        "name": "真相还原 Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -628,7 +640,7 @@
     },
     {
         "id": "真相还原",
-        "name": "真相还原 III",
+        "name": "真相还原 Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -640,7 +652,7 @@
     },
     {
         "id": "瞬间捕捉",
-        "name": "瞬间捕捉 II",
+        "name": "瞬间捕捉 Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -652,7 +664,7 @@
     },
     {
         "id": "瞬间捕捉",
-        "name": "瞬间捕捉 III",
+        "name": "瞬间捕捉 Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -664,7 +676,7 @@
     },
     {
         "id": "锐辞庭辩",
-        "name": "锐辞庭辩 II",
+        "name": "锐辞庭辩 Ⅱ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -676,7 +688,7 @@
     },
     {
         "id": "锐辞庭辩",
-        "name": "锐辞庭辩 III",
+        "name": "锐辞庭辩 Ⅲ",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
@@ -688,7 +700,7 @@
     },
     {
         "id": "律典经纬",
-        "name": "律典经纬 II",
+        "name": "律典经纬 Ⅱ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -700,7 +712,7 @@
     },
     {
         "id": "律典经纬",
-        "name": "律典经纬 III",
+        "name": "律典经纬 Ⅲ",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
@@ -712,7 +724,7 @@
     },
     {
         "id": "律法全能",
-        "name": "律法全能 II",
+        "name": "律法全能 Ⅱ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -724,7 +736,7 @@
     },
     {
         "id": "律法全能",
-        "name": "律法全能 III",
+        "name": "律法全能 Ⅲ",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
@@ -736,7 +748,7 @@
     },
     {
         "id": "人格侧写",
-        "name": "人格侧写 II",
+        "name": "人格侧写 Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
@@ -748,7 +760,7 @@
     },
     {
         "id": "人格侧写",
-        "name": "人格侧写 III",
+        "name": "人格侧写 Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
@@ -760,7 +772,7 @@
     },
     {
         "id": "谈话引导",
-        "name": "谈话引导 II",
+        "name": "谈话引导 Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
@@ -772,7 +784,7 @@
     },
     {
         "id": "谈话引导",
-        "name": "谈话引导 III",
+        "name": "谈话引导 Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
@@ -784,7 +796,7 @@
     },
     {
         "id": "盛装舞步",
-        "name": "盛装舞步 II",
+        "name": "盛装舞步 Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
@@ -796,7 +808,7 @@
     },
     {
         "id": "盛装舞步",
-        "name": "盛装舞步 III",
+        "name": "盛装舞步 Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
@@ -807,8 +819,20 @@
         "function": ["attack up"]
     },
     {
+        "id": "交响奏鸣",
+        "name": "交响奏鸣 Ⅲ",
+        "character": "莫弈",
+        "type": "通用",
+        "rarity": "SSR",
+        "description": [
+            "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%"
+        ],
+        "nums": [1.6, 7.99],
+        "function": ["attack up"]
+    },
+    {
         "id": "商业谈判",
-        "name": "商业谈判 II",
+        "name": "商业谈判 Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -820,7 +844,7 @@
     },
     {
         "id": "商业谈判",
-        "name": "商业谈判 III",
+        "name": "商业谈判 Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -832,7 +856,7 @@
     },
     {
         "id": "名利博弈",
-        "name": "名利博弈 II",
+        "name": "名利博弈 Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -844,7 +868,7 @@
     },
     {
         "id": "名利博弈",
-        "name": "名利博弈 III",
+        "name": "名利博弈 Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -856,7 +880,7 @@
     },
     {
         "id": "年少锋锐",
-        "name": "年少锋锐 II",
+        "name": "年少锋锐 Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -868,7 +892,7 @@
     },
     {
         "id": "年少锋锐",
-        "name": "年少锋锐 III",
+        "name": "年少锋锐 Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -880,7 +904,7 @@
     },
     {
         "id": "纵横捭阖",
-        "name": "纵横捭阖 II",
+        "name": "纵横捭阖 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -892,7 +916,7 @@
     },
     {
         "id": "纵横捭阖",
-        "name": "纵横捭阖 III",
+        "name": "纵横捭阖 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -904,7 +928,7 @@
     },
     {
         "id": "机锋对弈",
-        "name": "机锋对弈 II",
+        "name": "机锋对弈 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -916,7 +940,7 @@
     },
     {
         "id": "机锋对弈",
-        "name": "机锋对弈 III",
+        "name": "机锋对弈 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -928,7 +952,7 @@
     },
     {
         "id": "演绎推理",
-        "name": "演绎推理 II",
+        "name": "演绎推理 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -940,7 +964,7 @@
     },
     {
         "id": "演绎推理",
-        "name": "演绎推理 III",
+        "name": "演绎推理 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -952,7 +976,7 @@
     },
     {
         "id": "抽丝剥茧",
-        "name": "抽丝剥茧 II",
+        "name": "抽丝剥茧 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -964,7 +988,7 @@
     },
     {
         "id": "抽丝剥茧",
-        "name": "抽丝剥茧 III",
+        "name": "抽丝剥茧 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -976,7 +1000,7 @@
     },
     {
         "id": "击其薄弱",
-        "name": "击其薄弱 II",
+        "name": "击其薄弱 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -988,7 +1012,7 @@
     },
     {
         "id": "击其薄弱",
-        "name": "击其薄弱 III",
+        "name": "击其薄弱 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1000,7 +1024,7 @@
     },
     {
         "id": "釜底抽薪",
-        "name": "釜底抽薪 II",
+        "name": "釜底抽薪 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1012,7 +1036,7 @@
     },
     {
         "id": "釜底抽薪",
-        "name": "釜底抽薪 III",
+        "name": "釜底抽薪 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1024,7 +1048,7 @@
     },
     {
         "id": "情绪感染",
-        "name": "情绪感染 II",
+        "name": "情绪感染 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1036,7 +1060,7 @@
     },
     {
         "id": "情绪感染",
-        "name": "情绪感染 III",
+        "name": "情绪感染 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1048,7 +1072,7 @@
     },
     {
         "id": "情感投射",
-        "name": "情感投射 II",
+        "name": "情感投射 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1060,7 +1084,7 @@
     },
     {
         "id": "情感投射",
-        "name": "情感投射 III",
+        "name": "情感投射 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1072,7 +1096,7 @@
     },
     {
         "id": "见微知著",
-        "name": "见微知著 II",
+        "name": "见微知著 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1084,7 +1108,7 @@
     },
     {
         "id": "见微知著",
-        "name": "见微知著 III",
+        "name": "见微知著 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1096,7 +1120,7 @@
     },
     {
         "id": "正本清源",
-        "name": "正本清源 II",
+        "name": "正本清源 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1108,7 +1132,7 @@
     },
     {
         "id": "正本清源",
-        "name": "正本清源 III",
+        "name": "正本清源 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1120,7 +1144,7 @@
     },
     {
         "id": "敏锐观察",
-        "name": "敏锐观察 II",
+        "name": "敏锐观察 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1132,7 +1156,7 @@
     },
     {
         "id": "敏锐观察",
-        "name": "敏锐观察 III",
+        "name": "敏锐观察 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1144,7 +1168,7 @@
     },
     {
         "id": "直感思维",
-        "name": "直感思维 II",
+        "name": "直感思维 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1156,7 +1180,7 @@
     },
     {
         "id": "直感思维",
-        "name": "直感思维 III",
+        "name": "直感思维 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1168,7 +1192,7 @@
     },
     {
         "id": "紧急避险",
-        "name": "紧急避险 II",
+        "name": "紧急避险 Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -1180,7 +1204,7 @@
     },
     {
         "id": "紧急避险",
-        "name": "紧急避险 III",
+        "name": "紧急避险 Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -1192,7 +1216,7 @@
     },
     {
         "id": "体能超群",
-        "name": "体能超群 II",
+        "name": "体能超群 Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -1204,7 +1228,7 @@
     },
     {
         "id": "体能超群",
-        "name": "体能超群 III",
+        "name": "体能超群 Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -1216,7 +1240,7 @@
     },
     {
         "id": "古物修复",
-        "name": "古物修复 II",
+        "name": "古物修复 Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -1228,7 +1252,7 @@
     },
     {
         "id": "古物修复",
-        "name": "古物修复 III",
+        "name": "古物修复 Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -1240,7 +1264,7 @@
     },
     {
         "id": "绝对理性",
-        "name": "绝对理性 II",
+        "name": "绝对理性 Ⅱ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -1252,7 +1276,7 @@
     },
     {
         "id": "绝对理性",
-        "name": "绝对理性 III",
+        "name": "绝对理性 Ⅲ",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
@@ -1264,7 +1288,7 @@
     },
     {
         "id": "有条不紊",
-        "name": "有条不紊 II",
+        "name": "有条不紊 Ⅱ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -1276,7 +1300,7 @@
     },
     {
         "id": "有条不紊",
-        "name": "有条不紊 III",
+        "name": "有条不紊 Ⅲ",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
@@ -1288,7 +1312,7 @@
     },
     {
         "id": "箱庭疗法",
-        "name": "箱庭疗法 II",
+        "name": "箱庭疗法 Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
@@ -1300,7 +1324,7 @@
     },
     {
         "id": "箱庭疗法",
-        "name": "箱庭疗法 III",
+        "name": "箱庭疗法 Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
@@ -1312,7 +1336,7 @@
     },
     {
         "id": "温文尔雅",
-        "name": "温文尔雅 II",
+        "name": "温文尔雅 Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
@@ -1324,7 +1348,7 @@
     },
     {
         "id": "温文尔雅",
-        "name": "温文尔雅 III",
+        "name": "温文尔雅 Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
@@ -1336,7 +1360,7 @@
     },
     {
         "id": "自我评估",
-        "name": "自我评估 II",
+        "name": "自我评估 Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
@@ -1348,7 +1372,7 @@
     },
     {
         "id": "自我评估",
-        "name": "自我评估 III",
+        "name": "自我评估 Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
@@ -1360,7 +1384,7 @@
     },
     {
         "id": "执行总裁",
-        "name": "执行总裁 II",
+        "name": "执行总裁 Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -1372,7 +1396,7 @@
     },
     {
         "id": "执行总裁",
-        "name": "执行总裁 III",
+        "name": "执行总裁 Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -1384,7 +1408,7 @@
     },
     {
         "id": "精英教育",
-        "name": "精英教育 II",
+        "name": "精英教育 Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -1396,7 +1420,7 @@
     },
     {
         "id": "精英教育",
-        "name": "精英教育 III",
+        "name": "精英教育 Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -1408,7 +1432,7 @@
     },
     {
         "id": "顺水推舟",
-        "name": "顺水推舟 II",
+        "name": "顺水推舟 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1420,7 +1444,7 @@
     },
     {
         "id": "顺水推舟",
-        "name": "顺水推舟 III",
+        "name": "顺水推舟 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1432,7 +1456,7 @@
     },
     {
         "id": "排比增势",
-        "name": "排比增势 II",
+        "name": "排比增势 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1444,7 +1468,7 @@
     },
     {
         "id": "排比增势",
-        "name": "排比增势 III",
+        "name": "排比增势 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1456,7 +1480,7 @@
     },
     {
         "id": "还施彼身",
-        "name": "还施彼身 II",
+        "name": "还施彼身 Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1468,7 +1492,7 @@
     },
     {
         "id": "还施彼身",
-        "name": "还施彼身 III",
+        "name": "还施彼身 Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1480,7 +1504,7 @@
     },
     {
         "id": "引譬连类",
-        "name": "引譬连类 II",
+        "name": "引譬连类 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -1492,7 +1516,7 @@
     },
     {
         "id": "引譬连类",
-        "name": "引譬连类 III",
+        "name": "引譬连类 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -1504,7 +1528,7 @@
     },
     {
         "id": "滴水不漏",
-        "name": "滴水不漏 II",
+        "name": "滴水不漏 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -1516,7 +1540,7 @@
     },
     {
         "id": "滴水不漏",
-        "name": "滴水不漏 III",
+        "name": "滴水不漏 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -1528,7 +1552,7 @@
     },
     {
         "id": "无懈可击",
-        "name": "无懈可击 II",
+        "name": "无懈可击 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -1540,7 +1564,7 @@
     },
     {
         "id": "无懈可击",
-        "name": "无懈可击 III",
+        "name": "无懈可击 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -1552,7 +1576,7 @@
     },
     {
         "id": "因势利导",
-        "name": "因势利导 II",
+        "name": "因势利导 Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -1564,7 +1588,7 @@
     },
     {
         "id": "因势利导",
-        "name": "因势利导 III",
+        "name": "因势利导 Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
@@ -1576,7 +1600,7 @@
     },
     {
         "id": "防微虑远",
-        "name": "防微虑远 II",
+        "name": "防微虑远 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1588,7 +1612,7 @@
     },
     {
         "id": "防微虑远",
-        "name": "防微虑远 III",
+        "name": "防微虑远 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1600,7 +1624,7 @@
     },
     {
         "id": "攻势化解",
-        "name": "攻势化解 II",
+        "name": "攻势化解 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1612,7 +1636,7 @@
     },
     {
         "id": "攻势化解",
-        "name": "攻势化解 III",
+        "name": "攻势化解 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1624,7 +1648,7 @@
     },
     {
         "id": "预见之明",
-        "name": "预见之明 II",
+        "name": "预见之明 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1636,7 +1660,7 @@
     },
     {
         "id": "预见之明",
-        "name": "预见之明 III",
+        "name": "预见之明 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1648,7 +1672,7 @@
     },
     {
         "id": "本能回避",
-        "name": "本能回避 II",
+        "name": "本能回避 Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1660,7 +1684,7 @@
     },
     {
         "id": "本能回避",
-        "name": "本能回避 III",
+        "name": "本能回避 Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1672,7 +1696,7 @@
     },
     {
         "id": "示假隐真",
-        "name": "示假隐真α I",
+        "name": "示假隐真α Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -1684,7 +1708,7 @@
     },
     {
         "id": "示假隐真",
-        "name": "示假隐真β I",
+        "name": "示假隐真β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -1696,7 +1720,7 @@
     },
     {
         "id": "示假隐真",
-        "name": "示假隐真β II",
+        "name": "示假隐真β Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -1708,7 +1732,7 @@
     },
     {
         "id": "示假隐真",
-        "name": "示假隐真γ II",
+        "name": "示假隐真γ Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -1720,7 +1744,7 @@
     },
     {
         "id": "以德服人",
-        "name": "以德服人α I",
+        "name": "以德服人α Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -1732,7 +1756,7 @@
     },
     {
         "id": "以德服人",
-        "name": "以德服人α III",
+        "name": "以德服人α Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
@@ -1744,7 +1768,7 @@
     },
     {
         "id": "以德服人",
-        "name": "以德服人β I",
+        "name": "以德服人β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
@@ -1756,7 +1780,7 @@
     },
     {
         "id": "设问否定",
-        "name": "设问否定α I",
+        "name": "设问否定α Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
@@ -1768,7 +1792,7 @@
     },
     {
         "id": "设问否定",
-        "name": "设问否定β I",
+        "name": "设问否定β Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
@@ -1780,7 +1804,7 @@
     },
     {
         "id": "设问否定",
-        "name": "设问否定β II",
+        "name": "设问否定β Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -1792,7 +1816,7 @@
     },
     {
         "id": "设问否定",
-        "name": "设问否定γ I",
+        "name": "设问否定γ Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
@@ -1804,7 +1828,7 @@
     },
     {
         "id": "设问否定",
-        "name": "设问否定γ II",
+        "name": "设问否定γ Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
@@ -1816,7 +1840,7 @@
     },
     {
         "id": "引申归谬",
-        "name": "引申归谬α I",
+        "name": "引申归谬α Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
@@ -1828,7 +1852,7 @@
     },
     {
         "id": "引申归谬",
-        "name": "引申归谬β I",
+        "name": "引申归谬β Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
@@ -1840,7 +1864,7 @@
     },
     {
         "id": "引申归谬",
-        "name": "引申归谬β II",
+        "name": "引申归谬β Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1852,7 +1876,7 @@
     },
     {
         "id": "引申归谬",
-        "name": "引申归谬γ I",
+        "name": "引申归谬γ Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
@@ -1864,7 +1888,7 @@
     },
     {
         "id": "引申归谬",
-        "name": "引申归谬γ II",
+        "name": "引申归谬γ Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1876,7 +1900,7 @@
     },
     {
         "id": "避实就虚",
-        "name": "避实就虚α I",
+        "name": "避实就虚α Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
@@ -1888,7 +1912,7 @@
     },
     {
         "id": "避实就虚",
-        "name": "避实就虚β I",
+        "name": "避实就虚β Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
@@ -1900,7 +1924,7 @@
     },
     {
         "id": "避实就虚",
-        "name": "避实就虚β II",
+        "name": "避实就虚β Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1912,7 +1936,7 @@
     },
     {
         "id": "避实就虚",
-        "name": "避实就虚γ I",
+        "name": "避实就虚γ Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
@@ -1924,7 +1948,7 @@
     },
     {
         "id": "避实就虚",
-        "name": "避实就虚γ II",
+        "name": "避实就虚γ Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
