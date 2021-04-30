@@ -1,8 +1,12 @@
-# Tears Of Themis Calculator
-[Click to enter the Calculator](https://aleafwolf.github.io/tears-of-themis-calculator)
+# NXX Toolbox
+[Click to enter the Toolbox](https://aleafwolf.github.io/NXX-Toolbox)
 ## Development
-* Frontend: **Angular 11**, styling with **SCSS**, responsive layout with **Bootstrap**
-* Backend: Local json files (for now), planning to build a RESTful api for data retriving. User activity collecting with **Google Analytics**.
+* Frontend: 
+- **Angular 11** 
+- **SCSS**, responsive layout with **Bootstrap**.
+* Backend: 
+- RESTful api for data retriving. [Click to enter the Api repository](https://github.com/ALeafWolf/tears-of-themis-api)
+- User activity collecting with **Google Analytics**.
 * IDE: VS Code
 * Deployment: Github Page
 ## Run
