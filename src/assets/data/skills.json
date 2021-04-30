@@ -126,9 +126,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "自身防御力提升X%，持续1回合"
-        ],
+        "description": "自身防御力提升X%，持续1回合",
         "nums": [24, 120.03],
         "function": "defence up"
     },
@@ -138,9 +136,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "自身防御力提升X%，持续2回合"
-        ],
+        "description": "自身防御力提升X%，持续2回合",
         "nums": [7.2, 36],
         "function": "defence up"
     },
@@ -150,9 +146,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "自身防御力提升X%，持续2回合"
-        ],
+        "description": "自身防御力提升X%，持续2回合",
         "nums": [12, 59.97],
         "function": "defence up"
 
@@ -163,9 +157,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "自身防御力提升X%，持续3回合"
-        ],
+        "description": "自身防御力提升X%，持续3回合",
         "nums": [4.8, 23.97],
         "function": "defence up"
 
@@ -176,9 +168,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SSR",
-        "description": [
-            "自身防御力提升X%，持续3回合"
-        ],
+        "description": "自身防御力提升X%，持续3回合",
         "nums": [6, 30.03],
         "function": "defence up"
 
@@ -189,9 +179,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
-        "description": [
-            "自身逻辑说服力提升X%，持续1回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续1回合",
         "nums": [6.6, 32.97],
         "function": "attack up"
     },
@@ -201,9 +189,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "自身逻辑说服力提升X%，持续1回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续1回合",
         "nums": [8.2, 40.96],
         "function": "attack up"
     },
@@ -213,9 +199,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "自身逻辑说服力提升X%，持续1回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续1回合",
         "nums": [11, 55.01],
         "function": "attack up"
     },
@@ -225,9 +209,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
-        "description": [
-            "自身逻辑说服力提升X%，持续2回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续2回合",
         "nums": [4.2, 21.03],
         "function": "attack up"
     },
@@ -237,9 +219,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "自身逻辑说服力提升X%，持续2回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续2回合",
         "nums": [5.2, 25.99],
         "function": "attack up"
     },
@@ -249,9 +229,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "自身逻辑说服力提升X%，持续2回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续2回合",
         "nums": [7, 34.99],
         "function": "attack up"
     },
@@ -261,9 +239,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
-        "description": [
-            "自身逻辑说服力提升X%，持续3回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续3回合",
         "nums": [3.6, 18],
         "function": "attack up"
     },
@@ -273,9 +249,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "自身逻辑说服力提升X%，持续3回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续3回合",
         "nums": [4.5, 22.5],
         "function": ["attack up"]
     },
@@ -285,9 +259,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "自身逻辑说服力提升X%，持续3回合"
-        ],
+        "description": "自身逻辑说服力提升X%，持续3回合",
         "nums": [6, 30.03],
         "function": ["attack up"]
     },
@@ -297,9 +269,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "R",
-        "description": [
-            "自身共情说服力提升X%，持续1回合"
-        ],
+        "description": "自身共情说服力提升X%，持续1回合",
         "nums": [6.6, 32.97],
         "function": ["attack up"]
     },
@@ -309,9 +279,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "自身共情说服力提升X%，持续1回合"
-        ],
+        "description": "自身共情说服力提升X%，持续1回合",
         "nums": [8.2, 40.96],
         "function": ["attack up"]
     },
@@ -321,9 +289,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "自身共情说服力提升X%，持续1回合"
-        ],
+        "description": "自身共情说服力提升X%，持续1回合",
         "nums": [11, 55.01],
         "function": ["attack up"]
     },
@@ -333,9 +299,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "R",
-        "description": [
-            "自身共情说服力提升X%，持续2回合"
-        ],
+        "description": "自身共情说服力提升X%，持续2回合",
         "nums": [4.2, 21.03],
         "function": ["attack up"]
     },
@@ -345,9 +309,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "自身共情说服力提升X%，持续2回合"
-        ],
+        "description": "自身共情说服力提升X%，持续2回合",
         "nums": [5.2, 25.99],
         "function": ["attack up"]
     },
@@ -357,9 +319,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "自身共情说服力提升X%，持续2回合"
-        ],
+        "description": "自身共情说服力提升X%，持续2回合",
         "nums": [7, 34.99],
         "function": ["attack up"]
     },
@@ -369,9 +329,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "R",
-        "description": [
-            "自身共情说服力提升X%，持续3回合"
-        ],
+        "description": "自身共情说服力提升X%，持续3回合",
         "nums": [3.6, 18],
         "function": ["attack up"]
     },
@@ -381,9 +339,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "自身共情说服力提升X%，持续3回合"
-        ],
+        "description": "自身共情说服力提升X%，持续3回合",
         "nums": [4.5, 22.5],
         "function": ["attack up"]
     },
@@ -393,9 +349,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "自身共情说服力提升X%，持续3回合"
-        ],
+        "description": "自身共情说服力提升X%，持续3回合",
         "nums": [6, 30.03],
         "function": ["attack up"]
     },
@@ -405,9 +359,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
-        "description": [
-            "自身直觉说服力提升X%，持续1回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续1回合",
         "nums": [6.6, 32.97],
         "function": ["attack up"]
     },
@@ -417,9 +369,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "自身直觉说服力提升X%，持续1回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续1回合",
         "nums": [8.2, 40.96],
         "function": ["attack up"]
     },
@@ -429,9 +379,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "自身直觉说服力提升X%，持续1回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续1回合",
         "nums": [11, 55.01],
         "function": ["attack up"]
     },
@@ -441,9 +389,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
-        "description": [
-            "自身直觉说服力提升X%，持续2回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续2回合",
         "nums": [4.2, 21.03],
         "function": ["attack up"]
     },
@@ -453,9 +399,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "自身直觉说服力提升X%，持续2回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续2回合",
         "nums": [5.2, 25.99],
         "function": ["attack up"]
     },
@@ -465,9 +409,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "自身直觉说服力提升X%，持续2回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续2回合",
         "nums": [7, 34.99],
         "function": ["attack up"]
     },
@@ -477,9 +419,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
-        "description": [
-            "自身直觉说服力提升X%，持续3回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续3回合",
         "nums": [3.6, 18],
         "function": ["attack up"]
     },
@@ -489,9 +429,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "自身直觉说服力提升X%，持续3回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续3回合",
         "nums": [4.5, 22.5],
         "function": ["attack up"]
     },
@@ -501,9 +439,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "自身直觉说服力提升X%，持续3回合"
-        ],
+        "description": "自身直觉说服力提升X%，持续3回合",
         "nums": [6, 30.03],
         "function": ["attack up"]
     },
@@ -513,9 +449,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "进入辩论时，该思绪说服力提升X"
-        ],
+        "description": "进入辩论时，该思绪说服力提升X",
         "nums": [144, 770],
         "function": ["attack up"]
     },
@@ -525,9 +459,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "进入辩论时，该思绪说服力提升X"
-        ],
+        "description": "进入辩论时，该思绪说服力提升X",
         "nums": [180, 963],
         "function": ["attack up"]
     },{
@@ -536,9 +468,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "进入辩论时，该思绪基础说服力提升X%"
-        ],
+        "description": "进入辩论时，该思绪基础说服力提升X%",
         "nums": [7.2, 36],
         "function": ["attack up"]
     },
@@ -548,9 +478,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "进入辩论时，该思绪基础说服力提升X%"
-        ],
+        "description": "进入辩论时，该思绪基础说服力提升X%",
         "nums": [9, 45],
         "function": ["attack up"]
     },
@@ -560,9 +488,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "进入辩论时，该思绪防御力提升X"
-        ],
+        "description": "进入辩论时，该思绪防御力提升X",
         "nums": [144, 770],
         "function": ["defence up"]
     },
@@ -572,9 +498,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "进入辩论时，该思绪基础防御力提升X%"
-        ],
+        "description": "进入辩论时，该思绪基础防御力提升X%",
         "nums": [14.4, 72],
         "function": ["defence up"]
     },
@@ -584,9 +508,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "当该思绪处于战力加成时，额外提供X%的说服力加成"
-        ],
+        "description": "当该思绪处于战力加成时，额外提供X%的说服力加成",
         "nums": [0.19, 1],
         "function": ["support"]
     },
@@ -596,9 +518,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "当该思绪处于战力加成时，额外提供X%的防御力加成"
-        ],
+        "description": "当该思绪处于战力加成时，额外提供X%的防御力加成",
         "nums": [0.19, 1],
         "function": ["support"]
     },
@@ -608,9 +528,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有夏彦思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -620,9 +538,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有夏彦思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -632,9 +548,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -644,9 +558,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -656,9 +568,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": ["attack up"]
     },
@@ -668,9 +578,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": ["attack up"]
     },
@@ -680,9 +588,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有左然思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有左然思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -692,9 +598,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有左然思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有左然思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -704,9 +608,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有左然思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有左然思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": ["attack up"]
     },
@@ -716,9 +618,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有左然思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有左然思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": ["attack up"]
     },
@@ -728,9 +628,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -740,9 +638,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -752,9 +648,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有莫弈思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -764,9 +658,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有莫弈思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -776,9 +668,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有莫弈思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": ["attack up"]
     },
@@ -788,9 +678,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有莫弈思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": ["attack up"]
     },
@@ -800,9 +688,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -812,9 +698,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -824,9 +708,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": ["attack up"]
     },
@@ -836,9 +718,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有陆景和思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -848,9 +728,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有陆景和思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -860,9 +738,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有陆景和思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": ["attack up"]
     },
@@ -872,9 +748,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有陆景和思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": ["attack up"]
     },
@@ -884,9 +758,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": ["attack up"]
     },
@@ -896,9 +768,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": ["attack up"]
     },
@@ -908,9 +778,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": ["attack up"]
     },
@@ -920,9 +788,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": ["attack up"]
     },
@@ -932,9 +798,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": ["attack up"]
     },
@@ -944,9 +808,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": ["attack up"]
     },
@@ -956,9 +818,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": ["attack up"]
     },
@@ -968,9 +828,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": ["attack up"]
     },
@@ -980,9 +838,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": ["attack up"]
     },
@@ -992,9 +848,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": ["attack up"]
     },
@@ -1004,9 +858,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有共情思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有共情思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": ["attack up"]
     },
@@ -1016,9 +868,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有共情思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有共情思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": ["attack up"]
     },
@@ -1028,9 +878,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有共情思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有共情思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": ["attack up"]
     },
@@ -1040,9 +888,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有共情思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有共情思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": ["attack up"]
     },
@@ -1052,9 +898,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": ["attack up"]
     },
@@ -1064,9 +908,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": ["attack up"]
     },
@@ -1076,9 +918,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": ["attack up"]
     },
@@ -1088,9 +928,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": ["attack up"]
     },
@@ -1100,9 +938,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": ["attack up"]
     },
@@ -1112,9 +948,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": ["attack up"]
     },
@@ -1124,9 +958,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": ["attack up"]
     },
@@ -1136,9 +968,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": ["attack up"]
     },
@@ -1148,9 +978,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": ["attack up"]
     },
@@ -1160,9 +988,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": ["attack up"]
     },
@@ -1172,9 +998,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": ["attack up"]
     },
@@ -1184,9 +1008,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": ["attack up"]
     },
@@ -1196,9 +1018,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有夏彦思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有夏彦思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1208,9 +1028,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有夏彦思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有夏彦思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1220,9 +1038,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有夏彦思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有夏彦思绪的基础防御力增加X%",
         "nums": [2.56, 12.82],
         "function": ["defence up"]
     },
@@ -1232,9 +1048,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有夏彦思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有夏彦思绪的基础防御力增加X%",
         "nums": [3.2, 15.98],
         "function": ["defence up"]
     },
@@ -1244,9 +1058,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1256,9 +1068,7 @@
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1268,9 +1078,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有左然思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有左然思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1280,9 +1088,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有左然思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有左然思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1292,9 +1098,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1304,9 +1108,7 @@
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1316,9 +1118,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有莫弈思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有莫弈思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1328,9 +1128,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有莫弈思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有莫弈思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1340,9 +1138,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1352,9 +1148,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1364,9 +1158,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%",
         "nums": [2.56, 12.82],
         "function": ["defence up"]
     },
@@ -1376,9 +1168,7 @@
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%",
         "nums": [3.2, 15.98],
         "function": ["defence up"]
     },
@@ -1388,9 +1178,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有陆景和思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有陆景和思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1400,9 +1188,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有陆景和思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有陆景和思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1412,9 +1198,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
         "function": ["defence up"]
     },
@@ -1424,9 +1208,7 @@
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
         "function": ["defence up"]
     },
@@ -1436,9 +1218,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有共情思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有共情思绪的基础防御力增加X",
         "nums": [21, 100],
         "function": ["defence up"]
     },
@@ -1448,9 +1228,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有共情思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有共情思绪的基础防御力增加X",
         "nums": [26, 125],
         "function": ["defence up"]
     },
@@ -1460,9 +1238,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有共情思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有共情思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
         "function": ["defence up"]
     },
@@ -1472,9 +1248,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有共情思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有共情思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
         "function": ["defence up"]
     },
@@ -1484,9 +1258,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X",
         "nums": [21, 100],
         "function": ["defence up"]
     },
@@ -1496,9 +1268,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X",
         "nums": [26, 125],
         "function": ["defence up"]
     },
@@ -1508,9 +1278,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础防御力增加X",
         "nums": [21, 100],
         "function": ["defence up"]
     },
@@ -1520,9 +1288,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础防御力增加X",
         "nums": [26, 125],
         "function": ["defence up"]
     },
@@ -1532,9 +1298,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
         "function": ["defence up"]
     },
@@ -1544,9 +1308,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有逻辑思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有逻辑思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
         "function": ["defence up"]
     },
@@ -1556,9 +1318,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X",
         "nums": [21, 100],
         "function": ["defence up"]
     },
@@ -1568,9 +1328,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X",
         "nums": [26, 125],
         "function": ["defence up"]
     },
@@ -1580,9 +1338,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
         "function": ["defence up"]
     },
@@ -1592,9 +1348,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
         "function": ["defence up"]
     },
@@ -1604,9 +1358,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础防御力增加X",
         "nums": [21, 100],
         "function": ["defence up"]
     },
@@ -1616,9 +1368,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础防御力增加X",
         "nums": [26, 125],
         "function": ["defence up"]
     },
@@ -1628,9 +1378,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
         "function": ["defence up"]
     },
@@ -1640,9 +1388,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中所有直觉思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中所有直觉思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
         "function": ["defence up"]
     },
@@ -1652,9 +1398,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X",
         "nums": [21, 100],
         "function": ["defence up"]
     },
@@ -1664,9 +1408,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X",
         "nums": [26, 125],
         "function": ["defence up"]
     },
@@ -1676,9 +1418,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
         "function": ["defence up"]
     },
@@ -1688,9 +1428,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
-        "description": [
-            "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%"
-        ],
+        "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
         "function": ["defence up"]
     },
@@ -1700,9 +1438,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "使对方说服力降低X%，持续1回合"
-        ],
+        "description": "使对方说服力降低X%，持续1回合",
         "nums": [5.4, 27],
         "function": ["attack down"]
     },
@@ -1712,9 +1448,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "使对方说服力降低X%，持续2回合"
-        ],
+        "description": "使对方说服力降低X%，持续2回合",
         "nums": [3.8, 19.01],
         "function": ["attack down"]
     },
@@ -1724,9 +1458,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "使对方说服力降低X%，持续2回合"
-        ],
+        "description": "使对方说服力降低X%，持续2回合",
         "nums": [3, 14.97],
         "function": ["attack down"]
     },
@@ -1736,9 +1468,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
-        "description": [
-            "使对方说服力降低X%，持续3回合"
-        ],
+        "description": "使对方说服力降低X%，持续3回合",
         "nums": [2.7, 13.5],
         "function": ["attack down"]
     },
@@ -1748,9 +1478,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "使对方防御力降低X%，持续1回合"
-        ],
+        "description": "使对方防御力降低X%，持续1回合",
         "nums": [9, 45],
         "function": ["defence down"]
     },
@@ -1760,9 +1488,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
-        "description": [
-            "使对方防御力降低X%，持续1回合"
-        ],
+        "description": "使对方防御力降低X%，持续1回合",
         "nums": [15, 75.03],
         "function": ["defence down"]
     },
@@ -1772,9 +1498,7 @@
         "character": "通用",
         "type": "通用",
         "rarity": "R",
-        "description": [
-            "使对方防御力降低X%，持续2回合"
-        ],
+        "description": "使对方防御力降低X%，持续2回合",
         "nums": [9, 45],
         "function": ["defence down"]
     },
@@ -1784,9 +1508,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
-        "description": [
-            "使对方逻辑防御力降低X%，持续1回合"
-        ],
+        "description": "使对方逻辑防御力降低X%，持续1回合",
         "nums": [11.4, 57.03],
         "function": ["defence down"]
     },
@@ -1796,9 +1518,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
-        "description": [
-            "使对方逻辑防御力降低X%，持续2回合"
-        ],
+        "description": "使对方逻辑防御力降低X%，持续2回合",
         "nums": [7.8, 39.03],
         "function": ["defence down"]
     },
@@ -1808,9 +1528,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "使对方逻辑防御力降低X%，持续2回合"
-        ],
+        "description": "使对方逻辑防御力降低X%，持续2回合",
         "nums": [9.8, 49.04],
         "function": ["defence down"]
     },
@@ -1820,9 +1538,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
-        "description": [
-            "使对方逻辑防御力降低X%，持续3回合"
-        ],
+        "description": "使对方逻辑防御力降低X%，持续3回合",
         "nums": [7.2, 36],
         "function": ["defence down"]
     },
@@ -1832,9 +1548,7 @@
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
-        "description": [
-            "使对方逻辑防御力降低X%，持续3回合"
-        ],
+        "description": "使对方逻辑防御力降低X%，持续3回合",
         "nums": [9, 45],
         "function": ["defence down"]
     },
@@ -1844,9 +1558,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "R",
-        "description": [
-            "使对方共情防御力降低X%，持续1回合"
-        ],
+        "description": "使对方共情防御力降低X%，持续1回合",
         "nums": [11.4, 57.03],
         "function": ["defence down"]
     },
@@ -1856,9 +1568,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "R",
-        "description": [
-            "使对方共情防御力降低X%，持续2回合"
-        ],
+        "description": "使对方共情防御力降低X%，持续2回合",
         "nums": [7.8, 39.03],
         "function": ["defence down"]
     },
@@ -1868,9 +1578,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "使对方共情防御力降低X%，持续2回合"
-        ],
+        "description": "使对方共情防御力降低X%，持续2回合",
         "nums": [9.8, 49.04],
         "function": ["defence down"]
     },
@@ -1880,9 +1588,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "R",
-        "description": [
-            "使对方共情防御力降低X%，持续3回合"
-        ],
+        "description": "使对方共情防御力降低X%，持续3回合",
         "nums": [7.2, 36],
         "function": ["defence down"]
     },
@@ -1892,9 +1598,7 @@
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
-        "description": [
-            "使对方共情防御力降低X%，持续3回合"
-        ],
+        "description": "使对方共情防御力降低X%，持续3回合",
         "nums": [9, 45],
         "function": ["defence down"]
     },
@@ -1904,9 +1608,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
-        "description": [
-            "使对方直觉防御力降低X%，持续1回合"
-        ],
+        "description": "使对方直觉防御力降低X%，持续1回合",
         "nums": [11.4, 57.03],
         "function": ["defence down"]
     },
@@ -1916,9 +1618,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
-        "description": [
-            "使对方直觉防御力降低X%，持续2回合"
-        ],
+        "description": "使对方直觉防御力降低X%，持续2回合",
         "nums": [7.8, 39.03],
         "function": ["defence down"]
     },
@@ -1928,9 +1628,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "使对方直觉防御力降低X%，持续2回合"
-        ],
+        "description": "使对方直觉防御力降低X%，持续2回合",
         "nums": [9.8, 49.04],
         "function": ["defence down"]
     },
@@ -1940,9 +1638,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
-        "description": [
-            "使对方直觉防御力降低X%，持续3回合"
-        ],
+        "description": "使对方直觉防御力降低X%，持续3回合",
         "nums": [7.2, 36],
         "function": ["defence down"]
     },
@@ -1952,9 +1648,7 @@
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
-        "description": [
-            "使对方直觉防御力降低X%，持续3回合"
-        ],
+        "description": "使对方直觉防御力降低X%，持续3回合",
         "nums": [9, 45],
         "function": ["defence down"]
     }

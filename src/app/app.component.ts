@@ -28,7 +28,7 @@ export class AppComponent {
   //change the title of page while routing
   setTitle(url: string) {
     let s = ''
-    let p = ' - 牛叉叉牌计算器'
+    let p = ' - 牛叉叉牌工具箱'
     switch (url) {
       case '/home':
         s = '主页';
@@ -52,7 +52,7 @@ export class AppComponent {
         s = '往期女神之影';
         break;
       default:
-        p = '牛叉叉牌计算器'
+        p = '牛叉叉牌工具箱'
     }
 
     this._titleService.setTitle(s + p);

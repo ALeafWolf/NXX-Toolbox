@@ -1,24 +1,32 @@
-export class SkillInfo{
+export class SkillInfo {
     private static xiayanSkillRss = ["广角镜头", "袋装无花果干", "多用军刀", "分装药盒", "智能眼镜", "外文诗集"]
     private static zuoranSkillRss = ["钢笔", "平板电脑", "领带夹", "蓝宝石袖扣", "手枪模型", "高级律师徽章"]
     private static moyiSkillRss = ["黑胶唱片", "木柄花铲", "录音笔", "怀表", "烫金扑克牌", "陶艺茶杯"]
     private static lujingheSkillRss = ["油画工具", "积木零件", "压感笔", "蓝牙耳机", "耳钉", "权限秘钥"]
 
-    static getSkillRssGroup(name:string): string[]{
-        switch(name){
+    static getSkillRssGroup(name: string): string[] {
+        switch (name) {
             case "夏彦":
-              return this.xiayanSkillRss;
+                return this.xiayanSkillRss;
             case "左然":
                 return this.zuoranSkillRss;
-            case "莫弈": 
+            case "莫弈":
                 return this.moyiSkillRss;
-            case "陆景和": 
+            case "陆景和":
                 return this.lujingheSkillRss;
         }
     }
+
+    static removePostFix(input: string) {
+        let a = "";
+        //remove α, β, γ, I, II, III from end of the skill name
+        let re = /α*β*γ*\sⅠ*Ⅱ*Ⅲ*/
+        a = input.replace(re, "")
+        return a;
+    }
 }
 
-export class CardInfo{
+export class CardInfo {
     //升技能战力，单个技能每升一级加一次，最多27次
     private static rSkillPowerUp = 95
     private static mrSkillPowerUp = 120
@@ -37,12 +45,12 @@ export class CardInfo{
     private static srMaxPower = 3092
     private static ssrMaxPower = 4134
 
-    static calculatePower(rarity:string, star: number, skills: number[]){
+    static calculatePower(rarity: string, star: number, skills: number[]) {
         let p = 0;
-        switch(rarity){
+        switch (rarity) {
             case "R":
                 p = this.rMaxPower;
-                for(let i of skills){
+                for (let i of skills) {
                     let s = i - 1;
                     p += s * this.rSkillPowerUp;
                 }
@@ -50,7 +58,7 @@ export class CardInfo{
                 break;
             case "MR":
                 p = this.mrMaxPower;
-                for(let i of skills){
+                for (let i of skills) {
                     let s = i - 1;
                     p += s * this.mrSkillPowerUp;
                 }
@@ -58,7 +66,7 @@ export class CardInfo{
                 break;
             case "SR":
                 p = this.srMaxPower;
-                for(let i of skills){
+                for (let i of skills) {
                     let s = i - 1;
                     p += s * this.srSkillPowerUp;
                 }
@@ -66,7 +74,7 @@ export class CardInfo{
                 break;
             case "SSR":
                 p = this.ssrMaxPower;
-                for(let i of skills){
+                for (let i of skills) {
                     let s = i - 1;
                     p += s * this.ssrSkillPowerUp;
                 }

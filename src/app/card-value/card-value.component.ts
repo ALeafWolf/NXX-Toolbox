@@ -4,7 +4,6 @@ import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../data-service/data.service';
 import { SkillInfo, CardInfo } from '../model/card-statistics';
 
-
 @Component({
   selector: 'app-card-value',
   templateUrl: './card-value.component.html',
@@ -20,7 +19,7 @@ export class CardValueComponent implements OnInit {
   card;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
   skillList;
-  skillDesList;
+  allSkillList;
 
   //skill rss
   coin = 0;
@@ -45,87 +44,76 @@ export class CardValueComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    //get corresponded userdata from localStorage
     this.userData = JSON.parse(this._data.getItem(this.id))
-    //get corresponded card informations, then set data displayed on the page
-    this._data.getCard(this.id).toPromise().then((data: any[]) => {
-      this.card = data[0];
-      this.att = this.card.attack;
-      this.def = this.card.defence;
-      if (this.card.rarity == "R") {
-        this.lv = 70
-      }
+
+    this._data.getCards().subscribe((data: any[]) => {
+      data.forEach(c => {
+        if (c.id == this.id) {
+          this.card = c;
+          this.att = c.attack;
+          this.def = c.defence;
+          if (c.rarity == "R") {
+            this.lv = 70
+          }
+        }
+      });
       this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-    }).catch(err => {
-      console.log(err)
-    })
-
-    this._data.getSkills().subscribe((data: any[]) => {
-      let l = []
-      if (this.card.skills) {
-        for(let i = 0; i < 3; i++){
-          let name = this.card.skills[i]
-          data.forEach(skill => {
-            if(skill.name == name){
-              l.push(skill)
-            }
-          })
-          this.skillList = l; 
-          this.setSkillDisplay(l);
+      this._data.getSkillRssList().toPromise().then((data: any[]) => {
+        data.forEach(d => {
+          if (d.rarity == this.card.rarity) {
+            this.skillLevelUpRssList = d.rss
+          }
+        })
+        //if localStorage has user's data for this card
+        if (this.userData) {
+          this.skills = this.userData.skills
+          this.star = this.userData.star
+          this.calculateRss()
+          this.calculateCardStatistic()
+          // this.setSkillDisplay();
+          this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
         }
+      }).catch(err => console.log(err))
+      if (this.card) {
+        let list = []
+        this.card.skills.forEach(s => {
+          this._data.getSkill(s).toPromise().then(response => {
+            list.push(response[0])
+          }).catch(err => console.log(err))
+        });
+        this.skillList = list
       }
-    })
+      this._data.getSkills().toPromise().then(data => {
+        this.allSkillList = data
+        this.setSkillDisplay();
+      }).catch(err => console.log(err))
 
-    // this._data.getCard("心有千千结").toPromise().then(result => {
-    //   console.log(result)
-    // })
-
-    //get skill level up rss based on card's rarity
-    this._data.getSkillRssList().subscribe((data: any[]) => {
-      data.forEach(d => {
-        if (d.rarity == this.card.rarity) {
-          this.skillLevelUpRssList = d.rss
-        }
-      })
-      //if localStorage has user's data for this card
-      if (this.userData) {
-        this.skills = this.userData.skills;
-        this.star = this.userData.star;
-        this.calculateRss();
-        this.calculateCardStatistic();
-        // this.setSkillDisplay(this.skillList);
-        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-      }
     })
   }
 
   //set the string of skills that being display on the page
-  setSkillDisplay(skills: any[]) {
-    // console.log(skills)
+  setSkillDisplay() {
     let id = []
     let des = []
-    for(let i = 0; i < 3; i++){
-      let s = skills[i]
-      id.push(s.id)
+    // console.log(skillList)
+    for (let i = 0; i < 3; i++) {
+      let name = this.card.skills[i]
+      for (let s of this.skillList) {
+        if (s.name === name) {
+          id.push(s.id)
+          let j = this.card.skills.indexOf(s.name)
+          //calculate correct number for the skill at matching lv
+          let num = (this.skills[j] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
+          //replace X in the description with correct number
+          let line = s.description.toString()
+          let str = line.replace("X", num.toFixed(2).toString())
+          console.log(`${s.name} ${name} Index: ${j} Description: ${str}`)
+          des.push(str);
+        }
+      }
+      this.skillsID = id;
+      this.skillsInfo = des;
     }
-    // for (let i = 0; i < 3; i++) {
-    //   let skillName = this.card.skills[i]
-    //   for (let s of data) {
-    //     if (s.name == skillName) {
-    //       id.push(s.id)
-    //       //calculate correct number for the skill at matching lv
-    //       let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
-    //       //replace X in the description with correct number
-    //       let line = s.description.toString()
-    //       let n = num.toFixed(2).toString()
-    //       let str = line.replace("X", n)
-    //       des.push(str)
-    //     }
-    //   }
-    // }
-    this.skillsID = id
-    this.skillsInfo = des
-    console.log(this.skillsID)
   }
 
   //calculate the rss cost for leveling skills
