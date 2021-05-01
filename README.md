@@ -1,14 +1,16 @@
 # NXX Toolbox
 [Click to enter the Toolbox](https://aleafwolf.github.io/NXX-Toolbox)
 ## Development
-* Frontend: 
+### Frontend: 
 - **Angular 11** 
 - **SCSS**, responsive layout with **Bootstrap**.
-* Backend: 
-- RESTful api for data retriving. [Click to enter the Api repository](https://github.com/ALeafWolf/tears-of-themis-api)
+### Backend: 
+- RESTful api built by **Express.js** for data retriving. [Click to enter the Api repository](https://github.com/ALeafWolf/tears-of-themis-api)
 - User activity collecting with **Google Analytics**.
-* IDE: VS Code
-* Deployment: Github Page
+### IDE: 
+- VS Code
+### Deployment: 
+- Github Page
 ## Run
 * After download the file, go to console then enter
 ```

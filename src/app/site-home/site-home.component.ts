@@ -13,4 +13,13 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  generateRandomIcon(){
+    let pre = 'assets/images/'
+    let post = '.png'
+    let arr = ['初代', '夏彦', '左然', '莫弈', '陆景和']
+    let i = Math.floor(Math.random() * 4);
+    console.log(i)
+    return pre + arr[i] + post;
+  }
+
 }

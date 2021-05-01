@@ -1,5 +1,5 @@
 {
-  "name": "tears-of-themis-calculator",
+  "name": "nxx-toolbox",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,8 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy": "ng deploy --base-href=/tears-of-themis-calculator/"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
