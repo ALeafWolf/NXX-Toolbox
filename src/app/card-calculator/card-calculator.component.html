@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
         <h6 class="smallFont">
-            此计算器目前不包括<span class="font-weight-bold">助战思绪</span>和<span class="font-weight-bold">研修室</span>的战力加成。<br/>
+            此计算器目前不包括<span class="font-weight-bold">助战思绪</span>和<span class="font-weight-bold">研修室</span>的战力加成。<br />
             战力数值仅供参考。
         </h6>
     </div>
@@ -16,16 +16,21 @@
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-3 col-md-2" *ngFor="let i of userData">
-            <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
-                <img class="img-fluid calculatorIcon" src="{{'assets/images/' + i.charName + '/' + i.name + '.png'}}">
-            </a>
+        <div class="col-11 col-lg-5 bg-dark my-2 p-2">
+            owo
         </div>
-        <div class="col-3 col-md-2" *ngFor="let i of emptyHolder">
-            <a routerLink="/card-selection" routerLinkActive="active">
-                <img class="img-fluid calculatorIcon" src="assets/images/boxgacha_icon_frame_1.png">
-            </a>
+        <div class="col-12 col-lg-5 row justify-content-around">
+            <div class="col-3" *ngFor="let i of userData">
+                <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
+                    <img class="img-fluid calculatorIcon"
+                        src="{{'assets/images/' + i.charName + '/' + i.name + '.png'}}">
+                </a>
+            </div>
+            <div class="col-3" *ngFor="let i of emptyHolder">
+                <a routerLink="/card-selection" routerLinkActive="active">
+                    <img class="img-fluid calculatorIcon" src="assets/images/boxgacha_icon_frame_1.png">
+                </a>
+            </div>
         </div>
-        
     </div>
 </div>

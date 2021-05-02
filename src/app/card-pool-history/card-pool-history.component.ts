@@ -1,5 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { DataService } from '../data-service/data.service';
+import { DataService } from '../services/data/data.service';
 
 export type SortColumn = '';
 export type SortDirection = 'asc' | 'desc' | '';

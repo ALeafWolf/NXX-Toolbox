@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { DataService } from '../data-service/data.service';
+import { DataService } from '../services/data/data.service';
 import { SkillInfo, CardInfo } from '../model/card-statistics';
 
 @Component({
@@ -95,7 +95,6 @@ export class CardValueComponent implements OnInit {
   setSkillDisplay() {
     let id = []
     let des = []
-    // console.log(skillList)
     for (let i = 0; i < 3; i++) {
       let name = this.card.skills[i]
       for (let s of this.skillList) {
@@ -107,7 +106,6 @@ export class CardValueComponent implements OnInit {
           //replace X in the description with correct number
           let line = s.description.toString()
           let str = line.replace("X", num.toFixed(2).toString())
-          console.log(`${s.name} ${name} Index: ${j} Description: ${str}`)
           des.push(str);
         }
       }
@@ -152,6 +150,6 @@ export class CardValueComponent implements OnInit {
 
   deleteUserData() {
     localStorage.removeItem(this.card.id)
-    console.log("deleted")
+    console.log(`${this.card.id} is deleted`)
   }
 }

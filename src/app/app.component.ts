@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
-import { Title } from '@angular/platform-browser';
+import { SEOService } from './services/seo/seo.service';
+import { Title, Meta, MetaDefinition } from '@angular/platform-browser';
 
 declare let gtag: Function;
 
@@ -11,18 +12,21 @@ declare let gtag: Function;
 })
 export class AppComponent {
   title = 'tears-of-themis-calculator';
-  //for google analystics
-  constructor(public router: Router, private _titleService: Title) {
+  metas: MetaDefinition[];
+
+  constructor(public router: Router, private _seoService: SEOService) {
+    //for google analystics
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
         this.setTitle(event.urlAfterRedirects);
         gtag('config', 'G-R56QKY4DDW',
           {
-            'page_title': this._titleService.getTitle(),
+            'page_title': this._seoService.getTitle(),
             'page_path': event.urlAfterRedirects
           });
       }
     })
+    this._seoService.loadTags()
   }
 
   //change the title of page while routing
@@ -55,7 +59,7 @@ export class AppComponent {
         p = '牛叉叉牌工具箱'
     }
 
-    this._titleService.setTitle(s + p);
+    this._seoService.setTitle(s + p);
 
   }
 
