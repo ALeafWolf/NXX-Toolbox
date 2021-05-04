@@ -16,7 +16,7 @@
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-11 col-lg-5 bg-dark my-2 p-2 text-center">
+        <div class="col-11 col-lg-4 bg-dark my-2 p-2 text-center">
             <h5 class="border-bottom pb-2">技能加成</h5>
             <h6>技能二</h6>
             <div class="border-bottom border-secondary mb-2">
@@ -25,7 +25,7 @@
                         <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
                             <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
                         </a>
-                        <p>{{s.num.toFixed(2)}}{{s.numType}}</p>
+                        <p class="smallFont">{{s.name}}<br/>{{s.num.toFixed(2)}}{{s.numType}}</p>
                     </div>
                 </div>
             </div>
@@ -35,12 +35,12 @@
                     <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
                         <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
                     </a>
-                    <p>{{s.num.toFixed(2)}}{{s.numType}}</p>
+                    <p class="smallFont">{{s.name}}<br/>{{s.num.toFixed(2)}}{{s.numType}}</p>
                 </div>
 
             </div>
         </div>
-        <div class="col-12 col-lg-5 row justify-content-around">
+        <div class="col-12 col-lg-7 row justify-content-around">
             <div class="col-3 my-2" *ngFor="let i of userData">
                 <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
                     <img class="img-fluid calculatorIcon"

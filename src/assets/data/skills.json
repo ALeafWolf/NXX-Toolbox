@@ -7,7 +7,8 @@
         "rarity": "R",
         "description": "对单个观点造成说服力X%的伤害",
         "nums": [108, 140.04],
-        "function": "damage up"
+        "function": "damage up",
+        "slot": 1
     },
     {
         "id": "先声夺势",
@@ -17,7 +18,8 @@
         "rarity": "MR SR",
         "description": "对单个观点造成说服力X%的伤害",
         "nums": [109, 145],
-        "function": "damage up"
+        "function": "damage up",
+        "slot": 1
     },
     {
         "id": "先声夺势",
@@ -27,7 +29,8 @@
         "rarity": "SSR",
         "description": "对单个观点造成说服力X%的伤害",
         "nums": [110, 149.9],
-        "function": "damage up"
+        "function": "damage up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -37,7 +40,8 @@
         "rarity": "R",
         "description": "自身说服力提升X%，持续1回合",
         "nums": [5.4, 27],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -47,7 +51,8 @@
         "rarity": "MR SR",
         "description": "自身说服力提升X%，持续1回合",
         "nums": [6.8, 33.98],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -57,7 +62,8 @@
         "rarity": "SSR",
         "description": "自身说服力提升X%，持续1回合",
         "nums": [9, 45],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     
     {
@@ -68,7 +74,8 @@
         "rarity": "R",
         "description": "自身说服力提升X%，持续2回合",
         "nums": [3, 14.97],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -78,7 +85,8 @@
         "rarity": "MR SR",
         "description":"自身说服力提升X%，持续2回合",
         "nums": [3.8, 19.01],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -88,7 +96,8 @@
         "rarity": "SSR",
         "description": "自身说服力提升X%，持续2回合",
         "nums": [5, 24.98],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -98,7 +107,8 @@
         "rarity": "R",
         "description": "自身说服力提升X%，持续3回合",
         "nums": [2.2, 11.02],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -108,7 +118,8 @@
         "rarity": "MR SR",
         "description": "自身说服力提升X%，持续3回合",
         "nums": [2.7, 13.5],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "层层深入",
@@ -118,7 +129,8 @@
         "rarity": "SSR",
         "description": "自身说服力提升X%，持续3回合",
         "nums": [3.6, 18],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以退为进",
@@ -128,7 +140,8 @@
         "rarity": "SSR",
         "description": "自身防御力提升X%，持续1回合",
         "nums": [24, 120.03],
-        "function": "defence up"
+        "function": "defence up",
+        "slot": 1
     },
     {
         "id": "以退为进",
@@ -138,7 +151,8 @@
         "rarity": "R",
         "description": "自身防御力提升X%，持续2回合",
         "nums": [7.2, 36],
-        "function": "defence up"
+        "function": "defence up",
+        "slot": 1
     },
     {
         "id": "以退为进",
@@ -148,7 +162,8 @@
         "rarity": "SSR",
         "description": "自身防御力提升X%，持续2回合",
         "nums": [12, 59.97],
-        "function": "defence up"
+        "function": "defence up",
+        "slot": 1
 
     },
     {
@@ -159,7 +174,8 @@
         "rarity": "R",
         "description": "自身防御力提升X%，持续3回合",
         "nums": [4.8, 23.97],
-        "function": "defence up"
+        "function": "defence up",
+        "slot": 1
 
     },
     {
@@ -170,7 +186,8 @@
         "rarity": "MR SSR",
         "description": "自身防御力提升X%，持续3回合",
         "nums": [6, 30.03],
-        "function": "defence up"
+        "function": "defence up",
+        "slot": 1
 
     },
     {
@@ -181,7 +198,8 @@
         "rarity": "R",
         "description": "自身逻辑说服力提升X%，持续1回合",
         "nums": [6.6, 32.97],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -191,7 +209,8 @@
         "rarity": "MR SR",
         "description": "自身逻辑说服力提升X%，持续1回合",
         "nums": [8.2, 40.96],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -201,7 +220,8 @@
         "rarity": "SSR",
         "description": "自身逻辑说服力提升X%，持续1回合",
         "nums": [11, 55.01],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -211,7 +231,8 @@
         "rarity": "R",
         "description": "自身逻辑说服力提升X%，持续2回合",
         "nums": [4.2, 21.03],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -221,7 +242,8 @@
         "rarity": "MR SR",
         "description": "自身逻辑说服力提升X%，持续2回合",
         "nums": [5.2, 25.99],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -231,7 +253,8 @@
         "rarity": "SSR",
         "description": "自身逻辑说服力提升X%，持续2回合",
         "nums": [7, 34.99],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -241,7 +264,8 @@
         "rarity": "R",
         "description": "自身逻辑说服力提升X%，持续3回合",
         "nums": [3.6, 18],
-        "function": "attack up"
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -251,7 +275,8 @@
         "rarity": "MR SR",
         "description": "自身逻辑说服力提升X%，持续3回合",
         "nums": [4.5, 22.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "以理服人",
@@ -261,7 +286,8 @@
         "rarity": "SSR",
         "description": "自身逻辑说服力提升X%，持续3回合",
         "nums": [6, 30.03],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -271,7 +297,8 @@
         "rarity": "R",
         "description": "自身共情说服力提升X%，持续1回合",
         "nums": [6.6, 32.97],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -281,7 +308,8 @@
         "rarity": "MR SR",
         "description": "自身共情说服力提升X%，持续1回合",
         "nums": [8.2, 40.96],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -291,7 +319,8 @@
         "rarity": "SSR",
         "description": "自身共情说服力提升X%，持续1回合",
         "nums": [11, 55.01],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -301,7 +330,8 @@
         "rarity": "R",
         "description": "自身共情说服力提升X%，持续2回合",
         "nums": [4.2, 21.03],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -311,7 +341,8 @@
         "rarity": "MR SR",
         "description": "自身共情说服力提升X%，持续2回合",
         "nums": [5.2, 25.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -321,7 +352,8 @@
         "rarity": "SSR",
         "description": "自身共情说服力提升X%，持续2回合",
         "nums": [7, 34.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -331,7 +363,8 @@
         "rarity": "R",
         "description": "自身共情说服力提升X%，持续3回合",
         "nums": [3.6, 18],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -341,7 +374,8 @@
         "rarity": "MR SR",
         "description": "自身共情说服力提升X%，持续3回合",
         "nums": [4.5, 22.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "循循善诱",
@@ -351,7 +385,8 @@
         "rarity": "SSR",
         "description": "自身共情说服力提升X%，持续3回合",
         "nums": [6, 30.03],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -361,7 +396,8 @@
         "rarity": "R",
         "description": "自身直觉说服力提升X%，持续1回合",
         "nums": [6.6, 32.97],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -371,7 +407,8 @@
         "rarity": "MR SR",
         "description": "自身直觉说服力提升X%，持续1回合",
         "nums": [8.2, 40.96],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -381,7 +418,8 @@
         "rarity": "SSR",
         "description": "自身直觉说服力提升X%，持续1回合",
         "nums": [11, 55.01],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -391,7 +429,8 @@
         "rarity": "R",
         "description": "自身直觉说服力提升X%，持续2回合",
         "nums": [4.2, 21.03],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -401,7 +440,8 @@
         "rarity": "MR SR",
         "description": "自身直觉说服力提升X%，持续2回合",
         "nums": [5.2, 25.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -411,7 +451,8 @@
         "rarity": "SSR",
         "description": "自身直觉说服力提升X%，持续2回合",
         "nums": [7, 34.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -421,7 +462,8 @@
         "rarity": "R",
         "description": "自身直觉说服力提升X%，持续3回合",
         "nums": [3.6, 18],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -431,7 +473,8 @@
         "rarity": "MR SR",
         "description": "自身直觉说服力提升X%，持续3回合",
         "nums": [4.5, 22.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "洞察秋毫",
@@ -441,7 +484,8 @@
         "rarity": "SSR",
         "description": "自身直觉说服力提升X%，持续3回合",
         "nums": [6, 30.03],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 1
     },
     {
         "id": "张弛有度",
@@ -451,7 +495,8 @@
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪说服力提升X",
         "nums": [144, 770],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "张弛有度",
@@ -461,7 +506,8 @@
         "rarity": "SSR",
         "description": "进入辩论时，该思绪说服力提升X",
         "nums": [180, 963],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },{
         "id": "举一反三",
         "name": "举一反三 Ⅱ",
@@ -470,7 +516,8 @@
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪基础说服力提升X%",
         "nums": [7.2, 36],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "举一反三",
@@ -480,7 +527,8 @@
         "rarity": "SSR",
         "description": "进入辩论时，该思绪基础说服力提升X%",
         "nums": [9, 45],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "运筹帷幄",
@@ -490,7 +538,8 @@
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪防御力提升X",
         "nums": [144, 770],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "趋利避害",
@@ -500,7 +549,8 @@
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪基础防御力提升X%",
         "nums": [14.4, 72],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "势如破竹",
@@ -510,7 +560,8 @@
         "rarity": "R",
         "description": "当该思绪处于战力加成时，额外提供X%的说服力加成",
         "nums": [0.19, 1],
-        "function": ["support"]
+        "function": "support",
+        "slot": 2
     },
     {
         "id": "步步为营",
@@ -520,7 +571,8 @@
         "rarity": "R",
         "description": "当该思绪处于战力加成时，额外提供X%的防御力加成",
         "nums": [0.19, 1],
-        "function": ["support"]
+        "function": "support",
+        "slot": 2
     },
     {
         "id": "侦探头脑",
@@ -530,7 +582,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "侦探头脑",
@@ -540,7 +593,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "真相还原",
@@ -550,7 +604,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "真相还原",
@@ -560,7 +615,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "瞬间捕捉",
@@ -570,7 +626,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "瞬间捕捉",
@@ -580,7 +637,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "锐辞庭辩",
@@ -590,7 +648,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "锐辞庭辩",
@@ -600,7 +659,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "律典经纬",
@@ -610,7 +670,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "律典经纬",
@@ -620,7 +681,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "律法全能",
@@ -630,7 +692,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "律法全能",
@@ -640,7 +703,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "人格侧写",
@@ -650,7 +714,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "人格侧写",
@@ -660,7 +725,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "谈话引导",
@@ -670,7 +736,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "谈话引导",
@@ -680,7 +747,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "盛装舞步",
@@ -690,7 +758,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "盛装舞步",
@@ -700,7 +769,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "交响奏鸣",
@@ -710,7 +780,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "商业谈判",
@@ -720,7 +791,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "商业谈判",
@@ -730,7 +802,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "名利博弈",
@@ -740,7 +813,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "名利博弈",
@@ -750,7 +824,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "年少锋锐",
@@ -760,7 +835,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X",
         "nums": [21.5, 108],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "年少锋锐",
@@ -770,7 +846,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X",
         "nums": [27, 135],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "纵横捭阖",
@@ -780,7 +857,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
         "nums": [21, 100],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "纵横捭阖",
@@ -790,7 +868,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
         "nums": [26, 125],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "机锋对弈",
@@ -800,7 +879,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "机锋对弈",
@@ -810,7 +890,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "演绎推理",
@@ -820,7 +901,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X",
         "nums": [21, 100],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "演绎推理",
@@ -830,7 +912,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X",
         "nums": [26, 125],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "抽丝剥茧",
@@ -840,7 +923,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "抽丝剥茧",
@@ -850,7 +934,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "击其薄弱",
@@ -860,7 +945,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X",
         "nums": [21, 100],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "击其薄弱",
@@ -870,7 +956,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X",
         "nums": [26, 125],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "釜底抽薪",
@@ -880,7 +967,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "釜底抽薪",
@@ -890,7 +978,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "情绪感染",
@@ -900,7 +989,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X",
         "nums": [21, 100],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "情绪感染",
@@ -910,7 +1000,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X",
         "nums": [26, 125],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "情感投射",
@@ -920,7 +1011,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "情感投射",
@@ -930,7 +1022,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "见微知著",
@@ -940,7 +1033,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X",
         "nums": [21, 100],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "见微知著",
@@ -950,7 +1044,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X",
         "nums": [26, 125],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "正本清源",
@@ -960,7 +1055,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "正本清源",
@@ -970,7 +1066,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 3
     },
     {
         "id": "敏锐观察",
@@ -980,7 +1077,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X",
         "nums": [21, 100],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "敏锐观察",
@@ -990,7 +1088,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X",
         "nums": [26, 125],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "直感思维",
@@ -1000,7 +1099,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "直感思维",
@@ -1010,7 +1110,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
-        "function": ["attack up"]
+        "function": "attack up",
+        "slot": 2
     },
     {
         "id": "紧急避险",
@@ -1020,7 +1121,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "紧急避险",
@@ -1030,7 +1132,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "体能超群",
@@ -1040,7 +1143,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X%",
         "nums": [2.56, 12.82],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "体能超群",
@@ -1050,7 +1154,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X%",
         "nums": [3.2, 15.98],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "古物修复",
@@ -1060,7 +1165,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "古物修复",
@@ -1070,7 +1176,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "绝对理性",
@@ -1080,7 +1187,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有左然思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "绝对理性",
@@ -1090,7 +1198,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有左然思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "有条不紊",
@@ -1100,7 +1209,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "有条不紊",
@@ -1110,7 +1220,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "箱庭疗法",
@@ -1120,7 +1231,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有莫弈思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "箱庭疗法",
@@ -1130,7 +1242,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有莫弈思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "温文尔雅",
@@ -1140,7 +1253,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "温文尔雅",
@@ -1150,7 +1264,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "自我评估",
@@ -1160,7 +1275,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%",
         "nums": [2.56, 12.82],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "自我评估",
@@ -1170,7 +1286,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%",
         "nums": [3.2, 15.98],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "执行总裁",
@@ -1180,7 +1297,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有陆景和思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "执行总裁",
@@ -1190,7 +1308,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有陆景和思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "精英教育",
@@ -1200,7 +1319,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X",
         "nums": [21.5, 108],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "精英教育",
@@ -1210,7 +1330,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X",
         "nums": [27, 135],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "顺水推舟",
@@ -1220,7 +1341,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X",
         "nums": [21, 100],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "顺水推舟",
@@ -1230,7 +1352,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X",
         "nums": [26, 125],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "排比增势",
@@ -1240,7 +1363,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "排比增势",
@@ -1250,7 +1374,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "还施彼身",
@@ -1260,7 +1385,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X",
         "nums": [21, 100],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "还施彼身",
@@ -1270,7 +1396,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X",
         "nums": [26, 125],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "引譬连类",
@@ -1280,7 +1407,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X",
         "nums": [21, 100],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "引譬连类",
@@ -1290,7 +1418,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X",
         "nums": [26, 125],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "滴水不漏",
@@ -1300,7 +1429,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "滴水不漏",
@@ -1310,7 +1440,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "无懈可击",
@@ -1320,7 +1451,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X",
         "nums": [21, 100],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "无懈可击",
@@ -1330,7 +1462,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X",
         "nums": [26, 125],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "因势利导",
@@ -1340,7 +1473,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "因势利导",
@@ -1350,7 +1484,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "防微虑远",
@@ -1360,7 +1495,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X",
         "nums": [21, 100],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "防微虑远",
@@ -1370,7 +1506,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X",
         "nums": [26, 125],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "攻势化解",
@@ -1380,7 +1517,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "攻势化解",
@@ -1390,7 +1528,8 @@
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 3
     },
     {
         "id": "预见之明",
@@ -1400,7 +1539,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X",
         "nums": [21, 100],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "预见之明",
@@ -1410,7 +1550,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X",
         "nums": [26, 125],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "本能回避",
@@ -1420,7 +1561,8 @@
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%",
         "nums": [2.3, 11.48],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "本能回避",
@@ -1430,7 +1572,8 @@
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%",
         "nums": [2.88, 14.4],
-        "function": ["defence up"]
+        "function": "defence up",
+        "slot": 2
     },
     {
         "id": "示假隐真",
@@ -1440,7 +1583,8 @@
         "rarity": "R",
         "description": "使对方说服力降低X%，持续1回合",
         "nums": [5.4, 27],
-        "function": ["attack down"]
+        "function": "attack down",
+        "slot": 1
     },
     {
         "id": "示假隐真",
@@ -1450,7 +1594,8 @@
         "rarity": "R",
         "description": "使对方说服力降低X%，持续2回合",
         "nums": [3.8, 19.01],
-        "function": ["attack down"]
+        "function": "attack down",
+        "slot": 1
     },
     {
         "id": "示假隐真",
@@ -1460,7 +1605,8 @@
         "rarity": "MR SR",
         "description": "使对方说服力降低X%，持续2回合",
         "nums": [3, 14.97],
-        "function": ["attack down"]
+        "function": "attack down",
+        "slot": 1
     },
     {
         "id": "示假隐真",
@@ -1470,7 +1616,8 @@
         "rarity": "MR SR",
         "description": "使对方说服力降低X%，持续3回合",
         "nums": [2.7, 13.5],
-        "function": ["attack down"]
+        "function": "attack down",
+        "slot": 1
     },
     {
         "id": "以德服人",
@@ -1480,7 +1627,8 @@
         "rarity": "R",
         "description": "使对方防御力降低X%，持续1回合",
         "nums": [9, 45],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "以德服人",
@@ -1490,7 +1638,8 @@
         "rarity": "SSR",
         "description": "使对方防御力降低X%，持续1回合",
         "nums": [15, 75.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "以德服人",
@@ -1500,7 +1649,8 @@
         "rarity": "R",
         "description": "使对方防御力降低X%，持续2回合",
         "nums": [9, 45],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "设问否定",
@@ -1510,7 +1660,8 @@
         "rarity": "R",
         "description": "使对方逻辑防御力降低X%，持续1回合",
         "nums": [11.4, 57.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "设问否定",
@@ -1520,7 +1671,8 @@
         "rarity": "R",
         "description": "使对方逻辑防御力降低X%，持续2回合",
         "nums": [7.8, 39.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "设问否定",
@@ -1530,7 +1682,8 @@
         "rarity": "MR SR",
         "description": "使对方逻辑防御力降低X%，持续2回合",
         "nums": [9.8, 49.04],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "设问否定",
@@ -1540,7 +1693,8 @@
         "rarity": "R",
         "description": "使对方逻辑防御力降低X%，持续3回合",
         "nums": [7.2, 36],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "设问否定",
@@ -1550,7 +1704,8 @@
         "rarity": "MR SR",
         "description": "使对方逻辑防御力降低X%，持续3回合",
         "nums": [9, 45],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "引申归谬",
@@ -1560,7 +1715,8 @@
         "rarity": "R",
         "description": "使对方共情防御力降低X%，持续1回合",
         "nums": [11.4, 57.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "引申归谬",
@@ -1570,7 +1726,8 @@
         "rarity": "R",
         "description": "使对方共情防御力降低X%，持续2回合",
         "nums": [7.8, 39.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "引申归谬",
@@ -1580,7 +1737,8 @@
         "rarity": "MR SR",
         "description": "使对方共情防御力降低X%，持续2回合",
         "nums": [9.8, 49.04],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "引申归谬",
@@ -1590,7 +1748,8 @@
         "rarity": "R",
         "description": "使对方共情防御力降低X%，持续3回合",
         "nums": [7.2, 36],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "引申归谬",
@@ -1600,7 +1759,8 @@
         "rarity": "MR SR",
         "description": "使对方共情防御力降低X%，持续3回合",
         "nums": [9, 45],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "避实就虚",
@@ -1610,7 +1770,8 @@
         "rarity": "R",
         "description": "使对方直觉防御力降低X%，持续1回合",
         "nums": [11.4, 57.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "避实就虚",
@@ -1620,7 +1781,8 @@
         "rarity": "R",
         "description": "使对方直觉防御力降低X%，持续2回合",
         "nums": [7.8, 39.03],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "避实就虚",
@@ -1630,7 +1792,8 @@
         "rarity": "MR SR",
         "description": "使对方直觉防御力降低X%，持续2回合",
         "nums": [9.8, 49.04],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "避实就虚",
@@ -1640,7 +1803,8 @@
         "rarity": "R",
         "description": "使对方直觉防御力降低X%，持续3回合",
         "nums": [7.2, 36],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     },
     {
         "id": "避实就虚",
@@ -1650,6 +1814,7 @@
         "rarity": "MR SR",
         "description": "使对方直觉防御力降低X%，持续3回合",
         "nums": [9, 45],
-        "function": ["defence down"]
+        "function": "defence down",
+        "slot": 1
     }
 ]

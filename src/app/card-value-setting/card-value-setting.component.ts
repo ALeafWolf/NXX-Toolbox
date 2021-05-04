@@ -29,12 +29,14 @@ export class CardValueSettingComponent implements OnInit {
   star = 1;
   att = 0;
   def = 0;
-  skillsID = ["", "", ""];
+  skillsID = [];
   skillNames = [];
   skills = [1, 1, 1];
   skillNums = [];
-  skillNumTypes = ["", "", ""];
-  skillsInfo = ["", "", ""];
+  skillNumTypes = [];
+  skillChars = []
+  skillTypes = []
+  skillsInfo = [];
   power = 0;
 
   constructor(private _route: ActivatedRoute, private _data: DataService) {
@@ -52,7 +54,7 @@ export class CardValueSettingComponent implements OnInit {
           this.card = c;
           this.att = c.attack;
           this.def = c.defence;
-          if(c.rarity == "R"){
+          if (c.rarity == "R") {
             this.lv = 70
           }
         }
@@ -87,37 +89,29 @@ export class CardValueSettingComponent implements OnInit {
   //set the string of skills that being display on the page
   setSkillDisplay(data: any[]) {
     if (this.card) {
-      let id = []
-      let des = []
-      let names = []
-      let nums = []
-      let types = []
       for (let i = 0; i < 3; i++) {
         let skillName = this.card.skills[i]
-        names.push(skillName)
+        this.skillNames.push(skillName)
         for (let s of data) {
           if (s.name == skillName) {
-            id.push(s.id)
+            this.skillsID.push(s.id)
+            this.skillChars.push(s.character)
+            this.skillTypes.push(s.type)
             //calculate correct number for the skill at matching lv
             let num = (this.skills[i] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
-            nums.push(num.toFixed(2))
+            this.skillNums.push(num.toFixed(2))
             //replace X in the description with correct number
             let line = s.description.toString()
-            if(line.includes("%")){
-              types.push("%")
-            }else{
-              types.push("")
+            if (line.includes("%")) {
+              this.skillNumTypes.push("%")
+            } else {
+              this.skillNumTypes.push("")
             }
             let str = line.replace("X", num.toFixed(2).toString())
-            des.push(str);
+            this.skillsInfo.push(str);
           }
         }
       }
-      this.skillsID = id;
-      this.skillsInfo = des;
-      this.skillNames = names;
-      this.skillNums = nums;
-      this.skillNumTypes = types;
     }
   }
 
@@ -166,17 +160,22 @@ export class CardValueSettingComponent implements OnInit {
 
   saveUserData() {
     let d = {
+      //necessary statistics of cards
       charName: this.card.character,
       name: this.card.name,
       star: this.star,
+      rarity: this.card.rarity,
+      type: this.card.type,
+      //for collect skills 2 and 3 at calculator page
       skills: this.skills,
       skillIDs: this.skillsID,
       skillNames: this.skillNames,
       skillNums: this.skillNums,
       skillNumTypes: this.skillNumTypes,
+      skillTypes: this.skillTypes,
+      skillChar: this.skillChars,
       power: this.power
     }
-    console.log(d)
     localStorage.setItem(this.card.id, JSON.stringify(d))
     console.log("saved")
   }
