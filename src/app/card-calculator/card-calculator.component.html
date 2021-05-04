@@ -21,21 +21,21 @@
             <h6>技能二</h6>
             <div class="border-bottom border-secondary mb-2">
                 <div class="row justify-content-center">
-                    <div class="col-3">
-                        <a [routerLink]="['/skills']" routerLinkActive="active" target="_blank">
-                            <img class="img-fluid icon" src="assets/images/技能/盛装舞步.png">
+                    <div *ngFor="let s of secondSkills" class="col-3">
+                        <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
+                            <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
                         </a>
-                        <p>x 20%</p>
+                        <p>{{s.num.toFixed(2)}}{{s.numType}}</p>
                     </div>
                 </div>
             </div>
             <h6>技能三</h6>
             <div class="row justify-content-center">
-                <div class="col-3">
-                    <a [routerLink]="['/skills']" routerLinkActive="active" target="_blank">
-                        <img class="img-fluid icon" src="assets/images/技能/锐辞庭辩.png">
+                <div *ngFor="let s of thirdSkills" class="col-3">
+                    <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
+                        <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
                     </a>
-                    <p>+ 250</p>
+                    <p>{{s.num.toFixed(2)}}{{s.numType}}</p>
                 </div>
 
             </div>

@@ -37,26 +37,27 @@ export class CardCalculatorComponent implements OnInit {
     if(0 != this.userData.length){
       this.loadSkillCounts()
     }
-    
   }
 
+  //load skill statistics for chosen cards
   loadSkillCounts() {
-    // console.log(this.userData)
     this.userData.forEach(data => {
-      let isIn = false;
-      this.secondSkills.forEach(skill => {
-        // console.log(`${skill.name} ${data.skillNames[1]}`)
-        if(skill.name == data.skillNames[1]){
-          console.log("yay")
-          skill.num += Number(data.skillNums[1])
-          isIn = true
-        }
-      })
-      if(!isIn){
-        console.log("Add new")
-        this.addSkillPack(data, this.secondSkills, 1);
+      this.addSkill(data, this.secondSkills, 1)
+      this.addSkill(data, this.thirdSkills, 2)
+    })
+  }
+
+  addSkill(userData: any, skillList: any[], skillIndex: number){
+    let isIn = false;
+    skillList.forEach(skill => {
+      if(skill.name == userData.skillNames[skillIndex]){
+        skill.num += Number(userData.skillNums[skillIndex])
+        isIn = true
       }
     })
+    if(!isIn){
+      this.addSkillPack(userData, skillList, skillIndex);
+    }
   }
 
   addSkillPack(userData: any, skillList: any[], skillIndex: number) {
