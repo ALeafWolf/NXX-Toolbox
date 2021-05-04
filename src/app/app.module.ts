@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { BrowserModule, Meta } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms'; 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -45,7 +45,7 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [Meta],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

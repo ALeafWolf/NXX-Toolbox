@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { Router, NavigationEnd } from '@angular/router';
+import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { SEOService } from './services/seo/seo.service';
-import { Title, Meta, MetaDefinition } from '@angular/platform-browser';
+import { filter, map } from 'rxjs/operators';
 
 declare let gtag: Function;
 
@@ -11,10 +11,8 @@ declare let gtag: Function;
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tears-of-themis-calculator';
-  metas: MetaDefinition[];
 
-  constructor(public router: Router, private _seoService: SEOService) {
+  constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) {
     //for google analystics
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
@@ -26,7 +24,15 @@ export class AppComponent {
           });
       }
     })
-    this._seoService.loadTags()
+  }
+
+  ngOnInit() {
+    // this._seoService.loadTags()
+    // this.router.events.pipe(
+    //   filter(event => event instanceof NavigationEnd)
+    // ).subscribe(() => {
+    // let rt = this.getChild(this.activatedRoute)
+    // })
   }
 
   //change the title of page while routing

@@ -18,8 +18,8 @@ export class HomeComponent implements OnInit {
     let post = '.png'
     let arr = ['初代2', '夏彦', '左然', '莫弈', '陆景和']
     let i = Math.floor(Math.random() * 4);
-    console.log(i)
-    return pre + arr[i] + post;
+    let a = '莫弈'
+    return pre + a + post;
   }
 
 }

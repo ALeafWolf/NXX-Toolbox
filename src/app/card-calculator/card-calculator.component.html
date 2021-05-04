@@ -16,17 +16,38 @@
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-11 col-lg-5 bg-dark my-2 p-2">
-            owo
+        <div class="col-11 col-lg-5 bg-dark my-2 p-2 text-center">
+            <h5 class="border-bottom pb-2">技能加成</h5>
+            <h6>技能二</h6>
+            <div class="border-bottom border-secondary mb-2">
+                <div class="row justify-content-center">
+                    <div class="col-3">
+                        <a [routerLink]="['/skills']" routerLinkActive="active" target="_blank">
+                            <img class="img-fluid icon" src="assets/images/技能/盛装舞步.png">
+                        </a>
+                        <p>x 20%</p>
+                    </div>
+                </div>
+            </div>
+            <h6>技能三</h6>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <a [routerLink]="['/skills']" routerLinkActive="active" target="_blank">
+                        <img class="img-fluid icon" src="assets/images/技能/锐辞庭辩.png">
+                    </a>
+                    <p>+ 250</p>
+                </div>
+
+            </div>
         </div>
         <div class="col-12 col-lg-5 row justify-content-around">
-            <div class="col-3" *ngFor="let i of userData">
+            <div class="col-3 my-2" *ngFor="let i of userData">
                 <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
                     <img class="img-fluid calculatorIcon"
                         src="{{'assets/images/' + i.charName + '/' + i.name + '.png'}}">
                 </a>
             </div>
-            <div class="col-3" *ngFor="let i of emptyHolder">
+            <div class="col-3 my-2" *ngFor="let i of emptyHolder">
                 <a routerLink="/card-selection" routerLinkActive="active">
                     <img class="img-fluid calculatorIcon" src="assets/images/boxgacha_icon_frame_1.png">
                 </a>

@@ -7,28 +7,69 @@ import { DataService } from '../services/data/data.service';
   styleUrls: ['./card-calculator.component.scss']
 })
 export class CardCalculatorComponent implements OnInit {
-  userData = []
+  userData = [];
   emptyHolder;
   totalPower = 0;
-  constructor(private _data: DataService) {
-    // this.userData = {...localStorage}
-    Object.values(localStorage).forEach(item => {
-      let i = JSON.parse(item)
-      this.totalPower += i.power
-      this.userData.push(i)
-    })
+  secondSkills = [];
+  thirdSkills = [];
+
+  constructor(private _data: DataService) { }
+
+  ngOnInit(): void {
+    this.loadUserCards()
     this.generateEmptyHolder()
   }
 
-  ngOnInit(): void {
-  }
-
-  generateEmptyHolder(){
+  generateEmptyHolder() {
     let userLength = this.userData.length
     this.emptyHolder = Array(15 - userLength).fill(0)
   }
 
-  clearAllSavedData(){
+  loadUserCards() {
+    Object.keys(localStorage).forEach(k => {
+      //load card icon on screen
+      if (k != "language") {
+        let i = JSON.parse(localStorage.getItem(k))
+        this.totalPower += i.power
+        this.userData.push(i)
+      }
+    })
+    if(0 != this.userData.length){
+      this.loadSkillCounts()
+    }
+    
+  }
+
+  loadSkillCounts() {
+    // console.log(this.userData)
+    this.userData.forEach(data => {
+      let isIn = false;
+      this.secondSkills.forEach(skill => {
+        // console.log(`${skill.name} ${data.skillNames[1]}`)
+        if(skill.name == data.skillNames[1]){
+          console.log("yay")
+          skill.num += Number(data.skillNums[1])
+          isIn = true
+        }
+      })
+      if(!isIn){
+        console.log("Add new")
+        this.addSkillPack(data, this.secondSkills, 1);
+      }
+    })
+  }
+
+  addSkillPack(userData: any, skillList: any[], skillIndex: number) {
+    let skill = {
+      id: userData.skillIDs[skillIndex],
+      name: userData.skillNames[skillIndex],
+      num: Number(userData.skillNums[skillIndex]),
+      numType: userData.skillNumTypes[skillIndex]
+    }
+    skillList.push(skill)
+  }
+
+  clearAllSavedData() {
     this._data.clear()
     window.location.reload()
   }

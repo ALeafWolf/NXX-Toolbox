@@ -5,7 +5,7 @@
                 <a class="col-4 btn" [routerLink]="['/card-value-setting/', char, id]">
                     <img class="img-fluid" src="assets/images/btn_edit.png">
                 </a>
-                <a class="col-4 btn" routerLink="/card-calculator">
+                <a *ngIf="hasUserData" class="col-4 btn" routerLink="/card-calculator" (click)="deleteUserData()">
                     <img class="img-fluid" src="assets/images/btn_delete.png">
                 </a>
             </div>

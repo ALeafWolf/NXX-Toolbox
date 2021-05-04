@@ -1611,8 +1611,8 @@
             "以理服人α Ⅰ",
             "势如破竹 Ⅰ"
         ],
-        "attack": 879,
-        "defence": 480,
+        "attack": 837,
+        "defence": 457,
         "obtainedFrom": [
             "活动（限定）"
         ]
@@ -1627,8 +1627,24 @@
             "层层深入α Ⅰ",
             "步步为营 Ⅰ"
         ],
-        "attack": 879,
-        "defence": 480,
+        "attack": 837,
+        "defence": 457,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "品味香甜",
+        "name": "品味香甜",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "skills": [
+            "以理服人α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "attack": 863,
+        "defence": 431,
         "obtainedFrom": [
             "活动（限定）"
         ]
@@ -1827,8 +1843,24 @@
             "循循善诱γ Ⅰ",
             "步步为营 Ⅰ"
         ],
-        "attack": 879,
-        "defence": 480,
+        "attack": 837,
+        "defence": 457,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "全新体验",
+        "name": "全新体验",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "skills": [
+            "以退为进γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "attack": 863,
+        "defence": 431,
         "obtainedFrom": [
             "活动（限定）"
         ]

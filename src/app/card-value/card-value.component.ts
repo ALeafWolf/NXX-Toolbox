@@ -28,6 +28,7 @@ export class CardValueComponent implements OnInit {
 
   //for localStorage
   userData;
+  hasUserData = false;
   star = 1;
   att = 0;
   def = 0;
@@ -66,6 +67,7 @@ export class CardValueComponent implements OnInit {
         })
         //if localStorage has user's data for this card
         if (this.userData) {
+          this.hasUserData = true;
           this.skills = this.userData.skills
           this.star = this.userData.star
           this.calculateRss()

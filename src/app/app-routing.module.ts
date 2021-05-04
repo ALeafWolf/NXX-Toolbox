@@ -13,24 +13,117 @@ import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: 'card-calculator', component: CardCalculatorComponent},
-  {path: 'cards', component: CardListComponent},
-  {path: 'skills', component: SkillListComponent},
-  {path: 'skill/:name', component: SkillDetailComponent},
-  {path: 'card-selection', component: CardSelectionComponent},
   {
-    path: 'card-value/:charname/:id', 
-    component: CardValueComponent
+    path: 'home',
+    component: HomeComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
   },
   {
-    path: 'card-value-setting/:charname/:id', 
-    component: CardValueSettingComponent
+    path: 'card-calculator',
+    component: CardCalculatorComponent,
+    data: {
+      title: '战力计算器',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
   },
-  {path: 'other', component: OtherComponent},
-  {path: 'card-pool-history', component: CardPoolHistoryComponent},
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
-  {path: '**', component: PageNotFoundComponent},
+  {
+    path: 'cards',
+    component: CardListComponent,
+    data: {
+      title: '思绪索引',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'skills',
+    component: SkillListComponent,
+    data: {
+      title: '技能索引',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'skill/:name',
+    component: SkillDetailComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'card-selection',
+    component: CardSelectionComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'card-value/:charname/:id',
+    component: CardValueComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'card-value-setting/:charname/:id',
+    component: CardValueSettingComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'other',
+    component: OtherComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  {
+    path: 'card-pool-history',
+    component: CardPoolHistoryComponent,
+    data: {
+      title: '主页',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
+  {
+    path: '**',
+    component: PageNotFoundComponent,
+    data: {
+      title: '404',
+      description: '',
+      ogTitle: '',
+      twitterTitle: ''
+    }
+  },
 
 ];
 
