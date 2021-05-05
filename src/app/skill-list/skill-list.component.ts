@@ -99,25 +99,4 @@ export class SkillListComponent implements OnInit {
     this.filterConditions = ["All", "All", "All", "All"];
     this.filterSkillList()
   }
-  // filterSkills(){
-  //   let listHolder = []
-  //   this.fullSkillList.forEach(skill => {
-  //     let condition = this.filterConditions[0]
-  //     if(condition == "All" || skill.character == condition){
-  //       condition = this.filterConditions[1]
-  //       if(condition == "All" || ((condition == "MR"||condition == "SR") && skill.rarity.includes(condition)) || skill.rarity == condition){
-  //         condition = this.filterConditions[2]
-  //         if(condition == "All" || skill.type == condition){
-  //           condition = this.filterConditions[2]
-  //           if(condition == "All" || skill.function == condition){
-  //             listHolder.push(skill)
-  //           }
-  //         }
-  //       }
-  //     }
-  //   });
-  //   console.log(listHolder)
-  //   this.skillList = listHolder;
-  // }
-
 }
