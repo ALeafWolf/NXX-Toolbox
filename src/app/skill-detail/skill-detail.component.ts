@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { SEOService } from '../services/seo/seo.service';
 import { DataService } from '../services/data/data.service';
 
 @Component({
@@ -14,7 +15,7 @@ export class SkillDetailComponent implements OnInit {
   skillStatistic;
   cards;
 
-  constructor(private _route: ActivatedRoute, private _data: DataService) {
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
     this.name = this._route.snapshot.params.name;
   }
 
@@ -24,6 +25,7 @@ export class SkillDetailComponent implements OnInit {
     })
     this._data.getSkill(this.name).toPromise().then((data: any[]) => {
       this.skill = data[0]
+      this._seoService.setTitle(`技能：${this.skill.name}`);
       this.skillStatistic = this.getSkillStatistic(this.skill)
     })
   }

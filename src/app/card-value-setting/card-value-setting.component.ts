@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../services/data/data.service';
+import { SEOService } from '../services/seo/seo.service';
 import { SkillInfo, CardInfo } from '../model/card-statistics';
 
 @Component({
@@ -41,7 +42,7 @@ export class CardValueSettingComponent implements OnInit {
   skillsInfo = [];
   power = 0;
 
-  constructor(private _route: ActivatedRoute, private _data: DataService) {
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
     this.char = this._route.snapshot.params.charname
     this.id = this._route.snapshot.params.id
     this.charRssGroup = SkillInfo.getSkillRssGroup(this.char);
@@ -56,6 +57,7 @@ export class CardValueSettingComponent implements OnInit {
           this.card = c;
           this.att = c.attack;
           this.def = c.defence;
+          this._seoService.setTitle(`思绪：${this.card.name}`);
           if (c.rarity == "R") {
             this.lv = 70
             this.skills = [1, 1]
@@ -71,29 +73,35 @@ export class CardValueSettingComponent implements OnInit {
         })
         //if localStorage has user's data for this card
         if (this.userData) {
-          this.hasUserData = true;
-          this.skills = this.userData.skills
-          this.star = this.userData.star
-          this.calculateRss()
-          this.calculateCardStatistic()
-          // this.setSkillDisplay();
-          this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+          this.loadUserData();
         }
       }).catch(err => console.log(err))
       if (this.card) {
-        let list = []
-        this.card.skills.forEach(s => {
-          this._data.getSkill(s).toPromise().then(response => {
-            console.log(response[0])
-            list.push(response[0])
-          })
-        });
-        this.skillList = list
-        this._data.getSkills().toPromise().then(data => {
-          this.allSkillList = data
-          this.setSkillDisplay();
-        })
+        this.loadSkillInfo()
       }
+    })
+  }
+
+  loadUserData() {
+    this.hasUserData = true;
+    this.skills = this.userData.skills
+    this.star = this.userData.star
+    this.calculateRss()
+    this.calculateCardStatistic()
+    this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+  }
+
+  loadSkillInfo() {
+    let list = []
+    this.card.skills.forEach(s => {
+      this._data.getSkill(s).toPromise().then(response => {
+        list.push(response[0])
+      })
+    });
+    this.skillList = list
+    this._data.getSkills().toPromise().then(data => {
+      this.allSkillList = data
+      this.setSkillDisplay();
     })
   }
 
@@ -109,7 +117,7 @@ export class CardValueSettingComponent implements OnInit {
     this.skillsInfo = []
 
     let r = 3;
-    if(this.card.rarity == "R"){
+    if (this.card.rarity == "R") {
       r = 2
     }
 

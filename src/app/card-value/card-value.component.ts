@@ -2,6 +2,7 @@ import { Component, OnInit, Input, OnChanges, SimpleChange, SimpleChanges } from
 import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../services/data/data.service';
+import { SEOService } from '../services/seo/seo.service';
 import { SkillInfo, CardInfo } from '../model/card-statistics';
 
 @Component({
@@ -16,7 +17,7 @@ export class CardValueComponent implements OnInit {
 
   //from data service
   charRssGroup;
-  @Input() card: any;
+  card: any;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
   skillList;
   allSkillList;
@@ -38,7 +39,7 @@ export class CardValueComponent implements OnInit {
   power = 0;
 
 
-  constructor(private _route: ActivatedRoute, private _data: DataService) {
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
     this.id = this._route.snapshot.params.id;
     this.char = this._route.snapshot.params.charname;
     this.charRssGroup = SkillInfo.getSkillRssGroup(this.char);
@@ -59,6 +60,7 @@ export class CardValueComponent implements OnInit {
           this.card = c;
           this.att = c.attack;
           this.def = c.defence;
+          this._seoService.setTitle(`思绪：${this.card.name}`);
           if (c.rarity == "R") {
             this.lv = 70
           }

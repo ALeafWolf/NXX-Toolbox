@@ -20,7 +20,7 @@ export class SEOService {
   }
 
   setTitle(title){
-    this._title.setTitle(title);
+    this._title.setTitle(`${title} - ${this.title}`);
   }
 
   loadTags(){

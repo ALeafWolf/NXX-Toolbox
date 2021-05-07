@@ -31,7 +31,7 @@ export class AppComponent {
     if(!localStorage.getItem('language')){
       localStorage.setItem('language', 'CN')
     }
-    // this._seoService.loadTags()
+    this._seoService.loadTags()
     // this.router.events.pipe(
     //   filter(event => event instanceof NavigationEnd)
     // ).subscribe(() => {
@@ -41,8 +41,7 @@ export class AppComponent {
 
   //change the title of page while routing
   setTitle(url: string) {
-    let s = ''
-    let p = ' - 牛叉叉牌工具箱'
+    let s;
     switch (url) {
       case '/home':
         s = '主页';
@@ -65,12 +64,11 @@ export class AppComponent {
       case '/card-pool-history':
         s = '往期女神之影';
         break;
-      default:
-        p = '牛叉叉牌工具箱'
     }
-
-    this._seoService.setTitle(s + p);
-
+    console.log(s)
+    if(s){
+      this._seoService.setTitle(s);
+    }
   }
 
 }
