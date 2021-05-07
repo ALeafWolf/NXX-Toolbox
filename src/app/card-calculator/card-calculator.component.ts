@@ -76,7 +76,9 @@ export class CardCalculatorComponent implements OnInit {
   loadSkillCounts() {
     this.addSecondSkill(this.userData, 1)
     this.userData.forEach(data => {
-      this.addThirdSkill(data, this.thirdSkills, 2)
+      if(data.rarity != "R"){
+        this.addThirdSkill(data, this.thirdSkills, 2)
+      }
     })
   }
 

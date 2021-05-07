@@ -10,7 +10,7 @@ export class SkillListComponent implements OnInit {
   
   fullSkillList: any[];
   skillList: any[];
-  filterConditions = ["All", "All", "All", "All"]
+  filterConditions = ["All", "All", "All", "All", "All"]
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
@@ -60,7 +60,8 @@ export class SkillListComponent implements OnInit {
       if(condition == "All"){
         finalListHolder.push(skill)
       }else if(condition == "MR"||condition == "SR"){
-        if(skill.rarity.includes(condition)){
+        console.log(`${skill.rarity}`)
+        if(skill.rarity.indexOf(condition) >= 0){
           finalListHolder.push(skill)
         }
       }else if(skill.rarity == condition){

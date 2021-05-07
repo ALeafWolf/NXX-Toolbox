@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChange, SimpleChanges } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../services/data/data.service';
@@ -16,7 +16,7 @@ export class CardValueComponent implements OnInit {
 
   //from data service
   charRssGroup;
-  card;
+  @Input() card: any;
   skillLevelUpRssList;  //lv2-lv10, index 0-8
   skillList;
   allSkillList;
@@ -44,7 +44,13 @@ export class CardValueComponent implements OnInit {
     this.charRssGroup = SkillInfo.getSkillRssGroup(this.char);
   }
 
+  ngOnchanges(changes: SimpleChanges){
+    console.log("OnChanges called")
+  }
+
   ngOnInit(): void {
+    console.log("OnInit called")
+
     this.userData = JSON.parse(this._data.getItem(this.id))
 
     this._data.getCards().subscribe((data: any[]) => {
@@ -79,16 +85,16 @@ export class CardValueComponent implements OnInit {
       if (this.card) {
         let list = []
         this.card.skills.forEach(s => {
-          this._data.getSkill(s).toPromise().then(response => {
+          this._data.getSkill(s).subscribe(response => {
             list.push(response[0])
-          }).catch(err => console.log(err))
+          })
         });
         this.skillList = list
       }
-      this._data.getSkills().toPromise().then(data => {
+      this._data.getSkills().subscribe(data => {
         this.allSkillList = data
         this.setSkillDisplay();
-      }).catch(err => console.log(err))
+      })
 
     })
   }

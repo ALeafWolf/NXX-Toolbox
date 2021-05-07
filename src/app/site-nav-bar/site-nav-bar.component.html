@@ -14,8 +14,7 @@
         <a class="nav-link" routerLink="/card-calculator" routerLinkActive="active">战力计算器</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" role="button"
-          data-toggle="dropdown">资料索引</a>
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">资料索引</a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" routerLink="/cards" routerLinkActive="active">思绪列表</a>
           <a class="dropdown-item" routerLink="/skills" routerLinkActive="active">技能列表</a>
@@ -26,6 +25,17 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/other" routerLinkActive="active">其他</a>
       </li>
+      <!-- <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">语言</a>
+        <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
+          <form>
+            <fieldset id="language">
+              <label><input type="radio" [(ngModel)]="language" value="CN" (ngModelChange)="changeLanguage()" name="language">中文</label><br/>
+              <label><input type="radio" [(ngModel)]="language" value="EN" (ngModelChange)="changeLanguage()" name="language">English</label>
+            </fieldset>
+          </form>
+        </div>
+      </li> -->
     </ul>
   </div>
 </nav>

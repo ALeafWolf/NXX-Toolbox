@@ -17,28 +17,35 @@
     </div>
     <div class="col-12 row justify-content-around">
         <div class="col-11 col-lg-4 bg-dark my-2 p-2 text-center">
-            <h5 class="border-bottom pb-2">技能加成</h5>
-            <h6>技能二</h6>
-            <div class="border-bottom border-secondary mb-2">
+            <!-- <div class="row border-bottom justify-content-around">
+                <p class="col-1">▼</p>
+                <h5 class="font-weight-bold col">技能加成</h5>
+                <p class="col-1">▼</p>
+            </div> -->
+            <h5 class="font-weight-bold col">技能加成</h5>
+            <div class="mt-2" id="skillSummary">
+                <h5>技能二</h5>
+                <div class="border-bottom border-secondary mb-2">
+                    <div class="row justify-content-center">
+                        <div *ngFor="let s of secondSkills" class="col-3">
+                            <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
+                                <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
+                            </a>
+                            <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
+                        </div>
+                    </div>
+                </div>
+                <h5>技能三</h5>
                 <div class="row justify-content-center">
-                    <div *ngFor="let s of secondSkills" class="col-3">
+                    <div *ngFor="let s of thirdSkills" class="col-3">
                         <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
                             <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
                         </a>
-                        <p class="smallFont">{{s.name}}<br/>{{s.num.toFixed(2)}}{{s.numType}}</p>
+                        <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
                     </div>
                 </div>
             </div>
-            <h6>技能三</h6>
-            <div class="row justify-content-center">
-                <div *ngFor="let s of thirdSkills" class="col-3">
-                    <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
-                        <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
-                    </a>
-                    <p class="smallFont">{{s.name}}<br/>{{s.num.toFixed(2)}}{{s.numType}}</p>
-                </div>
 
-            </div>
         </div>
         <div class="col-12 col-lg-7 row justify-content-around">
             <div class="col-3 my-2" *ngFor="let i of userData">

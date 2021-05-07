@@ -7,11 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SiteNavBarComponent implements OnInit {
   isMenuCollapsed;
+  language;
+
   constructor() { 
-    this.isMenuCollapsed = true;
   }
 
   ngOnInit(): void {
+    this.isMenuCollapsed = true;
+    this.language = localStorage.getItem('language')
+  }
+
+  changeLanguage(){
+    localStorage.setItem('language', this.language)
   }
 
 }

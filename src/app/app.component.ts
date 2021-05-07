@@ -12,7 +12,9 @@ declare let gtag: Function;
 })
 export class AppComponent {
 
-  constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) {
+  constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) {}
+
+  ngOnInit() {
     //for google analystics
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
@@ -24,9 +26,11 @@ export class AppComponent {
           });
       }
     })
-  }
 
-  ngOnInit() {
+    // set default language to Chinese
+    if(!localStorage.getItem('language')){
+      localStorage.setItem('language', 'CN')
+    }
     // this._seoService.loadTags()
     // this.router.events.pipe(
     //   filter(event => event instanceof NavigationEnd)
