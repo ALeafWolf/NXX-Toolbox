@@ -583,7 +583,7 @@
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "侦探头脑",
@@ -594,7 +594,7 @@
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "真相还原",
@@ -649,7 +649,7 @@
         "description": "主战思绪中所有左然思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "锐辞庭辩",
@@ -660,7 +660,7 @@
         "description": "主战思绪中所有左然思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "律典经纬",
@@ -671,7 +671,7 @@
         "description": "主战思绪中所有左然思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "律典经纬",
@@ -682,7 +682,7 @@
         "description": "主战思绪中所有左然思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "律法全能",
@@ -715,7 +715,7 @@
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "人格侧写",
@@ -726,7 +726,7 @@
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "谈话引导",
@@ -737,7 +737,7 @@
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "谈话引导",
@@ -748,7 +748,7 @@
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "盛装舞步",
@@ -792,7 +792,7 @@
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
         "nums": [21.5, 108],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "商业谈判",
@@ -803,7 +803,7 @@
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
         "nums": [27, 135],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "名利博弈",
@@ -814,7 +814,7 @@
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
         "nums": [1.28, 6.5],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "名利博弈",
@@ -825,7 +825,7 @@
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
         "nums": [1.6, 7.99],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "年少锋锐",
@@ -858,7 +858,7 @@
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
         "nums": [21, 100],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "纵横捭阖",
@@ -869,7 +869,7 @@
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
         "nums": [26, 125],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "机锋对弈",
@@ -880,7 +880,7 @@
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
         "nums": [1.15, 5.83],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "机锋对弈",
@@ -891,7 +891,7 @@
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
         "nums": [1.44, 7.2],
         "function": "attack up",
-        "slot": 2
+        "slot": 3
     },
     {
         "id": "演绎推理",

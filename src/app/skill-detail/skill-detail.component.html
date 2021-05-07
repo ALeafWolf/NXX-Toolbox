@@ -1,10 +1,4 @@
 <div class="row py-4 justify-content-center">
-    <!-- <div class="col-8 col-md-4 text-center">
-        <div class="bg-dark py-2">
-            <h5>{{name}}</h5>
-            <img class="img-fluid" src="{{'assets/images/技能/' + skill.id + '.png'}}">
-        </div>
-    </div> -->
     <table class="col-10 col-md-8 col-lg-6 table table-sm table-dark p-2 text-center">
         <tr>
             <th colspan="10">
@@ -36,13 +30,17 @@
         </tr>
         <tr>
             <td colspan="10">
-                <span class="m-2" *ngFor="let c of cards">
-                    <a [routerLink]="['/card-value/', c.character, c.id]">
-                        <img class="img-fluid cardIcon" src="{{'assets/images/' + c.character + '/' + c.id + '.png'}}"
-                            alt="{{c.name}}">
-                    </a>
+                <span *ngIf="cards.length != 0; else noCard">
+                    <span class="m-2" *ngFor="let c of cards">
+                        <a [routerLink]="['/card-value/', c.character, c.id]">
+                            <img class="img-fluid cardIcon" src="{{'assets/images/' + c.character + '/' + c.id + '.png'}}"
+                                alt="{{c.name}}">
+                        </a>
+                    </span>
                 </span>
-
+                <ng-template #noCard>
+                    <p>N/A</p>
+                </ng-template>
             </td>
         </tr>
     </table>

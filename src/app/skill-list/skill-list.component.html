@@ -24,7 +24,7 @@
                 <option value="陆景和">陆景和</option>
             </select>
         </div>
-        <div class="col">
+        <!-- <div class="col">
             <label for="rarity">稀有度</label>
             <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterSkillList()" class="custom-select"
                 name="rarity">
@@ -34,7 +34,7 @@
                 <option value="SR">SR</option>
                 <option value="SSR">SSR</option>
             </select>
-        </div>
+        </div> -->
         <div class="col">
             <label for="type">属性</label>
             <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterSkillList()" class="custom-select"
@@ -57,6 +57,16 @@
                 <option value="attack down">说服力下降</option>
                 <option value="defence down">防御力下降</option>
                 <option value="support">助战加成</option>
+            </select>
+        </div>
+        <div class="col">
+            <label for="slot">技能槽</label>
+            <select [(ngModel)]="filterConditions[4]" (ngModelChange)="filterSkillList()" class="custom-select"
+                name="slot">
+                <option value="All">All</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
             </select>
         </div>
         <div class="col-1">
