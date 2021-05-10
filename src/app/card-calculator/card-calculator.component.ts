@@ -76,7 +76,7 @@ export class CardCalculatorComponent implements OnInit {
   loadSkillCounts() {
     this.addSecondSkill(this.userData, 1)
     this.userData.forEach(data => {
-      if(data.rarity != "R"){
+      if (data.rarity != "R") {
         this.addThirdSkill(data, this.thirdSkills, 2)
       }
     })
@@ -123,7 +123,7 @@ export class CardCalculatorComponent implements OnInit {
         }
         let isIn = false;
         this.secondSkills.forEach(skill => {
-          if(skill.name == data.skillNames[skillIndex]){
+          if (skill.name == data.skillNames[skillIndex]) {
             isIn = true;
           }
         })
@@ -143,12 +143,12 @@ export class CardCalculatorComponent implements OnInit {
   addThirdSkill(userData: any, skillList: any[], skillIndex: number) {
     let isIn = false;
     skillList.forEach(skill => {
-      isIn = false;
       if (skill.name == userData.skillNames[skillIndex]) {
         skill.num += Number(userData.skillNums[skillIndex])
         isIn = true
       }
     })
+    console.log(`${isIn}`)
     if (!isIn) {
       this.addSkillPack(userData, skillList, skillIndex);
     }

@@ -50,7 +50,7 @@ export class AppComponent {
         s = '思绪';
         break;
       case '/card-calculator':
-        s = '计算器';
+        s = '战力计算器';
         break;
       case '/card-selection':
         s = '计算器思绪选择';
@@ -65,7 +65,6 @@ export class AppComponent {
         s = '往期女神之影';
         break;
     }
-    console.log(s)
     if(s){
       this._seoService.setTitle(s);
     }

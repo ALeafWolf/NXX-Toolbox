@@ -11,107 +11,52 @@ import { OtherComponent } from './other/other.component';
 import { CardListComponent } from './card-list/card-list.component';
 import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
+import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 
 const routes: Routes = [
   {
     path: 'home',
     component: HomeComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'card-calculator',
     component: CardCalculatorComponent,
-    data: {
-      title: '战力计算器',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'cards',
     component: CardListComponent,
-    data: {
-      title: '思绪索引',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'skills',
     component: SkillListComponent,
-    data: {
-      title: '技能索引',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'skill/:name',
     component: SkillDetailComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'card-selection',
     component: CardSelectionComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'card-value/:charname/:id',
     component: CardValueComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'card-value-setting/:charname/:id',
     component: CardValueSettingComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'other',
     component: OtherComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
   },
   {
     path: 'card-pool-history',
     component: CardPoolHistoryComponent,
-    data: {
-      title: '主页',
-      description: '',
-      ogTitle: '',
-      twitterTitle: ''
-    }
+  },
+  {
+    path: 'card-rss-calculator',
+    component: CardRssCalculatorComponent,
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {

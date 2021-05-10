@@ -6,7 +6,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tears-of-themis-calculator": {
+    "nxx-toolbox": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tears-of-themis-calculator",
+            "outputPath": "dist/nxx-toolbox",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -71,18 +71,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "tears-of-themis-calculator:build"
+            "browserTarget": "nxx-toolbox:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "tears-of-themis-calculator:build:production"
+              "browserTarget": "nxx-toolbox:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "tears-of-themis-calculator:build"
+            "browserTarget": "nxx-toolbox:build"
           }
         },
         "test": {
@@ -119,11 +119,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "tears-of-themis-calculator:serve"
+            "devServerTarget": "nxx-toolbox:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "tears-of-themis-calculator:serve:production"
+              "devServerTarget": "nxx-toolbox:serve:production"
             }
           }
         },
@@ -134,5 +134,5 @@
       }
     }
   },
-  "defaultProject": "tears-of-themis-calculator"
+  "defaultProject": "nxx-toolbox"
 }

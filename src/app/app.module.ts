@@ -20,6 +20,7 @@ import { OtherComponent } from './other/other.component';
 import { CardListComponent } from './card-list/card-list.component';
 import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
+import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
     OtherComponent,
     CardListComponent,
     SkillDetailComponent,
-    CardPoolHistoryComponent
+    CardPoolHistoryComponent,
+    CardRssCalculatorComponent
   ],
   imports: [
     BrowserModule,

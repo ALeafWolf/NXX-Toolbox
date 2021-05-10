@@ -8,25 +8,29 @@
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" routerLink="/" routerLinkActive="active">主页</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/card-calculator" routerLinkActive="active">战力计算器</a>
+        <a i18n class="nav-link" routerLink="/" routerLinkActive="active">主页</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">资料索引</a>
+        <a i18n class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">计算器</a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active">思绪列表</a>
-          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active">技能列表</a>
+          <a i18n class="dropdown-item" routerLink="/card-calculator" routerLinkActive="active">思绪战力</a>
+          <a i18n class="dropdown-item" routerLink="/card-rss-calculator" routerLinkActive="active">思绪养成资源</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a i18n class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">资料索引</a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <a i18n class="dropdown-item" routerLink="/cards" routerLinkActive="active">思绪列表</a>
+          <a i18n class="dropdown-item" routerLink="/skills" routerLinkActive="active">技能列表</a>
           <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" routerLink="/card-pool-history" routerLinkActive="active">往期女神之影</a>
+          <a i18n class="dropdown-item" routerLink="/card-pool-history" routerLinkActive="active">往期女神之影</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/other" routerLinkActive="active">其他</a>
+        <a i18n class="nav-link" routerLink="/other" routerLinkActive="active">其他</a>
       </li>
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">语言</a>
+      <li class="nav-item dropdown">
+        <a i18n class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">语言</a>
         <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
           <form>
             <fieldset id="language">
@@ -35,7 +39,7 @@
             </fieldset>
           </form>
         </div>
-      </li> -->
+      </li>
     </ul>
   </div>
 </nav>
