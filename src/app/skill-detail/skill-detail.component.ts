@@ -42,7 +42,7 @@ export class SkillDetailComponent implements OnInit {
     } else if ('EN' == this.lang) {
       pre = 'Skill'
     }
-    this._seoService.setTitle(`${pre}：${this.name}`);
+    this._seoService.setTitle(`${pre}：${this.skillName}`);
   }
 
   setSkillInfoWithLang() {

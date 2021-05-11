@@ -8,6 +8,7 @@ import { DataService } from '../services/data/data.service';
 })
 export class SkillListComponent implements OnInit {
 
+  lang;
   fullSkillList: any[];
   skillList: any[];
   filterConditions = ["All", "All", "All", "All", "All"]
@@ -19,10 +20,31 @@ export class SkillListComponent implements OnInit {
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    this._data.getSkills().subscribe((data: any[]) => {
-      this.skillList = data;
-      this.fullSkillList = data;
+    this.lang = localStorage.getItem('language')
+    this._data.getSkills().toPromise().then((data: any[]) => {
+      this.loadSkillWithLang(data)
+      // this.skillList = data;
+      // this.fullSkillList = data;
     })
+  }
+
+  loadSkillWithLang(skills:any[]){
+    let s = []
+    skills.forEach(skill => {
+      let n, des;
+      if('EN' == this.lang){
+        n = skill.nameEN != '' ? skill.nameEN : skill.name
+        des = skill.descriptionEN != '' ? skill.descriptionEN : skill.description
+      }else{
+        n = skill.name
+        des = skill.description
+      }
+      skill.name = n;
+      skill.description = des
+      s.push(skill)
+    })
+    this.fullSkillList = s;
+    this.skillList = s;
   }
 
   setToTopButtonDisplay() {
