@@ -10,7 +10,7 @@
                 </a>
             </div>
         </div>
-        <h4 class="col col-md-4 my-3 text-center">{{char}} - {{id}}</h4>
+        <h4 class="col col-md-4 my-3 text-center">{{card.char}} - {{card.n}}</h4>
     </div>
     
     <div class="col-5 col-md-6 row justify-content-around">
@@ -19,7 +19,7 @@
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
                 <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
-            <img class="img-fluid" src="{{'assets/images/' + char + '/' + id + '-full.png'}}">
+            <img class="img-fluid" src="{{'assets/images/' + card.character + '/' + card.id + '-full.png'}}">
         </div> 
         <table *ngIf="coin != 0" class="col-10 col-md-7 col-lg-4 table table-sm table-dark text-center smallFont" style="color: white;">
             <tr>

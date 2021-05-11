@@ -8,6 +8,7 @@ import { DataService } from '../services/data/data.service';
 })
 export class CardListComponent implements OnInit {
 
+  lang;
   allCards: any[];
   cards: any[];
   filterConditions = ["All", "All", "All", "All"];
@@ -21,12 +22,29 @@ export class CardListComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    this.lang = localStorage.getItem('language')
     this._data.getCards().subscribe((data: any[]) => {
-      this.allCards = data
-      this.cards = data
+      this.loadCardWithLang(data)
+      // this.allCards = data
+      // this.cards = data
     })
   }
 
+  loadCardWithLang(cards:any[]){
+    let c = []
+    cards.forEach(card => {
+      if('EN' == this.lang){
+        card.n = card.nameEN != '' ? card.nameEN : card.name
+        card.name = card.nameEN != '' ? card.nameEN : card.name
+        card.char = card.characterEN != '' ? card.characterEN : card.character
+      }
+      c.push(card)
+    })
+    this.allCards = c;
+    this.cards = c;
+  }
+
+  //button to top
   setToTopButtonDisplay() {
     let btn = document.getElementById('toTopButton');
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -67,7 +85,7 @@ export class CardListComponent implements OnInit {
 
   removePostfix(input) {
     let a = "";
-    //remove α, β, γ, I, II, III from end of the skill name
+    //remove α, β, γ, I, II, III from end of the card name
     let re = /α*β*γ*\sⅠ*Ⅱ*Ⅲ*/
     a = input.replace(re, "")
     return a;

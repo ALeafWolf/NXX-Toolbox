@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges, SimpleChange, SimpleChanges } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../services/data/data.service';
@@ -14,6 +14,7 @@ export class CardValueComponent implements OnInit {
   //from route param
   char;
   id;
+  lang;
 
   //from data service
   charRssGroup;
@@ -39,33 +40,24 @@ export class CardValueComponent implements OnInit {
   power = 0;
 
 
-  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
-    this.id = this._route.snapshot.params.id;
-    this.char = this._route.snapshot.params.charname;
-    this.charRssGroup = SkillInfo.getSkillRssGroup(this.char);
-  }
-
-  ngOnchanges(changes: SimpleChanges){
-    console.log("OnChanges called")
-  }
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) { }
 
   ngOnInit(): void {
-    console.log("OnInit called")
+    this.id = this._route.snapshot.params.id;
+    this.char = this._route.snapshot.params.charname;
+    this.lang = localStorage.getItem('language')
 
     this.userData = JSON.parse(this._data.getItem(this.id))
+    this._data.getCard(this.id).toPromise().then((data: any) => {
+      this.setCardWithLang(data)
+      this.setTitle();
+      this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
+      this.att = data.influence
+      this.def = data.defense
+      if (data.rarity == "R") {
+        this.lv = 70
+      }
 
-    this._data.getCards().subscribe((data: any[]) => {
-      data.forEach(c => {
-        if (c.id == this.id) {
-          this.card = c;
-          this.att = c.attack;
-          this.def = c.defence;
-          this._seoService.setTitle(`思绪：${this.card.name}`);
-          if (c.rarity == "R") {
-            this.lv = 70
-          }
-        }
-      });
       this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       this._data.getSkillRssList().toPromise().then((data: any[]) => {
         data.forEach(d => {
@@ -87,7 +79,7 @@ export class CardValueComponent implements OnInit {
       if (this.card) {
         let list = []
         this.card.skills.forEach(s => {
-          this._data.getSkill(s).subscribe(response => {
+          this._data.getSkill(s).toPromise().then(response => {
             list.push(response)
           })
         });
@@ -97,8 +89,23 @@ export class CardValueComponent implements OnInit {
         this.allSkillList = data
         this.setSkillDisplay();
       })
-
     })
+  }
+
+  setCardWithLang(data: any) {
+    if ('EN' == this.lang) {
+      data.char = data.characterEN != '' ? data.characterEN : data.character
+      data.n = data.nameEN != '' ? data.nameEN : data.name
+    }
+    this.card = data;
+  }
+
+  setTitle() {
+    let pre = '思绪'
+    if ('EN' == this.lang) {
+      pre = 'Card'
+    }
+    this._seoService.setTitle(`${pre}：${this.card.name}`);
   }
 
   //set the string of skills that being display on the page

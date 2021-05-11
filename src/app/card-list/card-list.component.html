@@ -67,13 +67,13 @@
             <tbody>
                 <tr *ngFor="let c of cards">
                     <td>
-                        <a [routerLink]="['/card-value/', c.character, c.id]" routerLinkActive="active" target="_blank">
+                        <a [routerLink]="['/card-value/', c.char, c.n]" routerLinkActive="active" target="_blank">
                             <img class="img-fluid cardIcon"
                                 src="{{'assets/images/' + c.character + '/' + c.id + '.png'}}">
                         </a>
                     </td>
                     <td>
-                        <a [routerLink]="['/card-value/', c.character, c.id]" routerLinkActive="active" target="_blank">
+                        <a [routerLink]="['/card-value/', c.char, c.n]" routerLinkActive="active" target="_blank">
                             {{c.name}}
                         </a>
                     </td>
