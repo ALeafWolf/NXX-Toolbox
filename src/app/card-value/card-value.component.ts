@@ -88,7 +88,7 @@ export class CardValueComponent implements OnInit {
         let list = []
         this.card.skills.forEach(s => {
           this._data.getSkill(s).subscribe(response => {
-            list.push(response[0])
+            list.push(response)
           })
         });
         this.skillList = list

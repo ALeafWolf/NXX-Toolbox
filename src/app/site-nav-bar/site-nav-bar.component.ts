@@ -19,6 +19,7 @@ export class SiteNavBarComponent implements OnInit {
 
   changeLanguage(){
     localStorage.setItem('language', this.language)
+    location.reload()
   }
 
 }

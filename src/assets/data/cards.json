@@ -2,7 +2,7 @@
     {
         "id": "最佳拍档",
         "name": "最佳拍档",
-        "name-en": "Perfect Partner",
+        "nameEN": "Perfect Partner",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "夏彦",
@@ -21,7 +21,7 @@
     {
         "id": "微醺视线",
         "name": "微醺视线",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "夏彦",
@@ -40,7 +40,7 @@
     {
         "id": "千灯如昼",
         "name": "千灯如昼",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "夏彦",
@@ -59,7 +59,7 @@
     {
         "id": "虹色心跳",
         "name": "虹色心跳",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "夏彦",
@@ -77,7 +77,7 @@
     {
         "id": "温馥予怀",
         "name": "温馥予怀",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "夏彦",
@@ -95,7 +95,7 @@
     {
         "id": "荧荧眸光",
         "name": "荧荧眸光",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "夏彦",
@@ -113,7 +113,7 @@
     {
         "id": "此心安处",
         "name": "此心安处",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "夏彦",
@@ -132,7 +132,7 @@
     {
         "id": "心跳记忆",
         "name": "心跳记忆",
-        "name-en": "Loving Memories",
+        "nameEN": "Loving Memories",
         "type": "直觉",
         "rarity": "SSR",
         "character": "左然",
@@ -151,7 +151,7 @@
     {
         "id": "醉意入怀",
         "name": "醉意入怀",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "左然",
@@ -170,7 +170,7 @@
     {
         "id": "心有千千结",
         "name": "心有千千结",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "左然",
@@ -189,7 +189,7 @@
     {
         "id": "铃音予梦",
         "name": "铃音予梦",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "左然",
@@ -207,7 +207,7 @@
     {
         "id": "一步之遥",
         "name": "一步之遥",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "左然",
@@ -226,7 +226,7 @@
     {
         "id": "天心漫游",
         "name": "天心漫游",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "左然",
@@ -244,7 +244,7 @@
     {
         "id": "两心无间",
         "name": "两心无间",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "左然",
@@ -262,7 +262,7 @@
     {
         "id": "惠雨归晴",
         "name": "惠雨归晴",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "左然",
@@ -281,7 +281,7 @@
     {
         "id": "咫尺远近",
         "name": "咫尺远近",
-        "name-en": "Near and Far",
+        "nameEN": "Near and Far",
         "type": "直觉",
         "rarity": "SSR",
         "character": "莫弈",
@@ -300,7 +300,7 @@
     {
         "id": "危情邀约",
         "name": "危情邀约",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "莫弈",
@@ -319,7 +319,7 @@
     {
         "id": "舞夜流光",
         "name": "舞夜流光",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "莫弈",
@@ -337,7 +337,7 @@
     {
         "id": "心悬一线",
         "name": "心悬一线",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "莫弈",
@@ -355,7 +355,7 @@
     {
         "id": "明暗之境",
         "name": "明暗之境",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "莫弈",
@@ -374,7 +374,7 @@
     {
         "id": "焰落琉彩",
         "name": "焰落琉彩",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "莫弈",
@@ -392,7 +392,7 @@
     {
         "id": "思酿",
         "name": "思酿",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "莫弈",
@@ -411,7 +411,7 @@
     {
         "id": "冤家路窄",
         "name": "冤家路窄",
-        "name-en": "Narrow Road",
+        "nameEN": "Narrow Road",
         "type": "共情",
         "rarity": "SSR",
         "character": "陆景和",
@@ -430,7 +430,7 @@
     {
         "id": "眸中景",
         "name": "眸中景",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "陆景和",
@@ -449,7 +449,7 @@
     {
         "id": "绘恋春风",
         "name": "绘恋春风",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "陆景和",
@@ -467,7 +467,7 @@
     {
         "id": "悸乱微光",
         "name": "悸乱微光",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "陆景和",
@@ -485,7 +485,7 @@
     {
         "id": "虚诞盛宴",
         "name": "虚诞盛宴",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "陆景和",
@@ -504,7 +504,7 @@
     {
         "id": "终夜明辉",
         "name": "终夜明辉",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SSR",
         "character": "陆景和",
@@ -523,7 +523,7 @@
     {
         "id": "极光之昼",
         "name": "极光之昼",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SSR",
         "character": "陆景和",
@@ -541,7 +541,7 @@
     {
         "id": "苍木为意",
         "name": "苍木为意",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "陆景和",
@@ -560,7 +560,7 @@
     {
         "id": "碧蓝之间",
         "name": "碧蓝之间",
-        "name-en": "Among the Great Blue",
+        "nameEN": "Among the Great Blue",
         "type": "直觉",
         "rarity": "SR",
         "character": "夏彦",
@@ -579,7 +579,7 @@
     {
         "id": "斑斓光影",
         "name": "斑斓光影",
-        "name-en": "Radiant Sunlight",
+        "nameEN": "Radiant Sunlight",
         "type": "直觉",
         "rarity": "SR",
         "character": "夏彦",
@@ -598,7 +598,7 @@
     {
         "id": "惊心一刻",
         "name": "惊心一刻",
-        "name-en": "Moment of Danger",
+        "nameEN": "Moment of Danger",
         "type": "共情",
         "rarity": "SR",
         "character": "夏彦",
@@ -616,7 +616,7 @@
     {
         "id": "完美营救",
         "name": "完美营救",
-        "name-en": "Timely Rescue",
+        "nameEN": "Timely Rescue",
         "type": "逻辑",
         "rarity": "SR",
         "character": "夏彦",
@@ -635,7 +635,7 @@
     {
         "id": "倾落心扉",
         "name": "倾落心扉",
-        "name-en": "Inner Sanctum",
+        "nameEN": "Inner Sanctum",
         "type": "共情",
         "rarity": "SR",
         "character": "夏彦",
@@ -654,7 +654,7 @@
     {
         "id": "彼时少年",
         "name": "彼时少年",
-        "name-en": "Once Upon a Time",
+        "nameEN": "Once Upon a Time",
         "type": "逻辑",
         "rarity": "SR",
         "character": "夏彦",
@@ -673,7 +673,7 @@
     {
         "id": "与子偕行",
         "name": "与子偕行",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SR",
         "character": "夏彦",
@@ -692,7 +692,7 @@
     {
         "id": "忆中人",
         "name": "忆中人",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SR",
         "character": "夏彦",
@@ -711,7 +711,7 @@
     {
         "id": "掌中流光",
         "name": "掌中流光",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SR",
         "character": "夏彦",
@@ -729,7 +729,7 @@
     {
         "id": "人间烟火",
         "name": "人间烟火",
-        "name-en": "Sparks",
+        "nameEN": "Sparks",
         "type": "直觉",
         "rarity": "SR",
         "character": "左然",
@@ -748,7 +748,7 @@
     {
         "id": "秋叶寄梦",
         "name": "秋叶寄梦",
-        "name-en": "Autumn Dreams",
+        "nameEN": "Autumn Dreams",
         "type": "逻辑",
         "rarity": "SR",
         "character": "左然",
@@ -767,7 +767,7 @@
     {
         "id": "冷暖心知",
         "name": "冷暖心知",
-        "name-en": "In Sickness or in Health",
+        "nameEN": "In Sickness or in Health",
         "type": "共情",
         "rarity": "SR",
         "character": "左然",
@@ -786,7 +786,7 @@
     {
         "id": "会心一击",
         "name": "会心一击",
-        "name-en": "Focus Fire",
+        "nameEN": "Focus Fire",
         "type": "逻辑",
         "rarity": "SR",
         "character": "左然",
@@ -804,7 +804,7 @@
     {
         "id": "纸幕光影",
         "name": "纸幕光影",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SR",
         "character": "左然",
@@ -822,7 +822,7 @@
     {
         "id": "暇光一隅",
         "name": "暇光一隅",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SR",
         "character": "左然",
@@ -841,7 +841,7 @@
     {
         "id": "锋芒褪尽",
         "name": "锋芒褪尽",
-        "name-en": "Staying Humble",
+        "nameEN": "Staying Humble",
         "type": "共情",
         "rarity": "SR",
         "character": "左然",
@@ -860,7 +860,7 @@
     {
         "id": "长夜微明",
         "name": "长夜微明",
-        "name-en": "Darkest before Dawn",
+        "nameEN": "Darkest before Dawn",
         "type": "直觉",
         "rarity": "SR",
         "character": "左然",
@@ -879,7 +879,7 @@
     {
         "id": "抉择",
         "name": "抉择",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SR",
         "character": "左然",
@@ -898,7 +898,7 @@
     {
         "id": "虚妄之泪",
         "name": "虚妄之泪",
-        "name-en": "False Tears",
+        "nameEN": "False Tears",
         "type": "共情",
         "rarity": "SR",
         "character": "莫弈",
@@ -917,7 +917,7 @@
     {
         "id": "指尖温度",
         "name": "指尖温度",
-        "name-en": "Lingering Warmth",
+        "nameEN": "Lingering Warmth",
         "type": "逻辑",
         "rarity": "SR",
         "character": "莫弈",
@@ -936,7 +936,7 @@
     {
         "id": "水“逆”",
         "name": "水“逆”",
-        "name-en": "Mercury in Retrograde",
+        "nameEN": "Mercury in Retrograde",
         "type": "直觉",
         "rarity": "SR",
         "character": "莫弈",
@@ -955,7 +955,7 @@
     {
         "id": "塑心",
         "name": "塑心",
-        "name-en": "Mended Heart",
+        "nameEN": "Mended Heart",
         "type": "共情",
         "rarity": "SR",
         "character": "莫弈",
@@ -974,7 +974,7 @@
     {
         "id": "绅士游戏",
         "name": "绅士游戏",
-        "name-en": "Gentleman's Game",
+        "nameEN": "Gentleman's Game",
         "type": "直觉",
         "rarity": "SR",
         "character": "莫弈",
@@ -992,7 +992,7 @@
     {
         "id": "初光倾泻",
         "name": "初光倾泻",
-        "name-en": "Spilling Light",
+        "nameEN": "Spilling Light",
         "type": "逻辑",
         "rarity": "SR",
         "character": "莫弈",
@@ -1011,7 +1011,7 @@
     {
         "id": "入局",
         "name": "入局",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SR",
         "character": "莫弈",
@@ -1030,7 +1030,7 @@
     {
         "id": "凉夏",
         "name": "凉夏",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "SR",
         "character": "莫弈",
@@ -1049,7 +1049,7 @@
     {
         "id": "松雪童话",
         "name": "松雪童话",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "SR",
         "character": "莫弈",
@@ -1068,7 +1068,7 @@
     {
         "id": "童心攻势",
         "name": "童心攻势",
-        "name-en": "Child at Heart",
+        "nameEN": "Child at Heart",
         "type": "直觉",
         "rarity": "SR",
         "character": "陆景和",
@@ -1087,7 +1087,7 @@
     {
         "id": "弦外之音",
         "name": "弦外之音",
-        "name-en": "Overtone",
+        "nameEN": "Overtone",
         "type": "共情",
         "rarity": "SR",
         "character": "陆景和",
@@ -1106,7 +1106,7 @@
     {
         "id": "底比斯之梦",
         "name": "底比斯之梦",
-        "name-en": "Dream of Thebes",
+        "nameEN": "Dream of Thebes",
         "type": "逻辑",
         "rarity": "SR",
         "character": "陆景和",
@@ -1125,7 +1125,7 @@
     {
         "id": "共舞云端",
         "name": "共舞云端",
-        "name-en": "A Dance on the Clouds",
+        "nameEN": "A Dance on the Clouds",
         "type": "逻辑",
         "rarity": "SR",
         "character": "陆景和",
@@ -1143,7 +1143,7 @@
     {
         "id": "心头撞鹿",
         "name": "心头撞鹿",
-        "name-en": "Butterflies",
+        "nameEN": "Butterflies",
         "type": "直觉",
         "rarity": "SR",
         "character": "陆景和",
@@ -1162,7 +1162,7 @@
     {
         "id": "坠入心扉",
         "name": "坠入心扉",
-        "name-en": "Falling into You",
+        "nameEN": "Falling into You",
         "type": "共情",
         "rarity": "SR",
         "character": "陆景和",
@@ -1181,7 +1181,7 @@
     {
         "id": "琥珀昙华",
         "name": "琥珀昙华",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "SR",
         "character": "陆景和",
@@ -1199,7 +1199,7 @@
     {
         "id": "陪伴",
         "name": "陪伴",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "MR",
         "character": "夏彦",
@@ -1217,7 +1217,7 @@
     {
         "id": "心意",
         "name": "心意",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "MR",
         "character": "左然",
@@ -1235,7 +1235,7 @@
     {
         "id": "约定",
         "name": "约定",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "MR",
         "character": "莫弈",
@@ -1253,7 +1253,7 @@
     {
         "id": "信物",
         "name": "信物",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "MR",
         "character": "陆景和",
@@ -1271,7 +1271,7 @@
     {
         "id": "朝颜",
         "name": "朝颜",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "MR",
         "character": "莫弈",
@@ -1289,7 +1289,7 @@
     {
         "id": "贴心服务",
         "name": "贴心服务",
-        "name-en": "Personal Server",
+        "nameEN": "Personal Server",
         "type": "共情",
         "rarity": "R",
         "character": "夏彦",
@@ -1307,7 +1307,7 @@
     {
         "id": "搭档",
         "name": "搭档",
-        "name-en": "Partner",
+        "nameEN": "Partner",
         "type": "共情",
         "rarity": "R",
         "character": "夏彦",
@@ -1325,7 +1325,7 @@
     {
         "id": "等你",
         "name": "等你",
-        "name-en": "Waiting for You",
+        "nameEN": "Waiting for You",
         "type": "共情",
         "rarity": "R",
         "character": "夏彦",
@@ -1343,7 +1343,7 @@
     {
         "id": "美味一刻",
         "name": "美味一刻",
-        "name-en": "Gourmet",
+        "nameEN": "Gourmet",
         "type": "逻辑",
         "rarity": "R",
         "character": "夏彦",
@@ -1361,7 +1361,7 @@
     {
         "id": "秘密",
         "name": "秘密",
-        "name-en": "Our Secret",
+        "nameEN": "Our Secret",
         "type": "逻辑",
         "rarity": "R",
         "character": "夏彦",
@@ -1379,7 +1379,7 @@
     {
         "id": "打招呼",
         "name": "打招呼",
-        "name-en": "Greetings",
+        "nameEN": "Greetings",
         "type": "直觉",
         "rarity": "R",
         "character": "夏彦",
@@ -1397,7 +1397,7 @@
     {
         "id": "倦意",
         "name": "倦意",
-        "name-en": "Tiredness",
+        "nameEN": "Tiredness",
         "type": "直觉",
         "rarity": "R",
         "character": "夏彦",
@@ -1415,7 +1415,7 @@
     {
         "id": "热身",
         "name": "热身",
-        "name-en": "Warm Up",
+        "nameEN": "Warm Up",
         "type": "直觉",
         "rarity": "R",
         "character": "夏彦",
@@ -1433,7 +1433,7 @@
     {
         "id": "准备就绪",
         "name": "准备就绪",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "R",
         "character": "夏彦",
@@ -1450,7 +1450,7 @@
     {
         "id": "静候",
         "name": "静候",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "夏彦",
@@ -1467,7 +1467,7 @@
     {
         "id": "温馨小屋",
         "name": "温馨小屋",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "R",
         "character": "夏彦",
@@ -1484,7 +1484,7 @@
     {
         "id": "相伴",
         "name": "相伴",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "R",
         "character": "夏彦",
@@ -1501,7 +1501,7 @@
     {
         "id": "注视",
         "name": "注视",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "夏彦",
@@ -1518,7 +1518,7 @@
     {
         "id": "量体裁衣",
         "name": "量体裁衣",
-        "name-en": "Tailored Suit",
+        "nameEN": "Tailored Suit",
         "type": "逻辑",
         "rarity": "R",
         "character": "左然",
@@ -1536,7 +1536,7 @@
     {
         "id": "落雨",
         "name": "落雨",
-        "name-en": "Rain Drops",
+        "nameEN": "Rain Drops",
         "type": "逻辑",
         "rarity": "R",
         "character": "左然",
@@ -1554,7 +1554,7 @@
     {
         "id": "质询",
         "name": "质询",
-        "name-en": "Questioning",
+        "nameEN": "Questioning",
         "type": "逻辑",
         "rarity": "R",
         "character": "左然",
@@ -1572,7 +1572,7 @@
     {
         "id": "精心挑选",
         "name": "精心挑选",
-        "name-en": "Picking a Gift",
+        "nameEN": "Picking a Gift",
         "type": "共情",
         "rarity": "R",
         "character": "左然",
@@ -1590,7 +1590,7 @@
     {
         "id": "天台微风",
         "name": "天台微风",
-        "name-en": "Taking a Breather",
+        "nameEN": "Taking a Breather",
         "type": "共情",
         "rarity": "R",
         "character": "左然",
@@ -1608,7 +1608,7 @@
     {
         "id": "再出发",
         "name": "再出发",
-        "name-en": "Back to Business",
+        "nameEN": "Back to Business",
         "type": "共情",
         "rarity": "R",
         "character": "左然",
@@ -1626,7 +1626,7 @@
     {
         "id": "耐心等待",
         "name": "耐心等待",
-        "name-en": "Patience Is a Virtue",
+        "nameEN": "Patience Is a Virtue",
         "type": "直觉",
         "rarity": "R",
         "character": "左然",
@@ -1644,7 +1644,7 @@
     {
         "id": "上膛",
         "name": "上膛",
-        "name-en": "Lock and Load",
+        "nameEN": "Lock and Load",
         "type": "直觉",
         "rarity": "R",
         "character": "左然",
@@ -1662,7 +1662,7 @@
     {
         "id": "一切有我",
         "name": "一切有我",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "左然",
@@ -1679,7 +1679,7 @@
     {
         "id": "心际飞行",
         "name": "心际飞行",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "左然",
@@ -1696,7 +1696,7 @@
     {
         "id": "共赏",
         "name": "共赏",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "R",
         "character": "左然",
@@ -1713,7 +1713,7 @@
     {
         "id": "揣摩",
         "name": "揣摩",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "R",
         "character": "左然",
@@ -1730,7 +1730,7 @@
     {
         "id": "品味香甜",
         "name": "品味香甜",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "R",
         "character": "左然",
@@ -1747,7 +1747,7 @@
     {
         "id": "优雅",
         "name": "优雅",
-        "name-en": "Elegance",
+        "nameEN": "Elegance",
         "type": "共情",
         "rarity": "R",
         "character": "莫弈",
@@ -1765,7 +1765,7 @@
     {
         "id": "掌握",
         "name": "掌握",
-        "name-en": "Remaining in Control",
+        "nameEN": "Remaining in Control",
         "type": "共情",
         "rarity": "R",
         "character": "莫弈",
@@ -1783,7 +1783,7 @@
     {
         "id": "观察",
         "name": "观察",
-        "name-en": "Observations",
+        "nameEN": "Observations",
         "type": "逻辑",
         "rarity": "R",
         "character": "莫弈",
@@ -1801,7 +1801,7 @@
     {
         "id": "日常兴趣",
         "name": "日常兴趣",
-        "name-en": "A Hobby of Mine",
+        "nameEN": "A Hobby of Mine",
         "type": "逻辑",
         "rarity": "R",
         "character": "莫弈",
@@ -1819,7 +1819,7 @@
     {
         "id": "闲暇",
         "name": "闲暇",
-        "name-en": "Leisure Time",
+        "nameEN": "Leisure Time",
         "type": "直觉",
         "rarity": "R",
         "character": "莫弈",
@@ -1837,7 +1837,7 @@
     {
         "id": "意外来信",
         "name": "意外来信",
-        "name-en": "Unexpected Letter",
+        "nameEN": "Unexpected Letter",
         "type": "直觉",
         "rarity": "R",
         "character": "莫弈",
@@ -1855,7 +1855,7 @@
     {
         "id": "意外相遇",
         "name": "意外相遇",
-        "name-en": "Unexpected Run-In",
+        "nameEN": "Unexpected Run-In",
         "type": "直觉",
         "rarity": "R",
         "character": "莫弈",
@@ -1873,7 +1873,7 @@
     {
         "id": "绅士礼仪",
         "name": "绅士礼仪",
-        "name-en": "Gentlemanly Courtesy",
+        "nameEN": "Gentlemanly Courtesy",
         "type": "逻辑",
         "rarity": "R",
         "character": "莫弈",
@@ -1891,7 +1891,7 @@
     {
         "id": "另一面",
         "name": "另一面",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "R",
         "character": "莫弈",
@@ -1908,7 +1908,7 @@
     {
         "id": "装扮",
         "name": "装扮",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "莫弈",
@@ -1925,7 +1925,7 @@
     {
         "id": "秘密贺礼",
         "name": "秘密贺礼",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "R",
         "character": "莫弈",
@@ -1942,7 +1942,7 @@
     {
         "id": "祈愿",
         "name": "祈愿",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "R",
         "character": "莫弈",
@@ -1959,7 +1959,7 @@
     {
         "id": "全新体验",
         "name": "全新体验",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "莫弈",
@@ -1976,7 +1976,7 @@
     {
         "id": "插曲",
         "name": "插曲",
-        "name-en": "Interlude",
+        "nameEN": "Interlude",
         "type": "共情",
         "rarity": "R",
         "character": "陆景和",
@@ -1994,7 +1994,7 @@
     {
         "id": "邀约",
         "name": "邀约",
-        "name-en": "Invitation",
+        "nameEN": "Invitation",
         "type": "共情",
         "rarity": "R",
         "character": "陆景和",
@@ -2012,7 +2012,7 @@
     {
         "id": "中场休息",
         "name": "中场休息",
-        "name-en": "Half-Time",
+        "nameEN": "Half-Time",
         "type": "共情",
         "rarity": "R",
         "character": "陆景和",
@@ -2030,7 +2030,7 @@
     {
         "id": "商谈",
         "name": "商谈",
-        "name-en": "Discussion",
+        "nameEN": "Discussion",
         "type": "逻辑",
         "rarity": "R",
         "character": "陆景和",
@@ -2048,7 +2048,7 @@
     {
         "id": "节拍",
         "name": "节拍",
-        "name-en": "Rhythm",
+        "nameEN": "Rhythm",
         "type": "逻辑",
         "rarity": "R",
         "character": "陆景和",
@@ -2066,7 +2066,7 @@
     {
         "id": "准备万全",
         "name": "准备万全",
-        "name-en": "Fully Prepped",
+        "nameEN": "Fully Prepped",
         "type": "逻辑",
         "rarity": "R",
         "character": "陆景和",
@@ -2084,7 +2084,7 @@
     {
         "id": "突发事故",
         "name": "突发事故",
-        "name-en": "Sudden Occurence",
+        "nameEN": "Sudden Occurence",
         "type": "直觉",
         "rarity": "R",
         "character": "陆景和",
@@ -2102,7 +2102,7 @@
     {
         "id": "气场",
         "name": "气场",
-        "name-en": "Presence",
+        "nameEN": "Presence",
         "type": "直觉",
         "rarity": "R",
         "character": "陆景和",
@@ -2120,7 +2120,7 @@
     {
         "id": "游刃有余",
         "name": "游刃有余",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "陆景和",
@@ -2137,7 +2137,7 @@
     {
         "id": "迷思",
         "name": "迷思",
-        "name-en": "",
+        "nameEN": "",
         "type": "逻辑",
         "rarity": "R",
         "character": "陆景和",
@@ -2154,7 +2154,7 @@
     {
         "id": "胜券在握",
         "name": "胜券在握",
-        "name-en": "",
+        "nameEN": "",
         "type": "共情",
         "rarity": "R",
         "character": "陆景和",
@@ -2171,7 +2171,7 @@
     {
         "id": "定格",
         "name": "定格",
-        "name-en": "",
+        "nameEN": "",
         "type": "直觉",
         "rarity": "R",
         "character": "陆景和",

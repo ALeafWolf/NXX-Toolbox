@@ -10,8 +10,11 @@ import { DataService } from '../services/data/data.service';
 })
 export class SkillDetailComponent implements OnInit {
 
+  lang;
   name;
   skill;
+  skillName;
+  skillDes;
   skillStatistic;
   cards;
 
@@ -20,14 +23,36 @@ export class SkillDetailComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this._data.getCards().toPromise().then((data: any[]) => {
-      this.cards = this.getCardsWithSkill(data);
-    })
+    this.lang = localStorage.getItem('language')
     this._data.getSkill(this.name).toPromise().then((data: any[]) => {
-      this.skill = data[0]
-      this._seoService.setTitle(`技能：${this.skill.name}`);
+      this.skill = data
+      this.setSkillInfoWithLang()
       this.skillStatistic = this.getSkillStatistic(this.skill)
+      this.setTitle()
+      this._data.getCards().toPromise().then((data: any[]) => {
+        this.cards = this.getCardsWithSkill(data);
+      })
     })
+  }
+
+  setTitle() {
+    let pre = ''
+    if ('CN' == this.lang) {
+      pre = '技能'
+    } else if ('EN' == this.lang) {
+      pre = 'Skill'
+    }
+    this._seoService.setTitle(`${pre}：${this.name}`);
+  }
+
+  setSkillInfoWithLang() {
+    if ('CN' == this.lang) {
+      this.skillName = this.skill.name;
+      this.skillDes = this.skill.description;
+    } else if ('EN' == this.lang) {
+      this.skillName = this.skill.nameEN;
+      this.skillDes = this.skill.descriptionEN;
+    }
   }
 
   //get statistics for skill in lv1-10
@@ -48,7 +73,7 @@ export class SkillDetailComponent implements OnInit {
     let a = [];
     data.forEach(card => {
       card.skills.forEach(skill => {
-        if (skill == this.name) {
+        if (skill == this.skill.name) {
           a.push(card);
         }
       });

@@ -2,12 +2,12 @@
     {
         "id": "先声夺势",
         "name": "先声夺势 Ⅰ",
-        "name-en": "Preemptive Strike Ⅰ",
+        "nameEN": "Preemptive Strike Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "对单个观点造成说服力X%的伤害",
-        "description-en": "Deals X% Influence DMG to a single argument.",
+        "descriptionEN": "Deals X% Influence DMG to a single argument.",
         "nums": [108, 140.04],
         "function": "damage up",
         "slot": 1
@@ -15,12 +15,12 @@
     {
         "id": "先声夺势",
         "name": "先声夺势 Ⅱ",
-        "name-en": "Preemptive Strike Ⅱ",
+        "nameEN": "Preemptive Strike Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "对单个观点造成说服力X%的伤害",
-        "description-en": "Deals X% Influence DMG to a single argument.",
+        "descriptionEN": "Deals X% Influence DMG to a single argument.",
         "nums": [109, 145],
         "function": "damage up",
         "slot": 1
@@ -28,12 +28,12 @@
     {
         "id": "先声夺势",
         "name": "先声夺势 Ⅲ",
-        "name-en": "Preemptive Strike Ⅲ",
+        "nameEN": "Preemptive Strike Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "对单个观点造成说服力X%的伤害",
-        "description-en": "Deals X% Influence DMG to a single argument.",
+        "descriptionEN": "Deals X% Influence DMG to a single argument.",
         "nums": [110, 149.9],
         "function": "damage up",
         "slot": 1
@@ -41,12 +41,12 @@
     {
         "id": "层层深入",
         "name": "层层深入α Ⅰ",
-        "name-en": "Peel by Peel α Ⅰ",
+        "nameEN": "Peel by Peel α Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "自身说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 1 turn(s)",
         "nums": [5.4, 27],
         "function": "influence up",
         "slot": 1
@@ -54,12 +54,12 @@
     {
         "id": "层层深入",
         "name": "层层深入α Ⅱ",
-        "name-en": "Peel by Peel α Ⅱ",
+        "nameEN": "Peel by Peel α Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "自身说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 1 turn(s)",
         "nums": [6.8, 33.98],
         "function": "influence up",
         "slot": 1
@@ -67,12 +67,12 @@
     {
         "id": "层层深入",
         "name": "层层深入α Ⅲ",
-        "name-en": "Peel by Peel α Ⅲ",
+        "nameEN": "Peel by Peel α Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "自身说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 1 turn(s)",
         "nums": [9, 45],
         "function": "influence up",
         "slot": 1
@@ -81,12 +81,12 @@
     {
         "id": "层层深入",
         "name": "层层深入β Ⅰ",
-        "name-en": "Peel by Peel β Ⅰ",
+        "nameEN": "Peel by Peel β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "自身说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 2 turn(s)",
         "nums": [3, 14.97],
         "function": "influence up",
         "slot": 1
@@ -94,12 +94,12 @@
     {
         "id": "层层深入",
         "name": "层层深入β Ⅱ",
-        "name-en": "Peel by Peel β Ⅱ",
+        "nameEN": "Peel by Peel β Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description":"自身说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 2 turn(s)",
         "nums": [3.8, 19.01],
         "function": "influence up",
         "slot": 1
@@ -107,12 +107,12 @@
     {
         "id": "层层深入",
         "name": "层层深入β Ⅲ",
-        "name-en": "Peel by Peel β Ⅲ",
+        "nameEN": "Peel by Peel β Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "自身说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 2 turn(s)",
         "nums": [5, 24.98],
         "function": "influence up",
         "slot": 1
@@ -120,12 +120,12 @@
     {
         "id": "层层深入",
         "name": "层层深入γ Ⅰ",
-        "name-en": "Peel by Peel γ Ⅰ",
+        "nameEN": "Peel by Peel γ Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "自身说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 3 turn(s)",
         "nums": [2.2, 11.02],
         "function": "influence up",
         "slot": 1
@@ -133,12 +133,12 @@
     {
         "id": "层层深入",
         "name": "层层深入γ Ⅱ",
-        "name-en": "Peel by Peel γ Ⅱ",
+        "nameEN": "Peel by Peel γ Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "自身说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 3 turn(s)",
         "nums": [2.7, 13.5],
         "function": "influence up",
         "slot": 1
@@ -146,12 +146,12 @@
     {
         "id": "层层深入",
         "name": "层层深入γ Ⅲ",
-        "name-en": "Peel by Peel γ Ⅲ",
+        "nameEN": "Peel by Peel γ Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "自身说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence by X% for 3 turn(s)",
         "nums": [3.6, 18],
         "function": "influence up",
         "slot": 1
@@ -159,12 +159,12 @@
     {
         "id": "以退为进",
         "name": "以退为进α Ⅲ",
-        "name-en": "Feigning Defeat α Ⅲ",
+        "nameEN": "Feigning Defeat α Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "自身防御力提升X%，持续1回合",
-        "description-en": "Boosts the Defense by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Defense by X% for 1 turn(s)",
         "nums": [24, 120.03],
         "function": "defense up",
         "slot": 1
@@ -172,12 +172,12 @@
     {
         "id": "以退为进",
         "name": "以退为进β Ⅰ",
-        "name-en": "Feigning Defeat β Ⅰ",
+        "nameEN": "Feigning Defeat β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "自身防御力提升X%，持续2回合",
-        "description-en": "Boosts the Defense by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Defense by X% for 2 turn(s)",
         "nums": [7.2, 36],
         "function": "defense up",
         "slot": 1
@@ -185,12 +185,12 @@
     {
         "id": "以退为进",
         "name": "以退为进β Ⅲ",
-        "name-en": "Feigning Defeat β Ⅲ",
+        "nameEN": "Feigning Defeat β Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "自身防御力提升X%，持续2回合",
-        "description-en": "Boosts the Defense by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Defense by X% for 2 turn(s)",
         "nums": [12, 59.97],
         "function": "defense up",
         "slot": 1
@@ -199,12 +199,12 @@
     {
         "id": "以退为进",
         "name": "以退为进γ Ⅰ",
-        "name-en": "Feigning Defeat γ Ⅰ",
+        "nameEN": "Feigning Defeat γ Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "自身防御力提升X%，持续3回合",
-        "description-en": "Boosts the Defense by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Defense by X% for 3 turn(s)",
         "nums": [4.8, 23.97],
         "function": "defense up",
         "slot": 1
@@ -213,12 +213,12 @@
     {
         "id": "以退为进",
         "name": "以退为进γ Ⅱ",
-        "name-en": "Feigning Defeat γ Ⅱ",
+        "nameEN": "Feigning Defeat γ Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SSR",
         "description": "自身防御力提升X%，持续3回合",
-        "description-en": "Boosts the Defense by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Defense by X% for 3 turn(s)",
         "nums": [6, 30.03],
         "function": "defense up",
         "slot": 1
@@ -227,12 +227,12 @@
     {
         "id": "以理服人",
         "name": "以理服人α Ⅰ",
-        "name-en": "Logical Conclusion α Ⅰ",
+        "nameEN": "Logical Conclusion α Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
         "description": "自身逻辑说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 1 turn(s)",
         "nums": [6.6, 32.97],
         "function": "influence up",
         "slot": 1
@@ -240,12 +240,12 @@
     {
         "id": "以理服人",
         "name": "以理服人α Ⅱ",
-        "name-en": "Logical Conclusion α Ⅱ",
+        "nameEN": "Logical Conclusion α Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "自身逻辑说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 1 turn(s)",
         "nums": [8.2, 40.96],
         "function": "influence up",
         "slot": 1
@@ -253,12 +253,12 @@
     {
         "id": "以理服人",
         "name": "以理服人α Ⅲ",
-        "name-en": "Logical Conclusion α Ⅲ",
+        "nameEN": "Logical Conclusion α Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "自身逻辑说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 1 turn(s)",
         "nums": [11, 55.01],
         "function": "influence up",
         "slot": 1
@@ -266,12 +266,12 @@
     {
         "id": "以理服人",
         "name": "以理服人β Ⅰ",
-        "name-en": "Logical Conclusion β Ⅰ",
+        "nameEN": "Logical Conclusion β Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
         "description": "自身逻辑说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 2 turn(s)",
         "nums": [4.2, 21.03],
         "function": "influence up",
         "slot": 1
@@ -279,12 +279,12 @@
     {
         "id": "以理服人",
         "name": "以理服人β Ⅱ",
-        "name-en": "Logical Conclusion β Ⅱ",
+        "nameEN": "Logical Conclusion β Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "自身逻辑说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 2 turn(s)",
         "nums": [5.2, 25.99],
         "function": "influence up",
         "slot": 1
@@ -292,12 +292,12 @@
     {
         "id": "以理服人",
         "name": "以理服人β Ⅲ",
-        "name-en": "Logical Conclusion β Ⅲ",
+        "nameEN": "Logical Conclusion β Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "自身逻辑说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 2 turn(s)",
         "nums": [7, 34.99],
         "function": "influence up",
         "slot": 1
@@ -305,12 +305,12 @@
     {
         "id": "以理服人",
         "name": "以理服人γ Ⅰ",
-        "name-en": "Logical Conclusion γ Ⅰ",
+        "nameEN": "Logical Conclusion γ Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
         "description": "自身逻辑说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 3 turn(s)",
         "nums": [3.6, 18],
         "function": "influence up",
         "slot": 1
@@ -318,12 +318,12 @@
     {
         "id": "以理服人",
         "name": "以理服人γ Ⅱ",
-        "name-en": "Logical Conclusion γ Ⅱ",
+        "nameEN": "Logical Conclusion γ Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "自身逻辑说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 3 turn(s)",
         "nums": [4.5, 22.5],
         "function": "influence up",
         "slot": 1
@@ -331,12 +331,12 @@
     {
         "id": "以理服人",
         "name": "以理服人γ Ⅲ",
-        "name-en": "Logical Conclusion γ Ⅲ",
+        "nameEN": "Logical Conclusion γ Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "自身逻辑说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your LOGIC cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your LOGIC cards by X% for 3 turn(s)",
         "nums": [6, 30.03],
         "function": "influence up",
         "slot": 1
@@ -344,12 +344,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱α Ⅰ",
-        "name-en": "Lure & Bait α Ⅰ",
+        "nameEN": "Lure & Bait α Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
         "description": "自身共情说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 1 turn(s)",
         "nums": [6.6, 32.97],
         "function": "influence up",
         "slot": 1
@@ -357,12 +357,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱α Ⅱ",
-        "name-en": "Lure & Bait α Ⅱ",
+        "nameEN": "Lure & Bait α Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "自身共情说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 1 turn(s)",
         "nums": [8.2, 40.96],
         "function": "influence up",
         "slot": 1
@@ -370,12 +370,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱α Ⅲ",
-        "name-en": "Lure & Bait α Ⅲ",
+        "nameEN": "Lure & Bait α Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "自身共情说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 1 turn(s)",
         "nums": [11, 55.01],
         "function": "influence up",
         "slot": 1
@@ -383,12 +383,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱β Ⅰ",
-        "name-en": "Lure & Bait β Ⅰ",
+        "nameEN": "Lure & Bait β Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
         "description": "自身共情说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 2 turn(s)",
         "nums": [4.2, 21.03],
         "function": "influence up",
         "slot": 1
@@ -396,12 +396,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱β Ⅱ",
-        "name-en": "Lure & Bait β Ⅱ",
+        "nameEN": "Lure & Bait β Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "自身共情说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 2 turn(s)",
         "nums": [5.2, 25.99],
         "function": "influence up",
         "slot": 1
@@ -409,12 +409,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱β Ⅲ",
-        "name-en": "Lure & Bait β Ⅲ",
+        "nameEN": "Lure & Bait β Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "自身共情说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 2 turn(s)",
         "nums": [7, 34.99],
         "function": "influence up",
         "slot": 1
@@ -422,12 +422,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱γ Ⅰ",
-        "name-en": "Lure & Bait γ Ⅰ",
+        "nameEN": "Lure & Bait γ Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
         "description": "自身共情说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 3 turn(s)",
         "nums": [3.6, 18],
         "function": "influence up",
         "slot": 1
@@ -435,12 +435,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱γ Ⅱ",
-        "name-en": "Lure & Bait γ Ⅱ",
+        "nameEN": "Lure & Bait γ Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "自身共情说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 3 turn(s)",
         "nums": [4.5, 22.5],
         "function": "influence up",
         "slot": 1
@@ -448,12 +448,12 @@
     {
         "id": "循循善诱",
         "name": "循循善诱γ Ⅲ",
-        "name-en": "Lure & Bait γ Ⅲ",
+        "nameEN": "Lure & Bait γ Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "自身共情说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your EMPATHY cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your EMPATHY cards by X% for 3 turn(s)",
         "nums": [6, 30.03],
         "function": "influence up",
         "slot": 1
@@ -461,12 +461,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫α Ⅰ",
-        "name-en": "Attention to Detail α Ⅰ",
+        "nameEN": "Attention to Detail α Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
         "description": "自身直觉说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 1 turn(s)",
         "nums": [6.6, 32.97],
         "function": "influence up",
         "slot": 1
@@ -474,12 +474,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫α Ⅱ",
-        "name-en": "Attention to Detail α Ⅱ",
+        "nameEN": "Attention to Detail α Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "自身直觉说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 1 turn(s)",
         "nums": [8.2, 40.96],
         "function": "influence up",
         "slot": 1
@@ -487,12 +487,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫α Ⅲ",
-        "name-en": "Attention to Detail α Ⅲ",
+        "nameEN": "Attention to Detail α Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "自身直觉说服力提升X%，持续1回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 1 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 1 turn(s)",
         "nums": [11, 55.01],
         "function": "influence up",
         "slot": 1
@@ -500,12 +500,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫β Ⅰ",
-        "name-en": "Attention to Detail β Ⅰ",
+        "nameEN": "Attention to Detail β Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
         "description": "自身直觉说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 2 turn(s)",
         "nums": [4.2, 21.03],
         "function": "influence up",
         "slot": 1
@@ -513,12 +513,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫β Ⅱ",
-        "name-en": "Attention to Detail β Ⅱ",
+        "nameEN": "Attention to Detail β Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "自身直觉说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 2 turn(s)",
         "nums": [5.2, 25.99],
         "function": "influence up",
         "slot": 1
@@ -526,12 +526,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫β Ⅲ",
-        "name-en": "Attention to Detail β Ⅲ",
+        "nameEN": "Attention to Detail β Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "自身直觉说服力提升X%，持续2回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 2 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 2 turn(s)",
         "nums": [7, 34.99],
         "function": "influence up",
         "slot": 1
@@ -539,12 +539,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫γ Ⅰ",
-        "name-en": "Attention to Detail γ Ⅰ",
+        "nameEN": "Attention to Detail γ Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
         "description": "自身直觉说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 3 turn(s)",
         "nums": [3.6, 18],
         "function": "influence up",
         "slot": 1
@@ -552,12 +552,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫γ Ⅱ",
-        "name-en": "Attention to Detail γ Ⅱ",
+        "nameEN": "Attention to Detail γ Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "自身直觉说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 3 turn(s)",
         "nums": [4.5, 22.5],
         "function": "influence up",
         "slot": 1
@@ -565,12 +565,12 @@
     {
         "id": "洞察秋毫",
         "name": "洞察秋毫γ Ⅲ",
-        "name-en": "Attention to Detail γ Ⅲ",
+        "nameEN": "Attention to Detail γ Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "自身直觉说服力提升X%，持续3回合",
-        "description-en": "Boosts the Influence of your INTUITION cards by X% for 3 turn(s)",
+        "descriptionEN": "Boosts the Influence of your INTUITION cards by X% for 3 turn(s)",
         "nums": [6, 30.03],
         "function": "influence up",
         "slot": 1
@@ -578,12 +578,12 @@
     {
         "id": "张弛有度",
         "name": "张弛有度 Ⅱ",
-        "name-en": "Balanced Ⅱ",
+        "nameEN": "Balanced Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪说服力提升X",
-        "description-en": "Boosts this card's base influence by X during debates",
+        "descriptionEN": "Boosts this card's base influence by X during debates",
         "nums": [144, 770],
         "function": "influence up",
         "slot": 2
@@ -591,12 +591,12 @@
     {
         "id": "张弛有度",
         "name": "张弛有度 Ⅲ",
-        "name-en": "Balanced Ⅲ",
+        "nameEN": "Balanced Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "进入辩论时，该思绪说服力提升X",
-        "description-en": "Boosts this card's base influence by X during debates",
+        "descriptionEN": "Boosts this card's base influence by X during debates",
         "nums": [180, 963],
         "function": "influence up",
         "slot": 2
@@ -604,12 +604,12 @@
     {
         "id": "举一反三",
         "name": "举一反三 Ⅱ",
-        "name-en": "Extrapolation Ⅱ",
+        "nameEN": "Extrapolation Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪基础说服力提升X%",
-        "description-en": "Boosts this card's base influence by X% during debates",
+        "descriptionEN": "Boosts this card's base influence by X% during debates",
         "nums": [7.2, 36],
         "function": "influence up",
         "slot": 2
@@ -617,12 +617,12 @@
     {
         "id": "举一反三",
         "name": "举一反三 Ⅲ",
-        "name-en": "Extrapolation Ⅲ",
+        "nameEN": "Extrapolation Ⅲ",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "进入辩论时，该思绪基础说服力提升X%",
-        "description-en": "Boosts this card's base influence by X% during debates",
+        "descriptionEN": "Boosts this card's base influence by X% during debates",
         "nums": [9, 45],
         "function": "influence up",
         "slot": 2
@@ -630,12 +630,12 @@
     {
         "id": "运筹帷幄",
         "name": "运筹帷幄 Ⅱ",
-        "name-en": " Ⅱ",
+        "nameEN": " Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪防御力提升X",
-        "description-en": "Boosts this card's base Defense by X during debates",
+        "descriptionEN": "Boosts this card's base Defense by X during debates",
         "nums": [144, 770],
         "function": "defense up",
         "slot": 2
@@ -643,12 +643,12 @@
     {
         "id": "趋利避害",
         "name": "趋利避害 Ⅱ",
-        "name-en": "Sound Judgment Ⅱ",
+        "nameEN": "Sound Judgment Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "进入辩论时，该思绪基础防御力提升X%",
-        "description-en": "Boosts this card's base Defense by X% during debates",
+        "descriptionEN": "Boosts this card's base Defense by X% during debates",
         "nums": [14.4, 72],
         "function": "defense up",
         "slot": 2
@@ -656,12 +656,12 @@
     {
         "id": "势如破竹",
         "name": "势如破竹 Ⅰ",
-        "name-en": "Formidable Ⅰ",
+        "nameEN": "Formidable Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "当该思绪处于战力加成时，额外提供X%的说服力加成",
-        "description-en": "When this card is in the Support Deck, boosts Influence by an additional X%",
+        "descriptionEN": "When this card is in the Support Deck, boosts Influence by an additional X%",
         "nums": [0.19, 1],
         "function": "support",
         "slot": 2
@@ -669,12 +669,12 @@
     {
         "id": "步步为营",
         "name": "步步为营 Ⅰ",
-        "name-en": "Progressive Ⅰ",
+        "nameEN": "Progressive Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "当该思绪处于战力加成时，额外提供X%的防御力加成",
-        "description-en": "When this card is in the Support Deck, boosts Defense by an additional X%",
+        "descriptionEN": "When this card is in the Support Deck, boosts Defense by an additional X%",
         "nums": [0.19, 1],
         "function": "support",
         "slot": 2
@@ -682,12 +682,12 @@
     {
         "id": "侦探头脑",
         "name": "侦探头脑 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Luke cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Luke cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 3
@@ -695,12 +695,12 @@
     {
         "id": "侦探头脑",
         "name": "侦探头脑 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Luke cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Luke cards in the Primary Deck by X%",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 3
@@ -708,12 +708,12 @@
     {
         "id": "真相还原",
         "name": "真相还原 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Luke card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Luke card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 2
@@ -721,12 +721,12 @@
     {
         "id": "真相还原",
         "name": "真相还原 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Luke card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Luke card in the Primary Deck",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 2
@@ -734,12 +734,12 @@
     {
         "id": "瞬间捕捉",
         "name": "瞬间捕捉 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every Luke card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every Luke card in the Primary Deck",
         "nums": [1.28, 6.5],
         "function": "influence up",
         "slot": 2
@@ -747,12 +747,12 @@
     {
         "id": "瞬间捕捉",
         "name": "瞬间捕捉 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every Luke card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every Luke card in the Primary Deck",
         "nums": [1.6, 7.99],
         "function": "influence up",
         "slot": 2
@@ -760,12 +760,12 @@
     {
         "id": "锐辞庭辩",
         "name": "锐辞庭辩 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Artem cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Artem cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 3
@@ -773,12 +773,12 @@
     {
         "id": "锐辞庭辩",
         "name": "锐辞庭辩 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Artem cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Artem cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 3
@@ -786,12 +786,12 @@
     {
         "id": "律典经纬",
         "name": "律典经纬 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all Artem cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Artem cards in the Primary Deck by X%",
         "nums": [1.28, 6.5],
         "function": "influence up",
         "slot": 3
@@ -799,12 +799,12 @@
     {
         "id": "律典经纬",
         "name": "律典经纬 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有左然思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all Artem cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Artem cards in the Primary Deck by X%",
         "nums": [1.6, 7.99],
         "function": "influence up",
         "slot": 3
@@ -812,12 +812,12 @@
     {
         "id": "律法全能",
         "name": "律法全能 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Artem card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Artem card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 2
@@ -825,12 +825,12 @@
     {
         "id": "律法全能",
         "name": "律法全能 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Artem card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Artem card in the Primary Deck",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 2
@@ -838,12 +838,12 @@
     {
         "id": "人格侧写",
         "name": "人格侧写 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Vyn cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Vyn cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 3
@@ -851,12 +851,12 @@
     {
         "id": "人格侧写",
         "name": "人格侧写 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Vyn cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Vyn cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 3
@@ -864,12 +864,12 @@
     {
         "id": "谈话引导",
         "name": "谈话引导 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all Vyn cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Vyn cards in the Primary Deck by X%",
         "nums": [1.28, 6.5],
         "function": "influence up",
         "slot": 3
@@ -877,12 +877,12 @@
     {
         "id": "谈话引导",
         "name": "谈话引导 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有莫弈思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all Vyn cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Vyn cards in the Primary Deck by X%",
         "nums": [1.6, 7.99],
         "function": "influence up",
         "slot": 3
@@ -890,12 +890,12 @@
     {
         "id": "盛装舞步",
         "name": "盛装舞步 Ⅱ",
-        "name-en": "Dressage Ⅱ",
+        "nameEN": "Dressage Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Vyn card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 2
@@ -903,12 +903,12 @@
     {
         "id": "盛装舞步",
         "name": "盛装舞步 Ⅲ",
-        "name-en": "Dressage Ⅲ",
+        "nameEN": "Dressage Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Vyn card in the Primary Deck",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 2
@@ -916,12 +916,12 @@
     {
         "id": "交响奏鸣",
         "name": "交响奏鸣 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every Vyn card in the Primary Deck",
         "nums": [1.6, 7.99],
         "function": "influence up",
         "slot": 2
@@ -929,12 +929,12 @@
     {
         "id": "商业谈判",
         "name": "商业谈判 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Marius cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Marius cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 3
@@ -942,12 +942,12 @@
     {
         "id": "商业谈判",
         "name": "商业谈判 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all Marius cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all Marius cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 3
@@ -955,12 +955,12 @@
     {
         "id": "名利博弈",
         "name": "名利博弈 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all Marius cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Marius cards in the Primary Deck by X%",
         "nums": [1.28, 6.5],
         "function": "influence up",
         "slot": 3
@@ -968,12 +968,12 @@
     {
         "id": "名利博弈",
         "name": "名利博弈 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有陆景和思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all Marius cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Marius cards in the Primary Deck by X%",
         "nums": [1.6, 7.99],
         "function": "influence up",
         "slot": 3
@@ -981,12 +981,12 @@
     {
         "id": "年少锋锐",
         "name": "年少锋锐 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Marius card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Marius card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "influence up",
         "slot": 2
@@ -994,12 +994,12 @@
     {
         "id": "年少锋锐",
         "name": "年少锋锐 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every Marius card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every Marius card in the Primary Deck",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 2
@@ -1007,12 +1007,12 @@
     {
         "id": "纵横捭阖",
         "name": "纵横捭阖 Ⅱ",
-        "name-en": "Skilled Diplomat Ⅱ",
+        "nameEN": "Skilled Diplomat Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
-        "description-en": "Boosts the bade Influence of all LOGIC cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the bade Influence of all LOGIC cards in the Primary Deck by X",
         "nums": [21, 100],
         "function": "influence up",
         "slot": 3
@@ -1020,12 +1020,12 @@
     {
         "id": "纵横捭阖",
         "name": "纵横捭阖 Ⅲ",
-        "name-en": "Skilled Diplomat Ⅲ",
+        "nameEN": "Skilled Diplomat Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all LOGIC cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all LOGIC cards in the Primary Deck by X",
         "nums": [26, 125],
         "function": "influence up",
         "slot": 3
@@ -1033,12 +1033,12 @@
     {
         "id": "机锋对弈",
         "name": "机锋对弈 Ⅱ",
-        "name-en": "Righteous Ⅱ",
+        "nameEN": "Righteous Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all LOGIC cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all LOGIC cards in the Primary Deck by X%",
         "nums": [1.15, 5.83],
         "function": "influence up",
         "slot": 3
@@ -1046,12 +1046,12 @@
     {
         "id": "机锋对弈",
         "name": "机锋对弈 Ⅲ",
-        "name-en": "Righteous Ⅲ",
+        "nameEN": "Righteous Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all LOGIC cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all LOGIC cards in the Primary Deck by X%",
         "nums": [1.44, 7.2],
         "function": "influence up",
         "slot": 3
@@ -1059,12 +1059,12 @@
     {
         "id": "演绎推理",
         "name": "演绎推理 Ⅱ",
-        "name-en": "Deductive Reasoning Ⅱ",
+        "nameEN": "Deductive Reasoning Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every LOGIC card in the Primary Deck",
         "nums": [21, 100],
         "function": "influence up",
         "slot": 2
@@ -1072,12 +1072,12 @@
     {
         "id": "演绎推理",
         "name": "演绎推理 Ⅲ",
-        "name-en": "Deductive Reasoning Ⅲ",
+        "nameEN": "Deductive Reasoning Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every LOGIC card in the Primary Deck",
         "nums": [26, 125],
         "function": "influence up",
         "slot": 2
@@ -1085,12 +1085,12 @@
     {
         "id": "抽丝剥茧",
         "name": "抽丝剥茧 Ⅱ",
-        "name-en": "Painstaking Ⅱ",
+        "nameEN": "Painstaking Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every LOGIC card in the Primary Deck",
         "nums": [1.15, 5.83],
         "function": "influence up",
         "slot": 2
@@ -1098,12 +1098,12 @@
     {
         "id": "抽丝剥茧",
         "name": "抽丝剥茧 Ⅲ",
-        "name-en": "Painstaking Ⅲ",
+        "nameEN": "Painstaking Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every LOGIC card in the Primary Deck",
         "nums": [1.44, 7.2],
         "function": "influence up",
         "slot": 2
@@ -1111,12 +1111,12 @@
     {
         "id": "击其薄弱",
         "name": "击其薄弱 Ⅱ",
-        "name-en": "Strike Weakness Ⅱ",
+        "nameEN": "Strike Weakness Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X",
         "nums": [21, 100],
         "function": "influence up",
         "slot": 3
@@ -1124,12 +1124,12 @@
     {
         "id": "击其薄弱",
         "name": "击其薄弱 Ⅲ",
-        "name-en": "Strike Weakness Ⅲ",
+        "nameEN": "Strike Weakness Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X",
-        "description-en": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X",
         "nums": [26, 125],
         "function": "influence up",
         "slot": 3
@@ -1137,12 +1137,12 @@
     {
         "id": "釜底抽薪",
         "name": "釜底抽薪 Ⅱ",
-        "name-en": "Drastic Measures Ⅱ",
+        "nameEN": "Drastic Measures Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X%",
         "nums": [1.15, 5.83],
         "function": "influence up",
         "slot": 3
@@ -1150,12 +1150,12 @@
     {
         "id": "釜底抽薪",
         "name": "釜底抽薪 Ⅲ",
-        "name-en": "Drastic Measures Ⅲ",
+        "nameEN": "Drastic Measures Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础说服力增加X%",
-        "description-en": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all EMPATHY cards in the Primary Deck by X%",
         "nums": [1.44, 7.2],
         "function": "influence up",
         "slot": 3
@@ -1163,12 +1163,12 @@
     {
         "id": "情绪感染",
         "name": "情绪感染 Ⅱ",
-        "name-en": "Emotional Appeal Ⅱ",
+        "nameEN": "Emotional Appeal Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every EMPATHY card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every EMPATHY card in the Primary Deck",
         "nums": [21, 100],
         "function": "influence up",
         "slot": 2
@@ -1176,12 +1176,12 @@
     {
         "id": "情绪感染",
         "name": "情绪感染 Ⅲ",
-        "name-en": "Emotional Appeal Ⅲ",
+        "nameEN": "Emotional Appeal Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every EMPATHY card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every EMPATHY card in the Primary Deck",
         "nums": [26, 125],
         "function": "influence up",
         "slot": 2
@@ -1189,12 +1189,12 @@
     {
         "id": "情感投射",
         "name": "情感投射 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every EMPATHY card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every EMPATHY card in the Primary Deck",
         "nums": [1.15, 5.83],
         "function": "influence up",
         "slot": 2
@@ -1202,12 +1202,12 @@
     {
         "id": "情感投射",
         "name": "情感投射 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every EMPATHY card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every EMPATHY card in the Primary Deck",
         "nums": [1.44, 7.2],
         "function": "influence up",
         "slot": 2
@@ -1215,12 +1215,12 @@
     {
         "id": "见微知著",
         "name": "见微知著 Ⅱ",
-        "name-en": "Foresight Ⅱ",
+        "nameEN": "Foresight Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X",
-        "description-en": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X",
         "nums": [21, 100],
         "function": "influence up",
         "slot": 3
@@ -1228,12 +1228,12 @@
     {
         "id": "见微知著",
         "name": "见微知著 Ⅲ",
-        "name-en": "Foresight Ⅲ",
+        "nameEN": "Foresight Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X",
-        "description-en": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X",
         "nums": [26, 125],
         "function": "influence up",
         "slot": 3
@@ -1241,12 +1241,12 @@
     {
         "id": "正本清源",
         "name": "正本清源 Ⅱ",
-        "name-en": "Radical Reformer Ⅱ",
+        "nameEN": "Radical Reformer Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X%",
-        "description-en": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X%",
         "nums": [1.15, 5.83],
         "function": "influence up",
         "slot": 3
@@ -1254,12 +1254,12 @@
     {
         "id": "正本清源",
         "name": "正本清源 Ⅲ",
-        "name-en": "Radical Reformer Ⅱ",
+        "nameEN": "Radical Reformer Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础说服力增加X%",
-        "description-en": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base Influence of all INTUITION cards in the Primary Deck by X%",
         "nums": [1.44, 7.2],
         "function": "influence up",
         "slot": 3
@@ -1267,12 +1267,12 @@
     {
         "id": "敏锐观察",
         "name": "敏锐观察 Ⅱ",
-        "name-en": "Keep Observation Ⅱ",
+        "nameEN": "Keep Observation Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every INTUITION card in the Primary Deck",
         "nums": [21, 100],
         "function": "influence up",
         "slot": 2
@@ -1280,12 +1280,12 @@
     {
         "id": "敏锐观察",
         "name": "敏锐观察 Ⅲ",
-        "name-en": "Keep Observation Ⅲ",
+        "nameEN": "Keep Observation Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X",
-        "description-en": "Boosts this card's base Influence by X for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X for every INTUITION card in the Primary Deck",
         "nums": [26, 125],
         "function": "influence up",
         "slot": 2
@@ -1293,12 +1293,12 @@
     {
         "id": "直感思维",
         "name": "直感思维 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every INTUITION card in the Primary Deck",
         "nums": [1.15, 5.83],
         "function": "influence up",
         "slot": 2
@@ -1306,12 +1306,12 @@
     {
         "id": "直感思维",
         "name": "直感思维 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础说服力增加X%",
-        "description-en": "Boosts this card's base Influence by X% for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Influence by X% for every INTUITION card in the Primary Deck",
         "nums": [1.44, 7.2],
         "function": "influence up",
         "slot": 2
@@ -1319,12 +1319,12 @@
     {
         "id": "紧急避险",
         "name": "紧急避险 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Luke cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Luke cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 3
@@ -1332,12 +1332,12 @@
     {
         "id": "紧急避险",
         "name": "紧急避险 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Luke cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Luke cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 3
@@ -1345,12 +1345,12 @@
     {
         "id": "体能超群",
         "name": "体能超群 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X%",
-        "description-en": "Boosts the base Defense of all Luke cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base Defense of all Luke cards in the Primary Deck by X%",
         "nums": [2.56, 12.82],
         "function": "defense up",
         "slot": 3
@@ -1358,12 +1358,12 @@
     {
         "id": "体能超群",
         "name": "体能超群 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础防御力增加X%",
-        "description-en": "Boosts the base Defense of all Luke cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base Defense of all Luke cards in the Primary Deck by X%",
         "nums": [3.2, 15.98],
         "function": "defense up",
         "slot": 3
@@ -1371,12 +1371,12 @@
     {
         "id": "古物修复",
         "name": "古物修复 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Luke card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Luke card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 2
@@ -1384,12 +1384,12 @@
     {
         "id": "古物修复",
         "name": "古物修复 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Luke card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Luke card in the Primary Deck",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 2
@@ -1397,12 +1397,12 @@
     {
         "id": "绝对理性",
         "name": "绝对理性 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有左然思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Artem cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Artem cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 3
@@ -1410,12 +1410,12 @@
     {
         "id": "绝对理性",
         "name": "绝对理性 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有左然思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Artem cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Artem cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 3
@@ -1423,12 +1423,12 @@
     {
         "id": "有条不紊",
         "name": "有条不紊 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Artem card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Artem card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 2
@@ -1436,12 +1436,12 @@
     {
         "id": "有条不紊",
         "name": "有条不紊 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张左然的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Artem card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Artem card in the Primary Deck",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 2
@@ -1449,12 +1449,12 @@
     {
         "id": "箱庭疗法",
         "name": "箱庭疗法 Ⅱ",
-        "name-en": "Sandplay Therapy Ⅱ",
+        "nameEN": "Sandplay Therapy Ⅱ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有莫弈思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Vyn cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Vyn cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 3
@@ -1462,12 +1462,12 @@
     {
         "id": "箱庭疗法",
         "name": "箱庭疗法 Ⅲ",
-        "name-en": "Sandplay Therapy Ⅲ",
+        "nameEN": "Sandplay Therapy Ⅲ",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有莫弈思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Vyn cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Vyn cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 3
@@ -1475,12 +1475,12 @@
     {
         "id": "温文尔雅",
         "name": "温文尔雅 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Vyn card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 2
@@ -1488,12 +1488,12 @@
     {
         "id": "温文尔雅",
         "name": "温文尔雅 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Vyn card in the Primary Deck",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 2
@@ -1501,12 +1501,12 @@
     {
         "id": "自我评估",
         "name": "自我评估 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%",
-        "description-en": "Boosts this card's base Defense by X% for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X% for every Vyn card in the Primary Deck",
         "nums": [2.56, 12.82],
         "function": "defense up",
         "slot": 2
@@ -1514,12 +1514,12 @@
     {
         "id": "自我评估",
         "name": "自我评估 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "莫弈",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张莫弈的思绪，该思绪的基础防御力增加X%",
-        "description-en": "Boosts this card's base Defense by X% for every Vyn card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X% for every Vyn card in the Primary Deck",
         "nums": [3.2, 15.98],
         "function": "defense up",
         "slot": 2
@@ -1527,12 +1527,12 @@
     {
         "id": "执行总裁",
         "name": "执行总裁 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中所有陆景和思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Marius cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Marius cards in the Primary Deck by X",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 3
@@ -1540,12 +1540,12 @@
     {
         "id": "执行总裁",
         "name": "执行总裁 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有陆景和思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all Marius cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all Marius cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 3
@@ -1553,12 +1553,12 @@
     {
         "id": "精英教育",
         "name": "精英教育 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Marius card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Marius card in the Primary Deck",
         "nums": [21.5, 108],
         "function": "defense up",
         "slot": 2
@@ -1566,12 +1566,12 @@
     {
         "id": "精英教育",
         "name": "精英教育 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every Marius card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every Marius card in the Primary Deck",
         "nums": [27, 135],
         "function": "defense up",
         "slot": 2
@@ -1579,12 +1579,12 @@
     {
         "id": "顺水推舟",
         "name": "顺水推舟 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X",
         "nums": [21, 100],
         "function": "defense up",
         "slot": 3
@@ -1592,12 +1592,12 @@
     {
         "id": "顺水推舟",
         "name": "顺水推舟 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X",
-        "description-en": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X",
         "nums": [26, 125],
         "function": "defense up",
         "slot": 3
@@ -1605,12 +1605,12 @@
     {
         "id": "排比增势",
         "name": "排比增势 Ⅱ",
-        "name-en": "Parallel Growth Ⅱ",
+        "nameEN": "Parallel Growth Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X%",
-        "description-en": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X%",
         "nums": [2.3, 11.48],
         "function": "defense up",
         "slot": 3
@@ -1618,12 +1618,12 @@
     {
         "id": "排比增势",
         "name": "排比增势 Ⅲ",
-        "name-en": "Parallel Growth Ⅲ",
+        "nameEN": "Parallel Growth Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中所有共情思绪的基础防御力增加X%",
-        "description-en": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base Defense of all EMPATHY cards in the Primary Deck by X%",
         "nums": [2.88, 14.4],
         "function": "defense up",
         "slot": 3
@@ -1631,12 +1631,12 @@
     {
         "id": "还施彼身",
         "name": "还施彼身 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every EMPATHY card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every EMPATHY card in the Primary Deck",
         "nums": [21, 100],
         "function": "defense up",
         "slot": 2
@@ -1644,12 +1644,12 @@
     {
         "id": "还施彼身",
         "name": "还施彼身 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
         "description": "主战思绪中每有一张共情的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every EMPATHY card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every EMPATHY card in the Primary Deck",
         "nums": [26, 125],
         "function": "defense up",
         "slot": 2
@@ -1657,12 +1657,12 @@
     {
         "id": "引譬连类",
         "name": "引譬连类 Ⅱ",
-        "name-en": "Incriminate Ⅱ",
+        "nameEN": "Incriminate Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X",
-        "description-en": "Boosts the base defense of all LOGIC cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base defense of all LOGIC cards in the Primary Deck by X",
         "nums": [21, 100],
         "function": "defense up",
         "slot": 3
@@ -1670,12 +1670,12 @@
     {
         "id": "引譬连类",
         "name": "引譬连类 Ⅲ",
-        "name-en": "Incriminate Ⅲ",
+        "nameEN": "Incriminate Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X",
-        "description-en": "Boosts the base defense of all LOGIC cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base defense of all LOGIC cards in the Primary Deck by X",
         "nums": [26, 125],
         "function": "defense up",
         "slot": 3
@@ -1683,12 +1683,12 @@
     {
         "id": "滴水不漏",
         "name": "滴水不漏 Ⅱ",
-        "name-en": "Watertight Ⅱ",
+        "nameEN": "Watertight Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X%",
-        "description-en": "Boosts the base defense of all LOGIC cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base defense of all LOGIC cards in the Primary Deck by X%",
         "nums": [2.3, 11.48],
         "function": "defense up",
         "slot": 3
@@ -1696,12 +1696,12 @@
     {
         "id": "滴水不漏",
         "name": "滴水不漏 Ⅲ",
-        "name-en": "Watertight Ⅱ",
+        "nameEN": "Watertight Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中所有逻辑思绪的基础防御力增加X%",
-        "description-en": "Boosts the base defense of all LOGIC cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base defense of all LOGIC cards in the Primary Deck by X%",
         "nums": [2.88, 14.4],
         "function": "defense up",
         "slot": 3
@@ -1709,12 +1709,12 @@
     {
         "id": "无懈可击",
         "name": "无懈可击 Ⅱ",
-        "name-en": "Impeccable Ⅱ",
+        "nameEN": "Impeccable Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every LOGIC card in the Primary Deck",
         "nums": [21, 100],
         "function": "defense up",
         "slot": 2
@@ -1722,12 +1722,12 @@
     {
         "id": "无懈可击",
         "name": "无懈可击 Ⅲ",
-        "name-en": "Impeccable Ⅲ",
+        "nameEN": "Impeccable Ⅲ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every LOGIC card in the Primary Deck",
         "nums": [26, 125],
         "function": "defense up",
         "slot": 2
@@ -1735,12 +1735,12 @@
     {
         "id": "因势利导",
         "name": "因势利导 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%",
-        "description-en": "Boosts this card's base Defense by X% for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X% for every LOGIC card in the Primary Deck",
         "nums": [2.3, 11.48],
         "function": "defense up",
         "slot": 2
@@ -1748,12 +1748,12 @@
     {
         "id": "因势利导",
         "name": "因势利导 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "逻辑",
         "rarity": "SSR",
         "description": "主战思绪中每有一张逻辑的思绪，该思绪的基础防御力增加X%",
-        "description-en": "Boosts this card's base Defense by X% for every LOGIC card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X% for every LOGIC card in the Primary Deck",
         "nums": [2.88, 14.4],
         "function": "defense up",
         "slot": 2
@@ -1761,12 +1761,12 @@
     {
         "id": "防微虑远",
         "name": "防微虑远 Ⅱ",
-        "name-en": "",
+        "nameEN": "Prevention Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X",
-        "description-en": "Boosts the base defense of all INTUITION cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base defense of all INTUITION cards in the Primary Deck by X",
         "nums": [21, 100],
         "function": "defense up",
         "slot": 3
@@ -1774,12 +1774,12 @@
     {
         "id": "防微虑远",
         "name": "防微虑远 Ⅲ",
-        "name-en": "",
+        "nameEN": "Prevention Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X",
-        "description-en": "Boosts the base defense of all INTUITION cards in the Primary Deck by X",
+        "descriptionEN": "Boosts the base defense of all INTUITION cards in the Primary Deck by X",
         "nums": [26, 125],
         "function": "defense up",
         "slot": 3
@@ -1787,12 +1787,12 @@
     {
         "id": "攻势化解",
         "name": "攻势化解 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X%",
-        "description-en": "Boosts the base defense of all INTUITION cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base defense of all INTUITION cards in the Primary Deck by X%",
         "nums": [2.3, 11.48],
         "function": "defense up",
         "slot": 3
@@ -1800,12 +1800,12 @@
     {
         "id": "攻势化解",
         "name": "攻势化解 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中所有直觉思绪的基础防御力增加X%",
-        "description-en": "Boosts the base defense of all INTUITION cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base defense of all INTUITION cards in the Primary Deck by X%",
         "nums": [2.88, 14.4],
         "function": "defense up",
         "slot": 3
@@ -1813,12 +1813,12 @@
     {
         "id": "预见之明",
         "name": "预见之明 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every INTUITION card in the Primary Deck",
         "nums": [21, 100],
         "function": "defense up",
         "slot": 2
@@ -1826,12 +1826,12 @@
     {
         "id": "预见之明",
         "name": "预见之明 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X",
-        "description-en": "Boosts this card's base Defense by X for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X for every INTUITION card in the Primary Deck",
         "nums": [26, 125],
         "function": "defense up",
         "slot": 2
@@ -1839,12 +1839,12 @@
     {
         "id": "本能回避",
         "name": "本能回避 Ⅱ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%",
-        "description-en": "Boosts this card's base Defense by X% for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X% for every INTUITION card in the Primary Deck",
         "nums": [2.3, 11.48],
         "function": "defense up",
         "slot": 2
@@ -1852,12 +1852,12 @@
     {
         "id": "本能回避",
         "name": "本能回避 Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
         "description": "主战思绪中每有一张直觉的思绪，该思绪的基础防御力增加X%",
-        "description-en": "Boosts this card's base Defense by X% for every INTUITION card in the Primary Deck",
+        "descriptionEN": "Boosts this card's base Defense by X% for every INTUITION card in the Primary Deck",
         "nums": [2.88, 14.4],
         "function": "defense up",
         "slot": 2
@@ -1865,12 +1865,12 @@
     {
         "id": "示假隐真",
         "name": "示假隐真α Ⅰ",
-        "name-en": "Covering Tactics α Ⅰ",
+        "nameEN": "Covering Tactics α Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "使对方说服力降低X%，持续1回合",
-        "description-en": "Reduces the opponent's Influence by X% for 1 turn(s)",
+        "descriptionEN": "Reduces the opponent's Influence by X% for 1 turn(s)",
         "nums": [5.4, 27],
         "function": "influence down",
         "slot": 1
@@ -1878,12 +1878,12 @@
     {
         "id": "示假隐真",
         "name": "示假隐真β Ⅰ",
-        "name-en": "Covering Tactics β Ⅰ",
+        "nameEN": "Covering Tactics β Ⅰ",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "使对方说服力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's Influence by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's Influence by X% for 2 turn(s)",
         "nums": [3.8, 19.01],
         "function": "influence down",
         "slot": 1
@@ -1891,12 +1891,12 @@
     {
         "id": "示假隐真",
         "name": "示假隐真β Ⅱ",
-        "name-en": "Covering Tactics β Ⅱ",
+        "nameEN": "Covering Tactics β Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "使对方说服力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's Influence by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's Influence by X% for 2 turn(s)",
         "nums": [3, 14.97],
         "function": "influence down",
         "slot": 1
@@ -1904,12 +1904,12 @@
     {
         "id": "示假隐真",
         "name": "示假隐真γ Ⅱ",
-        "name-en": "Covering Tactics γ Ⅱ",
+        "nameEN": "Covering Tactics γ Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
         "description": "使对方说服力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's Influence by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's Influence by X% for 3 turn(s)",
         "nums": [2.7, 13.5],
         "function": "influence down",
         "slot": 1
@@ -1917,12 +1917,12 @@
     {
         "id": "以德服人",
         "name": "以德服人α Ⅰ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "使对方防御力降低X%，持续1回合",
-        "description-en": "Reduces the opponent's Defense by X% for 1 turn(s)",
+        "descriptionEN": "Reduces the opponent's Defense by X% for 1 turn(s)",
         "nums": [9, 45],
         "function": "defense down",
         "slot": 1
@@ -1930,12 +1930,12 @@
     {
         "id": "以德服人",
         "name": "以德服人α Ⅲ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "通用",
         "rarity": "SSR",
         "description": "使对方防御力降低X%，持续1回合",
-        "description-en": "Reduces the opponent's Defense by X% for 1 turn(s)",
+        "descriptionEN": "Reduces the opponent's Defense by X% for 1 turn(s)",
         "nums": [15, 75.03],
         "function": "defense down",
         "slot": 1
@@ -1943,12 +1943,12 @@
     {
         "id": "以德服人",
         "name": "以德服人β Ⅰ",
-        "name-en": "",
+        "nameEN": "",
         "character": "通用",
         "type": "通用",
         "rarity": "R",
         "description": "使对方防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's Defense by X% for 2 turn(s)",
         "nums": [9, 45],
         "function": "defense down",
         "slot": 1
@@ -1956,12 +1956,12 @@
     {
         "id": "设问否定",
         "name": "设问否定α Ⅰ",
-        "name-en": "Negative Interrogative α Ⅰ",
+        "nameEN": "Negative Interrogative α Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
         "description": "使对方逻辑防御力降低X%，持续1回合",
-        "description-en": "Reduces the opponent's LOGIC Defense by X% for 1 turn(s)",
+        "descriptionEN": "Reduces the opponent's LOGIC Defense by X% for 1 turn(s)",
         "nums": [11.4, 57.03],
         "function": "defense down",
         "slot": 1
@@ -1969,12 +1969,12 @@
     {
         "id": "设问否定",
         "name": "设问否定β Ⅰ",
-        "name-en": "Negative Interrogative β Ⅰ",
+        "nameEN": "Negative Interrogative β Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
         "description": "使对方逻辑防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's LOGIC Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's LOGIC Defense by X% for 2 turn(s)",
         "nums": [7.8, 39.03],
         "function": "defense down",
         "slot": 1
@@ -1982,12 +1982,12 @@
     {
         "id": "设问否定",
         "name": "设问否定β Ⅱ",
-        "name-en": "Negative Interrogative β Ⅱ",
+        "nameEN": "Negative Interrogative β Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "使对方逻辑防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's LOGIC Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's LOGIC Defense by X% for 2 turn(s)",
         "nums": [9.8, 49.04],
         "function": "defense down",
         "slot": 1
@@ -1995,12 +1995,12 @@
     {
         "id": "设问否定",
         "name": "设问否定γ Ⅰ",
-        "name-en": "Negative Interrogative γ Ⅰ",
+        "nameEN": "Negative Interrogative γ Ⅰ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "R",
         "description": "使对方逻辑防御力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's LOGIC Defense by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's LOGIC Defense by X% for 3 turn(s)",
         "nums": [7.2, 36],
         "function": "defense down",
         "slot": 1
@@ -2008,12 +2008,12 @@
     {
         "id": "设问否定",
         "name": "设问否定γ Ⅱ",
-        "name-en": "Negative Interrogative γ Ⅱ",
+        "nameEN": "Negative Interrogative γ Ⅱ",
         "character": "通用",
         "type": "逻辑",
         "rarity": "MR SR",
         "description": "使对方逻辑防御力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's LOGIC Defense by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's LOGIC Defense by X% for 3 turn(s)",
         "nums": [9, 45],
         "function": "defense down",
         "slot": 1
@@ -2021,12 +2021,12 @@
     {
         "id": "引申归谬",
         "name": "引申归谬α Ⅰ",
-        "name-en": "Indirect Approach α Ⅰ",
+        "nameEN": "Indirect Approach α Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
         "description": "使对方共情防御力降低X%，持续1回合",
-        "description-en": "Reduces the opponent's EMPATHY Defense by X% for 1 turn(s)",
+        "descriptionEN": "Reduces the opponent's EMPATHY Defense by X% for 1 turn(s)",
         "nums": [11.4, 57.03],
         "function": "defense down",
         "slot": 1
@@ -2034,12 +2034,12 @@
     {
         "id": "引申归谬",
         "name": "引申归谬β Ⅰ",
-        "name-en": "Indirect Approach β Ⅰ",
+        "nameEN": "Indirect Approach β Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
         "description": "使对方共情防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's EMPATHY Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's EMPATHY Defense by X% for 2 turn(s)",
         "nums": [7.8, 39.03],
         "function": "defense down",
         "slot": 1
@@ -2047,12 +2047,12 @@
     {
         "id": "引申归谬",
         "name": "引申归谬β Ⅱ",
-        "name-en": "Indirect Approach β Ⅱ",
+        "nameEN": "Indirect Approach β Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "使对方共情防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's EMPATHY Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's EMPATHY Defense by X% for 2 turn(s)",
         "nums": [9.8, 49.04],
         "function": "defense down",
         "slot": 1
@@ -2060,12 +2060,12 @@
     {
         "id": "引申归谬",
         "name": "引申归谬γ Ⅰ",
-        "name-en": "Indirect Approach γ Ⅰ",
+        "nameEN": "Indirect Approach γ Ⅰ",
         "character": "通用",
         "type": "共情",
         "rarity": "R",
         "description": "使对方共情防御力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's EMPATHY Defense by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's EMPATHY Defense by X% for 3 turn(s)",
         "nums": [7.2, 36],
         "function": "defense down",
         "slot": 1
@@ -2073,12 +2073,12 @@
     {
         "id": "引申归谬",
         "name": "引申归谬γ Ⅱ",
-        "name-en": "Indirect Approach γ Ⅱ",
+        "nameEN": "Indirect Approach γ Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
         "description": "使对方共情防御力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's EMPATHY Defense by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's EMPATHY Defense by X% for 3 turn(s)",
         "nums": [9, 45],
         "function": "defense down",
         "slot": 1
@@ -2086,12 +2086,12 @@
     {
         "id": "避实就虚",
         "name": "避实就虚α Ⅰ",
-        "name-en": "Evasive Maneuver α Ⅰ",
+        "nameEN": "Evasive Maneuver α Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
         "description": "使对方直觉防御力降低X%，持续1回合",
-        "description-en": "Reduces the opponent's INTUITION Defense by X% for 1 turn(s)",
+        "descriptionEN": "Reduces the opponent's INTUITION Defense by X% for 1 turn(s)",
         "nums": [11.4, 57.03],
         "function": "defense down",
         "slot": 1
@@ -2099,12 +2099,12 @@
     {
         "id": "避实就虚",
         "name": "避实就虚β Ⅰ",
-        "name-en": "Evasive Maneuver β Ⅰ",
+        "nameEN": "Evasive Maneuver β Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
         "description": "使对方直觉防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's INTUITION Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's INTUITION Defense by X% for 2 turn(s)",
         "nums": [7.8, 39.03],
         "function": "defense down",
         "slot": 1
@@ -2112,12 +2112,12 @@
     {
         "id": "避实就虚",
         "name": "避实就虚β Ⅱ",
-        "name-en": "Evasive Maneuver β Ⅱ",
+        "nameEN": "Evasive Maneuver β Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "使对方直觉防御力降低X%，持续2回合",
-        "description-en": "Reduces the opponent's INTUITION Defense by X% for 2 turn(s)",
+        "descriptionEN": "Reduces the opponent's INTUITION Defense by X% for 2 turn(s)",
         "nums": [9.8, 49.04],
         "function": "defense down",
         "slot": 1
@@ -2125,12 +2125,12 @@
     {
         "id": "避实就虚",
         "name": "避实就虚γ Ⅰ",
-        "name-en": "Evasive Maneuver γ Ⅰ",
+        "nameEN": "Evasive Maneuver γ Ⅰ",
         "character": "通用",
         "type": "直觉",
         "rarity": "R",
         "description": "使对方直觉防御力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's INTUITION Defense by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's INTUITION Defense by X% for 3 turn(s)",
         "nums": [7.2, 36],
         "function": "defense down",
         "slot": 1
@@ -2138,12 +2138,12 @@
     {
         "id": "避实就虚",
         "name": "避实就虚γ Ⅱ",
-        "name-en": "Evasive Maneuver γ Ⅱ",
+        "nameEN": "Evasive Maneuver γ Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
         "description": "使对方直觉防御力降低X%，持续3回合",
-        "description-en": "Reduces the opponent's INTUITION Defense by X% for 3 turn(s)",
+        "descriptionEN": "Reduces the opponent's INTUITION Defense by X% for 3 turn(s)",
         "nums": [9, 45],
         "function": "defense down",
         "slot": 1

@@ -33,7 +33,7 @@ export class CardPoolHistoryComponent implements OnInit {
     this._data.getCards().subscribe((data: any[]) => {
       this.cards = data
     })
-    this._data.getCardPoolHistory().subscribe((data: any[]) => {
+    this._data.getVisionHistory().subscribe((data: any[]) => {
       this.pools = data
     })
   }
