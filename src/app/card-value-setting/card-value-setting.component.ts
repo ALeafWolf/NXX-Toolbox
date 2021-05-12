@@ -51,11 +51,11 @@ export class CardValueSettingComponent implements OnInit {
   ngOnInit(): void {
     this.userData = JSON.parse(this._data.getItem(this.id))
 
-    this._data.getCards().subscribe((data: any[]) => {
+    this._data.getCards().toPromise().then((data: any[]) => {
       data.forEach(c => {
         if (c.id == this.id) {
           this.card = c;
-          this.att = c.attack;
+          this.att = c.influence;
           this.def = c.defence;
           this._seoService.setTitle(`思绪：${this.card.name}`);
           if (c.rarity == "R") {

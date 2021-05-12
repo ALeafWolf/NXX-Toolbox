@@ -114,12 +114,12 @@
                     <td rowspan="2">
                         <a [routerLink]="['/skill', s]" target="_blank">
                             <img class="icon"
-                                src="{{'assets/images/技能/' + skillsID[card.skills.indexOf(s)] + '.png'}}">
+                                src="{{'assets/images/技能/' + s.id + '.png'}}">
                         </a>
                     </td>
                     <td colspan="2">
                         <a [routerLink]="['/skill', s]" target="_blank">
-                            {{s}}
+                            {{s.n}}
                         </a>
                     </td>
 

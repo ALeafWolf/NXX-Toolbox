@@ -35,7 +35,6 @@ export class CardValueComponent implements OnInit {
   att = 0;
   def = 0;
   skills = [1, 1, 1];
-  skillsID = ["", "", ""];
   skillsInfo = ["", "", ""];
   power = 0;
 
@@ -85,7 +84,7 @@ export class CardValueComponent implements OnInit {
         });
         this.skillList = list
       }
-      this._data.getSkills().subscribe(data => {
+      this._data.getSkills().toPromise().then(data => {
         this.allSkillList = data
         this.setSkillDisplay();
       })
@@ -96,6 +95,29 @@ export class CardValueComponent implements OnInit {
     if ('EN' == this.lang) {
       data.char = data.characterEN != '' ? data.characterEN : data.character
       data.n = data.nameEN != '' ? data.nameEN : data.name
+
+      let skills = []
+      data.skills.forEach(s => {
+        this._data.getSkill(s).toPromise().then((d: any) => {
+          d.n = d.nameEN != '' ? d.nameEN : d.name
+          d.des = d.descriptionEN != '' ? d.descriptionEN : d.description
+          skills.push(d)
+        })
+      });
+      data.skills = skills
+    } else {
+      data.char = data.character
+      data.n = data.name
+
+      let skills = []
+      data.skills.forEach(s => {
+        this._data.getSkill(s).toPromise().then((d: any) => {
+          d.n = d.name
+          d.des = d.description
+          skills.push(d)
+        })
+      });
+      data.skills = skills
     }
     this.card = data;
   }
@@ -105,29 +127,19 @@ export class CardValueComponent implements OnInit {
     if ('EN' == this.lang) {
       pre = 'Card'
     }
-    this._seoService.setTitle(`${pre}：${this.card.name}`);
+    this._seoService.setTitle(`${pre}：${this.card.n}`);
   }
 
   //set the string of skills that being display on the page
   setSkillDisplay() {
-    let id = []
-    let des = []
+    this.skillsInfo = []
     for (let i = 0; i < 3; i++) {
-      let name = this.card.skills[i]
-      for (let s of this.skillList) {
-        if (s.name === name) {
-          id.push(s.id)
-          let j = this.card.skills.indexOf(s.name)
-          //calculate correct number for the skill at matching lv
-          let num = (this.skills[j] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
-          //replace X in the description with correct number
-          let line = s.description.toString()
-          let str = line.replace("X", num.toFixed(2).toString())
-          des.push(str);
-        }
-      }
-      this.skillsID = id;
-      this.skillsInfo = des;
+      let skill = this.card.skills[i]
+      let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0]
+      //replace X in the description with correct number
+      let line = skill.des.toString()
+      let str = line.replace("X", num.toFixed(2).toString())
+      this.skillsInfo.push(str);
     }
   }
 
