@@ -1,6 +1,12 @@
 <button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
     <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
 </button>
+<div *ngIf="isLoaded == false" class="loader">
+    <div class="spinner-border text-light" role="status">
+        <span class="sr-only mx-auto">Loading...</span>
+    </div>
+</div>
+
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
         <h4>技能数值的资料参考自：</h4>

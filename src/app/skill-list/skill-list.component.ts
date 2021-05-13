@@ -12,6 +12,7 @@ export class SkillListComponent implements OnInit {
   fullSkillList: any[];
   skillList: any[];
   filterConditions = ["All", "All", "All", "All", "All"]
+  isLoaded = false;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
@@ -23,8 +24,7 @@ export class SkillListComponent implements OnInit {
     this.lang = localStorage.getItem('language')
     this._data.getSkills().toPromise().then((data: any[]) => {
       this.loadSkillWithLang(data)
-      // this.skillList = data;
-      // this.fullSkillList = data;
+      this.isLoaded = true;
     })
   }
 

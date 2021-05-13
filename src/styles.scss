@@ -85,3 +85,10 @@ li.dropdown > div.dropdown-menu > a.dropdown-item:hover {
     color: #f8f9fa;
     background-color: #343a40;
 }
+
+.loader{
+    z-index: 99;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+}

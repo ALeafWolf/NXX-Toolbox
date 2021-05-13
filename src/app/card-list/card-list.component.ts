@@ -12,6 +12,7 @@ export class CardListComponent implements OnInit {
   allCards: any[];
   cards: any[];
   filterConditions = ["All", "All", "All", "All"];
+  isLoaded = false;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
@@ -27,6 +28,7 @@ export class CardListComponent implements OnInit {
       this.loadCardWithLang(data)
       // this.allCards = data
       // this.cards = data
+      this.isLoaded = true;
     })
   }
 
