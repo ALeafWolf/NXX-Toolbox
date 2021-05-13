@@ -26,8 +26,6 @@ export class CardListComponent implements OnInit {
     this.lang = localStorage.getItem('language')
     this._data.getCards().subscribe((data: any[]) => {
       this.loadCardWithLang(data)
-      // this.allCards = data
-      // this.cards = data
       this.isLoaded = true;
     })
   }

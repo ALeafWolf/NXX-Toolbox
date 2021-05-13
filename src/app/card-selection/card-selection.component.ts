@@ -11,6 +11,7 @@ export class CardSelectionComponent implements OnInit {
   allCards: any[];
   cards: any[];
   filterConditions = ["All", "All", "All"];
+  isLoaded = false;
 
   userData;
 
@@ -21,7 +22,7 @@ export class CardSelectionComponent implements OnInit {
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    this._data.getCards().subscribe((data: any[]) =>{
+    this._data.getCards().toPromise().then((data: any[]) =>{
       this.userData = Object.keys(localStorage)
       this.allCards = data
       if(this.userData){
@@ -30,6 +31,7 @@ export class CardSelectionComponent implements OnInit {
         this.allCards = data
       }
       this.cards = this.allCards
+      this.isLoaded = true;
     })
   }
 

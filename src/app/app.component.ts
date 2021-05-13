@@ -12,7 +12,7 @@ declare let gtag: Function;
 })
 export class AppComponent {
 
-  constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) {}
+  constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) { }
 
   ngOnInit() {
     //for google analystics
@@ -28,7 +28,8 @@ export class AppComponent {
     })
 
     // set default language to Chinese
-    if(!localStorage.getItem('language')){
+    let lang = localStorage.getItem('language')
+    if (!lang || (lang != 'EN' && lang != 'CN')) {
       localStorage.setItem('language', 'CN')
     }
     this._seoService.loadTags()
@@ -52,6 +53,9 @@ export class AppComponent {
       case '/card-calculator':
         s = '战力计算器';
         break;
+      case '/card-rss-calculator':
+        s = '养成资源计算器';
+        break;
       case '/card-selection':
         s = '计算器思绪选择';
         break;
@@ -65,7 +69,7 @@ export class AppComponent {
         s = '往期女神之影';
         break;
     }
-    if(s){
+    if (s) {
       this._seoService.setTitle(s);
     }
   }

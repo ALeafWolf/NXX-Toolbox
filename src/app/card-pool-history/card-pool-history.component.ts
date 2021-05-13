@@ -3,7 +3,7 @@ import { DataService } from '../services/data/data.service';
 
 export type SortColumn = '';
 export type SortDirection = 'asc' | 'desc' | '';
-const rotate: {[key: string]: SortDirection} = { 'asc': 'desc', 'desc': '', '': 'asc' };
+const rotate: { [key: string]: SortDirection } = { 'asc': 'desc', 'desc': '', '': 'asc' };
 
 const compare = (v1: string | number, v2: string | number) => v1 < v2 ? -1 : v1 > v2 ? 1 : 0;
 
@@ -11,7 +11,6 @@ export interface SortEvent {
   column: SortColumn;
   direction: SortDirection;
 }
-
 
 @Component({
   selector: 'app-card-pool-history',
@@ -22,6 +21,7 @@ export class CardPoolHistoryComponent implements OnInit {
 
   pools;
   cards;
+  isLoaded = false;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
@@ -30,38 +30,40 @@ export class CardPoolHistoryComponent implements OnInit {
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    this._data.getCards().subscribe((data: any[]) => {
+    this._data.getCards().toPromise().then((data: any[]) => {
       this.cards = data
+      this._data.getVisionHistory().toPromise().then((data: any[]) => {
+        this.pools = data
+        this.isLoaded = true;
+      })
     })
-    this._data.getVisionHistory().subscribe((data: any[]) => {
-      this.pools = data
-    })
+
   }
 
-  getImgSrc(name: string){
+  getImgSrc(name: string) {
     let pre = `assets/images/`
     let param = ""
     let post = ".png"
     this.cards.forEach(c => {
-      if(name == c.name){
+      if (name == c.name) {
         param = c.character + "/" + c.id
       }
     });
     return pre + param + post
   }
 
-  getRouterLink(name: string){
+  getRouterLink(name: string) {
     let pre = `/card-value/`
     let param = ""
     this.cards.forEach(c => {
-      if(name == c.name){
+      if (name == c.name) {
         param = c.character + "/" + c.id
       }
     });
     return pre + param
   }
 
-  onSort({column, direction}: SortEvent){
+  onSort({ column, direction }: SortEvent) {
 
   }
 

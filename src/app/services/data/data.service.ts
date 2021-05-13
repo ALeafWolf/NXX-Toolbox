@@ -38,12 +38,12 @@ export class DataService {
   }
   getVisionHistory(){
     // return this._http.get('assets/data/card-pool-history.json');
-    return this._http.get(this.link + "poolhistory");
+    return this._http.get(this.link + "visionhistory");
     // return this._http.get(this.testLink + `visionhistory`);
   }
 
   getVisionHistoryForOneServer(server:string){
-    return this._http.get(this.link + `poolhistory/${server}`);
+    return this._http.get(this.link + `visionhistory/${server}`);
   }
 
   //load data from locatStorage
