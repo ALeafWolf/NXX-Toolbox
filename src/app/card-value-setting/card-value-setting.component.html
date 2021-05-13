@@ -1,3 +1,9 @@
+<div *ngIf="isLoaded == false" class="loader">
+    <div class="spinner-border text-light" role="status">
+        <span class="sr-only mx-auto">Loading...</span>
+    </div>
+</div>
+
 <div class="row justify-content-center">
     <div class="col-12 row">
         <div class="col-6 col-md-4 row py-2">
@@ -120,7 +126,7 @@
                     <td rowspan="2">
                         <a [routerLink]="['/skill', s]" target="_blank">
                             <img class="icon"
-                                src="{{'assets/images/技能/' + skillsID[card.skills.indexOf(s)] + '.png'}}">
+                                src="{{'assets/images/技能/' + skillsID[card.skills.indexOf(s)] + '.webp'}}">
                         </a>
                     </td>
                     <td colspan="2">

@@ -29,7 +29,7 @@
                     <div class="row justify-content-center">
                         <div *ngFor="let s of secondSkills" class="col-3">
                             <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
-                                <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
+                                <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.webp'}}">
                             </a>
                             <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
                         </div>
@@ -39,7 +39,7 @@
                 <div class="row justify-content-center">
                     <div *ngFor="let s of thirdSkills" class="col-3">
                         <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
-                            <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.png'}}">
+                            <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.webp'}}">
                         </a>
                         <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
                     </div>

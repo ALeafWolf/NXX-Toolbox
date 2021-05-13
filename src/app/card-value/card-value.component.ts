@@ -38,6 +38,7 @@ export class CardValueComponent implements OnInit {
   skillsInfo = ["", "", ""];
   power = 0;
 
+  isLoaded = false;
 
   constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) { }
 
@@ -52,6 +53,7 @@ export class CardValueComponent implements OnInit {
       this.setTitle();
       this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
       this.att = data.influence
+      console.log(`defense:　${data.defense}`)
       this.def = data.defense
       if (data.rarity == "R") {
         this.lv = 70
@@ -88,6 +90,8 @@ export class CardValueComponent implements OnInit {
         this.allSkillList = data
         this.setSkillDisplay();
       })
+
+      this.isLoaded = true;
     })
   }
 

@@ -42,6 +42,8 @@ export class CardValueSettingComponent implements OnInit {
   skillsInfo = [];
   power = 0;
 
+  isLoaded = false;
+
   constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
     this.char = this._route.snapshot.params.charname
     this.id = this._route.snapshot.params.id
@@ -56,7 +58,7 @@ export class CardValueSettingComponent implements OnInit {
         if (c.id == this.id) {
           this.card = c;
           this.att = c.influence;
-          this.def = c.defence;
+          this.def = c.defense;
           this._seoService.setTitle(`思绪：${this.card.name}`);
           if (c.rarity == "R") {
             this.lv = 70
@@ -79,6 +81,8 @@ export class CardValueSettingComponent implements OnInit {
       if (this.card) {
         this.loadSkillInfo()
       }
+
+      this.isLoaded = true;
     })
   }
 

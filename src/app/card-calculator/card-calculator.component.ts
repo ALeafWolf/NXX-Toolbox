@@ -148,7 +148,6 @@ export class CardCalculatorComponent implements OnInit {
         isIn = true
       }
     })
-    console.log(`${isIn}`)
     if (!isIn) {
       this.addSkillPack(userData, skillList, skillIndex);
     }
