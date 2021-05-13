@@ -37,6 +37,10 @@ export class CardListComponent implements OnInit {
         card.n = card.nameEN != '' ? card.nameEN : card.name
         card.name = card.nameEN != '' ? card.nameEN : card.name
         card.char = card.characterEN != '' ? card.characterEN : card.character
+      }else{
+        card.n = card.name
+        card.name = card.name
+        card.char = card.character
       }
       c.push(card)
     })

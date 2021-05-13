@@ -43,7 +43,7 @@ export class CardPoolHistoryComponent implements OnInit {
   getImgSrc(name: string) {
     let pre = `assets/images/`
     let param = ""
-    let post = ".png"
+    let post = ".webp"
     this.cards.forEach(c => {
       if (name == c.name) {
         param = c.character + "/" + c.id
