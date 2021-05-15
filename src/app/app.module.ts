@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { CardSelectionComponent } from './card-selection/card-selection.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
@@ -21,6 +22,8 @@ import { CardListComponent } from './card-list/card-list.component';
 import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
+import { MatIconModule } from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -45,7 +48,9 @@ import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calcu
     AppRoutingModule,
     NgbModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatIconModule
   ],
   providers: [Meta],
   bootstrap: [AppComponent]
