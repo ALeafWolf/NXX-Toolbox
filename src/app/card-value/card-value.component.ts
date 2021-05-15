@@ -53,7 +53,6 @@ export class CardValueComponent implements OnInit {
       this.setTitle();
       this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
       this.att = data.influence
-      console.log(`defense:　${data.defense}`)
       this.def = data.defense
       if (data.rarity == "R") {
         this.lv = 70
@@ -68,13 +67,7 @@ export class CardValueComponent implements OnInit {
         })
         //if localStorage has user's data for this card
         if (this.userData) {
-          this.hasUserData = true;
-          this.skills = this.userData.skills
-          this.star = this.userData.star
-          this.calculateRss()
-          this.calculateCardStatistic()
-          // this.setSkillDisplay();
-          this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+          this.loadUserData()
         }
       }).catch(err => console.log(err))
       if (this.card) {
@@ -95,6 +88,16 @@ export class CardValueComponent implements OnInit {
     })
   }
 
+  loadUserData(){
+    this.hasUserData = true;
+    this.skills = this.userData.skills
+    this.star = this.userData.star
+    this.calculateRss()
+    this.calculateCardStatistic()
+    this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+  }
+
+  //set card's information based on user's choice for language
   setCardWithLang(data: any) {
     if ('EN' == this.lang) {
       data.char = data.characterEN != '' ? data.characterEN : data.character
@@ -137,7 +140,11 @@ export class CardValueComponent implements OnInit {
   //set the string of skills that being display on the page
   setSkillDisplay() {
     this.skillsInfo = []
-    for (let i = 0; i < 3; i++) {
+    let r = 3;
+    if (this.card.rarity == "R") {
+      r = 2
+    }
+    for (let i = 0; i < r; i++) {
       let skill = this.card.skills[i]
       let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0]
       //replace X in the description with correct number

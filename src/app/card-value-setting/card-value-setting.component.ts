@@ -14,6 +14,7 @@ export class CardValueSettingComponent implements OnInit {
 
   char;
   id;
+  lang;
 
   //from data service
   charRssGroup;
@@ -26,12 +27,16 @@ export class CardValueSettingComponent implements OnInit {
   coin = 0;
   rss = [0, 0, 0, 0, 0, 0];
   lv = 100;
+
   //for localStorage
   userData;
   hasUserData = false;
   star = 1;
   att = 0;
   def = 0;
+  power = 0;
+
+  //for card-calculator
   skillsID = [];
   skillNames = [];
   skills = [1, 1, 1];
@@ -40,32 +45,29 @@ export class CardValueSettingComponent implements OnInit {
   skillChars = []
   skillTypes = []
   skillsInfo = [];
-  power = 0;
 
   isLoaded = false;
 
   constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
-    this.char = this._route.snapshot.params.charname
-    this.id = this._route.snapshot.params.id
-    this.charRssGroup = SkillInfo.getSkillRssGroup(this.char);
+
   }
 
   ngOnInit(): void {
+    this.char = this._route.snapshot.params.charname
+    this.id = this._route.snapshot.params.id
+
+    this.lang = localStorage.getItem('language')
     this.userData = JSON.parse(this._data.getItem(this.id))
 
-    this._data.getCards().toPromise().then((data: any[]) => {
-      data.forEach(c => {
-        if (c.id == this.id) {
-          this.card = c;
-          this.att = c.influence;
-          this.def = c.defense;
-          this._seoService.setTitle(`思绪：${this.card.name}`);
-          if (c.rarity == "R") {
-            this.lv = 70
-            this.skills = [1, 1]
-          }
-        }
-      });
+    this._data.getCard(this.id).toPromise().then((data: any) => {
+      this.setCardWithLang(data)
+      this.setTitle();
+      this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
+      this.att = data.influence
+      this.def = data.defense
+      if (data.rarity == "R") {
+        this.lv = 70
+      }
       this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       this._data.getSkillRssList().toPromise().then((data: any[]) => {
         data.forEach(d => {
@@ -83,7 +85,7 @@ export class CardValueSettingComponent implements OnInit {
       }
 
       this.isLoaded = true;
-    })
+    });
   }
 
   loadUserData() {
@@ -93,6 +95,46 @@ export class CardValueSettingComponent implements OnInit {
     this.calculateRss()
     this.calculateCardStatistic()
     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+  }
+
+  //set card's information based on user's choice for language
+  setCardWithLang(data: any) {
+    if ('EN' == this.lang) {
+      data.char = data.characterEN != '' ? data.characterEN : data.character
+      data.n = data.nameEN != '' ? data.nameEN : data.name
+
+      let skills = []
+      data.skills.forEach(s => {
+        this._data.getSkill(s).toPromise().then((d: any) => {
+          d.n = d.nameEN != '' ? d.nameEN : d.name
+          d.des = d.descriptionEN != '' ? d.descriptionEN : d.description
+          skills.push(d)
+        })
+      });
+      data.skills = skills
+    } else {
+      data.char = data.character
+      data.n = data.name
+
+      let skills = []
+      data.skills.forEach(s => {
+        this._data.getSkill(s).toPromise().then((d: any) => {
+          d.n = d.name
+          d.des = d.description
+          skills.push(d)
+        })
+      });
+      data.skills = skills
+    }
+    this.card = data;
+  }
+
+  setTitle() {
+    let pre = '思绪'
+    if ('EN' == this.lang) {
+      pre = 'Card'
+    }
+    this._seoService.setTitle(`${pre}：${this.card.n}`);
   }
 
   loadSkillInfo() {
@@ -126,28 +168,24 @@ export class CardValueSettingComponent implements OnInit {
     }
 
     for (let i = 0; i < r; i++) {
-      let name = this.card.skills[i]
-      this.skillNames.push(name)
-      for (let s of this.skillList) {
-        if (s.name === name) {
-          this.skillsID.push(s.id)
-          this.skillChars.push(s.character)
-          this.skillTypes.push(s.type)
-          let j = this.card.skills.indexOf(s.name)
-          //calculate correct number for the skill at matching lv
-          let num = (this.skills[j] - 1) * (s.nums[1] - s.nums[0]) / 9 + s.nums[0]
-          this.skillNums.push(num.toFixed(2))
-          //replace X in the description with correct number
-          let line = s.description.toString()
-          if (line.includes("%")) {
-            this.skillNumTypes.push("%")
-          } else {
-            this.skillNumTypes.push("")
-          }
-          let str = line.replace("X", num.toFixed(2).toString())
-          this.skillsInfo.push(str);
-        }
+      let skill = this.card.skills[i]
+      //store data for usage at card calculator
+      this.skillsID.push(skill.id)
+      this.skillChars.push(skill.character)
+      this.skillTypes.push(skill.type)
+      this.skillNames.push(skill.name)
+      let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0]
+      this.skillNums.push(num.toFixed(2))
+
+      //replace X in the description with correct number
+      let line = skill.des.toString()
+      if (line.includes("%")) {
+        this.skillNumTypes.push("%")
+      } else {
+        this.skillNumTypes.push("")
       }
+      let str = line.replace("X", num.toFixed(2).toString())
+      this.skillsInfo.push(str);
     }
   }
 
@@ -183,8 +221,8 @@ export class CardValueSettingComponent implements OnInit {
 
   calculateCardStatistic() {
     let x = 1 + (this.star - 1) * 0.1
-    this.att = Math.round(this.card.attack * x)
-    this.def = Math.round(this.card.defence * x)
+    this.att = Math.round(this.card.influence * x)
+    this.def = Math.round(this.card.defense * x)
   }
 
   updatePower() {

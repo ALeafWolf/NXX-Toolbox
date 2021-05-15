@@ -7,21 +7,31 @@ import { DataService } from '../services/data/data.service';
   styleUrls: ['./card-calculator.component.scss']
 })
 export class CardCalculatorComponent implements OnInit {
+
   userData = [];
   //夏左莫陆
   charCount = [0, 0, 0, 0];
   //逻辑共情直觉
-  typeCount = [0, 0, 0]
+  typeCount = [0, 0, 0];
   emptyHolder;
+
+  allSkills;
+
   totalPower = 0;
   secondSkills = [];
   thirdSkills = [];
 
+  lang;
+
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    this.loadUserCards()
-    this.generateEmptyHolder()
+    this.lang = localStorage.getItem('language')
+    this._data.getSkills().toPromise().then((skills: any[]) => {
+      this.allSkills = skills;
+      this.loadUserCards()
+      this.generateEmptyHolder()
+    })
   }
 
   generateEmptyHolder() {
@@ -34,9 +44,9 @@ export class CardCalculatorComponent implements OnInit {
       //load card icon on screen
       if (k != "language") {
         let i = JSON.parse(localStorage.getItem(k))
-        this.loadCounts(i)
+        this.loadTypeCounts(i)
         this.totalPower += i.power
-        this.userData.push(i)
+        this.switchSkillLanguage(i)
       }
     })
     if (0 != this.userData.length) {
@@ -44,7 +54,7 @@ export class CardCalculatorComponent implements OnInit {
     }
   }
 
-  loadCounts(data: any) {
+  loadTypeCounts(data: any) {
     switch (data.type) {
       case '逻辑':
         this.typeCount[0] += 1;
@@ -72,8 +82,26 @@ export class CardCalculatorComponent implements OnInit {
     };
   }
 
+  switchSkillLanguage(item: any) {
+    if (this.lang == 'EN') {
+      let names = []
+      item.skillNames.forEach(n => {
+        this.allSkills.forEach(s => {
+          if (n == s.name) {
+            let name = s.nameEN == '' ? s.name : s.nameEN
+            names.push(name)
+          }
+        })
+      });
+      item.skillNames = names
+    }
+    this.userData.push(item)
+  }
+
   //load skill statistics for chosen cards
   loadSkillCounts() {
+    console.log(this.userData)
+
     this.addSecondSkill(this.userData, 1)
     this.userData.forEach(data => {
       if (data.rarity != "R") {
@@ -83,7 +111,8 @@ export class CardCalculatorComponent implements OnInit {
   }
 
   addSecondSkill(userData: any[], skillIndex: number) {
-    userData.forEach(data => {
+    this.userData.forEach(data => {
+      // console.log(`${data.name}: ${data.skillNames}`)
       let common = "通用"
       // skip the skill which won't get buffed based on either character or type
       if (common === data.skillTypes[skillIndex] && common === data.skillChar[skillIndex]) {
