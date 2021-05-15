@@ -138,15 +138,19 @@ export class CardValueSettingComponent implements OnInit {
   }
 
   loadSkillInfo() {
-    let list = []
-    this.card.skills.forEach(s => {
-      this._data.getSkill(s).toPromise().then(response => {
-        list.push(response)
-      })
-    });
-    this.skillList = list
-    this._data.getSkills().toPromise().then(data => {
+    this._data.getSkills().toPromise().then((data: any[]) => {
+      let list = []
       this.allSkillList = data
+      this.card.skills.forEach(s => {
+        data.forEach(d => {
+          if (d.name == s.name) {
+            list.push(d)
+
+          }
+        })
+      })
+      this.skillList = list
+
       this.setSkillDisplay();
     })
   }
