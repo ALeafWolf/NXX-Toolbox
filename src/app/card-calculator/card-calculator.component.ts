@@ -22,6 +22,7 @@ export class CardCalculatorComponent implements OnInit {
   thirdSkills = [];
 
   lang;
+  isLoaded = false;
 
   constructor(private _data: DataService) { }
 
@@ -31,6 +32,7 @@ export class CardCalculatorComponent implements OnInit {
       this.allSkills = skills;
       this.loadUserCards()
       this.generateEmptyHolder()
+      this.isLoaded = true;
     })
   }
 
@@ -100,8 +102,6 @@ export class CardCalculatorComponent implements OnInit {
 
   //load skill statistics for chosen cards
   loadSkillCounts() {
-    console.log(this.userData)
-
     this.addSecondSkill(this.userData, 1)
     this.userData.forEach(data => {
       if (data.rarity != "R") {

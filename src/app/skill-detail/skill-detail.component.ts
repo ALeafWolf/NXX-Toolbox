@@ -50,7 +50,7 @@ export class SkillDetailComponent implements OnInit {
       this.skillName = this.skill.name;
       this.skillDes = this.skill.description;
     } else if ('EN' == this.lang) {
-      this.skillName = this.skill.nameEN;
+      this.skillName = this.skill.nameEN == '' ? this.skill.name : this.skill.nameEN
       this.skillDes = this.skill.descriptionEN;
     }
   }

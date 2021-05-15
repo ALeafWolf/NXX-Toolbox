@@ -6,13 +6,13 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class SEOService {
 
-  title = "牛叉叉牌工具箱：未定事件簿多功能辅助网站";
+  title = ["牛叉叉牌工具箱：未定事件簿多功能辅助网站", "NXX Toolbox: Multi-functional Support Site for Tears of Themis"];
   description = "战力计算器，思绪和技能索引，及其他功能待你探索~";
   image = "assets/images/meta-img.png";
   url = "https://aleafwolf.github.io/NXX-Toolbox";
+  lang = localStorage.getItem('language')
 
   constructor(private _title: Title, private _meta: Meta) {
-
   }
 
   getTitle(){
@@ -20,21 +20,25 @@ export class SEOService {
   }
 
   setTitle(title){
-    this._title.setTitle(`${title} | ${this.title}`);
+    let i = 0;
+    if(this.lang == 'EN'){
+      i = 1;
+    }
+    this._title.setTitle(`${title} | ${this.title[i]}`);
   }
 
   loadTags(){
     this._meta.addTags([
-      {name: "title", content: this.title},
+      {name: "title", content: this.title[0]},
       {name: "description", content: this.description},
       {property: "og:type", content: "website"},
       {property: "og:url", content: this.url},
-      {property: "og:title", content: this.title},
+      {property: "og:title", content: this.title[0]},
       {property: "og:description", content: this.description},
       {property: "og:image", content: this.image},
       {property: "twitter:card", content: "summary_large_image"},
       {property: "twitter:url", content: this.url},
-      {property: "twitter:title", content: this.title},
+      {property: "twitter:title", content: this.title[0]},
       {property: "twitter:description", content: this.description},
       {property: "twitter:image", content: this.image}
     ])

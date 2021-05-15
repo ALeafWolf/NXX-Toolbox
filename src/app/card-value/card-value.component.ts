@@ -71,18 +71,8 @@ export class CardValueComponent implements OnInit {
         }
       }).catch(err => console.log(err))
       if (this.card) {
-        let list = []
-        this.card.skills.forEach(s => {
-          this._data.getSkill(s).toPromise().then(response => {
-            list.push(response)
-          })
-        });
-        this.skillList = list
+        this.loadSkillInfo()
       }
-      this._data.getSkills().toPromise().then(data => {
-        this.allSkillList = data
-        this.setSkillDisplay();
-      })
 
       this.isLoaded = true;
     })
@@ -135,6 +125,24 @@ export class CardValueComponent implements OnInit {
       pre = 'Card'
     }
     this._seoService.setTitle(`${pre}：${this.card.n}`);
+  }
+
+  loadSkillInfo() {
+    this._data.getSkills().toPromise().then((data: any[]) => {
+      let list = []
+      this.allSkillList = data
+      this.card.skills.forEach(s => {
+        data.forEach(d => {
+          if (d.name == s.name) {
+            list.push(d)
+
+          }
+        })
+      })
+      this.skillList = list
+
+      this.setSkillDisplay();
+    })
   }
 
   //set the string of skills that being display on the page

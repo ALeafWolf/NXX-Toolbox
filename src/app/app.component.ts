@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { SEOService } from './services/seo/seo.service';
-import { filter, map } from 'rxjs/operators';
 
 declare let gtag: Function;
 
@@ -12,9 +11,18 @@ declare let gtag: Function;
 })
 export class AppComponent {
 
+  lang
+
   constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) { }
 
   ngOnInit() {
+    // set default language to Chinese
+    let lang = localStorage.getItem('language')
+    if (!lang || (lang != 'EN' && lang != 'CN')) {
+      localStorage.setItem('language', 'CN')
+    }
+    this.lang = lang
+
     //for google analystics
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
@@ -26,47 +34,48 @@ export class AppComponent {
           });
       }
     })
-
-    // set default language to Chinese
-    let lang = localStorage.getItem('language')
-    if (!lang || (lang != 'EN' && lang != 'CN')) {
-      localStorage.setItem('language', 'CN')
-    }
     this._seoService.loadTags()
-    // this.router.events.pipe(
-    //   filter(event => event instanceof NavigationEnd)
-    // ).subscribe(() => {
-    // let rt = this.getChild(this.activatedRoute)
-    // })
   }
 
   //change the title of page while routing
   setTitle(url: string) {
+    let home = ["主页", "Home"]
+    let cards = ["思绪", "Cards"]
+    let cardCal = ["战力计算器", "Power Calculator"]
+    let rssCal = ["养成资源计算器", "Resource Calculator"]
+    let cardSele = ["思绪选择", "Card Selection"]
+    let skills = ["技能", "Skills"]
+    let other = ["其他", "Other"]
+    let visionHistory = ["往期女神之影", "Vision History"]
+    let i = 0;
+    if('EN' == this.lang){
+      i = 1;
+    }
     let s;
     switch (url) {
       case '/home':
-        s = '主页';
+        s = home[i];
         break;
       case '/cards':
-        s = '思绪';
+        s = cards[i];
         break;
       case '/card-calculator':
-        s = '战力计算器';
+        s = cardCal[i];
         break;
       case '/card-rss-calculator':
-        s = '养成资源计算器';
+        s = rssCal[i];
         break;
       case '/card-selection':
-        s = '计算器思绪选择';
+        s = cardSele[i];
         break;
       case '/skills':
-        s = '技能';
+        s = skills[i];
         break;
       case '/other':
-        s = '其他';
+        s = other[i];
         break;
       case '/card-pool-history':
-        s = '往期女神之影';
+        s = visionHistory[i];
         break;
     }
     if (s) {

@@ -124,13 +124,13 @@
             <tbody *ngFor="let s of card.skills">
                 <tr>
                     <td rowspan="2">
-                        <a [routerLink]="['/skill', s]" target="_blank">
+                        <a [routerLink]="['/skill', s.n]" target="_blank">
                             <img class="icon"
                                 src="{{'assets/images/技能/' + s.id + '.webp'}}">
                         </a>
                     </td>
                     <td colspan="2">
-                        <a [routerLink]="['/skill', s]" target="_blank">
+                        <a [routerLink]="['/skill',  s.n]" target="_blank">
                             {{s.n}}
                         </a>
                     </td>
