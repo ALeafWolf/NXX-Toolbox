@@ -1,0 +1,2308 @@
+[
+    {
+        "id": "最佳拍档",
+        "name": "最佳拍档",
+        "nameEN": "Perfect Partner",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "演绎推理 Ⅲ",
+            "紧急避险 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "微醺视线",
+        "name": "微醺视线",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "层层深入β Ⅲ",
+            "情感投射 Ⅲ",
+            "排比增势 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "千灯如昼",
+        "name": "千灯如昼",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以退为进β Ⅲ",
+            "瞬间捕捉 Ⅲ",
+            "侦探头脑 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "虹色心跳",
+        "name": "虹色心跳",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "循循善诱β Ⅲ",
+            "古物修复 Ⅲ",
+            "击其薄弱 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "温馥予怀",
+        "name": "温馥予怀",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以理服人α Ⅲ",
+            "无懈可击 Ⅲ",
+            "侦探头脑 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "荧荧眸光",
+        "name": "荧荧眸光",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "洞察秋毫β Ⅲ",
+            "预见之明 Ⅲ",
+            "侦探头脑 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "此心安处",
+        "name": "此心安处",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "真相还原 Ⅲ",
+            "排比增势 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "心跳记忆",
+        "name": "心跳记忆",
+        "nameEN": "Loving Memories",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "直感思维 Ⅲ",
+            "绝对理性 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "醉意入怀",
+        "name": "醉意入怀",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入γ Ⅲ",
+            "抽丝剥茧 Ⅲ",
+            "滴水不漏 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "心有千千结",
+        "name": "心有千千结",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以退为进β Ⅲ",
+            "律法全能 Ⅲ",
+            "律典经纬 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "铃音予梦",
+        "name": "铃音予梦",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "循循善诱γ Ⅲ",
+            "有条不紊 Ⅲ",
+            "釜底抽薪 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "一步之遥",
+        "name": "一步之遥",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "洞察秋毫α Ⅲ",
+            "本能回避 Ⅲ",
+            "锐辞庭辩 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "天心漫游",
+        "name": "天心漫游",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以理服人β Ⅲ",
+            "无懈可击 Ⅲ",
+            "锐辞庭辩 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "两心无间",
+        "name": "两心无间",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "律法全能 Ⅲ",
+            "滴水不漏 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "惠雨归晴",
+        "name": "惠雨归晴",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "洞察秋毫γ Ⅲ",
+            "预见之明 Ⅲ",
+            "锐辞庭辩 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 833,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "咫尺远近",
+        "name": "咫尺远近",
+        "nameEN": "Near and Far",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "敏锐观察 Ⅲ",
+            "箱庭疗法 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "危情邀约",
+        "name": "危情邀约",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "层层深入β Ⅲ",
+            "张弛有度 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "舞夜流光",
+        "name": "舞夜流光",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以德服人α Ⅲ",
+            "自我评估 Ⅲ",
+            "谈话引导 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "心悬一线",
+        "name": "心悬一线",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以理服人γ Ⅲ",
+            "温文尔雅 Ⅲ",
+            "纵横捭阖 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "明暗之境",
+        "name": "明暗之境",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "盛装舞步 Ⅲ",
+            "攻势化解 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "焰落琉彩",
+        "name": "焰落琉彩",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "循循善诱α Ⅲ",
+            "预见之明 Ⅲ",
+            "人格侧写 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "思酿",
+        "name": "思酿",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以退为进α Ⅲ",
+            "交响奏鸣 Ⅲ",
+            "引譬连类 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "冤家路窄",
+        "name": "冤家路窄",
+        "nameEN": "Narrow Road",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "情绪感染 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "眸中景",
+        "name": "眸中景",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入γ Ⅲ",
+            "举一反三 Ⅲ",
+            "攻势化解 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "绘恋春风",
+        "name": "绘恋春风",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以退为进β Ⅲ",
+            "年少锋锐 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "累计充值"
+        ]
+    },
+    {
+        "id": "悸乱微光",
+        "name": "悸乱微光",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "洞察秋毫γ Ⅲ",
+            "精英教育 Ⅲ",
+            "见微知著 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "虚诞盛宴",
+        "name": "虚诞盛宴",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入α Ⅲ",
+            "因势利导 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "终夜明辉",
+        "name": "终夜明辉",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "年少锋锐 Ⅲ",
+            "排比增势 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "极光之昼",
+        "name": "极光之昼",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "洞察秋毫β Ⅲ",
+            "预见之明 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "苍木为意",
+        "name": "苍木为意",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以理服人γ Ⅲ",
+            "因势利导 Ⅲ",
+            "名利博弈 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "碧蓝之间",
+        "name": "碧蓝之间",
+        "nameEN": "Among the Great Blue",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以退为进γ Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "见微知著 Ⅱ"
+        ],
+        "influence": 1504,
+        "defense": 871,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "斑斓光影",
+        "name": "斑斓光影",
+        "nameEN": "Radiant Sunlight",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "洞察秋毫β Ⅱ",
+            "敏锐观察 Ⅱ",
+            "防微虑远 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 791,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "惊心一刻",
+        "name": "惊心一刻",
+        "nameEN": "Moment of Danger",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "张弛有度 Ⅱ",
+            "釜底抽薪 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "常驻"
+        ]
+    },
+    {
+        "id": "完美营救",
+        "name": "完美营救",
+        "nameEN": "Timely Rescue",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以理服人γ Ⅱ",
+            "抽丝剥茧 Ⅱ",
+            "机锋对弈 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "倾落心扉",
+        "name": "倾落心扉",
+        "nameEN": "Inner Sanctum",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "循循善诱β Ⅱ",
+            "情绪感染 Ⅱ",
+            "排比增势 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "彼时少年",
+        "name": "彼时少年",
+        "nameEN": "Once Upon a Time",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "层层深入γ Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "纵横捭阖 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 791,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "与子偕行",
+        "name": "与子偕行",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "示假隐真β Ⅱ",
+            "张弛有度 Ⅱ",
+            "纵横捭阖 Ⅱ"
+        ],
+        "influence": 1504,
+        "defense": 871,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "忆中人",
+        "name": "忆中人",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "层层深入β Ⅱ",
+            "直感思维 Ⅱ",
+            "体能超群 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "掌中流光",
+        "name": "掌中流光",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "层层深入α Ⅱ",
+            "古物修复 Ⅱ",
+            "排比增势 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "人间烟火",
+        "name": "人间烟火",
+        "nameEN": "Sparks",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "示假隐真γ Ⅱ",
+            "趋利避害 Ⅱ",
+            "正本清源 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 713,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "秋叶寄梦",
+        "name": "秋叶寄梦",
+        "nameEN": "Autumn Dreams",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以理服人β Ⅱ",
+            "律法全能 Ⅱ",
+            "引譬连类 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "冷暖心知",
+        "name": "冷暖心知",
+        "nameEN": "In Sickness or in Health",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "循循善诱β Ⅱ",
+            "情感投射 Ⅱ",
+            "顺水推舟 Ⅱ"
+        ],
+        "influence": 1535,
+        "defense": 838,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "会心一击",
+        "name": "会心一击",
+        "nameEN": "Focus Fire",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "张弛有度 Ⅱ",
+            "纵横捭阖 Ⅱ"
+        ],
+        "influence": 1536,
+        "defense": 839,
+        "obtainedFrom": [
+            "常驻"
+        ]
+    },
+    {
+        "id": "纸幕光影",
+        "name": "纸幕光影",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "洞察秋毫γ Ⅱ",
+            "敏锐观察 Ⅱ",
+            "锐辞庭辩 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 792,
+        "obtainedFrom": [
+            "累计充值"
+        ]
+    },
+    {
+        "id": "暇光一隅",
+        "name": "暇光一隅",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "设问否定β Ⅱ",
+            "有条不紊 Ⅱ",
+            "机锋对弈 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "锋芒褪尽",
+        "name": "锋芒褪尽",
+        "nameEN": "Staying Humble",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以退为进γ Ⅱ",
+            "举一反三 Ⅱ",
+            "击其薄弱 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 792,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "长夜微明",
+        "name": "长夜微明",
+        "nameEN": "Darkest before Dawn",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "避实就虚β Ⅱ",
+            "预见之明 Ⅱ",
+            "正本清源 Ⅱ"
+        ],
+        "influence": 1504,
+        "defense": 871,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "抉择",
+        "name": "抉择",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "运筹帷幄 Ⅱ",
+            "锐辞庭辩 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "虚妄之泪",
+        "name": "虚妄之泪",
+        "nameEN": "False Tears",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "循循善诱γ Ⅱ",
+            "盛装舞步 Ⅱ",
+            "釜底抽薪 Ⅱ"
+        ],
+        "influence": 1504,
+        "defense": 871,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "指尖温度",
+        "name": "指尖温度",
+        "nameEN": "Lingering Warmth",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以理服人β Ⅱ",
+            "无懈可击 Ⅱ",
+            "纵横捭阖 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "水“逆”",
+        "name": "水“逆”",
+        "nameEN": "Mercury in Retrograde",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "洞察秋毫α Ⅱ",
+            "敏锐观察 Ⅱ",
+            "攻势化解 Ⅱ"
+        ],
+        "influence": 1535,
+        "defense": 838,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "塑心",
+        "name": "塑心",
+        "nameEN": "Mended Heart",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "层层深入γ Ⅱ",
+            "情绪感染 Ⅱ",
+            "釜底抽薪 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 792,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "绅士游戏",
+        "name": "绅士游戏",
+        "nameEN": "Gentleman's Game",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "张弛有度 Ⅱ",
+            "防微虑远 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "常驻"
+        ]
+    },
+    {
+        "id": "初光倾泻",
+        "name": "初光倾泻",
+        "nameEN": "Spilling Light",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "设问否定γ Ⅱ",
+            "演绎推理 Ⅱ",
+            "滴水不漏 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 792,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "入局",
+        "name": "入局",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "循循善诱α Ⅱ",
+            "盛装舞步 Ⅱ",
+            "情感投射 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "凉夏",
+        "name": "凉夏",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "演绎推理 Ⅱ",
+            "引譬连类 Ⅱ"
+        ],
+        "influence": 1503,
+        "defense": 870,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "松雪童话",
+        "name": "松雪童话",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "避实就虚β Ⅱ",
+            "敏锐观察 Ⅱ",
+            "箱庭疗法 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "童心攻势",
+        "name": "童心攻势",
+        "nameEN": "Child at Heart",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "洞察秋毫β Ⅱ",
+            "敏锐观察 Ⅱ",
+            "防微虑远 Ⅱ"
+        ],
+        "influence": 1536,
+        "defense": 839,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "弦外之音",
+        "name": "弦外之音",
+        "nameEN": "Overtone",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "循循善诱β Ⅱ",
+            "年少锋锐 Ⅱ",
+            "击其薄弱 Ⅱ"
+        ],
+        "influence": 1504,
+        "defense": 871,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "底比斯之梦",
+        "name": "底比斯之梦",
+        "nameEN": "Dream of Thebes",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以退为进γ Ⅱ",
+            "演绎推理 Ⅱ",
+            "滴水不漏 Ⅱ"
+        ],
+        "influence": 1630,
+        "defense": 744,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "共舞云端",
+        "name": "共舞云端",
+        "nameEN": "A Dance on the Clouds",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以理服人β Ⅱ",
+            "张弛有度 Ⅱ",
+            "引譬连类 Ⅱ"
+        ],
+        "influence": 1582,
+        "defense": 791,
+        "obtainedFrom": [
+            "常驻"
+        ]
+    },
+    {
+        "id": "心头撞鹿",
+        "name": "心头撞鹿",
+        "nameEN": "Butterflies",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "举一反三 Ⅱ",
+            "见微知著 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "坠入心扉",
+        "name": "坠入心扉",
+        "nameEN": "Falling into You",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "引申归谬γ Ⅱ",
+            "情绪感染 Ⅱ",
+            "排比增势 Ⅱ"
+        ],
+        "influence": 1582,
+        "defense": 791,
+        "obtainedFrom": [
+            "常驻",
+            "主线思绪残影"
+        ]
+    },
+    {
+        "id": "琥珀昙华",
+        "name": "琥珀昙华",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入γ Ⅱ",
+            "还施彼身 Ⅱ",
+            "釜底抽薪 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "陪伴",
+        "name": "陪伴",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "MR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "无懈可击 Ⅱ",
+            "侦探头脑 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "心意",
+        "name": "心意",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "MR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "预见之明 Ⅱ",
+            "锐辞庭辩 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "约定",
+        "name": "约定",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "MR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "还施彼身 Ⅱ",
+            "人格侧写 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "信物",
+        "name": "信物",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "MR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "预见之明 Ⅱ",
+            "商业谈判 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "朝颜",
+        "name": "朝颜",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "MR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "层层深入β Ⅱ",
+            "盛装舞步 Ⅱ",
+            "滴水不漏 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "贴心服务",
+        "name": "贴心服务",
+        "nameEN": "Personal Server",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "层层深入γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "搭档",
+        "name": "搭档",
+        "nameEN": "Partner",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "循循善诱γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "等你",
+        "name": "等你",
+        "nameEN": "Waiting for You",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "循循善诱β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "美味一刻",
+        "name": "美味一刻",
+        "nameEN": "Gourmet",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "设问否定γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "秘密",
+        "name": "秘密",
+        "nameEN": "Our Secret",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以理服人β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "打招呼",
+        "name": "打招呼",
+        "nameEN": "Greetings",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "洞察秋毫α Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "倦意",
+        "name": "倦意",
+        "nameEN": "Tiredness",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "洞察秋毫β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "热身",
+        "name": "热身",
+        "nameEN": "Warm Up",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以退为进β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "准备就绪",
+        "name": "准备就绪",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "示假隐真β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "静候",
+        "name": "静候",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "温馨小屋",
+        "name": "温馨小屋",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "循循善诱β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "相伴",
+        "name": "相伴",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以理服人β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "注视",
+        "name": "注视",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "以退为进γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "量体裁衣",
+        "name": "量体裁衣",
+        "nameEN": "Tailored Suit",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以退为进β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "落雨",
+        "name": "落雨",
+        "nameEN": "Rain Drops",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "设问否定β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "质询",
+        "name": "质询",
+        "nameEN": "Questioning",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以理服人α Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "精心挑选",
+        "name": "精心挑选",
+        "nameEN": "Picking a Gift",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "引申归谬γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "天台微风",
+        "name": "天台微风",
+        "nameEN": "Taking a Breather",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "引申归谬α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "再出发",
+        "name": "再出发",
+        "nameEN": "Back to Business",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "引申归谬β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "耐心等待",
+        "name": "耐心等待",
+        "nameEN": "Patience Is a Virtue",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "上膛",
+        "name": "上膛",
+        "nameEN": "Lock and Load",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "一切有我",
+        "name": "一切有我",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以德服人α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "心际飞行",
+        "name": "心际飞行",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "洞察秋毫α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "共赏",
+        "name": "共赏",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以理服人α Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 837,
+        "defense": 457,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "揣摩",
+        "name": "揣摩",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 837,
+        "defense": 457,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "品味香甜",
+        "name": "品味香甜",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "以理服人α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "优雅",
+        "name": "优雅",
+        "nameEN": "Elegance",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以退为进β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "掌握",
+        "name": "掌握",
+        "nameEN": "Remaining in Control",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "观察",
+        "name": "观察",
+        "nameEN": "Observations",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "日常兴趣",
+        "name": "日常兴趣",
+        "nameEN": "A Hobby of Mine",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以理服人γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "闲暇",
+        "name": "闲暇",
+        "nameEN": "Leisure Time",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "意外来信",
+        "name": "意外来信",
+        "nameEN": "Unexpected Letter",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "洞察秋毫γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "意外相遇",
+        "name": "意外相遇",
+        "nameEN": "Unexpected Run-In",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "避实就虚β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "绅士礼仪",
+        "name": "绅士礼仪",
+        "nameEN": "Gentlemanly Courtesy",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以退为进γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "另一面",
+        "name": "另一面",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "装扮",
+        "name": "装扮",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "示假隐真α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "秘密贺礼",
+        "name": "秘密贺礼",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以理服人γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "祈愿",
+        "name": "祈愿",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "循循善诱γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 837,
+        "defense": 457,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "全新体验",
+        "name": "全新体验",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "以退为进γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "插曲",
+        "name": "插曲",
+        "nameEN": "Interlude",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "邀约",
+        "name": "邀约",
+        "nameEN": "Invitation",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "循循善诱α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "中场休息",
+        "name": "中场休息",
+        "nameEN": "Half-Time",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以退为进γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "商谈",
+        "name": "商谈",
+        "nameEN": "Discussion",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "设问否定β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "节拍",
+        "name": "节拍",
+        "nameEN": "Rhythm",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "准备万全",
+        "name": "准备万全",
+        "nameEN": "Fully Prepped",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "突发事故",
+        "name": "突发事故",
+        "nameEN": "Sudden Occurence",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "避实就虚α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "气场",
+        "name": "气场",
+        "nameEN": "Presence",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "避实就虚γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "常驻",
+            "轮替"
+        ]
+    },
+    {
+        "id": "游刃有余",
+        "name": "游刃有余",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以德服人β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "迷思",
+        "name": "迷思",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "以理服人β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "胜券在握",
+        "name": "胜券在握",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "循循善诱α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "定格",
+        "name": "定格",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 879,
+        "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    }
+]

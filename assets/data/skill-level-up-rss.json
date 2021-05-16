@@ -1,0 +1,202 @@
+[
+    {
+        "rarity": "R",
+        "rss": [
+            {
+                "coin": 5250,
+                "impression": 3,
+                "item": 3
+            },
+            {
+                "coin": 10500,
+                "impression": 6,
+                "item": 6
+            },
+            {
+                "coin": 15750,
+                "impression": 9,
+                "item": 9
+            },
+            {
+                "coin": 22500,
+                "impression": 6,
+                "item": 6
+            },
+            {
+                "coin": 33750,
+                "impression": 9,
+                "item": 9
+            },
+            {
+                "coin": 50625,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 74250,
+                "impression": 9,
+                "item": 6
+            },
+            {
+                "coin": 99000,
+                "impression": 12,
+                "item": 9
+            },
+            {
+                "coin": 148500,
+                "impression": 18,
+                "item": 15
+            }
+        ]
+    },
+    {
+        "rarity": "MR",
+        "rss": [
+            {
+                "coin": 7000,
+                "impression": 4,
+                "item": 4
+            },
+            {
+                "coin": 14000,
+                "impression": 8,
+                "item": 8
+            },
+            {
+                "coin": 21000,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 30000,
+                "impression": 8,
+                "item": 8
+            },
+            {
+                "coin": 45000,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 67500,
+                "impression": 18,
+                "item": 18
+            },
+            {
+                "coin": 99000,
+                "impression": 12,
+                "item": 9
+            },
+            {
+                "coin": 132000,
+                "impression": 16,
+                "item": 12
+            },
+            {
+                "coin": 198000,
+                "impression": 24,
+                "item": 18
+            }
+        ]
+    },
+    {
+        "rarity": "SR",
+        "rss": [
+            {
+                "coin": 7000,
+                "impression": 4,
+                "item": 4
+            },
+            {
+                "coin": 14000,
+                "impression": 8,
+                "item": 8
+            },
+            {
+                "coin": 21000,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 30000,
+                "impression": 8,
+                "item": 8
+            },
+            {
+                "coin": 45000,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 67500,
+                "impression": 18,
+                "item": 18
+            },
+            {
+                "coin": 99000,
+                "impression": 12,
+                "item": 9
+            },
+            {
+                "coin": 132000,
+                "impression": 16,
+                "item": 12
+            },
+            {
+                "coin": 198000,
+                "impression": 24,
+                "item": 18
+            }
+        ]
+    },
+    {
+        "rarity": "SSR",
+        "rss": [
+            {
+                "coin": 10500,
+                "impression": 6,
+                "item": 6
+            },
+            {
+                "coin": 21000,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 31500,
+                "impression": 18,
+                "item": 18
+            },
+            {
+                "coin": 45000,
+                "impression": 12,
+                "item": 12
+            },
+            {
+                "coin": 67500,
+                "impression": 18,
+                "item": 18
+            },
+            {
+                "coin": 101250,
+                "impression": 27,
+                "item": 27
+            },
+            {
+                "coin": 135000,
+                "impression": 18,
+                "item": 12
+            },
+            {
+                "coin": 198000,
+                "impression": 24,
+                "item": 18
+            },
+            {
+                "coin": 297000,
+                "impression": 36,
+                "item": 27
+            }
+        ]
+    }
+]
