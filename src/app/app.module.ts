@@ -4,10 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { TranslateModule } from '@ngx-translate/core';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { CardSelectionComponent } from './card-selection/card-selection.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
@@ -25,6 +26,9 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MatIconModule } from '@angular/material/icon';
 
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -46,13 +50,19 @@ import { MatIconModule } from '@angular/material/icon';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     NgbModule,
     HttpClientModule,
     FormsModule,
     BrowserAnimationsModule,
     MatIconModule,
-    TranslateModule.forRoot()
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+    }
+    }),
+    AppRoutingModule
   ],
   providers: [Meta],
   bootstrap: [AppComponent]

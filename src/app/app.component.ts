@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
 import { SEOService } from './services/seo/seo.service';
+import { TranslateService } from '@ngx-translate/core';
 
 declare let gtag: Function;
 
@@ -13,10 +14,15 @@ export class AppComponent {
 
   lang
 
-  constructor(public router: Router, private activatedRoute: ActivatedRoute, private _seoService: SEOService) { }
+  constructor(public router: Router, private _seoService: SEOService, private _translateService: TranslateService) {
+    _translateService.setDefaultLang('CN');
+    _translateService.use('CN');
+    
+  }
 
   ngOnInit() {
-    // set default language to Chinese
+    console.log(navigator.language)
+    // set i18n, default language to Chinese
     let lang = localStorage.getItem('language')
     if (!lang || (lang != 'EN' && lang != 'CN')) {
       localStorage.setItem('language', 'CN')
@@ -48,7 +54,7 @@ export class AppComponent {
     let other = ["其他", "Other"]
     let visionHistory = ["往期女神之影", "Vision History"]
     let i = 0;
-    if('EN' == this.lang){
+    if ('EN' == this.lang) {
       i = 1;
     }
     let s;
