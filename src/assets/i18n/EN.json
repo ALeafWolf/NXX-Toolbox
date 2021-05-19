@@ -13,5 +13,47 @@
     "FOOTER": {
         "CLAIM": "This site is for personal usage",
         "COPYRIGHT": "Resource and in game data used is belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
+    },
+    "HOME": {
+        "WELCOME": "ᕕ( ᐛ )ᕗWelcome to NXX Toolbox",
+        "TO-BE-IMPLEMENTED": "To be Implemented",
+        "UPDATE-LOG": "Update Log"
+    },
+    "CARD-CALCULATOR": {
+        "INFO": "This calculator does not include power boost from <span class='font-weight-bold'>Support Cards</span> and <span class='font-weight-bold'>Study Room</span>.<br />Result from the calculator is for reference only.",
+        "POWER": "Power",
+        "SKILL-SUMMARY": "Skill Summary",
+        "SECOND-SKILL": "Second Skill",
+        "THIRD-SKILL": "Third Skill"
+    },
+    "FILTER": {
+        "GENERAL": "General",
+        "CHARACTER": "Character",
+        "RARITY": "Rarity",
+        "TYPE": "Type",
+        "OBTAINED-FROM": "Obtained From",
+        "FUNCTION": "Function",
+        "SKILL-SLOT": "Skill Slot",
+        "VALUE": {
+            "LUKE": "Luke Pearce",
+            "ARTEM": "Artem Wing",
+            "VYN": "Vyn Richter",
+            "MARIUS": "Marius von Hagen",
+            "LOGIC": "Logic",
+            "EMPATHY": "Empathy",
+            "INTUITION": "Intuition",
+            "PERMENENT": "Permenent",
+            "ROTATION": "Rotation",
+            "CHARGE": "",
+            "CARD-FRAGMENT": "Card Fragment",
+            "EVENT": "Event",
+            "LIMITED-TIME": "Limited Time",
+            "DAMAGE-UP": "DMG to a single argument",
+            "INFLUENCE-UP": "Influence Up",
+            "DEFENSE-UP": "Defense Up",
+            "INFLUENCE-DOWN": "Influence Down",
+            "DEFENSE-DOWN": "Defense Down",
+            "SUPPORT": "Support"
+        }
     }
 }

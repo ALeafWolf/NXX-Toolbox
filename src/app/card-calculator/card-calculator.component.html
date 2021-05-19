@@ -6,10 +6,7 @@
 
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
-        <h6 class="smallFont">
-            此计算器目前不包括<span class="font-weight-bold">助战思绪</span>和<span class="font-weight-bold">研修室</span>的战力加成。<br />
-            战力数值仅供参考。
-        </h6>
+        <h6 class="smallFont" [innerHTML]="'CARD-CALCULATOR.INFO' | translate"></h6>
     </div>
 </div>
 <div class="row justify-content-center pt-2">
@@ -18,7 +15,7 @@
             <img class="img-fluid" src="assets/images/btn_delete.png">
         </a>
         <div class="bg-dark px-2 py-1 text-center">
-            <h4>战力 {{totalPower}}</h4>
+            <h4>{{'CARD-CALCULATOR.POWER' | translate}} {{totalPower}}</h4>
         </div>
     </div>
     <div class="col-12 row justify-content-around">
@@ -28,9 +25,9 @@
                 <h5 class="font-weight-bold col">技能加成</h5>
                 <p class="col-1">▼</p>
             </div> -->
-            <h5 class="font-weight-bold col">技能加成</h5>
+            <h5 class="font-weight-bold col">{{'CARD-CALCULATOR.SKILL-SUMMARY' | translate}}</h5>
             <div class="mt-2" id="skillSummary">
-                <h5>技能二</h5>
+                <h5>{{'CARD-CALCULATOR.SECOND-SKILL' | translate}}</h5>
                 <div class="border-bottom border-secondary mb-2">
                     <div class="row justify-content-center">
                         <div *ngFor="let s of secondSkills" class="col-3">
@@ -41,7 +38,7 @@
                         </div>
                     </div>
                 </div>
-                <h5>技能三</h5>
+                <h5>{{'CARD-CALCULATOR.THIRD-SKILL' | translate}}</h5>
                 <div class="row justify-content-center">
                     <div *ngFor="let s of thirdSkills" class="col-3">
                         <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">

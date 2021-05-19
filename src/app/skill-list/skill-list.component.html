@@ -22,15 +22,15 @@
 <div class="row justify-content-center">
     <div class="col-12 col-md-10 row justify-content-evenly">
         <div class="col">
-            <label for="character">角色</label>
+            <label for="character">{{'FILTER.CHARACTER' | translate}}</label>
             <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterSkillList()" class="custom-select"
                 name="character">
                 <option value="All">All</option>
-                <option value="通用">通用</option>
-                <option value="夏彦">夏彦</option>
-                <option value="左然">左然</option>
-                <option value="莫弈">莫弈</option>
-                <option value="陆景和">陆景和</option>
+                <option value="通用">{{'FILTER.VALUE.GENERAL' | translate}}</option>
+                <option value="夏彦">{{'FILTER.VALUE.LUKE' | translate}}</option>
+                <option value="左然">{{'FILTER.VALUE.ARTEM' | translate}}</option>
+                <option value="莫弈">{{'FILTER.VALUE.VYN' | translate}}</option>
+                <option value="陆景和">{{'FILTER.VALUE.MARIUS' | translate}}</option>
             </select>
         </div>
         <!-- <div class="col">
@@ -45,31 +45,31 @@
             </select>
         </div> -->
         <div class="col">
-            <label for="type">属性</label>
+            <label for="type">{{'FILTER.TYPE' | translate}}</label>
             <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterSkillList()" class="custom-select"
                 name="type">
                 <option value="All">All</option>
-                <option value="通用">通用</option>
-                <option value="逻辑">逻辑</option>
-                <option value="共情">共情</option>
-                <option value="直觉">直觉</option>
+                <option value="通用">{{'FILTER.VALUE.GENERAL' | translate}}</option>
+                <option value="逻辑">{{'FILTER.VALUE.LOGIC' | translate}}</option>
+                <option value="共情">{{'FILTER.VALUE.EMPATHY' | translate}}</option>
+                <option value="直觉">{{'FILTER.VALUE.INTUITION' | translate}}</option>
             </select>
         </div>
         <div class="col">
-            <label for="function">功能</label>
+            <label for="function">{{'FILTER.FUNCTION' | translate}}</label>
             <select [(ngModel)]="filterConditions[3]" (ngModelChange)="filterSkillList()" class="custom-select"
                 name="function">
                 <option value="All">All</option>
-                <option value="damage up">单观点伤害</option>
-                <option value="influence up">说服力提升</option>
-                <option value="defense up">防御力提升</option>
-                <option value="influence down">说服力下降</option>
-                <option value="defense down">防御力下降</option>
-                <option value="support">助战加成</option>
+                <option value="damage up">{{'FILTER.VALUE.DAMAGE-UP' | translate}}</option>
+                <option value="influence up">{{'FILTER.VALUE.INFLUENCE-UP' | translate}}</option>
+                <option value="defense up">{{'FILTER.VALUE.DEFENSE-UP' | translate}}</option>
+                <option value="influence down">{{'FILTER.VALUE.INFLUENCE-DOWN' | translate}}</option>
+                <option value="defense down">{{'FILTER.VALUE.DEFENSE-DOWN' | translate}}</option>
+                <option value="support">{{'FILTER.VALUE.SUPPORT' | translate}}</option>
             </select>
         </div>
         <div class="col">
-            <label for="slot">技能槽</label>
+            <label for="slot">{{'FILTER.SKILL-SLOT' | translate}}</label>
             <select [(ngModel)]="filterConditions[4]" (ngModelChange)="filterSkillList()" class="custom-select"
                 name="slot">
                 <option value="All">All</option>

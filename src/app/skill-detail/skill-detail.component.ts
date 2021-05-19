@@ -37,19 +37,19 @@ export class SkillDetailComponent implements OnInit {
 
   setTitle() {
     let pre = ''
-    if ('CN' == this.lang) {
+    if ('zh' == this.lang) {
       pre = '技能'
-    } else if ('EN' == this.lang) {
+    } else if ('en' == this.lang) {
       pre = 'Skill'
     }
     this._seoService.setTitle(`${pre}：${this.skillName}`);
   }
 
   setSkillInfoWithLang() {
-    if ('CN' == this.lang) {
+    if ('zh' == this.lang) {
       this.skillName = this.skill.name;
       this.skillDes = this.skill.description;
-    } else if ('EN' == this.lang) {
+    } else if ('en' == this.lang) {
       this.skillName = this.skill.nameEN == '' ? this.skill.name : this.skill.nameEN
       this.skillDes = this.skill.descriptionEN;
     }

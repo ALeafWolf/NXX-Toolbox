@@ -15,18 +15,18 @@
 <div class="row justify-content-center p-2">
     <div class="col-12 col-md-10 row justify-content-around m-2">
         <div class="col">
-            <label for="character">角色</label>
+            <label for="character">{{'FILTER.CHARACTER' | translate}}</label>
             <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
                 name="character">
                 <option value="All">All</option>
-                <option value="夏彦">夏彦</option>
-                <option value="左然">左然</option>
-                <option value="莫弈">莫弈</option>
-                <option value="陆景和">陆景和</option>
+                <option value="夏彦">{{'FILTER.VALUE.LUKE' | translate}}</option>
+                <option value="左然">{{'FILTER.VALUE.ARTEM' | translate}}</option>
+                <option value="莫弈">{{'FILTER.VALUE.VYN' | translate}}</option>
+                <option value="陆景和">{{'FILTER.VALUE.MARIUS' | translate}}</option>
             </select>
         </div>
         <div class="col">
-            <label for="rarity">稀有度</label>
+            <label for="rarity">{{'FILTER.RARITY' | translate}}</label>
             <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select"
                 name="rarity">
                 <option value="All">All</option>
@@ -37,12 +37,12 @@
             </select>
         </div>
         <div class="col">
-            <label for="type">属性</label>
+            <label for="type">{{'FILTER.TYPE' | translate}}</label>
             <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
                 <option value="All">All</option>
-                <option value="逻辑">逻辑</option>
-                <option value="共情">共情</option>
-                <option value="直觉">直觉</option>
+                <option value="逻辑">{{'FILTER.VALUE.LOGIC' | translate}}</option>
+                <option value="共情">{{'FILTER.VALUE.EMPATHY' | translate}}</option>
+                <option value="直觉">{{'FILTER.VALUE.INTUITION' | translate}}</option>
             </select>
         </div>
         <div class="col">
