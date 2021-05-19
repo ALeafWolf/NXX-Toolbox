@@ -1,0 +1,17 @@
+{
+    "NAV": {
+        "HOME": "主页",
+        "CALCULATOR": "计算器",
+        "CARD-POWER": "思绪战力",
+        "CARD-RSS": "思绪养成资源",
+        "INDEX": "资料索引",
+        "CARD-LIST": "思绪列表",
+        "SKILL-LIST": "技能列表",
+        "VISION-HISTORY": "往期女神之影",
+        "LANGUAGE": "语言"
+    },
+    "FOOTER": {
+        "CLAIM": "此网站仅为个人学习娱乐用途",
+        "COPYRIGHT": "素材和内容所有权归米哈游的<a href='https://wd.mihoyo.com/' target='_blank'>未定事件簿</a>"
+    }
+}

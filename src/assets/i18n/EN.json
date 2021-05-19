@@ -2,7 +2,16 @@
     "NAV": {
         "HOME": "Home",
         "CALCULATOR": "Calculator",
+        "CARD-POWER": "Card Power",
+        "CARD-RSS": "Card Resource",
         "INDEX": "Index",
+        "CARD-LIST": "Card List",
+        "SKILL-LIST": "Skill List",
+        "VISION-HISTORY": "Vision History",
         "LANGUAGE": "Language"
+    },
+    "FOOTER": {
+        "CLAIM": "This site is for personal usage",
+        "COPYRIGHT": "Resource and in game data used is belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
     }
 }

@@ -21,7 +21,7 @@ export class SEOService {
 
   setTitle(title){
     let i = 0;
-    if(this.lang == 'EN'){
+    if(this.lang == 'en'){
       i = 1;
     }
     this._title.setTitle(`${title} | ${this.title[i]}`);

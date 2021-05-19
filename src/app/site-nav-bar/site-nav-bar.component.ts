@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'site-nav-bar',
@@ -9,7 +10,7 @@ export class SiteNavBarComponent implements OnInit {
   isMenuCollapsed;
   language;
 
-  constructor() { 
+  constructor(private _translateService: TranslateService) { 
   }
 
   ngOnInit(): void {
@@ -19,7 +20,7 @@ export class SiteNavBarComponent implements OnInit {
 
   changeLanguage(){
     localStorage.setItem('language', this.language)
+    this._translateService.use(localStorage.getItem('language'))
     location.reload()
   }
-
 }

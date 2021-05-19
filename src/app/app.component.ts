@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Router, NavigationEnd, ActivatedRoute } from '@angular/router';
+import { Router, NavigationEnd } from '@angular/router';
 import { SEOService } from './services/seo/seo.service';
 import { TranslateService } from '@ngx-translate/core';
 
@@ -15,19 +15,29 @@ export class AppComponent {
   lang
 
   constructor(public router: Router, private _seoService: SEOService, private _translateService: TranslateService) {
-    _translateService.setDefaultLang('CN');
-    _translateService.use('CN');
-    
+    this._translateService.addLangs(['zh', 'en']);
+    this._translateService.setDefaultLang('zh');
   }
 
   ngOnInit() {
-    console.log(navigator.language)
     // set i18n, default language to Chinese
+    let browserLang = navigator.language.substr(0,2)
     let lang = localStorage.getItem('language')
-    if (!lang || (lang != 'EN' && lang != 'CN')) {
-      localStorage.setItem('language', 'CN')
+    let l = 'zh'
+    //if no user choice on language, set language based on browser language
+    if (!lang || lang == '') {
+      if(browserLang == 'en' || browserLang == 'zh'){
+        l = browserLang
+      }
+    }else{
+      //prevent wrong language exist in localStorage
+      if(lang == 'en' || lang == 'zh'){
+        l = lang
+      }
     }
-    this.lang = lang
+    localStorage.setItem('language', l)
+    this._translateService.use(l);
+    this.lang = l
 
     //for google analystics
     this.router.events.subscribe(event => {
@@ -54,7 +64,7 @@ export class AppComponent {
     let other = ["其他", "Other"]
     let visionHistory = ["往期女神之影", "Vision History"]
     let i = 0;
-    if ('EN' == this.lang) {
+    if ('en' == this.lang) {
       i = 1;
     }
     let s;

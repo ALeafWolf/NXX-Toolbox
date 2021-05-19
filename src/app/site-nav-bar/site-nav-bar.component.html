@@ -10,29 +10,29 @@
       <li class="nav-item">
         <a class="nav-link" routerLink="/" routerLinkActive="active">
           <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
-          主页
+          {{'NAV.HOME' | translate}}
         </a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
           <mat-icon aria-hidden="false" aria-label="Example calculate icon">calculate</mat-icon>
-          计算器
+          {{'NAV.CALCULATOR' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/card-calculator" routerLinkActive="active">思绪战力</a>
-          <a class="dropdown-item" routerLink="/card-rss-calculator" routerLinkActive="active">思绪养成资源</a>
+          <a class="dropdown-item" routerLink="/card-calculator" routerLinkActive="active">{{'NAV.CARD-POWER' | translate}}</a>
+          <a class="dropdown-item" routerLink="/card-rss-calculator" routerLinkActive="active">{{'NAV.CARD-RSS' | translate}}</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
           <mat-icon aria-hidden="false" aria-label="Example view_list icon">view_list</mat-icon>
-          资料索引
+          {{'NAV.INDEX' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active">思绪列表</a>
-          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active">技能列表</a>
+          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active">{{'NAV.CARD-LIST' | translate}}</a>
+          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active">{{'NAV.SKILL-LIST' | translate}}</a>
           <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" routerLink="/card-pool-history" routerLinkActive="active">往期女神之影</a>
+          <a class="dropdown-item" routerLink="/card-pool-history" routerLinkActive="active">{{'NAV.VISION-HISTORY' | translate}}</a>
         </div>
       </li>
       <li class="nav-item">
@@ -44,14 +44,14 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
           <mat-icon aria-hidden="false" aria-label="Example translate icon">translate</mat-icon>
-          语言
+          {{'NAV.LANGUAGE' | translate}}
         </a>
         <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">
           <form>
             <fieldset id="language">
-              <label><input type="radio" [(ngModel)]="language" value="CN" (ngModelChange)="changeLanguage()"
+              <label><input type="radio" [(ngModel)]="language" value="zh" (ngModelChange)="changeLanguage()"
                   name="language">中文</label><br />
-              <label><input type="radio" [(ngModel)]="language" value="EN" (ngModelChange)="changeLanguage()"
+              <label><input type="radio" [(ngModel)]="language" value="en" (ngModelChange)="changeLanguage()"
                   name="language">English</label>
             </fieldset>
           </form>
