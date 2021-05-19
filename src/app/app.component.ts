@@ -74,7 +74,7 @@ export class AppComponent {
       case '/other':
         s = other[i];
         break;
-      case '/card-pool-history':
+      case '/vision-history':
         s = visionHistory[i];
         break;
     }

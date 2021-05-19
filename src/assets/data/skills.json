@@ -630,7 +630,7 @@
     {
         "id": "运筹帷幄",
         "name": "运筹帷幄 Ⅱ",
-        "nameEN": " Ⅱ",
+        "nameEN": "Strategist Ⅱ",
         "character": "通用",
         "type": "通用",
         "rarity": "MR SR",
@@ -981,7 +981,7 @@
     {
         "id": "年少锋锐",
         "name": "年少锋锐 Ⅱ",
-        "nameEN": "",
+        "nameEN": "Sharp One Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -994,7 +994,7 @@
     {
         "id": "年少锋锐",
         "name": "年少锋锐 Ⅲ",
-        "nameEN": "",
+        "nameEN": "Sharp One Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -1189,7 +1189,7 @@
     {
         "id": "情感投射",
         "name": "情感投射 Ⅱ",
-        "nameEN": "",
+        "nameEN": "Emotional Projection Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1202,7 +1202,7 @@
     {
         "id": "情感投射",
         "name": "情感投射 Ⅲ",
-        "nameEN": "",
+        "nameEN": "Emotional Projection Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1293,7 +1293,7 @@
     {
         "id": "直感思维",
         "name": "直感思维 Ⅱ",
-        "nameEN": "",
+        "nameEN": "Forward-Thinking Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1306,7 +1306,7 @@
     {
         "id": "直感思维",
         "name": "直感思维 Ⅲ",
-        "nameEN": "",
+        "nameEN": "Forward-Thinking Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",
@@ -1319,7 +1319,7 @@
     {
         "id": "紧急避险",
         "name": "紧急避险 Ⅱ",
-        "nameEN": "",
+        "nameEN": "Necessity Ⅱ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "MR SR",
@@ -1332,7 +1332,7 @@
     {
         "id": "紧急避险",
         "name": "紧急避险 Ⅲ",
-        "nameEN": "",
+        "nameEN": "Necessity Ⅲ",
         "character": "夏彦",
         "type": "通用",
         "rarity": "SSR",
@@ -1397,7 +1397,7 @@
     {
         "id": "绝对理性",
         "name": "绝对理性 Ⅱ",
-        "nameEN": "",
+        "nameEN": "Logical Ⅱ ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -1410,7 +1410,7 @@
     {
         "id": "绝对理性",
         "name": "绝对理性 Ⅲ",
-        "nameEN": "",
+        "nameEN": "Logical Ⅲ",
         "character": "左然",
         "type": "通用",
         "rarity": "SSR",
@@ -1527,7 +1527,7 @@
     {
         "id": "执行总裁",
         "name": "执行总裁 Ⅱ",
-        "nameEN": "",
+        "nameEN": "CEO Ⅱ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "MR SR",
@@ -1540,7 +1540,7 @@
     {
         "id": "执行总裁",
         "name": "执行总裁 Ⅲ",
-        "nameEN": "",
+        "nameEN": "CEO Ⅲ",
         "character": "陆景和",
         "type": "通用",
         "rarity": "SSR",
@@ -1579,7 +1579,7 @@
     {
         "id": "顺水推舟",
         "name": "顺水推舟 Ⅱ",
-        "nameEN": "",
+        "nameEN": "With the Flow Ⅱ",
         "character": "通用",
         "type": "共情",
         "rarity": "MR SR",
@@ -1592,7 +1592,7 @@
     {
         "id": "顺水推舟",
         "name": "顺水推舟 Ⅲ",
-        "nameEN": "",
+        "nameEN": "With the Flow Ⅲ",
         "character": "通用",
         "type": "共情",
         "rarity": "SSR",
@@ -1787,7 +1787,7 @@
     {
         "id": "攻势化解",
         "name": "攻势化解 Ⅱ",
-        "nameEN": "",
+        "nameEN": "Mediator Ⅱ",
         "character": "通用",
         "type": "直觉",
         "rarity": "MR SR",
@@ -1800,7 +1800,7 @@
     {
         "id": "攻势化解",
         "name": "攻势化解 Ⅲ",
-        "nameEN": "",
+        "nameEN": "Mediator Ⅲ",
         "character": "通用",
         "type": "直觉",
         "rarity": "SSR",

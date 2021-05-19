@@ -51,7 +51,7 @@ const routes: Routes = [
     component: OtherComponent,
   },
   {
-    path: 'card-pool-history',
+    path: 'vision-history',
     component: CardPoolHistoryComponent,
   },
   {
