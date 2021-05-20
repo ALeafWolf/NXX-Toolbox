@@ -253,5 +253,22 @@
         "server": "CN",
         "cards": ["醉意入怀", "虚诞盛宴", "倾落心扉", "水“逆”"],
         "bid": "KebzvfGlr"
+    },
+    {
+        "startDate": "2021-05-21",
+        "endDate": "2021-06-04",
+        "type": "活动",
+        "server": "CN",
+        "cards": ["腾霄", "霓光旋律", "迷涂炫彩"],
+        "bid": "Kgawh3xYx",
+        "bv": "BV1XA411G7BX"
+    },
+    {
+        "startDate": "2021-05-21",
+        "endDate": "2021-06-04",
+        "type": "轮替",
+        "server": "CN",
+        "cards": ["", "", "", ""],
+        "bid": ""
     }
 ]

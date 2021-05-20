@@ -1,0 +1,83 @@
+{
+    "NAV": {
+        "HOME": "Home",
+        "CALCULATOR": "Calculator",
+        "CARD-POWER": "Card Power",
+        "CARD-RSS": "Card Resource",
+        "INDEX": "Index",
+        "CARD-LIST": "Card List",
+        "SKILL-LIST": "Skill List",
+        "VISION-HISTORY": "Vision History",
+        "LANGUAGE": "Language",
+        "OTHER": "Other"
+    },
+    "FOOTER": {
+        "CLAIM": "This site is for personal usage",
+        "COPYRIGHT": "Resource and in game data used is belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
+    },
+    "HOME": {
+        "WELCOME": "ᕕ( ᐛ )ᕗWelcome to NXX Toolbox",
+        "TO-BE-IMPLEMENTED": "To be Implemented",
+        "UPDATE-LOG": "Update Log"
+    },
+    "CARD-CALCULATOR": {
+        "INFO": "This calculator does not include power boost from <span class='font-weight-bold'>Support Cards</span> and <span class='font-weight-bold'>Study Room</span>.<br />Result from the calculator is for reference only.",
+        "POWER": "Power",
+        "SKILL-SUMMARY": "Skill Summary",
+        "SECOND-SKILL": "Second Skill",
+        "THIRD-SKILL": "Third Skill"
+    },
+    "FILTER": {
+        "CHARACTER": "Character",
+        "RARITY": "Rarity",
+        "TYPE": "Type",
+        "OBTAINED-FROM": "Obtained From",
+        "FUNCTION": "Function",
+        "SKILL-SLOT": "Skill Slot"
+    },
+    "KEYWORD": {
+        "CARD": "Card",
+        "CHARACTER": "Character",
+        "RARITY": "Rarity",
+        "TYPE": "Type",
+        "OBTAINED-FROM": "Obtained From",
+        "FUNCTION": "Function",
+        "SKILL-SLOT": "Skill Slot",
+        "GENERAL": "General",
+        "LUKE": "Luke Pearce",
+        "ARTEM": "Artem Wing",
+        "VYN": "Vyn Richter",
+        "MARIUS": "Marius von Hagen",
+        "LOGIC": "Logic",
+        "EMPATHY": "Empathy",
+        "INTUITION": "Intuition",
+        "PERMENENT": "Permenent",
+        "ROTATION": "Rotation",
+        "CHARGE": "Total Purchase Reward",
+        "CARD-FRAGMENT": "Card Fragment",
+        "EVENT": "Event",
+        "LIMITED-TIME": "Limited Time",
+        "DAMAGE-UP": "DMG to a single argument",
+        "INFLUENCE-UP": "Influence Up",
+        "DEFENSE-UP": "Defense Up",
+        "INFLUENCE-DOWN": "Influence Down",
+        "DEFENSE-DOWN": "Defense Down",
+        "SUPPORT": "Support",
+        "ICON": "Icon",
+        "NAME": "Name",
+        "SKILL": "Skill",
+        "DESCRIPTION": "Description",
+        "STATISTICS": "Statistics",
+        "LEVEL": "Level",
+        "BASE-INFLUENCE": "Base Influence",
+        "BASE-DEFENSE": "Base Defense",
+        "RANK": "Rank"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "Start Date",
+        "END-DATE": "End Date",
+        "POOL-TYPE": "Pool Type",
+        "RATE-UP-CARD": "Rate Up Card",
+        "ANNOUNCEMENT": "Announcement"
+    }
+}

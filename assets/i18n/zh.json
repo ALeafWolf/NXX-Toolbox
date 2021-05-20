@@ -1,0 +1,83 @@
+{
+    "NAV": {
+        "HOME": "主页",
+        "CALCULATOR": "计算器",
+        "CARD-POWER": "思绪战力",
+        "CARD-RSS": "思绪养成资源",
+        "INDEX": "资料索引",
+        "CARD-LIST": "思绪列表",
+        "SKILL-LIST": "技能列表",
+        "VISION-HISTORY": "往期女神之影",
+        "LANGUAGE": "语言",
+        "OTHER": "其他"
+    },
+    "FOOTER": {
+        "CLAIM": "此网站仅为个人学习娱乐用途",
+        "COPYRIGHT": "素材和内容所有权归米哈游的<a href='https://wd.mihoyo.com/' target='_blank'>未定事件簿</a>"
+    },
+    "HOME": {
+        "WELCOME": "牛叉叉牌工具箱，用过都说好！",
+        "TO-BE-IMPLEMENTED": "待实装的功能",
+        "UPDATE-LOG": "更新日志"
+    },
+    "CARD-CALCULATOR": {
+        "INFO": "此计算器目前不包括<span class='font-weight-bold'>助战思绪</span>和<span class='font-weight-bold'>研修室</span>的战力加成。<br />战力数值仅供参考。",
+        "POWER": "战力",
+        "SKILL-SUMMARY": "技能加成",
+        "SECOND-SKILL": "技能二",
+        "THIRD-SKILL": "技能三"
+    },
+    "FILTER": {
+        "CHARACTER": "角色",
+        "RARITY": "稀有度",
+        "TYPE": "属性",
+        "OBTAINED-FROM": "获取方式",
+        "FUNCTION": "功能",
+        "SKILL-SLOT": "技能槽"
+    },
+    "KEYWORD": {
+        "CARD": "思绪",
+        "CHARACTER": "角色",
+        "RARITY": "稀有度",
+        "TYPE": "属性",
+        "OBTAINED-FROM": "获取方式",
+        "FUNCTION": "功能",
+        "SKILL-SLOT": "技能槽",
+        "GENERAL": "通用",
+        "LUKE": "夏彦",
+        "ARTEM": "左然",
+        "VYN": "莫弈",
+        "MARIUS": "陆景和",
+        "LOGIC": "逻辑",
+        "EMPATHY": "共情",
+        "INTUITION": "直觉",
+        "PERMENENT": "常驻",
+        "ROTATION": "轮替",
+        "CHARGE": "累计充值",
+        "CARD-FRAGMENT": "主线思绪残影",
+        "EVENT": "活动",
+        "LIMITED-TIME": "限定",
+        "DAMAGE-UP": "单观点伤害",
+        "INFLUENCE-UP": "说服力提升",
+        "DEFENSE-UP": "防御力提升",
+        "INFLUENCE-DOWN": "说服力下降",
+        "DEFENSE-DOWN": "防御力下降",
+        "SUPPORT": "助战加成",
+        "ICON": "图标",
+        "NAME": "名字",
+        "SKILL": "技能",
+        "DESCRIPTION": "描述",
+        "STATISTICS": "数值",
+        "LEVEL": "等级",
+        "BASE-INFLUENCE": "基础说服力",
+        "BASE-DEFENSE": "基础防御力",
+        "RANK": "星级"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "开始日期",
+        "END-DATE": "结束日期",
+        "POOL-TYPE": "卡池种类",
+        "RATE-UP-CARD": "UP思绪",
+        "ANNOUNCEMENT": "相关公告"
+    }
+}
