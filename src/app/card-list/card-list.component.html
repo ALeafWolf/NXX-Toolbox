@@ -8,25 +8,25 @@
 </div>
 
 <div class="row justify-content-center">
-    <div *ngIf="lang == 'EN'" class="col-10 text-center bg-dark p-4 my-2">
-        <p>The information of card that not being implemented in International server will remain in Chinese</p>
+    <div *ngIf="lang == 'en'" class="col-10 text-center bg-dark p-4 my-2">
+        <p>The information of card that not being implemented in Global server will remain in Chinese</p>
     </div>
 </div>
 <div class="row justify-content-center p-2">
     <div class="col-12 col-md-10 row justify-content-around m-2">
         <div class="col">
-            <label for="character">{{'FILTER.CHARACTER' | translate}}</label>
+            <label for="character">{{'KEYWORD.CHARACTER' | translate}}</label>
             <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
                 name="character">
                 <option value="All">All</option>
-                <option value="夏彦">{{'FILTER.VALUE.LUKE' | translate}}</option>
-                <option value="左然">{{'FILTER.VALUE.ARTEM' | translate}}</option>
-                <option value="莫弈">{{'FILTER.VALUE.VYN' | translate}}</option>
-                <option value="陆景和">{{'FILTER.VALUE.MARIUS' | translate}}</option>
+                <option value="夏彦">{{'KEYWORD.LUKE' | translate}}</option>
+                <option value="左然">{{'KEYWORD.ARTEM' | translate}}</option>
+                <option value="莫弈">{{'KEYWORD.VYN' | translate}}</option>
+                <option value="陆景和">{{'KEYWORD.MARIUS' | translate}}</option>
             </select>
         </div>
         <div class="col">
-            <label for="rarity">{{'FILTER.RARITY' | translate}}</label>
+            <label for="rarity">{{'KEYWORD.RARITY' | translate}}</label>
             <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select"
                 name="rarity">
                 <option value="All">All</option>
@@ -37,24 +37,24 @@
             </select>
         </div>
         <div class="col">
-            <label for="type">{{'FILTER.TYPE' | translate}}</label>
+            <label for="type">{{'KEYWORD.TYPE' | translate}}</label>
             <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
                 <option value="All">All</option>
-                <option value="逻辑">{{'FILTER.VALUE.LOGIC' | translate}}</option>
-                <option value="共情">{{'FILTER.VALUE.EMPATHY' | translate}}</option>
-                <option value="直觉">{{'FILTER.VALUE.INTUITION' | translate}}</option>
+                <option value="逻辑">{{'KEYWORD.LOGIC' | translate}}</option>
+                <option value="共情">{{'KEYWORD.EMPATHY' | translate}}</option>
+                <option value="直觉">{{'KEYWORD.INTUITION' | translate}}</option>
             </select>
         </div>
         <div class="col">
-            <label for="type">获取方式</label>
+            <label for="type">{{'KEYWORD.OBTAINED-FROM' | translate}}</label>
             <select [(ngModel)]="filterConditions[3]" (ngModelChange)="filterCards()" class="custom-select" name="type">
                 <option value="All">All</option>
-                <option value="常驻">常驻</option>
-                <option value="轮替">轮替</option>
-                <option value="累计充值">累计充值</option>
-                <option value="主线思绪残影">主线思绪残影</option>
-                <option value="活动">活动</option>
-                <option value="活动（限定）">活动（限定）</option>
+                <option value="常驻">{{'KEYWORD.PERMENENT' | translate}}</option>
+                <option value="轮替">{{'KEYWORD.ROTATION' | translate}}</option>
+                <option value="累计充值">{{'KEYWORD.CHARGE' | translate}}</option>
+                <option value="主线思绪残影">{{'KEYWORD.CARD-FRAGMENT' | translate}}</option>
+                <option value="活动">{{'KEYWORD.EVENT' | translate}}</option>
+                <option value="活动（限定）">{{'KEYWORD.EVENT' | translate}} ({{'KEYWORD.LIMITED-TIME' | translate}})</option>
             </select>
         </div>
         <div class="col-1">
@@ -67,12 +67,12 @@
         <table class="table table-sm table-dark text-center">
             <thead>
                 <tr>
-                    <th>头像</th>
-                    <th>名称</th>
-                    <th>稀有度</th>
-                    <th class="d-none d-sm-table-cell">属性</th>
-                    <th>技能</th>
-                    <th>获取方式</th>
+                    <th>{{'KEYWORD.ICON' | translate}}</th>
+                    <th>{{'KEYWORD.NAME' | translate}}</th>
+                    <th>{{'KEYWORD.RARITY' | translate}}</th>
+                    <th class="d-none d-sm-table-cell">{{'KEYWORD.TYPE' | translate}}</th>
+                    <th>{{'KEYWORD.SKILL' | translate}}</th>
+                    <th>{{'KEYWORD.OBTAINED-FROM' | translate}}</th>
                 </tr>
             </thead>
             <tbody>
