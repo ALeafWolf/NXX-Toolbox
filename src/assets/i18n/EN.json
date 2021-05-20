@@ -72,5 +72,12 @@
         "BASE-INFLUENCE": "Base Influence",
         "BASE-DEFENSE": "Base Defense",
         "RANK": "Rank"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "Start Date",
+        "END-DATE": "End Date",
+        "POOL-TYPE": "Pool Type",
+        "RATE-UP-CARD": "Rate Up Card",
+        "ANNOUNCEMENT": "Announcement"
     }
 }

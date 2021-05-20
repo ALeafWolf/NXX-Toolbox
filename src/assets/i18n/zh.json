@@ -72,5 +72,12 @@
         "BASE-INFLUENCE": "基础说服力",
         "BASE-DEFENSE": "基础防御力",
         "RANK": "星级"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "开始日期",
+        "END-DATE": "结束日期",
+        "POOL-TYPE": "卡池种类",
+        "RATE-UP-CARD": "UP思绪",
+        "ANNOUNCEMENT": "相关公告"
     }
 }

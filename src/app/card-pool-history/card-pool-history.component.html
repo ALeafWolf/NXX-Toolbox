@@ -11,11 +11,11 @@
         <table class="table table-sm table-dark text-center">
             <thead>
                 <tr>
-                    <th scope="col" sortable="startDate" (sort)="onSort($event)">开始时间</th>
-                    <th scope="col" sortable="endDate" (sort)="onSort($event)">结束时间</th>
-                    <th scope="col" sortable="type" (sort)="onSort($event)">类型</th>
-                    <th scope="col">UP思绪</th>
-                    <th scope="col">相关公告</th>
+                    <th scope="col" sortable="startDate" (sort)="onSort($event)">{{'VISION-HISTORY.START-DATE' | translate}}</th>
+                    <th scope="col" sortable="endDate" (sort)="onSort($event)">{{'VISION-HISTORY.END-DATE' | translate}}</th>
+                    <th scope="col" sortable="type" (sort)="onSort($event)">{{'VISION-HISTORY.POOL-TYPE' | translate}}</th>
+                    <th scope="col">{{'VISION-HISTORY.RATE-UP-CARD' | translate}}</th>
+                    <th scope="col">{{'VISION-HISTORY.ANNOUNCEMENT' | translate}}</th>
                 </tr>
             </thead>
             <tbody>
