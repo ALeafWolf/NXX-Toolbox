@@ -79,5 +79,10 @@
         "POOL-TYPE": "卡池种类",
         "RATE-UP-CARD": "UP思绪",
         "ANNOUNCEMENT": "相关公告"
+    },
+    "SKILL-DETAIL": {
+        "SKILL-DESCRIPTION": "技能描述",
+        "SKILL-LEVEL": "技能等级",
+        "RELATED-CARD": "相关思绪"
     }
 }
