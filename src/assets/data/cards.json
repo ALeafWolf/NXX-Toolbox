@@ -140,17 +140,17 @@
         "id": "腾霄",
         "name": "腾霄",
         "nameEN": "",
-        "type": "",
+        "type": "直觉",
         "rarity": "SSR",
         "character": "夏彦",
         "characterEN": "Luke",
         "skills": [
-            "??? Ⅲ",
-            "??? Ⅲ",
-            "??? Ⅲ"
+            "以德服人γ Ⅲ",
+            "好奇之心 Ⅲ",
+            "侦探头脑 Ⅲ"
         ],
-        "influence": 0,
-        "defense": 0,
+        "influence": 2968,
+        "defense": 1484,
         "obtainedFrom": [
             "活动",
             "轮替"
@@ -454,17 +454,17 @@
         "id": "霓光旋律",
         "name": "霓光旋律",
         "nameEN": "",
-        "type": "",
+        "type": "共情",
         "rarity": "SSR",
         "character": "莫弈",
         "characterEN": "Vyn",
         "skills": [
-            "??? Ⅲ",
-            "??? Ⅲ",
-            "??? Ⅲ"
+            "先声夺势 Ⅲ",
+            "盛装舞步 Ⅲ",
+            "排比增势 Ⅲ"
         ],
-        "influence": 0,
-        "defense": 0,
+        "influence": 2820,
+        "defense": 1632,
         "obtainedFrom": [
             "活动",
             "轮替"
@@ -987,17 +987,17 @@
         "id": "制胜球",
         "name": "制胜球",
         "nameEN": "",
-        "type": "",
+        "type": "逻辑",
         "rarity": "SR",
         "character": "左然",
         "characterEN": "Artem",
         "skills": [
-            "??? Ⅱ",
-            "??? Ⅱ",
-            "??? Ⅱ"
+            "层层深入β Ⅱ",
+            "精益求精 Ⅱ",
+            "引譬连类 Ⅱ"
         ],
-        "influence": 0,
-        "defense": 0,
+        "influence": 2105,
+        "defense": 1219,
         "obtainedFrom": [
             "活动（限定）"
         ]
@@ -1323,17 +1323,17 @@
         "id": "迷涂炫彩",
         "name": "迷涂炫彩",
         "nameEN": "",
-        "type": "",
+        "type": "逻辑",
         "rarity": "SR",
         "character": "陆景和",
         "characterEN": "Marius",
         "skills": [
-            "??? Ⅱ",
-            "??? Ⅱ",
-            "??? Ⅱ"
+            "以理服人α Ⅱ",
+            "年少锋锐 Ⅱ",
+            "机锋对弈 Ⅱ"
         ],
-        "influence": 0,
-        "defense": 0,
+        "influence": 2150,
+        "defense": 1174,
         "obtainedFrom": [
             "轮替",
             "活动"
