@@ -70,6 +70,7 @@ export class CardValueComponent implements OnInit {
           //if localStorage has user's data for this card
           if (this.userData) {
             this.loadUserData();
+            this.setSkillDisplay()
           }
         }).catch(err => console.log(err))
         if (this.card) {
