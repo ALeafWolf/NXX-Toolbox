@@ -137,6 +137,26 @@
         ]
     },
     {
+        "id": "腾霄",
+        "name": "腾霄",
+        "nameEN": "",
+        "type": "",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "??? Ⅲ",
+            "??? Ⅲ",
+            "??? Ⅲ"
+        ],
+        "influence": 0,
+        "defense": 0,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
         "id": "心跳记忆",
         "name": "心跳记忆",
         "nameEN": "Loving Memories",
@@ -425,6 +445,26 @@
         ],
         "influence": 2056,
         "defense": 1124,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
+        "id": "霓光旋律",
+        "name": "霓光旋律",
+        "nameEN": "",
+        "type": "",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "??? Ⅲ",
+            "??? Ⅲ",
+            "??? Ⅲ"
+        ],
+        "influence": 0,
+        "defense": 0,
         "obtainedFrom": [
             "活动",
             "轮替"
@@ -845,45 +885,6 @@
         ]
     },
     {
-        "id": "纸幕光影",
-        "name": "纸幕光影",
-        "nameEN": "",
-        "type": "直觉",
-        "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem",
-        "skills": [
-            "洞察秋毫γ Ⅱ",
-            "敏锐观察 Ⅱ",
-            "锐辞庭辩 Ⅱ"
-        ],
-        "influence": 1583,
-        "defense": 792,
-        "obtainedFrom": [
-            "累计充值"
-        ]
-    },
-    {
-        "id": "暇光一隅",
-        "name": "暇光一隅",
-        "nameEN": "",
-        "type": "逻辑",
-        "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem",
-        "skills": [
-            "设问否定β Ⅱ",
-            "有条不紊 Ⅱ",
-            "机锋对弈 Ⅱ"
-        ],
-        "influence": 1662,
-        "defense": 712,
-        "obtainedFrom": [
-            "活动",
-            "轮替"
-        ]
-    },
-    {
         "id": "锋芒褪尽",
         "name": "锋芒褪尽",
         "nameEN": "Staying Humble",
@@ -924,6 +925,45 @@
         ]
     },
     {
+        "id": "纸幕光影",
+        "name": "纸幕光影",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "洞察秋毫γ Ⅱ",
+            "敏锐观察 Ⅱ",
+            "锐辞庭辩 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 792,
+        "obtainedFrom": [
+            "累计充值"
+        ]
+    },
+    {
+        "id": "暇光一隅",
+        "name": "暇光一隅",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "设问否定β Ⅱ",
+            "有条不紊 Ⅱ",
+            "机锋对弈 Ⅱ"
+        ],
+        "influence": 1662,
+        "defense": 712,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
         "id": "抉择",
         "name": "抉择",
         "nameEN": "",
@@ -941,6 +981,25 @@
         "obtainedFrom": [
             "常驻",
             "主线思绪残影"
+        ]
+    },
+    {
+        "id": "制胜球",
+        "name": "制胜球",
+        "nameEN": "",
+        "type": "",
+        "rarity": "SR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "??? Ⅱ",
+            "??? Ⅱ",
+            "??? Ⅱ"
+        ],
+        "influence": 0,
+        "defense": 0,
+        "obtainedFrom": [
+            "活动（限定）"
         ]
     },
     {
@@ -1258,6 +1317,26 @@
         "defense": 712,
         "obtainedFrom": [
             "活动（限定）"
+        ]
+    },
+    {
+        "id": "迷涂炫彩",
+        "name": "迷涂炫彩",
+        "nameEN": "",
+        "type": "",
+        "rarity": "SR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "??? Ⅱ",
+            "??? Ⅱ",
+            "??? Ⅱ"
+        ],
+        "influence": 0,
+        "defense": 0,
+        "obtainedFrom": [
+            "轮替",
+            "活动"
         ]
     },
     {
