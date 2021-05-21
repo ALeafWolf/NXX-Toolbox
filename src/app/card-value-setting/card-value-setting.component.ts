@@ -59,32 +59,36 @@ export class CardValueSettingComponent implements OnInit {
     this.lang = localStorage.getItem('language')
     this.userData = JSON.parse(this._data.getItem(this.id))
 
-    this._data.getCard(this.id).toPromise().then((data: any) => {
-      this.setCardWithLang(data)
-      this.setTitle();
-      this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
-      this.att = data.influence
-      this.def = data.defense
-      if (data.rarity == "R") {
-        this.lv = 70
-      }
-      this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-      this._data.getSkillRssList().toPromise().then((data: any[]) => {
-        data.forEach(d => {
-          if (d.rarity == this.card.rarity) {
-            this.skillLevelUpRssList = d.rss
-          }
-        })
-        //if localStorage has user's data for this card
-        if (this.userData) {
-          this.loadUserData();
+    this._data.getCard(this.id).toPromise().then((card: any) => {
+      this._data.getSkills().toPromise().then((skills: any[]) => {
+        this.allSkillList = skills;
+        this.setCardWithLang(card)
+        this.setTitle();
+        this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
+        this.att = card.influence
+        this.def = card.defense
+        if (card.rarity == "R") {
+          this.lv = 70
         }
-      }).catch(err => console.log(err))
-      if (this.card) {
-        this.loadSkillInfo()
-      }
+        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+        this._data.getSkillRssList().toPromise().then((data: any[]) => {
+          data.forEach(d => {
+            if (d.rarity == this.card.rarity) {
+              this.skillLevelUpRssList = d.rss
+            }
+          })
+          //if localStorage has user's data for this card
+          if (this.userData) {
+            this.loadUserData();
+          }
+        }).catch(err => console.log(err))
+        if (this.card) {
+          this.loadSkillInfo()
+        }
 
-      this.isLoaded = true;
+        this.isLoaded = true;
+      })
+
     });
   }
 
@@ -104,11 +108,13 @@ export class CardValueSettingComponent implements OnInit {
       data.n = data.nameEN != '' ? data.nameEN : data.name
 
       let skills = []
-      data.skills.forEach(s => {
-        this._data.getSkill(s).toPromise().then((d: any) => {
-          d.n = d.nameEN != '' ? d.nameEN : d.name
-          d.des = d.descriptionEN != '' ? d.descriptionEN : d.description
-          skills.push(d)
+      data.skills.forEach(name => {
+        this.allSkillList.forEach((d: any) => {
+          if (name == d.name || name == d.nameEN) {
+            d.n = d.nameEN != '' ? d.nameEN : d.name
+            d.des = d.descriptionEN != '' ? d.descriptionEN : d.description
+            skills.push(d)
+          }
         })
       });
       data.skills = skills
@@ -117,11 +123,13 @@ export class CardValueSettingComponent implements OnInit {
       data.n = data.name
 
       let skills = []
-      data.skills.forEach(s => {
-        this._data.getSkill(s).toPromise().then((d: any) => {
-          d.n = d.name
-          d.des = d.description
-          skills.push(d)
+      data.skills.forEach(name => {
+        this.allSkillList.forEach((d: any) => {
+          if (name == d.name) {
+            d.n = d.name
+            d.des = d.description
+            skills.push(d)
+          }
         })
       });
       data.skills = skills
@@ -138,21 +146,16 @@ export class CardValueSettingComponent implements OnInit {
   }
 
   loadSkillInfo() {
-    this._data.getSkills().toPromise().then((data: any[]) => {
-      let list = []
-      this.allSkillList = data
-      this.card.skills.forEach(s => {
-        data.forEach(d => {
-          if (d.name == s.name) {
-            list.push(d)
-
-          }
-        })
+    let list = []
+    this.card.skills.forEach(s => {
+      this.allSkillList.forEach(d => {
+        if (d.name == s.name) {
+          list.push(d)
+        }
       })
-      this.skillList = list
-
-      this.setSkillDisplay();
     })
+    this.skillList = list
+    this.setSkillDisplay();
   }
 
   //set the string of skills that being display on the page
@@ -227,6 +230,7 @@ export class CardValueSettingComponent implements OnInit {
     let x = 1 + (this.star - 1) * 0.1
     this.att = Math.round(this.card.influence * x)
     this.def = Math.round(this.card.defense * x)
+    this.updatePower()
   }
 
   updatePower() {
