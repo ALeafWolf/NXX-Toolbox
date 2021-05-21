@@ -79,5 +79,10 @@
         "POOL-TYPE": "Pool Type",
         "RATE-UP-CARD": "Rate Up Card",
         "ANNOUNCEMENT": "Announcement"
+    },
+    "SKILL-DETAIL": {
+        "SKILL-DESCRIPTION": "Skill Description",
+        "SKILL-LEVEL": "Skill Level",
+        "RELATED-CARD": "Related Card(s)"
     }
 }
