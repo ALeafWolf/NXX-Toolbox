@@ -836,6 +836,32 @@
         "slot": 2
     },
     {
+        "id": "精益求精",
+        "name": "精益求精 Ⅱ",
+        "nameEN": "",
+        "character": "左然",
+        "type": "通用",
+        "rarity": "MR SR",
+        "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X%",
+        "descriptionEN": "Boosts this card's base Influence by X% for every Artem card in the Primary Deck",
+        "nums": [1.28, 6.5],
+        "function": "influence up",
+        "slot": 2
+    },
+    {
+        "id": "精益求精",
+        "name": "精益求精 Ⅲ",
+        "nameEN": "",
+        "character": "左然",
+        "type": "通用",
+        "rarity": "SSR",
+        "description": "主战思绪中每有一张左然的思绪，该思绪的基础说服力增加X%",
+        "descriptionEN": "Boosts this card's base Influence by X% for every Artem card in the Primary Deck",
+        "nums": [1.6, 7.99],
+        "function": "influence up",
+        "slot": 2
+    },
+    {
         "id": "人格侧写",
         "name": "人格侧写 Ⅱ",
         "nameEN": "",
@@ -1395,6 +1421,32 @@
         "slot": 2
     },
     {
+        "id": "好奇之心",
+        "name": "好奇之心 Ⅱ",
+        "nameEN": "",
+        "character": "夏彦",
+        "type": "通用",
+        "rarity": "MR SR",
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X%",
+        "descriptionEN": "Boosts this card's base Defense by X% for every Luke card in the Primary Deck",
+        "nums": [2.56, 12.82],
+        "function": "defense up",
+        "slot": 2
+    },
+    {
+        "id": "好奇之心",
+        "name": "好奇之心 Ⅲ",
+        "nameEN": "",
+        "character": "夏彦",
+        "type": "通用",
+        "rarity": "SSR",
+        "description": "主战思绪中每有一张夏彦的思绪，该思绪的基础防御力增加X%",
+        "descriptionEN": "Boosts this card's base Defense by X% for every Luke card in the Primary Deck",
+        "nums": [3.2, 15.98],
+        "function": "defense up",
+        "slot": 2
+    },
+    {
         "id": "绝对理性",
         "name": "绝对理性 Ⅱ",
         "nameEN": "Logical Ⅱ ",
@@ -1950,6 +2002,19 @@
         "description": "使对方防御力降低X%，持续2回合",
         "descriptionEN": "Reduces the opponent's Defense by X% for 2 turn(s)",
         "nums": [9, 45],
+        "function": "defense down",
+        "slot": 1
+    },
+    {
+        "id": "以德服人",
+        "name": "以德服人γ Ⅲ",
+        "nameEN": "",
+        "character": "通用",
+        "type": "通用",
+        "rarity": "SSR",
+        "description": "使对方防御力降低X%，持续3回合",
+        "descriptionEN": "Reduces the opponent's Defense by X% for 3 turn(s)",
+        "nums": [7, 34.99],
         "function": "defense down",
         "slot": 1
     },
