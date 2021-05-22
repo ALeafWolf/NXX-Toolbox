@@ -1,5 +1,5 @@
 # NXX Toolbox
-[Click to enter the Toolbox](https://aleafwolf.github.io/NXX-Toolbox)
+[Click to enter the Toolbox](https://www.nxxtoolbox.com)
 ## Development
 ### Frontend: 
 - **Angular 11** 
