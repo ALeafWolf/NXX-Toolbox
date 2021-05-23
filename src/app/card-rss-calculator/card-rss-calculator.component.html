@@ -1,5 +1,170 @@
 <div class="row justify-content-center">
-    <div class="col-10 text-center mt-2">
-        <h3>Under Construction</h3>
+    <div class="row col-12 text-center mt-2 justify-content-center">
+        <div class="row col-10 col-md-5 justify-content-center">
+            <table class="col-10 table table-stripped table-dark">
+                <tr>
+                    <th colspan="4">{{'KEYWORD.CARD' | translate}}</th>
+                </tr>
+                <tr>
+                    <th>
+                        {{'KEYWORD.CHARACTER' | translate}}
+                    </th>
+                    <td colspan="3">
+                        <mat-radio-group [(ngModel)]="character" (ngModelChange)="setChar()">
+                            <mat-radio-button class="mr-2" *ngFor="let c of characters" [value]="c">
+                                <img class="img-fluid icon" src="{{'assets/images/小头/' + c + '.webp'}}" alt="{{c}}">
+                            </mat-radio-button>
+                        </mat-radio-group>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        {{'KEYWORD.TYPE' | translate}}
+                    </th>
+                    <td colspan="3">
+                        <mat-radio-group [(ngModel)]="type" (ngModelChange)="setType()">
+                            <mat-radio-button class="mr-2" *ngFor="let t of types" [value]="t">
+                                <img class="img-fluid icon" src="{{'assets/images/' + t + '.png'}}" alt="{{t}}">
+                            </mat-radio-button>
+                        </mat-radio-group>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        {{'KEYWORD.RARITY' | translate}}
+                    </th>
+                    <td colspan="3">
+                        <mat-radio-group [(ngModel)]="rarity" (ngModelChange)="setRarity()">
+                            <mat-radio-button class="mr-2" *ngFor="let r of rarities" [value]="r">
+                                {{r}}
+                                <!-- <img class="img-fluid icon" src="{{'assets/images/' + t + '.png'}}" alt="{{t}}"> -->
+                            </mat-radio-button>
+                        </mat-radio-group>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        {{'KEYWORD.LEVEL' | translate}}
+                    </th>
+                    <td>
+                        {{lv}}
+                    </td>
+                    <td colspan="2">
+                        <input type="range" class="form-range" min="{{minLv}}" max="{{maxLv}}" [(ngModel)]="lv" (ngModelChange)="setLevel()">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        {{'KEYWORD.SKILL' | translate}}
+                    </th>
+                    <td>
+                        <select [(ngModel)]="skillA" (ngModelChange)="setSkillRss()">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                            <option value=6>6</option>
+                            <option value=7>7</option>
+                            <option value=8>8</option>
+                            <option value=9>9</option>
+                            <option value=10>10</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select [(ngModel)]="skillB" (ngModelChange)="setSkillRss()">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                            <option value=6>6</option>
+                            <option value=7>7</option>
+                            <option value=8>8</option>
+                            <option value=9>9</option>
+                            <option value=10>10</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select [(ngModel)]="skillC" (ngModelChange)="setSkillRss()">
+                            <option value=1>1</option>
+                            <option value=2>2</option>
+                            <option value=3>3</option>
+                            <option value=4>4</option>
+                            <option value=5>5</option>
+                            <option value=6>6</option>
+                            <option value=7>7</option>
+                            <option value=8>8</option>
+                            <option value=9>9</option>
+                            <option value=10>10</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="row col-10 col-md-5 justify-content-center">
+            <table class="col-10 table table-sm table-dark text-center">
+                <tr>
+                    <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
+                    <td colspan="2">{{coin}}</td>
+                </tr>
+                <tr>
+                    <th colspan="3">思绪进化材料消耗</th>
+                </tr>
+                <tr>
+                    <td>{{charChip}}晶片 Ⅰ</td>
+                    <td>{{charChip}}晶片 Ⅱ</td>
+                    <td>{{charChip}}晶片 Ⅲ</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>{{type}}晶片 Ⅰ</td>
+                    <td>{{type}}晶片 Ⅱ</td>
+                    <td>{{type}}晶片 Ⅲ</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <th colspan="3">技能升级材料消耗</th>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象I.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.png'}}"></td>
+                </tr>
+                <tr>
+                    <td>{{skillRss[0]}}</td>
+                    <td>{{skillRss[1]}}</td>
+                    <td>{{skillRss[1]}}</td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象II.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.png'}}"></td>
+                </tr>
+                <tr>
+                    <td>{{skillRss[2]}}</td>
+                    <td>{{skillRss[3]}}</td>
+                    <td>{{skillRss[3]}}</td>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象III.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.png'}}"></td>
+                </tr>
+                <tr>
+                    <td>{{skillRss[4]}}</td>
+                    <td>{{skillRss[5]}}</td>
+                    <td>{{skillRss[5]}}</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </div>
