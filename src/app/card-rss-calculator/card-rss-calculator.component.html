@@ -1,7 +1,7 @@
 <div class="row justify-content-center">
     <div class="row col-12 text-center mt-2 justify-content-center">
         <div class="row col-10 col-md-5 justify-content-center">
-            <table class="col-10 table table-stripped table-dark">
+            <table class="col-10 table table-sm table-stripped table-dark">
                 <tr>
                     <th colspan="4">{{'KEYWORD.CARD' | translate}}</th>
                 </tr>
@@ -50,7 +50,8 @@
                         {{lv}}
                     </td>
                     <td colspan="2">
-                        <input type="range" class="form-range" min="{{minLv}}" max="{{maxLv}}" [(ngModel)]="lv" (ngModelChange)="setLevel()">
+                        <input type="range" class="form-range" min="{{minLv}}" max="{{maxLv}}" [(ngModel)]="lv"
+                            (ngModelChange)="setLevel()">
                     </td>
                 </tr>
                 <tr>
@@ -101,6 +102,38 @@
                     </td>
                 </tr>
             </table>
+            <table class="col-10 table table-sm table-stripped table-dark">
+                <tr>
+                    <th colspan="4">
+                        所需经验值
+                    </th>
+                </tr>
+                <tr>
+                    <th colspan="4">
+                        0
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="img-fluid icon" src="assets/images/材料/法理之谕 Ⅰ.webp" alt="法理之谕 Ⅰ">
+                    </td>
+                    <td>
+                        <img class="img-fluid icon" src="assets/images/材料/法理之谕 Ⅱ.webp" alt="法理之谕 Ⅱ">
+                    </td>
+                    <td>
+                        <img class="img-fluid icon" src="assets/images/材料/法理之谕 Ⅲ.webp" alt="法理之谕 Ⅲ">
+                    </td>
+                    <td>
+                        <img class="img-fluid icon" src="assets/images/材料/法理之谕 Ⅳ.webp" alt="法理之谕 Ⅳ">
+                    </td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+            </table>
         </div>
         <div class="row col-10 col-md-5 justify-content-center">
             <table class="col-10 table table-sm table-dark text-center">
@@ -112,9 +145,18 @@
                     <th colspan="3">思绪进化材料消耗</th>
                 </tr>
                 <tr>
-                    <td>{{charChip}}晶片 Ⅰ</td>
-                    <td>{{charChip}}晶片 Ⅱ</td>
-                    <td>{{charChip}}晶片 Ⅲ</td>
+                    <td>
+                        <img class="icon" src="{{'assets/images/材料/' + charChip + '晶片 Ⅰ.webp'}}"
+                            alt="{{charChip + '晶片 Ⅰ'}}">
+                    </td>
+                    <td>
+                        <img class="icon" src="{{'assets/images/材料/' + charChip + '晶片 Ⅱ.webp'}}"
+                            alt="{{charChip + '晶片 Ⅱ'}}">
+                    </td>
+                    <td>
+                        <img class="icon" src="{{'assets/images/材料/' + charChip + '晶片 Ⅲ.webp'}}"
+                            alt="{{charChip + '晶片 Ⅲ'}}">
+                    </td>
                 </tr>
                 <tr>
                     <td>0</td>
@@ -122,9 +164,15 @@
                     <td>0</td>
                 </tr>
                 <tr>
-                    <td>{{type}}晶片 Ⅰ</td>
-                    <td>{{type}}晶片 Ⅱ</td>
-                    <td>{{type}}晶片 Ⅲ</td>
+                    <td>
+                        <img class="icon" src="{{'assets/images/材料/' + type + '晶片 Ⅰ.webp'}}" alt="{{type + '晶片 Ⅰ'}}">
+                    </td>
+                    <td>
+                        <img class="icon" src="{{'assets/images/材料/' + type + '晶片 Ⅱ.webp'}}" alt="{{type + '晶片 Ⅱ'}}">
+                    </td>
+                    <td>
+                        <img class="icon" src="{{'assets/images/材料/' + type + '晶片 Ⅲ.webp'}}" alt="{{type + '晶片 Ⅲ'}}">
+                    </td>
                 </tr>
                 <tr>
                     <td>0</td>
@@ -135,9 +183,12 @@
                     <th colspan="3">技能升级材料消耗</th>
                 </tr>
                 <tr>
-                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象I.png'}}"></td>
-                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.png'}}"></td>
-                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象 Ⅰ.webp'}}" alt="{{type + '印象 Ⅰ'}}">
+                    </td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.webp'}}"
+                            alt="{{charRssGroup[0]}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.webp'}}"
+                            alt="{{charRssGroup[1]}}"></td>
                 </tr>
                 <tr>
                     <td>{{skillRss[0]}}</td>
@@ -145,9 +196,12 @@
                     <td>{{skillRss[1]}}</td>
                 </tr>
                 <tr>
-                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象II.png'}}"></td>
-                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.png'}}"></td>
-                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象 Ⅱ.webp'}}" alt="{{type + '印象 Ⅱ'}}">
+                    </td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.webp'}}"
+                            alt="{{charRssGroup[2]}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.webp'}}"
+                            alt="{{charRssGroup[3]}}"></td>
                 </tr>
                 <tr>
                     <td>{{skillRss[2]}}</td>
@@ -155,9 +209,12 @@
                     <td>{{skillRss[3]}}</td>
                 </tr>
                 <tr>
-                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象III.png'}}"></td>
-                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.png'}}"></td>
-                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.png'}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + type + '印象 Ⅲ.webp'}}" alt="{{type + '印象 Ⅲ'}}">
+                    </td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.webp'}}"
+                            alt="{{charRssGroup[4]}}"></td>
+                    <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.webp'}}"
+                            alt="{{charRssGroup[5]}}"></td>
                 </tr>
                 <tr>
                     <td>{{skillRss[4]}}</td>

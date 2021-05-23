@@ -700,7 +700,7 @@
         "type": "通用",
         "rarity": "SSR",
         "description": "主战思绪中所有夏彦思绪的基础说服力增加X",
-        "descriptionEN": "Boosts the base influence of all Luke cards in the Primary Deck by X%",
+        "descriptionEN": "Boosts the base influence of all Luke cards in the Primary Deck by X",
         "nums": [27, 135],
         "function": "influence up",
         "slot": 3

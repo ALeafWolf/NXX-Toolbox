@@ -13,7 +13,7 @@ export class CardRssCalculatorComponent implements OnInit {
   charChip = "思维"
   type = "逻辑"
   rarity = "R"
-  lv = 70
+  lv = 1
   minLv = 1
   maxLv = 70
 
@@ -121,4 +121,5 @@ export class CardRssCalculatorComponent implements OnInit {
       }
     }
   }
+
 }
