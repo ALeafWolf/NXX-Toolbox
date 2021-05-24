@@ -45,6 +45,7 @@ export class CardInfo {
     private static _srMaxPower = 3092
     private static _ssrMaxPower = 4134
 
+
     static calculatePower(rarity: string, star: number, skills: number[]) {
         let p = 0;
         let pu = 0;
@@ -80,4 +81,20 @@ export class CardInfo {
         return Math.round(p);
     }
 
+
+
+}
+
+export class ExpChipInfo {
+    private static _expChipCost = [45, 150, 450, 1500]
+    private static _expChipNames = ["法理之谕 Ⅰ", "法理之谕 Ⅱ", "法理之谕 Ⅲ", "法理之谕 Ⅳ"]
+
+    static getExpChipNames(lang: any) {
+        console.log(`Chip language: ${lang}`)
+        return this._expChipNames;
+    }
+
+    static getExpChipCost() {
+        return this._expChipCost;
+    }
 }

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
-import { SkillInfo, CardInfo } from '../model/card-statistics';
+import { SkillInfo, ExpChipInfo } from '../model/card-statistics';
 
 @Component({
   selector: 'app-card-rss-calculator',
@@ -14,18 +14,27 @@ export class CardRssCalculatorComponent implements OnInit {
   type = "逻辑"
   rarity = "R"
   lv = 1
+  prevLv = 1
   minLv = 1
   maxLv = 70
+  charChips = [0, 0, 0]
+  typeChips = [0, 0, 0]
+
+  expChips = [0, 0, 0, 0]
+  expChipNames;
+  expChipCost;
 
   skillA = 1
   skillB = 1
   skillC = 1
-  coin = 0;
+  skillCoin = 0;
   skillRss = [0, 0, 0, 0, 0, 0];
   fullSkillRssList;
   skillRssList;
 
+  allEvolveRss;
   evolveRss;
+  lvCoin = 0;
   charRssGroup;
   characters = ["夏彦", "左然", "莫弈", "陆景和"]
   types = ["逻辑", "共情", "直觉"]
@@ -34,18 +43,40 @@ export class CardRssCalculatorComponent implements OnInit {
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
+    this.charRssGroup = SkillInfo.getSkillRssGroup(this.character);
+    this.expChipNames = ExpChipInfo.getExpChipNames(localStorage.getItem("language"))
+    this.expChipCost = ExpChipInfo.getExpChipCost()
+
     this._data.getCardEvolveRss().toPromise().then((rss: any) => {
-      this.evolveRss = rss;
-      this.charRssGroup = SkillInfo.getSkillRssGroup(this.character);
+      this.allEvolveRss = rss;
+      this.getEvolveRss()
+
       this._data.getSkillRssList().toPromise().then((skillRss: any[]) => {
         this.fullSkillRssList = skillRss;
         skillRss.forEach(r => {
-          if(r.rarity == this.rarity){
+          if (r.rarity == this.rarity) {
             this.skillRssList = r.rss
           }
         })
       })
     })
+  }
+
+  getEvolveRss() {
+    switch (this.rarity) {
+      case "R":
+        this.evolveRss = this.allEvolveRss.R.rss
+        break;
+      case "MR":
+        this.evolveRss = this.allEvolveRss.MR.rss
+        break;
+      case "SR":
+        this.evolveRss = this.allEvolveRss.SR.rss
+        break;
+      case "SSR":
+        this.evolveRss = this.allEvolveRss.SSR.rss
+        break;
+    }
   }
 
   setChar() {
@@ -72,28 +103,72 @@ export class CardRssCalculatorComponent implements OnInit {
 
   }
 
-  setRarity(){
-    this.fullSkillRssList.forEach(rss => {
-      if(rss.rarity == this.rarity){
-        this.skillRssList = rss
+  setRarity() {
+    //set evolve rss 
+    this.getEvolveRss()
+    //set propority of input range based on rarity
+    if (this.rarity == 'R') {
+      this.maxLv = 70
+      this.lv = 70
+    } else {
+      this.maxLv = 100
+    }
+    //set skill rsss
+    this.fullSkillRssList.forEach(r => {
+      if (r.rarity == this.rarity) {
+        this.skillRssList = r.rss
       }
     })
+    this.setLevel()
     this.setSkillRss()
   }
 
   setLevel() {
+    let rss = this.evolveRss
     if (this.rarity == 'R') {
-      this.maxLv = 70
-      if(this.lv > 70){
-        this.lv = 70
+      if (this.lv >= 40) {
+        this.lvCoin = rss[0].coin
+        this.typeChips = [rss[0].chip1, rss[0].chip2, 0]
+        this.charChips = [rss[0].charChip, 0, 0]
+      } else {
+        this.lvCoin = 0
+        this.typeChips = [0, 0, 0]
+        this.charChips = [0, 0, 0]
       }
-    }else{
-      this.maxLv = 100
+    } else if (this.rarity == 'MR') {
+      if (this.lv >= 70) {
+        this.lvCoin = rss[0].coin
+        this.typeChips = [0, rss[0].chip1, rss[0].chip2]
+        this.charChips = [0, 0, rss[0].charChip]
+      } else {
+        this.lvCoin = 0
+        this.charChips = [0, 0, 0]
+        this.typeChips = [0, 0, 0]
+      }
+    } else {
+      let c = 0;
+      let typeC = [0, 0, 0]
+      let charC = [0, 0, 0]
+      if (this.lv >= 40) {
+        c += rss[0].coin
+        typeC[0] += rss[0].chip1
+        typeC[1] += rss[0].chip2
+        charC[1] += rss[0].charChip
+      }
+      if (this.lv >= 70) {
+        c += rss[1].coin
+        typeC[1] += rss[1].chip1
+        typeC[2] += rss[1].chip2
+        charC[2] += rss[1].charChip
+      }
+      this.lvCoin = c
+      this.typeChips = typeC;
+      this.charChips = charC;
     }
   }
 
-  setSkillRss(){
-    this.coin = 0;
+  setSkillRss() {
+    this.skillCoin = 0;
     this.skillRss = [0, 0, 0, 0, 0, 0]
     let skillLv = [this.skillA, this.skillB, this.skillC]
     for (let i = 0; i < 3; i++) {
@@ -101,7 +176,7 @@ export class CardRssCalculatorComponent implements OnInit {
       if (lvl > 1) {
         //lv2: index 0, lv10: index 8
         for (let j = 0; j < lvl - 1; j++) {
-          this.coin += this.skillRssList[j].coin
+          this.skillCoin += this.skillRssList[j].coin
           //lv2-4
           if (j < 3) {
             this.skillRss[0] += this.skillRssList[j].impression
