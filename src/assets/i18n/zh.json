@@ -40,6 +40,7 @@
         "CHARACTER": "角色",
         "RARITY": "稀有度",
         "TYPE": "属性",
+        "EXP": "经验",
         "OBTAINED-FROM": "获取方式",
         "FUNCTION": "功能",
         "SKILL-SLOT": "技能槽",
@@ -84,5 +85,10 @@
         "SKILL-DESCRIPTION": "技能描述",
         "SKILL-LEVEL": "技能等级",
         "RELATED-CARD": "相关思绪"
+    },
+    "RSS-CALCULATOR": {
+        "EVOLVE-RSS": "思绪进化材料",
+        "SKILL-LV-RSS": "技能升级材料",
+        "CLAIM": "计算器数值仅供参考，一切以游戏内数值为主"
     }
 }

@@ -40,6 +40,7 @@
         "CHARACTER": "Character",
         "RARITY": "Rarity",
         "TYPE": "Type",
+        "EXP": "EXP",
         "OBTAINED-FROM": "Obtained From",
         "FUNCTION": "Function",
         "SKILL-SLOT": "Skill Slot",
@@ -84,5 +85,10 @@
         "SKILL-DESCRIPTION": "Skill Description",
         "SKILL-LEVEL": "Skill Level",
         "RELATED-CARD": "Related Card(s)"
+    },
+    "RSS-CALCULATOR": {
+        "EVOLVE-RSS": "Card Evolve Resource",
+        "SKILL-LV-RSS": "Skill Leveling Resource",
+        "CLAIM": "Results of this calculator is for referencing only"
     }
 }

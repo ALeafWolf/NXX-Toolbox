@@ -23,81 +23,84 @@
                 </p>
             </div>
         </div>
-        <div class="col-12 col-lg-6 text-center bg-dark" id="homeScrollable">
+        <div class="col-12 col-lg-6 text-center bg-dark">
             <h4 class="border-bottom border-secondary p-1">{{'HOME.UPDATE-LOG' | translate}}</h4>
-            <div class="border-bottom border-secondary">
-                <h4>2021.05.19</h4>
-                <p>
-                    i18n DONE!!! ~\(≧▽≦)/~ <br />
-                    Now support English for majority part of the site<br />
-                    Will auto detect the language prefence of the browser if using this site for the first time
-                </p>
+            <div id="homeScrollable">
+                <div class="border-bottom border-secondary">
+                    <h4>2021.05.19</h4>
+                    <p>
+                        i18n DONE!!! ~\(≧▽≦)/~ <br />
+                        Now support English for majority part of the site<br />
+                        Will auto detect the language prefence of the browser if using this site for the first time
+                    </p>
+                </div>
+                <div class="border-bottom border-secondary">
+                    <h4>2021.05.14</h4>
+                    <p>
+                        Add data language switch function at nav bar, now support English<br />
+                        Add cards and skills information in English, which are implemented in CBT<br />
+                        将部分图片由png换成webp以提升界面加载速度
+                    </p>
+                </div>
+                <div class="border-bottom border-secondary">
+                    <h4>2021.05.06</h4>
+                    <p>
+                        <a routerLink="/card-calculator/">战力计算器</a>增加了所选思绪二，三技能加成的总结<br />
+                    </p>
+                </div>
+                <div class="border-bottom border-secondary">
+                    <h4>2021.04.30</h4>
+                    <p>
+                        增加了<a routerLink="/card-pool-history/">往期女神之影</a>界面<br />
+                        已将后端迁移至MongoDB Atlas，<a href="https://github.com/ALeafWolf/tears-of-themis-api"
+                            target="_blank">Api</a><br />
+                        （以后后台更新数据更方便啦ᕕ( ᐛ )ᕗ）
+    
+                    </p>
+                </div>
+                <div class="border-bottom border-secondary">
+                    <h4>2021.04.18</h4>
+                    <p>
+                        增加了<a href="https://dottedsquirrel.com/everything-else/add-google-analytics-angular/"
+                            target="_blank">Google Analytics</a>用于收集浏览数据<br />
+                        增加了左然的思绪<a routerLink="/card-value/左然/两心无间">两心无间</a>和<a routerLink="/card-value/左然/揣摩">揣摩</a><br />
+                    </p>
+                </div>
+                <div class="border-bottom border-secondary">
+                    <h4>2021.04.11</h4>
+                    <p>
+                        增加了<a routerLink="/skill/先声夺势 III">技能详情</a><br />界面
+                        增加了R级思绪的数据<br />
+                        增加了思绪列表中思绪获取方式的筛选<br />
+                        增加了点击部分图标即可跳转到相关界面的功能<br />
+                        部分界面增加了返回页面顶端的按钮<br />
+                        修改了部分界面对大屏幕的UI适配<br />
+                    </p>
+                </div>
+                <div class="border-bottom border-secondary">
+                    <h4>2021.04.08</h4>
+                    <p>
+                        修改了错误的思绪和技能数据<br />
+                        增加了页面<a routerLink="/cards">思绪列表</a><br />
+                        调整了思绪详情界面的UI和背景图片的位置<br />
+                        增加了导航栏在小屏幕时折叠成汉堡菜单的效果<br />
+                        增添了部分技能的图标<br />
+                        在思绪列表和技能列表增加了重置筛选的功能<br />
+                    </p>
+                </div>
+                <div class="p-1">
+                    <h4>2021.04.07</h4>
+                    <p>
+                        <a href="https://bbs.nga.cn/read.php?tid=26235713" target="_blank">Ver 1.0发布啦！！！</a>\o/<br />
+                        实装了：<br />
+                        思绪选择界面的筛选<br />
+                        思绪的战力，基础说服力和基础防御力计算<br />
+                        技能列表总览及筛选<br />
+                        针对移动端屏幕的UI适配（谢谢你，Bootstrap）
+                    </p>
+                </div>
             </div>
-            <div class="border-bottom border-secondary">
-                <h4>2021.05.14</h4>
-                <p>
-                    Add data language switch function at nav bar, now support English<br />
-                    Add cards and skills information in English, which are implemented in CBT<br />
-                    将部分图片由png换成webp以提升界面加载速度
-                </p>
-            </div>
-            <div class="border-bottom border-secondary">
-                <h4>2021.05.06</h4>
-                <p>
-                    <a routerLink="/card-calculator/">战力计算器</a>增加了所选思绪二，三技能加成的总结<br />
-                </p>
-            </div>
-            <div class="border-bottom border-secondary">
-                <h4>2021.04.30</h4>
-                <p>
-                    增加了<a routerLink="/card-pool-history/">往期女神之影</a>界面<br />
-                    已将后端迁移至MongoDB Atlas，<a href="https://github.com/ALeafWolf/tears-of-themis-api"
-                        target="_blank">Api</a><br />
-                    （以后后台更新数据更方便啦ᕕ( ᐛ )ᕗ）
-
-                </p>
-            </div>
-            <div class="border-bottom border-secondary">
-                <h4>2021.04.18</h4>
-                <p>
-                    增加了<a href="https://dottedsquirrel.com/everything-else/add-google-analytics-angular/"
-                        target="_blank">Google Analytics</a>用于收集浏览数据<br />
-                    增加了左然的思绪<a routerLink="/card-value/左然/两心无间">两心无间</a>和<a routerLink="/card-value/左然/揣摩">揣摩</a><br />
-                </p>
-            </div>
-            <div class="border-bottom border-secondary">
-                <h4>2021.04.11</h4>
-                <p>
-                    增加了<a routerLink="/skill/先声夺势 III">技能详情</a><br />界面
-                    增加了R级思绪的数据<br />
-                    增加了思绪列表中思绪获取方式的筛选<br />
-                    增加了点击部分图标即可跳转到相关界面的功能<br />
-                    部分界面增加了返回页面顶端的按钮<br />
-                    修改了部分界面对大屏幕的UI适配<br />
-                </p>
-            </div>
-            <div class="border-bottom border-secondary">
-                <h4>2021.04.08</h4>
-                <p>
-                    修改了错误的思绪和技能数据<br />
-                    增加了页面<a routerLink="/cards">思绪列表</a><br />
-                    调整了思绪详情界面的UI和背景图片的位置<br />
-                    增加了导航栏在小屏幕时折叠成汉堡菜单的效果<br />
-                    增添了部分技能的图标<br />
-                    在思绪列表和技能列表增加了重置筛选的功能<br />
-                </p>
-            </div>
-            <div class="p-1">
-                <h4>2021.04.07</h4>
-                <p>
-                    <a href="https://bbs.nga.cn/read.php?tid=26235713" target="_blank">Ver 1.0发布啦！！！</a>\o/<br />
-                    实装了：<br />
-                    思绪选择界面的筛选<br />
-                    思绪的战力，基础说服力和基础防御力计算<br />
-                    技能列表总览及筛选<br />
-                    针对移动端屏幕的UI适配（谢谢你，Bootstrap）
-                </p>
-            </div>
+            
         </div>
     </div>
 </div>

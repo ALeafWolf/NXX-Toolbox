@@ -20,6 +20,7 @@ export class CardRssCalculatorComponent implements OnInit {
   charChips = [0, 0, 0]
   typeChips = [0, 0, 0]
 
+  exp = 0
   expChips = [0, 0, 0, 0]
   expChipNames;
   expChipCost;
