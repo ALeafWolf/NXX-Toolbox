@@ -28,7 +28,7 @@
                         {{'KEYWORD.TYPE' | translate}}
                     </th>
                     <td colspan="3">
-                        <mat-radio-group [(ngModel)]="type" (ngModelChange)="setType()">
+                        <mat-radio-group [(ngModel)]="type">
                             <mat-radio-button class="mr-2" *ngFor="let t of types" [value]="t">
                                 <img class="img-fluid icon" src="{{'assets/images/' + t + '.png'}}" alt="{{t}}">
                             </mat-radio-button>

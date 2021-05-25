@@ -22,6 +22,7 @@ export class CardRssCalculatorComponent implements OnInit {
 
   exp = 0
   expChips = [0, 0, 0, 0]
+  expChipValues;
   expChipNames;
   expChipCost;
   fullRarityExp;
@@ -47,8 +48,9 @@ export class CardRssCalculatorComponent implements OnInit {
 
   ngOnInit(): void {
     this.charRssGroup = SkillInfo.getSkillRssGroup(this.character);
-    this.expChipNames = ExpChipInfo.getExpChipNames(localStorage.getItem("language"))
-    this.expChipCost = ExpChipInfo.getExpChipCost()
+    this.expChipValues = ExpChipInfo.getExpChipValues();
+    this.expChipNames = ExpChipInfo.getExpChipNames(localStorage.getItem("language"));
+    this.expChipCost = ExpChipInfo.getExpChipCost();
 
     this._data.getCardEvolveRss().toPromise().then((rss: any) => {
       this.allEvolveRss = rss;
@@ -124,10 +126,6 @@ export class CardRssCalculatorComponent implements OnInit {
     this.charRssGroup = SkillInfo.getSkillRssGroup(this.character);
   }
 
-  setType() {
-
-  }
-
   setRarity() {
     //get evolve rss and exp based on rarity
     this.getEvolveRss()
@@ -201,6 +199,16 @@ export class CardRssCalculatorComponent implements OnInit {
     this.exp = 0
     for(let i = 0; i < this.lv-1; i++){
       this.exp += this.rarityExp[i]
+    }
+    this.calculateExpChips()
+  }
+
+  calculateExpChips(){
+    // console.log(`Divide: ${this.exp/this.expChipValues[3]}\nreminder:${this.exp%this.expChipValues[3]}`)
+    let reminder = this.exp;
+    for(let i = 3; i >= 0; i--){
+      this.expChips[i] = Math.floor(reminder/this.expChipValues[i])
+      reminder = reminder%this.expChipValues[i]
     }
   }
 

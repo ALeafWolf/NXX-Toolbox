@@ -86,8 +86,13 @@ export class CardInfo {
 }
 
 export class ExpChipInfo {
+    private static _expChipValues = [450, 1500, 4500, 15000]
     private static _expChipCost = [45, 150, 450, 1500]
     private static _expChipNames = ["法理之谕 Ⅰ", "法理之谕 Ⅱ", "法理之谕 Ⅲ", "法理之谕 Ⅳ"]
+
+    static getExpChipValues() {
+        return this._expChipValues;
+    }
 
     static getExpChipNames(lang: any) {
         console.log(`Chip language: ${lang}`)
