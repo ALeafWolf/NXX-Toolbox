@@ -24,6 +24,8 @@ export class CardRssCalculatorComponent implements OnInit {
   expChips = [0, 0, 0, 0]
   expChipNames;
   expChipCost;
+  fullRarityExp;
+  rarityExp;
 
   skillA = 1
   skillB = 1
@@ -51,6 +53,11 @@ export class CardRssCalculatorComponent implements OnInit {
     this._data.getCardEvolveRss().toPromise().then((rss: any) => {
       this.allEvolveRss = rss;
       this.getEvolveRss()
+
+      this._data.getCardExp().toPromise().then((exps: any[]) => {
+        this.fullRarityExp = exps;
+        this.getExpOnRarity()
+      })
 
       this._data.getSkillRssList().toPromise().then((skillRss: any[]) => {
         this.fullSkillRssList = skillRss;
@@ -80,6 +87,23 @@ export class CardRssCalculatorComponent implements OnInit {
     }
   }
 
+  getExpOnRarity() {
+    switch (this.rarity) {
+      case "R":
+        this.rarityExp = this.fullRarityExp.R
+        break;
+      case "MR":
+        this.rarityExp = this.fullRarityExp.MR
+        break;
+      case "SR":
+        this.rarityExp = this.fullRarityExp.SR
+        break;
+      case "SSR":
+        this.rarityExp = this.fullRarityExp.SSR
+        break;
+    }
+  }
+
   setChar() {
     //set prefix for character chip
     switch (this.character) {
@@ -105,12 +129,15 @@ export class CardRssCalculatorComponent implements OnInit {
   }
 
   setRarity() {
-    //set evolve rss 
+    //get evolve rss and exp based on rarity
     this.getEvolveRss()
+    this.getExpOnRarity()
     //set propority of input range based on rarity
     if (this.rarity == 'R') {
       this.maxLv = 70
-      this.lv = 70
+      if(this.lv > 70){
+        this.lv = 70
+      }
     } else {
       this.maxLv = 100
     }
@@ -165,6 +192,15 @@ export class CardRssCalculatorComponent implements OnInit {
       this.lvCoin = c
       this.typeChips = typeC;
       this.charChips = charC;
+    }
+
+    this.calculateExp()
+  }
+
+  calculateExp() {
+    this.exp = 0
+    for(let i = 0; i < this.lv-1; i++){
+      this.exp += this.rarityExp[i]
     }
   }
 

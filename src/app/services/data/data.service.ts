@@ -54,6 +54,10 @@ export class DataService {
     return this._http.get('assets/data/card-evolve-rss.json');
   }
 
+  getCardExp(){
+    return this._http.get('assets/data/card-exp.json');
+  }
+
   //load data from locatStorage
   getItem(key: string){
     return localStorage.getItem(key)
