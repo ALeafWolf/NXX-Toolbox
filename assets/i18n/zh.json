@@ -12,7 +12,7 @@
         "OTHER": "其他"
     },
     "FOOTER": {
-        "CLAIM": "此网站仅为个人学习娱乐用途",
+        "CLAIM": "此网站仅为个人学习娱乐用",
         "COPYRIGHT": "素材和内容所有权归米哈游的<a href='https://wd.mihoyo.com/' target='_blank'>未定事件簿</a>"
     },
     "HOME": {
@@ -40,6 +40,7 @@
         "CHARACTER": "角色",
         "RARITY": "稀有度",
         "TYPE": "属性",
+        "EXP": "经验",
         "OBTAINED-FROM": "获取方式",
         "FUNCTION": "功能",
         "SKILL-SLOT": "技能槽",
@@ -84,5 +85,10 @@
         "SKILL-DESCRIPTION": "技能描述",
         "SKILL-LEVEL": "技能等级",
         "RELATED-CARD": "相关思绪"
+    },
+    "RSS-CALCULATOR": {
+        "EVOLVE-RSS": "思绪进化材料",
+        "SKILL-LV-RSS": "技能升级材料",
+        "CLAIM": "计算器数值仅供参考，一切以游戏内数值为主"
     }
 }
