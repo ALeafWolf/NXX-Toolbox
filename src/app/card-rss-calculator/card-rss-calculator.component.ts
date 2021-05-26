@@ -25,6 +25,7 @@ export class CardRssCalculatorComponent implements OnInit {
   expChipValues;
   expChipNames;
   expChipCost;
+  expChipCoin = 0;
   fullRarityExp;
   rarityExp;
 
@@ -206,8 +207,10 @@ export class CardRssCalculatorComponent implements OnInit {
   calculateExpChips(){
     // console.log(`Divide: ${this.exp/this.expChipValues[3]}\nreminder:${this.exp%this.expChipValues[3]}`)
     let reminder = this.exp;
+    this.expChipCoin = 0
     for(let i = 3; i >= 0; i--){
       this.expChips[i] = Math.floor(reminder/this.expChipValues[i])
+      this.expChipCoin += this.expChips[i] * this.expChipCost[i]
       reminder = reminder%this.expChipValues[i]
     }
   }
