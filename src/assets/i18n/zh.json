@@ -89,6 +89,8 @@
     "RSS-CALCULATOR": {
         "EVOLVE-RSS": "思绪进化材料",
         "SKILL-LV-RSS": "技能升级材料",
-        "CLAIM": "计算器数值仅供参考，一切以游戏内数值为主"
+        "CLAIM": "计算器数值仅供参考，一切以游戏内数值为主",
+        "BASIC": "基础",
+        "ADVANCED": "高级"
     }
 }

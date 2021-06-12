@@ -27,49 +27,10 @@
             </div>
             <img class="img-fluid" src="{{'assets/images/' + card.character + '/' + card.id + '-full.webp'}}">
         </div> 
-        <!-- <table class="col-10 col-md-7 col-lg-4 table table-sm table-dark text-center smallFont" style="color: white;">
-            <tr>
-                <th colspan="3">技能升级材料消耗</th>
-            </tr>
-            <tr>
-                <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
-                <td colspan="2">{{coin}}</td>
-            </tr>
-            <tr>
-                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象I.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[0] + '.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[1] + '.png'}}"></td>
-            </tr>
-            <tr>
-                <td>{{rss[0]}}</td>
-                <td>{{rss[1]}}</td>
-                <td>{{rss[1]}}</td>
-            </tr>
-            <tr>
-                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象II.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[2] + '.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[3] + '.png'}}"></td>
-            </tr>
-            <tr>
-                <td>{{rss[2]}}</td>
-                <td>{{rss[3]}}</td>
-                <td>{{rss[3]}}</td>
-            </tr>
-            <tr>
-                <td><img class="icon" src="{{'assets/images/材料/' + card.type + '印象III.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[4] + '.png'}}"></td>
-                <td><img class="icon" src="{{'assets/images/材料/' + charRssGroup[5] + '.png'}}"></td>
-            </tr>
-            <tr>
-                <td>{{rss[4]}}</td>
-                <td>{{rss[5]}}</td>
-                <td>{{rss[5]}}</td>
-            </tr>
-        </table> -->
     </div>
 
     <div class="col-7 col-md-6 row justify-content-around text-center">
-        <table class="col-12 col-lg-4 table table-sm table-dark text-center" style="color: white;">
+        <table class="col-12 col-lg-4 table table-sm table-dark text-center gridItem" style="color: white;">
             <tr>
                 <th>{{'KEYWORD.RARITY' | translate}}</th>
                 <td>{{card.rarity}}</td>
@@ -113,7 +74,7 @@
                 </td>
             </tr>
         </table>
-        <table class="col-12 col-lg-6 table table-sm table-dark text-center" style="color: white;">
+        <table class="col-12 col-lg-6 table table-sm table-dark text-center gridItem" style="color: white;">
             <thead>
                 <tr>
                     <th colspan="3">

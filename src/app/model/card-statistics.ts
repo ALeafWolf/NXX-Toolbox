@@ -80,9 +80,6 @@ export class CardInfo {
 
         return Math.round(p);
     }
-
-
-
 }
 
 export class ExpChipInfo {

@@ -42,7 +42,7 @@
     {
         "startDate": "2020-09-19",
         "endDate": "2020-09-30",
-        "type": "活动（限定）",
+        "type": "活动",
         "server": "CN",
         "cards": ["舞夜流光"],
         "bid": "JkJ9yAIdW"
@@ -108,7 +108,7 @@
     {
         "startDate": "2020-11-27",
         "endDate": "2020-12-08",
-        "type": "活动（限定）",
+        "type": "活动",
         "server": "CN",
         "cards": ["温馥予怀"],
         "bid": "JvOEc6chC"
@@ -224,7 +224,7 @@
     {
         "startDate": "2021-04-18",
         "endDate": "2021-04-29",
-        "type": "活动（限定）",
+        "type": "活动",
         "server": "CN",
         "cards": ["两心无间"],
         "bid": "Kb97yCuhf"
@@ -270,5 +270,21 @@
         "server": "CN",
         "cards": ["最佳拍档", "冤家路窄", "暇光一隅", "虚妄之泪"],
         "bid": "Kgjyp3udq"
+    },
+    {
+        "startDate": "2021-06-04",
+        "endDate": "2021-06-18",
+        "type": "轮替",
+        "server": "CN",
+        "cards": ["心跳记忆", "危情邀约", "完美营救", "弦外之音"],
+        "bid": "KirAjtnYk"
+    },
+    {
+        "startDate": "2021-06-13",
+        "endDate": "2021-06-24",
+        "type": "活动",
+        "server": "CN",
+        "cards": ["荣光加冕"],
+        "bid": "KjvCZtqY7"
     }
 ]

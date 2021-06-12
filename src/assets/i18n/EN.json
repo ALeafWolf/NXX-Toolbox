@@ -89,6 +89,8 @@
     "RSS-CALCULATOR": {
         "EVOLVE-RSS": "Card Evolve Resource",
         "SKILL-LV-RSS": "Skill Leveling Resource",
-        "CLAIM": "Results of this calculator is for referencing only"
+        "CLAIM": "Results of this calculator is for referencing only",
+        "BASIC": "Basic",
+        "ADVANCED": "Advanced"
     }
 }

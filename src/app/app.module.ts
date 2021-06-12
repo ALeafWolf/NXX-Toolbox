@@ -24,8 +24,10 @@ import { CardListComponent } from './card-list/card-list.component';
 import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
+
 import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
+import { MatTabsModule } from '@angular/material/tabs';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -57,6 +59,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     BrowserAnimationsModule,
     MatIconModule,
     MatRadioModule,
+    MatTabsModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

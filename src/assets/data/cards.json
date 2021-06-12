@@ -628,6 +628,25 @@
         ]
     },
     {
+        "id": "荣光加冕",
+        "name": "荣光加冕",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "？？？ Ⅲ",
+            "？？？ Ⅲ",
+            "？？？ Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "碧蓝之间",
         "name": "碧蓝之间",
         "nameEN": "Among the Great Blue",

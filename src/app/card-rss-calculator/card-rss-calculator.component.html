@@ -6,7 +6,7 @@
 
 <div class="row justify-content-center">
     <div class="row col-12 text-center mt-2 justify-content-center">
-        <div class="row col-10 col-md-5 justify-content-center">
+        <div class="row col-10 col-md-5 mb-3 justify-content-center">
             <table class="col-10 table table-sm table-stripped table-dark">
                 <tr>
                     <th colspan="4">{{'KEYWORD.CARD' | translate}}</th>
@@ -107,35 +107,62 @@
                     </td>
                 </tr>
             </table>
-            <table class="col-10 table table-sm table-stripped table-dark">
-                <tr>
-                    <th colspan="4">
-                        {{'KEYWORD.EXP' | translate}}
-                    </th>
-                </tr>
-                <tr>
-                    <th colspan="4">
-                        {{exp}}
-                    </th>
-                </tr>
-                <tr>
-                    <td *ngFor="let name of expChipNames">
-                        <img class="img-fluid icon" src="{{'assets/images/材料/' + name + '.webp'}}" alt="{{name}}">
-                    </td>
-                </tr>
-                <tr>
-                    <td *ngFor="let c of expChips">{{c}}</td>
-                </tr>
-            </table>
+            <div class="col-10 bg-dark gridItem">
+                <mat-tab-group mat-align-tabs="center">
+                    <mat-tab label="{{'RSS-CALCULATOR.BASIC' | translate}}">
+                        <table class="table table-sm table-stripped table-dark">
+                            <tr>
+                                <th colspan="2">
+                                    {{'KEYWORD.EXP' | translate}}
+                                </th>
+                                <th colspan="2">
+                                    <img class="icon" src="assets/images/btn_coin_s.png">
+                                </th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    {{exp}}
+                                </td>
+                                <td colspan="2">
+                                    {{expChipCoin}}
+                                </td>
+                            </tr>
+                        </table>
+                    </mat-tab>
+                    <mat-tab label="{{'RSS-CALCULATOR.ADVANCED' | translate}}">
+                        <table class="table table-sm table-stripped table-dark">
+                            <tr>
+                                <th colspan="4">
+                                    {{'KEYWORD.EXP' | translate}}
+                                </th>
+                            </tr>
+                            <tr>
+                                <th colspan="4">
+                                    {{exp}}
+                                </th>
+                            </tr>
+                            <tr>
+                                <td *ngFor="let name of expChipNames">
+                                    <img class="img-fluid icon" src="{{'assets/images/材料/' + name + '.webp'}}"
+                                        alt="{{name}}">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td *ngFor="let c of expChips">{{c}}</td>
+                            </tr>
+                        </table>
+                    </mat-tab>
+                </mat-tab-group>
+            </div>
         </div>
         <div class="row col-10 col-md-5 justify-content-center">
             <table class="col-10 table table-sm table-dark text-center">
                 <tr>
-                    <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
-                    <td colspan="2">{{skillCoin + lvCoin + expChipCoin}}</td>
+                    <th colspan="3">{{'RSS-CALCULATOR.EVOLVE-RSS' | translate}}</th>
                 </tr>
                 <tr>
-                    <th colspan="3">{{'RSS-CALCULATOR.EVOLVE-RSS' | translate}}</th>
+                    <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
+                    <td colspan="2">{{lvCoin}}</td>
                 </tr>
                 <tr>
                     <td>
@@ -169,8 +196,14 @@
                     <td *ngFor="let t of typeChips">{{t}}</td>
 
                 </tr>
+            </table>
+            <table class="col-10 table table-sm table-dark text-center">
                 <tr>
                     <th colspan="3">{{'RSS-CALCULATOR.SKILL-LV-RSS' | translate}}</th>
+                </tr>
+                <tr>
+                    <td><img class="icon" src="assets/images/btn_coin_s.png"></td>
+                    <td colspan="2">{{skillCoin}}</td>
                 </tr>
                 <tr>
                     <td><img class="icon" src="{{'assets/images/材料/' + type + '印象 Ⅰ.webp'}}" alt="{{type + '印象 Ⅰ'}}">
