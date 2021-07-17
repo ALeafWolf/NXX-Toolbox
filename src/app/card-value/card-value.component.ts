@@ -4,6 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../services/data/data.service';
 import { SEOService } from '../services/seo/seo.service';
 import { SkillInfo, CardInfo } from '../model/card-statistics';
+import { GlobalVariable } from '../global-variable';
 
 @Component({
   selector: 'app-card-value',
@@ -39,6 +40,8 @@ export class CardValueComponent implements OnInit {
   power = 0;
 
   isLoaded = false;
+  
+  imgURL = GlobalVariable.imgURL;
 
   constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) { }
 

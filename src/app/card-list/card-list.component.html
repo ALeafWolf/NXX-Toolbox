@@ -80,7 +80,7 @@
                     <td>
                         <a [routerLink]="['/card-value/', c.char, c.n]" routerLinkActive="active" target="_blank">
                             <img class="img-fluid cardIcon"
-                                src="{{'assets/images/' + c.character + '/' + c.id + '.webp'}}">
+                                src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
                         </a>
                     </td>
                     <td>
@@ -95,7 +95,7 @@
                     <td>
                         <span *ngFor="let s of c.skills">
                             <a [routerLink]="['/skill', s]" routerLinkActive="active" target="_blank">
-                                <img class="img-fluid icon" src="{{'assets/images/技能/' + removePostfix(s) + '.webp'}}">
+                                <img class="img-fluid icon" src="{{imgURL + '技能/' + removePostfix(s) + '.webp'}}">
                             </a>
                         </span>
                     </td>

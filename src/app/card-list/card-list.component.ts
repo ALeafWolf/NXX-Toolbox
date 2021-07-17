@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
+import { GlobalVariable } from '../global-variable';
 
 @Component({
   selector: 'app-card-list',
@@ -13,6 +14,7 @@ export class CardListComponent implements OnInit {
   cards: any[];
   filterConditions = ["All", "All", "All", "All"];
   isLoaded = false;
+  imgURL = GlobalVariable.imgURL;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()

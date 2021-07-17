@@ -25,7 +25,7 @@
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
                 <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
-            <img class="img-fluid" src="{{'assets/images/' + card.character + '/' + card.id + '-full.webp'}}">
+            <img class="img-fluid" src="{{imgURL + card.character + '/' + card.id + '-full.webp'}}">
         </div> 
     </div>
 
@@ -81,7 +81,7 @@
                     <td rowspan="2">
                         <a [routerLink]="['/skill', s.n]" target="_blank">
                             <img class="icon"
-                                src="{{'assets/images/技能/' + s.id + '.webp'}}">
+                                src="{{imgURL + '技能/' + s.id + '.webp'}}">
                         </a>
                     </td>
                     <td colspan="2">

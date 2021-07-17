@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SEOService } from '../services/seo/seo.service';
 import { DataService } from '../services/data/data.service';
+import { GlobalVariable } from '../global-variable';
 
 @Component({
   selector: 'app-skill-detail',
@@ -17,6 +18,8 @@ export class SkillDetailComponent implements OnInit {
   skillDes;
   skillStatistic;
   cards;
+  
+  imgURL = GlobalVariable.imgURL;
 
   constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
     this.name = this._route.snapshot.params.name;

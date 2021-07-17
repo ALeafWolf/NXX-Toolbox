@@ -1,5 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
+import { GlobalVariable } from '../global-variable';
 
 @Component({
   selector: 'app-card-selection',
@@ -12,6 +13,7 @@ export class CardSelectionComponent implements OnInit {
   cards: any[];
   filterConditions = ["All", "All", "All"];
   isLoaded = false;
+  imgURL = GlobalVariable.imgURL;
 
   userData;
 

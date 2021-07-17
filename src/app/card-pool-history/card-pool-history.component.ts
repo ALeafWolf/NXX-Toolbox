@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { DataService } from '../services/data/data.service';
+import { GlobalVariable } from '../global-variable';
 
 export type SortColumn = '';
 export type SortDirection = 'asc' | 'desc' | '';
@@ -22,6 +23,8 @@ export class CardPoolHistoryComponent implements OnInit {
   pools;
   cards;
   isLoaded = false;
+  
+  imgURL = GlobalVariable.imgURL;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
