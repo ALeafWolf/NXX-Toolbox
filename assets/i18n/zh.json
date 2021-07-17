@@ -79,7 +79,9 @@
         "END-DATE": "结束日期",
         "POOL-TYPE": "卡池种类",
         "RATE-UP-CARD": "UP思绪",
-        "ANNOUNCEMENT": "相关公告"
+        "ANNOUNCEMENT": "相关公告",
+        "CN-SERVER": "国服/陆服",
+        "GLOBAL-SERVER": "国际服"
     },
     "SKILL-DETAIL": {
         "SKILL-DESCRIPTION": "技能描述",
@@ -87,8 +89,14 @@
         "RELATED-CARD": "相关思绪"
     },
     "RSS-CALCULATOR": {
+        "LV-RSS": "思绪升级材料",
         "EVOLVE-RSS": "思绪进化材料",
         "SKILL-LV-RSS": "技能升级材料",
-        "CLAIM": "计算器数值仅供参考，一切以游戏内数值为主"
+        "CLAIM": "计算器数值仅供参考，一切以游戏内数值为主",
+        "BASIC": "基础",
+        "ADVANCED": "高级",
+        "ESTIMATED": "预估",
+        "ACTUAL": "实际",
+        "EXP-CHIP": "法理之谕"
     }
 }

@@ -157,6 +157,25 @@
         ]
     },
     {
+        "id": "夜落星河",
+        "name": "夜落星河",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "真相还原 Ⅲ",
+            "滴水不漏 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 955,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "心跳记忆",
         "name": "心跳记忆",
         "nameEN": "Loving Memories",
@@ -311,6 +330,25 @@
         "obtainedFrom": [
             "活动",
             "轮替"
+        ]
+    },
+    {
+        "id": "相思情长",
+        "name": "相思情长",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "律法全能 Ⅲ",
+            "排比增势 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "活动（限定）"
         ]
     },
     {
@@ -471,6 +509,25 @@
         ]
     },
     {
+        "id": "不渝",
+        "name": "不渝",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "SSR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "盛装舞步 Ⅲ",
+            "攻势化解 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "冤家路窄",
         "name": "冤家路窄",
         "nameEN": "Narrow Road",
@@ -625,6 +682,44 @@
         "obtainedFrom": [
             "活动",
             "轮替"
+        ]
+    },
+    {
+        "id": "荣光加冕",
+        "name": "荣光加冕",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "循循善诱α Ⅲ",
+            "艺术天赋 Ⅲ",
+            "执行总裁 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "意笔明心",
+        "name": "意笔明心",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "SSR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "年少锋锐 Ⅲ",
+            "滴水不漏 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "活动（限定）"
         ]
     },
     {
@@ -1435,6 +1530,25 @@
         ]
     },
     {
+        "id": "舒展",
+        "name": "舒展",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "MR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入β Ⅱ",
+            "律法全能 Ⅱ",
+            "排比增势 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "贴心服务",
         "name": "贴心服务",
         "nameEN": "Personal Server",
@@ -1672,6 +1786,24 @@
         ],
         "influence": 879,
         "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "羞赧",
+        "name": "羞赧",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "引申归谬β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 905,
+        "defense": 389,
         "obtainedFrom": [
             "活动（限定）"
         ]
@@ -1919,6 +2051,24 @@
         ]
     },
     {
+        "id": "侧目",
+        "name": "侧目",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "R",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "洞察秋毫γ Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "优雅",
         "name": "优雅",
         "nameEN": "Elegance",
@@ -2161,6 +2311,24 @@
         ]
     },
     {
+        "id": "笑意盎然",
+        "name": "笑意盎然",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "循循善诱β Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "插曲",
         "name": "插曲",
         "nameEN": "Interlude",
@@ -2380,6 +2548,42 @@
         ],
         "influence": 879,
         "defense": 480,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "展颜",
+        "name": "展颜",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "循循善诱α Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 837,
+        "defense": 457,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "迟疑",
+        "name": "迟疑",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "R",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "设问否定γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "活动（限定）"
         ]

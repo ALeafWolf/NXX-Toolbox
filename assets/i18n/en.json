@@ -39,7 +39,7 @@
         "CARD": "Card",
         "CHARACTER": "Character",
         "RARITY": "Rarity",
-        "TYPE": "Type",
+        "TYPE": "Attribute",
         "EXP": "EXP",
         "OBTAINED-FROM": "Obtained From",
         "FUNCTION": "Function",
@@ -79,7 +79,9 @@
         "END-DATE": "End Date",
         "POOL-TYPE": "Pool Type",
         "RATE-UP-CARD": "Rate Up Card",
-        "ANNOUNCEMENT": "Announcement"
+        "ANNOUNCEMENT": "Announcement",
+        "CN-SERVER": "Chinese Mainland Server",
+        "GLOBAL-SERVER": "Global Server"
     },
     "SKILL-DETAIL": {
         "SKILL-DESCRIPTION": "Skill Description",
@@ -87,8 +89,14 @@
         "RELATED-CARD": "Related Card(s)"
     },
     "RSS-CALCULATOR": {
+        "LV-RSS": "Card Leveling Resource",
         "EVOLVE-RSS": "Card Evolve Resource",
         "SKILL-LV-RSS": "Skill Leveling Resource",
-        "CLAIM": "Results of this calculator is for referencing only"
+        "CLAIM": "Results of this calculator is for referencing only",
+        "BASIC": "Basic",
+        "ADVANCED": "Advanced",
+        "ESTIMATED": "Estimated",
+        "ACTUAL": "Actual",
+        "EXP-CHIP": "EXP Chips"
     }
 }
