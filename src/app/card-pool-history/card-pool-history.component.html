@@ -7,39 +7,68 @@
     </div>
 </div>
 <div class="row justify-content-center p-2">
-    <div class="col-12 col-md-10 my-2">
-        <table class="table table-sm table-dark text-center">
-            <thead>
-                <tr>
-                    <th scope="col" sortable="startDate" (sort)="onSort($event)">{{'VISION-HISTORY.START-DATE' | translate}}</th>
-                    <th scope="col" sortable="endDate" (sort)="onSort($event)">{{'VISION-HISTORY.END-DATE' | translate}}</th>
-                    <th scope="col" sortable="type" (sort)="onSort($event)">{{'VISION-HISTORY.POOL-TYPE' | translate}}</th>
-                    <th scope="col">{{'VISION-HISTORY.RATE-UP-CARD' | translate}}</th>
-                    <th scope="col">{{'VISION-HISTORY.ANNOUNCEMENT' | translate}}</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr class="smallFont" *ngFor="let p of pools">
-                    <td>{{p.startDate}}</td>
-                    <td>{{p.endDate}}</td>
-                    <td>{{p.type}}</td>
-                    <td>
-                        <span *ngFor="let c of p.cards">
-                            <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
-                                <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
-                            </a>
-                        </span>
-                    </td>
-                    <td>
-                        <a *ngIf="p.bid" href="{{'https://www.weibo.com/7072153506/' + p.bid}}" target="_blank">
-                            <img class="img-fluid" style="width: 24px;" src="assets/images/weibo.png">
-                        </a>
-                        <a *ngIf="p.bv" href="{{'https://www.bilibili.com/video/' + p.bv}}" target="_blank">
-                            <img class="img-fluid" style="width: 24px;" src="assets/images/bilibili.png">
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <div class="col-12 col-md-10 my-2 bg-dark">
+        <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+            <mat-tab label="{{'VISION-HISTORY.CN-SERVER' | translate}}">
+                <table class="table table-sm table-dark text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col" sortable="startDate" (sort)="onSort($event)">{{'VISION-HISTORY.START-DATE' |
+                                translate}}</th>
+                            <th scope="col" sortable="endDate" (sort)="onSort($event)">{{'VISION-HISTORY.END-DATE' |
+                                translate}}</th>
+                            <th scope="col" sortable="type" (sort)="onSort($event)">{{'VISION-HISTORY.POOL-TYPE' |
+                                translate}}</th>
+                            <th scope="col">{{'VISION-HISTORY.RATE-UP-CARD' | translate}}</th>
+                            <th scope="col">{{'VISION-HISTORY.ANNOUNCEMENT' | translate}}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="smallFont" *ngFor="let p of pools">
+                            <td>{{p.startDate}}</td>
+                            <td>{{p.endDate}}</td>
+                            <td>{{p.type}}</td>
+                            <td>
+                                <span *ngFor="let c of p.cards">
+                                    <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
+                                        <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
+                                    </a>
+                                </span>
+                            </td>
+                            <td>
+                                <a *ngIf="p.bid" href="{{'https://www.weibo.com/7072153506/' + p.bid}}" target="_blank">
+                                    <img class="img-fluid" style="width: 24px;" src="assets/images/weibo.png">
+                                </a>
+                                <a *ngIf="p.bv" href="{{'https://www.bilibili.com/video/' + p.bv}}" target="_blank">
+                                    <img class="img-fluid" style="width: 24px;" src="assets/images/bilibili.png">
+                                </a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </mat-tab>
+            <mat-tab label="{{'VISION-HISTORY.GLOBAL-SERVER' | translate}}">
+                <table class="table table-sm table-dark text-center">
+                    <thead>
+                        <tr>
+                            <th scope="col" sortable="startDate" (sort)="onSort($event)">{{'VISION-HISTORY.START-DATE' |
+                                translate}}</th>
+                            <th scope="col" sortable="endDate" (sort)="onSort($event)">{{'VISION-HISTORY.END-DATE' |
+                                translate}}</th>
+                            <th scope="col" sortable="type" (sort)="onSort($event)">{{'VISION-HISTORY.POOL-TYPE' |
+                                translate}}</th>
+                            <th scope="col">{{'VISION-HISTORY.RATE-UP-CARD' | translate}}</th>
+                            <th scope="col">{{'VISION-HISTORY.ANNOUNCEMENT' | translate}}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th colspan="5">TBA</th>
+                        </tr>
+                    </tbody>
+                </table>
+            </mat-tab>
+        </mat-tab-group>
+
     </div>
 </div>

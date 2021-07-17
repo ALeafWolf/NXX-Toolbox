@@ -1031,6 +1031,19 @@
         "slot": 2
     },
     {
+        "id": "艺术天赋",
+        "name": "艺术天赋 Ⅲ",
+        "nameEN": "",
+        "character": "陆景和",
+        "type": "通用",
+        "rarity": "SSR",
+        "description": "主战思绪中每有一张陆景和的思绪，该思绪的基础说服力增加X%",
+        "descriptionEN": "Boosts this card's base Influence by X% for every Marius card in the Primary Deck",
+        "nums": [1.6, 7.99],
+        "function": "influence up",
+        "slot": 2
+    },
+    {
         "id": "纵横捭阖",
         "name": "纵横捭阖 Ⅱ",
         "nameEN": "Skilled Diplomat Ⅱ",

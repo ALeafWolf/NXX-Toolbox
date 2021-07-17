@@ -6,8 +6,8 @@
 
 <div class="row justify-content-center">
     <div class="row col-12 text-center mt-2 justify-content-center">
-        <div class="row col-10 col-md-5 mb-3 justify-content-center">
-            <table class="col-10 table table-sm table-stripped table-dark">
+        <div class="row col-12 col-sm-10 col-md-6 mb-3 justify-content-center">
+            <table class="col-11 table table-sm table-stripped table-dark">
                 <tr>
                     <th colspan="4">{{'KEYWORD.CARD' | translate}}</th>
                 </tr>
@@ -64,7 +64,7 @@
                         {{'KEYWORD.SKILL' | translate}}
                     </th>
                     <td>
-                        <select [(ngModel)]="skillA" (ngModelChange)="setSkillRss()">
+                        <select class="form-control" [(ngModel)]="skillA" (ngModelChange)="setSkillRss()">
                             <option value=1>1</option>
                             <option value=2>2</option>
                             <option value=3>3</option>
@@ -78,7 +78,7 @@
                         </select>
                     </td>
                     <td>
-                        <select [(ngModel)]="skillB" (ngModelChange)="setSkillRss()">
+                        <select class="form-control" [(ngModel)]="skillB" (ngModelChange)="setSkillRss()">
                             <option value=1>1</option>
                             <option value=2>2</option>
                             <option value=3>3</option>
@@ -92,7 +92,7 @@
                         </select>
                     </td>
                     <td>
-                        <select [(ngModel)]="skillC" (ngModelChange)="setSkillRss()">
+                        <select class="form-control" [(ngModel)]="skillC" (ngModelChange)="setSkillRss()">
                             <option value=1>1</option>
                             <option value=2>2</option>
                             <option value=3>3</option>
@@ -107,56 +107,88 @@
                     </td>
                 </tr>
             </table>
-            <div class="col-10 bg-dark gridItem">
-                <mat-tab-group mat-align-tabs="center">
-                    <mat-tab label="{{'RSS-CALCULATOR.BASIC' | translate}}">
-                        <table class="table table-sm table-stripped table-dark">
-                            <tr>
-                                <th colspan="2">
-                                    {{'KEYWORD.EXP' | translate}}
-                                </th>
-                                <th colspan="2">
-                                    <img class="icon" src="assets/images/btn_coin_s.png">
-                                </th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">
-                                    {{exp}}
-                                </td>
-                                <td colspan="2">
-                                    {{expChipCoin}}
-                                </td>
-                            </tr>
-                        </table>
-                    </mat-tab>
-                    <mat-tab label="{{'RSS-CALCULATOR.ADVANCED' | translate}}">
-                        <table class="table table-sm table-stripped table-dark">
-                            <tr>
-                                <th colspan="4">
-                                    {{'KEYWORD.EXP' | translate}}
-                                </th>
-                            </tr>
-                            <tr>
-                                <th colspan="4">
-                                    {{exp}}
-                                </th>
-                            </tr>
-                            <tr>
-                                <td *ngFor="let name of expChipNames">
-                                    <img class="img-fluid icon" src="{{'assets/images/材料/' + name + '.webp'}}"
-                                        alt="{{name}}">
-                                </td>
-                            </tr>
-                            <tr>
-                                <td *ngFor="let c of expChips">{{c}}</td>
-                            </tr>
-                        </table>
-                    </mat-tab>
-                </mat-tab-group>
+            <div class="row col-12 gridItem justify-content-around">
+                <table class="col-11 col-xl-5 table table-sm table-stripped table-dark">
+                    <tr>
+                        <th colspan="4">
+                            {{'RSS-CALCULATOR.LV-RSS' | translate}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            {{'RSS-CALCULATOR.ESTIMATED' | translate}}
+                        </th>
+                        <th colspan="2">
+                            {{'RSS-CALCULATOR.ACTUAL' | translate}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{'KEYWORD.EXP' | translate}}
+                        </td>
+                        <td>
+                            <img class="icon" src="assets/images/btn_coin_s.png">
+                        </td>
+                        <td>
+                            {{'KEYWORD.EXP' | translate}}
+                        </td>
+                        <td>
+                            <img class="icon" src="assets/images/btn_coin_s.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{requiredExp}}
+                        </td>
+                        <td>
+                            {{requiredExpChipCoin}}
+                        </td>
+                        <td>
+                            {{actualExp}}
+                        </td>
+                        <td>
+                            {{actualExpChipCoin}}
+                        </td>
+                    </tr>
+                </table>
+                <table class="col-11 col-xl-5 table table-sm table-stripped table-dark">
+                    <tr>
+                        <th colspan="4">
+                            {{'RSS-CALCULATOR.EXP-CHIP' | translate}}
+                        </th>
+                    </tr>
+                    <tr>
+                        <td *ngFor="let name of expChipNames">
+                            <img class="img-fluid icon" src="{{'assets/images/材料/' + name + '.webp'}}" alt="{{name}}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td *ngFor="let c of usedExpChips">{{c}}</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999"
+                                [(ngModel)]="presetExpChips[0]" (ngModelChange)="calculateExpChips()">
+                        </td>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999"
+                                [(ngModel)]="presetExpChips[1]" (ngModelChange)="calculateExpChips()">
+                        </td>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999"
+                                [(ngModel)]="presetExpChips[2]" (ngModelChange)="calculateExpChips()">
+                        </td>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999"
+                                [(ngModel)]="presetExpChips[3]" (ngModelChange)="calculateExpChips()">
+                        </td>
+                    </tr>
+                </table>
             </div>
         </div>
-        <div class="row col-10 col-md-5 justify-content-center">
-            <table class="col-10 table table-sm table-dark text-center">
+
+        <div class="row col-12 col-sm-10 col-md-5 justify-content-around">
+            <table class="col-5 col-md-10 table table-sm table-dark text-center">
                 <tr>
                     <th colspan="3">{{'RSS-CALCULATOR.EVOLVE-RSS' | translate}}</th>
                 </tr>
@@ -197,7 +229,7 @@
 
                 </tr>
             </table>
-            <table class="col-10 table table-sm table-dark text-center">
+            <table class="col-5 col-md-10 table table-sm table-dark text-center">
                 <tr>
                     <th colspan="3">{{'RSS-CALCULATOR.SKILL-LV-RSS' | translate}}</th>
                 </tr>
@@ -246,5 +278,6 @@
                 </tr>
             </table>
         </div>
+
     </div>
 </div>

@@ -286,5 +286,46 @@
         "server": "CN",
         "cards": ["荣光加冕"],
         "bid": "KjvCZtqY7"
+    },
+    {
+        "startDate": "2021-06-18",
+        "endDate": "2021-07-02",
+        "type": "轮替",
+        "server": "CN",
+        "cards": ["微醺视线", "醉意入怀", "指尖温度", "童心攻势"],
+        "bid": "Kkzw7tvC5"
+    },
+    {
+        "startDate": "2021-07-02",
+        "endDate": "2021-07-16",
+        "type": "轮替",
+        "server": "CN",
+        "cards": ["咫尺远近", "终夜明辉", "碧蓝之间", "秋叶寄梦"],
+        "bid": "Kkzw7tvC5"
+    },
+    {
+        "startDate": "2021-07-05",
+        "endDate": "2021-07-17",
+        "type": "活动",
+        "server": "CN",
+        "cards": ["最佳拍档", "微醺视线", "心跳记忆", "醉意入怀", "咫尺远近", "危情邀约", "冤家路窄", "眸中景"],
+        "bid": "KnsTUB3LM"
+    },
+    {
+        "startDate": "2021-07-15",
+        "endDate": "2021-08-12",
+        "type": "活动（限定）",
+        "server": "CN",
+        "cards": ["夜落星河", "相思情长", "不渝", "意笔明心"],
+        "bid": "KoAykpdXP",
+        "bv":"BV1Bw411d7fx"
+    },
+    {
+        "startDate": "2021-07-16",
+        "endDate": "2021-07-30",
+        "type": "轮替",
+        "server": "CN",
+        "cards": ["最佳拍档", "眸中景", "冷暖心知", "松雪童话"],
+        "bid": "KoPhSlkpU"
     }
 ]

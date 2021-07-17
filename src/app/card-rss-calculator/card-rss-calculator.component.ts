@@ -17,15 +17,18 @@ export class CardRssCalculatorComponent implements OnInit {
   prevLv = 1
   minLv = 1
   maxLv = 70
-  charChips = [0, 0, 0]
-  typeChips = [0, 0, 0]
+  
 
-  exp = 0
-  expChips = [0, 0, 0, 0]
+  requiredExp = 0;
+  presetExpChips = [100, 200, 100, 50];
+  usedExpChips = [0, 0, 0, 0];
+  actualExp = 0;
+  expChips = [0, 0, 0, 0];
   expChipValues;
   expChipNames;
   expChipCost;
-  expChipCoin = 0;
+  requiredExpChipCoin = 0;
+  actualExpChipCoin = 0;
   fullRarityExp;
   rarityExp;
 
@@ -37,6 +40,8 @@ export class CardRssCalculatorComponent implements OnInit {
   fullSkillRssList;
   skillRssList;
 
+  charChips = [0, 0, 0]
+  typeChips = [0, 0, 0]
   allEvolveRss;
   evolveRss;
   lvCoin = 0;
@@ -128,7 +133,7 @@ export class CardRssCalculatorComponent implements OnInit {
   }
 
   setRarity() {
-    //get evolve rss and exp based on rarity
+    //get evolve rss and EXP based on rarity
     this.getEvolveRss()
     this.getExpOnRarity()
     //set propority of input range based on rarity
@@ -197,20 +202,19 @@ export class CardRssCalculatorComponent implements OnInit {
   }
 
   calculateExp() {
-    this.exp = 0
+    this.requiredExp = 0
     for(let i = 0; i < this.lv-1; i++){
-      this.exp += this.rarityExp[i]
+      this.requiredExp += this.rarityExp[i]
     }
     this.calculateExpChips()
   }
 
   calculateExpChips(){
-    // console.log(`Divide: ${this.exp/this.expChipValues[3]}\nreminder:${this.exp%this.expChipValues[3]}`)
-    let reminder = this.exp;
-    this.expChipCoin = 0
+    let reminder = this.requiredExp;
+    this.requiredExpChipCoin = 0
     for(let i = 3; i >= 0; i--){
       this.expChips[i] = Math.floor(reminder/this.expChipValues[i])
-      this.expChipCoin += this.expChips[i] * this.expChipCost[i]
+      this.requiredExpChipCoin += this.expChips[i] * this.expChipCost[i]
       reminder = reminder%this.expChipValues[i]
     }
   }
