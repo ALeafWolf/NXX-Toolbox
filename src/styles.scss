@@ -47,12 +47,18 @@ $nxx-toolbox-theme: mat-dark-theme((
 #main-container {
     width: 100%;
     height: 100%;
+    color: white;
+    background-color: #f1f2f8;
+    padding-bottom: 4.5em;
+}
+
+#content-container{
     background-image: url("assets/images/bg.webp");
     background-size: 100%;
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-attachment: scroll;
-    color: white;
+    min-height: 585px;
 }
 
 //nav bar
@@ -65,18 +71,19 @@ $nxx-toolbox-theme: mat-dark-theme((
     width: auto;
 }
 
+//footer
 #site-footer{
     color: white;
     position: absolute;
     bottom: 0;
-    height: 10%;
-    width: 100vw;
+    height: 4.5em;
+    width: 100%;
+    padding: 1em;
 }
 
-.grid-item {
-    height: max-content;
-}
 
+
+//to top button at page with list of items
 #toTopButton {
     display: none; 
     position: fixed; 
@@ -89,18 +96,20 @@ $nxx-toolbox-theme: mat-dark-theme((
     border-radius: 10px;
     opacity: 0.75;
 }
-
 #topBtn{
     transform: rotate(90deg);
 }
 
+// /home
 #homeBase{
     max-height: 70%;
 }
-
 #home-scrollable{
     overflow-y: scroll;
     max-height: 25em;
+}
+.grid-item {
+    height: max-content;
 }
 
 img.icon {
