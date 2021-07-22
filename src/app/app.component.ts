@@ -12,7 +12,7 @@ declare let gtag: Function;
 })
 export class AppComponent {
 
-  lang
+  lang;
 
   constructor(public router: Router, private _seoService: SEOService, private _translateService: TranslateService) {
     this._translateService.addLangs(['zh', 'en']);

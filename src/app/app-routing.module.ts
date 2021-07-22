@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { HomeComponent } from './site-home/site-home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { CardCalculatorComponent } from './card-calculator/card-calculator.component';
@@ -12,6 +13,7 @@ import { CardListComponent } from './card-list/card-list.component';
 import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
+import { MerchListComponent } from './merch-list/merch-list.component';
 
 const routes: Routes = [
   {
@@ -57,6 +59,10 @@ const routes: Routes = [
   {
     path: 'card-rss-calculator',
     component: CardRssCalculatorComponent,
+  },
+  {
+    path: 'merch-list',
+    component: MerchListComponent,
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {

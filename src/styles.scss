@@ -41,21 +41,39 @@ $nxx-toolbox-theme: mat-dark-theme((
 
 #page-container {
     position: relative;
-    min-height: 90vh;
+    min-height: 100%;
 }
 
 #main-container {
-    min-height: 90vh;
+    width: 100%;
+    height: 100%;
     background-image: url("assets/images/bg.webp");
-    background-position: top left;
+    background-size: 100%;
+    background-position: 50% 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    padding-bottom: 4.5em;
+    background-attachment: scroll;
     color: white;
 }
 
-.gridItem {
+//nav bar
+#site-navbar{
+    height: 15%;
+}
+
+#navbar-img{
+    height: 40px;
+    width: auto;
+}
+
+#site-footer{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    height: 10%;
+    width: 100vw;
+}
+
+.grid-item {
     height: max-content;
 }
 
@@ -80,17 +98,9 @@ $nxx-toolbox-theme: mat-dark-theme((
     max-height: 70%;
 }
 
-#homeScrollable{
+#home-scrollable{
     overflow-y: scroll;
-    max-height: 500px;
-}
-
-footer {
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 4.5rem;
+    max-height: 25em;
 }
 
 img.icon {
@@ -126,12 +136,23 @@ li.dropdown > div.dropdown-menu > a.dropdown-item:hover {
     background-color: #343a40;
 }
 
+#language-form{
+    padding-left: 1em;
+}
+
+//for loading spinner
 .loader{
     z-index: 99;
     position: fixed; 
-    top: 50%;
-    left: 50%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

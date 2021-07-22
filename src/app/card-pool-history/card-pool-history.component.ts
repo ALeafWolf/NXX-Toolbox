@@ -44,7 +44,6 @@ export class CardPoolHistoryComponent implements OnInit {
   }
 
   getImgSrc(name: string) {
-    let pre = `assets/images/`
     let param = ""
     let post = ".webp"
     this.cards.forEach(c => {
@@ -52,7 +51,7 @@ export class CardPoolHistoryComponent implements OnInit {
         param = c.character + "/" + c.id
       }
     });
-    return pre + param + post
+    return GlobalVariable.imgURL + param + post
   }
 
   getRouterLink(name: string) {

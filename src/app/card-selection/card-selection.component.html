@@ -49,7 +49,7 @@
     <div class="col-12 row justify-content-around mt-4">
         <div class="col-3 col-md-2 my-1" *ngFor="let c of cards">
             <a [routerLink]="['/card-value-setting/', c.character, c.id]" routerLinkActive="active">
-                <img class="img-fluid" src="{{'assets/images/' + c.character + '/' + c.id + '.webp'}}">
+                <img class="img-fluid" src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
             </a>
         </div>
 </div>
