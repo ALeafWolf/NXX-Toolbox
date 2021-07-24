@@ -7,7 +7,8 @@
             "2020-08-10",
             "2020-11-04",
             "2020-12-17",
-            "2021-05-25"
+            "2021-05-25",
+            "2021-07-20"
         ]
     },
     {
@@ -37,11 +38,75 @@
         ]
     },
     {
+        "name": "心动纪念系列",
+        "type": "常驻",
+        "typeEN": "Permanent",
+        "sellTime": [
+            ""
+        ]
+    },
+    {
         "name": "燃动潮流夜系列",
         "type": "限时",
         "typeEN": "Limited time",
         "sellTime": [
             "2021-06-22 ~ 2021-07-05"
+        ]
+    },
+    {
+        "name": "雨意系列",
+        "type": "常驻",
+        "typeEN": "Permanent",
+        "sellTime": [
+            "2021-07-20"
+        ]
+    },
+    {
+        "name": "绯色盛典系列",
+        "type": "限时",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2021-07-20 ~ 2021-08-10"
+        ]
+    },
+    {
+        "name": "铭心悸动系列",
+        "type": "限时",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2021-07-20 ~ 2021-08-10"
+        ]
+    },
+    {
+        "name": "花间寄梦系列",
+        "type": "限时",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2021-07-20 ~ 2021-08-10"
+        ]
+    },
+    {
+        "name": "夏日系列",
+        "type": "常驻",
+        "typeEN": "Permanent",
+        "sellTime": [
+            "2021-07-20"
+        ]
+    },
+    {
+        "name": "纪念邀约系列",
+        "type": "限时",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2021-07-20 ~ 2021-08-10"
+        ]
+    },
+    {
+        "name": "珍藏系列",
+        "type": "常驻",
+        "typeEN": "Permanent",
+        "sellTime": [
+            "2021-07-20"
         ]
     }
 ]
