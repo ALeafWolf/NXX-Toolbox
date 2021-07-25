@@ -1,26 +1,4 @@
 {
-    "NAV": {
-        "HOME": "Home",
-        "CALCULATOR": "Calculator",
-        "CARD-POWER": "Card Power",
-        "CARD-RSS": "Card Resource",
-        "INDEX": "Index",
-        "CARD-LIST": "Card List",
-        "SKILL-LIST": "Skill List",
-        "VISION-HISTORY": "Vision History",
-        "MERCH-LIST": "Merch List",
-        "LANGUAGE": "Language",
-        "OTHER": "Other"
-    },
-    "FOOTER": {
-        "CLAIM": "This site is for personal usage",
-        "COPYRIGHT": "Resource and in game data used is belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
-    },
-    "HOME": {
-        "WELCOME": "ᕕ( ᐛ )ᕗWelcome to NXX Toolbox",
-        "TO-BE-IMPLEMENTED": "To be Implemented",
-        "UPDATE-LOG": "Update Log"
-    },
     "CARD-CALCULATOR": {
         "INFO": "This calculator does not include power boost from <span class='font-weight-bold'>Support Cards</span> and <span class='font-weight-bold'>Study Room</span>.<br />Result from the calculator is for reference only.",
         "POWER": "Power",
@@ -35,6 +13,15 @@
         "OBTAINED-FROM": "Obtained From",
         "FUNCTION": "Function",
         "SKILL-SLOT": "Skill Slot"
+    },
+    "FOOTER": {
+        "CLAIM": "This site is for personal usage",
+        "COPYRIGHT": "Resource and in game data used is belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
+    },
+    "HOME": {
+        "WELCOME": "ᕕ( ᐛ )ᕗWelcome to NXX Toolbox",
+        "TO-BE-IMPLEMENTED": "To be Implemented",
+        "UPDATE-LOG": "Update Log"
     },
     "KEYWORD": {
         "CARD": "Card",
@@ -75,19 +62,21 @@
         "BASE-DEFENSE": "Base Defense",
         "RANK": "Rank"
     },
-    "VISION-HISTORY": {
-        "START-DATE": "Start Date",
-        "END-DATE": "End Date",
-        "POOL-TYPE": "Pool Type",
-        "RATE-UP-CARD": "Rate Up Card",
-        "ANNOUNCEMENT": "Announcement",
-        "CN-SERVER": "Chinese Mainland Server",
-        "GLOBAL-SERVER": "Global Server"
+    "MERCH-LIST": {
+        "DECLAIM": "For now, only include the merchs that are sold on Tears of Themis' official Tmall shop."
     },
-    "SKILL-DETAIL": {
-        "SKILL-DESCRIPTION": "Skill Description",
-        "SKILL-LEVEL": "Skill Level",
-        "RELATED-CARD": "Related Card(s)"
+    "NAV": {
+        "HOME": "Home",
+        "CALCULATOR": "Calculator",
+        "CARD-POWER": "Card Power",
+        "CARD-RSS": "Card Resource",
+        "INDEX": "Index",
+        "CARD-LIST": "Card List",
+        "SKILL-LIST": "Skill List",
+        "VISION-HISTORY": "Vision History",
+        "MERCH-LIST": "Official Merch List",
+        "LANGUAGE": "Language",
+        "OTHER": "Other"
     },
     "RSS-CALCULATOR": {
         "LV-RSS": "Card Leveling Resource",
@@ -98,6 +87,21 @@
         "ADVANCED": "Advanced",
         "ESTIMATED": "Estimated",
         "ACTUAL": "Actual",
-        "EXP-CHIP": "EXP Chips"
+        "EXP-CHIP": "EXP Chips",
+        "ACTUAL-COST": "Actual Cost"
+    },
+    "SKILL-DETAIL": {
+        "SKILL-DESCRIPTION": "Skill Description",
+        "SKILL-LEVEL": "Skill Level",
+        "RELATED-CARD": "Related Card(s)"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "Start Date",
+        "END-DATE": "End Date",
+        "POOL-TYPE": "Pool Type",
+        "RATE-UP-CARD": "Rate Up Card",
+        "ANNOUNCEMENT": "Announcement",
+        "CN-SERVER": "Chinese Mainland Server",
+        "GLOBAL-SERVER": "Global Server"
     }
 }

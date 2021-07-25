@@ -7,7 +7,7 @@
   </button>
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
     <ul class="navbar-nav">
-      <li class="nav-item">
+      <li class="nav-item" (click)="isMenuCollapsed = !isMenuCollapsed">
         <a class="nav-link" routerLink="/" routerLinkActive="active">
           <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
           {{'NAV.HOME' | translate}}
@@ -19,9 +19,9 @@
           {{'NAV.CALCULATOR' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/card-calculator" routerLinkActive="active">{{'NAV.CARD-POWER' |
+          <a class="dropdown-item" routerLink="/card-calculator" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-POWER' |
             translate}}</a>
-          <a class="dropdown-item" routerLink="/card-rss-calculator" routerLinkActive="active">{{'NAV.CARD-RSS' |
+          <a class="dropdown-item" routerLink="/card-rss-calculator" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-RSS' |
             translate}}</a>
         </div>
       </li>
@@ -31,16 +31,16 @@
           {{'NAV.INDEX' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active">{{'NAV.CARD-LIST' | translate}}</a>
-          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active">{{'NAV.SKILL-LIST' | translate}}</a>
+          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-LIST' | translate}}</a>
+          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.SKILL-LIST' | translate}}</a>
           <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" routerLink="/vision-history" routerLinkActive="active">{{'NAV.VISION-HISTORY' |
+          <a class="dropdown-item" routerLink="/vision-history" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.VISION-HISTORY' |
             translate}}</a>
-          <a class="dropdown-item" routerLink="/merch-list" routerLinkActive="active">{{'NAV.MERCH-LIST' |
+          <a class="dropdown-item" routerLink="/merch-list" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.MERCH-LIST' |
             translate}}</a>
         </div>
       </li>
-      <li class="nav-item">
+      <li class="nav-item" (click)="isMenuCollapsed = !isMenuCollapsed">
         <a class="nav-link" routerLink="/other" routerLinkActive="active">
           <mat-icon aria-hidden="false" aria-label="Example info icon">info</mat-icon>
           {{'NAV.OTHER' | translate}}

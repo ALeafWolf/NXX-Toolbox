@@ -9,25 +9,25 @@ import { SkillInfo, ExpChipInfo } from '../model/card-statistics';
 })
 export class CardRssCalculatorComponent implements OnInit {
 
-  character = "夏彦"
-  charChip = "思维"
-  type = "逻辑"
-  rarity = "R"
-  lv = 1
-  prevLv = 1
-  minLv = 1
-  maxLv = 70
-  
+  character = "夏彦";
+  charChip = "思维";
+  type = "逻辑";
+  rarity = "R";
+  lv = 1;
+  prevLv = 1;
+  minLv = 1;
+  maxLv = 70;
+
 
   requiredExp = 0;
-  presetExpChips = [100, 200, 100, 50];
+  presetExpChips = [999, 999, 999, 999];
   usedExpChips = [0, 0, 0, 0];
   actualExp = 0;
   expChips = [0, 0, 0, 0];
   expChipValues;
   expChipNames;
   expChipCost;
-  requiredExpChipCoin = 0;
+  actualLv = 0;
   actualExpChipCoin = 0;
   fullRarityExp;
   rarityExp;
@@ -139,7 +139,7 @@ export class CardRssCalculatorComponent implements OnInit {
     //set propority of input range based on rarity
     if (this.rarity == 'R') {
       this.maxLv = 70
-      if(this.lv > 70){
+      if (this.lv > 70) {
         this.lv = 70
       }
     } else {
@@ -203,19 +203,25 @@ export class CardRssCalculatorComponent implements OnInit {
 
   calculateExp() {
     this.requiredExp = 0
-    for(let i = 0; i < this.lv-1; i++){
+    for (let i = 0; i < this.lv - 1; i++) {
       this.requiredExp += this.rarityExp[i]
     }
     this.calculateExpChips()
   }
 
-  calculateExpChips(){
-    let reminder = this.requiredExp;
-    this.requiredExpChipCoin = 0
-    for(let i = 3; i >= 0; i--){
-      this.expChips[i] = Math.floor(reminder/this.expChipValues[i])
-      this.requiredExpChipCoin += this.expChips[i] * this.expChipCost[i]
-      reminder = reminder%this.expChipValues[i]
+  calculateExpChips() {
+    let expReminder = this.requiredExp;
+    this.actualExpChipCoin = 0;
+    this.actualExp = 0;
+    for (let i = 3; i >= 0; i--) {
+      if (this.presetExpChips[i] * this.expChipValues[i] < expReminder) {
+        this.usedExpChips[i] = this.presetExpChips[i];
+      } else {
+        this.usedExpChips[i] = Math.floor(expReminder / this.expChipValues[i])
+      }
+      this.actualExpChipCoin += this.usedExpChips[i] * this.expChipCost[i];
+      expReminder -= this.usedExpChips[i] * this.expChipValues[i];
+      this.actualExp += this.usedExpChips[i] * this.expChipValues[i];
     }
   }
 

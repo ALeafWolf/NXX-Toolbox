@@ -1,26 +1,4 @@
 {
-    "NAV": {
-        "HOME": "主页",
-        "CALCULATOR": "计算器",
-        "CARD-POWER": "思绪战力",
-        "CARD-RSS": "思绪养成资源",
-        "INDEX": "资料索引",
-        "CARD-LIST": "思绪列表",
-        "SKILL-LIST": "技能列表",
-        "VISION-HISTORY": "往期女神之影",
-        "MERCH-LIST": "周边列表",
-        "LANGUAGE": "语言",
-        "OTHER": "其他"
-    },
-    "FOOTER": {
-        "CLAIM": "此网站仅为个人学习娱乐用",
-        "COPYRIGHT": "素材和内容所有权归米哈游的<a href='https://wd.mihoyo.com/' target='_blank'>未定事件簿</a>"
-    },
-    "HOME": {
-        "WELCOME": "牛叉叉牌工具箱，用过都说好！",
-        "TO-BE-IMPLEMENTED": "待实装的功能",
-        "UPDATE-LOG": "更新日志"
-    },
     "CARD-CALCULATOR": {
         "INFO": "此计算器目前不包括<span class='font-weight-bold'>助战思绪</span>和<span class='font-weight-bold'>研修室</span>的战力加成。<br />战力数值仅供参考。",
         "POWER": "战力",
@@ -35,6 +13,28 @@
         "OBTAINED-FROM": "获取方式",
         "FUNCTION": "功能",
         "SKILL-SLOT": "技能槽"
+    },
+    "FOOTER": {
+        "CLAIM": "此网站仅为个人学习娱乐用",
+        "COPYRIGHT": "素材和内容所有权归米哈游的<a href='https://wd.mihoyo.com/' target='_blank'>未定事件簿</a>"
+    },
+    "NAV": {
+        "HOME": "主页",
+        "CALCULATOR": "计算器",
+        "CARD-POWER": "思绪战力",
+        "CARD-RSS": "思绪养成资源",
+        "INDEX": "资料索引",
+        "CARD-LIST": "思绪列表",
+        "SKILL-LIST": "技能列表",
+        "VISION-HISTORY": "往期女神之影",
+        "MERCH-LIST": "官方周边列表",
+        "LANGUAGE": "语言",
+        "OTHER": "其他"
+    },
+    "HOME": {
+        "WELCOME": "牛叉叉牌工具箱，用过都说好！",
+        "TO-BE-IMPLEMENTED": "待实装的功能",
+        "UPDATE-LOG": "更新日志"
     },
     "KEYWORD": {
         "CARD": "思绪",
@@ -75,19 +75,8 @@
         "BASE-DEFENSE": "基础防御力",
         "RANK": "星级"
     },
-    "VISION-HISTORY": {
-        "START-DATE": "开始日期",
-        "END-DATE": "结束日期",
-        "POOL-TYPE": "卡池种类",
-        "RATE-UP-CARD": "UP思绪",
-        "ANNOUNCEMENT": "相关公告",
-        "CN-SERVER": "国服/陆服",
-        "GLOBAL-SERVER": "国际服"
-    },
-    "SKILL-DETAIL": {
-        "SKILL-DESCRIPTION": "技能描述",
-        "SKILL-LEVEL": "技能等级",
-        "RELATED-CARD": "相关思绪"
+    "MERCH-LIST": {
+        "DECLAIM": "目前仅包含售卖于未定事件簿官方天猫旗舰店的周边。"
     },
     "RSS-CALCULATOR": {
         "LV-RSS": "思绪升级材料",
@@ -98,6 +87,21 @@
         "ADVANCED": "高级",
         "ESTIMATED": "预估",
         "ACTUAL": "实际",
-        "EXP-CHIP": "法理之谕"
+        "EXP-CHIP": "法理之谕",
+        "ACTUAL-COST": "实际消耗"
+    },
+    "SKILL-DETAIL": {
+        "SKILL-DESCRIPTION": "技能描述",
+        "SKILL-LEVEL": "技能等级",
+        "RELATED-CARD": "相关思绪"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "开始日期",
+        "END-DATE": "结束日期",
+        "POOL-TYPE": "卡池种类",
+        "RATE-UP-CARD": "UP思绪",
+        "ANNOUNCEMENT": "相关公告",
+        "CN-SERVER": "国服/陆服",
+        "GLOBAL-SERVER": "国际服"
     }
 }

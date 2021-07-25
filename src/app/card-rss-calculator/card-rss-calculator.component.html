@@ -108,50 +108,7 @@
                 </tr>
             </table>
             <div class="row col-12 gridItem justify-content-around">
-                <table class="col-11 col-xl-5 table table-sm table-stripped table-dark">
-                    <tr>
-                        <th colspan="4">
-                            {{'RSS-CALCULATOR.LV-RSS' | translate}}
-                        </th>
-                    </tr>
-                    <tr>
-                        <th colspan="2">
-                            {{'RSS-CALCULATOR.ESTIMATED' | translate}}
-                        </th>
-                        <th colspan="2">
-                            {{'RSS-CALCULATOR.ACTUAL' | translate}}
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>
-                            {{'KEYWORD.EXP' | translate}}
-                        </td>
-                        <td>
-                            <img class="icon" src="assets/images/btn_coin_s.png">
-                        </td>
-                        <td>
-                            {{'KEYWORD.EXP' | translate}}
-                        </td>
-                        <td>
-                            <img class="icon" src="assets/images/btn_coin_s.png">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {{requiredExp}}
-                        </td>
-                        <td>
-                            {{requiredExpChipCoin}}
-                        </td>
-                        <td>
-                            {{actualExp}}
-                        </td>
-                        <td>
-                            {{actualExpChipCoin}}
-                        </td>
-                    </tr>
-                </table>
-                <table class="col-11 col-xl-5 table table-sm table-stripped table-dark">
+                <table class="col-11 col-xl-6 table table-sm table-stripped table-dark">
                     <tr>
                         <th colspan="4">
                             {{'RSS-CALCULATOR.EXP-CHIP' | translate}}
@@ -163,24 +120,66 @@
                         </td>
                     </tr>
                     <tr>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999" [(ngModel)]="presetExpChips[0]"
+                                (ngModelChange)="calculateExpChips()">
+                        </td>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999" [(ngModel)]="presetExpChips[1]"
+                                (ngModelChange)="calculateExpChips()">
+                        </td>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999" [(ngModel)]="presetExpChips[2]"
+                                (ngModelChange)="calculateExpChips()">
+                        </td>
+                        <td>
+                            <input type='number' class="form-control" min="0" max="9999" [(ngModel)]="presetExpChips[3]"
+                                (ngModelChange)="calculateExpChips()">
+                        </td>
+                    </tr>
+                    <tr>
                         <td *ngFor="let c of usedExpChips">{{c}}</td>
+                    </tr>
+                </table>
+                <table class="col-11 col-xl-5 table table-sm table-stripped table-dark">
+                    <tr>
+                        <th colspan="3">
+                            {{'RSS-CALCULATOR.LV-RSS' | translate}}
+                        </th>
                     </tr>
                     <tr>
                         <td>
-                            <input type='number' class="form-control" min="0" max="9999"
-                                [(ngModel)]="presetExpChips[0]" (ngModelChange)="calculateExpChips()">
+                            {{'KEYWORD.EXP' | translate}}
+                        </td>
+                        <td colspan="2">
+                            {{requiredExp}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            {{'RSS-CALCULATOR.ACTUAL-COST' | translate}}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{'KEYWORD.LEVEL' | translate}}
                         </td>
                         <td>
-                            <input type='number' class="form-control" min="0" max="9999"
-                                [(ngModel)]="presetExpChips[1]" (ngModelChange)="calculateExpChips()">
+                            {{'KEYWORD.EXP' | translate}}
                         </td>
                         <td>
-                            <input type='number' class="form-control" min="0" max="9999"
-                                [(ngModel)]="presetExpChips[2]" (ngModelChange)="calculateExpChips()">
+                            <img class="icon" src="assets/images/btn_coin_s.png">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            {{actualLv}}
                         </td>
                         <td>
-                            <input type='number' class="form-control" min="0" max="9999"
-                                [(ngModel)]="presetExpChips[3]" (ngModelChange)="calculateExpChips()">
+                            {{actualExp}}
+                        </td>
+                        <td>
+                            {{actualExpChipCoin}}
                         </td>
                     </tr>
                 </table>
