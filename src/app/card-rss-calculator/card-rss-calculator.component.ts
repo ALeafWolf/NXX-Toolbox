@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
 import { SkillInfo, ExpChipInfo } from '../model/card-statistics';
+import { Options } from '@angular-slider/ngx-slider';
 
 @Component({
   selector: 'app-card-rss-calculator',
@@ -14,23 +15,29 @@ export class CardRssCalculatorComponent implements OnInit {
   type = "逻辑";
   rarity = "R";
   lv = 1;
-  prevLv = 1;
   minLv = 1;
   maxLv = 70;
 
-
+  //for calculating exp chips
   requiredExp = 0;
-  presetExpChips = [999, 999, 999, 999];
+  presetExpChips = [0, 0, 0, 0];
   usedExpChips = [0, 0, 0, 0];
   actualExp = 0;
+  actualLv = 1;
   expChips = [0, 0, 0, 0];
   expChipValues;
   expChipNames;
   expChipCost;
-  actualLv = 0;
   actualExpChipCoin = 0;
   fullRarityExp;
   rarityExp;
+  //lv slider
+  lv1 = 1;
+  lv2 = 1;
+  options: Options = {
+    floor: 1,
+    ceil: 70
+  }
 
   skillA = 1
   skillB = 1
@@ -134,18 +141,24 @@ export class CardRssCalculatorComponent implements OnInit {
 
   setRarity() {
     //get evolve rss and EXP based on rarity
-    this.getEvolveRss()
-    this.getExpOnRarity()
-    //set propority of input range based on rarity
+    this.getEvolveRss();
+    this.getExpOnRarity();
+    //set propority of lv slider based on rarity
+    let newOptions: Options = Object.assign({}, this.options);
     if (this.rarity == 'R') {
-      this.maxLv = 70
-      if (this.lv > 70) {
-        this.lv = 70
+      newOptions.ceil = 70;
+      if (this.lv1 > 70) {
+        this.lv1 = 70;
+      }
+      if (this.lv2 > 70) {
+        this.lv2 = 70;
       }
     } else {
-      this.maxLv = 100
+      newOptions.ceil = 100;
     }
-    //set skill rsss
+    this.options = newOptions;
+
+    //set skill rss
     this.fullSkillRssList.forEach(r => {
       if (r.rarity == this.rarity) {
         this.skillRssList = r.rss
@@ -156,38 +169,44 @@ export class CardRssCalculatorComponent implements OnInit {
   }
 
   setLevel() {
-    let rss = this.evolveRss
+    //grab low and high value from lv slider
+    let lowValue = this.lv1 <= this.lv2 ? this.lv1 : this.lv2;
+    let highValue = this.lv1 > this.lv2 ? this.lv1 : this.lv2;
+    let rss = this.evolveRss;
+
     if (this.rarity == 'R') {
-      if (this.lv >= 40) {
+      if (highValue >= 40 && lowValue < 40) {
         this.lvCoin = rss[0].coin
         this.typeChips = [rss[0].chip1, rss[0].chip2, 0]
         this.charChips = [rss[0].charChip, 0, 0]
       } else {
-        this.lvCoin = 0
-        this.typeChips = [0, 0, 0]
-        this.charChips = [0, 0, 0]
+        this.lvCoin = 0;
+        this.typeChips = [0, 0, 0];
+        this.charChips = [0, 0, 0];
       }
     } else if (this.rarity == 'MR') {
-      if (this.lv >= 70) {
-        this.lvCoin = rss[0].coin
-        this.typeChips = [0, rss[0].chip1, rss[0].chip2]
-        this.charChips = [0, 0, rss[0].charChip]
+      if (highValue >= 70 && lowValue < 70) {
+        this.lvCoin = rss[0].coin;
+        this.typeChips = [0, rss[0].chip1, rss[0].chip2];
+        this.charChips = [0, 0, rss[0].charChip];
       } else {
-        this.lvCoin = 0
-        this.charChips = [0, 0, 0]
-        this.typeChips = [0, 0, 0]
+        this.lvCoin = 0;
+        this.typeChips = [0, 0, 0];
+        this.charChips = [0, 0, 0];
       }
-    } else {
+    }
+    //SR and SSR
+    else {
       let c = 0;
-      let typeC = [0, 0, 0]
-      let charC = [0, 0, 0]
-      if (this.lv >= 40) {
+      let typeC = [0, 0, 0];
+      let charC = [0, 0, 0];
+      if (highValue >= 40 && lowValue < 40) {
         c += rss[0].coin
         typeC[0] += rss[0].chip1
         typeC[1] += rss[0].chip2
         charC[1] += rss[0].charChip
       }
-      if (this.lv >= 70) {
+      if (highValue >= 70 && lowValue < 70) {
         c += rss[1].coin
         typeC[1] += rss[1].chip1
         typeC[2] += rss[1].chip2
@@ -197,19 +216,26 @@ export class CardRssCalculatorComponent implements OnInit {
       this.typeChips = typeC;
       this.charChips = charC;
     }
-
-    this.calculateExp()
+    this.calculateExp(lowValue, highValue);
   }
 
-  calculateExp() {
+  calculateExp(lowLv: number, highLv: number) {
     this.requiredExp = 0
-    for (let i = 0; i < this.lv - 1; i++) {
-      this.requiredExp += this.rarityExp[i]
+    for (let i = lowLv - 1; i < highLv - 1; i++) {
+      this.requiredExp += this.rarityExp[i];
     }
-    this.calculateExpChips()
+    //get actual exp and coin cost
+    this.calculateExpChips();
+    if (this.actualExp < this.requiredExp) {
+      this.getActualLv(lowLv, highLv, this.actualExp);
+    } else {
+      //calculate the lv if actual exp is not enough
+      this.actualLv = highLv;
+    }
   }
 
   calculateExpChips() {
+    let remainChips: number[] = [];
     let expReminder = this.requiredExp;
     this.actualExpChipCoin = 0;
     this.actualExp = 0;
@@ -217,11 +243,48 @@ export class CardRssCalculatorComponent implements OnInit {
       if (this.presetExpChips[i] * this.expChipValues[i] < expReminder) {
         this.usedExpChips[i] = this.presetExpChips[i];
       } else {
-        this.usedExpChips[i] = Math.floor(expReminder / this.expChipValues[i])
+        this.usedExpChips[i] = Math.floor(expReminder / this.expChipValues[i]);
+        if (this.usedExpChips[i] < this.presetExpChips[i]) {
+          remainChips.push(i);
+        }
       }
       this.actualExpChipCoin += this.usedExpChips[i] * this.expChipCost[i];
       expReminder -= this.usedExpChips[i] * this.expChipValues[i];
       this.actualExp += this.usedExpChips[i] * this.expChipValues[i];
+    }
+    if (remainChips.length > 0) {
+      //set chip to overcome the remaining exp
+      this.getChipForRemainExp(remainChips, expReminder);
+    }
+    if (this.actualExp < this.requiredExp) {
+      let lowValue = this.lv1 <= this.lv2 ? this.lv1 : this.lv2;
+      let highValue = this.lv1 > this.lv2 ? this.lv1 : this.lv2;
+      this.getActualLv(lowValue, highValue, this.actualExp);
+    }
+  }
+
+  getChipForRemainExp(indexs: number[], exp: number) {
+    let chip = -1;
+    for (let i = 0; i < indexs.length; i++) {
+      let index = indexs[i];
+      if (exp <= this.expChipValues[index]) {
+        chip = index;
+      }
+    }
+    if (chip != -1) {
+      this.usedExpChips[chip] += 1;
+      this.actualExp += this.expChipValues[chip];
+    }
+  }
+
+  getActualLv(lowLv: number, highLv: number, actualExp: number) {
+    this.actualLv = highLv;
+    for (let i = lowLv - 1; i < highLv - 1; i++) {
+      console.log(`lv ${i+1} to ${i+2}: ${actualExp} - ${this.rarityExp[i]}`);
+      actualExp -= this.rarityExp[i];
+      if(actualExp < 0){
+
+      }
     }
   }
 
@@ -254,5 +317,4 @@ export class CardRssCalculatorComponent implements OnInit {
       }
     }
   }
-
 }

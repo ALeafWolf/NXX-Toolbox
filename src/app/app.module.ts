@@ -29,6 +29,7 @@ import { MerchListComponent } from './merch-list/merch-list.component';
 import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTabsModule } from '@angular/material/tabs';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -62,6 +63,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatIconModule,
     MatRadioModule,
     MatTabsModule,
+    NgxSliderModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

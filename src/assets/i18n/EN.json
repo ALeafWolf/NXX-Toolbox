@@ -86,7 +86,7 @@
         "BASIC": "Basic",
         "ADVANCED": "Advanced",
         "ESTIMATED": "Estimated",
-        "ACTUAL": "Actual",
+        "REQUIRED-EXP": "Required EXP",
         "EXP-CHIP": "EXP Chips",
         "ACTUAL-COST": "Actual Cost"
     },

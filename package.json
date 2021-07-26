@@ -11,6 +11,7 @@
   },
   "private": true,
   "dependencies": {
+    "@angular-slider/ngx-slider": "^2.0.3",
     "@angular/animations": "~11.1.2",
     "@angular/cdk": "^11.2.12",
     "@angular/common": "~11.1.2",
@@ -26,6 +27,7 @@
     "@ngx-translate/http-loader": "^6.0.0",
     "bootstrap": "^4.5.0",
     "jquery": "^3.6.0",
+    "material-components-web": "^11.0.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"

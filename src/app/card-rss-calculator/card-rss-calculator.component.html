@@ -51,12 +51,11 @@
                     <th>
                         {{'KEYWORD.LEVEL' | translate}}
                     </th>
-                    <td>
-                        {{lv}}
-                    </td>
-                    <td colspan="2">
-                        <input type="range" class="form-range" min="{{minLv}}" max="{{maxLv}}" [(ngModel)]="lv"
-                            (ngModelChange)="setLevel()">
+                    <td colspan="3" style="padding: 0 2em;">
+                        <ngx-slider [(value)]="lv1" [(highValue)]="lv2" [options]="options" (userChange)="setLevel()">
+                        </ngx-slider>
+                        <!-- <input type="range" class="form-range" min="{{minLv}}" max="{{maxLv}}" [(ngModel)]="lv"
+                            (ngModelChange)="setLevel()"> -->
                     </td>
                 </tr>
                 <tr>
@@ -149,7 +148,7 @@
                     </tr>
                     <tr>
                         <td>
-                            {{'KEYWORD.EXP' | translate}}
+                            {{'RSS-CALCULATOR.REQUIRED-EXP' | translate}}
                         </td>
                         <td colspan="2">
                             {{requiredExp}}

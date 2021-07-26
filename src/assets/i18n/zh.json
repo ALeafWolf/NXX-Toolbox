@@ -86,7 +86,7 @@
         "BASIC": "基础",
         "ADVANCED": "高级",
         "ESTIMATED": "预估",
-        "ACTUAL": "实际",
+        "REQUIRED-EXP": "所需经验",
         "EXP-CHIP": "法理之谕",
         "ACTUAL-COST": "实际消耗"
     },
