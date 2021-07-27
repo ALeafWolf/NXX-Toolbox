@@ -252,7 +252,7 @@ export class CardRssCalculatorComponent implements OnInit {
       expReminder -= this.usedExpChips[i] * this.expChipValues[i];
       this.actualExp += this.usedExpChips[i] * this.expChipValues[i];
     }
-    if (remainChips.length > 0) {
+    if (remainChips.length > 0 && expReminder > 0) {
       //set chip to overcome the remaining exp
       this.getChipForRemainExp(remainChips, expReminder);
     }
@@ -278,12 +278,15 @@ export class CardRssCalculatorComponent implements OnInit {
   }
 
   getActualLv(lowLv: number, highLv: number, actualExp: number) {
-    this.actualLv = highLv;
-    for (let i = lowLv - 1; i < highLv - 1; i++) {
-      console.log(`lv ${i+1} to ${i+2}: ${actualExp} - ${this.rarityExp[i]}`);
-      actualExp -= this.rarityExp[i];
-      if(actualExp < 0){
-
+    if(actualExp > 0){
+      this.actualLv = highLv;
+    }
+    let i = lowLv - 1;
+    let maxRange = highLv - 1;
+    while (actualExp > 0 && i < maxRange) {
+      actualExp -= this.rarityExp[i++];
+      if (actualExp < 0) {
+        this.actualLv = i;
       }
     }
   }
