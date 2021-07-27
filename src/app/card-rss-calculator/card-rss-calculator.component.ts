@@ -20,7 +20,7 @@ export class CardRssCalculatorComponent implements OnInit {
 
   //for calculating exp chips
   requiredExp = 0;
-  presetExpChips = [0, 0, 0, 0];
+  presetExpChips = [99, 99, 99, 99];
   usedExpChips = [0, 0, 0, 0];
   actualExp = 0;
   actualLv = 1;

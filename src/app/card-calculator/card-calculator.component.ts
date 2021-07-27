@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
+import { GlobalVariable } from '../global-variable';
 
 @Component({
   selector: 'app-card-calculator',
@@ -23,6 +24,7 @@ export class CardCalculatorComponent implements OnInit {
 
   lang;
   isLoaded = false;
+  imgURL = GlobalVariable.imgURL;
 
   constructor(private _data: DataService) { }
 

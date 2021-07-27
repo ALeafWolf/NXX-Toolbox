@@ -19,20 +19,17 @@
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-11 col-lg-4 bg-dark my-2 p-2 text-center">
-            <!-- <div class="row border-bottom justify-content-around">
-                <p class="col-1">▼</p>
-                <h5 class="font-weight-bold col">技能加成</h5>
-                <p class="col-1">▼</p>
-            </div> -->
-            <h5 class="font-weight-bold col">{{'CARD-CALCULATOR.SKILL-SUMMARY' | translate}}</h5>
-            <div class="mt-2" id="skillSummary">
+        <div class="col-11 col-lg-4 bg-dark my-2 p-2 text-center" id="skill-summary">
+            <div class="col border-bottom border-secondary">
+                <h5 class="font-weight-bold">{{'CARD-CALCULATOR.SKILL-SUMMARY' | translate}}</h5>
+            </div>
+            <div class="mt-2">
                 <h5>{{'CARD-CALCULATOR.SECOND-SKILL' | translate}}</h5>
                 <div class="border-bottom border-secondary mb-2">
                     <div class="row justify-content-center">
                         <div *ngFor="let s of secondSkills" class="col-3">
-                            <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
-                                <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.webp'}}">
+                            <a [routerLink]="['/skill', s.name]" target="_blank">
+                                <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.id + '.webp'}}">
                             </a>
                             <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
                         </div>
@@ -41,8 +38,8 @@
                 <h5>{{'CARD-CALCULATOR.THIRD-SKILL' | translate}}</h5>
                 <div class="row justify-content-center">
                     <div *ngFor="let s of thirdSkills" class="col-3">
-                        <a [routerLink]="['/skill', s.name]" routerLinkActive="active" target="_blank">
-                            <img class="img-fluid icon" src="{{'assets/images/技能/' + s.id + '.webp'}}">
+                        <a [routerLink]="['/skill', s.name]" target="_blank">
+                            <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.id + '.webp'}}">
                         </a>
                         <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
                     </div>
@@ -52,13 +49,13 @@
         </div>
         <div class="col-12 col-lg-7 row justify-content-around">
             <div class="col-3 my-2" *ngFor="let i of userData">
-                <a [routerLink]="['/card-value/', i.charName, i.name]" routerLinkActive="active">
+                <a [routerLink]="['/card-value/', i.charName, i.name]">
                     <img class="img-fluid calculatorIcon"
-                        src="{{'assets/images/' + i.charName + '/' + i.name + '.webp'}}">
+                        src="{{imgURL + i.charName + '/' + i.name + '.webp'}}">
                 </a>
             </div>
             <div class="col-3 my-2" *ngFor="let i of emptyHolder">
-                <a routerLink="/card-selection" routerLinkActive="active">
+                <a routerLink="/card-selection">
                     <img class="img-fluid calculatorIcon" src="assets/images/boxgacha_icon_frame_1.png">
                 </a>
             </div>

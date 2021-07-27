@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="site-navbar">
-  <a class="navbar-brand" href="#" routerLink="/" routerLinkActive="active">
+  <a class="navbar-brand" href="#" routerLink="/">
     <img id="navbar-img" src="assets/images/NXX-2.png">
   </a>
   <button class="navbar-toggler" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">
@@ -8,47 +8,47 @@
   <div [ngbCollapse]="isMenuCollapsed" class="collapse navbar-collapse">
     <ul class="navbar-nav">
       <li class="nav-item" (click)="isMenuCollapsed = !isMenuCollapsed">
-        <a class="nav-link" routerLink="/" routerLinkActive="active">
-          <mat-icon aria-hidden="false" aria-label="Example home icon">home</mat-icon>
+        <a class="nav-link" routerLink="/">
+          <mat-icon aria-hidden="false">home</mat-icon>
           {{'NAV.HOME' | translate}}
         </a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-          <mat-icon aria-hidden="false" aria-label="Example calculate icon">calculate</mat-icon>
+          <mat-icon aria-hidden="false">calculate</mat-icon>
           {{'NAV.CALCULATOR' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/card-calculator" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-POWER' |
+          <a class="dropdown-item" routerLink="/card-calculator" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-POWER' |
             translate}}</a>
-          <a class="dropdown-item" routerLink="/card-rss-calculator" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-RSS' |
+          <a class="dropdown-item" routerLink="/card-rss-calculator" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-RSS' |
             translate}}</a>
         </div>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-          <mat-icon aria-hidden="false" aria-label="Example view_list icon">view_list</mat-icon>
+          <mat-icon aria-hidden="false">view_list</mat-icon>
           {{'NAV.INDEX' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/cards" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-LIST' | translate}}</a>
-          <a class="dropdown-item" routerLink="/skills" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.SKILL-LIST' | translate}}</a>
+          <a class="dropdown-item" routerLink="/cards" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-LIST' | translate}}</a>
+          <a class="dropdown-item" routerLink="/skills" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.SKILL-LIST' | translate}}</a>
           <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" routerLink="/vision-history" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.VISION-HISTORY' |
+          <a class="dropdown-item" routerLink="/vision-history" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.VISION-HISTORY' |
             translate}}</a>
-          <a class="dropdown-item" routerLink="/merch-list" routerLinkActive="active" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.MERCH-LIST' |
+          <a class="dropdown-item" routerLink="/merch-list" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.MERCH-LIST' |
             translate}}</a>
         </div>
       </li>
       <li class="nav-item" (click)="isMenuCollapsed = !isMenuCollapsed">
-        <a class="nav-link" routerLink="/other" routerLinkActive="active">
-          <mat-icon aria-hidden="false" aria-label="Example info icon">info</mat-icon>
+        <a class="nav-link" routerLink="/other">
+          <mat-icon aria-hidden="false">info</mat-icon>
           {{'NAV.OTHER' | translate}}
         </a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
-          <mat-icon aria-hidden="false" aria-label="Example translate icon">translate</mat-icon>
+          <mat-icon aria-hidden="false">translate</mat-icon>
           {{'NAV.LANGUAGE' | translate}}
         </a>
         <div class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdown">

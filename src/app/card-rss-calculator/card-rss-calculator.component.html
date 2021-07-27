@@ -52,10 +52,11 @@
                         {{'KEYWORD.LEVEL' | translate}}
                     </th>
                     <td colspan="3" style="padding: 0 2em;">
-                        <ngx-slider [(value)]="lv1" [(highValue)]="lv2" [options]="options" (userChange)="setLevel()">
-                        </ngx-slider>
-                        <!-- <input type="range" class="form-range" min="{{minLv}}" max="{{maxLv}}" [(ngModel)]="lv"
-                            (ngModelChange)="setLevel()"> -->
+                        <div class="custom-slider">
+                            <ngx-slider [(value)]="lv1" [(highValue)]="lv2" [options]="options" (userChange)="setLevel()">
+                            </ngx-slider>
+                        </div>
+                        
                     </td>
                 </tr>
                 <tr>

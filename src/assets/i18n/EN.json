@@ -16,7 +16,7 @@
     },
     "FOOTER": {
         "CLAIM": "This site is for personal usage",
-        "COPYRIGHT": "Resource and in game data used is belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
+        "COPYRIGHT": "All information, image and in game data used are belong to <a href='https://tot.mihoyo.com/en' target='_blank'>Tears of Themis</a> from miHoYo"
     },
     "HOME": {
         "WELCOME": "ᕕ( ᐛ )ᕗWelcome to NXX Toolbox",
@@ -82,7 +82,7 @@
         "LV-RSS": "Card Leveling Resource",
         "EVOLVE-RSS": "Card Evolve Resource",
         "SKILL-LV-RSS": "Skill Leveling Resource",
-        "CLAIM": "Results of this calculator is for referencing only",
+        "CLAIM": "Results of this calculator is for referencing only.",
         "BASIC": "Basic",
         "ADVANCED": "Advanced",
         "ESTIMATED": "Estimated",
