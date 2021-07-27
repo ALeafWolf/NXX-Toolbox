@@ -6,11 +6,12 @@
         <span class="sr-only mx-auto">Loading...</span>
     </div>
 </div>
-<div class="row p-2">
-    <div class="col-12 row justify-content-around m-2">
-        <div class="col-4 col-sm-3 col-md-2">
+<div class="row justify-content-around p-2">
+    <div class="col-12 col-lg-10 row justify-content-between m-2">
+        <div class="col-4 col-sm-3 col-lg-2">
             <label for="character">{{'KEYWORD.CHARACTER' | translate}}</label>
-            <select [(ngModel)] = "filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select" name="character">
+            <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
+                name="character">
                 <option value="All">All</option>
                 <option value="夏彦">{{'KEYWORD.LUKE' | translate}}</option>
                 <option value="左然">{{'KEYWORD.ARTEM' | translate}}</option>
@@ -18,9 +19,10 @@
                 <option value="陆景和">{{'KEYWORD.MARIUS' | translate}}</option>
             </select>
         </div>
-        <div class="col-4 col-sm-3 col-md-2">
+        <div class="col-4 col-sm-3 col-lg-2">
             <label for="rarity">{{'KEYWORD.RARITY' | translate}}</label>
-            <select [(ngModel)] = "filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select" name="rarity">
+            <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select"
+                name="rarity">
                 <option value="All">All</option>
                 <option value="R">R</option>
                 <option value="MR">MR</option>
@@ -28,28 +30,25 @@
                 <option value="SSR">SSR</option>
             </select>
         </div>
-        <div class="col-4 col-sm-3 col-md-2">
+        <div class="col-4 col-sm-3 col-lg-2">
             <label for="type">{{'KEYWORD.TYPE' | translate}}</label>
-            <select [(ngModel)] = "filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
+            <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
                 <option value="All">All</option>
                 <option value="逻辑">{{'KEYWORD.LOGIC' | translate}}</option>
                 <option value="共情">{{'KEYWORD.EMPATHY' | translate}}</option>
                 <option value="直觉">{{'KEYWORD.INTUITION' | translate}}</option>
             </select>
         </div>
-        <div class="col-1">
-            <!-- <a name="btn_back" routerLink="/card-calculator">
-                <img src="assets/images/back2_btm1.png">
-            </a> -->
-            <a (click) = "resetFilters()">
+        <div class="col-12 col-sm-1 d-flex justify-content-center align-items-center">
+            <a class="mt-2" (click)="resetFilters()" style="cursor: pointer;">
                 <img src="assets/images/btn_reset.png">
             </a>
         </div>
     </div>
-    <div class="col-12 row justify-content-around mt-4">
+    <div class="col-12 col-lg-10 row justify-content-around mt-4">
         <div class="col-3 col-md-2 my-1" *ngFor="let c of cards">
             <a [routerLink]="['/card-value-setting/', c.character, c.id]" routerLinkActive="active">
                 <img class="img-fluid" src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
             </a>
         </div>
-</div>
+    </div>

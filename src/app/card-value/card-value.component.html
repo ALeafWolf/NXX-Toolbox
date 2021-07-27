@@ -5,7 +5,7 @@
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-12 row">
+    <div class="col-12 row  align-items-center">
         <div class="col-6 col-md-4 row py-2">
             <div class="col-12 row py-2 justify-content-center">
                 <a class="col-4 btn" [routerLink]="['/card-value-setting/', char, id]">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="col-7 col-md-6 row justify-content-around text-center">
-        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center gridItem" id="card-info">
+        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center" id="card-info">
             <tr>
                 <th>{{'KEYWORD.RARITY' | translate}}</th>
                 <td>{{card.rarity}}</td>

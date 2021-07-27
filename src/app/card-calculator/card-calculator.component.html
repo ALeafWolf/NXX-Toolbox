@@ -14,12 +14,12 @@
         <a routerLink="/card-calculator" (click)="clearAllSavedData()">
             <img class="img-fluid" src="assets/images/btn_delete.png">
         </a>
-        <div class="bg-dark px-2 py-1 text-center">
+        <div class="bg-dark px-3 pt-2 ml-2 text-center">
             <h4>{{'CARD-CALCULATOR.POWER' | translate}} {{totalPower}}</h4>
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-11 col-lg-4 bg-dark my-2 p-2 text-center" id="skill-summary">
+        <div class="col-11 col-md-9 col-lg-4 bg-dark my-2 p-2 text-center" id="skill-summary">
             <div class="col border-bottom border-secondary">
                 <h5 class="font-weight-bold">{{'CARD-CALCULATOR.SKILL-SUMMARY' | translate}}</h5>
             </div>
@@ -45,9 +45,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
-        <div class="col-12 col-lg-7 row justify-content-around">
+
+        <div class="col-12 col-md-10 col-lg-5 row justify-content-around">
             <div class="col-3 my-2" *ngFor="let i of userData">
                 <a [routerLink]="['/card-value/', i.charName, i.name]">
                     <img class="img-fluid calculatorIcon"
