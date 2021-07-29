@@ -22,7 +22,7 @@
     {
         "id": "微醺视线",
         "name": "微醺视线",
-        "nameEN": "",
+        "nameEN": "Alluring Gaze",
         "type": "共情",
         "rarity": "SSR",
         "character": "夏彦",
@@ -198,7 +198,7 @@
     {
         "id": "醉意入怀",
         "name": "醉意入怀",
-        "nameEN": "",
+        "nameEN": "Atmospherics",
         "type": "逻辑",
         "rarity": "SSR",
         "character": "左然",
@@ -374,7 +374,7 @@
     {
         "id": "危情邀约",
         "name": "危情邀约",
-        "nameEN": "",
+        "nameEN": "Medieval Suspense",
         "type": "共情",
         "rarity": "SSR",
         "character": "莫弈",
@@ -550,7 +550,7 @@
     {
         "id": "眸中景",
         "name": "眸中景",
-        "nameEN": "",
+        "nameEN": "Eye of the Beholder",
         "type": "直觉",
         "rarity": "SSR",
         "character": "陆景和",
