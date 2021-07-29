@@ -24,22 +24,22 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="smallFont" *ngFor="let p of pools">
-                            <td>{{p.startDate}}</td>
-                            <td>{{p.endDate}}</td>
-                            <td>{{p.type}}</td>
-                            <td>
+                        <tr class="smallFont" *ngFor="let p of cnPool">
+                            <td class="table-text">{{p.startDate}}</td>
+                            <td class="table-text">{{p.endDate}}</td>
+                            <td class="table-text">{{p.type}}</td>
+                            <td class="table-text">
                                 <span *ngFor="let c of p.cards">
                                     <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
                                         <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
                                     </a>
                                 </span>
                             </td>
-                            <td>
-                                <a *ngIf="p.bid" href="{{'https://www.weibo.com/7072153506/' + p.bid}}" target="_blank">
+                            <td class="table-text">
+                                <a *ngIf="p.bid" href="{{bilibili + p.bid}}" target="_blank">
                                     <img class="img-fluid" style="width: 24px;" src="assets/images/weibo.png">
                                 </a>
-                                <a *ngIf="p.bv" href="{{'https://www.bilibili.com/video/' + p.bv}}" target="_blank">
+                                <a *ngIf="p.bv" href="{{weibo + p.bv}}" target="_blank">
                                     <img class="img-fluid" style="width: 24px;" src="assets/images/bilibili.png">
                                 </a>
                             </td>
@@ -62,8 +62,25 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th colspan="5">TBA</th>
+                        <tr class="smallFont" *ngFor="let p of globalPool">
+                            <td class="table-text">{{p.startDate}}</td>
+                            <td class="table-text">{{p.endDate}}</td>
+                            <td class="table-text">{{p.type}}</td>
+                            <td class="table-text">
+                                <span *ngFor="let c of p.cards">
+                                    <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
+                                        <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
+                                    </a>
+                                </span>
+                            </td>
+                            <td class="table-text">
+                                <a *ngIf="p.twitter" href="{{twitter + p.twitter}}" target="_blank">
+                                    <img class="img-fluid" style="width: 24px;" src="assets/images/twitter.png">
+                                </a>
+                                <a *ngIf="p.youtube" href="{{p.youtube}}" target="_blank">
+                                    <img class="img-fluid" style="width: 24px;" src="assets/images/bilibili.png">
+                                </a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

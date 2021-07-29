@@ -21,10 +21,15 @@ export interface SortEvent {
 export class CardPoolHistoryComponent implements OnInit {
 
   pools;
+  cnPool = [];
+  globalPool = [];
   cards;
   isLoaded = false;
-  
+
   imgURL = GlobalVariable.imgURL;
+  bilibili = GlobalVariable.bilibili;
+  weibo = GlobalVariable.weibo;
+  twitter = GlobalVariable.twitter;
 
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
@@ -34,13 +39,23 @@ export class CardPoolHistoryComponent implements OnInit {
 
   ngOnInit(): void {
     this._data.getCards().toPromise().then((data: any[]) => {
-      this.cards = data
+      this.cards = data;
       this._data.getVisionHistory().toPromise().then((data: any[]) => {
-        this.pools = data
+        this.pools = data;
         this.isLoaded = true;
+        this.sortPools(data);
       })
     })
+  }
 
+  sortPools(pools: any[]) {
+    pools.forEach(p => {
+      if (p.server == 'CN') {
+        this.cnPool.push(p);
+      } else if (p.server == 'GLOBAL') {
+        this.globalPool.push(p);
+      }
+    });
   }
 
   getImgSrc(name: string) {

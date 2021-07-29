@@ -121,6 +121,12 @@ $nxx-toolbox-theme: mat-dark-theme((
     overflow-y: scroll;
     max-height: 25em;
 }
+
+td.table-text{
+    vertical-align: middle;
+}
+
+
 .grid-item {
     height: max-content;
 }
