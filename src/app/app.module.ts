@@ -25,6 +25,7 @@ import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MerchListComponent } from './merch-list/merch-list.component';
+import { MerchDetailComponent } from './merch-detail/merch-detail.component';
 
 import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
@@ -53,7 +54,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     SkillDetailComponent,
     CardPoolHistoryComponent,
     CardRssCalculatorComponent,
-    MerchListComponent
+    MerchListComponent,
+    MerchDetailComponent
   ],
   imports: [
     BrowserModule,

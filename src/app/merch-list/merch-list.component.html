@@ -1,6 +1,75 @@
+<button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
+    <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
+</button>
+<div *ngIf="isLoaded == false" class="loader" id="backdrop">
+    <div class="spinner-border text-light" role="status">
+        <span class="sr-only mx-auto">Loading...</span>
+    </div>
+</div>
+
 <div class="row justify-content-center">
     <div class="col-10 text-center bg-dark p-4 my-2">
         {{'MERCH-LIST.DECLAIM' | translate}}
     </div>
-    <h2 class="col-10 text-center">Under Construction</h2>
+    <div class="row justify-content-center p-2">
+        <!-- <div class="col-12 col-md-10 row justify-content-around m-2">
+            <div class="col">
+                <label for="character">{{'KEYWORD.CHARACTER' | translate}}</label>
+                <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
+                    name="character">
+                    <option value="All">All</option>
+                    <option value="夏彦">{{'KEYWORD.LUKE' | translate}}</option>
+                    <option value="左然">{{'KEYWORD.ARTEM' | translate}}</option>
+                    <option value="莫弈">{{'KEYWORD.VYN' | translate}}</option>
+                    <option value="陆景和">{{'KEYWORD.MARIUS' | translate}}</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="rarity">{{'KEYWORD.RARITY' | translate}}</label>
+                <select [(ngModel)]="filterConditions[1]" (ngModelChange)="filterCards()" class="custom-select"
+                    name="rarity">
+                    <option value="All">All</option>
+                    <option value="R">R</option>
+                    <option value="MR">MR</option>
+                    <option value="SR">SR</option>
+                    <option value="SSR">SSR</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="type">{{'KEYWORD.TYPE' | translate}}</label>
+                <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
+                    <option value="All">All</option>
+                    <option value="逻辑">{{'KEYWORD.LOGIC' | translate}}</option>
+                    <option value="共情">{{'KEYWORD.EMPATHY' | translate}}</option>
+                    <option value="直觉">{{'KEYWORD.INTUITION' | translate}}</option>
+                </select>
+            </div>
+            <div class="col">
+                <label for="type">{{'KEYWORD.OBTAINED-FROM' | translate}}</label>
+                <select [(ngModel)]="filterConditions[3]" (ngModelChange)="filterCards()" class="custom-select" name="type">
+                    <option value="All">All</option>
+                    <option value="常驻">{{'KEYWORD.PERMENENT' | translate}}</option>
+                    <option value="轮替">{{'KEYWORD.ROTATION' | translate}}</option>
+                    <option value="累计充值">{{'KEYWORD.CHARGE' | translate}}</option>
+                    <option value="主线思绪残影">{{'KEYWORD.CARD-FRAGMENT' | translate}}</option>
+                    <option value="活动">{{'KEYWORD.EVENT' | translate}}</option>
+                    <option value="活动（限定）">{{'KEYWORD.EVENT' | translate}} ({{'KEYWORD.LIMITED-TIME' | translate}})</option>
+                </select>
+            </div>
+            <div class="col-1">
+                <a (click)="resetFilters()">
+                    <img src="assets/images/btn_reset.png">
+                </a>
+            </div>
+        </div> -->
+        <div class="col-12 col-md-10 my-2 row">
+            <div class="col-4 col-md-3 col-lg-2" *ngFor="let m of merches">
+                <div class="bg-dark p-3 m-1 merch-card">
+                    <img class="img-fluid" src="{{m.images[0]}}">
+                    {{m.name}}
+                </div>
+
+            </div>
+        </div>
+    </div>
 </div>
