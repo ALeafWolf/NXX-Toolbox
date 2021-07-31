@@ -30,6 +30,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTabsModule } from '@angular/material/tabs';
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
+import { GraphQLModule } from './graphql.module';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -71,7 +72,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         deps: [HttpClient]
       }
     }),
-    AppRoutingModule
+    AppRoutingModule,
+    GraphQLModule
   ],
   providers: [Meta],
   bootstrap: [AppComponent]
