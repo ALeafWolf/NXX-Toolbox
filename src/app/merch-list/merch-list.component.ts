@@ -1,6 +1,31 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Apollo, gql } from 'apollo-angular';
-import { GlobalVariable } from '../global-variable';
+
+const GET_MERCHES = gql`
+  query GetMerchs{
+    merches(limit: 1000) 
+      {
+        _id
+        images
+        name
+        price
+        productSize
+        productMaterial
+        productTechnology
+        productPacking
+        productDescription
+        sellDate
+        series{
+          name
+          type
+          sellTime
+        }
+        tmall
+        weibo
+        hoyolab
+      }
+  }
+`;
 
 @Component({
   selector: 'app-merch-list',
@@ -24,34 +49,9 @@ export class MerchListComponent implements OnInit {
   }
 
   loadData() {
-    this._apollo.watchQuery({
-      query: gql`
-        {
-          merches(
-            limit: 1000
-          ) {
-            hoyolab
-            images
-            name
-            price
-            productDescription
-            productMaterial
-            productPacking
-            productSize
-            productTechnology
-            sellDate
-            series{
-              name
-              type
-              sellTime
-            }
-            tmall
-            weibo
-            }
-        }
-      `,
-    })
-      .valueChanges.subscribe((result: any) => {
+    this._apollo.query({
+      query: GET_MERCHES
+    }).toPromise().then((result: any) => {
         this.merches = result.data.merches;
         this.isLoaded = true;
       });

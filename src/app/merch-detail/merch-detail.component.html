@@ -1,1 +1,86 @@
-<p>merch-detail works!</p>
+<div *ngIf="isLoaded == false" class="loader">
+    <div class="spinner-border text-light" role="status">
+        <span class="sr-only mx-auto">Loading...</span>
+    </div>
+</div>
+
+<div class="row justify-content-around py-2">
+    <div class="col-11 col-lg-5 bg-dark my-2">
+        <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+            <mat-tab *ngFor="let img of merch.images; let i = index" [label]="i+1">
+                <img class="img-fluid mt-1" src="{{img}}">
+            </mat-tab>
+        </mat-tab-group>
+
+    </div>
+    <div class="col-11 col-lg-5 row">
+        <table class="col-12 table table-dark text-center" style="height: fit-content;">
+            <tbody>
+                <tr>
+                    <th>商品名</th>
+                    <td>{{merch.name}}</td>
+                </tr>
+                <tr>
+                    <th>商品系列</th>
+                    <td>{{merch.series.name}}</td>
+                </tr>
+                <tr>
+                    <th>贩售日期</th>
+                    <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
+                        {{merch.series.sellTime[merch.sellDate]}}
+                    </td>
+                    <ng-template #multipleSellTime>
+                        <td>
+                            <span *ngFor="let t of merch.series.sellTime">
+                                {{t}} <br/>
+                            </span>
+                        </td>
+                    </ng-template>
+                </tr>
+                <tr>
+                    <th>价格</th>
+                    <td>{{merch.price}}</td>
+                </tr>
+                <tr *ngIf="merch.productMaterial!='-'">
+                    <th>商品材质</th>
+                    <td>{{merch.productMaterial}}</td>
+                </tr>
+                <tr *ngIf="merch.productTechnology!='-'">
+                    <th>商品工艺</th>
+                    <td>{{merch.productTechnology}}</td>
+                </tr>
+                <tr *ngIf="merch.productPacking!='-'">
+                    <th>商品包装</th>
+                    <td>{{merch.productPacking}}</td>
+                </tr>
+                <tr *ngIf="merch.productSize!='-'">
+                    <th>商品尺寸</th>
+                    <td>{{merch.productSize}}</td>
+                </tr>
+                <tr *ngIf="merch.productDescription!='-'">
+                    <th>商品描述</th>
+                    <td>{{merch.productDescription}}</td>
+                </tr>
+                <tr *ngIf="merch.tmall!='-'">
+                    <th>购买地址</th>
+                    <td> 
+                        <a href="{{merch.tmall}}" target="_blank">
+                            <img class="img-fluid" src="assets/images/tmall.png">
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <th>参考</th>
+                    <td>
+                        <a *ngIf="merch.weibo!='-'" href="{{merch.weibo}}" target="_blank">
+                            <img class="img-fluid" style="width: 30px;" src="assets/images/weibo.png">
+                        </a>
+                        <a *ngIf="merch.hoyolab!='-'" href="{{merch.hoyolab}}" target="_blank">
+                            <img class="img-fluid" style="width: 30px;" src="assets/images/hoyolab.png">
+                        </a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

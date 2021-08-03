@@ -14,6 +14,7 @@ import { SkillDetailComponent } from './skill-detail/skill-detail.component';
 import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.component';
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MerchListComponent } from './merch-list/merch-list.component';
+import { MerchDetailComponent } from './merch-detail/merch-detail.component';
 import { RealmAuthGuard } from './realm-auth-guard';
 
 const routes: Routes = [
@@ -64,6 +65,11 @@ const routes: Routes = [
   {
     path: 'merch-list',
     component: MerchListComponent,
+    canActivate: [ RealmAuthGuard ]
+  },
+  {
+    path: 'merch-detail/:name',
+    component: MerchDetailComponent,
     canActivate: [ RealmAuthGuard ]
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
