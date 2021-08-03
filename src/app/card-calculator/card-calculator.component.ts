@@ -45,12 +45,12 @@ export class CardCalculatorComponent implements OnInit {
 
   loadUserCards() {
     Object.keys(localStorage).forEach(k => {
-      //load card icon on screen
-      if (k != "language") {
-        let i = JSON.parse(localStorage.getItem(k))
-        this.loadTypeCounts(i)
-        this.totalPower += i.power
-        this.switchSkillLanguage(i)
+      //load card icon on screen, ignore language and realm related entries at localStorage
+      if (k != 'language' && k.includes("realm")==false && k.includes("token")==false) {
+        let i = JSON.parse(localStorage.getItem(k));
+        this.loadTypeCounts(i);
+        this.totalPower += i.power;
+        this.switchSkillLanguage(i);
       }
     })
     if (0 != this.userData.length) {
