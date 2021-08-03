@@ -34,7 +34,7 @@ export class SkillListComponent implements OnInit {
     let s = []
     skills.forEach(skill => {
       let n, des;
-      if('en' == this.lang){
+      if('en' == this.lang || 'ko' == this.lang){
         n = skill.nameEN != '' ? skill.nameEN : skill.name
         des = skill.descriptionEN != '' ? skill.descriptionEN : skill.description
       }else{

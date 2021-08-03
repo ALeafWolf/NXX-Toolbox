@@ -44,6 +44,8 @@ export class SkillDetailComponent implements OnInit {
       pre = '技能'
     } else if ('en' == this.lang) {
       pre = 'Skill'
+    } else if ('ko' == this.lang) {
+      pre = '스킬'
     }
     this._seoService.setTitle(`${pre}：${this.skillName}`);
   }
@@ -52,7 +54,7 @@ export class SkillDetailComponent implements OnInit {
     if ('zh' == this.lang) {
       this.skillName = this.skill.name;
       this.skillDes = this.skill.description;
-    } else if ('en' == this.lang) {
+    } else if ('en' == this.lang || 'ko' == this.lang) {
       this.skillName = this.skill.nameEN == '' ? this.skill.name : this.skill.nameEN
       this.skillDes = this.skill.descriptionEN;
     }

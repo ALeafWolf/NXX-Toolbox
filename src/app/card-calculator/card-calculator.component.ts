@@ -87,7 +87,7 @@ export class CardCalculatorComponent implements OnInit {
   }
 
   switchSkillLanguage(item: any) {
-    if (this.lang == 'en') {
+    if (this.lang == 'en' || this.lang == 'ko') {
       let names = []
       item.skillNames.forEach(n => {
         this.allSkills.forEach(s => {

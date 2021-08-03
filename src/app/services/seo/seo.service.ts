@@ -6,7 +6,7 @@ import { Meta, Title } from '@angular/platform-browser';
 })
 export class SEOService {
 
-  title = ["牛叉叉牌工具箱：未定事件簿多功能辅助网站", "NXX Toolbox: Multi-functional Support Site for Tears of Themis"];
+  title = ["牛叉叉牌工具箱：未定事件簿多功能辅助网站", "NXX Toolbox: Multi-functional Support Site for Tears of Themis", "NXX Toolbox: 미해결사건부 다기능 지원 사이트"];
   description = "战力计算器，思绪和技能索引，及其他功能待你探索~";
   image = "assets/images/meta-img.png";
   url = "https://aleafwolf.github.io/NXX-Toolbox";
@@ -21,8 +21,10 @@ export class SEOService {
 
   setTitle(title){
     let i = 0;
-    if(this.lang == 'en'){
+    if (this.lang == 'en') {
       i = 1;
+    } else if (this.lang == 'ko') {
+      i = 2;
     }
     this._title.setTitle(`${title} | ${this.title[i]}`);
   }

@@ -72,6 +72,8 @@ export class MerchDetailComponent implements OnInit, OnDestroy {
     let pre = '周边';
     if ('en' == this.lang) {
       pre = 'Merch';
+    } else if ('ko' == this.lang) {
+      pre = '굿즈';
     }
     this._seoService.setTitle(`${pre}：${this.name}`);
   }

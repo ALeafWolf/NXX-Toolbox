@@ -35,7 +35,7 @@ export class CardListComponent implements OnInit {
   loadCardWithLang(cards:any[]){
     let c = []
     cards.forEach(card => {
-      if('en' == this.lang){
+      if('en' == this.lang || 'ko' == this.lang){
         card.n = card.nameEN != '' ? card.nameEN : card.name
         card.name = card.nameEN != '' ? card.nameEN : card.name
         card.char = card.characterEN != '' ? card.characterEN : card.character
