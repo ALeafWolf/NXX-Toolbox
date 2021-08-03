@@ -15,7 +15,7 @@ export class AppComponent {
   lang;
 
   constructor(public router: Router, private _seoService: SEOService, private _translateService: TranslateService) {
-    this._translateService.addLangs(['zh', 'en']);
+    this._translateService.addLangs(['zh', 'en', 'ko']);
     this._translateService.setDefaultLang('zh');
   }
 
@@ -26,12 +26,12 @@ export class AppComponent {
     let l = 'zh'
     //if no user choice on language, set language based on browser language
     if (!lang || lang == '') {
-      if (browserLang == 'en' || browserLang == 'zh') {
+      if (browserLang == 'en' || browserLang == 'zh' || browserLang == 'ko') {
         l = browserLang
       }
     } else {
       //prevent wrong language exist in localStorage
-      if (lang == 'en' || lang == 'zh') {
+      if (lang == 'en' || lang == 'zh' || lang == 'ko') {
         l = lang
       }
     }
@@ -55,18 +55,20 @@ export class AppComponent {
 
   //change the title of page while routing
   setTitle(url: string) {
-    let home = ["主页", "Home"];
-    let cards = ["思绪", "Cards"];
-    let cardCal = ["战力计算器", "Power Calculator"];
-    let rssCal = ["养成资源计算器", "Resource Calculator"];
-    let cardSele = ["思绪选择", "Card Selection"];
-    let skills = ["技能", "Skills"];
-    let other = ["其他", "Other"];
-    let visionHistory = ["往期女神之影", "Vision History"];
-    let merchList = ["官方周边列表", "Official Merch List"];
+    let home = ["主页", "Home", "홈"];
+    let cards = ["思绪", "Cards", "생각"];
+    let cardCal = ["战力计算器", "Power Calculator", "전투력 계산기"];
+    let rssCal = ["养成资源计算器", "Resource Calculator", "재료 계산기"];
+    let cardSele = ["思绪选择", "Card Selection", "생각 선택"];
+    let skills = ["技能", "Skills", "스킬"];
+    let other = ["其他", "Other", "기타"];
+    let visionHistory = ["往期女神之影", "Vision History", "여신의 그림자"];
+    let merchList = ["官方周边列表", "Official Merch List", "공식 굿즈"];
     let i = 0;
     if ('en' == this.lang) {
       i = 1;
+    } else if ('ko' == this.lang) {
+      i = 2;
     }
     let s;
     switch (url) {

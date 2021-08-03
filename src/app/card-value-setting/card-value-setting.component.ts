@@ -106,7 +106,7 @@ export class CardValueSettingComponent implements OnInit {
 
   //set card's information based on user's choice for language
   setCardWithLang(data: any) {
-    if ('en' == this.lang) {
+    if ('en' == this.lang || 'ko' == this.lang) {
       data.char = data.characterEN != '' ? data.characterEN : data.character
       data.n = data.nameEN != '' ? data.nameEN : data.name
 
@@ -144,6 +144,8 @@ export class CardValueSettingComponent implements OnInit {
     let pre = '思绪'
     if ('en' == this.lang) {
       pre = 'Card'
+    } else if ('ko' == this.lang) {
+      pre = '생각'
     }
     this._seoService.setTitle(`${pre}：${this.card.n}`);
   }
