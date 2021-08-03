@@ -42,7 +42,7 @@
     {
         "id": "千灯如昼",
         "name": "千灯如昼",
-        "nameEN": "",
+        "nameEN": "Shape of You",
         "type": "直觉",
         "rarity": "SSR",
         "character": "夏彦",
@@ -218,7 +218,7 @@
     {
         "id": "心有千千结",
         "name": "心有千千结",
-        "nameEN": "",
+        "nameEN": "Entwined Fate",
         "type": "共情",
         "rarity": "SSR",
         "character": "左然",
@@ -1022,7 +1022,7 @@
     {
         "id": "纸幕光影",
         "name": "纸幕光影",
-        "nameEN": "",
+        "nameEN": "Thin Veil",
         "type": "直觉",
         "rarity": "SR",
         "character": "左然",
@@ -1217,6 +1217,26 @@
         ]
     },
     {
+        "id": "凉夏",
+        "name": "凉夏",
+        "nameEN": "Cool Summer",
+        "type": "逻辑",
+        "rarity": "SR",
+        "character": "莫弈",
+        "characterEN": "Vyn",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "演绎推理 Ⅱ",
+            "引譬连类 Ⅱ"
+        ],
+        "influence": 1503,
+        "defense": 870,
+        "obtainedFrom": [
+            "活动",
+            "轮替"
+        ]
+    },
+    {
         "id": "入局",
         "name": "入局",
         "nameEN": "",
@@ -1234,26 +1254,6 @@
         "obtainedFrom": [
             "常驻",
             "主线思绪残影"
-        ]
-    },
-    {
-        "id": "凉夏",
-        "name": "凉夏",
-        "nameEN": "",
-        "type": "逻辑",
-        "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn",
-        "skills": [
-            "先声夺势 Ⅱ",
-            "演绎推理 Ⅱ",
-            "引譬连类 Ⅱ"
-        ],
-        "influence": 1503,
-        "defense": 870,
-        "obtainedFrom": [
-            "活动",
-            "轮替"
         ]
     },
     {
@@ -1398,7 +1398,7 @@
     {
         "id": "琥珀昙华",
         "name": "琥珀昙华",
-        "nameEN": "",
+        "nameEN": "Twilight Beauty",
         "type": "共情",
         "rarity": "SR",
         "character": "陆景和",

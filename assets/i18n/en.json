@@ -63,7 +63,20 @@
         "RANK": "Rank"
     },
     "MERCH-LIST": {
-        "DECLAIM": "For now, only include the merchs that are sold on Tears of Themis' official Tmall shop."
+        "DECLAIM": "For now, only include the merches that are sold on Tears of Themis' official Tmall shop. Still working on enter the merches' information."
+    },
+    "MERCH-DETAIL": {
+        "PRODUCT-NAME": "Product Name",
+        "PRODUCT-SERIES": "Product Series",
+        "ON-SELL-DATE": "On Sell Date",
+        "PRICE": "Price",
+        "PRODUCT-MATERIAL": "Product Material",
+        "PRODUCT-TECHNOLOGY": "Product Technology",
+        "PRODUCT-PACKING": "Product Packing",
+        "PRODUCT-SIZE": "Product Size",
+        "PRODUCT-DESCRIPTION": "Product Description",
+        "PURCHASE-LINK": "Purchase Link",
+        "REFERENCE": "Reference"
     },
     "NAV": {
         "HOME": "Home",

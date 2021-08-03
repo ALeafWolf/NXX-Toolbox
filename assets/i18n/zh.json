@@ -76,7 +76,20 @@
         "RANK": "星级"
     },
     "MERCH-LIST": {
-        "DECLAIM": "目前仅包含售卖于未定事件簿官方天猫旗舰店的周边。"
+        "DECLAIM": "目前仅包含售卖于未定事件簿官方天猫旗舰店的周边。剩余周边信息正在录入中。"
+    },
+    "MERCH-DETAIL": {
+        "PRODUCT-NAME": "商品名",
+        "PRODUCT-SERIES": "商品系列",
+        "ON-SELL-DATE": "贩售日期",
+        "PRICE": "价格",
+        "PRODUCT-MATERIAL": "商品材质",
+        "PRODUCT-TECHNOLOGY": "商品工艺",
+        "PRODUCT-PACKING": "商品包装",
+        "PRODUCT-SIZE": "商品尺寸",
+        "PRODUCT-DESCRIPTION": "商品描述",
+        "PURCHASE-LINK": "购买地址",
+        "REFERENCE": "参考"
     },
     "RSS-CALCULATOR": {
         "LV-RSS": "思绪升级材料",
