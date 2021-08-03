@@ -21,23 +21,23 @@ export class AppComponent {
 
   ngOnInit() {
     // set i18n, default language to Chinese
-    let browserLang = navigator.language.substr(0, 2)
-    let lang = localStorage.getItem('language')
-    let l = 'zh'
+    let browserLang = navigator.language.substr(0, 2);
+    let lang = localStorage.getItem('language');
+    let l = 'zh';
     //if no user choice on language, set language based on browser language
     if (!lang || lang == '') {
       if (browserLang == 'en' || browserLang == 'zh' || browserLang == 'ko') {
-        l = browserLang
+        l = browserLang;
       }
     } else {
       //prevent wrong language exist in localStorage
       if (lang == 'en' || lang == 'zh' || lang == 'ko') {
-        l = lang
+        l = lang;
       }
     }
     localStorage.setItem('language', l)
     this._translateService.use(l);
-    this.lang = l
+    this.lang = l;
 
     //for google analystics
     this.router.events.subscribe(event => {
