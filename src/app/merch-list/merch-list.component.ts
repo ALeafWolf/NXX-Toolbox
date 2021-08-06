@@ -3,7 +3,7 @@ import { Apollo, gql } from 'apollo-angular';
 
 const GET_MERCHES = gql`
   query GetMerchs{
-    merches(limit: 1000) 
+    merches(limit: 1000, sortBy: _ID_ASC) 
       {
         _id
         images

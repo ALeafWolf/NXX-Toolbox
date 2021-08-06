@@ -1454,6 +1454,25 @@
         ]
     },
     {
+        "id": "寄意",
+        "name": "寄意",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "MR",
+        "character": "夏彦",
+        "characterEN": "Luke",
+        "skills": [
+            "层层深入γ Ⅱ",
+            "直感思维 Ⅱ",
+            "紧急避险 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "心意",
         "name": "心意",
         "nameEN": "",
@@ -1473,6 +1492,44 @@
         ]
     },
     {
+        "id": "舒展",
+        "name": "舒展",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "MR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入β Ⅱ",
+            "律法全能 Ⅱ",
+            "排比增势 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "眷慕",
+        "name": "眷慕",
+        "nameEN": "",
+        "type": "逻辑",
+        "rarity": "MR",
+        "character": "左然",
+        "characterEN": "Artem",
+        "skills": [
+            "层层深入γ Ⅱ",
+            "抽丝剥茧 Ⅱ",
+            "绝对理性 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
         "id": "约定",
         "name": "约定",
         "nameEN": "",
@@ -1484,25 +1541,6 @@
             "先声夺势 Ⅱ",
             "还施彼身 Ⅱ",
             "人格侧写 Ⅱ"
-        ],
-        "influence": 1637,
-        "defense": 895,
-        "obtainedFrom": [
-            "活动（限定）"
-        ]
-    },
-    {
-        "id": "信物",
-        "name": "信物",
-        "nameEN": "",
-        "type": "直觉",
-        "rarity": "MR",
-        "character": "陆景和",
-        "characterEN": "Marius",
-        "skills": [
-            "先声夺势 Ⅱ",
-            "预见之明 Ⅱ",
-            "商业谈判 Ⅱ"
         ],
         "influence": 1637,
         "defense": 895,
@@ -1530,20 +1568,58 @@
         ]
     },
     {
-        "id": "舒展",
-        "name": "舒展",
+        "id": "凝眸",
+        "name": "凝眸",
         "nameEN": "",
-        "type": "共情",
+        "type": "直觉",
         "rarity": "MR",
-        "character": "左然",
-        "characterEN": "Artem",
+        "character": "莫弈",
+        "characterEN": "Vyn",
         "skills": [
-            "层层深入β Ⅱ",
-            "律法全能 Ⅱ",
-            "排比增势 Ⅱ"
+            "层层深入γ Ⅱ",
+            "情感投射 Ⅱ",
+            "箱庭疗法 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "信物",
+        "name": "信物",
+        "nameEN": "",
+        "type": "直觉",
+        "rarity": "MR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "预见之明 Ⅱ",
+            "商业谈判 Ⅱ"
         ],
         "influence": 1637,
         "defense": 895,
+        "obtainedFrom": [
+            "活动（限定）"
+        ]
+    },
+    {
+        "id": "悸动",
+        "name": "悸动",
+        "nameEN": "",
+        "type": "共情",
+        "rarity": "MR",
+        "character": "陆景和",
+        "characterEN": "Marius",
+        "skills": [
+            "层层深入γ Ⅱ",
+            "情感投射 Ⅱ",
+            "执行总裁 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
         "obtainedFrom": [
             "活动（限定）"
         ]

@@ -203,6 +203,142 @@
         "tmall": "-"
     },
     {
+        "name": "中秋系列 Q版摇摇亚克力立牌",
+        "series": "中秋系列",
+        "productMaterial": "3mm厚亚克力",
+        "productTechnology": "单层柯式印刷",
+        "productPacking": "背卡、opp袋",
+        "productSize": "整版约13.8*12.2cm",
+        "productDescription": "-",
+        "price": "¥35",
+        "sellDate": -1,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gpup045fuij30go0goq82.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gizlsmt8puj30go0gojtb.jpg",
+            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlsuiqhmg30dw0dwu10.gif",
+            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlsuxexeg30dw0dwnpg.gif",
+            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlsnxsnog30dw0dwb2c.gif",
+            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlso4gmgg30dw0dwu10.gif",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8vbl7819j30ly1j2k7w.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/JlPne3AML",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "中秋系列 Q版软木杯垫 ",
+        "series": "中秋系列",
+        "productMaterial": "铜板纸、密度板、软木",
+        "productTechnology": "表面覆膜，过边油",
+        "productPacking": "信封袋、opp袋、防潮片",
+        "productSize": "直径约9cm",
+        "productDescription": "-",
+        "price": "¥10",
+        "sellDate": -1,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8vbmdiarj30ly0dc78d.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8vbljzawj30ly1j2e81.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/JncOZAPSZ",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "万圣节Q版亚克力立牌",
+        "series": "万圣节系列",
+        "productMaterial": "-",
+        "productTechnology": "-",
+        "productPacking": "-",
+        "productSize": "立牌整体高约8CM，底座约4.5*7CM",
+        "productDescription": "-",
+        "price": "¥38",
+        "sellDate": -1,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8dmwjejej30go0gowu7.jpg",
+            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8dmxu606j30go0go7j0.jpg",
+            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8dmyuci6j30go0gowtk.jpg",
+            "https://wx1.sinaimg.cn/mw2000/007IC2c2gy1gkj176oryqj30go0gowtk.jpg",
+            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8enmgcnxj30go1x9as4.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/JrIIon7AY",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "秘密心迹系列 莫弈生日礼盒",
+        "series": "秘密心迹系列",
+        "productMaterial": "特种纸（礼盒）；马口铁（徽章）；合金（胸针）；3mm厚闪粉亚克力（挂件）",
+        "productTechnology": "烫金工艺（礼盒）；pet印刷，银葱工艺（徽章）；仿珐琅工艺（胸针）；柯式印刷（挂件）",
+        "productPacking": "礼盒、背卡、opp袋、产品信息贴纸",
+        "productSize": "马口铁徽章直径约6.5cm，金属徽章约3.6*4.5cm，亚克力挂件人物部分约6.1*8.1cm，扑克挂件约2.3*3cm",
+        "productDescription": "-",
+        "price": "¥68",
+        "sellDate": 0,
+        "images": [
+            "https://cf.shopee.tw/file/2be41f27bfe483e44dfc54ef81317dcf",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0ismij30m80m846s.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0rjgsj30m80m8jy6.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0k7vnj30m80m87c8.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0vjklj30ly2qb7wh.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "秘密心迹系列 莫弈生日海报",
+        "series": "秘密心迹系列",
+        "productMaterial": "PP",
+        "productTechnology": "全彩印刷",
+        "productPacking": "包装筒、产品信息贴纸",
+        "productSize": "海报约29*50cm",
+        "productDescription": "-",
+        "price": "¥25",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0kbb7j30m80m848j.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0lyelj30ly0y6h0f.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "秘密心迹系列 莫弈生日色纸",
+        "series": "秘密心迹系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "烫绿金包边，背面可立支架",
+        "productPacking": "背卡、opp袋",
+        "productSize": "色纸约15*15cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve10013j30m80m8gvb.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve10mzxj30u01aptzr.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "秘密心迹系列 莫弈生日徽章",
+        "series": "秘密心迹系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷，银葱工艺",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "直径约6.5cm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0ismij30m80m846s.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
         "name": "日常系列 毛绒玩偶",
         "series": "日常系列",
         "productMaterial": "水晶超柔、麂皮绒、涤纶、pp棉",
@@ -257,6 +393,79 @@
         "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-16362476188.104.39ba79a6hKbtU0&id=628146492128&rn=56d670edc7a97e44ffd35e4edfbcc4cc&abbucket=7&sku_properties=134942334:28316"
     },
     {
+        "name": "满分惊喜系列 夏彦生日礼盒",
+        "series": "满分惊喜系列",
+        "productMaterial": "特种纸（礼盒）；马口铁（徽章）；合金（胸针）；3mm厚亚克力（挂件）",
+        "productTechnology": "烫金工艺（礼盒）；pet印刷，银葱工艺（徽章）；仿珐琅工艺（胸针）；柯式印刷（挂件）",
+        "productPacking": "礼盒、背卡、opp袋、产品信息贴纸",
+        "productSize": "礼盒约22*21.5*3cm，马口铁徽章直径约6.5cm，金属徽章约3.7*4.6cm，亚克力挂件人物部分约6*8.5cm，雪花挂件约2.5*3cm",
+        "productDescription": "-",
+        "price": "¥68",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf8pwsj30m80m8wqe.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf3w7xj30m80m8gv1.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf6w13j30m80m8n5j.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf3aj0j30m80m8ahi.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf06cnj30ly2qbhdt.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Jxxh6Ao7N",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "满分惊喜系列 夏彦生日海报",
+        "series": "满分惊喜系列",
+        "productMaterial": "PP",
+        "productTechnology": "全彩印刷",
+        "productPacking": "包装筒、产品信息贴纸",
+        "productSize": "海报约29*50cm",
+        "productDescription": "-",
+        "price": "¥25",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcewadgj30m80m8n85.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Jxxh6Ao7N",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "满分惊喜系列 夏彦生日色纸",
+        "series": "满分惊喜系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "烫金包边，背面可立支架",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "约15*15cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcex53hj30m80m8k1i.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcey73zj30ly0zhaw7.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Jxxh6Ao7N",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "满分惊喜系列 夏彦生日徽章",
+        "series": "满分惊喜系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷，银葱工艺",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "直径约6.5cm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf3w7xj30m80m8gv1.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/Jx2sO0g36",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
         "name": "日常系列 Q版刺绣御守",
         "series": "日常系列",
         "productMaterial": "100%聚酯纤维",
@@ -291,6 +500,80 @@
         "weibo": "https://weibo.com/6073483367/JyTHLclsL",
         "hoyolab": "-",
         "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-16362476188.89.39ba79a6hKbtU0&id=631721489619&rn=56d670edc7a97e44ffd35e4edfbcc4cc&abbucket=7"
+    },
+    {
+        "name": "眷然恋影系列 左然生日礼盒",
+        "series": "眷然恋影系列",
+        "productMaterial": "特种纸（礼盒）；马口铁（徽章）；合金（胸针）；3mm厚亚克力（挂件）",
+        "productTechnology": "烫金工艺（礼盒）；pet印刷，金卡工艺（徽章）；仿珐琅工艺（胸针）；柯式印刷（挂件）",
+        "productPacking": "礼盒、背卡、opp袋、产品信息贴纸",
+        "productSize": "礼盒约22*21.5*3cm，马口铁徽章直径约6.5cm，金属徽章约3.4*4.7cm，亚克力挂件人物部分约6.5*8.1cm，书本挂件约2.4*2.2cm",
+        "productDescription": "-",
+        "price": "¥68",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwwyktxj30m80m80yy.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx0ng2j30m80m87a2.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx702kj30m80m8aeh.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx5uu7j30m80m8q70.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx3d5wj30ly2oana1.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "眷然恋影系列 左然生日海报",
+        "series": "眷然恋影系列",
+        "productMaterial": "PP",
+        "productTechnology": "全彩印刷",
+        "productPacking": "包装筒、产品信息贴纸",
+        "productSize": "海报约29*50cm",
+        "productDescription": "-",
+        "price": "¥25",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx0i4ij30m80m8qak.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwwyfibj30ly1cgtho.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "眷然恋影系列 左然生日色纸",
+        "series": "眷然恋影系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "烫金包边，背面可立支架",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "约15*15cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx665rj30m80m8dn3.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx04t9j30ly1cg115.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "眷然恋影系列 左然生日徽章",
+        "series": "眷然恋影系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷，银葱工艺",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "直径约6.5cm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx0ng2j30m80m87a2.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
+        "hoyolab": "-",
+        "tmall": "-"
     },
     {
         "name": "日常系列 Q版磨砂充电宝",
@@ -434,6 +717,81 @@
         "tmall": "-"
     },
     {
+        "name": "浮光和景系列 陆景和生日礼盒",
+        "series": "浮光和景系列",
+        "productMaterial": "特种纸（礼盒）；马口铁（徽章）；合金（胸针）；3mm厚亚克力（挂件）",
+        "productTechnology": "烫金工艺（礼盒）；pet印刷，拉丝银葱工艺（徽章）；仿珐琅工艺（胸针）；柯式印刷（挂件）",
+        "productPacking": "礼盒、背卡、opp袋、产品信息贴纸",
+        "productSize": "礼盒约22*21.5*3cm，马口铁徽章直径约6.5cm，金属徽章约3.2*4.6cm，亚克力挂件人物部分约6.2*9.1cm，吊坠约2.6*2.2cm",
+        "productDescription": "-",
+        "price": "¥68",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a2a5yvj30m80m8n4n.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a29rs6j30m80m8wle.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a2bse1j30m80m8jvl.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a27uxlj30m80m8jvs.jpg",
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a2cwjjj30ly2oa1c7.jpg"
+        ],
+        "weibo": "https://weibo.com/6073483367/KlmMkwVYt",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "浮光和景系列 陆景和生日海报",
+        "series": "浮光和景系列",
+        "productMaterial": "PP",
+        "productTechnology": "全彩印刷",
+        "productPacking": "包装筒、产品信息贴纸",
+        "productSize": "海报约29*50cm",
+        "productDescription": "-",
+        "price": "¥25",
+        "sellDate": 0,
+        "images": [
+            "https://img.alicdn.com/bao/i3/3249253975/O1CN01HZ7T381fEb34NXhiu_!!0-item_pic.jpg",
+            "https://cf.shopee.tw/file/5126f8c60cfbbae45a6c0ec72159636b"
+        ],
+        "weibo": "https://weibo.com/6073483367/KldenfnQB",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "浮光和景系列 陆景和生日色纸",
+        "series": "浮光和景系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "烫金包边，背面可立支架",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "约15*15cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "images": [
+            "https://img.alicdn.com/bao/i4/3249253975/O1CN01XOEBHu1fEb2yklDs7_!!0-item_pic.jpg",
+            "https://cf.shopee.tw/file/8f85336cfdcb44f0481ae6a548e02d0f"
+        ],
+        "weibo": "https://weibo.com/6073483367/KldenfnQB",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
+        "name": "浮光和景系列 陆景和生日徽章",
+        "series": "浮光和景系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷，银葱工艺",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "直径约6.5cm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "images": [
+            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a29rs6j30m80m8wle.jpg",
+            "https://cf.shopee.tw/file/105a936bf7d2c784985f99f29e863438"
+        ],
+        "weibo": "https://weibo.com/6073483367/KlmMkwVYt",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
+    {
         "name": "雨意系列 Q版盒蛋",
         "series": "雨意系列",
         "productMaterial": "ABD&PVC",
@@ -488,7 +846,7 @@
         "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632879307.15.703f21a6s8Okwf&id=650643759781&scene=taobao_shop&sku_properties=134942334:28316"
     },
     {
-        "name": "绯色盛典系列 装饰色纸 ",
+        "name": "绯色盛典系列 装饰色纸",
         "series": "绯色盛典系列",
         "productMaterial": "进口色纸",
         "productTechnology": "烫金包边+背面可立支架",
