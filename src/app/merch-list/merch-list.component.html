@@ -64,7 +64,7 @@
         </div> -->
         <div class="col-12 col-md-10 my-2 row">
             <div class="col-4 col-md-3 col-lg-2" *ngFor="let m of merches">
-                <a class="merch-link" [routerLink]="['/merch-detail/', m.name]" target="_blank">
+                <a class="merch-link" [routerLink]="['/merch-detail/']" [queryParams]="{id: m._id}" target="_blank">
                     <div class="bg-dark p-3 m-1 merch-card">
                         <img class="img-fluid" src="{{m.images[0]}}">
                         {{m.name}}

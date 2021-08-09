@@ -1,6 +1,47 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
+import { Apollo, gql } from 'apollo-angular';
+
+const GET_POOLS = gql`
+  query GetPools{
+    card_pool_histories(limit: 1000, sortBy: _ID_ASC){
+      startDate
+      endDate
+      type
+      server
+      cards{
+        id
+        _id
+        character
+      }
+      bid 
+      bv
+      twitter 
+      youtube
+    }
+  }
+`;
+
+const GET_POOLS_EN = gql`
+  query GetPoolsEN{
+    card_pool_histories(limit: 1000, sortBy: _ID_ASC){
+      startDate
+      endDate
+      typeEN
+      server
+      cards{
+        id
+        _id
+        character
+      }
+      bid 
+      bv
+      twitter 
+      youtube
+    }
+  }
+`;
 
 export type SortColumn = '';
 export type SortDirection = 'asc' | 'desc' | '';
@@ -19,7 +60,7 @@ export interface SortEvent {
   styleUrls: ['./card-pool-history.component.scss']
 })
 export class CardPoolHistoryComponent implements OnInit {
-
+  lang;
   pools;
   cnPool = [];
   globalPool = [];
@@ -35,16 +76,53 @@ export class CardPoolHistoryComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService) { }
+  constructor(private _data: DataService, private _apollo: Apollo) { }
 
   ngOnInit(): void {
-    this._data.getCards().toPromise().then((data: any[]) => {
-      this.cards = data;
-      this._data.getVisionHistory().toPromise().then((data: any[]) => {
-        this.pools = data;
-        this.isLoaded = true;
-        this.sortPools(data);
-      })
+    this.lang = localStorage.getItem('language');
+    this.loadData();
+    // this._data.getCards().toPromise().then((data: any[]) => {
+    //   this.cards = data;
+    //   this._data.getVisionHistory().toPromise().then((data: any[]) => {
+    //     this.pools = data;
+    //     this.isLoaded = true;
+    //     this.sortPools(data);
+    //   })
+    // })
+  }
+
+  loadData() {
+    let query;
+    if (this.lang == 'zh') {
+      query = GET_POOLS;
+    } else {
+      query = GET_POOLS_EN;
+    }
+
+    this._apollo.query({
+      query
+    }).toPromise().then((result: any) => {
+      this.configurePoolWithLang(result.data.card_pool_histories);
+      this.isLoaded = true;
+    }).catch(err => {
+      console.log(err);
+      this.isLoaded = true;
+    })
+  }
+
+  configurePoolWithLang(pools: any[]) {
+    pools.forEach(pool => {
+      let p = {...pool};
+      if (this.lang == 'zh') {
+        p.t = p.type;
+      } else {
+        p.t = p.typeEN;
+      }
+      if (p.server == "CN") {
+        this.cnPool.push(p);
+      } else if (p.server == "GLOBAL") {
+        this.globalPool.push(p);
+      }
     })
   }
 

@@ -63,6 +63,7 @@ const routes: Routes = [
   {
     path: 'vision-history',
     component: CardPoolHistoryComponent,
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-rss-calculator',
@@ -74,7 +75,7 @@ const routes: Routes = [
     canActivate: [RealmAuthGuard]
   },
   {
-    path: 'merch-detail/:name',
+    path: 'merch-detail',
     component: MerchDetailComponent,
     canActivate: [RealmAuthGuard]
   },

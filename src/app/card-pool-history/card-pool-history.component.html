@@ -27,11 +27,12 @@
                         <tr class="smallFont" *ngFor="let p of cnPool">
                             <td class="table-text">{{p.startDate}}</td>
                             <td class="table-text">{{p.endDate}}</td>
-                            <td class="table-text">{{p.type}}</td>
+                            <td class="table-text">{{p.t}}</td>
                             <td class="table-text">
                                 <span *ngFor="let c of p.cards">
-                                    <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
-                                        <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
+                                    <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
+                                        <img class="img-fluid cardIcon"
+                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
                                     </a>
                                 </span>
                             </td>
@@ -65,11 +66,12 @@
                         <tr class="smallFont" *ngFor="let p of globalPool">
                             <td class="table-text">{{p.startDate}}</td>
                             <td class="table-text">{{p.endDate}}</td>
-                            <td class="table-text">{{p.type}}</td>
+                            <td class="table-text">{{p.t}}</td>
                             <td class="table-text">
                                 <span *ngFor="let c of p.cards">
-                                    <a [routerLink]="[getRouterLink(c)]" routerLinkActive="active" target="_blank">
-                                        <img class="img-fluid cardIcon" src="{{getImgSrc(c)}}">
+                                    <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
+                                        <img class="img-fluid cardIcon"
+                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
                                     </a>
                                 </span>
                             </td>
@@ -78,7 +80,7 @@
                                     <img class="img-fluid" style="width: 24px;" src="assets/images/twitter.png">
                                 </a>
                                 <a *ngIf="p.youtube" href="{{p.youtube}}" target="_blank">
-                                    <img class="img-fluid" style="width: 24px;" src="assets/images/bilibili.png">
+                                    <img class="img-fluid" style="width: 24px;" src="assets/images/youtube.png">
                                 </a>
                             </td>
                         </tr>

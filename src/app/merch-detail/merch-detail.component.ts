@@ -1,8 +1,7 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SEOService } from '../services/seo/seo.service';
 import { Apollo, gql } from 'apollo-angular';
-import { Subscription } from 'rxjs';
 
 const GET_MERCH = gql`
   query GetMerch($query: MerchQueryInput!){
@@ -35,7 +34,7 @@ const GET_MERCH = gql`
   styleUrls: ['./merch-detail.component.scss']
 })
 export class MerchDetailComponent implements OnInit {
-  name;
+  _id;
   lang;
 
   merch;
@@ -44,20 +43,20 @@ export class MerchDetailComponent implements OnInit {
   constructor(private _route: ActivatedRoute, private _apollo: Apollo, private _seoService: SEOService) { }
 
   ngOnInit(): void {
-    this.name = this._route.snapshot.params.name;
+    this._id = this._route.snapshot.queryParamMap.get('id') as String;
     this.lang = localStorage.getItem('language');
     this.loadData();
-    this.setTitle();
   }
 
   loadData() {
     return this._apollo.query({
       query: GET_MERCH,
       variables: {
-        query: {name: this.name}
+        query: { _id: this._id }
       },
     }).toPromise().then((result: any) => {
       this.merch = result.data.merch;
+      this.setTitle();
       this.isLoaded = true;
     });
   }
@@ -69,6 +68,6 @@ export class MerchDetailComponent implements OnInit {
     } else if ('ko' == this.lang) {
       pre = '굿즈';
     }
-    this._seoService.setTitle(`${pre}：${this.name}`);
+    this._seoService.setTitle(`${pre}：${this.merch.name}`);
   }
 }
