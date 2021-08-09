@@ -49,7 +49,7 @@
 
         <div class="col-12 col-md-10 col-lg-5 row justify-content-around">
             <div class="col-3 my-2" *ngFor="let i of userData">
-                <a [routerLink]="['/card-value/', i.charName, i.name]">
+                <a [routerLink]="['/card-value/']" [queryParams]="{id: i._id}">
                     <img class="img-fluid calculatorIcon"
                         src="{{imgURL + i.charName + '/' + i.name + '.webp'}}">
                 </a>

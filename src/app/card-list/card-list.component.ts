@@ -1,6 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
+import { sortSkill } from '../model/card-statistics';
 import { Apollo, gql } from 'apollo-angular';
 
 const GET_CARDS = gql`
@@ -16,6 +16,7 @@ const GET_CARDS = gql`
       {
         id
         name
+        slot
       }
       obtainedFrom
     }
@@ -35,6 +36,7 @@ const GET_CARDS_EN = gql`
       {
         id
         name
+        slot
       }
       obtainedFrom
     }
@@ -59,7 +61,7 @@ export class CardListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService, private _apollo: Apollo) {
+  constructor(private _apollo: Apollo) {
 
   }
 
@@ -78,12 +80,7 @@ export class CardListComponent implements OnInit {
     this._apollo.query({
       query
     }).toPromise().then((result: any) => {
-      if (this.lang != 'zh') {
-        this.loadCardWithLang(result.data.cards);
-      } else {
-        this.allCards = { ...result.data.cards };
-        this.cards = this.allCards;
-      }
+      this.loadCardWithLang(result.data.cards);
       this.isLoaded = true;
     }).catch(err => {
       console.log(err);
@@ -92,14 +89,16 @@ export class CardListComponent implements OnInit {
   }
 
   loadCardWithLang(cards: any[]) {
-    let chars = []
+    let cs = [];
     cards.forEach(card => {
-      let c = { ...card }
-      c.name = card.nameEN != '' ? card.nameEN : card.name;
-      chars.push(c)
+      let c = { ...card };
+      c.n = this.lang == 'zh' ? card.name : card.nameEN;
+      if(c.name=='入局') console.log(c)
+      c.skills = sortSkill(card.skills, card.rarity);
+      cs.push(c);
     })
-    this.allCards = chars;
-    this.cards = chars;
+    this.allCards = cs;
+    this.cards = cs;
   }
 
   //button to top

@@ -100,3 +100,18 @@ export class ExpChipInfo {
         return this._expChipCost;
     }
 }
+
+export function sortSkill(skills: any[], rarity: string) {
+    let array: any[] = rarity == 'R' ? [{}, {}] : [{}, {}, {}];
+    skills.forEach(skill => {
+        switch (skill.slot) {
+            case 1: array[0] = skill;
+                break;
+            case 2: array[1] = skill;
+                break;
+            case 3: array[2] = skill;
+                break;
+        }
+    })
+    return array;
+}

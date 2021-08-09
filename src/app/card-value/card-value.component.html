@@ -8,7 +8,7 @@
     <div class="col-12 row align-items-center">
         <div class="col-6 col-md-4 row py-2">
             <div class="col-12 row py-2 justify-content-center">
-                <a class="col-4 btn" [routerLink]="['/card-value-setting/']" [queryParams]="{id: card._id}">
+                <a class="col-4 btn" [routerLink]="['/card-value-setting/']" [queryParams]="{id: _id}">
                     <img class="img-fluid" src="assets/images/btn_edit.png">
                 </a>
                 <a *ngIf="hasUserData" class="col-4 btn" routerLink="/card-calculator" (click)="deleteUserData()">

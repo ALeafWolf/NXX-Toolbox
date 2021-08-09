@@ -3,8 +3,9 @@ import { ActivatedRoute } from '@angular/router';
 
 import { DataService } from '../services/data/data.service';
 import { SEOService } from '../services/seo/seo.service';
-import { SkillInfo, CardInfo } from '../model/card-statistics';
+import { CardInfo } from '../model/card-statistics';
 import { GlobalVariable } from '../global-variable';
+import { sortSkill } from '../model/card-statistics';
 import { Apollo, gql } from 'apollo-angular';
 
 const GET_CARD = gql`
@@ -22,6 +23,7 @@ const GET_CARD = gql`
         nums
         character
         type
+        slot
       }
       influence
       defense
@@ -47,6 +49,7 @@ const GET_CARD_EN = gql`
         nums
         character
         type
+        slot
       }
       influence
       defense
@@ -123,20 +126,20 @@ export class CardValueSettingComponent implements OnInit {
     }).toPromise().then((cResult: any) => {
       this.card = { ...cResult.data.card };
       if (this.card) {
+        this.card.skills = sortSkill(this.card.skills, this.card.rarity);
         this.att = this.card.influence;
         this.def = this.card.defense;
         this.userData = JSON.parse(this._data.getItem(this.card.id));
         if (this.userData) {
           this.loadUserData();
         }
-        this.configureCardLanguage();
-        this.setSkillDisplay();
-        this.setTitle();
-        this.lv = this.card.rarity == "R" ? 70 : 100;
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+        this.configureCardLanguage();
+        this.setTitle();
+        this.setSkillDisplay();
+        this.lv = this.card.rarity == "R" ? 70 : 100;
       }
       this.isLoaded = true;
-
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
@@ -248,6 +251,7 @@ export class CardValueSettingComponent implements OnInit {
   saveUserData() {
     let d = {
       //necessary statistics of cards
+      _id: this._id,
       charName: this.card.character,
       name: this.card.name,
       star: this.star,

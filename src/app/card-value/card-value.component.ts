@@ -5,6 +5,7 @@ import { DataService } from '../services/data/data.service';
 import { SEOService } from '../services/seo/seo.service';
 import { CardInfo } from '../model/card-statistics';
 import { GlobalVariable } from '../global-variable';
+import { sortSkill } from '../model/card-statistics';
 import { Apollo, gql } from 'apollo-angular';
 
 const GET_CARD = gql`
@@ -20,6 +21,7 @@ const GET_CARD = gql`
         name
         description
         nums
+        slot
       }
       influence
       defense
@@ -41,6 +43,7 @@ const GET_CARD_EN = gql`
         nameEN
         descriptionEN
         nums
+        slot
       }
       influence
       defense
@@ -110,24 +113,24 @@ export class CardValueComponent implements OnInit {
     }).toPromise().then((cResult: any) => {
       this.card = { ...cResult.data.card };
       if (this.card) {
+        this.card.skills = sortSkill(this.card.skills, this.card.rarity);
         this.att = this.card.influence;
         this.def = this.card.defense;
         this.userData = JSON.parse(this._data.getItem(this.card.id));
         if (this.userData) {
           this.loadUserData();
         }
+        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
         if (this.lang != 'zh') {
           this.configureCardLanguage();
         } else {
           this.card.char = this.card.character;
         }
-        this.setSkillDisplay();
         this.setTitle();
+        this.setSkillDisplay();
         this.lv = this.card.rarity == "R" ? 70 : 100;
-        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
       }
       this.isLoaded = true;
-
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
@@ -141,7 +144,6 @@ export class CardValueComponent implements OnInit {
     let length = this.card.rarity == 'R' ? 2 : 3;
     for (let i = 0; i < length; i++) {
       let s = { ...this.card.skills[i] };
-      console.log(s)
       s.name = s.nameEN;
       s.description = s.descriptionEN;
       skills.push(s);
@@ -158,7 +160,7 @@ export class CardValueComponent implements OnInit {
   }
 
   setTitle() {
-    let pre = '思绪'
+    let pre = '思绪';
     if ('en' == this.lang) {
       pre = 'Card'
     } else if ('ko' == this.lang) {
