@@ -29,40 +29,33 @@ const routes: Routes = [
   {
     path: 'cards',
     component: CardListComponent,
-    canActivate: [ RealmAuthGuard ]
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'skills',
     component: SkillListComponent,
-    canActivate: [ RealmAuthGuard ]
-  },
+    canActivate: [RealmAuthGuard]
+  }, 
   {
-    path: 'skill/:name',
+    path: 'skill',
     component: SkillDetailComponent,
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-selection',
     component: CardSelectionComponent,
-    canActivate: [ RealmAuthGuard ]
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-value',
     component: CardValueComponent,
-    canActivate: [ RealmAuthGuard ]
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-value-setting',
     component: CardValueSettingComponent,
-    canActivate: [ RealmAuthGuard ]
+    canActivate: [RealmAuthGuard]
   },
-  // {
-  //   path: 'card-value/:charname/:id',
-  //   component: CardValueComponent,
-  // },
-  // {
-  //   path: 'card-value-setting/:charname/:id',
-  //   component: CardValueSettingComponent,
-  // },
   {
     path: 'other',
     component: OtherComponent,
@@ -78,12 +71,12 @@ const routes: Routes = [
   {
     path: 'merch-list',
     component: MerchListComponent,
-    canActivate: [ RealmAuthGuard ]
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'merch-detail/:name',
     component: MerchDetailComponent,
-    canActivate: [ RealmAuthGuard ]
+    canActivate: [RealmAuthGuard]
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {

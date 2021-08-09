@@ -1,6 +1,6 @@
 [
     {
-        "id": "先声夺势",
+        "ref": "先声夺势",
         "name": "先声夺势 Ⅰ",
         "nameEN": "Preemptive Strike Ⅰ",
         "character": "通用",
@@ -13,7 +13,7 @@
         "slot": 1
     },
     {
-        "id": "先声夺势",
+        "ref": "先声夺势",
         "name": "先声夺势 Ⅱ",
         "nameEN": "Preemptive Strike Ⅱ",
         "character": "通用",
@@ -26,7 +26,7 @@
         "slot": 1
     },
     {
-        "id": "先声夺势",
+        "ref": "先声夺势",
         "name": "先声夺势 Ⅲ",
         "nameEN": "Preemptive Strike Ⅲ",
         "character": "通用",
@@ -39,7 +39,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入α Ⅰ",
         "nameEN": "Layer by Layer α Ⅰ",
         "character": "通用",
@@ -52,7 +52,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入α Ⅱ",
         "nameEN": "Layer by Layer α Ⅱ",
         "character": "通用",
@@ -65,7 +65,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入α Ⅲ",
         "nameEN": "Layer by Layer α Ⅲ",
         "character": "通用",
@@ -79,7 +79,7 @@
     },
     
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入β Ⅰ",
         "nameEN": "Layer by Layer β Ⅰ",
         "character": "通用",
@@ -92,7 +92,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入β Ⅱ",
         "nameEN": "Layer by Layer β Ⅱ",
         "character": "通用",
@@ -105,7 +105,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入β Ⅲ",
         "nameEN": "Layer by Layer β Ⅲ",
         "character": "通用",
@@ -118,7 +118,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入γ Ⅰ",
         "nameEN": "Layer by Layer γ Ⅰ",
         "character": "通用",
@@ -131,7 +131,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入γ Ⅱ",
         "nameEN": "Layer by Layer γ Ⅱ",
         "character": "通用",
@@ -144,7 +144,7 @@
         "slot": 1
     },
     {
-        "id": "层层深入",
+        "ref": "层层深入",
         "name": "层层深入γ Ⅲ",
         "nameEN": "Layer by Layer γ Ⅲ",
         "character": "通用",
@@ -157,7 +157,7 @@
         "slot": 1
     },
     {
-        "id": "以退为进",
+        "ref": "以退为进",
         "name": "以退为进α Ⅲ",
         "nameEN": "Feigning Defeat α Ⅲ",
         "character": "通用",
@@ -170,7 +170,7 @@
         "slot": 1
     },
     {
-        "id": "以退为进",
+        "ref": "以退为进",
         "name": "以退为进β Ⅰ",
         "nameEN": "Feigning Defeat β Ⅰ",
         "character": "通用",
@@ -183,7 +183,7 @@
         "slot": 1
     },
     {
-        "id": "以退为进",
+        "ref": "以退为进",
         "name": "以退为进β Ⅲ",
         "nameEN": "Feigning Defeat β Ⅲ",
         "character": "通用",
@@ -197,7 +197,7 @@
 
     },
     {
-        "id": "以退为进",
+        "ref": "以退为进",
         "name": "以退为进γ Ⅰ",
         "nameEN": "Feigning Defeat γ Ⅰ",
         "character": "通用",
@@ -211,7 +211,7 @@
 
     },
     {
-        "id": "以退为进",
+        "ref": "以退为进",
         "name": "以退为进γ Ⅱ",
         "nameEN": "Feigning Defeat γ Ⅱ",
         "character": "通用",
@@ -225,7 +225,7 @@
 
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人α Ⅰ",
         "nameEN": "Logical Conclusion α Ⅰ",
         "character": "通用",
@@ -238,7 +238,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人α Ⅱ",
         "nameEN": "Logical Conclusion α Ⅱ",
         "character": "通用",
@@ -251,7 +251,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人α Ⅲ",
         "nameEN": "Logical Conclusion α Ⅲ",
         "character": "通用",
@@ -264,7 +264,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人β Ⅰ",
         "nameEN": "Logical Conclusion β Ⅰ",
         "character": "通用",
@@ -277,7 +277,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人β Ⅱ",
         "nameEN": "Logical Conclusion β Ⅱ",
         "character": "通用",
@@ -290,7 +290,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人β Ⅲ",
         "nameEN": "Logical Conclusion β Ⅲ",
         "character": "通用",
@@ -303,7 +303,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人γ Ⅰ",
         "nameEN": "Logical Conclusion γ Ⅰ",
         "character": "通用",
@@ -316,7 +316,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人γ Ⅱ",
         "nameEN": "Logical Conclusion γ Ⅱ",
         "character": "通用",
@@ -329,7 +329,7 @@
         "slot": 1
     },
     {
-        "id": "以理服人",
+        "ref": "以理服人",
         "name": "以理服人γ Ⅲ",
         "nameEN": "Logical Conclusion γ Ⅲ",
         "character": "通用",
@@ -342,7 +342,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱α Ⅰ",
         "nameEN": "Lure & Bait α Ⅰ",
         "character": "通用",
@@ -355,7 +355,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱α Ⅱ",
         "nameEN": "Lure & Bait α Ⅱ",
         "character": "通用",
@@ -368,7 +368,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱α Ⅲ",
         "nameEN": "Lure & Bait α Ⅲ",
         "character": "通用",
@@ -381,7 +381,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱β Ⅰ",
         "nameEN": "Lure & Bait β Ⅰ",
         "character": "通用",
@@ -394,7 +394,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱β Ⅱ",
         "nameEN": "Lure & Bait β Ⅱ",
         "character": "通用",
@@ -407,7 +407,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱β Ⅲ",
         "nameEN": "Lure & Bait β Ⅲ",
         "character": "通用",
@@ -420,7 +420,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱γ Ⅰ",
         "nameEN": "Lure & Bait γ Ⅰ",
         "character": "通用",
@@ -433,7 +433,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱γ Ⅱ",
         "nameEN": "Lure & Bait γ Ⅱ",
         "character": "通用",
@@ -446,7 +446,7 @@
         "slot": 1
     },
     {
-        "id": "循循善诱",
+        "ref": "循循善诱",
         "name": "循循善诱γ Ⅲ",
         "nameEN": "Lure & Bait γ Ⅲ",
         "character": "通用",
@@ -459,7 +459,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫α Ⅰ",
         "nameEN": "Attention to Detail α Ⅰ",
         "character": "通用",
@@ -472,7 +472,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫α Ⅱ",
         "nameEN": "Attention to Detail α Ⅱ",
         "character": "通用",
@@ -485,7 +485,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫α Ⅲ",
         "nameEN": "Attention to Detail α Ⅲ",
         "character": "通用",
@@ -498,7 +498,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫β Ⅰ",
         "nameEN": "Attention to Detail β Ⅰ",
         "character": "通用",
@@ -511,7 +511,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫β Ⅱ",
         "nameEN": "Attention to Detail β Ⅱ",
         "character": "通用",
@@ -524,7 +524,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫β Ⅲ",
         "nameEN": "Attention to Detail β Ⅲ",
         "character": "通用",
@@ -537,7 +537,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫γ Ⅰ",
         "nameEN": "Attention to Detail γ Ⅰ",
         "character": "通用",
@@ -550,7 +550,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫γ Ⅱ",
         "nameEN": "Attention to Detail γ Ⅱ",
         "character": "通用",
@@ -563,7 +563,7 @@
         "slot": 1
     },
     {
-        "id": "洞察秋毫",
+        "ref": "洞察秋毫",
         "name": "洞察秋毫γ Ⅲ",
         "nameEN": "Attention to Detail γ Ⅲ",
         "character": "通用",
@@ -576,7 +576,7 @@
         "slot": 1
     },
     {
-        "id": "张弛有度",
+        "ref": "张弛有度",
         "name": "张弛有度 Ⅱ",
         "nameEN": "Balanced Ⅱ",
         "character": "通用",
@@ -589,7 +589,7 @@
         "slot": 2
     },
     {
-        "id": "张弛有度",
+        "ref": "张弛有度",
         "name": "张弛有度 Ⅲ",
         "nameEN": "Balanced Ⅲ",
         "character": "通用",
@@ -602,7 +602,7 @@
         "slot": 2
     },
     {
-        "id": "举一反三",
+        "ref": "举一反三",
         "name": "举一反三 Ⅱ",
         "nameEN": "Extrapolation Ⅱ",
         "character": "通用",
@@ -615,7 +615,7 @@
         "slot": 2
     },
     {
-        "id": "举一反三",
+        "ref": "举一反三",
         "name": "举一反三 Ⅲ",
         "nameEN": "Extrapolation Ⅲ",
         "character": "通用",
@@ -628,7 +628,7 @@
         "slot": 2
     },
     {
-        "id": "运筹帷幄",
+        "ref": "运筹帷幄",
         "name": "运筹帷幄 Ⅱ",
         "nameEN": "Strategist Ⅱ",
         "character": "通用",
@@ -641,7 +641,7 @@
         "slot": 2
     },
     {
-        "id": "趋利避害",
+        "ref": "趋利避害",
         "name": "趋利避害 Ⅱ",
         "nameEN": "Sound Judgment Ⅱ",
         "character": "通用",
@@ -654,7 +654,7 @@
         "slot": 2
     },
     {
-        "id": "势如破竹",
+        "ref": "势如破竹",
         "name": "势如破竹 Ⅰ",
         "nameEN": "Formidable Ⅰ",
         "character": "通用",
@@ -667,7 +667,7 @@
         "slot": 2
     },
     {
-        "id": "步步为营",
+        "ref": "步步为营",
         "name": "步步为营 Ⅰ",
         "nameEN": "Progressive Ⅰ",
         "character": "通用",
@@ -680,7 +680,7 @@
         "slot": 2
     },
     {
-        "id": "侦探头脑",
+        "ref": "侦探头脑",
         "name": "侦探头脑 Ⅱ",
         "nameEN": "Detective's Mind Ⅱ",
         "character": "夏彦",
@@ -693,7 +693,7 @@
         "slot": 3
     },
     {
-        "id": "侦探头脑",
+        "ref": "侦探头脑",
         "name": "侦探头脑 Ⅲ",
         "nameEN": "Detective's Mind Ⅲ",
         "character": "夏彦",
@@ -706,7 +706,7 @@
         "slot": 3
     },
     {
-        "id": "真相还原",
+        "ref": "真相还原",
         "name": "真相还原 Ⅱ",
         "nameEN": "真相还原 Ⅱ",
         "character": "夏彦",
@@ -719,7 +719,7 @@
         "slot": 2
     },
     {
-        "id": "真相还原",
+        "ref": "真相还原",
         "name": "真相还原 Ⅲ",
         "nameEN": "真相还原 Ⅲ",
         "character": "夏彦",
@@ -732,7 +732,7 @@
         "slot": 2
     },
     {
-        "id": "瞬间捕捉",
+        "ref": "瞬间捕捉",
         "name": "瞬间捕捉 Ⅱ",
         "nameEN": "Instantaneous Capture Ⅱ",
         "character": "夏彦",
@@ -745,7 +745,7 @@
         "slot": 2
     },
     {
-        "id": "瞬间捕捉",
+        "ref": "瞬间捕捉",
         "name": "瞬间捕捉 Ⅲ",
         "nameEN": "Instantaneous Capture Ⅲ",
         "character": "夏彦",
@@ -758,7 +758,7 @@
         "slot": 2
     },
     {
-        "id": "锐辞庭辩",
+        "ref": "锐辞庭辩",
         "name": "锐辞庭辩 Ⅱ",
         "nameEN": "锐辞庭辩 Ⅱ",
         "character": "左然",
@@ -771,7 +771,7 @@
         "slot": 3
     },
     {
-        "id": "锐辞庭辩",
+        "ref": "锐辞庭辩",
         "name": "锐辞庭辩 Ⅲ",
         "nameEN": "锐辞庭辩 Ⅲ",
         "character": "左然",
@@ -784,7 +784,7 @@
         "slot": 3
     },
     {
-        "id": "律典经纬",
+        "ref": "律典经纬",
         "name": "律典经纬 Ⅱ",
         "nameEN": "律典经纬 Ⅱ",
         "character": "左然",
@@ -797,7 +797,7 @@
         "slot": 3
     },
     {
-        "id": "律典经纬",
+        "ref": "律典经纬",
         "name": "律典经纬 Ⅲ",
         "nameEN": "律典经纬 Ⅲ",
         "character": "左然",
@@ -810,7 +810,7 @@
         "slot": 3
     },
     {
-        "id": "律法全能",
+        "ref": "律法全能",
         "name": "律法全能 Ⅱ",
         "nameEN": "律法全能 Ⅱ",
         "character": "左然",
@@ -823,7 +823,7 @@
         "slot": 2
     },
     {
-        "id": "律法全能",
+        "ref": "律法全能",
         "name": "律法全能 Ⅲ",
         "nameEN": "律法全能 Ⅲ",
         "character": "左然",
@@ -836,7 +836,7 @@
         "slot": 2
     },
     {
-        "id": "精益求精",
+        "ref": "精益求精",
         "name": "精益求精 Ⅱ",
         "nameEN": "精益求精 Ⅱ",
         "character": "左然",
@@ -849,7 +849,7 @@
         "slot": 2
     },
     {
-        "id": "精益求精",
+        "ref": "精益求精",
         "name": "精益求精 Ⅲ",
         "nameEN": "精益求精 Ⅲ",
         "character": "左然",
@@ -862,7 +862,7 @@
         "slot": 2
     },
     {
-        "id": "人格侧写",
+        "ref": "人格侧写",
         "name": "人格侧写 Ⅱ",
         "nameEN": "人格侧写 Ⅱ",
         "character": "莫弈",
@@ -875,7 +875,7 @@
         "slot": 3
     },
     {
-        "id": "人格侧写",
+        "ref": "人格侧写",
         "name": "人格侧写 Ⅲ",
         "nameEN": "人格侧写 Ⅲ",
         "character": "莫弈",
@@ -888,7 +888,7 @@
         "slot": 3
     },
     {
-        "id": "谈话引导",
+        "ref": "谈话引导",
         "name": "谈话引导 Ⅱ",
         "nameEN": "谈话引导 Ⅱ",
         "character": "莫弈",
@@ -901,7 +901,7 @@
         "slot": 3
     },
     {
-        "id": "谈话引导",
+        "ref": "谈话引导",
         "name": "谈话引导 Ⅲ",
         "nameEN": "谈话引导 Ⅲ",
         "character": "莫弈",
@@ -914,7 +914,7 @@
         "slot": 3
     },
     {
-        "id": "盛装舞步",
+        "ref": "盛装舞步",
         "name": "盛装舞步 Ⅱ",
         "nameEN": "Dressage Ⅱ",
         "character": "莫弈",
@@ -927,7 +927,7 @@
         "slot": 2
     },
     {
-        "id": "盛装舞步",
+        "ref": "盛装舞步",
         "name": "盛装舞步 Ⅲ",
         "nameEN": "Dressage Ⅲ",
         "character": "莫弈",
@@ -940,7 +940,7 @@
         "slot": 2
     },
     {
-        "id": "交响奏鸣",
+        "ref": "交响奏鸣",
         "name": "交响奏鸣 Ⅲ",
         "nameEN": "交响奏鸣 Ⅲ",
         "character": "莫弈",
@@ -953,7 +953,7 @@
         "slot": 2
     },
     {
-        "id": "商业谈判",
+        "ref": "商业谈判",
         "name": "商业谈判 Ⅱ",
         "nameEN": "商业谈判 Ⅱ",
         "character": "陆景和",
@@ -966,7 +966,7 @@
         "slot": 3
     },
     {
-        "id": "商业谈判",
+        "ref": "商业谈判",
         "name": "商业谈判 Ⅲ",
         "nameEN": "商业谈判 Ⅲ",
         "character": "陆景和",
@@ -979,7 +979,7 @@
         "slot": 3
     },
     {
-        "id": "名利博弈",
+        "ref": "名利博弈",
         "name": "名利博弈 Ⅱ",
         "nameEN": "名利博弈 Ⅱ",
         "character": "陆景和",
@@ -992,7 +992,7 @@
         "slot": 3
     },
     {
-        "id": "名利博弈",
+        "ref": "名利博弈",
         "name": "名利博弈 Ⅲ",
         "nameEN": "名利博弈 Ⅲ",
         "character": "陆景和",
@@ -1005,7 +1005,7 @@
         "slot": 3
     },
     {
-        "id": "年少锋锐",
+        "ref": "年少锋锐",
         "name": "年少锋锐 Ⅱ",
         "nameEN": "Sharp One Ⅱ",
         "character": "陆景和",
@@ -1018,7 +1018,7 @@
         "slot": 2
     },
     {
-        "id": "年少锋锐",
+        "ref": "年少锋锐",
         "name": "年少锋锐 Ⅲ",
         "nameEN": "Sharp One Ⅲ",
         "character": "陆景和",
@@ -1031,7 +1031,7 @@
         "slot": 2
     },
     {
-        "id": "艺术天赋",
+        "ref": "艺术天赋",
         "name": "艺术天赋 Ⅲ",
         "nameEN": "艺术天赋 Ⅲ",
         "character": "陆景和",
@@ -1044,7 +1044,7 @@
         "slot": 2
     },
     {
-        "id": "纵横捭阖",
+        "ref": "纵横捭阖",
         "name": "纵横捭阖 Ⅱ",
         "nameEN": "Skilled Diplomat Ⅱ",
         "character": "通用",
@@ -1057,7 +1057,7 @@
         "slot": 3
     },
     {
-        "id": "纵横捭阖",
+        "ref": "纵横捭阖",
         "name": "纵横捭阖 Ⅲ",
         "nameEN": "Skilled Diplomat Ⅲ",
         "character": "通用",
@@ -1070,7 +1070,7 @@
         "slot": 3
     },
     {
-        "id": "机锋对弈",
+        "ref": "机锋对弈",
         "name": "机锋对弈 Ⅱ",
         "nameEN": "Righteous Ⅱ",
         "character": "通用",
@@ -1083,7 +1083,7 @@
         "slot": 3
     },
     {
-        "id": "机锋对弈",
+        "ref": "机锋对弈",
         "name": "机锋对弈 Ⅲ",
         "nameEN": "Righteous Ⅲ",
         "character": "通用",
@@ -1096,7 +1096,7 @@
         "slot": 3
     },
     {
-        "id": "演绎推理",
+        "ref": "演绎推理",
         "name": "演绎推理 Ⅱ",
         "nameEN": "Deductive Reasoning Ⅱ",
         "character": "通用",
@@ -1109,7 +1109,7 @@
         "slot": 2
     },
     {
-        "id": "演绎推理",
+        "ref": "演绎推理",
         "name": "演绎推理 Ⅲ",
         "nameEN": "Deductive Reasoning Ⅲ",
         "character": "通用",
@@ -1122,7 +1122,7 @@
         "slot": 2
     },
     {
-        "id": "抽丝剥茧",
+        "ref": "抽丝剥茧",
         "name": "抽丝剥茧 Ⅱ",
         "nameEN": "Painstaking Ⅱ",
         "character": "通用",
@@ -1135,7 +1135,7 @@
         "slot": 2
     },
     {
-        "id": "抽丝剥茧",
+        "ref": "抽丝剥茧",
         "name": "抽丝剥茧 Ⅲ",
         "nameEN": "Painstaking Ⅲ",
         "character": "通用",
@@ -1148,7 +1148,7 @@
         "slot": 2
     },
     {
-        "id": "击其薄弱",
+        "ref": "击其薄弱",
         "name": "击其薄弱 Ⅱ",
         "nameEN": "Strike Weakness Ⅱ",
         "character": "通用",
@@ -1161,7 +1161,7 @@
         "slot": 3
     },
     {
-        "id": "击其薄弱",
+        "ref": "击其薄弱",
         "name": "击其薄弱 Ⅲ",
         "nameEN": "Strike Weakness Ⅲ",
         "character": "通用",
@@ -1174,7 +1174,7 @@
         "slot": 3
     },
     {
-        "id": "釜底抽薪",
+        "ref": "釜底抽薪",
         "name": "釜底抽薪 Ⅱ",
         "nameEN": "Drastic Measures Ⅱ",
         "character": "通用",
@@ -1187,7 +1187,7 @@
         "slot": 3
     },
     {
-        "id": "釜底抽薪",
+        "ref": "釜底抽薪",
         "name": "釜底抽薪 Ⅲ",
         "nameEN": "Drastic Measures Ⅲ",
         "character": "通用",
@@ -1200,7 +1200,7 @@
         "slot": 3
     },
     {
-        "id": "情绪感染",
+        "ref": "情绪感染",
         "name": "情绪感染 Ⅱ",
         "nameEN": "Emotional Appeal Ⅱ",
         "character": "通用",
@@ -1213,7 +1213,7 @@
         "slot": 2
     },
     {
-        "id": "情绪感染",
+        "ref": "情绪感染",
         "name": "情绪感染 Ⅲ",
         "nameEN": "Emotional Appeal Ⅲ",
         "character": "通用",
@@ -1226,7 +1226,7 @@
         "slot": 2
     },
     {
-        "id": "情感投射",
+        "ref": "情感投射",
         "name": "情感投射 Ⅱ",
         "nameEN": "Emotional Projection Ⅱ",
         "character": "通用",
@@ -1239,7 +1239,7 @@
         "slot": 2
     },
     {
-        "id": "情感投射",
+        "ref": "情感投射",
         "name": "情感投射 Ⅲ",
         "nameEN": "Emotional Projection Ⅲ",
         "character": "通用",
@@ -1252,7 +1252,7 @@
         "slot": 2
     },
     {
-        "id": "见微知著",
+        "ref": "见微知著",
         "name": "见微知著 Ⅱ",
         "nameEN": "Foresight Ⅱ",
         "character": "通用",
@@ -1265,7 +1265,7 @@
         "slot": 3
     },
     {
-        "id": "见微知著",
+        "ref": "见微知著",
         "name": "见微知著 Ⅲ",
         "nameEN": "Foresight Ⅲ",
         "character": "通用",
@@ -1278,7 +1278,7 @@
         "slot": 3
     },
     {
-        "id": "正本清源",
+        "ref": "正本清源",
         "name": "正本清源 Ⅱ",
         "nameEN": "Radical Reformer Ⅱ",
         "character": "通用",
@@ -1291,7 +1291,7 @@
         "slot": 3
     },
     {
-        "id": "正本清源",
+        "ref": "正本清源",
         "name": "正本清源 Ⅲ",
         "nameEN": "Radical Reformer Ⅱ",
         "character": "通用",
@@ -1304,7 +1304,7 @@
         "slot": 3
     },
     {
-        "id": "敏锐观察",
+        "ref": "敏锐观察",
         "name": "敏锐观察 Ⅱ",
         "nameEN": "Keep Observation Ⅱ",
         "character": "通用",
@@ -1317,7 +1317,7 @@
         "slot": 2
     },
     {
-        "id": "敏锐观察",
+        "ref": "敏锐观察",
         "name": "敏锐观察 Ⅲ",
         "nameEN": "Keep Observation Ⅲ",
         "character": "通用",
@@ -1330,7 +1330,7 @@
         "slot": 2
     },
     {
-        "id": "直感思维",
+        "ref": "直感思维",
         "name": "直感思维 Ⅱ",
         "nameEN": "Forward-Thinking Ⅱ",
         "character": "通用",
@@ -1343,7 +1343,7 @@
         "slot": 2
     },
     {
-        "id": "直感思维",
+        "ref": "直感思维",
         "name": "直感思维 Ⅲ",
         "nameEN": "Forward-Thinking Ⅲ",
         "character": "通用",
@@ -1356,7 +1356,7 @@
         "slot": 2
     },
     {
-        "id": "紧急避险",
+        "ref": "紧急避险",
         "name": "紧急避险 Ⅱ",
         "nameEN": "Necessity Ⅱ",
         "character": "夏彦",
@@ -1369,7 +1369,7 @@
         "slot": 3
     },
     {
-        "id": "紧急避险",
+        "ref": "紧急避险",
         "name": "紧急避险 Ⅲ",
         "nameEN": "Necessity Ⅲ",
         "character": "夏彦",
@@ -1382,7 +1382,7 @@
         "slot": 3
     },
     {
-        "id": "体能超群",
+        "ref": "体能超群",
         "name": "体能超群 Ⅱ",
         "nameEN": "体能超群 Ⅱ",
         "character": "夏彦",
@@ -1395,7 +1395,7 @@
         "slot": 3
     },
     {
-        "id": "体能超群",
+        "ref": "体能超群",
         "name": "体能超群 Ⅲ",
         "nameEN": "体能超群 Ⅲ",
         "character": "夏彦",
@@ -1408,7 +1408,7 @@
         "slot": 3
     },
     {
-        "id": "古物修复",
+        "ref": "古物修复",
         "name": "古物修复 Ⅱ",
         "nameEN": "古物修复 Ⅱ",
         "character": "夏彦",
@@ -1421,7 +1421,7 @@
         "slot": 2
     },
     {
-        "id": "古物修复",
+        "ref": "古物修复",
         "name": "古物修复 Ⅲ",
         "nameEN": "古物修复 Ⅲ",
         "character": "夏彦",
@@ -1434,7 +1434,7 @@
         "slot": 2
     },
     {
-        "id": "好奇之心",
+        "ref": "好奇之心",
         "name": "好奇之心 Ⅱ",
         "nameEN": "好奇之心 Ⅱ",
         "character": "夏彦",
@@ -1447,7 +1447,7 @@
         "slot": 2
     },
     {
-        "id": "好奇之心",
+        "ref": "好奇之心",
         "name": "好奇之心 Ⅲ",
         "nameEN": "好奇之心 Ⅲ",
         "character": "夏彦",
@@ -1460,9 +1460,9 @@
         "slot": 2
     },
     {
-        "id": "绝对理性",
+        "ref": "绝对理性",
         "name": "绝对理性 Ⅱ",
-        "nameEN": "Logical Ⅱ ",
+        "nameEN": "Logical Ⅱ",
         "character": "左然",
         "type": "通用",
         "rarity": "MR SR",
@@ -1473,7 +1473,7 @@
         "slot": 3
     },
     {
-        "id": "绝对理性",
+        "ref": "绝对理性",
         "name": "绝对理性 Ⅲ",
         "nameEN": "Logical Ⅲ",
         "character": "左然",
@@ -1486,7 +1486,7 @@
         "slot": 3
     },
     {
-        "id": "有条不紊",
+        "ref": "有条不紊",
         "name": "有条不紊 Ⅱ",
         "nameEN": "有条不紊 Ⅱ",
         "character": "左然",
@@ -1499,7 +1499,7 @@
         "slot": 2
     },
     {
-        "id": "有条不紊",
+        "ref": "有条不紊",
         "name": "有条不紊 Ⅲ",
         "nameEN": "有条不紊 Ⅲ",
         "character": "左然",
@@ -1512,7 +1512,7 @@
         "slot": 2
     },
     {
-        "id": "箱庭疗法",
+        "ref": "箱庭疗法",
         "name": "箱庭疗法 Ⅱ",
         "nameEN": "Sandplay Therapy Ⅱ",
         "character": "莫弈",
@@ -1525,7 +1525,7 @@
         "slot": 3
     },
     {
-        "id": "箱庭疗法",
+        "ref": "箱庭疗法",
         "name": "箱庭疗法 Ⅲ",
         "nameEN": "Sandplay Therapy Ⅲ",
         "character": "莫弈",
@@ -1538,7 +1538,7 @@
         "slot": 3
     },
     {
-        "id": "温文尔雅",
+        "ref": "温文尔雅",
         "name": "温文尔雅 Ⅱ",
         "nameEN": "温文尔雅 Ⅱ",
         "character": "莫弈",
@@ -1551,7 +1551,7 @@
         "slot": 2
     },
     {
-        "id": "温文尔雅",
+        "ref": "温文尔雅",
         "name": "温文尔雅 Ⅲ",
         "nameEN": "温文尔雅 Ⅲ",
         "character": "莫弈",
@@ -1564,7 +1564,7 @@
         "slot": 2
     },
     {
-        "id": "自我评估",
+        "ref": "自我评估",
         "name": "自我评估 Ⅱ",
         "nameEN": "自我评估 Ⅱ",
         "character": "莫弈",
@@ -1577,7 +1577,7 @@
         "slot": 2
     },
     {
-        "id": "自我评估",
+        "ref": "自我评估",
         "name": "自我评估 Ⅲ",
         "nameEN": "自我评估 Ⅲ",
         "character": "莫弈",
@@ -1590,7 +1590,7 @@
         "slot": 2
     },
     {
-        "id": "执行总裁",
+        "ref": "执行总裁",
         "name": "执行总裁 Ⅱ",
         "nameEN": "CEO Ⅱ",
         "character": "陆景和",
@@ -1603,7 +1603,7 @@
         "slot": 3
     },
     {
-        "id": "执行总裁",
+        "ref": "执行总裁",
         "name": "执行总裁 Ⅲ",
         "nameEN": "CEO Ⅲ",
         "character": "陆景和",
@@ -1616,7 +1616,7 @@
         "slot": 3
     },
     {
-        "id": "精英教育",
+        "ref": "精英教育",
         "name": "精英教育 Ⅱ",
         "nameEN": "精英教育 Ⅱ",
         "character": "陆景和",
@@ -1629,7 +1629,7 @@
         "slot": 2
     },
     {
-        "id": "精英教育",
+        "ref": "精英教育",
         "name": "精英教育 Ⅲ",
         "nameEN": "精英教育 Ⅲ",
         "character": "陆景和",
@@ -1642,7 +1642,7 @@
         "slot": 2
     },
     {
-        "id": "权贵之绊",
+        "ref": "权贵之绊",
         "name": "权贵之绊 Ⅱ",
         "nameEN": "权贵之绊 Ⅱ",
         "character": "陆景和",
@@ -1655,7 +1655,7 @@
         "slot": 2
     },
     {
-        "id": "权贵之绊",
+        "ref": "权贵之绊",
         "name": "权贵之绊 Ⅲ",
         "nameEN": "权贵之绊 Ⅲ",
         "character": "陆景和",
@@ -1668,7 +1668,7 @@
         "slot": 2
     },
     {
-        "id": "顺水推舟",
+        "ref": "顺水推舟",
         "name": "顺水推舟 Ⅱ",
         "nameEN": "With the Flow Ⅱ",
         "character": "通用",
@@ -1681,7 +1681,7 @@
         "slot": 3
     },
     {
-        "id": "顺水推舟",
+        "ref": "顺水推舟",
         "name": "顺水推舟 Ⅲ",
         "nameEN": "With the Flow Ⅲ",
         "character": "通用",
@@ -1694,7 +1694,7 @@
         "slot": 3
     },
     {
-        "id": "排比增势",
+        "ref": "排比增势",
         "name": "排比增势 Ⅱ",
         "nameEN": "Parallel Growth Ⅱ",
         "character": "通用",
@@ -1707,7 +1707,7 @@
         "slot": 3
     },
     {
-        "id": "排比增势",
+        "ref": "排比增势",
         "name": "排比增势 Ⅲ",
         "nameEN": "Parallel Growth Ⅲ",
         "character": "通用",
@@ -1720,7 +1720,7 @@
         "slot": 3
     },
     {
-        "id": "还施彼身",
+        "ref": "还施彼身",
         "name": "还施彼身 Ⅱ",
         "nameEN": "还施彼身 Ⅱ",
         "character": "通用",
@@ -1733,7 +1733,7 @@
         "slot": 2
     },
     {
-        "id": "还施彼身",
+        "ref": "还施彼身",
         "name": "还施彼身 Ⅲ",
         "nameEN": "还施彼身 Ⅲ",
         "character": "通用",
@@ -1746,7 +1746,7 @@
         "slot": 2
     },
     {
-        "id": "引譬连类",
+        "ref": "引譬连类",
         "name": "引譬连类 Ⅱ",
         "nameEN": "Incriminate Ⅱ",
         "character": "通用",
@@ -1759,7 +1759,7 @@
         "slot": 3
     },
     {
-        "id": "引譬连类",
+        "ref": "引譬连类",
         "name": "引譬连类 Ⅲ",
         "nameEN": "Incriminate Ⅲ",
         "character": "通用",
@@ -1772,7 +1772,7 @@
         "slot": 3
     },
     {
-        "id": "滴水不漏",
+        "ref": "滴水不漏",
         "name": "滴水不漏 Ⅱ",
         "nameEN": "Watertight Ⅱ",
         "character": "通用",
@@ -1785,7 +1785,7 @@
         "slot": 3
     },
     {
-        "id": "滴水不漏",
+        "ref": "滴水不漏",
         "name": "滴水不漏 Ⅲ",
         "nameEN": "Watertight Ⅱ",
         "character": "通用",
@@ -1798,7 +1798,7 @@
         "slot": 3
     },
     {
-        "id": "无懈可击",
+        "ref": "无懈可击",
         "name": "无懈可击 Ⅱ",
         "nameEN": "Impeccable Ⅱ",
         "character": "通用",
@@ -1811,7 +1811,7 @@
         "slot": 2
     },
     {
-        "id": "无懈可击",
+        "ref": "无懈可击",
         "name": "无懈可击 Ⅲ",
         "nameEN": "Impeccable Ⅲ",
         "character": "通用",
@@ -1824,7 +1824,7 @@
         "slot": 2
     },
     {
-        "id": "因势利导",
+        "ref": "因势利导",
         "name": "因势利导 Ⅱ",
         "nameEN": "因势利导 Ⅱ",
         "character": "通用",
@@ -1837,7 +1837,7 @@
         "slot": 2
     },
     {
-        "id": "因势利导",
+        "ref": "因势利导",
         "name": "因势利导 Ⅲ",
         "nameEN": "因势利导 Ⅲ",
         "character": "通用",
@@ -1850,7 +1850,7 @@
         "slot": 2
     },
     {
-        "id": "防微虑远",
+        "ref": "防微虑远",
         "name": "防微虑远 Ⅱ",
         "nameEN": "Prevention Ⅱ",
         "character": "通用",
@@ -1863,7 +1863,7 @@
         "slot": 3
     },
     {
-        "id": "防微虑远",
+        "ref": "防微虑远",
         "name": "防微虑远 Ⅲ",
         "nameEN": "Prevention Ⅲ",
         "character": "通用",
@@ -1876,7 +1876,7 @@
         "slot": 3
     },
     {
-        "id": "攻势化解",
+        "ref": "攻势化解",
         "name": "攻势化解 Ⅱ",
         "nameEN": "Mediator Ⅱ",
         "character": "通用",
@@ -1889,7 +1889,7 @@
         "slot": 3
     },
     {
-        "id": "攻势化解",
+        "ref": "攻势化解",
         "name": "攻势化解 Ⅲ",
         "nameEN": "Mediator Ⅲ",
         "character": "通用",
@@ -1902,7 +1902,7 @@
         "slot": 3
     },
     {
-        "id": "预见之明",
+        "ref": "预见之明",
         "name": "预见之明 Ⅱ",
         "nameEN": "预见之明 Ⅱ",
         "character": "通用",
@@ -1915,7 +1915,7 @@
         "slot": 2
     },
     {
-        "id": "预见之明",
+        "ref": "预见之明",
         "name": "预见之明 Ⅲ",
         "nameEN": "预见之明 Ⅲ",
         "character": "通用",
@@ -1928,7 +1928,7 @@
         "slot": 2
     },
     {
-        "id": "本能回避",
+        "ref": "本能回避",
         "name": "本能回避 Ⅱ",
         "nameEN": "本能回避 Ⅱ",
         "character": "通用",
@@ -1941,7 +1941,7 @@
         "slot": 2
     },
     {
-        "id": "本能回避",
+        "ref": "本能回避",
         "name": "本能回避 Ⅲ",
         "nameEN": "本能回避 Ⅲ",
         "character": "通用",
@@ -1954,7 +1954,7 @@
         "slot": 2
     },
     {
-        "id": "示假隐真",
+        "ref": "示假隐真",
         "name": "示假隐真α Ⅰ",
         "nameEN": "Covering Tactics α Ⅰ",
         "character": "通用",
@@ -1967,7 +1967,7 @@
         "slot": 1
     },
     {
-        "id": "示假隐真",
+        "ref": "示假隐真",
         "name": "示假隐真β Ⅰ",
         "nameEN": "Covering Tactics β Ⅰ",
         "character": "通用",
@@ -1980,7 +1980,7 @@
         "slot": 1
     },
     {
-        "id": "示假隐真",
+        "ref": "示假隐真",
         "name": "示假隐真β Ⅱ",
         "nameEN": "Covering Tactics β Ⅱ",
         "character": "通用",
@@ -1993,7 +1993,7 @@
         "slot": 1
     },
     {
-        "id": "示假隐真",
+        "ref": "示假隐真",
         "name": "示假隐真γ Ⅱ",
         "nameEN": "Covering Tactics γ Ⅱ",
         "character": "通用",
@@ -2006,7 +2006,7 @@
         "slot": 1
     },
     {
-        "id": "以德服人",
+        "ref": "以德服人",
         "name": "以德服人α Ⅰ",
         "nameEN": "以德服人α Ⅰ",
         "character": "通用",
@@ -2019,7 +2019,7 @@
         "slot": 1
     },
     {
-        "id": "以德服人",
+        "ref": "以德服人",
         "name": "以德服人α Ⅲ",
         "nameEN": "以德服人α Ⅲ",
         "character": "通用",
@@ -2032,7 +2032,7 @@
         "slot": 1
     },
     {
-        "id": "以德服人",
+        "ref": "以德服人",
         "name": "以德服人β Ⅰ",
         "nameEN": "以德服人β Ⅰ",
         "character": "通用",
@@ -2045,7 +2045,7 @@
         "slot": 1
     },
     {
-        "id": "以德服人",
+        "ref": "以德服人",
         "name": "以德服人γ Ⅲ",
         "nameEN": "以德服人γ Ⅲ",
         "character": "通用",
@@ -2058,7 +2058,7 @@
         "slot": 1
     },
     {
-        "id": "设问否定",
+        "ref": "设问否定",
         "name": "设问否定α Ⅰ",
         "nameEN": "Negative Interrogative α Ⅰ",
         "character": "通用",
@@ -2071,7 +2071,7 @@
         "slot": 1
     },
     {
-        "id": "设问否定",
+        "ref": "设问否定",
         "name": "设问否定β Ⅰ",
         "nameEN": "Negative Interrogative β Ⅰ",
         "character": "通用",
@@ -2084,7 +2084,7 @@
         "slot": 1
     },
     {
-        "id": "设问否定",
+        "ref": "设问否定",
         "name": "设问否定β Ⅱ",
         "nameEN": "Negative Interrogative β Ⅱ",
         "character": "通用",
@@ -2097,7 +2097,7 @@
         "slot": 1
     },
     {
-        "id": "设问否定",
+        "ref": "设问否定",
         "name": "设问否定γ Ⅰ",
         "nameEN": "Negative Interrogative γ Ⅰ",
         "character": "通用",
@@ -2110,7 +2110,7 @@
         "slot": 1
     },
     {
-        "id": "设问否定",
+        "ref": "设问否定",
         "name": "设问否定γ Ⅱ",
         "nameEN": "Negative Interrogative γ Ⅱ",
         "character": "通用",
@@ -2123,7 +2123,7 @@
         "slot": 1
     },
     {
-        "id": "引申归谬",
+        "ref": "引申归谬",
         "name": "引申归谬α Ⅰ",
         "nameEN": "Indirect Approach α Ⅰ",
         "character": "通用",
@@ -2136,7 +2136,7 @@
         "slot": 1
     },
     {
-        "id": "引申归谬",
+        "ref": "引申归谬",
         "name": "引申归谬β Ⅰ",
         "nameEN": "Indirect Approach β Ⅰ",
         "character": "通用",
@@ -2149,7 +2149,7 @@
         "slot": 1
     },
     {
-        "id": "引申归谬",
+        "ref": "引申归谬",
         "name": "引申归谬β Ⅱ",
         "nameEN": "Indirect Approach β Ⅱ",
         "character": "通用",
@@ -2162,7 +2162,7 @@
         "slot": 1
     },
     {
-        "id": "引申归谬",
+        "ref": "引申归谬",
         "name": "引申归谬γ Ⅰ",
         "nameEN": "Indirect Approach γ Ⅰ",
         "character": "通用",
@@ -2175,7 +2175,7 @@
         "slot": 1
     },
     {
-        "id": "引申归谬",
+        "ref": "引申归谬",
         "name": "引申归谬γ Ⅱ",
         "nameEN": "Indirect Approach γ Ⅱ",
         "character": "通用",
@@ -2188,7 +2188,7 @@
         "slot": 1
     },
     {
-        "id": "避实就虚",
+        "ref": "避实就虚",
         "name": "避实就虚α Ⅰ",
         "nameEN": "Evasive Maneuver α Ⅰ",
         "character": "通用",
@@ -2201,7 +2201,7 @@
         "slot": 1
     },
     {
-        "id": "避实就虚",
+        "ref": "避实就虚",
         "name": "避实就虚β Ⅰ",
         "nameEN": "Evasive Maneuver β Ⅰ",
         "character": "通用",
@@ -2214,7 +2214,7 @@
         "slot": 1
     },
     {
-        "id": "避实就虚",
+        "ref": "避实就虚",
         "name": "避实就虚β Ⅱ",
         "nameEN": "Evasive Maneuver β Ⅱ",
         "character": "通用",
@@ -2227,7 +2227,7 @@
         "slot": 1
     },
     {
-        "id": "避实就虚",
+        "ref": "避实就虚",
         "name": "避实就虚γ Ⅰ",
         "nameEN": "Evasive Maneuver γ Ⅰ",
         "character": "通用",
@@ -2240,7 +2240,7 @@
         "slot": 1
     },
     {
-        "id": "避实就虚",
+        "ref": "避实就虚",
         "name": "避实就虚γ Ⅱ",
         "nameEN": "Evasive Maneuver γ Ⅱ",
         "character": "通用",

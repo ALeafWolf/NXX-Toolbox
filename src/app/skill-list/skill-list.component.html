@@ -101,20 +101,20 @@
             </tr>
             <tr *ngFor="let s of skillList">
                 <td>
-                    <a [routerLink]="['/skill/',s.name]" target="_blank">
-                        <img style="height: 50px; width: 50px;" src="{{imgURL + '技能/' + s.id + '.webp'}}">
+                    <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
+                        <img style="height: 50px; width: 50px;" src="{{imgURL + '技能/' + s.ref + '.webp'}}">
                     </a>
                 </td>
                 <td>
-                    <a [routerLink]="['/skill/',s.name]" target="_blank">
-                        {{s.name}}
+                    <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
+                        {{s.n}}
                     </a>
                 </td>
                 <!-- <td class="d-none d-sm-table-cell">{{s.character}}</td> -->
                 <td class="d-none d-sm-table-cell"><img class="icon img-fluid"
                         src="{{'assets/images/' + s.type + '.png'}}"></td>
                 <td class="d-none d-sm-table-cell">{{s.rarity}}</td>
-                <td class="smallFont">{{s.description}}</td>
+                <td class="smallFont">{{s.des}}</td>
                 <td *ngFor="let n of s.nums">{{n}}</td>
             </tr>
         </table>

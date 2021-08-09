@@ -17,7 +17,8 @@ const GET_CARD = gql`
       rarity
       character
       skills{
-        id
+        _id
+        ref
         name
         description
         nums
@@ -39,7 +40,8 @@ const GET_CARD_EN = gql`
       character
       characterEN
       skills{
-        id
+        _id
+        ref
         nameEN
         descriptionEN
         nums

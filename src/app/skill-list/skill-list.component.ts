@@ -1,6 +1,43 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
+import { Apollo, gql } from 'apollo-angular';
+
+const GET_SKILLS = gql`
+  query GetSkills{
+    skills(limit: 1000, sortBy: _ID_ASC){
+      name
+      _id 
+      ref
+      character
+      type
+      rarity
+      description
+      nums
+      function
+      slot
+    }
+  }
+`;
+
+const GET_SKILLS_EN = gql`
+  query GetSkillsEN{
+    skills(limit: 1000, sortBy: _ID_ASC){
+      name
+      _id 
+      ref
+      nameEN
+      character
+      type
+      rarity
+      description
+      descriptionEN
+      nums
+      function
+      slot
+    }
+  }
+`;
 
 @Component({
   selector: 'app-skill-list',
@@ -20,24 +57,56 @@ export class SkillListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService) { }
+  constructor(private _data: DataService, private _apollo: Apollo) { }
 
   ngOnInit(): void {
-    this.lang = localStorage.getItem('language')
-    this._data.getSkills().toPromise().then((data: any[]) => {
-      this.loadSkillWithLang(data)
+    this.lang = localStorage.getItem('language');
+    // this._data.getSkills().toPromise().then((data: any[]) => {
+    //   this.loadSkillWithLang(data)
+    //   this.isLoaded = true;
+    // })
+    this.loadData();
+  }
+
+  loadData() {
+    let query;
+    if (this.lang == 'zh') {
+      query = GET_SKILLS;
+    } else {
+      query = GET_SKILLS_EN;
+    }
+
+    this._apollo.query({
+      query
+    }).toPromise().then((result: any) => {
+      this.configureSkillWithLang(result.data.skills);
+      this.isLoaded = true;
+    }).catch(err => {
+      console.log(err);
       this.isLoaded = true;
     })
   }
 
-  loadSkillWithLang(skills:any[]){
+  configureSkillWithLang(skills: any[]) {
+    let ss = [];
+    skills.forEach(skill => {
+      let s = { ...skill };
+      s.n = this.lang == 'zh' ? s.name : s.nameEN;
+      s.des = this.lang == 'zh' ? s.description : s.descriptionEN;
+      ss.push(s);
+    })
+    this.fullSkillList = ss;
+    this.skillList = ss;
+  }
+
+  loadSkillWithLang(skills: any[]) {
     let s = []
     skills.forEach(skill => {
       let n, des;
-      if('en' == this.lang || 'ko' == this.lang){
+      if ('en' == this.lang || 'ko' == this.lang) {
         n = skill.nameEN != '' ? skill.nameEN : skill.name
         des = skill.descriptionEN != '' ? skill.descriptionEN : skill.description
-      }else{
+      } else {
         n = skill.name
         des = skill.description
       }
@@ -64,20 +133,20 @@ export class SkillListComponent implements OnInit {
   }
 
   filterSkillList() {
-    let tempListHolder = this.fullSkillList
-    let finalListHolder = []
+    let tempListHolder = this.fullSkillList;
+    let finalListHolder = [];
 
     //character name filter
     tempListHolder.forEach(skill => {
       let condition = this.filterConditions[0]
       if (condition == "All") {
-        finalListHolder.push(skill)
+        finalListHolder.push(skill);
       } else if (skill.character == condition) {
-        finalListHolder.push(skill)
+        finalListHolder.push(skill);
       }
     })
-    tempListHolder = finalListHolder
-    finalListHolder = []
+    tempListHolder = finalListHolder;
+    finalListHolder = [];
 
     //rarity filter
     // tempListHolder.forEach(skill => {

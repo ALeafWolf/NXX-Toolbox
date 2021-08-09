@@ -14,7 +14,8 @@ const GET_CARDS = gql`
       character
       skills
       {
-        id
+        _id
+        ref
         name
         slot
       }
@@ -24,7 +25,7 @@ const GET_CARDS = gql`
 `;
 
 const GET_CARDS_EN = gql`
-  query GetCards{
+  query GetCardsEN{
     cards(limit: 1000, sortBy: _ID_ASC){
       _id
       id
@@ -34,7 +35,7 @@ const GET_CARDS_EN = gql`
       character
       skills
       {
-        id
+        ref
         name
         slot
       }
@@ -93,7 +94,6 @@ export class CardListComponent implements OnInit {
     cards.forEach(card => {
       let c = { ...card };
       c.n = this.lang == 'zh' ? card.name : card.nameEN;
-      if(c.name=='入局') console.log(c)
       c.skills = sortSkill(card.skills, card.rarity);
       cs.push(c);
     })

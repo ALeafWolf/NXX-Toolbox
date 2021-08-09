@@ -31,7 +31,7 @@
                             <a [routerLink]="['/skill', s.name]" target="_blank">
                                 <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.id + '.webp'}}">
                             </a>
-                            <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
+                            <p class="smallFont">{{s.name}}<br />{{s.num}}{{s.numType}}</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <a [routerLink]="['/skill', s.name]" target="_blank">
                             <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.id + '.webp'}}">
                         </a>
-                        <p class="smallFont">{{s.name}}<br />{{s.num.toFixed(2)}}{{s.numType}}</p>
+                        <p class="smallFont">{{s.name}}<br />{{s.num}}{{s.numType}}</p>
                     </div>
                 </div>
             </div>

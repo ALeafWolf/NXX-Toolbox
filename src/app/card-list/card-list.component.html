@@ -94,8 +94,8 @@
                     </td>
                     <td>
                         <span *ngFor="let s of c.skills">
-                            <a [routerLink]="['/skill', s.name]" target="_blank">
-                                <img class="img-fluid icon" src="{{imgURL + '技能/' + s.id + '.webp'}}">
+                            <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
+                                <img class="img-fluid icon" src="{{imgURL + '技能/' + s.ref + '.webp'}}">
                             </a>
                         </span>
                     </td>

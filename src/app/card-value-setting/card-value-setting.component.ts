@@ -17,7 +17,8 @@ const GET_CARD = gql`
       rarity
       character
       skills{
-        id
+        _id
+        ref
         name
         description
         nums
@@ -42,7 +43,8 @@ const GET_CARD_EN = gql`
       character
       characterEN
       skills{
-        id
+        _id
+        ref
         name
         nameEN
         descriptionEN
@@ -165,7 +167,7 @@ export class CardValueSettingComponent implements OnInit {
       for (let i = 0; i < length; i++) {
         let s = { ...this.card.skills[i] };
         //store some data for /card-calculator
-        this.skillsID.push(s.id);
+        this.skillsID.push(s.ref);
         this.skillNames.push(s.name);
         this.skillChars.push(s.character);
         this.skillTypes.push(s.type);
@@ -181,7 +183,7 @@ export class CardValueSettingComponent implements OnInit {
       for (let i = 0; i < length; i++) {
         let s = { ...this.card.skills[i] };
         //store some data for /card-calculator
-        this.skillsID.push(s.id);
+        this.skillsID.push(s.ref);
         this.skillNames.push(s.name);
         this.skillChars.push(s.character);
         this.skillTypes.push(s.type);
