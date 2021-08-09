@@ -1,6 +1,45 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
+import { Apollo, gql } from 'apollo-angular';
+
+const GET_CARDS = gql`
+  query GetCards{
+    cards(limit: 1000, sortBy: _ID_ASC){
+      _id
+      id
+      name
+      type
+      rarity
+      character
+      skills
+      {
+        id
+        name
+      }
+      obtainedFrom
+    }
+  }
+`;
+
+const GET_CARDS_EN = gql`
+  query GetCards{
+    cards(limit: 1000, sortBy: _ID_ASC){
+      _id
+      id
+      nameEN
+      type
+      rarity
+      character
+      skills
+      {
+        id
+        name
+      }
+      obtainedFrom
+    }
+  }
+`;
 
 @Component({
   selector: 'app-card-list',
@@ -20,34 +59,47 @@ export class CardListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService) {
+  constructor(private _data: DataService, private _apollo: Apollo) {
 
   }
 
   ngOnInit(): void {
-    this.lang = localStorage.getItem('language')
-    this._data.getCards().subscribe((data: any[]) => {
-      this.loadCardWithLang(data)
+    this.lang = localStorage.getItem('language');
+    this.loadData();
+  }
+
+  loadData() {
+    let query;
+    if (this.lang == 'zh') {
+      query = GET_CARDS;
+    } else {
+      query = GET_CARDS_EN;
+    }
+    this._apollo.query({
+      query
+    }).toPromise().then((result: any) => {
+      if (this.lang != 'zh') {
+        this.loadCardWithLang(result.data.cards);
+      } else {
+        this.allCards = { ...result.data.cards };
+        this.cards = this.allCards;
+      }
+      this.isLoaded = true;
+    }).catch(err => {
+      console.log(err);
       this.isLoaded = true;
     })
   }
 
-  loadCardWithLang(cards:any[]){
-    let c = []
+  loadCardWithLang(cards: any[]) {
+    let chars = []
     cards.forEach(card => {
-      if('en' == this.lang || 'ko' == this.lang){
-        card.n = card.nameEN != '' ? card.nameEN : card.name
-        card.name = card.nameEN != '' ? card.nameEN : card.name
-        card.char = card.characterEN != '' ? card.characterEN : card.character
-      }else{
-        card.n = card.name
-        card.name = card.name
-        card.char = card.character
-      }
-      c.push(card)
+      let c = { ...card }
+      c.name = card.nameEN != '' ? card.nameEN : card.name;
+      chars.push(c)
     })
-    this.allCards = c;
-    this.cards = c;
+    this.allCards = chars;
+    this.cards = chars;
   }
 
   //button to top
@@ -80,7 +132,7 @@ export class CardListComponent implements OnInit {
           condition = this.filterConditions[2]
           if (condition == "All" || card.type == condition) {
             condition = this.filterConditions[3]
-            if(condition == "All" || card.obtainedFrom.includes(condition))
+            if (condition == "All" || card.obtainedFrom.includes(condition))
               listHolder.push(card)
           }
         }

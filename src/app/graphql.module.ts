@@ -1,13 +1,11 @@
 import { NgModule } from '@angular/core';
 import { APOLLO_OPTIONS } from 'apollo-angular';
-import { ApolloClientOptions, InMemoryCache, ApolloLink } from '@apollo/client/core';
+import { ApolloClientOptions, InMemoryCache } from '@apollo/client/core';
 import { HttpLink } from 'apollo-angular/http';
-import { setContext } from '@apollo/client/link/context';
 import { HttpClientModule, HttpHeaders } from '@angular/common/http';
 import * as realm from './realm';
 
 const uri = realm.graphqlUrl;
-const apiKey = 'OhKQMwHcr5QsNa1SRwMV3UUACWXhfSM4qJaXA0fvTfKbICZ6Qr80QmHrlK7H8IId';
 
 
 export function createApollo(httpLink: HttpLink): ApolloClientOptions<any> {

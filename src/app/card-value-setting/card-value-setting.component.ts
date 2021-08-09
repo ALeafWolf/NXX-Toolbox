@@ -5,6 +5,54 @@ import { DataService } from '../services/data/data.service';
 import { SEOService } from '../services/seo/seo.service';
 import { SkillInfo, CardInfo } from '../model/card-statistics';
 import { GlobalVariable } from '../global-variable';
+import { Apollo, gql } from 'apollo-angular';
+
+const GET_CARD = gql`
+  query GetCard($query: CardQueryInput){
+    card(query: $query){
+      id
+      name
+      type
+      rarity
+      character
+      skills{
+        id
+        name
+        description
+        nums
+        character
+        type
+      }
+      influence
+      defense
+    }
+  }
+`;
+
+const GET_CARD_EN = gql`
+  query GetCardEN($query: CardQueryInput){
+    card(query: $query){
+      id
+      name
+      nameEN
+      type
+      rarity
+      character
+      characterEN
+      skills{
+        id
+        name
+        nameEN
+        descriptionEN
+        nums
+        character
+        type
+      }
+      influence
+      defense
+    }
+  }
+`;
 
 @Component({
   selector: 'app-card-value-setting',
@@ -16,6 +64,7 @@ export class CardValueSettingComponent implements OnInit {
   char;
   id;
   lang;
+  _id;
 
   //from data service
   charRssGroup;
@@ -24,120 +73,123 @@ export class CardValueSettingComponent implements OnInit {
   skillList;
   allSkillList;
 
-  //skill rss
-  coin = 0;
-  rss = [0, 0, 0, 0, 0, 0];
-  lv = 100;
 
   //for localStorage
   userData;
   hasUserData = false;
+  lv = 100;
   star = 1;
   att = 0;
   def = 0;
   power = 0;
+  skills = [1, 1, 1];
 
   //for card-calculator
   skillsID = [];
   skillNames = [];
-  skills = [1, 1, 1];
   skillNums = [];
   skillNumTypes = [];
   skillChars = []
   skillTypes = []
-  skillsInfo = [];
+  skillDescriptions = [];
 
   isLoaded = false;
-  
+
   imgURL = GlobalVariable.imgURL;
 
-  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _apollo: Apollo, private _seoService: SEOService) {
 
   }
 
   ngOnInit(): void {
-    this.char = this._route.snapshot.params.charname
-    this.id = this._route.snapshot.params.id
+    this._id = this._route.snapshot.queryParamMap.get('id') as String;
+    this.lang = localStorage.getItem('language');
+    this.loadData();
+  }
 
-    this.lang = localStorage.getItem('language')
-    this.userData = JSON.parse(this._data.getItem(this.id))
+  loadData() {
+    let query: any;
+    if (this.lang == 'zh') {
+      query = GET_CARD;
+    } else {
+      query = GET_CARD_EN;
+    }
 
-    this._data.getCard(this.id).toPromise().then((card: any) => {
-      this._data.getSkills().toPromise().then((skills: any[]) => {
-        this.allSkillList = skills;
-        this.setCardWithLang(card)
+    this._apollo.query({
+      query,
+      variables: {
+        query: { _id: this._id }
+      },
+    }).toPromise().then((cResult: any) => {
+      this.card = { ...cResult.data.card };
+      if (this.card) {
+        this.att = this.card.influence;
+        this.def = this.card.defense;
+        this.userData = JSON.parse(this._data.getItem(this.card.id));
+        if (this.userData) {
+          this.loadUserData();
+        }
+        this.configureCardLanguage();
+        this.setSkillDisplay();
         this.setTitle();
-        this.charRssGroup = SkillInfo.getSkillRssGroup(this.card.character);
-        this.att = card.influence
-        this.def = card.defense
-        if (card.rarity == "R") {
-          this.lv = 70
-        }
+        this.lv = this.card.rarity == "R" ? 70 : 100;
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-        this._data.getSkillRssList().toPromise().then((data: any[]) => {
-          data.forEach(d => {
-            if (d.rarity == this.card.rarity) {
-              this.skillLevelUpRssList = d.rss
-            }
-          })
-          //if localStorage has user's data for this card
-          if (this.userData) {
-            this.loadUserData();
-            this.setSkillDisplay();
-          }
-        }).catch(err => console.log(err))
-        if (this.card) {
-          this.loadSkillInfo()
-        }
-        this.isLoaded = true;
-      })
+      }
+      this.isLoaded = true;
 
+    }).catch(err => {
+      console.log(err);
+      this.isLoaded = true;
     });
+
   }
 
   loadUserData() {
     this.hasUserData = true;
-    this.skills = this.userData.skills
-    this.star = this.userData.star
-    this.calculateRss()
-    this.calculateCardStatistic()
+    this.skills = this.userData.skills;
+    this.star = this.userData.star;
+    this.calculateCardStatistic();
     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
   }
 
-  //set card's information based on user's choice for language
-  setCardWithLang(data: any) {
-    if ('en' == this.lang || 'ko' == this.lang) {
-      data.char = data.characterEN != '' ? data.characterEN : data.character
-      data.n = data.nameEN != '' ? data.nameEN : data.name
+  configureCardLanguage() {
+    let length = this.card.rarity == 'R' ? 2 : 3;
 
-      let skills = []
-      data.skills.forEach(name => {
-        this.allSkillList.forEach((d: any) => {
-          if (name == d.name || name == d.nameEN) {
-            d.n = d.nameEN != '' ? d.nameEN : d.name
-            d.des = d.descriptionEN != '' ? d.descriptionEN : d.description
-            skills.push(d)
-          }
-        })
-      });
-      data.skills = skills
+    if (this.lang == 'zh') {
+      this.card.n = this.card.name;
+      this.card.char = this.card.character;
+      let skills: any[] = [];
+      for (let i = 0; i < length; i++) {
+        let s = { ...this.card.skills[i] };
+        //store some data for /card-calculator
+        this.skillsID.push(s.id);
+        this.skillNames.push(s.name);
+        this.skillChars.push(s.character);
+        this.skillTypes.push(s.type);
+
+        s.n = s.name;
+        skills.push(s);
+      }
+      this.card.skills = skills;
     } else {
-      data.char = data.character
-      data.n = data.name
+      this.card.n = this.card.nameEN;
+      this.card.char = this.card.characterEN;
+      let skills: any[] = [];
+      for (let i = 0; i < length; i++) {
+        let s = { ...this.card.skills[i] };
+        //store some data for /card-calculator
+        this.skillsID.push(s.id);
+        this.skillNames.push(s.name);
+        this.skillChars.push(s.character);
+        this.skillTypes.push(s.type);
 
-      let skills = []
-      data.skills.forEach(name => {
-        this.allSkillList.forEach((d: any) => {
-          if (name == d.name) {
-            d.n = d.name
-            d.des = d.description
-            skills.push(d)
-          }
-        })
-      });
-      data.skills = skills
+        s.n = s.nameEN;
+        s.description = s.descriptionEN;
+        skills.push(s);
+      }
+      this.card.skills = skills;
     }
-    this.card = data;
+
   }
 
   setTitle() {
@@ -147,87 +199,33 @@ export class CardValueSettingComponent implements OnInit {
     } else if ('ko' == this.lang) {
       pre = '생각'
     }
-    this._seoService.setTitle(`${pre}：${this.card.n}`);
-  }
-
-  loadSkillInfo() {
-    let list = []
-    this.card.skills.forEach(s => {
-      this.allSkillList.forEach(d => {
-        if (d.name == s.name) {
-          list.push(d)
-        }
-      })
-    })
-    this.skillList = list
-    this.setSkillDisplay();
+    this._seoService.setTitle(`${pre}：${this.card.name}`);
   }
 
   //set the string of skills that being display on the page
   setSkillDisplay() {
     //reset all skill related variables
-    this.skillNames = []
-    this.skillsID = []
-    this.skillChars = []
-    this.skillTypes = []
-    this.skillNums = []
-    this.skillNumTypes = []
-    this.skillsInfo = []
+    this.skillNums = [];
+    this.skillNumTypes = [];
+    this.skillDescriptions = [];
 
-    let r = 3;
-    if (this.card.rarity == "R") {
-      r = 2
-    }
+    let r = this.card.rarity == "R" ? 2 : 3;
 
     for (let i = 0; i < r; i++) {
-      let skill = this.card.skills[i]
-      //store data for usage at card calculator
-      this.skillsID.push(skill.id)
-      this.skillChars.push(skill.character)
-      this.skillTypes.push(skill.type)
-      this.skillNames.push(skill.name)
-      let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0]
-      this.skillNums.push(num.toFixed(2))
+      let skill = this.card.skills[i];
+      let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0];
+      num = Number.parseFloat(num.toFixed(2));
+      this.skillNums.push(num);
 
       //replace X in the description with correct number
-      let line = skill.des.toString()
+      let line = skill.description.toString();
       if (line.includes("%")) {
         this.skillNumTypes.push("%")
       } else {
         this.skillNumTypes.push("")
       }
-      let str = line.replace("X", num.toFixed(2).toString())
-      this.skillsInfo.push(str);
-    }
-  }
-
-  //calculate the rss cost for leveling skills
-  calculateRss() {
-    this.coin = 0;
-    this.rss = [0, 0, 0, 0, 0, 0]
-    for (let i = 0; i < 3; i++) {
-      let lvl = this.skills[i]
-      if (lvl > 1) {
-        //lv2: index 0, lv10: index 8
-        for (let j = 0; j < lvl - 1; j++) {
-          this.coin += this.skillLevelUpRssList[j].coin
-          //lv2-4
-          if (j < 3) {
-            this.rss[0] += this.skillLevelUpRssList[j].impression
-            this.rss[1] += this.skillLevelUpRssList[j].item
-          }
-          //lv5-7
-          else if (j < 6) {
-            this.rss[2] += this.skillLevelUpRssList[j].impression
-            this.rss[3] += this.skillLevelUpRssList[j].item
-          }
-          //lv8-10
-          else {
-            this.rss[4] += this.skillLevelUpRssList[j].impression
-            this.rss[5] += this.skillLevelUpRssList[j].item
-          }
-        }
-      }
+      let str = line.replace("X", num);
+      this.skillDescriptions.push(str);
     }
   }
 
@@ -243,7 +241,6 @@ export class CardValueSettingComponent implements OnInit {
   }
 
   updateData() {
-    this.calculateRss();
     this.calculateCardStatistic();
     this.setSkillDisplay();
   }
@@ -264,14 +261,16 @@ export class CardValueSettingComponent implements OnInit {
       skillNumTypes: this.skillNumTypes,
       skillTypes: this.skillTypes,
       skillChar: this.skillChars,
-      power: this.power
+      power: this.power,
+      influence: this.att,
+      defense: this.def
     }
-    localStorage.setItem(this.card.id, JSON.stringify(d))
-    console.log("saved")
+    localStorage.setItem(this.card.id, JSON.stringify(d));
+    console.log("saved");
   }
 
   deleteUserData() {
-    localStorage.removeItem(this.card.id)
-    console.log("deleted")
+    localStorage.removeItem(this.card.id);
+    console.log("deleted");
   }
 }

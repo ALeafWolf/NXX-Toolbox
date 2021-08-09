@@ -34,35 +34,29 @@ const GET_MERCH = gql`
   templateUrl: './merch-detail.component.html',
   styleUrls: ['./merch-detail.component.scss']
 })
-export class MerchDetailComponent implements OnInit, OnDestroy {
+export class MerchDetailComponent implements OnInit {
   name;
   lang;
 
   merch;
   isLoaded = false;
 
-  private querySebscription: Subscription;
-
   constructor(private _route: ActivatedRoute, private _apollo: Apollo, private _seoService: SEOService) { }
 
   ngOnInit(): void {
     this.name = this._route.snapshot.params.name;
     this.lang = localStorage.getItem('language');
-    this.querySebscription = this.loadData();
+    this.loadData();
     this.setTitle();
   }
 
-  ngOnDestroy(){
-    this.querySebscription.unsubscribe();
-  }
-
   loadData() {
-    return this._apollo.watchQuery({
+    return this._apollo.query({
       query: GET_MERCH,
       variables: {
         query: {name: this.name}
       },
-    }).valueChanges.subscribe((result: any) => {
+    }).toPromise().then((result: any) => {
       this.merch = result.data.merch;
       this.isLoaded = true;
     });

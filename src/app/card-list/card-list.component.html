@@ -78,13 +78,13 @@
             <tbody>
                 <tr *ngFor="let c of cards">
                     <td>
-                        <a [routerLink]="['/card-value/', c.char, c.n]" routerLinkActive="active" target="_blank">
+                        <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                             <img class="img-fluid cardIcon"
                                 src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
                         </a>
                     </td>
                     <td>
-                        <a [routerLink]="['/card-value/', c.char, c.n]" routerLinkActive="active" target="_blank">
+                        <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                             {{c.name}}
                         </a>
                     </td>
@@ -94,8 +94,8 @@
                     </td>
                     <td>
                         <span *ngFor="let s of c.skills">
-                            <a [routerLink]="['/skill', s]" routerLinkActive="active" target="_blank">
-                                <img class="img-fluid icon" src="{{imgURL + '技能/' + removePostfix(s) + '.webp'}}">
+                            <a [routerLink]="['/skill', s.name]" target="_blank">
+                                <img class="img-fluid icon" src="{{imgURL + '技能/' + s.id + '.webp'}}">
                             </a>
                         </span>
                     </td>

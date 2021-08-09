@@ -1,6 +1,18 @@
 import { Component, HostListener, OnInit } from '@angular/core';
-import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
+import { Apollo, gql } from 'apollo-angular';
+
+const GET_CARDS = gql`
+  query GetCards{
+    cards(limit: 1000, sortBy: _ID_ASC){
+      _id
+      id
+      type
+      rarity
+      character
+    }
+  }
+`;
 
 @Component({
   selector: 'app-card-selection',
@@ -21,20 +33,42 @@ export class CardSelectionComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService) { }
+  constructor(private _apollo: Apollo) { }
 
   ngOnInit(): void {
-    this._data.getCards().toPromise().then((data: any[]) =>{
-      this.userData = Object.keys(localStorage)
-      this.allCards = data
-      if(this.userData){
-        this.removeChosenCard(data)
-      }else{
-        this.allCards = data
+    this.userData = Object.keys(localStorage);
+    this.loadData();
+  }
+
+  loadData() {
+    this._apollo.query({
+      query: GET_CARDS
+    }).toPromise().then((result: any) => {
+      this.allCards = result.data.cards;
+      if (this.userData) {
+        this.removeChosenCard();
       }
-      this.cards = this.allCards
+      this.cards = this.allCards;
+      this.isLoaded = true;
+    }).catch(err => {
+      console.log(err);
       this.isLoaded = true;
     })
+  }
+
+  removeChosenCard() {
+    let a = this.allCards;
+    let b;
+    this.userData.forEach(id => {
+      b = [];
+      a.forEach(card => {
+        if (card.id != id) {
+          b.push(card)
+        }
+      })
+      a = b;
+    });
+    this.allCards = a
   }
 
   setToTopButtonDisplay() {
@@ -51,30 +85,17 @@ export class CardSelectionComponent implements OnInit {
     document.documentElement.scrollTop = 0;
   }
 
-  removeChosenCard(cards:any[]){
-    let a = cards
-    let b;
-    this.userData.forEach(id => {
-      b = []
-      a.forEach(card => {
-        if(card.id != id){
-          b.push(card)
-        }
-      })
-      a = b
-    });
-    this.allCards = a
-  }
 
-  filterCards(){
+
+  filterCards() {
     let listHolder = []
     this.allCards.forEach(card => {
       let condition = this.filterConditions[0]
-      if(condition == "All" || card.character == condition){
+      if (condition == "All" || card.character == condition) {
         condition = this.filterConditions[1]
-        if(condition == "All" || card.rarity == condition){
+        if (condition == "All" || card.rarity == condition) {
           condition = this.filterConditions[2]
-          if(condition == "All" || card.type == condition){
+          if (condition == "All" || card.type == condition) {
             listHolder.push(card)
           }
         }
@@ -83,7 +104,7 @@ export class CardSelectionComponent implements OnInit {
     this.cards = listHolder;
   }
 
-  resetFilters(){
+  resetFilters() {
     this.filterConditions = ["All", "All", "All"];
     this.filterCards();
   }

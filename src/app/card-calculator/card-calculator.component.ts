@@ -92,7 +92,7 @@ export class CardCalculatorComponent implements OnInit {
       item.skillNames.forEach(n => {
         this.allSkills.forEach(s => {
           if (n == s.name) {
-            let name = s.nameEN == '' ? s.name : s.nameEN
+            let name = s.nameEN == '' ? s.name : s.nameEN;
             names.push(name)
           }
         })

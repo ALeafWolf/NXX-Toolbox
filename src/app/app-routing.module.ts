@@ -29,10 +29,12 @@ const routes: Routes = [
   {
     path: 'cards',
     component: CardListComponent,
+    canActivate: [ RealmAuthGuard ]
   },
   {
     path: 'skills',
     component: SkillListComponent,
+    canActivate: [ RealmAuthGuard ]
   },
   {
     path: 'skill/:name',
@@ -41,15 +43,26 @@ const routes: Routes = [
   {
     path: 'card-selection',
     component: CardSelectionComponent,
+    canActivate: [ RealmAuthGuard ]
   },
   {
-    path: 'card-value/:charname/:id',
+    path: 'card-value',
     component: CardValueComponent,
+    canActivate: [ RealmAuthGuard ]
   },
   {
-    path: 'card-value-setting/:charname/:id',
+    path: 'card-value-setting',
     component: CardValueSettingComponent,
+    canActivate: [ RealmAuthGuard ]
   },
+  // {
+  //   path: 'card-value/:charname/:id',
+  //   component: CardValueComponent,
+  // },
+  // {
+  //   path: 'card-value-setting/:charname/:id',
+  //   component: CardValueSettingComponent,
+  // },
   {
     path: 'other',
     component: OtherComponent,

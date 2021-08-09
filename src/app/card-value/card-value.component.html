@@ -8,7 +8,7 @@
     <div class="col-12 row align-items-center">
         <div class="col-6 col-md-4 row py-2">
             <div class="col-12 row py-2 justify-content-center">
-                <a class="col-4 btn" [routerLink]="['/card-value-setting/', char, id]">
+                <a class="col-4 btn" [routerLink]="['/card-value-setting/']" [queryParams]="{id: card._id}">
                     <img class="img-fluid" src="assets/images/btn_edit.png">
                 </a>
                 <a *ngIf="hasUserData" class="col-4 btn" routerLink="/card-calculator" (click)="deleteUserData()">
@@ -16,7 +16,7 @@
                 </a>
             </div>
         </div>
-        <h4 class="col col-md-4 my-3 text-center">{{card.char}} - {{card.n}}</h4>
+        <h4 class="col col-md-4 my-3 text-center">{{card.char}} - {{card.name}}</h4>
     </div>
     
     <div class="col-5 col-md-6 row justify-content-around">
@@ -79,14 +79,14 @@
             <tbody *ngFor="let s of card.skills">
                 <tr>
                     <td rowspan="2">
-                        <a [routerLink]="['/skill', s.n]" target="_blank">
+                        <a [routerLink]="['/skill', s.name]" target="_blank">
                             <img class="icon"
                                 src="{{imgURL + '技能/' + s.id + '.webp'}}">
                         </a>
                     </td>
                     <td colspan="2">
-                        <a [routerLink]="['/skill',  s.n]" target="_blank">
-                            {{s.n}}
+                        <a [routerLink]="['/skill',  s.name]" target="_blank">
+                            {{s.name}}
                         </a>
                     </td>
 
@@ -96,7 +96,7 @@
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <span class="smallFont">{{skillsInfo[card.skills.indexOf(s)]}}</span>
+                        <span class="smallFont">{{s.description}}</span>
                     </td>
                 </tr>
             </tbody>
