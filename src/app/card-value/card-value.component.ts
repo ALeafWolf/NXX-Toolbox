@@ -184,7 +184,7 @@ export class CardValueComponent implements OnInit {
       //replace X in the description with correct number
       let line = skill.description.toString();
       let str = line.replace("X", num.toFixed(2).toString());
-      this.card.skills[i].description = str;
+      this.skillsInfo.push(str);
     }
   }
 

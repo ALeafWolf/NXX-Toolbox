@@ -31,6 +31,7 @@ const GET_SKILL_EN = gql`
 const GET_CARDS = gql`
   query GetCards{
     cards(limit: 1000, sortBy: _ID_ASC){
+      _id
       id
       character
       skills
