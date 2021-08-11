@@ -63,7 +63,12 @@
         "RANK": "Rank"
     },
     "MERCH-LIST": {
-        "DECLAIM": "For now, only include the merches that are sold on Tears of Themis' official Tmall shop. Still working on enter the merches' information."
+        "DECLAIM": "For now, only include the merches that are sold on <a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>Tears of Themis' Official Tmall Store</a>. Still working on enter the merches' information.",
+        "SERIES": "Series",
+        "SELL-TIME-TYPE": "Sell Time",
+        "OTHER": "Other",
+        "PERMANENT": "Permanent",
+        "LIMITED-TIME": "Limited Time"
     },
     "MERCH-DETAIL": {
         "PRODUCT-NAME": "Product Name",

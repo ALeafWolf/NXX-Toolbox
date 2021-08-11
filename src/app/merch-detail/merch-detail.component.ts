@@ -58,7 +58,10 @@ export class MerchDetailComponent implements OnInit {
       this.merch = result.data.merch;
       this.setTitle();
       this.isLoaded = true;
-    });
+    }).catch(err => {
+      console.log(err);
+      this.isLoaded = true;
+    })
   }
 
   setTitle() {

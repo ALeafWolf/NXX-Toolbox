@@ -9,6 +9,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
+        "character": "夏彦",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01DnvXuI1fEayaZLRCQ_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01t1h6we1fEayaZJxlF_!!3249253975-0-lubanu-s.jpg",
@@ -31,6 +32,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
+        "character": "左然",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01V9fFcQ1fEayaZvEIa_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01JZavFv1fEayaZfa2K_!!3249253975-0-lubanu-s.jpg",
@@ -53,6 +55,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
+        "character": "莫弈",
         "images": [
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01D3CRTl1fEayaZoylN_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01VDoOr81fEayfSPFe2_!!3249253975-0-lubanu-s.jpg",
@@ -75,6 +78,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
+        "character": "陆景和",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01QZ4tLr1fEayX7OTsE_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01dFMc8M1fEayX7PUFU_!!3249253975-0-lubanu-s.jpg",
@@ -97,10 +101,14 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1ghlwzn22bmj30m80m8tch.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1ghlwzn9aanj30ly2pjn8b.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1ghlwzmymqjj30ly0e27ba.jpg"
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01IuJFgf1fEaySMVEmC_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01kwnjrT1fEayfhT1ai_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01tkcOJH1fEayfPIymH_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01BLpHPe1fEayfhT9vg_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01qXjnFG1fEayYavQOs_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01mOVXCs1fEaySLPZDk_!!3249253975.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JficC3gkW",
         "hoyolab": "-",
@@ -116,10 +124,17 @@
         "productDescription": "-",
         "price": "¥35",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1ghlwzn1o68j30m80m8acx.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1ghlwzn0b5lj30ly2ndn5z.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1ghlwzmxoapj30ly1jsq66.jpg"
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01RDmgPL1fEaydxOKYd_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01YIs0b11fEaySMtbiA_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01ZR4dvf1fEayYXXxvp_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01ndbNa61fEayb3IJvM_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01IMma691fEayYXX5uV_!!3249253975-0-lubanu-s.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01AM8gJp1fEaycnNHgG_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01NqQCdw1fEaybABZPe_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01wbfzJr1fEayaVWWQy_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01FsKSU41fEaya9318E_!!3249253975.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JficC3gkW",
         "hoyolab": "-",
@@ -135,6 +150,7 @@
         "productDescription": "-",
         "price": "¥48",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01fKydo41fEayY3cluW_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01GEJbke1fEayb2AdOa_!!3249253975.jpg",
@@ -154,9 +170,9 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": -1,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajw46g9j31900u0b29.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajwcy3wj30u0140hdu.jpg"
+            "https://img.alicdn.com/i3/117875166/O1CN01b3E0WK1o24kFK9s1Y_!!117875166.jpg_q50s50.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Jhe0Nqx9b",
         "hoyolab": "-",
@@ -172,17 +188,17 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": -1,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajv0m45j31900u04qp.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajuuysxj31900u0kjl.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajwsifkj31900u0b29.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajwvy77j31900u04qp.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajuwlcqj31900u0hdt.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajxgamlj31900u0hdt.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gowajwl1qrj31900u0npk.jpg"
+            "https://img.alicdn.com/imgextra/i2/59372960/O1CN01H8sILv1Xjj1TVuKUd_!!59372960.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/03/25/50111872/5ddfe77ac3d99afd1bd087247d487e89_8429334887054291236.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/03/25/50111872/4257f855aa2f7289e5c70924ea84a4a7_6412492933134434344.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/03/25/50111872/8b2faf26f4833a616954e2efca91d266_186737332556344756.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/03/25/50111872/0c90a73cebc474a2436c04b70f2b63c6_552246325766103560.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/03/25/50111872/f18c0d83529ea4cd68a5a338061eb9d8_3994192265568229962.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Jhe0Nqx9b",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/5153610",
         "tmall": "-"
     },
     {
@@ -195,8 +211,9 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 1,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9ly1goo2vhk0v5j30go0go7ax.jpg"
+            "https://cf.shopee.tw/file/d98108f9f52b343a7ee200df3452793f"
         ],
         "weibo": "https://weibo.com/6073483367/K6Li5rqC0",
         "hoyolab": "-",
@@ -212,21 +229,22 @@
         "productDescription": "-",
         "price": "¥35",
         "sellDate": -1,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gpup045fuij30go0goq82.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gizlsmt8puj30go0gojtb.jpg",
-            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlsuiqhmg30dw0dwu10.gif",
-            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlsuxexeg30dw0dwnpg.gif",
-            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlsnxsnog30dw0dwb2c.gif",
-            "https://wx1.sinaimg.cn/large/006D1It9gy1gizlso4gmgg30dw0dwu10.gif",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8vbl7819j30ly1j2k7w.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/007IC2c2ly1gpup045fuij30go0goq82.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gizlsmt8puj30go0gojtb.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gizlsuiqhmg30dw0dwu10.gif",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gizlsuxexeg30dw0dwnpg.gif",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gizlsnxsnog30dw0dwb2c.gif",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gizlso4gmgg30dw0dwu10.gif",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8vbl7819j30ly1j2k7w.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JlPne3AML",
         "hoyolab": "-",
         "tmall": "-"
     },
     {
-        "name": "中秋系列 Q版软木杯垫 ",
+        "name": "中秋系列 Q版软木杯垫",
         "series": "中秋系列",
         "productMaterial": "铜板纸、密度板、软木",
         "productTechnology": "表面覆膜，过边油",
@@ -235,9 +253,11 @@
         "productDescription": "-",
         "price": "¥10",
         "sellDate": -1,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8vbmdiarj30ly0dc78d.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8vbljzawj30ly1j2e81.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/d38c7cf6dde72b26b4061e5b9d862bae.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8vbmdiarj30ly0dc78d.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8vbljzawj30ly1j2e81.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JncOZAPSZ",
         "hoyolab": "-",
@@ -253,12 +273,10 @@
         "productDescription": "-",
         "price": "¥38",
         "sellDate": -1,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8dmwjejej30go0gowu7.jpg",
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8dmxu606j30go0go7j0.jpg",
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8dmyuci6j30go0gowtk.jpg",
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2gy1gkj176oryqj30go0gowtk.jpg",
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2ly1gk8enmgcnxj30go1x9as4.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/896d6164c017bf3a5fb7070497076a8fb6020bd7.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/007IC2c2ly1gk8enmgcnxj30go1x9as4.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/JrIIon7AY",
         "hoyolab": "-",
@@ -274,12 +292,13 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
+        "character": "莫弈",
         "images": [
-            "https://cf.shopee.tw/file/2be41f27bfe483e44dfc54ef81317dcf",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0ismij30m80m846s.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0rjgsj30m80m8jy6.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0k7vnj30m80m87c8.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0vjklj30ly2qb7wh.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/438360f2e30a772e1fec543d8ba68f4d.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0ismij30m80m846s.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0rjgsj30m80m8jy6.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0k7vnj30m80m87c8.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0vjklj30ly2qb7wh.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
@@ -295,9 +314,10 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
+        "character": "莫弈",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0kbb7j30m80m848j.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0lyelj30ly0y6h0f.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0kbb7j30m80m848j.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0lyelj30ly0y6h0f.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
@@ -313,9 +333,10 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "莫弈",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve10013j30m80m8gvb.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve10mzxj30u01aptzr.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve10013j30m80m8gvb.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve10mzxj30u01aptzr.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
@@ -331,8 +352,9 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "莫弈",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gj8ve0ismij30m80m846s.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0ismij30m80m846s.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
@@ -348,6 +370,7 @@
         "productDescription": "-",
         "price": "¥78",
         "sellDate": 1,
+        "character": "All",
         "images": [
             "https://upload-bbs.mihoyo.com/upload/2020/11/04/50111872/f1667fe17ac208c5ca21019d87697efa_15438250510815124.jpg",
             "https://upload-bbs.mihoyo.com/upload/2020/11/04/50111872/e7980f28415a599d5c3628286390f809_5100211368284943039.jpg"
@@ -366,6 +389,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 1,
+        "character": "All",
         "images": [
             "https://upload-bbs.mihoyo.com/upload/2020/11/04/50111872/7d5ecb6119bacf5b2543e356716808ea_1877252624659955383.jpg",
             "https://upload-bbs.mihoyo.com/upload/2020/11/04/50111872/06aee4b328f370e37ca3d4585d3d47b0_2566661593653041155.jpg"
@@ -384,6 +408,7 @@
         "productDescription": "-",
         "price": "¥98",
         "sellDate": 1,
+        "character": "All",
         "images": [
             "https://upload-bbs.mihoyo.com/upload/2020/11/04/50111872/c4a1d74a5c9d5a4f2bfffc0d8ea87e12_8287252904395529947.jpg",
             "https://upload-bbs.mihoyo.com/upload/2020/11/04/50111872/c4a1d74a5c9d5a4f2bfffc0d8ea87e12_8287252904395529947.jpg"
@@ -402,15 +427,16 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
+        "character": "夏彦",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf8pwsj30m80m8wqe.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf3w7xj30m80m8gv1.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf6w13j30m80m8n5j.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf3aj0j30m80m8ahi.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf06cnj30ly2qbhdt.jpg"
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/216909ce292ac515e287d96a7f1619d3_2859374243553891583.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/24012a0802ec2f0e212d05f82555467c_8799102832086737579.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/d4901c088274588374aa9ebb7e85d9a1_8561714122037531033.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/24780cf7de82292020599325a6c43c28_4742881631010947317.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/c82c4d502c00e445e3a51f1dcee02ce9_5779892515632165246.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Jxxh6Ao7N",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/3044372",
         "tmall": "-"
     },
     {
@@ -423,11 +449,12 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
+        "character": "夏彦",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcewadgj30m80m8n85.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1glgmcewadgj30m80m8n85.jpg"
         ],
-        "weibo": "https://weibo.com/6073483367/Jxxh6Ao7N",
-        "hoyolab": "-",
+        "weibo": "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/694f1968c5dadd837e8b82f1c3f7ac25_3821474360238254793.jpg",
+        "hoyolab": "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/46d508e216e332e37df71841bb00122d_416676199207391109.jpg",
         "tmall": "-"
     },
     {
@@ -440,12 +467,13 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "夏彦",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcex53hj30m80m8k1i.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcey73zj30ly0zhaw7.jpg"
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/6955e376746c7c65f1f78280e133c6f4_3579968964876960247.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/87e1c46cc4dc7112be8861fe5217c3bd_4602975602552187788.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Jxxh6Ao7N",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/3044372",
         "tmall": "-"
     },
     {
@@ -458,11 +486,12 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "夏彦",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glgmcf3w7xj30m80m8gv1.jpg"
+            "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/24012a0802ec2f0e212d05f82555467c_8799102832086737579.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/Jx2sO0g36",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/3044372",
         "tmall": "-"
     },
     {
@@ -475,9 +504,14 @@
         "productDescription": "-",
         "price": "¥98",
         "sellDate": 2,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glqz898k66j30m80m8wlv.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glqz891natj30ly36re81.jpg"
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01h3fen91fEb0JCUr1J_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN018s1rAt1fEb0KSHORO_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01Tuynol1fEb0IY5b7q_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN015pKQE11fEb0FSS8bV_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN010KrZ2H1fEb0ByLdX6_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01lOsOEJ1fEb0KSJbey_!!3249253975.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JyTHLclsL",
         "hoyolab": "-",
@@ -493,9 +527,14 @@
         "productDescription": "-",
         "price": "¥98",
         "sellDate": 2,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glqz88sbb3j30m80m87ab.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1glqz88t8ygj30ly3d5u0x.jpg"
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01oayiNj1fEb05BZgUI_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01qbAfyo1fEb0DRPqYa_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01qbAfyo1fEb0DRPqYa_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01bERCu61fEb0BR1FI2_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01C4nKNh1fEb0GYh5wa_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01n5rwhk1fEb0DRQ7Bc_!!3249253975.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JyTHLclsL",
         "hoyolab": "-",
@@ -511,12 +550,13 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
+        "character": "左然",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwwyktxj30m80m80yy.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx0ng2j30m80m87a2.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx702kj30m80m8aeh.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx5uu7j30m80m8q70.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx3d5wj30ly2oana1.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/52f897d75690c84e7574f78d54adea2b1f0598e9.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/711b3115659653632044d39339d74b1463c60de6.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/50f7f01dbd2ff18e473fd4f21b5ae523af347d08.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/17f91f93ced5a1928180f1f76e6175b6fd924a49.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/324a31adb66f55098518b34a70b48519740a26a0.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
         "hoyolab": "-",
@@ -532,9 +572,10 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
+        "character": "左然",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx0i4ij30m80m8qak.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwwyfibj30ly1cgtho.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/689cecf14305d059089079b53d88e5c69e6562cb.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/4c96d518c13a081a335fe22ca1d3d8d7662a0b3d.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
         "hoyolab": "-",
@@ -550,9 +591,10 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "左然",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx665rj30m80m8dn3.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx04t9j30ly1cg115.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/8710f27be4964efed17347fd0d69d59dc5a45183.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/a23723e2d41ba687c9b8fb70f700b3c101dde890.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
         "hoyolab": "-",
@@ -568,8 +610,9 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "左然",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gq1pwx0ng2j30m80m87a2.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/50f7f01dbd2ff18e473fd4f21b5ae523af347d08.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/Kdi4QwzsQ",
         "hoyolab": "-",
@@ -585,9 +628,14 @@
         "productDescription": "电池容量10000mAh，额定容量约6000mAh | 锂-聚合物电芯，Micro接口输入 5V/2A，Type-C接口输入 5V/2A，USB接口输出 5V/2.1A，电量数值显示电子屏，图案磨砂质感",
         "price": "¥98",
         "sellDate": 3,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gquvejq3mej30m80m8tfk.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gquvejywc8j30ly2mc4qp.jpg"
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN018Nk04W1fEb2bKg8Fu_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN018RIvIP1fEb2YD4gx9_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01RYbFgs1fEb2bDqBAb_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01sOSX981fEb2WEf4tp_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01xB6N3F1fEb2SCWPGX_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01A2SjfC1fEb2SCWbjZ_!!3249253975.jpg"
         ],
         "weibo": "-",
         "hoyolab": "https://bbs.mihoyo.com/wd/article/6374111",
@@ -603,6 +651,7 @@
         "productDescription": "Iphone接口/Type-C接口 | 5V/2A（max），USB2.0，支持快充",
         "price": "¥49",
         "sellDate": 3,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01b9xnGy1fEb1oTeUyb_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01UqsSZj1fEb1skemS1_!!3249253975.jpg",
@@ -623,12 +672,13 @@
         "productDescription": "-",
         "price": "¥10",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gs05ujzumoj30m80m8k08.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1gs05ujcwedj30ly3y9qv5.jpg"
+            "https://upload-bbs.mihoyo.com/upload/2021/06/30/50111872/0a511dbc2a941a255c4c9def627904e1_2075896919596296997.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/06/30/50111872/bd849ad4e123091f9c1a7dd2eaab5e49_3318481315354993876.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/KkJl5nT3n",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/7143051",
         "tmall": "-"
     },
     {
@@ -641,11 +691,13 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2gy1grm7ndjct8j30go0gogqm.jpg"
+            "https://upload-bbs.mihoyo.com/upload/2021/06/30/50111872/4cdd1de2e8c4ffa98a4daeae3e80c885_5583741547442173498.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/06/30/50111872/75e6272492f7371271996f03237f0b4e_9213863541331408404.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/KkJl5nT3n",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/7143051",
         "tmall": "-"
     },
     {
@@ -658,11 +710,13 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2gy1grm7nd3mmsj30go0gojxe.jpg"
+            "https://upload-bbs.mihoyo.com/upload/2021/06/30/50111872/0c17eaae9b6fc5234352ceeac5783425_2515566320113889681.jpg",
+            "https://upload-bbs.mihoyo.com/upload/2021/06/30/50111872/18fe197abfd7a121a9be4385c507233e_8821975161787357630.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/KkJl5nT3n",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/7143051",
         "tmall": "-"
     },
     {
@@ -675,12 +729,18 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx3.sinaimg.cn/mw2000/007IC2c2gy1grm7ndclwbj30go0goagf.jpg"
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01S9U5qL1fEb30i76nz_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01mY24M31fEb2rxV3M5_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01b5K8zT1fEb31Al5kj_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01GnGf711fEb35nH0NY_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01Lk2Th31fEb33Najx9_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01zrT77U1fEb2rxVelc_!!3249253975.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/KkJl5nT3n",
-        "hoyolab": "-",
-        "tmall": "-"
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/7143051",
+        "tmall": "https://detail.tmall.com/item.htm?id=646057692036"
     },
     {
         "name": "燃动潮流夜系列 冰箱贴摆件",
@@ -692,11 +752,12 @@
         "productDescription": "-",
         "price": "¥32",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2gy1grm7ndeojxj30go0gogti.jpg"
+            "https://img.alicdn.com/i2/3249253975/O1CN01Q9jY7G1fEb30mE1Vv_!!0-item_pic.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/KkJl5nT3n",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/7143051",
         "tmall": "-"
     },
     {
@@ -709,11 +770,14 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "All",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/007IC2c2gy1grm7ndeojxj30go0gogti.jpg"
+            "https://img.alicdn.com/i4/3249253975/O1CN01Fn95Ri1fEb34IFomU_!!0-item_pic.jpg",
+            "https://www.myacg.com.tw/goods_images/2295154_3_20210621220540.jpg",
+            "https://www.myacg.com.tw/goods_images/2295154_4_20210621220540.jpg"
         ],
         "weibo": "https://weibo.com/7072153506/KkJl5nT3n",
-        "hoyolab": "-",
+        "hoyolab": "https://bbs.mihoyo.com/wd/article/7143051",
         "tmall": "-"
     },
     {
@@ -726,12 +790,14 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
+        "character": "陆景和",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a2a5yvj30m80m8n4n.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a29rs6j30m80m8wle.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a2bse1j30m80m8jvl.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a27uxlj30m80m8jvs.jpg",
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a2cwjjj30ly2oa1c7.jpg"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/c0b96b3a0008ce9460d6080fab97645f8ab1bd47.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/e00235fbc2395f032bd723d2586eae934a7e777a.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/09e2eed1e1a4973bc8904093c4cf0ce4b763cd6d.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/c190ad53593fb15a1ef63266497a1525ccb906fb.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/f4f37d163c34e005fa44c00ff2f0076771b384e8.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/2956995bf98540c2b69b277398dfdc3f9c00bda5.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/KlmMkwVYt",
         "hoyolab": "-",
@@ -747,6 +813,7 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
+        "character": "陆景和",
         "images": [
             "https://img.alicdn.com/bao/i3/3249253975/O1CN01HZ7T381fEb34NXhiu_!!0-item_pic.jpg",
             "https://cf.shopee.tw/file/5126f8c60cfbbae45a6c0ec72159636b"
@@ -765,6 +832,7 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "陆景和",
         "images": [
             "https://img.alicdn.com/bao/i4/3249253975/O1CN01XOEBHu1fEb2yklDs7_!!0-item_pic.jpg",
             "https://cf.shopee.tw/file/8f85336cfdcb44f0481ae6a548e02d0f"
@@ -783,9 +851,10 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "陆景和",
         "images": [
-            "https://wx1.sinaimg.cn/mw2000/006D1It9gy1grr4a29rs6j30m80m8wle.jpg",
-            "https://cf.shopee.tw/file/105a936bf7d2c784985f99f29e863438"
+            "https://aleafwolf.github.io/IHS/TOT/merchs/e00235fbc2395f032bd723d2586eae934a7e777a.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/105a936bf7d2c784985f99f29e863438.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/KlmMkwVYt",
         "hoyolab": "-",
@@ -801,6 +870,7 @@
         "productDescription": "-",
         "price": "¥58",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01FAkM391fEb3UfZlMO_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01bH5eox1fEb3SPP8qu_!!3249253975.jpg"
@@ -819,6 +889,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01XO0Xbx1fEb3O8csvq_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN018VCpMC1fEb3VMgzbo_!!3249253975.jpg"
@@ -837,6 +908,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01Hl44Bc1fEb3V49ZxA_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN014AgxCS1fEb3XqFvek_!!3249253975.jpg"
@@ -855,6 +927,7 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01jwcfLK1fEb3Xfo5DF_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01YRNG9G1fEb3TUJJZI_!!3249253975.jpg"
@@ -873,6 +946,7 @@
         "productDescription": "-",
         "price": "¥32",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01864I5a1fEb3W8WBQE_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01Qu1zsJ1fEb3TDCin7_!!3249253975.jpg"
@@ -891,6 +965,7 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01CANOQl1fEb3QLHaY8_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01vVkIkp1fEb3PZnwjF_!!3249253975.jpg"
@@ -909,6 +984,7 @@
         "productDescription": "-",
         "price": "¥18",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01qyxvVN1fEb3W9BKtA_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01YiTnSG1fEb3NkOgjg_!!3249253975.jpg"
@@ -927,6 +1003,7 @@
         "productDescription": "-",
         "price": "¥54",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01MAYUVB1fEb3QLvnfO_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01l4gVxK1fEb3RsgXPd_!!3249253975.jpg"
@@ -945,6 +1022,7 @@
         "productDescription": "-",
         "price": "¥18",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN013oYkyh1fEb3OLdVLu_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01watbWJ1fEb3TDGc5W_!!3249253975.jpg"
@@ -963,6 +1041,7 @@
         "productDescription": "-",
         "price": "¥48",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01TBQvQ01fEb3ZzDq8O_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01PvYWHW1fEb3SPBJMq_!!3249253975.jpg"
@@ -981,6 +1060,7 @@
         "productDescription": "商品填充物：冰晶+水",
         "price": "¥48",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01CTt6my1fEb3Wgp0Ds_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN016VpfOL1fEb3J6ZlPR_!!3249253975.jpg"
@@ -999,6 +1079,7 @@
         "productDescription": "-",
         "price": "¥38",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN010AOQyU1fEb3a3KspH_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01B8ohRg1fEb3PDfNii_!!3249253975.jpg"
@@ -1017,6 +1098,7 @@
         "productDescription": "-",
         "price": "¥89",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN012kB9Vm1fEb3U79MAf_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01yvzpWF1fEb3J6daYk_!!3249253975.jpg"
@@ -1035,6 +1117,7 @@
         "productDescription": "-",
         "price": "¥38",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01bILVfH1fEb3a21aF5_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01RqWAo71fEb3RsXwe7_!!3249253975.jpg"
@@ -1053,6 +1136,7 @@
         "productDescription": "-",
         "price": "¥18",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01QywpmW1fEb3YOrLUs_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01XAzSdb1fEb3YiEego_!!3249253975.jpg"
@@ -1071,6 +1155,7 @@
         "productDescription": "-",
         "price": "¥129",
         "sellDate": 4,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01DHvrak1fEb3JgwbXT_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01OvkfRe1fEb3OS0iyq_!!3249253975.jpg"
@@ -1089,6 +1174,7 @@
         "productDescription": "-",
         "price": "¥32",
         "sellDate": 0,
+        "character": "Other",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01AERDJZ1fEb3Wg1f4Z_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01UWwnzX1fEb3TV5WF2_!!3249253975.jpg"
@@ -1107,6 +1193,7 @@
         "productDescription": "-",
         "price": "¥32",
         "sellDate": 0,
+        "character": "Other",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN012JO7Os1fEb3OLWWRB_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01f4wLyd1fEb3J6gsbN_!!3249253975.jpg"
@@ -1125,6 +1212,7 @@
         "productDescription": "全4组，1组4张",
         "price": "¥28",
         "sellDate": 0,
+        "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN013CmQQ61fEb3STMma3_!!0-item_pic.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01tb6fWS1fEb3U0NYph_!!3249253975.jpg"

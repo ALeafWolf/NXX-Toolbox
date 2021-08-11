@@ -76,7 +76,12 @@
         "RANK": "星级"
     },
     "MERCH-LIST": {
-        "DECLAIM": "目前仅包含售卖于未定事件簿官方天猫旗舰店的周边。剩余周边信息正在录入中。"
+        "DECLAIM": "目前仅包含售卖于<a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>未定事件簿官方天猫旗舰店</a>的周边。剩余周边信息正在录入中。",
+        "SERIES": "系列",
+        "SELL-TIME-TYPE": "贩售时间",
+        "OTHER": "其他",
+        "PERMANENT": "常驻",
+        "LIMITED-TIME": "限时"
     },
     "MERCH-DETAIL": {
         "PRODUCT-NAME": "商品名",
