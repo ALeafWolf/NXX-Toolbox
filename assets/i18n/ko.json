@@ -76,7 +76,12 @@
         "RANK": "등급"
     },
     "MERCH-LIST": {
-        "DECLAIM": "현재는 미해결사건부 공식 Tmall샵에서 판매 중인 상품만 표시됩니다. 나머지 굿즈는 작업 중에 있습니다."
+        "DECLAIM": "현재는 미해결사건부 공식 <a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>Tmall</a>샵에서 판매 중인 상품만 표시됩니다. 나머지 굿즈는 작업 중에 있습니다.",
+        "SERIES": "시리즈",
+        "SELL-TIME-TYPE": "판매 기일",
+        "OTHER": "기타",
+        "PERMANENT": "영구적 인",
+        "LIMITED-TIME": "제한된 시간"
     },
     "MERCH-DETAIL": {
         "PRODUCT-NAME": "상품명",
