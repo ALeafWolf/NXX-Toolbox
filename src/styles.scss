@@ -202,6 +202,15 @@ img.merch-img{
     margin: 0 auto;
 }
 
+table.merch-info{
+    height: fit-content;
+}
+
+p.alert{
+    color: red;
+    font-weight: bold;
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 

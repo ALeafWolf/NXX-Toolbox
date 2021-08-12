@@ -25,6 +25,7 @@ const routes: Routes = [
   {
     path: 'card-calculator',
     component: CardCalculatorComponent,
+    canActivate: [RealmAuthGuard]
   },
   {
     path: 'cards',
