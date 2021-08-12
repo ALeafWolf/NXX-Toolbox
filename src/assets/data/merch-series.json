@@ -55,6 +55,30 @@
         ]
     },
     {
+        "name": "消失的黄金系列",
+        "type": "限时",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2020-11-01 ~ 2020-11-20"
+        ]
+    },
+    {
+        "name": "定音系列",
+        "type": "常驻",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2020-11-01"
+        ]
+    },
+    {
+        "name": "兴趣系列",
+        "type": "常驻",
+        "typeEN": "Limited time",
+        "sellTime": [
+            "2020-11-01"
+        ]
+    },
+    {
         "name": "满分惊喜系列",
         "type": "限时",
         "typeEN": "Limited time",
@@ -155,7 +179,7 @@
         "type": "常驻",
         "typeEN": "Permanent",
         "sellTime": [
-            "0000-00-00"
+            "2020-11-01"
         ]
     }
 ]

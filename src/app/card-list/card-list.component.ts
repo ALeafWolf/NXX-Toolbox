@@ -94,7 +94,7 @@ export class CardListComponent implements OnInit {
     cards.forEach(card => {
       let c = { ...card };
       c.n = this.lang == 'zh' ? card.name : card.nameEN;
-      c.skills = sortSkill(card.skills, card.rarity);
+      c.skills = sortSkill(card.id, card.skills, card.rarity);
       cs.push(c);
     })
     this.allCards = cs;

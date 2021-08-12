@@ -101,17 +101,32 @@ export class ExpChipInfo {
     }
 }
 
-export function sortSkill(skills: any[], rarity: string) {
-    let array: any[] = rarity == 'R' ? [{}, {}] : [{}, {}, {}];
-    skills.forEach(skill => {
-        switch (skill.slot) {
-            case 1: array[0] = skill;
-                break;
-            case 2: array[1] = skill;
-                break;
-            case 3: array[2] = skill;
-                break;
-        }
-    })
-    return array;
+export function sortSkill(ref: string, skills: any[], rarity: string) {
+    if (ref == '入局') {
+        let arr = [{}, {}, {}];
+        skills.forEach(s => {
+            if(s.ref == '顺水推舟'){
+                arr[1] = s;
+            }else if(s.ref == '谈话引导'){
+                arr[2] = s;
+            }else{
+                arr[0] = s;
+            }
+        })
+        return arr;
+    } else {
+        let array: any[] = rarity == 'R' ? [{}, {}] : [{}, {}, {}];
+        skills.forEach(skill => {
+            switch (skill.slot) {
+                case 1: array[0] = skill;
+                    break;
+                case 2: array[1] = skill;
+                    break;
+                case 3: array[2] = skill;
+                    break;
+            }
+        })
+        return array;
+    }
+
 }

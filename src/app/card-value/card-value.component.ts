@@ -115,7 +115,7 @@ export class CardValueComponent implements OnInit {
     }).toPromise().then((cResult: any) => {
       this.card = { ...cResult.data.card };
       if (this.card) {
-        this.card.skills = sortSkill(this.card.skills, this.card.rarity);
+        this.card.skills = sortSkill(this.card.id, this.card.skills, this.card.rarity);
         this.att = this.card.influence;
         this.def = this.card.defense;
         this.userData = JSON.parse(this._data.getItem(this.card.id));

@@ -202,24 +202,6 @@
         "tmall": "-"
     },
     {
-        "name": "清夏同游系列 Q版方形徽章",
-        "series": "清夏同游系列",
-        "productMaterial": "-",
-        "productTechnology": "-",
-        "productPacking": "-",
-        "productSize": "-",
-        "productDescription": "-",
-        "price": "¥15",
-        "sellDate": 1,
-        "character": "All",
-        "images": [
-            "https://cf.shopee.tw/file/d98108f9f52b343a7ee200df3452793f"
-        ],
-        "weibo": "https://weibo.com/6073483367/K6Li5rqC0",
-        "hoyolab": "-",
-        "tmall": "-"
-    },
-    {
         "name": "中秋系列 Q版摇摇亚克力立牌",
         "series": "中秋系列",
         "productMaterial": "3mm厚亚克力",
@@ -417,6 +399,100 @@
         "hoyolab": "-",
         "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-16362476188.104.39ba79a6hKbtU0&id=628146492128&rn=56d670edc7a97e44ffd35e4edfbcc4cc&abbucket=7&sku_properties=134942334:28316"
     },
+
+    {
+        "name": "定音系列 方形徽章",
+        "series": "定音系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷、镭射工艺",
+        "productPacking": "背卡、opp袋",
+        "productSize": "直径约5.8cm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "character": "All",
+        "images": [
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN017bAioi1fEazjiW8m3_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01yRyyZy1fEazl6gEM9_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01FH5PjU1fEazjcIifH_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01rRDDWp1fEaziPvmrw_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01WEcRqK1fEazhhYU16_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01UuU7Ss1fEazfkvYit_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01zAu4tr1fEazfkuQ57_!!3249253975.jpg"
+        ],
+        "weibo": "-",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-16362476191.45.43db75f9p0Zh1K&id=628777130294&rn=526830d6b85d6c7f0161f935258b361e&abbucket=7&sku_properties=134942334:28316"
+    },
+    {
+        "name": "定音系列 装饰色纸",
+        "series": "定音系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "烫金包边，背面可立支架",
+        "productPacking": "信封袋、封口贴纸",
+        "productSize": "色纸约15*15cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "character": "All",
+        "images": [
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01RwnLNE1fEazcErI1i_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01hgN7H91fEazXTtkTw_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01piBnsM1fEazjcLGu9_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01l00qCi1fEazhhZxg4_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01mWSZKe1fEazgcNfOB_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01pKbKI71fEazgcNw1u_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01abfM9Q1fEazhhZUYo_!!3249253975.jpg"
+        ],
+        "weibo": "-",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-16362476191.50.43db75f9Pmmodu&id=629073839825&rn=6bf6fa5bbbfb815fe15f07d411488220&abbucket=7&sku_properties=134942334:28316"
+    },
+    {
+        "name": "兴趣系列 Q版圆抱枕",
+        "series": "兴趣系列",
+        "productMaterial": "毛毛绒",
+        "productTechnology": "-",
+        "productPacking": "吊牌、opp袋",
+        "productSize": "抱枕直径约50cm",
+        "productDescription": "-",
+        "price": "¥65",
+        "sellDate": 0,
+        "character": "All",
+        "images": [
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01CgoOHN1fEaziy6ogl_!!0-item_pic.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01jIsDb01fEaziFl3aJ_!!3249253975.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01qbpg7w1fEazm2tmQj_!!3249253975.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01SUTMFZ1fEazg2cfvI_!!3249253975.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN010EDtO01fEazixw8wU_!!3249253975.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01lyWdxB1fEazdp4W37_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01wpkpJy1fEazm2uJjZ_!!3249253975.jpg"
+        ],
+        "weibo": "-",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.3-b-s.w4011-16362476191.44.212975f9IqYikx&id=628480533533&rn=2bec064dcc7c818ac3368c2288d0b37d&abbucket=7&sku_properties=134942334:28316"
+    },
+    {
+        "name": "2021年纪念台历",
+        "series": "N/A",
+        "productMaterial": "高级特种纸",
+        "productTechnology": "烫印工艺、镭射工艺、凹凸工艺",
+        "productPacking": "纸盒",
+        "productSize": "台历尺寸：22*25cm、翻页尺寸：18*25cm",
+        "productDescription": "-",
+        "price": "¥65",
+        "sellDate": 0,
+        "character": "Other",
+        "images": [
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gkir0fh0e9j30m80m8n0c.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gkir08jlkrj30m80m8gnw.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gkir08kb90j30m80m8go5.jpg",
+            "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gkir08mo4bj30ly3d97jw.jpg"
+        ],
+        "weibo": "https://weibo.com/u/6073483367?layerid=4569309186104462",
+        "hoyolab": "-",
+        "tmall": "-"
+    },
     {
         "name": "满分惊喜系列 夏彦生日礼盒",
         "series": "满分惊喜系列",
@@ -539,6 +615,24 @@
         "weibo": "https://weibo.com/6073483367/JyTHLclsL",
         "hoyolab": "-",
         "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.5-b-s.w4011-16362476188.89.39ba79a6hKbtU0&id=631721489619&rn=56d670edc7a97e44ffd35e4edfbcc4cc&abbucket=7"
+    },
+    {
+        "name": "清夏同游系列 Q版方形徽章",
+        "series": "清夏同游系列",
+        "productMaterial": "-",
+        "productTechnology": "-",
+        "productPacking": "-",
+        "productSize": "-",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 1,
+        "character": "All",
+        "images": [
+            "https://cf.shopee.tw/file/d98108f9f52b343a7ee200df3452793f"
+        ],
+        "weibo": "https://weibo.com/6073483367/K6Li5rqC0",
+        "hoyolab": "-",
+        "tmall": "-"
     },
     {
         "name": "眷然恋影系列 左然生日礼盒",
