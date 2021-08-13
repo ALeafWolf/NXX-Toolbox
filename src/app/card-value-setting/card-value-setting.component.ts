@@ -25,33 +25,7 @@ const GET_CARD = gql`
         character
         type
         slot
-      }
-      influence
-      defense
-    }
-  }
-`;
-
-const GET_CARD_EN = gql`
-  query GetCardEN($query: CardQueryInput){
-    card(query: $query){
-      id
-      name
-      nameEN
-      type
-      rarity
-      character
-      characterEN
-      skills{
-        _id
-        ref
-        name
-        nameEN
-        descriptionEN
-        nums
-        character
-        type
-        slot
+        id
       }
       influence
       defense
@@ -90,8 +64,8 @@ export class CardValueSettingComponent implements OnInit {
   skills = [1, 1, 1];
 
   //for card-calculator
-  skillsID = [];
-  skillNames = [];
+  skillRefs = [];
+  skillIDs = [];
   skillNums = [];
   skillNumTypes = [];
   skillChars = []
@@ -114,12 +88,7 @@ export class CardValueSettingComponent implements OnInit {
 
   loadData() {
     // GraphQL
-    // let query: any;
-    // if (this.lang == 'zh') {
-    //   query = GET_CARD;
-    // } else {
-    //   query = GET_CARD_EN;
-    // }
+    // const query = GET_CARD;
 
     // this._apollo.query({
     //   query,
@@ -180,47 +149,24 @@ export class CardValueSettingComponent implements OnInit {
 
   configureCardLanguage() {
     let length = this.card.rarity == 'R' ? 2 : 3;
-
-    if (this.lang == 'zh') {
-      this.card.n = this.card.name;
-      this.card.char = this.card.character;
-      let skills: any[] = [];
-      for (let i = 0; i < length; i++) {
-        // for GraphQL
-        // let s = { ...this.card.skills[i] };
-        let s = this.card.skillObj[i];
-        //store some data for /card-calculator
-        this.skillsID.push(s.ref);
-        this.skillNames.push(s.name);
-        this.skillChars.push(s.character);
-        this.skillTypes.push(s.type);
-        s.n = s.name;
-        skills.push(s);
-      }
+    this.card.n = this.card.name[this.lang] ?? this.card.name.zh;
+    let skills: any[] = [];
+    for (let i = 0; i < length; i++) {
       // for GraphQL
-      // this.card.skills = skills;
-      this.card.skillObj = skills;
-    } else {
-      this.card.n = this.card.nameEN;
-      this.card.char = this.card.characterEN;
-      let skills: any[] = [];
-      for (let i = 0; i < length; i++) {
-        // for GraphQL
-        // let s = { ...this.card.skills[i] };
-        let s = this.card.skillObj[i];
-        //store some data for /card-calculator
-        this.skillsID.push(s.ref);
-        this.skillNames.push(s.name);
-        this.skillChars.push(s.character);
-        this.skillTypes.push(s.type);
-        s.n = s.nameEN;
-        s.description = s.descriptionEN;
-        skills.push(s);
-      }
-      // for GraphQL
-      // this.card.skills = skills;
-      this.card.skillObj = skills;
+      // let s = { ...this.card.skills[i] };
+      let s = this.card.skillObj[i];
+      //store some data for /card-calculator
+      this.skillRefs.push(s.ref);
+      this.skillIDs.push(s.id);
+      this.skillChars.push(s.character);
+      this.skillTypes.push(s.type);
+      s.n = s.name[this.lang] ?? s.name.zh;
+      s.des = s.description[this.lang] ?? s.description.zh;
+      skills.push(s);
     }
+    // for GraphQL
+    // this.card.skills = skills;
+    this.card.skillObj = skills;
   }
 
   setTitle() {
@@ -230,7 +176,7 @@ export class CardValueSettingComponent implements OnInit {
     } else if ('ko' == this.lang) {
       pre = '생각'
     }
-    this._seoService.setTitle(`${pre}：${this.card.name}`);
+    this._seoService.setTitle(`${pre}：${this.card.n}`);
   }
 
   //set the string of skills that being display on the page
@@ -251,7 +197,7 @@ export class CardValueSettingComponent implements OnInit {
       this.skillNums.push(num);
 
       //replace X in the description with correct number
-      let line = skill.description.toString();
+      let line = skill.des;
       if (line.includes("%")) {
         this.skillNumTypes.push("%")
       } else {
@@ -283,14 +229,14 @@ export class CardValueSettingComponent implements OnInit {
       //necessary statistics of cards
       _id: this._id,
       charName: this.card.character,
-      name: this.card.name,
+      id: this.card.id,
       star: this.star,
       rarity: this.card.rarity,
       type: this.card.type,
       //for collect skills 2 and 3 at calculator page
       skills: this.skills,
-      skillIDs: this.skillsID,
-      skillNames: this.skillNames,
+      skillRefs: this.skillRefs,
+      skillIDs: this.skillIDs,
       skillNums: this.skillNums,
       skillNumTypes: this.skillNumTypes,
       skillTypes: this.skillTypes,

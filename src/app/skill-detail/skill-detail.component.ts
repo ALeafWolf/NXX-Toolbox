@@ -12,18 +12,7 @@ const GET_SKILL = gql`
       name
       nums
       description
-    }
-  }
-`;
-
-const GET_SKILL_EN = gql`
-  query GetSkill($query: SkillQueryInput){
-    skill(query: $query){
-      ref
-      name
-      nameEN
-      nums
-      descriptionEN
+      id
     }
   }
 `;
@@ -36,7 +25,7 @@ const GET_CARDS = gql`
       character
       skills
       {
-        name
+        id
       }
     }
   }
@@ -73,12 +62,7 @@ export class SkillDetailComponent implements OnInit {
 
   loadData() {
     // GraphQL
-    // let query;
-    // if (this.lang == 'zh') {
-    //   query = GET_SKILL;
-    // } else {
-    //   query = GET_SKILL_EN;
-    // }
+    // const query = GET_SKILL;
     // this._apollo.query({
     //   query,
     //   variables: {
@@ -108,13 +92,8 @@ export class SkillDetailComponent implements OnInit {
 
   configureSkillWithLang(skill: any) {
     this.skill = { ...skill };
-    if ('zh' == this.lang) {
-      this.skill.n = this.skill.name;
-      this.skill.des = this.skill.description;
-    } else {
-      this.skill.n = this.skill.nameEN;
-      this.skill.des = this.skill.descriptionEN;
-    }
+    this.skill.n = this.skill.name[this.lang] ?? this.skill.name.zh;
+    this.skill.des = this.skill.description[this.lang] ?? this.skill.description.zh;
   }
 
   setTitle() {
@@ -150,7 +129,7 @@ export class SkillDetailComponent implements OnInit {
     // }).toPromise().then((result: any) => {
     //   result.data.cards.forEach((card: any) => {
     //     card.skills.forEach(s => {
-    //       if (s.name == this.skill.name) {
+    //       if (s.id == this.skill.id) {
     //         this.cards.push(card);
     //       }
     //     })
@@ -161,7 +140,7 @@ export class SkillDetailComponent implements OnInit {
     this._data.getCards().toPromise().then((cards: any[]) => {
       cards.forEach((card: any) => {
         card.skillObj.forEach(s => {
-          if (s.name == this.skill.name) {
+          if (s.id == this.skill.id) {
             this.cards.push(card);
           }
         })

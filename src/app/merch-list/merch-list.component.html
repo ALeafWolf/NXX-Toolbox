@@ -17,10 +17,10 @@
                 <select [(ngModel)]="filterOptions[0]" (ngModelChange)="filterMerchs()" class="custom-select"
                     name="character">
                     <option value="All">All</option>
-                    <option value="夏彦">{{'KEYWORD.LUKE' | translate}}</option>
-                    <option value="左然">{{'KEYWORD.ARTEM' | translate}}</option>
-                    <option value="莫弈">{{'KEYWORD.VYN' | translate}}</option>
-                    <option value="陆景和">{{'KEYWORD.MARIUS' | translate}}</option>
+                    <option value="LUKE">{{'KEYWORD.LUKE' | translate}}</option>
+                    <option value="ARTEM">{{'KEYWORD.ARTEM' | translate}}</option>
+                    <option value="VYN">{{'KEYWORD.VYN' | translate}}</option>
+                    <option value="MARIUS">{{'KEYWORD.MARIUS' | translate}}</option>
                     <option value="Other">{{'MERCH-LIST.OTHER' | translate}}</option>
                 </select>
             </div>
@@ -37,8 +37,8 @@
                 <select [(ngModel)]="filterOptions[2]" (ngModelChange)="filterMerchs()" class="custom-select"
                     name="sellTimeType">
                     <option value="All">All</option>
-                    <option value="常驻">{{'MERCH-LIST.PERMANENT' | translate}}</option>
-                    <option value="限时">{{'MERCH-LIST.LIMITED-TIME' | translate}}</option>
+                    <option value="PERMANENT">{{'MERCH-LIST.PERMANENT' | translate}}</option>
+                    <option value="LIMITED-TIME">{{'MERCH-LIST.LIMITED-TIME' | translate}}</option>
                 </select>
             </div>
             <div class="col-1">

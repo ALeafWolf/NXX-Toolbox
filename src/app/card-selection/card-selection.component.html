@@ -13,10 +13,10 @@
             <select [(ngModel)]="filterConditions[0]" (ngModelChange)="filterCards()" class="custom-select"
                 name="character">
                 <option value="All">All</option>
-                <option value="夏彦">{{'KEYWORD.LUKE' | translate}}</option>
-                <option value="左然">{{'KEYWORD.ARTEM' | translate}}</option>
-                <option value="莫弈">{{'KEYWORD.VYN' | translate}}</option>
-                <option value="陆景和">{{'KEYWORD.MARIUS' | translate}}</option>
+                <option value="LUKE">{{'KEYWORD.LUKE' | translate}}</option>
+                <option value="ARTEM">{{'KEYWORD.ARTEM' | translate}}</option>
+                <option value="VYN">{{'KEYWORD.VYN' | translate}}</option>
+                <option value="MARIUS">{{'KEYWORD.MARIUS' | translate}}</option>
             </select>
         </div>
         <div class="col-4 col-sm-3 col-lg-2">
@@ -34,9 +34,9 @@
             <label for="type">{{'KEYWORD.TYPE' | translate}}</label>
             <select [(ngModel)]="filterConditions[2]" (ngModelChange)="filterCards()" class="custom-select" name="type">
                 <option value="All">All</option>
-                <option value="逻辑">{{'KEYWORD.LOGIC' | translate}}</option>
-                <option value="共情">{{'KEYWORD.EMPATHY' | translate}}</option>
-                <option value="直觉">{{'KEYWORD.INTUITION' | translate}}</option>
+                <option value="LOGIC">{{'KEYWORD.LOGIC' | translate}}</option>
+                <option value="EMPATHY">{{'KEYWORD.EMPATHY' | translate}}</option>
+                <option value="INTUITION">{{'KEYWORD.INTUITION' | translate}}</option>
             </select>
         </div>
         <div class="col-12 col-sm-1 d-flex justify-content-center align-items-center">

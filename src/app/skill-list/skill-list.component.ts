@@ -16,25 +16,7 @@ const GET_SKILLS = gql`
       nums
       function
       slot
-    }
-  }
-`;
-
-const GET_SKILLS_EN = gql`
-  query GetSkillsEN{
-    skills(limit: 1000, sortBy: _ID_ASC){
-      name
-      _id 
-      ref
-      nameEN
-      character
-      type
-      rarity
-      description
-      descriptionEN
-      nums
-      function
-      slot
+      id
     }
   }
 `;
@@ -66,12 +48,7 @@ export class SkillListComponent implements OnInit {
 
   loadData() {
     // GraphQL
-    // let query;
-    // if (this.lang == 'zh') {
-    //   query = GET_SKILLS;
-    // } else {
-    //   query = GET_SKILLS_EN;
-    // }
+    // const query = GET_SKILLS;
 
     // this._apollo.query({
     //   query
@@ -97,8 +74,8 @@ export class SkillListComponent implements OnInit {
     let ss = [];
     skills.forEach(skill => {
       let s = { ...skill };
-      s.n = this.lang == 'zh' ? s.name : s.nameEN;
-      s.des = this.lang == 'zh' ? s.description : s.descriptionEN;
+      s.n = s.name[this.lang] ?? s.name.zh;
+      s.des = s.description[this.lang] ?? s.description.zh;
       ss.push(s);
     })
     this.fullSkillList = ss;
