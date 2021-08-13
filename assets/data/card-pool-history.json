@@ -607,5 +607,33 @@
             "秋叶寄梦"
         ],
         "twitter": "1423222251189538816"
+    },
+    {
+        "startDate": "2021-08-13",
+        "endDate": "2021-08-27",
+        "type": "轮替",
+        "typeEN": "Rotation",
+        "server": "CN",
+        "cards": [
+            "微醺视线",
+            "醉意入怀",
+            "水“逆”",
+            "弦外之音"
+        ],
+        "bid": "Kt5rTvPaQ"
+    },
+    {
+        "startDate": "2021-08-13",
+        "endDate": "2021-08-20",
+        "type": "轮替",
+        "typeEN": "Rotation",
+        "server": "GLOBAL",
+        "cards": [
+            "最佳拍档",
+            "眸中景",
+            "人间烟火",
+            "虚妄之泪"
+        ],
+        "twitter": "1425789412168781830"
     }
 ]
