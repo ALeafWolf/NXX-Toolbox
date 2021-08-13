@@ -1,5 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { Apollo, gql } from 'apollo-angular';
+import { DataService } from '../services/data/data.service';
 
 const GET_MERCHES = gql`
   query GetMerchs{
@@ -47,35 +48,54 @@ export class MerchListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _apollo: Apollo) { }
+  constructor(private _apollo: Apollo, private _data: DataService) { }
 
   ngOnInit(): void {
     this.loadData();
   }
 
   loadData() {
-    this._apollo.query({
-      query: GET_MERCHES
-    }).toPromise().then((result: any) => {
-      this.merches = result.data.merches;
-      this.allMerches = result.data.merches;
+    // GraphQL
+    // this._apollo.query({
+    //   query: GET_MERCHES
+    // }).toPromise().then((result: any) => {
+    //   this.merches = result.data.merches;
+    //   this.allMerches = result.data.merches;
+    //   this.loadSeries();
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    // RESTful
+    this._data.getMerchs().toPromise().then((merchs: any[]) => {
+      this.merches = merchs;
+      this.allMerches = merchs;
       this.loadSeries();
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    })
+    });
   }
 
   loadSeries() {
-    this._apollo.query({
-      query: GET_MERCH_SERIES
-    }).toPromise().then((result: any) => {
-      this.allSeries = result.data.merch_seriess;
+    // this._apollo.query({
+    //   query: GET_MERCH_SERIES
+    // }).toPromise().then((result: any) => {
+    //   this.allSeries = result.data.merch_seriess;
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    this._data.getMerchSeries().toPromise().then((series: any[]) => {
+      this.allSeries = series;
       this.isLoaded = true;
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    })
+    });
   }
 
   filterMerchs() {
@@ -88,10 +108,12 @@ export class MerchListComponent implements OnInit {
       if (option == 'All' || option == merch.character || charBool) {
         //series
         option = this.filterOptions[1];
-        if (option == 'All' || option == merch.series.name) {
+        // if (option == 'All' || option == merch.series.name) {
+        if (option == 'All' || option == merch.seriesObj.name) {
           //sell time type
           option = this.filterOptions[2];
-          if (option == 'All' || option == merch.series.type) {
+          // if (option == 'All' || option == merch.series.type) {
+          if (option == 'All' || option == merch.seriesObj.type) {
             arr.push(merch);
           }
         }

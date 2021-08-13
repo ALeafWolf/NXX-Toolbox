@@ -76,7 +76,8 @@
                     </th>
                 </tr>
             </thead>
-            <tbody *ngFor="let s of card.skills">
+            <!-- <tbody *ngFor="let s of card.skills"> -->
+            <tbody *ngFor="let s of card.skillObj">
                 <tr>
                     <td rowspan="2">
                         <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
@@ -91,12 +92,16 @@
                     </td>
 
                     <td rowspan="2">
-                        {{skills[card.skills.indexOf(s)]}}
+                        <!-- {{skills[card.skills.indexOf(s)]}} -->
+                        {{skills[card.skillObj.indexOf(s)]}}
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <span class="smallFont">{{skillsInfo[card.skills.indexOf(s)]}}</span>
+                        <span class="smallFont">
+                            <!-- {{skillsInfo[card.skills.indexOf(s)]}} -->
+                            {{skillsInfo[card.skillObj.indexOf(s)]}}
+                        </span>
                     </td>
                 </tr>
             </tbody>

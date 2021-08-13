@@ -49,12 +49,12 @@ export class CardCalculatorComponent implements OnInit {
   loadUserCards() {
     Object.keys(localStorage).forEach(k => {
       //load card icon on screen, ignore language and realm related entries at localStorage
-      if (k != 'language' && k.includes("realm")==false && k.includes("token")==false) {
+      if (k != 'language' && k.includes("realm") == false && k.includes("token") == false) {
         let i = JSON.parse(localStorage.getItem(k));
         console.log(i)
         this.loadTypeCounts(i);
         this.totalPower += i.power;
-        this.switchSkillLanguage(i);
+        this.configureUserData(i);
       }
     })
     if (0 != this.userData.length) {
@@ -90,25 +90,26 @@ export class CardCalculatorComponent implements OnInit {
     };
   }
 
-  switchSkillLanguage(item: any) {
-    if (this.lang == 'en' || this.lang == 'ko') {
-      let names = []
-      item.skillNames.forEach(n => {
-        this.allSkills.forEach(s => {
-          if (n == s.name) {
-            let name = s.nameEN == '' ? s.name : s.nameEN;
-            names.push(name)
-          }
-        })
-      });
-      item.skillNames = names
-    }
+  configureUserData(item: any) {
+    let names = [];
+    let ids = [];
+    item.skillNames.forEach(n => {
+      this.allSkills.forEach(s => {
+        if (n == s.name) {
+          let name = this.lang == 'zh' ? s.name : s.nameEN;
+          names.push(name);
+          ids.push(s._id);
+        }
+      })
+    });
+    item.skillNames = names;
+    item.sid = ids;
     this.userData.push(item)
   }
 
   //load skill statistics for chosen cards
   loadSkillCounts() {
-    this.addSecondSkill(this.userData, 1)
+    this.addSecondSkill(1);
     this.userData.forEach(data => {
       if (data.rarity != "R") {
         this.addThirdSkill(data, this.thirdSkills, 2)
@@ -116,7 +117,7 @@ export class CardCalculatorComponent implements OnInit {
     })
   }
 
-  addSecondSkill(userData: any[], skillIndex: number) {
+  addSecondSkill(skillIndex: number) {
     this.userData.forEach(data => {
       // console.log(`${data.name}: ${data.skillNames}`)
       let common = "通用"
@@ -164,6 +165,7 @@ export class CardCalculatorComponent implements OnInit {
         })
         if (!isIn) {
           let skill = {
+            _id: data.sid[skillIndex],
             id: data.skillIDs[skillIndex],
             name: data.skillNames[skillIndex],
             num: Number(data.skillNums[skillIndex] * count),
@@ -190,6 +192,7 @@ export class CardCalculatorComponent implements OnInit {
 
   addSkillPack(userData: any, skillList: any[], skillIndex: number) {
     let skill = {
+      _id: userData.sid[skillIndex],
       id: userData.skillIDs[skillIndex],
       name: userData.skillNames[skillIndex],
       num: Number(userData.skillNums[skillIndex]),

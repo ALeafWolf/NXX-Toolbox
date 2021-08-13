@@ -72,26 +72,38 @@ export class SkillDetailComponent implements OnInit {
   }
 
   loadData() {
-    let query;
-    if (this.lang == 'zh') {
-      query = GET_SKILL;
-    } else {
-      query = GET_SKILL_EN;
-    }
-    this._apollo.query({
-      query,
-      variables: {
-        query: { _id: this._id }
-      },
-    }).toPromise().then((result: any) => {
-      this.configureSkillWithLang(result.data.skill);
+    // GraphQL
+    // let query;
+    // if (this.lang == 'zh') {
+    //   query = GET_SKILL;
+    // } else {
+    //   query = GET_SKILL_EN;
+    // }
+    // this._apollo.query({
+    //   query,
+    //   variables: {
+    //     query: { _id: this._id }
+    //   },
+    // }).toPromise().then((result: any) => {
+    //   this.configureSkillWithLang(result.data.skill);
+    //   this.setTitle();
+    //   this.getSkillStatistic();
+    //   this.getCardsWithSkill();
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    // RESTful
+    this._data.getSkill(this._id).toPromise().then((skill: any) => {
+      this.configureSkillWithLang(skill);
       this.setTitle();
       this.getSkillStatistic();
       this.getCardsWithSkill();
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    })
+    });
   }
 
   configureSkillWithLang(skill: any) {
@@ -132,17 +144,29 @@ export class SkillDetailComponent implements OnInit {
 
   //get card which has this skill
   getCardsWithSkill() {
-    this._apollo.query({
-      query: GET_CARDS
-    }).toPromise().then((result: any) => {
-      result.data.cards.forEach((card: any) => {
-        card.skills.forEach(s => {
-          if(s.name == this.skill.name){
+    // GraphQL
+    // this._apollo.query({
+    //   query: GET_CARDS
+    // }).toPromise().then((result: any) => {
+    //   result.data.cards.forEach((card: any) => {
+    //     card.skills.forEach(s => {
+    //       if (s.name == this.skill.name) {
+    //         this.cards.push(card);
+    //       }
+    //     })
+    //   });
+    //   this.isLoaded = true;
+    // });
+
+    this._data.getCards().toPromise().then((cards: any[]) => {
+      cards.forEach((card: any) => {
+        card.skillObj.forEach(s => {
+          if (s.name == this.skill.name) {
             this.cards.push(card);
           }
         })
       });
       this.isLoaded = true;
-    }).catch(err => { console.log(err) });
+    });
   }
 }

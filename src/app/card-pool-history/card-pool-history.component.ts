@@ -81,38 +81,37 @@ export class CardPoolHistoryComponent implements OnInit {
   ngOnInit(): void {
     this.lang = localStorage.getItem('language');
     this.loadData();
-    // this._data.getCards().toPromise().then((data: any[]) => {
-    //   this.cards = data;
-    //   this._data.getVisionHistory().toPromise().then((data: any[]) => {
-    //     this.pools = data;
-    //     this.isLoaded = true;
-    //     this.sortPools(data);
-    //   })
-    // })
   }
 
   loadData() {
-    let query;
-    if (this.lang == 'zh') {
-      query = GET_POOLS;
-    } else {
-      query = GET_POOLS_EN;
-    }
+    // GraphQL
+    // let query;
+    // if (this.lang == 'zh') {
+    //   query = GET_POOLS;
+    // } else {
+    //   query = GET_POOLS_EN;
+    // }
 
-    this._apollo.query({
-      query
-    }).toPromise().then((result: any) => {
-      this.configurePoolWithLang(result.data.card_pool_histories);
+    // this._apollo.query({
+    //   query
+    // }).toPromise().then((result: any) => {
+    //   this.configurePoolWithLang(result.data.card_pool_histories);
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    // RESTful
+    this._data.getVisionHistory().toPromise().then((pools: any[]) => {
+      this.configurePoolWithLang(pools);
       this.isLoaded = true;
-    }).catch(err => {
-      console.log(err);
-      this.isLoaded = true;
-    })
+    });
   }
 
   configurePoolWithLang(pools: any[]) {
     pools.forEach(pool => {
-      let p = {...pool};
+      let p = { ...pool };
       if (this.lang == 'zh') {
         p.t = p.type;
       } else {
@@ -124,16 +123,6 @@ export class CardPoolHistoryComponent implements OnInit {
         this.globalPool.push(p);
       }
     })
-  }
-
-  sortPools(pools: any[]) {
-    pools.forEach(p => {
-      if (p.server == 'CN') {
-        this.cnPool.push(p);
-      } else if (p.server == 'GLOBAL') {
-        this.globalPool.push(p);
-      }
-    });
   }
 
   getImgSrc(name: string) {

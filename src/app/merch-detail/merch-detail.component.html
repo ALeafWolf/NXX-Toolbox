@@ -22,12 +22,14 @@
                 </tr>
                 <tr>
                     <th>{{'MERCH-DETAIL.PRODUCT-SERIES' | translate}}</th>
-                    <td>{{merch.series.name}}</td>
+                    <!-- <td>{{merch.series.name}}</td> -->
+                    <td>{{merch.seriesObj.name}}</td>
                 </tr>
                 <tr>
                     <th>{{'MERCH-DETAIL.ON-SELL-DATE' | translate}}</th>
                     <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
-                        {{merch.series.sellTime[merch.sellDate]}}
+                        <!-- {{merch.series.sellTime[merch.sellDate]}} -->
+                        {{merch.seriesObj.sellTime[merch.sellDate]}}
                     </td>
                     <ng-template #multipleSellTime>
                         <td>

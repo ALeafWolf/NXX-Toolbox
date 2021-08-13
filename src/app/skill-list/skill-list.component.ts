@@ -61,30 +61,36 @@ export class SkillListComponent implements OnInit {
 
   ngOnInit(): void {
     this.lang = localStorage.getItem('language');
-    // this._data.getSkills().toPromise().then((data: any[]) => {
-    //   this.loadSkillWithLang(data)
-    //   this.isLoaded = true;
-    // })
     this.loadData();
   }
 
   loadData() {
-    let query;
-    if (this.lang == 'zh') {
-      query = GET_SKILLS;
-    } else {
-      query = GET_SKILLS_EN;
-    }
+    // GraphQL
+    // let query;
+    // if (this.lang == 'zh') {
+    //   query = GET_SKILLS;
+    // } else {
+    //   query = GET_SKILLS_EN;
+    // }
 
-    this._apollo.query({
-      query
-    }).toPromise().then((result: any) => {
-      this.configureSkillWithLang(result.data.skills);
+    // this._apollo.query({
+    //   query
+    // }).toPromise().then((result: any) => {
+    //   this.configureSkillWithLang(result.data.skills);
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    // RESTful
+    this._data.getSkills().toPromise().then((data: any[]) => {
+      this.configureSkillWithLang(data)
       this.isLoaded = true;
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    })
+    });
   }
 
   configureSkillWithLang(skills: any[]) {
@@ -97,25 +103,6 @@ export class SkillListComponent implements OnInit {
     })
     this.fullSkillList = ss;
     this.skillList = ss;
-  }
-
-  loadSkillWithLang(skills: any[]) {
-    let s = []
-    skills.forEach(skill => {
-      let n, des;
-      if ('en' == this.lang || 'ko' == this.lang) {
-        n = skill.nameEN != '' ? skill.nameEN : skill.name
-        des = skill.descriptionEN != '' ? skill.descriptionEN : skill.description
-      } else {
-        n = skill.name
-        des = skill.description
-      }
-      skill.name = n;
-      skill.description = des
-      s.push(skill)
-    })
-    this.fullSkillList = s;
-    this.skillList = s;
   }
 
   setToTopButtonDisplay() {

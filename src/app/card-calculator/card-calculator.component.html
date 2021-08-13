@@ -28,7 +28,7 @@
                 <div class="border-bottom border-secondary mb-2">
                     <div class="row justify-content-center">
                         <div *ngFor="let s of secondSkills" class="col-3">
-                            <a [routerLink]="['/skill', s.name]" target="_blank">
+                            <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
                                 <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.id + '.webp'}}">
                             </a>
                             <p class="smallFont">{{s.name}}<br />{{s.num}}{{s.numType}}</p>
@@ -38,7 +38,7 @@
                 <h5>{{'CARD-CALCULATOR.THIRD-SKILL' | translate}}</h5>
                 <div class="row justify-content-center">
                     <div *ngFor="let s of thirdSkills" class="col-3">
-                        <a [routerLink]="['/skill', s.name]" target="_blank">
+                        <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
                             <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.id + '.webp'}}">
                         </a>
                         <p class="smallFont">{{s.name}}<br />{{s.num}}{{s.numType}}</p>

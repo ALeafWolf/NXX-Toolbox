@@ -100,22 +100,48 @@ export class CardValueComponent implements OnInit {
   }
 
   loadData() {
-    let query: any;
-    if (this.lang == 'zh') {
-      query = GET_CARD;
-    } else {
-      query = GET_CARD_EN;
-    }
-    
-    this._apollo.query({
-      query,
-      variables: {
-        query: { _id: this._id }
-      },
-    }).toPromise().then((cResult: any) => {
-      this.card = { ...cResult.data.card };
+    // GraphQL
+    // let query: any;
+    // if (this.lang == 'zh') {
+    //   query = GET_CARD;
+    // } else {
+    //   query = GET_CARD_EN;
+    // }
+
+    // this._apollo.query({
+    //   query,
+    //   variables: {
+    //     query: { _id: this._id }
+    //   },
+    // }).toPromise().then((cResult: any) => {
+    //   this.card = { ...cResult.data.card };
+    //   if (this.card) {
+    //     this.card.skills = sortSkill(this.card.id, this.card.skills, this.card.rarity);
+    //     this.att = this.card.influence;
+    //     this.def = this.card.defense;
+    //     this.userData = JSON.parse(this._data.getItem(this.card.id));
+    //     if (this.userData) {
+    //       this.loadUserData();
+    //     }
+    //     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+    //     if (this.lang != 'zh') {
+    //       this.configureCardLanguage();
+    //     } else {
+    //       this.card.char = this.card.character;
+    //     }
+    //     this.setTitle();
+    //     this.setSkillDisplay();
+    //     this.lv = this.card.rarity == "R" ? 70 : 100;
+    //   }
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    this._data.getCard(this._id).toPromise().then((card: any) => {
+      this.card = card;
       if (this.card) {
-        this.card.skills = sortSkill(this.card.id, this.card.skills, this.card.rarity);
         this.att = this.card.influence;
         this.def = this.card.defense;
         this.userData = JSON.parse(this._data.getItem(this.card.id));
@@ -136,7 +162,7 @@ export class CardValueComponent implements OnInit {
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    });
+    })
   }
 
   configureCardLanguage() {
@@ -145,12 +171,16 @@ export class CardValueComponent implements OnInit {
     let skills: any[] = [];
     let length = this.card.rarity == 'R' ? 2 : 3;
     for (let i = 0; i < length; i++) {
-      let s = { ...this.card.skills[i] };
+      // for GraphQL
+      // let s = { ...this.card.skills[i] };
+      let s = this.card.skillObj[i];
       s.name = s.nameEN;
       s.description = s.descriptionEN;
       skills.push(s);
     }
-    this.card.skills = skills;
+    // for GraphQL
+    // this.card.skills = skills;
+    this.card.skillObj = skills;
   }
 
   loadUserData() {
@@ -179,8 +209,11 @@ export class CardValueComponent implements OnInit {
       r = 2;
     }
     for (let i = 0; i < r; i++) {
-      let skill = this.card.skills[i];
+      // for GraphQL
+      // let skill = this.card.skills[i];
+      let skill = this.card.skillObj[i];
       let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0];
+      num = Number.parseFloat(num.toFixed(2));
       //replace X in the description with correct number
       let line = skill.description.toString();
       let str = line.replace("X", num.toFixed(2).toString());

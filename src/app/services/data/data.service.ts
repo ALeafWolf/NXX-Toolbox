@@ -18,9 +18,9 @@ export class DataService {
     // return this._http.get(this.testLink + "cards");
   }
   
-  getCard(name: String){
-    return this._http.get(this.link + `card/${name}`);
-    // return this._http.get(this.testLink + `card/${name}`);
+  getCard(id: String){
+    return this._http.get(this.link + `card/${id}`);
+    // return this._http.get(this.testLink + `card/${id}`);
   }
 
   getSkills(){
@@ -28,16 +28,14 @@ export class DataService {
     // return this._http.get(this.testLink + "skills");
     return this._http.get(this.link + "skills");
   }
-  getSkill(name: String){
+  getSkill(id: String){
     // return this._http.get('assets/data/skills.json');
-    // return this._http.get(this.testLink + `skill/${name}`);
-    return this._http.get(this.link + `skill/${name}`);
+    // return this._http.get(this.testLink + `skill/${id}`);
+    return this._http.get(this.link + `skill/${id}`);
   }
 
   getSkillRssList(){
     return this._http.get('assets/data/skill-level-up-rss.json');
-    // return this._http.get(this.link + "skillrss");
-    // return this._http.get(this.testLink + "skillrss");
   }
 
   getVisionHistory(){
@@ -46,16 +44,27 @@ export class DataService {
     // return this._http.get(this.testLink + `visionhistory`);
   }
 
-  getVisionHistoryForOneServer(server:string){
-    return this._http.get(this.link + `visionhistory/${server}`);
-  }
-
   getCardEvolveRss(){
     return this._http.get('assets/data/card-evolve-rss.json');
   }
 
   getCardExp(){
     return this._http.get('assets/data/card-exp.json');
+  }
+
+  getMerchs(){
+    // return this._http.get(this.testLink + `merchs`);
+    return this._http.get(this.link + `merchs`);
+  }
+
+  getMerch(id: string){
+    // return this._http.get(this.testLink + `merch/${id}`);
+    return this._http.get(this.link + `merch/${id}`);
+  }
+
+  getMerchSeries(){
+    // return this._http.get(this.testLink + `merchseries`);
+    return this._http.get(this.link + `merchseries`);
   }
 
   //load data from locatStorage

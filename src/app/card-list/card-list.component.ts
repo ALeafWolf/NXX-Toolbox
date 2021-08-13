@@ -2,6 +2,7 @@ import { Component, HostListener, OnInit } from '@angular/core';
 import { GlobalVariable } from '../global-variable';
 import { sortSkill } from '../model/card-statistics';
 import { Apollo, gql } from 'apollo-angular';
+import { DataService } from '../services/data/data.service';
 
 const GET_CARDS = gql`
   query GetCards{
@@ -62,7 +63,7 @@ export class CardListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _apollo: Apollo) {
+  constructor(private _apollo: Apollo, private _data: DataService) {
 
   }
 
@@ -72,21 +73,31 @@ export class CardListComponent implements OnInit {
   }
 
   loadData() {
-    let query;
-    if (this.lang == 'zh') {
-      query = GET_CARDS;
-    } else {
-      query = GET_CARDS_EN;
-    }
-    this._apollo.query({
-      query
-    }).toPromise().then((result: any) => {
-      this.loadCardWithLang(result.data.cards);
+    // GraphQL
+    // let query;
+    // if (this.lang == 'zh') {
+    //   query = GET_CARDS;
+    // } else {
+    //   query = GET_CARDS_EN;
+    // }
+    // this._apollo.query({
+    //   query
+    // }).toPromise().then((result: any) => {
+    //   this.loadCardWithLang(result.data.cards);
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
+
+    // RESTful
+    this._data.getCards().toPromise().then((cards: any[]) => {
+      this.loadCardWithLang(cards);
       this.isLoaded = true;
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    })
+    });
   }
 
   loadCardWithLang(cards: any[]) {
@@ -94,7 +105,8 @@ export class CardListComponent implements OnInit {
     cards.forEach(card => {
       let c = { ...card };
       c.n = this.lang == 'zh' ? card.name : card.nameEN;
-      c.skills = sortSkill(card.id, card.skills, card.rarity);
+      // for GraphQL
+      // c.skills = sortSkill(card.id, card.skills, card.rarity);
       cs.push(c);
     })
     this.allCards = cs;
