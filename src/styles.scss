@@ -63,6 +63,9 @@ $nxx-toolbox-theme: mat-dark-theme((
 //nav bar
 #site-navbar{
     height: 15%;
+    @media (max-width: 700px) {
+        height: 20%;
+    }
 }
 
 #navbar-img{
