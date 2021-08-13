@@ -1,6 +1,6 @@
 {
     "CARD-CALCULATOR": {
-        "INFO": "이 계산기는 <span class='font-weight-bold'>전투력 보너스</span>와<span class='font-weight-bold'>연수실</span>의 효과를 포함하지 않습니다.<br />참고용으로만 이용해주세요.",
+        "INFO": "이 계산기는 <span class='font-weight-bold'>전투력 보너스</span>와 <span class='font-weight-bold'>연수실</span>의 효과를 포함하지 않습니다.<br />참고용으로만 이용해주세요.",
         "POWER": "전투력",
         "SKILL-SUMMARY": "스킬 보너스",
         "SECOND-SKILL": "두 번째 스킬",
@@ -45,7 +45,7 @@
         "OBTAINED-FROM": "획득 방법",
         "FUNCTION": "효과",
         "SKILL-SLOT": "슬롯",
-        "GENERAL": "일반",
+        "GENERAL": "공통",
         "LUKE": "강혁",
         "ARTEM": "백은후",
         "VYN": "윤노아",
@@ -117,7 +117,7 @@
         "START-DATE": "시작일",
         "END-DATE": "종료일",
         "POOL-TYPE": "가챠 종류",
-        "RATE-UP-CARD": "픽업 생각",
+        "RATE-UP-CARD": "픽업 대상",
         "ANNOUNCEMENT": "공지",
         "CN-SERVER": "중국 서버",
         "GLOBAL-SERVER": "글로벌 서버"
