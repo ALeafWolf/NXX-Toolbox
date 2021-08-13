@@ -1107,7 +1107,8 @@
         "ref": "运筹帷幄",
         "name": {
             "zh": "运筹帷幄 Ⅱ",
-            "en": "Strategist Ⅱ"
+            "en": "Strategist Ⅱ",
+            "ko": "전략 수립 Ⅱ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -1332,7 +1333,8 @@
         "ref": "锐辞庭辩",
         "name": {
             "zh": "锐辞庭辩 Ⅱ",
-            "en": "Sharp Debater Ⅱ"
+            "en": "Sharp Debater Ⅱ",
+            "ko": "예리한 변론 Ⅱ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -1354,7 +1356,8 @@
         "ref": "锐辞庭辩",
         "name": {
             "zh": "锐辞庭辩 Ⅲ",
-            "en": "Sharp Debater Ⅲ"
+            "en": "Sharp Debater Ⅲ",
+            "ko": "예리한 변론 Ⅲ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -1376,7 +1379,8 @@
         "ref": "律典经纬",
         "name": {
             "zh": "律典经纬 Ⅱ",
-            "en": "Legal Expert Ⅱ"
+            "en": "Legal Expert Ⅱ",
+            "ko": "법전 통치 Ⅱ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -1398,7 +1402,8 @@
         "ref": "律典经纬",
         "name": {
             "zh": "律典经纬 Ⅲ",
-            "en": "Legal Expert Ⅲ"
+            "en": "Legal Expert Ⅲ",
+            "ko": "법전 통치 Ⅲ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -1592,7 +1597,8 @@
         "ref": "盛装舞步",
         "name": {
             "zh": "盛装舞步 Ⅱ",
-            "en": "Dressage Ⅱ"
+            "en": "Dressage Ⅱ",
+            "ko": "드레사지 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1614,7 +1620,8 @@
         "ref": "盛装舞步",
         "name": {
             "zh": "盛装舞步 Ⅲ",
-            "en": "Dressage Ⅲ"
+            "en": "Dressage Ⅲ",
+            "ko": "드레사지 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1657,7 +1664,8 @@
         "ref": "商业谈判",
         "name": {
             "zh": "商业谈判 Ⅱ",
-            "en": "Business Negotiator Ⅱ"
+            "en": "Business Negotiator Ⅱ",
+            "ko": "상담 Ⅱ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -1679,7 +1687,8 @@
         "ref": "商业谈判",
         "name": {
             "zh": "商业谈判 Ⅲ",
-            "en": "Business Negotiator Ⅲ"
+            "en": "Business Negotiator Ⅲ",
+            "ko": "상담 Ⅲ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -1743,7 +1752,8 @@
         "ref": "年少锋锐",
         "name": {
             "zh": "年少锋锐 Ⅱ",
-            "en": "Sharp One Ⅱ"
+            "en": "Sharp One Ⅱ",
+            "ko": "설익은 예리함 Ⅱ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -1765,7 +1775,8 @@
         "ref": "年少锋锐",
         "name": {
             "zh": "年少锋锐 Ⅲ",
-            "en": "Sharp One Ⅲ"
+            "en": "Sharp One Ⅲ",
+            "ko": "설익은 예리함 Ⅲ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -1808,7 +1819,8 @@
         "ref": "纵横捭阖",
         "name": {
             "zh": "纵横捭阖 Ⅱ",
-            "en": "Skilled Diplomat Ⅱ"
+            "en": "Skilled Diplomat Ⅱ",
+            "ko": "정치적 농간 Ⅱ"
         },
         "character": "GENERAL",
         "type": "LOGIC",
@@ -1830,7 +1842,8 @@
         "ref": "纵横捭阖",
         "name": {
             "zh": "纵横捭阖 Ⅲ",
-            "en": "Skilled Diplomat Ⅲ"
+            "en": "Skilled Diplomat Ⅲ",
+            "ko": "정치적 농간 Ⅲ"
         },
         "character": "GENERAL",
         "type": "LOGIC",
@@ -1990,7 +2003,8 @@
         "ref": "击其薄弱",
         "name": {
             "zh": "击其薄弱 Ⅱ",
-            "en": "Strike Weakness Ⅱ"
+            "en": "Strike Weakness Ⅱ",
+            "ko": "약점 공격 Ⅱ"
         },
         "character": "GENERAL",
         "type": "EMPATHY",
@@ -2012,7 +2026,8 @@
         "ref": "击其薄弱",
         "name": {
             "zh": "击其薄弱 Ⅲ",
-            "en": "Strike Weakness Ⅲ"
+            "en": "Strike Weakness Ⅲ",
+            "ko": "약점 공격 Ⅲ"
         },
         "character": "GENERAL",
         "type": "EMPATHY",
@@ -2264,7 +2279,8 @@
         "ref": "敏锐观察",
         "name": {
             "zh": "敏锐观察 Ⅱ",
-            "en": "Keen Observation Ⅱ"
+            "en": "Keen Observation Ⅱ",
+            "ko": "예리한 관찰 Ⅱ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
@@ -2286,7 +2302,8 @@
         "ref": "敏锐观察",
         "name": {
             "zh": "敏锐观察 Ⅲ",
-            "en": "Keen Observation Ⅲ"
+            "en": "Keen Observation Ⅲ",
+            "ko": "예리한 관찰 Ⅲ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
@@ -2354,7 +2371,8 @@
         "ref": "紧急避险",
         "name": {
             "zh": "紧急避险 Ⅱ",
-            "en": "Necessity Ⅱ"
+            "en": "Necessity Ⅱ",
+            "ko": "비상 조치 Ⅱ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2376,7 +2394,8 @@
         "ref": "紧急避险",
         "name": {
             "zh": "紧急避险 Ⅲ",
-            "en": "Necessity Ⅲ"
+            "en": "Necessity Ⅲ",
+            "ko": "비상 조치 Ⅲ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2612,7 +2631,8 @@
         "ref": "箱庭疗法",
         "name": {
             "zh": "箱庭疗法 Ⅱ",
-            "en": "Sandplay Therapy Ⅱ"
+            "en": "Sandplay Therapy Ⅱ",
+            "ko": "모래놀이 치료 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2634,7 +2654,8 @@
         "ref": "箱庭疗法",
         "name": {
             "zh": "箱庭疗法 Ⅲ",
-            "en": "Sandplay Therapy Ⅲ"
+            "en": "Sandplay Therapy Ⅲ",
+            "ko": "모래놀이 치료 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2870,7 +2891,8 @@
         "ref": "顺水推舟",
         "name": {
             "zh": "顺水推舟 Ⅱ",
-            "en": "With the Flow Ⅱ"
+            "en": "With the Flow Ⅱ",
+            "ko": "대세 따르기 Ⅱ"
         },
         "character": "GENERAL",
         "type": "EMPATHY",
@@ -2892,7 +2914,8 @@
         "ref": "顺水推舟",
         "name": {
             "zh": "顺水推舟 Ⅲ",
-            "en": "With the Flow Ⅲ"
+            "en": "With the Flow Ⅲ",
+            "ko": "대세 따르기 Ⅲ"
         },
         "character": "GENERAL",
         "type": "EMPATHY",
@@ -3098,7 +3121,8 @@
         "ref": "无懈可击",
         "name": {
             "zh": "无懈可击 Ⅱ",
-            "en": "Impeccable Ⅱ"
+            "en": "Impeccable Ⅱ",
+            "ko": "완전무결 Ⅱ"
         },
         "character": "GENERAL",
         "type": "LOGIC",
@@ -3120,7 +3144,8 @@
         "ref": "无懈可击",
         "name": {
             "zh": "无懈可击 Ⅲ",
-            "en": "Impeccable Ⅲ"
+            "en": "Impeccable Ⅲ",
+            "ko": "완전무결 Ⅲ"
         },
         "character": "GENERAL",
         "type": "LOGIC",
@@ -3184,7 +3209,8 @@
         "ref": "防微虑远",
         "name": {
             "zh": "防微虑远 Ⅱ",
-            "en": "Prevention Ⅱ"
+            "en": "Prevention Ⅱ",
+            "ko": "장기적 고려 Ⅱ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
@@ -3206,7 +3232,8 @@
         "ref": "防微虑远",
         "name": {
             "zh": "防微虑远 Ⅲ",
-            "en": "Prevention Ⅲ"
+            "en": "Prevention Ⅲ",
+            "ko": "장기적 고려 Ⅲ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
