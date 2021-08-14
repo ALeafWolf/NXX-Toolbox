@@ -23,29 +23,7 @@ const GET_CARD = gql`
         description
         nums
         slot
-      }
-      influence
-      defense
-    }
-  }
-`;
-
-const GET_CARD_EN = gql`
-  query GetCardEN($query: CardQueryInput){
-    card(query: $query){
-      id
-      nameEN
-      type
-      rarity
-      character
-      characterEN
-      skills{
-        _id
-        ref
-        nameEN
-        descriptionEN
-        nums
-        slot
+        id
       }
       influence
       defense
@@ -101,12 +79,7 @@ export class CardValueComponent implements OnInit {
 
   loadData() {
     // GraphQL
-    // let query: any;
-    // if (this.lang == 'zh') {
-    //   query = GET_CARD;
-    // } else {
-    //   query = GET_CARD_EN;
-    // }
+    // const query = GET_CARD;
 
     // this._apollo.query({
     //   query,
@@ -124,11 +97,7 @@ export class CardValueComponent implements OnInit {
     //       this.loadUserData();
     //     }
     //     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-    //     if (this.lang != 'zh') {
-    //       this.configureCardLanguage();
-    //     } else {
-    //       this.card.char = this.card.character;
-    //     }
+    //     this.configureCardLanguage();
     //     this.setTitle();
     //     this.setSkillDisplay();
     //     this.lv = this.card.rarity == "R" ? 70 : 100;
@@ -149,11 +118,7 @@ export class CardValueComponent implements OnInit {
           this.loadUserData();
         }
         this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-        if (this.lang != 'zh') {
-          this.configureCardLanguage();
-        } else {
-          this.card.char = this.card.character;
-        }
+        this.configureCardLanguage();
         this.setTitle();
         this.setSkillDisplay();
         this.lv = this.card.rarity == "R" ? 70 : 100;
@@ -166,16 +131,15 @@ export class CardValueComponent implements OnInit {
   }
 
   configureCardLanguage() {
-    this.card.name = this.card.nameEN;
-    this.card.char = this.card.characterEN;
+    this.card.n = this.card.name[this.lang] ?? this.card.name.zh;
     let skills: any[] = [];
     let length = this.card.rarity == 'R' ? 2 : 3;
     for (let i = 0; i < length; i++) {
       // for GraphQL
       // let s = { ...this.card.skills[i] };
       let s = this.card.skillObj[i];
-      s.name = s.nameEN;
-      s.description = s.descriptionEN;
+      s.n = s.name[this.lang] ?? s.name.zh;
+      s.des = s.description[this.lang] ?? s.description.zh;
       skills.push(s);
     }
     // for GraphQL
@@ -198,7 +162,7 @@ export class CardValueComponent implements OnInit {
     } else if ('ko' == this.lang) {
       pre = '생각'
     }
-    this._seoService.setTitle(`${pre}：${this.card.name}`);
+    this._seoService.setTitle(`${pre}：${this.card.n}`);
   }
 
   //set the string of skills that being display on the page
@@ -215,7 +179,7 @@ export class CardValueComponent implements OnInit {
       let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0];
       num = Number.parseFloat(num.toFixed(2));
       //replace X in the description with correct number
-      let line = skill.description.toString();
+      let line = skill.des;
       let str = line.replace("X", num.toFixed(2).toString());
       this.skillsInfo.push(str);
     }

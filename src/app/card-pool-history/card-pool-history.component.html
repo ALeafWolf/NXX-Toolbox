@@ -27,13 +27,14 @@
                         <tr class="smallFont" *ngFor="let p of cnPool">
                             <td class="table-text">{{p.startDate}}</td>
                             <td class="table-text">{{p.endDate}}</td>
-                            <td class="table-text">{{p.t}}</td>
+                            <td class="table-text">{{'KEYWORD.' + p.type | translate}}</td>
                             <td class="table-text">
                                 <!-- <span *ngFor="let c of p.cards"> -->
                                 <span *ngFor="let c of p.cardObj">
                                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                                         <img class="img-fluid cardIcon"
-                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
+                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}"
+                                            title="{{c.n}}">
                                     </a>
                                 </span>
                             </td>
@@ -67,13 +68,14 @@
                         <tr class="smallFont" *ngFor="let p of globalPool">
                             <td class="table-text">{{p.startDate}}</td>
                             <td class="table-text">{{p.endDate}}</td>
-                            <td class="table-text">{{p.t}}</td>
+                            <td class="table-text">{{'KEYWORD.' + p.type | translate}}</td>
                             <td class="table-text">
                                 <!-- <span *ngFor="let c of p.cards"> -->
                                 <span *ngFor="let c of p.cardObj">
                                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                                         <img class="img-fluid cardIcon"
-                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
+                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}"
+                                            title="{{c.n}}">
                                     </a>
                                 </span>
                             </td>

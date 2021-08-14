@@ -64,27 +64,27 @@ export class CardCalculatorComponent implements OnInit {
 
   loadTypeCounts(data: any) {
     switch (data.type) {
-      case '逻辑':
+      case 'LOGIC':
         this.typeCount[0] += 1;
         break;
-      case '共情':
+      case 'EMPATHY':
         this.typeCount[1] += 1;
         break;
-      case '直觉':
+      case 'INTUITION':
         this.typeCount[2] += 1;
         break;
     };
     switch (data.charName) {
-      case '夏彦':
+      case 'LUKE':
         this.charCount[0] += 1;
         break;
-      case '左然':
+      case 'ARTEM':
         this.charCount[1] += 1;
         break;
-      case '莫弈':
+      case 'VYN':
         this.charCount[2] += 1;
         break;
-      case '陆景和':
+      case 'MARIUS':
         this.charCount[3] += 1;
         break;
     };
@@ -93,10 +93,10 @@ export class CardCalculatorComponent implements OnInit {
   configureUserData(item: any) {
     let names = [];
     let ids = [];
-    item.skillNames.forEach(n => {
+    item.skillIDs.forEach(n => {
       this.allSkills.forEach(s => {
-        if (n == s.name) {
-          let name = this.lang == 'zh' ? s.name : s.nameEN;
+        if (n == s.id) {
+          let name = s.name[this.lang] ?? s.name.zh;
           names.push(name);
           ids.push(s._id);
         }
@@ -119,26 +119,26 @@ export class CardCalculatorComponent implements OnInit {
 
   addSecondSkill(skillIndex: number) {
     this.userData.forEach(data => {
-      // console.log(`${data.name}: ${data.skillNames}`)
-      let common = "通用"
+      // console.log(`${data.name.zh}: ${data.skillIDs}`)
+      let common = "GENERAL"
       // skip the skill which won't get buffed based on either character or type
       if (common === data.skillTypes[skillIndex] && common === data.skillChar[skillIndex]) {
-        console.log(`${data.skillNames[1]} is skipped`)
+        console.log(`${data.skillIDs[1]} is skipped`)
       } else {
         // skill buffing based on character
         let count = 1;
         if (common === data.skillTypes[skillIndex]) {
           switch (data.skillChar[skillIndex]) {
-            case "夏彦":
+            case "LUKE":
               count = this.charCount[0];
               break;
-            case "左然":
+            case "ARTEM":
               count = this.charCount[1];
               break;
-            case "莫弈":
+            case "VYN":
               count = this.charCount[2];
               break;
-            case "陆景和":
+            case "MARIUS":
               count = this.charCount[3];
               break;
           }
@@ -146,28 +146,33 @@ export class CardCalculatorComponent implements OnInit {
         // skill buffing based on type
         else if (common === data.skillChar[skillIndex]) {
           switch (data.skillTypes[skillIndex]) {
-            case "逻辑":
+            case "LOGIC":
               count = this.typeCount[0];
               break;
-            case "共情":
+            case "EMPATHY":
               count = this.typeCount[1];
               break;
-            case "直觉":
+            case "INTUITION":
               count = this.typeCount[2];
               break;
           }
         }
         let isIn = false;
         this.secondSkills.forEach(skill => {
-          if (skill.name == data.skillNames[skillIndex]) {
+          if (skill.id == data.skillIDs[skillIndex]) {
             isIn = true;
+            skill.n = skill.name[this.lang] ?? skill.name.zh;
           }
         })
         if (!isIn) {
           let skill = {
             _id: data.sid[skillIndex],
+            ref: data.skillRefs[skillIndex],
             id: data.skillIDs[skillIndex],
-            name: data.skillNames[skillIndex],
+            name: {
+              zh: data.skillIDs[skillIndex]
+            },
+            n: data.skillIDs[skillIndex],
             num: Number(data.skillNums[skillIndex] * count),
             numType: data.skillNumTypes[skillIndex]
           };
@@ -180,7 +185,7 @@ export class CardCalculatorComponent implements OnInit {
   addThirdSkill(userData: any, skillList: any[], skillIndex: number) {
     let isIn = false;
     skillList.forEach(skill => {
-      if (skill.name == userData.skillNames[skillIndex]) {
+      if (skill.id == userData.skillIDs[skillIndex]) {
         skill.num += Number(userData.skillNums[skillIndex])
         isIn = true
       }
@@ -193,8 +198,11 @@ export class CardCalculatorComponent implements OnInit {
   addSkillPack(userData: any, skillList: any[], skillIndex: number) {
     let skill = {
       _id: userData.sid[skillIndex],
+      ref: userData.skillRefs[skillIndex],
       id: userData.skillIDs[skillIndex],
-      name: userData.skillNames[skillIndex],
+      name: {
+        zh: userData.skillIDs[skillIndex]
+      },
       num: Number(userData.skillNums[skillIndex]),
       numType: userData.skillNumTypes[skillIndex]
     }

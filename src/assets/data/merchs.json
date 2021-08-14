@@ -9,7 +9,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
-        "character": "夏彦",
+        "character": "LUKE",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01DnvXuI1fEayaZLRCQ_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01t1h6we1fEayaZJxlF_!!3249253975-0-lubanu-s.jpg",
@@ -32,7 +32,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
-        "character": "左然",
+        "character": "ARTEM",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01V9fFcQ1fEayaZvEIa_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01JZavFv1fEayaZfa2K_!!3249253975-0-lubanu-s.jpg",
@@ -55,7 +55,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
-        "character": "莫弈",
+        "character": "VYN",
         "images": [
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01D3CRTl1fEayaZoylN_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01VDoOr81fEayfSPFe2_!!3249253975-0-lubanu-s.jpg",
@@ -78,7 +78,7 @@
         "productDescription": "-",
         "price": "¥229",
         "sellDate": 0,
-        "character": "陆景和",
+        "character": "MARIUS",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01QZ4tLr1fEayX7OTsE_!!3249253975-0-lubanu-s.jpg",
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01dFMc8M1fEayX7PUFU_!!3249253975-0-lubanu-s.jpg",
@@ -274,7 +274,7 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
-        "character": "莫弈",
+        "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/438360f2e30a772e1fec543d8ba68f4d.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0ismij30m80m846s.jpg",
@@ -296,7 +296,7 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
-        "character": "莫弈",
+        "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0kbb7j30m80m848j.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0lyelj30ly0y6h0f.jpg"
@@ -315,7 +315,7 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
-        "character": "莫弈",
+        "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve10013j30m80m8gvb.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve10mzxj30u01aptzr.jpg"
@@ -334,7 +334,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
-        "character": "莫弈",
+        "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0ismij30m80m846s.jpg"
         ],
@@ -503,7 +503,7 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
-        "character": "夏彦",
+        "character": "LUKE",
         "images": [
             "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/216909ce292ac515e287d96a7f1619d3_2859374243553891583.jpg",
             "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/24012a0802ec2f0e212d05f82555467c_8799102832086737579.jpg",
@@ -525,7 +525,7 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
-        "character": "夏彦",
+        "character": "LUKE",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1glgmcewadgj30m80m8n85.jpg"
         ],
@@ -543,7 +543,7 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
-        "character": "夏彦",
+        "character": "LUKE",
         "images": [
             "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/6955e376746c7c65f1f78280e133c6f4_3579968964876960247.jpg",
             "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/87e1c46cc4dc7112be8861fe5217c3bd_4602975602552187788.jpg"
@@ -562,7 +562,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
-        "character": "夏彦",
+        "character": "LUKE",
         "images": [
             "https://upload-bbs.mihoyo.com/upload/2020/12/08/50111872/24012a0802ec2f0e212d05f82555467c_8799102832086737579.jpg"
         ],
@@ -644,7 +644,7 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
-        "character": "左然",
+        "character": "ARTEM",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/52f897d75690c84e7574f78d54adea2b1f0598e9.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/711b3115659653632044d39339d74b1463c60de6.jpg",
@@ -666,7 +666,7 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
-        "character": "左然",
+        "character": "ARTEM",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/689cecf14305d059089079b53d88e5c69e6562cb.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/4c96d518c13a081a335fe22ca1d3d8d7662a0b3d.jpg"
@@ -685,7 +685,7 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
-        "character": "左然",
+        "character": "ARTEM",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/8710f27be4964efed17347fd0d69d59dc5a45183.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/a23723e2d41ba687c9b8fb70f700b3c101dde890.jpg"
@@ -704,7 +704,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
-        "character": "左然",
+        "character": "ARTEM",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/50f7f01dbd2ff18e473fd4f21b5ae523af347d08.jpg"
         ],
@@ -884,7 +884,7 @@
         "productDescription": "-",
         "price": "¥68",
         "sellDate": 0,
-        "character": "陆景和",
+        "character": "MARIUS",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/c0b96b3a0008ce9460d6080fab97645f8ab1bd47.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/e00235fbc2395f032bd723d2586eae934a7e777a.jpg",
@@ -907,7 +907,7 @@
         "productDescription": "-",
         "price": "¥25",
         "sellDate": 0,
-        "character": "陆景和",
+        "character": "MARIUS",
         "images": [
             "https://img.alicdn.com/bao/i3/3249253975/O1CN01HZ7T381fEb34NXhiu_!!0-item_pic.jpg",
             "https://cf.shopee.tw/file/5126f8c60cfbbae45a6c0ec72159636b"
@@ -926,7 +926,7 @@
         "productDescription": "-",
         "price": "¥28",
         "sellDate": 0,
-        "character": "陆景和",
+        "character": "MARIUS",
         "images": [
             "https://img.alicdn.com/bao/i4/3249253975/O1CN01XOEBHu1fEb2yklDs7_!!0-item_pic.jpg",
             "https://cf.shopee.tw/file/8f85336cfdcb44f0481ae6a548e02d0f"
@@ -945,7 +945,7 @@
         "productDescription": "-",
         "price": "¥15",
         "sellDate": 0,
-        "character": "陆景和",
+        "character": "MARIUS",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/e00235fbc2395f032bd723d2586eae934a7e777a.jpg",
             "https://aleafwolf.github.io/IHS/TOT/merchs/105a936bf7d2c784985f99f29e863438.jpg"

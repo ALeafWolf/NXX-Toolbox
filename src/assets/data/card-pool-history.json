@@ -2,8 +2,7 @@
     {
         "startDate": "2020-07-30",
         "endDate": "2020-08-14",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -15,8 +14,7 @@
     {
         "startDate": "2020-08-14",
         "endDate": "2020-08-28",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "咫尺远近",
@@ -29,8 +27,7 @@
     {
         "startDate": "2020-08-19",
         "endDate": "2020-09-09",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "CN",
         "cards": [
             "千灯如昼",
@@ -43,8 +40,7 @@
     {
         "startDate": "2020-08-28",
         "endDate": "2020-09-11",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "心跳记忆",
@@ -57,8 +53,7 @@
     {
         "startDate": "2020-09-11",
         "endDate": "2020-09-25",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -71,8 +66,7 @@
     {
         "startDate": "2020-09-19",
         "endDate": "2020-09-30",
-        "type": "活动（生日）",
-        "typeEN": "Birthday Event",
+        "type": "BIRTHDAY",
         "server": "CN",
         "cards": [
             "舞夜流光"
@@ -82,8 +76,7 @@
     {
         "startDate": "2020-09-25",
         "endDate": "2020-10-09",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "醉意入怀",
@@ -96,8 +89,7 @@
     {
         "startDate": "2020-09-30",
         "endDate": "2020-10-25",
-        "type": "活动（限定）",
-        "typeEN": "Limited Event",
+        "type": "LIMITED-EVENT",
         "server": "CN",
         "cards": [
             "虹色心跳",
@@ -111,8 +103,7 @@
     {
         "startDate": "2020-10-09",
         "endDate": "2020-10-23",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -125,8 +116,7 @@
     {
         "startDate": "2020-10-23",
         "endDate": "2020-11-06",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -139,8 +129,7 @@
     {
         "startDate": "2020-11-06",
         "endDate": "2020-11-20",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "心跳记忆",
@@ -153,8 +142,7 @@
     {
         "startDate": "2020-11-12",
         "endDate": "2020-11-26",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "CN",
         "cards": [
             "明暗之境",
@@ -168,8 +156,7 @@
     {
         "startDate": "2020-11-20",
         "endDate": "2020-12-04",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -182,8 +169,7 @@
     {
         "startDate": "2020-11-27",
         "endDate": "2020-12-08",
-        "type": "活动（生日）",
-        "typeEN": "BirthDay Event",
+        "type": "BIRTHDAY",
         "server": "CN",
         "cards": [
             "温馥予怀"
@@ -193,8 +179,7 @@
     {
         "startDate": "2020-12-04",
         "endDate": "2020-12-18",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "醉意入怀",
@@ -207,8 +192,7 @@
     {
         "startDate": "2020-12-16",
         "endDate": "2021-01-06",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "CN",
         "cards": [
             "一步之遥",
@@ -221,8 +205,7 @@
     {
         "startDate": "2020-12-18",
         "endDate": "2020-12-31",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -235,8 +218,7 @@
     {
         "startDate": "2020-12-31",
         "endDate": "2021-01-14",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "心有千千结",
@@ -249,8 +231,7 @@
     {
         "startDate": "2021-01-14",
         "endDate": "2021-01-28",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "千灯如昼",
@@ -263,8 +244,7 @@
     {
         "startDate": "2021-01-28",
         "endDate": "2021-02-12",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -277,8 +257,7 @@
     {
         "startDate": "2021-01-29",
         "endDate": "2021-02-22",
-        "type": "活动（限定）",
-        "typeEN": "Limited Event",
+        "type": "LIMITED-EVENT",
         "server": "CN",
         "cards": [
             "荧荧眸光",
@@ -292,8 +271,7 @@
     {
         "startDate": "2021-02-12",
         "endDate": "2021-02-26",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "心跳记忆",
@@ -306,8 +284,7 @@
     {
         "startDate": "2021-02-26",
         "endDate": "2021-03-12",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "醉意入怀",
@@ -320,8 +297,7 @@
     {
         "startDate": "2021-03-12",
         "endDate": "2021-03-26",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -334,8 +310,7 @@
     {
         "startDate": "2021-03-25",
         "endDate": "2021-04-15",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "CN",
         "cards": [
             "此心安处",
@@ -347,8 +322,7 @@
     {
         "startDate": "2021-03-26",
         "endDate": "2021-04-09",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "心跳记忆",
@@ -361,8 +335,7 @@
     {
         "startDate": "2021-04-09",
         "endDate": "2021-04-23",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "危情邀约",
@@ -375,8 +348,7 @@
     {
         "startDate": "2021-04-18",
         "endDate": "2021-04-29",
-        "type": "活动（生日）",
-        "typeEN": "Birthday Event",
+        "type": "BIRTHDAY",
         "server": "CN",
         "cards": [
             "两心无间"
@@ -386,8 +358,7 @@
     {
         "startDate": "2021-04-23",
         "endDate": "2021-05-07",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -400,8 +371,7 @@
     {
         "startDate": "2021-04-29",
         "endDate": "2021-05-20",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "CN",
         "cards": [
             "惠雨归晴",
@@ -413,8 +383,7 @@
     {
         "startDate": "2021-05-07",
         "endDate": "2021-05-21",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "醉意入怀",
@@ -427,8 +396,7 @@
     {
         "startDate": "2021-05-21",
         "endDate": "2021-06-04",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "CN",
         "cards": [
             "腾霄",
@@ -441,8 +409,7 @@
     {
         "startDate": "2021-05-21",
         "endDate": "2021-06-04",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -455,8 +422,7 @@
     {
         "startDate": "2021-06-04",
         "endDate": "2021-06-18",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "心跳记忆",
@@ -469,8 +435,7 @@
     {
         "startDate": "2021-06-13",
         "endDate": "2021-06-24",
-        "type": "活动（生日）",
-        "typeEN": "Birthday Event",
+        "type": "BIRTHDAY",
         "server": "CN",
         "cards": [
             "荣光加冕"
@@ -480,8 +445,7 @@
     {
         "startDate": "2021-06-18",
         "endDate": "2021-07-02",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -494,8 +458,7 @@
     {
         "startDate": "2021-07-02",
         "endDate": "2021-07-16",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "咫尺远近",
@@ -508,8 +471,7 @@
     {
         "startDate": "2021-07-05",
         "endDate": "2021-07-17",
-        "type": "特殊",
-        "typeEN": "Special",
+        "type": "SPECIAL",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -526,8 +488,7 @@
     {
         "startDate": "2021-07-15",
         "endDate": "2021-08-12",
-        "type": "活动（限定）",
-        "typeEN": "Limited Event",
+        "type": "LIMITED-EVENT",
         "server": "CN",
         "cards": [
             "夜落星河",
@@ -541,8 +502,7 @@
     {
         "startDate": "2021-07-16",
         "endDate": "2021-07-30",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "最佳拍档",
@@ -555,8 +515,7 @@
     {
         "startDate": "2021-07-30",
         "endDate": "2021-08-13",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "一步之遥",
@@ -569,8 +528,7 @@
     {
         "startDate": "2021-07-30",
         "endDate": "2021-08-06",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "GLOBAL",
         "cards": [
             "微醺视线",
@@ -583,8 +541,7 @@
     {
         "startDate": "2020-08-05",
         "endDate": "2020-08-26",
-        "type": "活动",
-        "typeEN": "Event",
+        "type": "EVENT",
         "server": "GLOBAL",
         "cards": [
             "千灯如昼",
@@ -597,8 +554,7 @@
     {
         "startDate": "2021-08-06",
         "endDate": "2021-08-13",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "GLOBAL",
         "cards": [
             "咫尺远近",
@@ -611,8 +567,7 @@
     {
         "startDate": "2021-08-13",
         "endDate": "2021-08-27",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "CN",
         "cards": [
             "微醺视线",
@@ -625,8 +580,7 @@
     {
         "startDate": "2021-08-13",
         "endDate": "2021-08-20",
-        "type": "轮替",
-        "typeEN": "Rotation",
+        "type": "ROTATION",
         "server": "GLOBAL",
         "cards": [
             "最佳拍档",

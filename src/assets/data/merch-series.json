@@ -1,8 +1,7 @@
 [
     {
         "name": "日常系列",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2020-08-10",
             "2020-11-04",
@@ -13,16 +12,14 @@
     },
     {
         "name": "立绘系列第一弹",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2020-08-10"
         ]
     },
     {
         "name": "清夏同游系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-08-24 ~ 2020-09-06",
             "2021-03-19 ~ 2021-04-01"
@@ -30,8 +27,7 @@
     },
     {
         "name": "中秋系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-10-01 ~ 2020-10-14",
             "2021-04-27 ~ 2021-05-10"
@@ -39,16 +35,14 @@
     },
     {
         "name": "秘密心迹系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-10-01 ~ 2020-10-14"
         ]
     },
     {
         "name": "万圣节系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-11-01 ~ 2020-11-20",
             "2021-05-16 ~ 2021-05-29"
@@ -56,128 +50,112 @@
     },
     {
         "name": "消失的黄金系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-11-01 ~ 2020-11-20"
         ]
     },
     {
         "name": "定音系列",
-        "type": "常驻",
-        "typeEN": "Limited time",
+        "type": "PERMENENT",
         "sellTime": [
             "2020-11-01"
         ]
     },
     {
         "name": "兴趣系列",
-        "type": "常驻",
-        "typeEN": "Limited time",
+        "type": "PERMENENT",
         "sellTime": [
             "2020-11-01"
         ]
     },
     {
         "name": "满分惊喜系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-12-07 ~ 2020-12-20"
         ]
     },
     {
         "name": "眷然恋影系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-04-27 ~ 2020-05-10"
         ]
     },
     {
         "name": "心动纪念系列",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2021-04-27"
         ]
     },
     {
         "name": "燃动潮流夜系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2021-06-22 ~ 2021-07-05"
         ]
     },
     {
         "name": "浮光和景系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2020-06-22 ~ 2020-07-05"
         ]
     },
     {
         "name": "雨意系列",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2021-07-20"
         ]
     },
     {
         "name": "绯色盛典系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2021-07-20 ~ 2021-08-10"
         ]
     },
     {
         "name": "铭心悸动系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2021-07-20 ~ 2021-08-10"
         ]
     },
     {
         "name": "花间寄梦系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2021-07-20 ~ 2021-08-10"
         ]
     },
     {
         "name": "夏日系列",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2021-07-20"
         ]
     },
     {
         "name": "纪念邀约系列",
-        "type": "限时",
-        "typeEN": "Limited time",
+        "type": "LIMITED-TIME",
         "sellTime": [
             "2021-07-20 ~ 2021-08-10"
         ]
     },
     {
         "name": "珍藏系列",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2021-07-20"
         ]
     },
     {
         "name": "N/A",
-        "type": "常驻",
-        "typeEN": "Permanent",
+        "type": "PERMENENT",
         "sellTime": [
             "2020-11-01"
         ]

@@ -14,26 +14,7 @@ const GET_POOLS = gql`
         id
         _id
         character
-      }
-      bid 
-      bv
-      twitter 
-      youtube
-    }
-  }
-`;
-
-const GET_POOLS_EN = gql`
-  query GetPoolsEN{
-    card_pool_histories(limit: 1000, sortBy: _ID_ASC){
-      startDate
-      endDate
-      typeEN
-      server
-      cards{
-        id
-        _id
-        character
+        name
       }
       bid 
       bv
@@ -85,12 +66,7 @@ export class CardPoolHistoryComponent implements OnInit {
 
   loadData() {
     // GraphQL
-    // let query;
-    // if (this.lang == 'zh') {
-    //   query = GET_POOLS;
-    // } else {
-    //   query = GET_POOLS_EN;
-    // }
+    // const query = GET_POOLS;
 
     // this._apollo.query({
     //   query
@@ -112,11 +88,10 @@ export class CardPoolHistoryComponent implements OnInit {
   configurePoolWithLang(pools: any[]) {
     pools.forEach(pool => {
       let p = { ...pool };
-      if (this.lang == 'zh') {
-        p.t = p.type;
-      } else {
-        p.t = p.typeEN;
-      }
+      p.cards.forEach(c => {
+        c.n = c.name[this.lang] ?? c.name.zh;
+      });
+
       if (p.server == "CN") {
         this.cnPool.push(p);
       } else if (p.server == "GLOBAL") {
@@ -129,7 +104,7 @@ export class CardPoolHistoryComponent implements OnInit {
     let param = ""
     let post = ".webp"
     this.cards.forEach(c => {
-      if (name == c.name) {
+      if (name == c.name.zh) {
         param = c.character + "/" + c.id
       }
     });
@@ -140,7 +115,7 @@ export class CardPoolHistoryComponent implements OnInit {
     let pre = `/card-value/`
     let param = ""
     this.cards.forEach(c => {
-      if (name == c.name) {
+      if (name == c.name.zh) {
         param = c.character + "/" + c.id
       }
     });

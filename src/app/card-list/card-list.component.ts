@@ -19,26 +19,7 @@ const GET_CARDS = gql`
         ref
         name
         slot
-      }
-      obtainedFrom
-    }
-  }
-`;
-
-const GET_CARDS_EN = gql`
-  query GetCardsEN{
-    cards(limit: 1000, sortBy: _ID_ASC){
-      _id
-      id
-      nameEN
-      type
-      rarity
-      character
-      skills
-      {
-        ref
-        name
-        slot
+        id
       }
       obtainedFrom
     }
@@ -74,12 +55,7 @@ export class CardListComponent implements OnInit {
 
   loadData() {
     // GraphQL
-    // let query;
-    // if (this.lang == 'zh') {
-    //   query = GET_CARDS;
-    // } else {
-    //   query = GET_CARDS_EN;
-    // }
+    // const query = GET_CARDS;
     // this._apollo.query({
     //   query
     // }).toPromise().then((result: any) => {
@@ -104,7 +80,7 @@ export class CardListComponent implements OnInit {
     let cs = [];
     cards.forEach(card => {
       let c = { ...card };
-      c.n = this.lang == 'zh' ? card.name : card.nameEN;
+      c.n = card.name[this.lang] ?? card.name.zh;
       // for GraphQL
       // c.skills = sortSkill(card.id, card.skills, card.rarity);
       cs.push(c);
