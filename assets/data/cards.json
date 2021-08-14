@@ -1,12 +1,14 @@
 [
     {
-        "id": "最佳拍档",
-        "name": "最佳拍档",
-        "nameEN": "Perfect Partner",
-        "type": "逻辑",
+        "ref": "最佳拍档",
+        "name": {
+            "zh": "最佳拍档",
+            "en": "Perfect Partner",
+            "ko": "최고의 파트너"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "先声夺势 Ⅲ",
             "演绎推理 Ⅲ",
@@ -15,18 +17,20 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "微醺视线",
-        "name": "微醺视线",
-        "nameEN": "Alluring Gaze",
-        "type": "共情",
+        "ref": "微醺视线",
+        "name": {
+            "zh": "微醺视线",
+            "en": "Alluring Gaze",
+            "ko": "취한 시선"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "层层深入β Ⅲ",
             "情感投射 Ⅲ",
@@ -35,18 +39,20 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "千灯如昼",
-        "name": "千灯如昼",
-        "nameEN": "Shape of You",
-        "type": "直觉",
+        "ref": "千灯如昼",
+        "name": {
+            "zh": "千灯如昼",
+            "en": "Shape of You",
+            "ko": "대낮같이 밝은 등불"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以退为进β Ⅲ",
             "瞬间捕捉 Ⅲ",
@@ -55,18 +61,18 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "虹色心跳",
-        "name": "虹色心跳",
-        "nameEN": "虹色心跳",
-        "type": "共情",
+        "ref": "虹色心跳",
+        "name": {
+            "zh": "虹色心跳"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "循循善诱β Ⅲ",
             "古物修复 Ⅲ",
@@ -75,17 +81,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "温馥予怀",
-        "name": "温馥予怀",
-        "nameEN": "温馥予怀",
-        "type": "逻辑",
+        "ref": "温馥予怀",
+        "name": {
+            "zh": "温馥予怀"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以理服人α Ⅲ",
             "无懈可击 Ⅲ",
@@ -94,17 +100,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "荧荧眸光",
-        "name": "荧荧眸光",
-        "nameEN": "荧荧眸光",
-        "type": "直觉",
+        "ref": "荧荧眸光",
+        "name": {
+            "zh": "荧荧眸光"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "洞察秋毫β Ⅲ",
             "预见之明 Ⅲ",
@@ -113,17 +119,17 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "此心安处",
-        "name": "此心安处",
-        "nameEN": "此心安处",
-        "type": "共情",
+        "ref": "此心安处",
+        "name": {
+            "zh": "此心安处"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "先声夺势 Ⅲ",
             "真相还原 Ⅲ",
@@ -132,18 +138,18 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "腾霄",
-        "name": "腾霄",
-        "nameEN": "腾霄",
-        "type": "直觉",
+        "ref": "腾霄",
+        "name": {
+            "zh": "腾霄"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以德服人γ Ⅲ",
             "好奇之心 Ⅲ",
@@ -152,18 +158,18 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "夜落星河",
-        "name": "夜落星河",
-        "nameEN": "夜落星河",
-        "type": "逻辑",
+        "ref": "夜落星河",
+        "name": {
+            "zh": "夜落星河"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "先声夺势 Ⅲ",
             "真相还原 Ⅲ",
@@ -172,17 +178,19 @@
         "influence": 2226,
         "defense": 955,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "心跳记忆",
-        "name": "心跳记忆",
-        "nameEN": "Loving Memories",
-        "type": "直觉",
+        "ref": "心跳记忆",
+        "name": {
+            "zh": "心跳记忆",
+            "en": "Loving Memories",
+            "ko": "공포의 기억"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "先声夺势 Ⅲ",
             "直感思维 Ⅲ",
@@ -191,18 +199,20 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "醉意入怀",
-        "name": "醉意入怀",
-        "nameEN": "Atmospherics",
-        "type": "逻辑",
+        "ref": "醉意入怀",
+        "name": {
+            "zh": "醉意入怀",
+            "en": "Atmospherics",
+            "ko": "취기를 빌려"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入γ Ⅲ",
             "抽丝剥茧 Ⅲ",
@@ -211,18 +221,20 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "心有千千结",
-        "name": "心有千千结",
-        "nameEN": "Entwined Fate",
-        "type": "共情",
+        "ref": "心有千千结",
+        "name": {
+            "zh": "心有千千结",
+            "en": "Entwined Fate",
+            "ko": "천 개의 매듭"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以退为进β Ⅲ",
             "律法全能 Ⅲ",
@@ -231,18 +243,18 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "铃音予梦",
-        "name": "铃音予梦",
-        "nameEN": "铃音予梦",
-        "type": "共情",
+        "ref": "铃音予梦",
+        "name": {
+            "zh": "铃音予梦"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "循循善诱γ Ⅲ",
             "有条不紊 Ⅲ",
@@ -251,17 +263,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "一步之遥",
-        "name": "一步之遥",
-        "nameEN": "一步之遥",
-        "type": "直觉",
+        "ref": "一步之遥",
+        "name": {
+            "zh": "一步之遥"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "洞察秋毫α Ⅲ",
             "本能回避 Ⅲ",
@@ -270,18 +282,18 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "天心漫游",
-        "name": "天心漫游",
-        "nameEN": "天心漫游",
-        "type": "逻辑",
+        "ref": "天心漫游",
+        "name": {
+            "zh": "天心漫游"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以理服人β Ⅲ",
             "无懈可击 Ⅲ",
@@ -290,17 +302,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "两心无间",
-        "name": "两心无间",
-        "nameEN": "两心无间",
-        "type": "逻辑",
+        "ref": "两心无间",
+        "name": {
+            "zh": "两心无间"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "先声夺势 Ⅲ",
             "律法全能 Ⅲ",
@@ -309,17 +321,17 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "惠雨归晴",
-        "name": "惠雨归晴",
-        "nameEN": "惠雨归晴",
-        "type": "直觉",
+        "ref": "惠雨归晴",
+        "name": {
+            "zh": "惠雨归晴"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "洞察秋毫γ Ⅲ",
             "预见之明 Ⅲ",
@@ -328,18 +340,18 @@
         "influence": 2056,
         "defense": 833,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "相思情长",
-        "name": "相思情长",
-        "nameEN": "相思情长",
-        "type": "共情",
+        "ref": "相思情长",
+        "name": {
+            "zh": "相思情长"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "先声夺势 Ⅲ",
             "律法全能 Ⅲ",
@@ -348,17 +360,19 @@
         "influence": 2226,
         "defense": 954,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "咫尺远近",
-        "name": "咫尺远近",
-        "nameEN": "Near and Far",
-        "type": "直觉",
+        "ref": "咫尺远近",
+        "name": {
+            "zh": "咫尺远近",
+            "en": "Near and Far",
+            "ko": "지척"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅲ",
             "敏锐观察 Ⅲ",
@@ -367,18 +381,20 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "危情邀约",
-        "name": "危情邀约",
-        "nameEN": "Medieval Suspense",
-        "type": "共情",
+        "ref": "危情邀约",
+        "name": {
+            "zh": "危情邀约",
+            "en": "Medieval Suspense",
+            "ko": "공포의 기억"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "层层深入β Ⅲ",
             "张弛有度 Ⅲ",
@@ -387,18 +403,18 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "舞夜流光",
-        "name": "舞夜流光",
-        "nameEN": "舞夜流光",
-        "type": "逻辑",
+        "ref": "舞夜流光",
+        "name": {
+            "zh": "舞夜流光"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以德服人α Ⅲ",
             "自我评估 Ⅲ",
@@ -407,17 +423,17 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "心悬一线",
-        "name": "心悬一线",
-        "nameEN": "心悬一线",
-        "type": "逻辑",
+        "ref": "心悬一线",
+        "name": {
+            "zh": "心悬一线"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以理服人γ Ⅲ",
             "温文尔雅 Ⅲ",
@@ -426,17 +442,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "明暗之境",
-        "name": "明暗之境",
-        "nameEN": "明暗之境",
-        "type": "直觉",
+        "ref": "明暗之境",
+        "name": {
+            "zh": "明暗之境"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅲ",
             "盛装舞步 Ⅲ",
@@ -445,18 +461,18 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "焰落琉彩",
-        "name": "焰落琉彩",
-        "nameEN": "焰落琉彩",
-        "type": "逻辑",
+        "ref": "焰落琉彩",
+        "name": {
+            "zh": "焰落琉彩"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "循循善诱α Ⅲ",
             "预见之明 Ⅲ",
@@ -465,17 +481,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "思酿",
-        "name": "思酿",
-        "nameEN": "思酿",
-        "type": "逻辑",
+        "ref": "思酿",
+        "name": {
+            "zh": "思酿"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以退为进α Ⅲ",
             "交响奏鸣 Ⅲ",
@@ -484,18 +500,18 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "霓光旋律",
-        "name": "霓光旋律",
-        "nameEN": "霓光旋律",
-        "type": "共情",
+        "ref": "霓光旋律",
+        "name": {
+            "zh": "霓光旋律"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅲ",
             "盛装舞步 Ⅲ",
@@ -504,18 +520,18 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "不渝",
-        "name": "不渝",
-        "nameEN": "不渝",
-        "type": "直觉",
+        "ref": "不渝",
+        "name": {
+            "zh": "不渝"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅲ",
             "盛装舞步 Ⅲ",
@@ -524,17 +540,19 @@
         "influence": 2226,
         "defense": 954,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "冤家路窄",
-        "name": "冤家路窄",
-        "nameEN": "Narrow Road",
-        "type": "共情",
+        "ref": "冤家路窄",
+        "name": {
+            "zh": "冤家路窄",
+            "en": "Narrow Road",
+            "ko": "불길한 만남"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "先声夺势 Ⅲ",
             "情绪感染 Ⅲ",
@@ -543,18 +561,20 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "眸中景",
-        "name": "眸中景",
-        "nameEN": "Eye of the Beholder",
-        "type": "直觉",
+        "ref": "眸中景",
+        "name": {
+            "zh": "眸中景",
+            "en": "Eye of the Beholder",
+            "ko": "눈에 비치는 풍경"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入γ Ⅲ",
             "举一反三 Ⅲ",
@@ -563,18 +583,20 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "绘恋春风",
-        "name": "绘恋春风",
-        "nameEN": "Matching Tattoos",
-        "type": "逻辑",
+        "ref": "绘恋春风",
+        "name": {
+            "zh": "绘恋春风",
+            "en": "Matching Tattoos",
+            "ko": "훈훈한 봄바람"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以退为进β Ⅲ",
             "年少锋锐 Ⅲ",
@@ -583,17 +605,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "累计充值"
+            "CHARGE"
         ]
     },
     {
-        "id": "悸乱微光",
-        "name": "悸乱微光",
-        "nameEN": "悸乱微光",
-        "type": "直觉",
+        "ref": "悸乱微光",
+        "name": {
+            "zh": "悸乱微光"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "洞察秋毫γ Ⅲ",
             "精英教育 Ⅲ",
@@ -602,17 +624,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "虚诞盛宴",
-        "name": "虚诞盛宴",
-        "nameEN": "虚诞盛宴",
-        "type": "逻辑",
+        "ref": "虚诞盛宴",
+        "name": {
+            "zh": "虚诞盛宴"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入α Ⅲ",
             "因势利导 Ⅲ",
@@ -621,18 +643,18 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "终夜明辉",
-        "name": "终夜明辉",
-        "nameEN": "终夜明辉",
-        "type": "共情",
+        "ref": "终夜明辉",
+        "name": {
+            "zh": "终夜明辉"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "先声夺势 Ⅲ",
             "年少锋锐 Ⅲ",
@@ -641,18 +663,18 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "极光之昼",
-        "name": "极光之昼",
-        "nameEN": "极光之昼",
-        "type": "直觉",
+        "ref": "极光之昼",
+        "name": {
+            "zh": "极光之昼"
+        },
+        "type": "INTUITION",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "洞察秋毫β Ⅲ",
             "预见之明 Ⅲ",
@@ -661,17 +683,17 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "苍木为意",
-        "name": "苍木为意",
-        "nameEN": "苍木为意",
-        "type": "逻辑",
+        "ref": "苍木为意",
+        "name": {
+            "zh": "苍木为意"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以理服人γ Ⅲ",
             "因势利导 Ⅲ",
@@ -680,18 +702,18 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "荣光加冕",
-        "name": "荣光加冕",
-        "nameEN": "荣光加冕",
-        "type": "共情",
+        "ref": "荣光加冕",
+        "name": {
+            "zh": "荣光加冕"
+        },
+        "type": "EMPATHY",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "循循善诱α Ⅲ",
             "艺术天赋 Ⅲ",
@@ -700,17 +722,17 @@
         "influence": 2120,
         "defense": 1060,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "意笔明心",
-        "name": "意笔明心",
-        "nameEN": "意笔明心",
-        "type": "逻辑",
+        "ref": "意笔明心",
+        "name": {
+            "zh": "意笔明心"
+        },
+        "type": "LOGIC",
         "rarity": "SSR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "先声夺势 Ⅲ",
             "年少锋锐 Ⅲ",
@@ -719,17 +741,19 @@
         "influence": 2014,
         "defense": 1166,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "碧蓝之间",
-        "name": "碧蓝之间",
-        "nameEN": "Among the Great Blue",
-        "type": "直觉",
+        "ref": "碧蓝之间",
+        "name": {
+            "zh": "碧蓝之间",
+            "en": "Among the Great Blue",
+            "ko": "그랑블루"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以退为进γ Ⅱ",
             "运筹帷幄 Ⅱ",
@@ -738,18 +762,20 @@
         "influence": 1504,
         "defense": 871,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "斑斓光影",
-        "name": "斑斓光影",
-        "nameEN": "Radiant Sunlight",
-        "type": "直觉",
+        "ref": "斑斓光影",
+        "name": {
+            "zh": "斑斓光影",
+            "en": "Radiant Sunlight",
+            "ko": "희미한 그림자"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "洞察秋毫β Ⅱ",
             "敏锐观察 Ⅱ",
@@ -758,18 +784,20 @@
         "influence": 1583,
         "defense": 791,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "惊心一刻",
-        "name": "惊心一刻",
-        "nameEN": "Moment of Danger",
-        "type": "共情",
+        "ref": "惊心一刻",
+        "name": {
+            "zh": "惊心一刻",
+            "en": "Moment of Danger",
+            "ko": "놀람의 순간"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "先声夺势 Ⅱ",
             "张弛有度 Ⅱ",
@@ -778,17 +806,19 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "常驻"
+            "PERMENENT"
         ]
     },
     {
-        "id": "完美营救",
-        "name": "完美营救",
-        "nameEN": "Timely Rescue",
-        "type": "逻辑",
+        "ref": "完美营救",
+        "name": {
+            "zh": "完美营救",
+            "en": "Timely Rescue",
+            "ko": "완벽한 구조"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以理服人γ Ⅱ",
             "抽丝剥茧 Ⅱ",
@@ -797,18 +827,20 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "倾落心扉",
-        "name": "倾落心扉",
-        "nameEN": "Inner Sanctum",
-        "type": "共情",
+        "ref": "倾落心扉",
+        "name": {
+            "zh": "倾落心扉",
+            "en": "Inner Sanctum",
+            "ko": "마음이 기우는 건"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "循循善诱β Ⅱ",
             "情绪感染 Ⅱ",
@@ -817,18 +849,20 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "彼时少年",
-        "name": "彼时少年",
-        "nameEN": "Once Upon a Time",
-        "type": "逻辑",
+        "ref": "彼时少年",
+        "name": {
+            "zh": "彼时少年",
+            "en": "Once Upon a Time",
+            "ko": "그 때 그 시절"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "层层深入γ Ⅱ",
             "运筹帷幄 Ⅱ",
@@ -837,18 +871,20 @@
         "influence": 1583,
         "defense": 791,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "与子偕行",
-        "name": "与子偕行",
-        "nameEN": "Together with You",
-        "type": "逻辑",
+        "ref": "与子偕行",
+        "name": {
+            "zh": "与子偕行",
+            "en": "Together with You",
+            "ko": "그와의 동행"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "示假隐真β Ⅱ",
             "张弛有度 Ⅱ",
@@ -857,18 +893,18 @@
         "influence": 1504,
         "defense": 871,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "忆中人",
-        "name": "忆中人",
-        "nameEN": "忆中人",
-        "type": "直觉",
+        "ref": "忆中人",
+        "name": {
+            "zh": "忆中人"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "层层深入β Ⅱ",
             "直感思维 Ⅱ",
@@ -877,18 +913,18 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "掌中流光",
-        "name": "掌中流光",
-        "nameEN": "掌中流光",
-        "type": "共情",
+        "ref": "掌中流光",
+        "name": {
+            "zh": "掌中流光"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "层层深入α Ⅱ",
             "古物修复 Ⅱ",
@@ -897,17 +933,19 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "人间烟火",
-        "name": "人间烟火",
-        "nameEN": "Sparks",
-        "type": "直觉",
+        "ref": "人间烟火",
+        "name": {
+            "zh": "人间烟火",
+            "en": "Sparks",
+            "ko": "세속적인 세상"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "示假隐真γ Ⅱ",
             "趋利避害 Ⅱ",
@@ -916,18 +954,20 @@
         "influence": 1662,
         "defense": 713,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "秋叶寄梦",
-        "name": "秋叶寄梦",
-        "nameEN": "Autumn Dreams",
-        "type": "逻辑",
+        "ref": "秋叶寄梦",
+        "name": {
+            "zh": "秋叶寄梦",
+            "en": "Autumn Dreams",
+            "ko": "가을속 꿈"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以理服人β Ⅱ",
             "律法全能 Ⅱ",
@@ -936,18 +976,20 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "冷暖心知",
-        "name": "冷暖心知",
-        "nameEN": "In Sickness or in Health",
-        "type": "共情",
+        "ref": "冷暖心知",
+        "name": {
+            "zh": "冷暖心知",
+            "en": "In Sickness or in Health",
+            "ko": "차갑고 따뜻하게"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "循循善诱β Ⅱ",
             "情感投射 Ⅱ",
@@ -956,18 +998,20 @@
         "influence": 1535,
         "defense": 838,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "会心一击",
-        "name": "会心一击",
-        "nameEN": "Focus Fire",
-        "type": "逻辑",
+        "ref": "会心一击",
+        "name": {
+            "zh": "会心一击",
+            "en": "Focus Fire",
+            "ko": "회심의 일격"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "先声夺势 Ⅱ",
             "张弛有度 Ⅱ",
@@ -976,17 +1020,19 @@
         "influence": 1536,
         "defense": 839,
         "obtainedFrom": [
-            "常驻"
+            "PERMENENT"
         ]
     },
     {
-        "id": "锋芒褪尽",
-        "name": "锋芒褪尽",
-        "nameEN": "Staying Humble",
-        "type": "共情",
+        "ref": "锋芒褪尽",
+        "name": {
+            "zh": "锋芒褪尽",
+            "en": "Staying Humble",
+            "ko": "무뎌진 칼끝"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以退为进γ Ⅱ",
             "举一反三 Ⅱ",
@@ -995,18 +1041,20 @@
         "influence": 1583,
         "defense": 792,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "长夜微明",
-        "name": "长夜微明",
-        "nameEN": "Darkest before Dawn",
-        "type": "直觉",
+        "ref": "长夜微明",
+        "name": {
+            "zh": "长夜微明",
+            "en": "Darkest before Dawn",
+            "ko": "기나긴 밤"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "避实就虚β Ⅱ",
             "预见之明 Ⅱ",
@@ -1015,18 +1063,20 @@
         "influence": 1504,
         "defense": 871,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "纸幕光影",
-        "name": "纸幕光影",
-        "nameEN": "Thin Veil",
-        "type": "直觉",
+        "ref": "纸幕光影",
+        "name": {
+            "zh": "纸幕光影",
+            "en": "Thin Veil",
+            "ko": "종이에 비치는 그림자"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "洞察秋毫γ Ⅱ",
             "敏锐观察 Ⅱ",
@@ -1035,17 +1085,17 @@
         "influence": 1583,
         "defense": 792,
         "obtainedFrom": [
-            "累计充值"
+            "CHARGE"
         ]
     },
     {
-        "id": "暇光一隅",
-        "name": "暇光一隅",
-        "nameEN": "暇光一隅",
-        "type": "逻辑",
+        "ref": "暇光一隅",
+        "name": {
+            "zh": "暇光一隅"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "设问否定β Ⅱ",
             "有条不紊 Ⅱ",
@@ -1054,18 +1104,18 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "抉择",
-        "name": "抉择",
-        "nameEN": "抉择",
-        "type": "共情",
+        "ref": "抉择",
+        "name": {
+            "zh": "抉择"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "先声夺势 Ⅱ",
             "运筹帷幄 Ⅱ",
@@ -1074,18 +1124,18 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "制胜球",
-        "name": "制胜球",
-        "nameEN": "制胜球",
-        "type": "逻辑",
+        "ref": "制胜球",
+        "name": {
+            "zh": "制胜球"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入β Ⅱ",
             "精益求精 Ⅱ",
@@ -1094,17 +1144,19 @@
         "influence": 1504,
         "defense": 871,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "虚妄之泪",
-        "name": "虚妄之泪",
-        "nameEN": "False Tears",
-        "type": "共情",
+        "ref": "虚妄之泪",
+        "name": {
+            "zh": "虚妄之泪",
+            "en": "False Tears",
+            "ko": "악어의 눈물"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "循循善诱γ Ⅱ",
             "盛装舞步 Ⅱ",
@@ -1113,18 +1165,20 @@
         "influence": 1504,
         "defense": 871,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "指尖温度",
-        "name": "指尖温度",
-        "nameEN": "Lingering Warmth",
-        "type": "逻辑",
+        "ref": "指尖温度",
+        "name": {
+            "zh": "指尖温度",
+            "en": "Lingering Warmth",
+            "ko": "손끝의 온도"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以理服人β Ⅱ",
             "无懈可击 Ⅱ",
@@ -1133,18 +1187,20 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "水“逆”",
-        "name": "水“逆”",
-        "nameEN": "Mercury in Retrograde",
-        "type": "直觉",
+        "ref": "水“逆”",
+        "name": {
+            "zh": "水“逆”",
+            "en": "Mercury in Retrograde",
+            "ko": "불운"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "洞察秋毫α Ⅱ",
             "敏锐观察 Ⅱ",
@@ -1153,18 +1209,20 @@
         "influence": 1535,
         "defense": 838,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "塑心",
-        "name": "塑心",
-        "nameEN": "Mended Heart",
-        "type": "共情",
+        "ref": "塑心",
+        "name": {
+            "zh": "塑心",
+            "en": "Mended Heart",
+            "ko": "마음가짐"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "层层深入γ Ⅱ",
             "情绪感染 Ⅱ",
@@ -1173,18 +1231,20 @@
         "influence": 1583,
         "defense": 792,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "绅士游戏",
-        "name": "绅士游戏",
-        "nameEN": "Gentleman's Game",
-        "type": "直觉",
+        "ref": "绅士游戏",
+        "name": {
+            "zh": "绅士游戏",
+            "en": "Gentleman's Game",
+            "ko": "젠틀맨 게임"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅱ",
             "张弛有度 Ⅱ",
@@ -1193,17 +1253,19 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "常驻"
+            "PERMENENT"
         ]
     },
     {
-        "id": "初光倾泻",
-        "name": "初光倾泻",
-        "nameEN": "Spilling Light",
-        "type": "逻辑",
+        "ref": "初光倾泻",
+        "name": {
+            "zh": "初光倾泻",
+            "en": "Spilling Light",
+            "ko": "쏟아지는 빛"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "设问否定γ Ⅱ",
             "演绎推理 Ⅱ",
@@ -1212,18 +1274,20 @@
         "influence": 1583,
         "defense": 792,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "凉夏",
-        "name": "凉夏",
-        "nameEN": "Cool Summer",
-        "type": "逻辑",
+        "ref": "凉夏",
+        "name": {
+            "zh": "凉夏",
+            "en": "Cool Summer",
+            "ko": "시원한 여름"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅱ",
             "演绎推理 Ⅱ",
@@ -1232,18 +1296,18 @@
         "influence": 1503,
         "defense": 870,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "入局",
-        "name": "入局",
-        "nameEN": "入局",
-        "type": "共情",
+        "ref": "入局",
+        "name": {
+            "zh": "入局"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "循循善诱α Ⅱ",
             "顺水推舟 Ⅱ",
@@ -1252,18 +1316,18 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "松雪童话",
-        "name": "松雪童话",
-        "nameEN": "松雪童话",
-        "type": "直觉",
+        "ref": "松雪童话",
+        "name": {
+            "zh": "松雪童话"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "避实就虚β Ⅱ",
             "敏锐观察 Ⅱ",
@@ -1272,18 +1336,20 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "活动",
-            "轮替"
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "童心攻势",
-        "name": "童心攻势",
-        "nameEN": "Child at Heart",
-        "type": "直觉",
+        "ref": "童心攻势",
+        "name": {
+            "zh": "童心攻势",
+            "en": "Child at Heart",
+            "ko": "동심 공격"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "洞察秋毫β Ⅱ",
             "敏锐观察 Ⅱ",
@@ -1292,18 +1358,20 @@
         "influence": 1536,
         "defense": 839,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "弦外之音",
-        "name": "弦外之音",
-        "nameEN": "Overtone",
-        "type": "共情",
+        "ref": "弦外之音",
+        "name": {
+            "zh": "弦外之音",
+            "en": "Overtone",
+            "ko": "숨은 뜻"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "循循善诱β Ⅱ",
             "年少锋锐 Ⅱ",
@@ -1312,18 +1380,20 @@
         "influence": 1504,
         "defense": 871,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "底比斯之梦",
-        "name": "底比斯之梦",
-        "nameEN": "Dream of Thebes",
-        "type": "逻辑",
+        "ref": "底比斯之梦",
+        "name": {
+            "zh": "底比斯之梦",
+            "en": "Dream of Thebes",
+            "ko": "테베의 꿈"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以退为进γ Ⅱ",
             "演绎推理 Ⅱ",
@@ -1332,18 +1402,20 @@
         "influence": 1630,
         "defense": 744,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "共舞云端",
-        "name": "共舞云端",
-        "nameEN": "A Dance on the Clouds",
-        "type": "逻辑",
+        "ref": "共舞云端",
+        "name": {
+            "zh": "共舞云端",
+            "en": "A Dance on the Clouds",
+            "ko": "구름과 함께 춤을"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以理服人β Ⅱ",
             "张弛有度 Ⅱ",
@@ -1352,17 +1424,19 @@
         "influence": 1582,
         "defense": 791,
         "obtainedFrom": [
-            "常驻"
+            "PERMENENT"
         ]
     },
     {
-        "id": "心头撞鹿",
-        "name": "心头撞鹿",
-        "nameEN": "Butterflies",
-        "type": "直觉",
+        "ref": "心头撞鹿",
+        "name": {
+            "zh": "心头撞鹿",
+            "en": "Butterflies",
+            "ko": "두근거림"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "先声夺势 Ⅱ",
             "举一反三 Ⅱ",
@@ -1371,18 +1445,20 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "坠入心扉",
-        "name": "坠入心扉",
-        "nameEN": "Falling into You",
-        "type": "共情",
+        "ref": "坠入心扉",
+        "name": {
+            "zh": "坠入心扉",
+            "en": "Falling into You",
+            "ko": "빠져드는 마음"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "引申归谬γ Ⅱ",
             "情绪感染 Ⅱ",
@@ -1391,18 +1467,20 @@
         "influence": 1582,
         "defense": 791,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "琥珀昙华",
-        "name": "琥珀昙华",
-        "nameEN": "Twilight Beauty",
-        "type": "共情",
+        "ref": "琥珀昙华",
+        "name": {
+            "zh": "琥珀昙华",
+            "en": "Twilight Beauty",
+            "ko": "우담바라"
+        },
+        "type": "EMPATHY",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入γ Ⅱ",
             "还施彼身 Ⅱ",
@@ -1411,17 +1489,17 @@
         "influence": 1662,
         "defense": 712,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "迷涂炫彩",
-        "name": "迷涂炫彩",
-        "nameEN": "迷涂炫彩",
-        "type": "逻辑",
+        "ref": "迷涂炫彩",
+        "name": {
+            "zh": "迷涂炫彩"
+        },
+        "type": "LOGIC",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以理服人α Ⅱ",
             "年少锋锐 Ⅱ",
@@ -1430,18 +1508,18 @@
         "influence": 1536,
         "defense": 839,
         "obtainedFrom": [
-            "轮替",
-            "活动"
+            "ROTATION",
+            "EVENT"
         ]
     },
     {
-        "id": "静默之下",
-        "name": "静默之下",
-        "nameEN": "静默之下",
-        "type": "直觉",
+        "ref": "静默之下",
+        "name": {
+            "zh": "静默之下"
+        },
+        "type": "INTUITION",
         "rarity": "SR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入γ Ⅱ",
             "权贵之绊 Ⅱ",
@@ -1450,18 +1528,18 @@
         "influence": 1503,
         "defense": 870,
         "obtainedFrom": [
-            "常驻",
-            "主线思绪残影"
+            "PERMENENT",
+            "CARD-FRAGMENT"
         ]
     },
     {
-        "id": "陪伴",
-        "name": "陪伴",
-        "nameEN": "陪伴",
-        "type": "逻辑",
+        "ref": "陪伴",
+        "name": {
+            "zh": "陪伴"
+        },
+        "type": "LOGIC",
         "rarity": "MR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "先声夺势 Ⅱ",
             "无懈可击 Ⅱ",
@@ -1470,17 +1548,17 @@
         "influence": 1637,
         "defense": 895,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "寄意",
-        "name": "寄意",
-        "nameEN": "寄意",
-        "type": "直觉",
+        "ref": "寄意",
+        "name": {
+            "zh": "寄意"
+        },
+        "type": "INTUITION",
         "rarity": "MR",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "层层深入γ Ⅱ",
             "直感思维 Ⅱ",
@@ -1489,17 +1567,17 @@
         "influence": 1658,
         "defense": 829,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "心意",
-        "name": "心意",
-        "nameEN": "心意",
-        "type": "直觉",
+        "ref": "心意",
+        "name": {
+            "zh": "心意"
+        },
+        "type": "INTUITION",
         "rarity": "MR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "先声夺势 Ⅱ",
             "预见之明 Ⅱ",
@@ -1508,17 +1586,17 @@
         "influence": 1637,
         "defense": 895,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "舒展",
-        "name": "舒展",
-        "nameEN": "舒展",
-        "type": "共情",
+        "ref": "舒展",
+        "name": {
+            "zh": "舒展"
+        },
+        "type": "EMPATHY",
         "rarity": "MR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入β Ⅱ",
             "律法全能 Ⅱ",
@@ -1527,17 +1605,17 @@
         "influence": 1637,
         "defense": 895,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "眷慕",
-        "name": "眷慕",
-        "nameEN": "眷慕",
-        "type": "逻辑",
+        "ref": "眷慕",
+        "name": {
+            "zh": "眷慕"
+        },
+        "type": "LOGIC",
         "rarity": "MR",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入γ Ⅱ",
             "抽丝剥茧 Ⅱ",
@@ -1546,17 +1624,17 @@
         "influence": 1658,
         "defense": 829,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "约定",
-        "name": "约定",
-        "nameEN": "约定",
-        "type": "共情",
+        "ref": "约定",
+        "name": {
+            "zh": "约定"
+        },
+        "type": "EMPATHY",
         "rarity": "MR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅱ",
             "还施彼身 Ⅱ",
@@ -1565,17 +1643,17 @@
         "influence": 1637,
         "defense": 895,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "朝颜",
-        "name": "朝颜",
-        "nameEN": "朝颜",
-        "type": "逻辑",
+        "ref": "朝颜",
+        "name": {
+            "zh": "朝颜"
+        },
+        "type": "LOGIC",
         "rarity": "MR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "层层深入β Ⅱ",
             "盛装舞步 Ⅱ",
@@ -1584,17 +1662,17 @@
         "influence": 1637,
         "defense": 895,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "凝眸",
-        "name": "凝眸",
-        "nameEN": "凝眸",
-        "type": "直觉",
+        "ref": "凝眸",
+        "name": {
+            "zh": "凝眸"
+        },
+        "type": "INTUITION",
         "rarity": "MR",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "层层深入γ Ⅱ",
             "直感思维 Ⅱ",
@@ -1603,17 +1681,17 @@
         "influence": 1658,
         "defense": 829,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "信物",
-        "name": "信物",
-        "nameEN": "信物",
-        "type": "直觉",
+        "ref": "信物",
+        "name": {
+            "zh": "信物"
+        },
+        "type": "INTUITION",
         "rarity": "MR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "先声夺势 Ⅱ",
             "预见之明 Ⅱ",
@@ -1622,17 +1700,17 @@
         "influence": 1637,
         "defense": 895,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "悸动",
-        "name": "悸动",
-        "nameEN": "悸动",
-        "type": "共情",
+        "ref": "悸动",
+        "name": {
+            "zh": "悸动"
+        },
+        "type": "EMPATHY",
         "rarity": "MR",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入γ Ⅱ",
             "情感投射 Ⅱ",
@@ -1641,17 +1719,19 @@
         "influence": 1658,
         "defense": 829,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "贴心服务",
-        "name": "贴心服务",
-        "nameEN": "Personal Server",
-        "type": "共情",
+        "ref": "贴心服务",
+        "name": {
+            "zh": "贴心服务",
+            "en": "Personal Server",
+            "ko": "밀착 서비스"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "层层深入γ Ⅰ",
             "步步为营 Ⅰ"
@@ -1659,18 +1739,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "搭档",
-        "name": "搭档",
-        "nameEN": "Partner",
-        "type": "共情",
+        "ref": "搭档",
+        "name": {
+            "zh": "搭档",
+            "en": "Partner",
+            "ko": "파트너"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "循循善诱γ Ⅰ",
             "步步为营 Ⅰ"
@@ -1678,18 +1760,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "等你",
-        "name": "等你",
-        "nameEN": "Waiting for You",
-        "type": "共情",
+        "ref": "等你",
+        "name": {
+            "zh": "等你",
+            "en": "Waiting for You",
+            "ko": "기다림"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "循循善诱β Ⅰ",
             "势如破竹 Ⅰ"
@@ -1697,18 +1781,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "美味一刻",
-        "name": "美味一刻",
-        "nameEN": "Gourmet",
-        "type": "逻辑",
+        "ref": "美味一刻",
+        "name": {
+            "zh": "美味一刻",
+            "en": "Gourmet",
+            "ko": "입이 황홀한 순간"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "设问否定γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -1716,18 +1802,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "秘密",
-        "name": "秘密",
-        "nameEN": "Our Secret",
-        "type": "逻辑",
+        "ref": "秘密",
+        "name": {
+            "zh": "秘密",
+            "en": "Our Secret",
+            "ko": "비밀"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以理服人β Ⅰ",
             "势如破竹 Ⅰ"
@@ -1735,18 +1823,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "打招呼",
-        "name": "打招呼",
-        "nameEN": "Greetings",
-        "type": "直觉",
+        "ref": "打招呼",
+        "name": {
+            "zh": "打招呼",
+            "en": "Greetings",
+            "ko": "인사"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "洞察秋毫α Ⅰ",
             "势如破竹 Ⅰ"
@@ -1754,18 +1844,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "倦意",
-        "name": "倦意",
-        "nameEN": "Tiredness",
-        "type": "直觉",
+        "ref": "倦意",
+        "name": {
+            "zh": "倦意",
+            "en": "Tiredness",
+            "ko": "피로감"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "洞察秋毫β Ⅰ",
             "步步为营 Ⅰ"
@@ -1773,18 +1865,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "热身",
-        "name": "热身",
-        "nameEN": "Warm Up",
-        "type": "直觉",
+        "ref": "热身",
+        "name": {
+            "zh": "热身",
+            "en": "Warm Up",
+            "ko": "몸풀기"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以退为进β Ⅰ",
             "步步为营 Ⅰ"
@@ -1792,18 +1886,18 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "准备就绪",
-        "name": "准备就绪",
-        "nameEN": "准备就绪",
-        "type": "逻辑",
+        "ref": "准备就绪",
+        "name": {
+            "zh": "准备就绪"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "示假隐真β Ⅰ",
             "势如破竹 Ⅰ"
@@ -1811,17 +1905,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "静候",
-        "name": "静候",
-        "nameEN": "静候",
-        "type": "直觉",
+        "ref": "静候",
+        "name": {
+            "zh": "静候"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "先声夺势 Ⅰ",
             "步步为营 Ⅰ"
@@ -1829,17 +1923,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "温馨小屋",
-        "name": "温馨小屋",
-        "nameEN": "温馨小屋",
-        "type": "共情",
+        "ref": "温馨小屋",
+        "name": {
+            "zh": "温馨小屋"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "循循善诱β Ⅰ",
             "步步为营 Ⅰ"
@@ -1847,17 +1941,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "相伴",
-        "name": "相伴",
-        "nameEN": "相伴",
-        "type": "逻辑",
+        "ref": "相伴",
+        "name": {
+            "zh": "相伴"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以理服人β Ⅰ",
             "势如破竹 Ⅰ"
@@ -1865,17 +1959,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "注视",
-        "name": "注视",
-        "nameEN": "注视",
-        "type": "直觉",
+        "ref": "注视",
+        "name": {
+            "zh": "注视"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "以退为进γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -1883,17 +1977,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "羞赧",
-        "name": "羞赧",
-        "nameEN": "羞赧",
-        "type": "共情",
+        "ref": "羞赧",
+        "name": {
+            "zh": "羞赧"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "引申归谬β Ⅰ",
             "步步为营 Ⅰ"
@@ -1901,17 +1995,17 @@
         "influence": 905,
         "defense": 389,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "重逢",
-        "name": "重逢",
-        "nameEN": "重逢",
-        "type": "直觉",
+        "ref": "重逢",
+        "name": {
+            "zh": "重逢"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "夏彦",
-        "characterEN": "Luke Pearce",
+        "character": "LUKE",
         "skills": [
             "洞察秋毫γ Ⅰ",
             "步步为营 Ⅰ"
@@ -1919,17 +2013,19 @@
         "influence": 889,
         "defense": 405,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "量体裁衣",
-        "name": "量体裁衣",
-        "nameEN": "Tailored Suit",
-        "type": "逻辑",
+        "ref": "量体裁衣",
+        "name": {
+            "zh": "量体裁衣",
+            "en": "Tailored Suit",
+            "ko": "치수 재기"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以退为进β Ⅰ",
             "势如破竹 Ⅰ"
@@ -1937,18 +2033,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "落雨",
-        "name": "落雨",
-        "nameEN": "Rain Drops",
-        "type": "逻辑",
+        "ref": "落雨",
+        "name": {
+            "zh": "落雨",
+            "en": "Rain Drops",
+            "ko": "소나기"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "设问否定β Ⅰ",
             "势如破竹 Ⅰ"
@@ -1956,18 +2054,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "质询",
-        "name": "质询",
-        "nameEN": "Questioning",
-        "type": "逻辑",
+        "ref": "质询",
+        "name": {
+            "zh": "质询",
+            "en": "Questioning",
+            "ko": "질의"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以理服人α Ⅰ",
             "势如破竹 Ⅰ"
@@ -1975,18 +2075,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "精心挑选",
-        "name": "精心挑选",
-        "nameEN": "Picking a Gift",
-        "type": "共情",
+        "ref": "精心挑选",
+        "name": {
+            "zh": "精心挑选",
+            "en": "Picking a Gift",
+            "ko": "엄선"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "引申归谬γ Ⅰ",
             "步步为营 Ⅰ"
@@ -1994,18 +2096,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "天台微风",
-        "name": "天台微风",
-        "nameEN": "Taking a Breather",
-        "type": "共情",
+        "ref": "天台微风",
+        "name": {
+            "zh": "天台微风",
+            "en": "Taking a Breather",
+            "ko": "옥상 위 산들바람"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "引申归谬α Ⅰ",
             "步步为营 Ⅰ"
@@ -2013,18 +2117,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "再出发",
-        "name": "再出发",
-        "nameEN": "Back to Business",
-        "type": "共情",
+        "ref": "再出发",
+        "name": {
+            "zh": "再出发",
+            "en": "Back to Business",
+            "ko": "재출발"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "引申归谬β Ⅰ",
             "势如破竹 Ⅰ"
@@ -2032,18 +2138,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "耐心等待",
-        "name": "耐心等待",
-        "nameEN": "Patience Is a Virtue",
-        "type": "直觉",
+        "ref": "耐心等待",
+        "name": {
+            "zh": "耐心等待",
+            "en": "Patience Is a Virtue",
+            "ko": "오랜 기다림"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入β Ⅰ",
             "步步为营 Ⅰ"
@@ -2051,18 +2159,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "上膛",
-        "name": "上膛",
-        "nameEN": "Lock and Load",
-        "type": "直觉",
+        "ref": "上膛",
+        "name": {
+            "zh": "上膛",
+            "en": "Lock and Load",
+            "ko": "장전"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -2070,18 +2180,18 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "一切有我",
-        "name": "一切有我",
-        "nameEN": "一切有我",
-        "type": "直觉",
+        "ref": "一切有我",
+        "name": {
+            "zh": "一切有我"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以德服人α Ⅰ",
             "步步为营 Ⅰ"
@@ -2089,17 +2199,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "心际飞行",
-        "name": "心际飞行",
-        "nameEN": "心际飞行",
-        "type": "直觉",
+        "ref": "心际飞行",
+        "name": {
+            "zh": "心际飞行"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "洞察秋毫α Ⅰ",
             "步步为营 Ⅰ"
@@ -2107,17 +2217,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "共赏",
-        "name": "共赏",
-        "nameEN": "共赏",
-        "type": "逻辑",
+        "ref": "共赏",
+        "name": {
+            "zh": "共赏"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以理服人α Ⅰ",
             "势如破竹 Ⅰ"
@@ -2125,17 +2235,17 @@
         "influence": 837,
         "defense": 457,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "揣摩",
-        "name": "揣摩",
-        "nameEN": "揣摩",
-        "type": "共情",
+        "ref": "揣摩",
+        "name": {
+            "zh": "揣摩"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "层层深入α Ⅰ",
             "步步为营 Ⅰ"
@@ -2143,17 +2253,17 @@
         "influence": 837,
         "defense": 457,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "品味香甜",
-        "name": "品味香甜",
-        "nameEN": "品味香甜",
-        "type": "逻辑",
+        "ref": "品味香甜",
+        "name": {
+            "zh": "品味香甜"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "以理服人α Ⅰ",
             "步步为营 Ⅰ"
@@ -2161,17 +2271,17 @@
         "influence": 863,
         "defense": 431,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "侧目",
-        "name": "侧目",
-        "nameEN": "侧目",
-        "type": "直觉",
+        "ref": "侧目",
+        "name": {
+            "zh": "侧目"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "洞察秋毫γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2179,17 +2289,17 @@
         "influence": 906,
         "defense": 389,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "你的声音",
-        "name": "你的声音",
-        "nameEN": "你的声音",
-        "type": "共情",
+        "ref": "你的声音",
+        "name": {
+            "zh": "你的声音"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "左然",
-        "characterEN": "Artem Wing",
+        "character": "ARTEM",
         "skills": [
             "循循善诱γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2197,17 +2307,19 @@
         "influence": 647,
         "defense": 406,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "优雅",
-        "name": "优雅",
-        "nameEN": "Elegance",
-        "type": "共情",
+        "ref": "优雅",
+        "name": {
+            "zh": "优雅",
+            "en": "Elegance",
+            "ko": "우아함"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以退为进β Ⅰ",
             "势如破竹 Ⅰ"
@@ -2215,18 +2327,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "掌握",
-        "name": "掌握",
-        "nameEN": "Remaining in Control",
-        "type": "共情",
+        "ref": "掌握",
+        "name": {
+            "zh": "掌握",
+            "en": "Remaining in Control",
+            "ko": "장악"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅰ",
             "步步为营 Ⅰ"
@@ -2234,18 +2348,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "观察",
-        "name": "观察",
-        "nameEN": "Observations",
-        "type": "逻辑",
+        "ref": "观察",
+        "name": {
+            "zh": "观察",
+            "en": "Observations",
+            "ko": "관찰"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅰ",
             "势如破竹 Ⅰ"
@@ -2253,18 +2369,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "日常兴趣",
-        "name": "日常兴趣",
-        "nameEN": "A Hobby of Mine",
-        "type": "逻辑",
+        "ref": "日常兴趣",
+        "name": {
+            "zh": "日常兴趣",
+            "en": "A Hobby of Mine",
+            "ko": "일상 취미"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以理服人γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2272,18 +2390,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "闲暇",
-        "name": "闲暇",
-        "nameEN": "Leisure Time",
-        "type": "直觉",
+        "ref": "闲暇",
+        "name": {
+            "zh": "闲暇",
+            "en": "Leisure Time",
+            "ko": "여가"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅰ",
             "势如破竹 Ⅰ"
@@ -2291,18 +2411,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "意外来信",
-        "name": "意外来信",
-        "nameEN": "Unexpected Letter",
-        "type": "直觉",
+        "ref": "意外来信",
+        "name": {
+            "zh": "意外来信",
+            "en": "Unexpected Letter",
+            "ko": "뜻밖의 편지"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "洞察秋毫γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -2310,18 +2432,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "意外相遇",
-        "name": "意外相遇",
-        "nameEN": "Unexpected Run-In",
-        "type": "直觉",
+        "ref": "意外相遇",
+        "name": {
+            "zh": "意外相遇",
+            "en": "Unexpected Run-In",
+            "ko": "뜻밖의 만남"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "避实就虚β Ⅰ",
             "步步为营 Ⅰ"
@@ -2329,18 +2453,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "绅士礼仪",
-        "name": "绅士礼仪",
-        "nameEN": "Gentlemanly Courtesy",
-        "type": "逻辑",
+        "ref": "绅士礼仪",
+        "name": {
+            "zh": "绅士礼仪",
+            "en": "Gentlemanly Courtesy",
+            "ko": "신사의 품격"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以退为进γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2348,18 +2474,18 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "另一面",
-        "name": "另一面",
-        "nameEN": "另一面",
-        "type": "共情",
+        "ref": "另一面",
+        "name": {
+            "zh": "另一面"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "先声夺势 Ⅰ",
             "势如破竹 Ⅰ"
@@ -2367,17 +2493,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "装扮",
-        "name": "装扮",
-        "nameEN": "装扮",
-        "type": "直觉",
+        "ref": "装扮",
+        "name": {
+            "zh": "装扮"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "示假隐真α Ⅰ",
             "步步为营 Ⅰ"
@@ -2385,17 +2511,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "秘密贺礼",
-        "name": "秘密贺礼",
-        "nameEN": "秘密贺礼",
-        "type": "逻辑",
+        "ref": "秘密贺礼",
+        "name": {
+            "zh": "秘密贺礼"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以理服人γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2403,17 +2529,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "祈愿",
-        "name": "祈愿",
-        "nameEN": "祈愿",
-        "type": "共情",
+        "ref": "祈愿",
+        "name": {
+            "zh": "祈愿"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "循循善诱γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2421,17 +2547,17 @@
         "influence": 837,
         "defense": 457,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "全新体验",
-        "name": "全新体验",
-        "nameEN": "全新体验",
-        "type": "直觉",
+        "ref": "全新体验",
+        "name": {
+            "zh": "全新体验"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以退为进γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -2439,17 +2565,17 @@
         "influence": 863,
         "defense": 431,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "笑意盎然",
-        "name": "笑意盎然",
-        "nameEN": "笑意盎然",
-        "type": "共情",
+        "ref": "笑意盎然",
+        "name": {
+            "zh": "笑意盎然"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "循循善诱β Ⅰ",
             "势如破竹 Ⅰ"
@@ -2457,17 +2583,17 @@
         "influence": 863,
         "defense": 431,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "甜蜜滋味",
-        "name": "甜蜜滋味",
-        "nameEN": "甜蜜滋味",
-        "type": "逻辑",
+        "ref": "甜蜜滋味",
+        "name": {
+            "zh": "甜蜜滋味"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "莫弈",
-        "characterEN": "Vyn Richter",
+        "character": "VYN",
         "skills": [
             "以理服人γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2475,17 +2601,19 @@
         "influence": 889,
         "defense": 405,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "插曲",
-        "name": "插曲",
-        "nameEN": "Interlude",
-        "type": "共情",
+        "ref": "插曲",
+        "name": {
+            "zh": "插曲",
+            "en": "Interlude",
+            "ko": "에피소드"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入β Ⅰ",
             "势如破竹 Ⅰ"
@@ -2493,18 +2621,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "邀约",
-        "name": "邀约",
-        "nameEN": "Invitation",
-        "type": "共情",
+        "ref": "邀约",
+        "name": {
+            "zh": "邀约",
+            "en": "Invitation",
+            "ko": "초대"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "循循善诱α Ⅰ",
             "步步为营 Ⅰ"
@@ -2512,18 +2642,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "中场休息",
-        "name": "中场休息",
-        "nameEN": "Half-Time",
-        "type": "共情",
+        "ref": "中场休息",
+        "name": {
+            "zh": "中场休息",
+            "en": "Half-Time",
+            "ko": "하프타임"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以退为进γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -2531,18 +2663,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "商谈",
-        "name": "商谈",
-        "nameEN": "Discussion",
-        "type": "逻辑",
+        "ref": "商谈",
+        "name": {
+            "zh": "商谈",
+            "en": "Discussion",
+            "ko": "상담"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "设问否定β Ⅰ",
             "步步为营 Ⅰ"
@@ -2550,18 +2684,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "节拍",
-        "name": "节拍",
-        "nameEN": "Rhythm",
-        "type": "逻辑",
+        "ref": "节拍",
+        "name": {
+            "zh": "节拍",
+            "en": "Rhythm",
+            "ko": "리듬"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入β Ⅰ",
             "势如破竹 Ⅰ"
@@ -2569,18 +2705,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "准备万全",
-        "name": "准备万全",
-        "nameEN": "Fully Prepped",
-        "type": "逻辑",
+        "ref": "准备万全",
+        "name": {
+            "zh": "准备万全",
+            "en": "Fully Prepped",
+            "ko": "만반의 준비"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2588,18 +2726,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "突发事故",
-        "name": "突发事故",
-        "nameEN": "Sudden Occurence",
-        "type": "直觉",
+        "ref": "突发事故",
+        "name": {
+            "zh": "突发事故",
+            "en": "Sudden Occurence",
+            "ko": "돌발사고"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "避实就虚α Ⅰ",
             "步步为营 Ⅰ"
@@ -2607,18 +2747,20 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "气场",
-        "name": "气场",
-        "nameEN": "Presence",
-        "type": "直觉",
+        "ref": "气场",
+        "name": {
+            "zh": "气场",
+            "en": "Presence",
+            "ko": "분위기"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "避实就虚γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2626,18 +2768,18 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "常驻",
-            "轮替"
+            "PERMENENT",
+            "ROTATION"
         ]
     },
     {
-        "id": "游刃有余",
-        "name": "游刃有余",
-        "nameEN": "游刃有余",
-        "type": "直觉",
+        "ref": "游刃有余",
+        "name": {
+            "zh": "游刃有余"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以德服人β Ⅰ",
             "势如破竹 Ⅰ"
@@ -2645,17 +2787,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "迷思",
-        "name": "迷思",
-        "nameEN": "迷思",
-        "type": "逻辑",
+        "ref": "迷思",
+        "name": {
+            "zh": "迷思"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "以理服人β Ⅰ",
             "步步为营 Ⅰ"
@@ -2663,17 +2805,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "胜券在握",
-        "name": "胜券在握",
-        "nameEN": "胜券在握",
-        "type": "共情",
+        "ref": "胜券在握",
+        "name": {
+            "zh": "胜券在握"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "循循善诱α Ⅰ",
             "步步为营 Ⅰ"
@@ -2681,17 +2823,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "定格",
-        "name": "定格",
-        "nameEN": "定格",
-        "type": "直觉",
+        "ref": "定格",
+        "name": {
+            "zh": "定格"
+        },
+        "type": "INTUITION",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "层层深入α Ⅰ",
             "步步为营 Ⅰ"
@@ -2699,17 +2841,17 @@
         "influence": 879,
         "defense": 480,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "展颜",
-        "name": "展颜",
-        "nameEN": "展颜",
-        "type": "共情",
+        "ref": "展颜",
+        "name": {
+            "zh": "展颜"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "循循善诱α Ⅰ",
             "步步为营 Ⅰ"
@@ -2717,17 +2859,17 @@
         "influence": 837,
         "defense": 457,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "迟疑",
-        "name": "迟疑",
-        "nameEN": "迟疑",
-        "type": "逻辑",
+        "ref": "迟疑",
+        "name": {
+            "zh": "迟疑"
+        },
+        "type": "LOGIC",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "设问否定γ Ⅰ",
             "势如破竹 Ⅰ"
@@ -2735,17 +2877,17 @@
         "influence": 906,
         "defense": 389,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     },
     {
-        "id": "欢欣",
-        "name": "欢欣",
-        "nameEN": "欢欣",
-        "type": "共情",
+        "ref": "欢欣",
+        "name": {
+            "zh": "欢欣"
+        },
+        "type": "EMPATHY",
         "rarity": "R",
-        "character": "陆景和",
-        "characterEN": "Marius von Hagen",
+        "character": "MARIUS",
         "skills": [
             "循循善诱γ Ⅰ",
             "步步为营 Ⅰ"
@@ -2753,7 +2895,7 @@
         "influence": 889,
         "defense": 405,
         "obtainedFrom": [
-            "活动（限定）"
+            "LIMITED-EVENT"
         ]
     }
 ]
