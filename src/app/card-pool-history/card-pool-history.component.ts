@@ -88,7 +88,7 @@ export class CardPoolHistoryComponent implements OnInit {
   configurePoolWithLang(pools: any[]) {
     pools.forEach(pool => {
       let p = { ...pool };
-      p.cards.forEach(c => {
+      p.cardObj.forEach(c => {
         c.n = c.name[this.lang] ?? c.name.zh;
       });
 

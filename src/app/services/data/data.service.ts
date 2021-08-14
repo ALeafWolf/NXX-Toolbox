@@ -13,7 +13,6 @@ export class DataService {
 
   //load data from api
   getCards(){
-    // return this._http.get('assets/data/cards.json');
     return this._http.get(this.link + "cards");
     // return this._http.get(this.testLink + "cards");
   }
@@ -24,12 +23,10 @@ export class DataService {
   }
 
   getSkills(){
-    // return this._http.get('assets/data/skills.json');
     // return this._http.get(this.testLink + "skills");
     return this._http.get(this.link + "skills");
   }
   getSkill(id: String){
-    // return this._http.get('assets/data/skills.json');
     // return this._http.get(this.testLink + `skill/${id}`);
     return this._http.get(this.link + `skill/${id}`);
   }
@@ -39,7 +36,6 @@ export class DataService {
   }
 
   getVisionHistory(){
-    // return this._http.get('assets/data/card-pool-history.json');
     return this._http.get(this.link + "visionhistory");
     // return this._http.get(this.testLink + `visionhistory`);
   }

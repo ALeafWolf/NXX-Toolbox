@@ -1,7 +1,7 @@
 [
     {
         "name": "日常系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2020-08-10",
             "2020-11-04",
@@ -12,7 +12,7 @@
     },
     {
         "name": "立绘系列第一弹",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2020-08-10"
         ]
@@ -57,14 +57,14 @@
     },
     {
         "name": "定音系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2020-11-01"
         ]
     },
     {
         "name": "兴趣系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2020-11-01"
         ]
@@ -85,7 +85,7 @@
     },
     {
         "name": "心动纪念系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2021-04-27"
         ]
@@ -106,7 +106,7 @@
     },
     {
         "name": "雨意系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2021-07-20"
         ]
@@ -134,7 +134,7 @@
     },
     {
         "name": "夏日系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2021-07-20"
         ]
@@ -148,14 +148,14 @@
     },
     {
         "name": "珍藏系列",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2021-07-20"
         ]
     },
     {
         "name": "N/A",
-        "type": "PERMENENT",
+        "type": "PERMANENT",
         "sellTime": [
             "2020-11-01"
         ]

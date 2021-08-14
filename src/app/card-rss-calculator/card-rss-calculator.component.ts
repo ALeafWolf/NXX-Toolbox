@@ -45,17 +45,16 @@ export class CardRssCalculatorComponent implements OnInit {
   skillCoin = 0;
   skillRss = [0, 0, 0, 0, 0, 0];
   fullSkillRssList;
-  skillRssList;
-
-  charChips = [0, 0, 0]
-  typeChips = [0, 0, 0]
+  skillRssList;;
+  charChips = [0, 0, 0];
+  typeChips = [0, 0, 0];
   allEvolveRss;
   evolveRss;
   lvCoin = 0;
   charRssGroup;
-  characters = ["夏彦", "左然", "莫弈", "陆景和"]
-  types = ["逻辑", "共情", "直觉"]
-  rarities = ["R", "MR", "SR", "SSR"]
+  characters = ["夏彦", "左然", "莫弈", "陆景和"];
+  types = ["逻辑", "共情", "直觉"];
+  rarities = ["R", "MR", "SR", "SSR"];
 
   constructor(private _data: DataService) { }
 

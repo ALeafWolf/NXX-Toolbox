@@ -122,7 +122,7 @@ export class CardValueSettingComponent implements OnInit {
       if (this.card) {
         this.att = this.card.influence;
         this.def = this.card.defense;
-        this.userData = JSON.parse(this._data.getItem(this.card.id));
+        this.userData = JSON.parse(this._data.getItem(this.card.ref));
         if (this.userData) {
           this.loadUserData();
         }
@@ -157,7 +157,7 @@ export class CardValueSettingComponent implements OnInit {
       let s = this.card.skillObj[i];
       //store some data for /card-calculator
       this.skillRefs.push(s.ref);
-      this.skillIDs.push(s.id);
+      this.skillIDs.push(s._id);
       this.skillChars.push(s.character);
       this.skillTypes.push(s.type);
       s.n = s.name[this.lang] ?? s.name.zh;
@@ -229,7 +229,7 @@ export class CardValueSettingComponent implements OnInit {
       //necessary statistics of cards
       _id: this._id,
       charName: this.card.character,
-      id: this.card.id,
+      ref: this.card.ref,
       star: this.star,
       rarity: this.card.rarity,
       type: this.card.type,
@@ -245,12 +245,12 @@ export class CardValueSettingComponent implements OnInit {
       influence: this.att,
       defense: this.def
     }
-    localStorage.setItem(this.card.id, JSON.stringify(d));
+    localStorage.setItem(this.card.ref, JSON.stringify(d));
     console.log("saved");
   }
 
   deleteUserData() {
-    localStorage.removeItem(this.card.id);
+    localStorage.removeItem(this.card.ref);
     console.log("deleted");
   }
 }

@@ -39,7 +39,7 @@
                 <span *ngIf="cards.length != 0; else noCard">
                     <span class="m-2" *ngFor="let c of cards">
                         <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}">
-                            <img class="img-fluid cardIcon" src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
+                            <img class="img-fluid cardIcon" src="{{imgURL + c.character + '/' + c.ref + '.webp'}}">
                         </a>
                     </span>
                 </span>

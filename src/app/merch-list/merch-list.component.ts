@@ -103,7 +103,7 @@ export class MerchListComponent implements OnInit {
     this.allMerches.forEach(merch => {
       //character
       let option = this.filterOptions[0];
-      let charBool = (option == '夏彦' || option == '左然' || option == '莫弈' || option == '陆景和') && merch.character == 'All';
+      let charBool = (option == 'LUKE' || option == 'ARTEM' || option == 'VYN' || option == 'MARIUS') && merch.character == 'All';
       // console.log(`${merch.name}: ${charBool}`)
       if (option == 'All' || option == merch.character || charBool) {
         //series

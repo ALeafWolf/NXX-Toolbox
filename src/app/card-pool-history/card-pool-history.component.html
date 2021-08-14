@@ -33,7 +33,7 @@
                                 <span *ngFor="let c of p.cardObj">
                                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                                         <img class="img-fluid cardIcon"
-                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}"
+                                            src="{{imgURL + c.character + '/' + c.ref + '.webp'}}"
                                             title="{{c.n}}">
                                     </a>
                                 </span>
@@ -74,7 +74,7 @@
                                 <span *ngFor="let c of p.cardObj">
                                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                                         <img class="img-fluid cardIcon"
-                                            src="{{imgURL + c.character + '/' + c.id + '.webp'}}"
+                                            src="{{imgURL + c.character + '/' + c.ref + '.webp'}}"
                                             title="{{c.n}}">
                                     </a>
                                 </span>

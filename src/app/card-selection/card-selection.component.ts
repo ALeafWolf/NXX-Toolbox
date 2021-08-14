@@ -1,6 +1,7 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { GlobalVariable } from '../global-variable';
 import { Apollo, gql } from 'apollo-angular';
+import { DataService } from '../services/data/data.service';
 
 const GET_CARDS = gql`
   query GetCards{
@@ -33,7 +34,7 @@ export class CardSelectionComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _apollo: Apollo) { }
+  constructor(private _apollo: Apollo, private _data: DataService) { }
 
   ngOnInit(): void {
     this.userData = Object.keys(localStorage);
@@ -53,7 +54,19 @@ export class CardSelectionComponent implements OnInit {
     }).catch(err => {
       console.log(err);
       this.isLoaded = true;
-    })
+    });
+
+    this._data.getCards().toPromise().then((cards: any[]) => {
+      this.allCards = cards;
+      if (this.userData) {
+        this.removeChosenCard();
+      }
+      this.cards = this.allCards;
+      this.isLoaded = true;
+    }).catch(err => {
+      console.log(err);
+      this.isLoaded = true;
+    });
   }
 
   removeChosenCard() {
@@ -84,8 +97,6 @@ export class CardSelectionComponent implements OnInit {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
-
-
 
   filterCards() {
     let listHolder = []

@@ -51,7 +51,6 @@ export class CardCalculatorComponent implements OnInit {
       //load card icon on screen, ignore language and realm related entries at localStorage
       if (k != 'language' && k.includes("realm") == false && k.includes("token") == false) {
         let i = JSON.parse(localStorage.getItem(k));
-        console.log(i)
         this.loadTypeCounts(i);
         this.totalPower += i.power;
         this.configureUserData(i);
@@ -95,7 +94,7 @@ export class CardCalculatorComponent implements OnInit {
     let ids = [];
     item.skillIDs.forEach(n => {
       this.allSkills.forEach(s => {
-        if (n == s.id) {
+        if (n == s._id) {
           let name = s.name[this.lang] ?? s.name.zh;
           names.push(name);
           ids.push(s._id);
@@ -112,7 +111,7 @@ export class CardCalculatorComponent implements OnInit {
     this.addSecondSkill(1);
     this.userData.forEach(data => {
       if (data.rarity != "R") {
-        this.addThirdSkill(data, this.thirdSkills, 2)
+        this.addThirdSkill(data, 2);
       }
     })
   }
@@ -120,10 +119,10 @@ export class CardCalculatorComponent implements OnInit {
   addSecondSkill(skillIndex: number) {
     this.userData.forEach(data => {
       // console.log(`${data.name.zh}: ${data.skillIDs}`)
-      let common = "GENERAL"
+      let common = "GENERAL";
       // skip the skill which won't get buffed based on either character or type
       if (common === data.skillTypes[skillIndex] && common === data.skillChar[skillIndex]) {
-        console.log(`${data.skillIDs[1]} is skipped`)
+        console.log(`${data.skillIDs[1]} is skipped`);
       } else {
         // skill buffing based on character
         let count = 1;
@@ -159,20 +158,15 @@ export class CardCalculatorComponent implements OnInit {
         }
         let isIn = false;
         this.secondSkills.forEach(skill => {
-          if (skill.id == data.skillIDs[skillIndex]) {
+          if (skill._id == data.skillIDs[skillIndex]) {
             isIn = true;
-            skill.n = skill.name[this.lang] ?? skill.name.zh;
           }
         })
         if (!isIn) {
           let skill = {
             _id: data.sid[skillIndex],
             ref: data.skillRefs[skillIndex],
-            id: data.skillIDs[skillIndex],
-            name: {
-              zh: data.skillIDs[skillIndex]
-            },
-            n: data.skillIDs[skillIndex],
+            name: data.skillNames[skillIndex],
             num: Number(data.skillNums[skillIndex] * count),
             numType: data.skillNumTypes[skillIndex]
           };
@@ -182,31 +176,24 @@ export class CardCalculatorComponent implements OnInit {
     })
   }
 
-  addThirdSkill(userData: any, skillList: any[], skillIndex: number) {
+  addThirdSkill(userData: any, skillIndex: number) {
     let isIn = false;
-    skillList.forEach(skill => {
+    this.thirdSkills.forEach(skill => {
       if (skill.id == userData.skillIDs[skillIndex]) {
         skill.num += Number(userData.skillNums[skillIndex])
         isIn = true
       }
     })
     if (!isIn) {
-      this.addSkillPack(userData, skillList, skillIndex);
+      let skill = {
+        _id: userData.sid[skillIndex],
+        ref: userData.skillRefs[skillIndex],
+        name: userData.skillNames[skillIndex],
+        num: Number(userData.skillNums[skillIndex]),
+        numType: userData.skillNumTypes[skillIndex]
+      }
+      this.thirdSkills.push(skill)
     }
-  }
-
-  addSkillPack(userData: any, skillList: any[], skillIndex: number) {
-    let skill = {
-      _id: userData.sid[skillIndex],
-      ref: userData.skillRefs[skillIndex],
-      id: userData.skillIDs[skillIndex],
-      name: {
-        zh: userData.skillIDs[skillIndex]
-      },
-      num: Number(userData.skillNums[skillIndex]),
-      numType: userData.skillNumTypes[skillIndex]
-    }
-    skillList.push(skill)
   }
 
   clearAllSavedData() {

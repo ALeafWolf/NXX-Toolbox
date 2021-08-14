@@ -31,7 +31,7 @@
                             <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
                                 <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.ref + '.webp'}}">
                             </a>
-                            <p class="smallFont">{{s.n}}<br />{{s.num}}{{s.numType}}</p>
+                            <p class="smallFont">{{s.name}}<br />{{s.num}}{{s.numType}}</p>
                         </div>
                     </div>
                 </div>
@@ -41,7 +41,7 @@
                         <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
                             <img class="img-fluid icon" src="{{imgURL + '/技能/' + s.ref + '.webp'}}">
                         </a>
-                        <p class="smallFont">{{s.n}}<br />{{s.num}}{{s.numType}}</p>
+                        <p class="smallFont">{{s.name}}<br />{{s.num}}{{s.numType}}</p>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@
             <div class="col-3 my-2" *ngFor="let i of userData">
                 <a [routerLink]="['/card-value/']" [queryParams]="{id: i._id}">
                     <img class="img-fluid calculatorIcon"
-                        src="{{imgURL + i.charName + '/' + i.id + '.webp'}}">
+                        src="{{imgURL + i.charName + '/' + i.ref + '.webp'}}">
                 </a>
             </div>
             <div class="col-3 my-2" *ngFor="let i of emptyHolder">

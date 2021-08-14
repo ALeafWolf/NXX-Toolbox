@@ -79,7 +79,7 @@
                 <tr *ngFor="let c of cards">
                     <td>
                         <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
-                            <img class="img-fluid cardIcon" src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
+                            <img class="img-fluid cardIcon" src="{{imgURL + c.character + '/' + c.ref + '.webp'}}">
                         </a>
                     </td>
                     <td>

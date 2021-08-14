@@ -140,7 +140,7 @@ export class SkillDetailComponent implements OnInit {
     this._data.getCards().toPromise().then((cards: any[]) => {
       cards.forEach((card: any) => {
         card.skillObj.forEach(s => {
-          if (s.id == this.skill.id) {
+          if (s.name.zh == this.skill.name.zh) {
             this.cards.push(card);
           }
         })

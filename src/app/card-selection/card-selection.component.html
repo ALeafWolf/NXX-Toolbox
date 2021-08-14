@@ -48,7 +48,7 @@
     <div class="col-12 col-lg-10 row justify-content-around mt-4">
         <div class="col-3 col-md-2 my-1" *ngFor="let c of cards">
             <a [routerLink]="['/card-value-setting/']" [queryParams]="{id: c._id}" routerLinkActive="active">
-                <img class="img-fluid" src="{{imgURL + c.character + '/' + c.id + '.webp'}}">
+                <img class="img-fluid" src="{{imgURL + c.character + '/' + c.ref + '.webp'}}">
             </a>
         </div>
     </div>

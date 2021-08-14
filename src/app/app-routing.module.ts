@@ -25,37 +25,37 @@ const routes: Routes = [
   {
     path: 'card-calculator',
     component: CardCalculatorComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'cards',
     component: CardListComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'skills',
     component: SkillListComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   }, 
   {
     path: 'skill',
     component: SkillDetailComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-selection',
     component: CardSelectionComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-value',
     component: CardValueComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-value-setting',
     component: CardValueSettingComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'other',
@@ -64,7 +64,7 @@ const routes: Routes = [
   {
     path: 'vision-history',
     component: CardPoolHistoryComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-rss-calculator',
@@ -73,12 +73,12 @@ const routes: Routes = [
   {
     path: 'merch-list',
     component: MerchListComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'merch-detail',
     component: MerchDetailComponent,
-    canActivate: [RealmAuthGuard]
+    // canActivate: [RealmAuthGuard]
   },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   {
