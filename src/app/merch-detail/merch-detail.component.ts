@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SEOService } from '../services/seo/seo.service';
 import { Apollo, gql } from 'apollo-angular';
@@ -41,6 +41,10 @@ export class MerchDetailComponent implements OnInit {
   merch;
   isLoaded = false;
 
+  @HostListener('window:scroll') onScroll(): void {
+    this.setToTopButtonDisplay()
+  }
+
   constructor(private _route: ActivatedRoute, private _apollo: Apollo, private _seoService: SEOService, private _data: DataService) { }
 
   ngOnInit(): void {
@@ -82,5 +86,20 @@ export class MerchDetailComponent implements OnInit {
       pre = '굿즈';
     }
     this._seoService.setTitle(`${pre}：${this.merch.name}`);
+  }
+
+  //button to top
+  setToTopButtonDisplay() {
+    let btn = document.getElementById('toTopButton');
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  }
+
+  toTopOfScreen() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
   }
 }
