@@ -76,7 +76,9 @@
         "LEVEL": "레벨",
         "BASE-INFLUENCE": "기본 설득력",
         "BASE-DEFENSE": "기본 방어력",
-        "RANK": "등급"
+        "RANK": "등급",
+        "INFLUENCE": "설득력",
+        "DEFENSE": "방어력"
     },
     "MERCH-LIST": {
         "DECLAIM": "현재는 미해결사건부 공식 <a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>Tmall</a>샵에서 판매 중인 상품만 표시됩니다. 나머지 굿즈는 작업 중에 있습니다.",

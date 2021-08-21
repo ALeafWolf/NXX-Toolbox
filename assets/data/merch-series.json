@@ -91,6 +91,27 @@
         ]
     },
     {
+        "name": "缤纷乐游会系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2020-12-28 ~ 2020-01-10"
+        ]
+    },
+    {
+        "name": "立绘系列第三弹",
+        "type": "PERMANENT",
+        "sellTime": [
+            "2020-12-28"
+        ]
+    },
+    {
+        "name": "圣诞系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2020-12-28 ~ 2020-01-10"
+        ]
+    },
+    {
         "name": "眷然恋影系列",
         "type": "LIMITED-TIME",
         "sellTime": [
@@ -106,7 +127,35 @@
         ]
     },
     {
+        "name": "异乡行歌系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2021-05-16 ~ 2021-05-29"
+        ]
+    },
+    {
+        "name": "花语系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2021-05-16 ~ 2021-05-29"
+        ]
+    },
+    {
+        "name": "醇享系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2021-05-16 ~ 2021-05-29"
+        ]
+    },
+    {
         "name": "燃动潮流夜系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2021-06-22 ~ 2021-07-05"
+        ]
+    },
+    {
+        "name": "2021端午系列",
         "type": "LIMITED-TIME",
         "sellTime": [
             "2021-06-22 ~ 2021-07-05"

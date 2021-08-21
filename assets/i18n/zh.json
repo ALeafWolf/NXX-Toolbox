@@ -37,13 +37,15 @@
         "UPDATE-LOG": "更新日志"
     },
     "KEYWORD": {
+        "BASE-INFLUENCE": "基础说服力",
+        "BASE-DEFENSE": "基础防御力",
         "CARD": "思绪",
         "CHARACTER": "角色",
+        "EXP": "经验",
+        "FUNCTION": "功能",
         "RARITY": "稀有度",
         "TYPE": "属性",
-        "EXP": "经验",
         "OBTAINED-FROM": "获取方式",
-        "FUNCTION": "功能",
         "SKILL-SLOT": "技能槽",
         "GENERAL": "通用",
         "LUKE": "夏彦",
@@ -74,9 +76,9 @@
         "DESCRIPTION": "描述",
         "STATISTICS": "数值",
         "LEVEL": "等级",
-        "BASE-INFLUENCE": "基础说服力",
-        "BASE-DEFENSE": "基础防御力",
-        "RANK": "星级"
+        "RANK": "星级",
+        "INFLUENCE": "说服力",
+        "DEFENSE": "防御力"
     },
     "MERCH-LIST": {
         "DECLAIM": "目前仅包含售卖于<a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>未定事件簿官方天猫旗舰店</a>的周边。剩余周边信息正在录入中。",
