@@ -63,7 +63,9 @@
         "LEVEL": "Level",
         "BASE-INFLUENCE": "Base Influence",
         "BASE-DEFENSE": "Base Defense",
-        "RANK": "Rank"
+        "RANK": "Rank",
+        "INFLUENCE": "Influence",
+        "DEFENSE": "Defense"
     },
     "MERCH-LIST": {
         "DECLAIM": "For now, only include the merches that are sold on <a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>Tears of Themis' Official Tmall Store</a>. Still working on enter the merches' information.",

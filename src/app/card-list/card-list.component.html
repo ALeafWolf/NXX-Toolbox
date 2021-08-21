@@ -69,8 +69,21 @@
                 <tr>
                     <th>{{'KEYWORD.ICON' | translate}}</th>
                     <th>{{'KEYWORD.NAME' | translate}}</th>
-                    <th>{{'KEYWORD.RARITY' | translate}}</th>
+                    <th class="d-none d-sm-table-cell">{{'KEYWORD.RARITY' | translate}}</th>
                     <th class="d-none d-sm-table-cell">{{'KEYWORD.TYPE' | translate}}</th>
+                    <th>
+                        <span class="sort-header" (click)="toggleSortHeader(0)">
+                            <img class="img-fluid icon" src="assets/images/influence.png" title="Influence">
+                            <mat-icon aria-hidden="false">{{arrows[tableSortArrow[0]]}}</mat-icon>
+                        </span>
+
+                    </th>
+                    <th>
+                        <span class="sort-header" (click)="toggleSortHeader(1)">
+                            <img class="img-fluid icon" src="assets/images/defense.png" title="Influence">
+                            <mat-icon aria-hidden="false">{{arrows[tableSortArrow[1]]}}</mat-icon>
+                        </span>
+                    </th>
                     <th>{{'KEYWORD.SKILL' | translate}}</th>
                     <th>{{'KEYWORD.OBTAINED-FROM' | translate}}</th>
                 </tr>
@@ -87,17 +100,17 @@
                             {{c.n}}
                         </a>
                     </td>
-                    <td>{{c.rarity}}</td>
+                    <td class="d-none d-sm-table-cell">{{c.rarity}}</td>
                     <td class="d-none d-sm-table-cell">
                         <img class="img-fluid icon" src="{{'assets/images/' + c.type + '.png'}}">
                     </td>
+                    <td>{{setFullRankStatistic(c.influence)}}</td>
+                    <td>{{setFullRankStatistic(c.defense)}}</td>
                     <td>
                         <!-- <span *ngFor="let s of c.skills"> -->
                         <span *ngFor="let s of c.skillObj">
                             <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
-                                <img class="img-fluid icon"
-                                    src="{{imgURL + '技能/' + s.ref + '.webp'}}"
-                                    title="{{s.n}}">
+                                <img class="img-fluid icon" src="{{imgURL + '技能/' + s.ref + '.webp'}}" title="{{s.n}}">
                             </a>
                         </span>
                     </td>

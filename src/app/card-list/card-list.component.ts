@@ -40,6 +40,10 @@ export class CardListComponent implements OnInit {
   isLoaded = false;
   imgURL = GlobalVariable.imgURL;
 
+  //for table's sort header
+  arrows = ['unfold_more', 'keyboard_arrow_down', 'keyboard_arrow_up'];
+  tableSortArrow = [0, 0];
+
   @HostListener('window:scroll') onScroll(): void {
     this.setToTopButtonDisplay()
   }
@@ -86,7 +90,11 @@ export class CardListComponent implements OnInit {
       cs.push(c);
     })
     this.allCards = cs;
-    this.cards = cs;
+    this.cards = [...this.allCards];
+  }
+
+  setFullRankStatistic(num: number) {
+    return Math.round(num * 1.4);
   }
 
   //button to top
@@ -106,7 +114,8 @@ export class CardListComponent implements OnInit {
 
   resetFilters() {
     this.filterConditions = ["All", "All", "All", "All"];
-    this.filterCards();
+    this.cards = this.allCards;
+    this.tableSortArrow = [0, 0];
   }
 
   filterCards() {
@@ -126,6 +135,53 @@ export class CardListComponent implements OnInit {
       }
     });
     this.cards = listHolder;
+    if (this.tableSortArrow != [0, 0]) {
+      this.sortCards(this.tableSortArrow[0] == 0 ? this.tableSortArrow[0] : this.tableSortArrow[1]);
+    }
+  }
+
+  // for sort at table
+  toggleSortHeader(index: number) {
+    if (this.tableSortArrow[index] == 2) {
+      this.tableSortArrow[index] = 0;
+    } else {
+      this.tableSortArrow[index]++;
+      this.tableSortArrow[index == 0 ? 1 : 0] = 0;
+      this.sortCards(index);
+    }
+  }
+
+  sortCards(index: number) {
+    //DEC
+    if (this.tableSortArrow[index] == 1) {
+      //influence
+      if (index == 0) {
+        this.cards.sort((a, b) => {
+          return b.influence - a.influence;
+        });
+      }
+      //defense
+      else {
+        this.cards.sort((a, b) => {
+          return b.defense - a.defense;
+        });
+      }
+    }
+    // AEC
+    else if (this.tableSortArrow[index] == 2) {
+      //influence
+      if (index == 0) {
+        this.cards.sort((a, b) => {
+          return a.influence - b.influence;
+        });
+      }
+      //defense
+      else {
+        this.cards.sort((a, b) => {
+          return a.defense - b.defense;
+        });
+      }
+    }
   }
 
   removePostfix(input) {

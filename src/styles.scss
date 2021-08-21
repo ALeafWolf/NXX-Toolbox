@@ -35,6 +35,9 @@ $nxx-toolbox-theme: mat-dark-theme((
 /* Importing Bootstrap SCSS file. */
 @import "~bootstrap/scss/bootstrap";
 
+@import "~normalize.css";
+
+
 #main-container {
     width: 100%;
     height: 100%;
@@ -99,6 +102,12 @@ $nxx-toolbox-theme: mat-dark-theme((
 
 .btn-img{
     width: 60px;
+}
+
+// at /card-list and /vision-history
+span.sort-header{
+    display: flex;
+    justify-content: center;
 }
 
 //to top button at page with list of items

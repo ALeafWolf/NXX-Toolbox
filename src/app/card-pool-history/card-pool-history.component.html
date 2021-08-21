@@ -13,12 +13,19 @@
                 <table class="table table-sm table-dark text-center">
                     <thead>
                         <tr>
-                            <th scope="col" sortable="startDate" (sort)="onSort($event)">{{'VISION-HISTORY.START-DATE' |
-                                translate}}</th>
-                            <th scope="col" sortable="endDate" (sort)="onSort($event)">{{'VISION-HISTORY.END-DATE' |
-                                translate}}</th>
-                            <th scope="col" sortable="type" (sort)="onSort($event)">{{'VISION-HISTORY.POOL-TYPE' |
-                                translate}}</th>
+                            <th scope="col">
+                                <span class="sort-header" (click)="toggleSortHeader(0)">
+                                    {{'VISION-HISTORY.START-DATE' | translate}}
+                                    <mat-icon aria-hidden="false">{{arrows[tableSortArrow[0]]}}</mat-icon>
+                                </span>
+                            </th>
+                            <th scope="col">
+                                <span class="sort-header" (click)="toggleSortHeader(1)">
+                                    {{'VISION-HISTORY.END-DATE' | translate}}
+                                    <mat-icon aria-hidden="false">{{arrows[tableSortArrow[1]]}}</mat-icon>
+                                </span>
+                            </th>
+                            <th scope="col">{{'VISION-HISTORY.POOL-TYPE' | translate}}</th>
                             <th scope="col">{{'VISION-HISTORY.RATE-UP-CARD' | translate}}</th>
                             <th scope="col">{{'VISION-HISTORY.ANNOUNCEMENT' | translate}}</th>
                         </tr>
@@ -33,8 +40,7 @@
                                 <span *ngFor="let c of p.cardObj">
                                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                                         <img class="img-fluid cardIcon"
-                                            src="{{imgURL + c.character + '/' + c.ref + '.webp'}}"
-                                            title="{{c.n}}">
+                                            src="{{imgURL + c.character + '/' + c.ref + '.webp'}}" title="{{c.n}}">
                                     </a>
                                 </span>
                             </td>
@@ -54,12 +60,19 @@
                 <table class="table table-sm table-dark text-center">
                     <thead>
                         <tr>
-                            <th scope="col" sortable="startDate" (sort)="onSort($event)">{{'VISION-HISTORY.START-DATE' |
-                                translate}}</th>
-                            <th scope="col" sortable="endDate" (sort)="onSort($event)">{{'VISION-HISTORY.END-DATE' |
-                                translate}}</th>
-                            <th scope="col" sortable="type" (sort)="onSort($event)">{{'VISION-HISTORY.POOL-TYPE' |
-                                translate}}</th>
+                            <th scope="col">
+                                <span class="sort-header" (click)="toggleSortHeader(0)">
+                                    {{'VISION-HISTORY.START-DATE' | translate}}
+                                    <mat-icon aria-hidden="false">{{arrows[tableSortArrow[0]]}}</mat-icon>
+                                </span>
+                            </th>
+                            <th scope="col">
+                                <span class="sort-header" (click)="toggleSortHeader(1)">
+                                    {{'VISION-HISTORY.END-DATE' | translate}}
+                                    <mat-icon aria-hidden="false">{{arrows[tableSortArrow[1]]}}</mat-icon>
+                                </span>
+                            </th>
+                            <th scope="col">{{'VISION-HISTORY.POOL-TYPE' | translate}}</th>
                             <th scope="col">{{'VISION-HISTORY.RATE-UP-CARD' | translate}}</th>
                             <th scope="col">{{'VISION-HISTORY.ANNOUNCEMENT' | translate}}</th>
                         </tr>
@@ -74,8 +87,7 @@
                                 <span *ngFor="let c of p.cardObj">
                                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
                                         <img class="img-fluid cardIcon"
-                                            src="{{imgURL + c.character + '/' + c.ref + '.webp'}}"
-                                            title="{{c.n}}">
+                                            src="{{imgURL + c.character + '/' + c.ref + '.webp'}}" title="{{c.n}}">
                                     </a>
                                 </span>
                             </td>
