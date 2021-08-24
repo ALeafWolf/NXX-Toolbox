@@ -112,8 +112,14 @@ export class MerchListComponent implements OnInit {
         if (option == 'All' || option == merch.seriesObj.name) {
           //sell time type
           option = this.filterOptions[2];
-          // if (option == 'All' || option == merch.series.type) {
-          if (option == 'All' || option == merch.seriesObj.type) {
+          if (merch.seriesObj.type == "MIXED") {
+            let time = merch.seriesObj.sellTime[merch.sellDate];
+            if (time.includes('~') && (option == 'LIMITED-TIME' || option == 'All')) {
+              arr.push(merch);
+            } else if (!time.includes('~') && (option == 'PERMANENT' || option == 'All')) {
+              arr.push(merch);
+            }
+          } else if (option == 'All' || option == merch.seriesObj.type) {
             arr.push(merch);
           }
         }
