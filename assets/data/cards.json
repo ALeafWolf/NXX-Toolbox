@@ -1303,7 +1303,8 @@
     {
         "ref": "入局",
         "name": {
-            "zh": "入局"
+            "zh": "入局",
+            "en": "Entrapped"
         },
         "type": "EMPATHY",
         "rarity": "SR",
