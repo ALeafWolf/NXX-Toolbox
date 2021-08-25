@@ -10,9 +10,9 @@ import { GlobalVariable } from '../global-variable';
 export class CardCalculatorComponent implements OnInit {
 
   userData = [];
-  //夏左莫陆
+  //夏，左，莫，陆
   charCount = [0, 0, 0, 0];
-  //逻辑共情直觉
+  //逻辑，共情，直觉
   typeCount = [0, 0, 0];
   emptyHolder;
 
@@ -31,7 +31,11 @@ export class CardCalculatorComponent implements OnInit {
   ngOnInit(): void {
     this.lang = localStorage.getItem('language')
     this._data.getSkills().toPromise().then((skills: any[]) => {
-      this.allSkills = skills;
+      //convert array to dictionary to reduce big O
+      this.allSkills = skills.reduce((map, skill) => {
+        map[skill._id] = skill;
+        return map;
+      },{});
       this.loadUserCards();
       this.generateEmptyHolder();
       this.isLoaded = true;
@@ -43,7 +47,6 @@ export class CardCalculatorComponent implements OnInit {
 
   generateEmptyHolder() {
     let userLength = this.userData.length;
-    console.log(userLength)
     this.emptyHolder = Array(15 - userLength).fill(0);
   }
 
@@ -95,14 +98,11 @@ export class CardCalculatorComponent implements OnInit {
     let ids = [];
     let slots = [];
     item.skillIDs.forEach(n => {
-      this.allSkills.forEach(s => {
-        if (n == s._id) {
-          let name = s.name[this.lang] ?? s.name.zh;
-          names.push(name);
-          ids.push(s._id);
-          slots.push(s.slot);
-        }
-      })
+      let s = this.allSkills[n];
+      let name = s.name[this.lang] ?? s.name.zh;
+      names.push(name);
+      ids.push(s._id);
+      slots.push(s.slot);
     });
     item.skillNames = names;
     item.sid = ids;
@@ -127,7 +127,7 @@ export class CardCalculatorComponent implements OnInit {
   loadSecondSkill(index: number, card: any) {
     let common = "GENERAL";
     if (common === card.skillTypes[index] && common === card.skillChar[index]) {
-      console.log(`${card.skillIDs[index]} is skipped`);
+      console.log(`${card.skillNames[index]} is skipped`);
     } else {
       // skill buffing based on character
       let count = 1;
@@ -180,10 +180,10 @@ export class CardCalculatorComponent implements OnInit {
     }
   }
 
-  loadThirdSkill(index: number, card: any){
+  loadThirdSkill(index: number, card: any) {
     let isIn = false;
     this.thirdSkills.forEach(skill => {
-      if (skill.id == card.skillIDs[index]) {
+      if (skill._id == card.skillIDs[index]) {
         skill.num += Number(card.skillNums[index]);
         isIn = true;
       }
@@ -195,26 +195,6 @@ export class CardCalculatorComponent implements OnInit {
         name: card.skillNames[index],
         num: Number(card.skillNums[index]),
         numType: card.skillNumTypes[index]
-      }
-      this.thirdSkills.push(skill)
-    }
-  }
-
-  addThirdSkill(userData: any, skillIndex: number) {
-    let isIn = false;
-    this.thirdSkills.forEach(skill => {
-      if (skill.id == userData.skillIDs[skillIndex]) {
-        skill.num += Number(userData.skillNums[skillIndex])
-        isIn = true
-      }
-    })
-    if (!isIn) {
-      let skill = {
-        _id: userData.sid[skillIndex],
-        ref: userData.skillRefs[skillIndex],
-        name: userData.skillNames[skillIndex],
-        num: Number(userData.skillNums[skillIndex]),
-        numType: userData.skillNumTypes[skillIndex]
       }
       this.thirdSkills.push(skill)
     }
