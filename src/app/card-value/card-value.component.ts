@@ -192,7 +192,7 @@ export class CardValueComponent implements OnInit {
   }
 
   deleteUserData() {
-    localStorage.removeItem(this.card.id)
-    console.log(`${this.card.id} is deleted`)
+    localStorage.removeItem(this.card.ref);
+    console.log(`${this.card.ref} is deleted`);
   }
 }

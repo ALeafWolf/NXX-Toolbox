@@ -32,8 +32,8 @@ export class CardCalculatorComponent implements OnInit {
     this.lang = localStorage.getItem('language')
     this._data.getSkills().toPromise().then((skills: any[]) => {
       this.allSkills = skills;
-      this.loadUserCards()
-      this.generateEmptyHolder()
+      this.loadUserCards();
+      this.generateEmptyHolder();
       this.isLoaded = true;
     }).catch(err => {
       console.log(err);
@@ -42,8 +42,9 @@ export class CardCalculatorComponent implements OnInit {
   }
 
   generateEmptyHolder() {
-    let userLength = this.userData.length
-    this.emptyHolder = Array(15 - userLength).fill(0)
+    let userLength = this.userData.length;
+    console.log(userLength)
+    this.emptyHolder = Array(15 - userLength).fill(0);
   }
 
   loadUserCards() {
@@ -55,14 +56,14 @@ export class CardCalculatorComponent implements OnInit {
         this.totalPower += i.power;
         this.configureUserData(i);
       }
-    })
+    });
     if (0 != this.userData.length) {
       this.loadSkillCounts()
     }
   }
 
-  loadTypeCounts(data: any) {
-    switch (data.type) {
+  loadTypeCounts(card: any) {
+    switch (card.type) {
       case 'LOGIC':
         this.typeCount[0] += 1;
         break;
@@ -73,7 +74,7 @@ export class CardCalculatorComponent implements OnInit {
         this.typeCount[2] += 1;
         break;
     };
-    switch (data.charName) {
+    switch (card.charName) {
       case 'LUKE':
         this.charCount[0] += 1;
         break;
@@ -92,88 +93,111 @@ export class CardCalculatorComponent implements OnInit {
   configureUserData(item: any) {
     let names = [];
     let ids = [];
+    let slots = [];
     item.skillIDs.forEach(n => {
       this.allSkills.forEach(s => {
         if (n == s._id) {
           let name = s.name[this.lang] ?? s.name.zh;
           names.push(name);
           ids.push(s._id);
+          slots.push(s.slot);
         }
       })
     });
     item.skillNames = names;
     item.sid = ids;
-    this.userData.push(item)
+    item.skillSlots = slots;
+    this.userData.push(item);
   }
 
   //load skill statistics for chosen cards
   loadSkillCounts() {
-    this.addSecondSkill(1);
-    this.userData.forEach(data => {
-      if (data.rarity != "R") {
-        this.addThirdSkill(data, 2);
+    this.userData.forEach(card => {
+      //for special case of skill slot: card Entrapped
+      for (let i = 0; i < card.sid.length; i++) {
+        if (card.skillSlots[i] == 2) {
+          this.loadSecondSkill(i, card);
+        } else if (card.skillSlots[i] == 3) {
+          this.loadThirdSkill(i, card);
+        }
       }
     })
   }
 
-  addSecondSkill(skillIndex: number) {
-    this.userData.forEach(data => {
-      // console.log(`${data.name.zh}: ${data.skillIDs}`)
-      let common = "GENERAL";
-      // skip the skill which won't get buffed based on either character or type
-      if (common === data.skillTypes[skillIndex] && common === data.skillChar[skillIndex]) {
-        console.log(`${data.skillIDs[1]} is skipped`);
-      } else {
-        // skill buffing based on character
-        let count = 1;
-        if (common === data.skillTypes[skillIndex]) {
-          switch (data.skillChar[skillIndex]) {
-            case "LUKE":
-              count = this.charCount[0];
-              break;
-            case "ARTEM":
-              count = this.charCount[1];
-              break;
-            case "VYN":
-              count = this.charCount[2];
-              break;
-            case "MARIUS":
-              count = this.charCount[3];
-              break;
-          }
-        }
-        // skill buffing based on type
-        else if (common === data.skillChar[skillIndex]) {
-          switch (data.skillTypes[skillIndex]) {
-            case "LOGIC":
-              count = this.typeCount[0];
-              break;
-            case "EMPATHY":
-              count = this.typeCount[1];
-              break;
-            case "INTUITION":
-              count = this.typeCount[2];
-              break;
-          }
-        }
-        let isIn = false;
-        this.secondSkills.forEach(skill => {
-          if (skill._id == data.skillIDs[skillIndex]) {
-            isIn = true;
-          }
-        })
-        if (!isIn) {
-          let skill = {
-            _id: data.sid[skillIndex],
-            ref: data.skillRefs[skillIndex],
-            name: data.skillNames[skillIndex],
-            num: Number(data.skillNums[skillIndex] * count),
-            numType: data.skillNumTypes[skillIndex]
-          };
-          this.secondSkills.push(skill)
+  loadSecondSkill(index: number, card: any) {
+    let common = "GENERAL";
+    if (common === card.skillTypes[index] && common === card.skillChar[index]) {
+      console.log(`${card.skillIDs[index]} is skipped`);
+    } else {
+      // skill buffing based on character
+      let count = 1;
+      if (common === card.skillTypes[index]) {
+        switch (card.skillChar[index]) {
+          case "LUKE":
+            count = this.charCount[0];
+            break;
+          case "ARTEM":
+            count = this.charCount[1];
+            break;
+          case "VYN":
+            count = this.charCount[2];
+            break;
+          case "MARIUS":
+            count = this.charCount[3];
+            break;
         }
       }
+      // skill buffing based on type
+      else if (common === card.skillChar[index]) {
+        switch (card.skillTypes[index]) {
+          case "LOGIC":
+            count = this.typeCount[0];
+            break;
+          case "EMPATHY":
+            count = this.typeCount[1];
+            break;
+          case "INTUITION":
+            count = this.typeCount[2];
+            break;
+        }
+      }
+      let isIn = false;
+      this.secondSkills.forEach(skill => {
+        if (skill._id == card.skillIDs[index]) {
+          isIn = true;
+        }
+      });
+      if (!isIn) {
+        let skill = {
+          _id: card.sid[index],
+          ref: card.skillRefs[index],
+          name: card.skillNames[index],
+          num: Number(card.skillNums[index] * count).toFixed(2),
+          numType: card.skillNumTypes[index]
+        };
+        this.secondSkills.push(skill);
+      }
+    }
+  }
+
+  loadThirdSkill(index: number, card: any){
+    let isIn = false;
+    this.thirdSkills.forEach(skill => {
+      if (skill.id == card.skillIDs[index]) {
+        skill.num += Number(card.skillNums[index]);
+        isIn = true;
+      }
     })
+    if (!isIn) {
+      let skill = {
+        _id: card.sid[index],
+        ref: card.skillRefs[index],
+        name: card.skillNames[index],
+        num: Number(card.skillNums[index]),
+        numType: card.skillNumTypes[index]
+      }
+      this.thirdSkills.push(skill)
+    }
   }
 
   addThirdSkill(userData: any, skillIndex: number) {

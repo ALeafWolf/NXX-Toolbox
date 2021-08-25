@@ -42,19 +42,19 @@ export class CardSelectionComponent implements OnInit {
   }
 
   loadData() {
-    this._apollo.query({
-      query: GET_CARDS
-    }).toPromise().then((result: any) => {
-      this.allCards = result.data.cards;
-      if (this.userData) {
-        this.removeChosenCard();
-      }
-      this.cards = this.allCards;
-      this.isLoaded = true;
-    }).catch(err => {
-      console.log(err);
-      this.isLoaded = true;
-    });
+    // this._apollo.query({
+    //   query: GET_CARDS
+    // }).toPromise().then((result: any) => {
+    //   this.allCards = result.data.cards;
+    //   if (this.userData) {
+    //     this.removeChosenCard();
+    //   }
+    //   this.cards = this.allCards;
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
 
     this._data.getCards().toPromise().then((cards: any[]) => {
       this.allCards = cards;
