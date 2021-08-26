@@ -1572,6 +1572,25 @@
         ]
     },
     {
+        "ref": "明熹",
+        "name": {
+            "zh": "明熹"
+        },
+        "type": "LOGIC",
+        "rarity": "MR",
+        "character": "LUKE",
+        "skills": [
+            "层层深入β Ⅱ",
+            "真相还原 Ⅱ",
+            "滴水不漏 Ⅱ"
+        ],
+        "influence": 1637,
+        "defense": 895,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "心意",
         "name": {
             "zh": "心意"
