@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
 
-  private link = "https://tears-of-themis-api.herokuapp.com/api/"
+  private link = "https://tot-data-api.herokuapp.com/api/"
   private testLink = "http://localhost:8080/api/"
 
   constructor(private _http: HttpClient) { }
