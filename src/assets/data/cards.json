@@ -68,7 +68,9 @@
     {
         "ref": "虹色心跳",
         "name": {
-            "zh": "虹色心跳"
+            "zh": "虹色心跳",
+            "en": "Iridescent Heartbeat",
+            "ko": "무지개빛 설레임"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -250,7 +252,9 @@
     {
         "ref": "铃音予梦",
         "name": {
-            "zh": "铃音予梦"
+            "zh": "铃音予梦",
+            "en": "Dreamful Melodies",
+            "ko": "꿈속의 알람"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -429,7 +433,9 @@
     {
         "ref": "心悬一线",
         "name": {
-            "zh": "心悬一线"
+            "zh": "心悬一线",
+            "en": "Heartfelt Suspense",
+            "ko": "긴장한 마음"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -611,7 +617,9 @@
     {
         "ref": "悸乱微光",
         "name": {
-            "zh": "悸乱微光"
+            "zh": "悸乱微光",
+            "en": "In the Darkness",
+            "ko": "떨리는 빛"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -1913,7 +1921,9 @@
     {
         "ref": "准备就绪",
         "name": {
-            "zh": "准备就绪"
+            "zh": "准备就绪",
+            "en": "All Ready",
+            "ko": ""
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -2207,7 +2217,9 @@
     {
         "ref": "一切有我",
         "name": {
-            "zh": "一切有我"
+            "zh": "一切有我",
+            "en": "Here For You",
+            "ko": ""
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2501,7 +2513,9 @@
     {
         "ref": "另一面",
         "name": {
-            "zh": "另一面"
+            "zh": "另一面",
+            "en": "Another Side of You",
+            "ko": ""
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -2795,7 +2809,9 @@
     {
         "ref": "游刃有余",
         "name": {
-            "zh": "游刃有余"
+            "zh": "游刃有余",
+            "en": "Practice Makes Perfect",
+            "ko": ""
         },
         "type": "INTUITION",
         "rarity": "R",
