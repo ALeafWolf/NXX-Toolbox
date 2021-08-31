@@ -27,6 +27,7 @@ export class SkillInfo {
 }
 
 export class CardInfo {
+    /*-------------------------Estimate----------------------------*/
     //升技能战力，单个技能每升一级加一次，最多27次
     private static _rSkillPowerUp = 95
     private static _mrSkillPowerUp = 120
@@ -80,6 +81,64 @@ export class CardInfo {
 
         return Math.round(p);
     }
+
+    /*----------------------------from data mining----------------------------*/
+    private static _rInfDefInc = 12;
+    private static _srInfDefInc = 15;
+    private static _mrInfDefInc = 15;
+    private static _ssrInfDefInc = 20;
+
+    private static _rBase = 78;
+    private static _srBase = 98;
+    private static _mrBase = 112;
+    private static _ssrBase = 140;
+
+    static calculateInfOrDef(lv: number, rarity: string, star: number, ratio: number) {
+        let base = this._rBase;
+        let inc = this._rInfDefInc;
+        switch (rarity) {
+            case 'SR':
+                base = this._srBase;
+                inc = this._srInfDefInc;
+                break;
+            case 'MR':
+                base = this._mrBase;
+                inc = this._mrInfDefInc;
+                break;
+            case 'SSR':
+                base = this._ssrBase;
+                inc = this._ssrInfDefInc;
+                break;
+        }
+        return Math.round((base + (lv - 1) * inc) * (1 + (star - 1) * 0.1)) * ratio;
+    }
+
+    private static _skillRankI = 191;
+    private static _skillRankII = 239;
+    private static _skillRankIII = 318;
+
+    static calculateSkillPower(rarity: string, skillLv: number[]) {
+        let rank = this._skillRankI;
+        switch (rarity) {
+            case 'MR' || 'SR':
+                rank = this._skillRankII;
+                break;
+            case 'SSR':
+                rank = this._skillRankIII;
+                break;
+        }
+        let p = 0;
+        skillLv.forEach(lv => {
+            p += (0.5 * 0.5 * lv) * rank;
+        })
+        return p;
+    }
+
+    static calculateCardPowerDM(lv: number, rarity: string, star: number, infRatio: number, defRatio: number, skillLv: number[]) {
+        // infRatio + defRatio = 1.5
+        // influence + defense + skill
+        return this.calculateInfOrDef(lv, rarity, star, infRatio) + this.calculateInfOrDef(lv, rarity, star, defRatio) + this.calculateSkillPower(rarity, skillLv);
+    }
 }
 
 export class ExpChipInfo {
@@ -105,11 +164,11 @@ export function sortSkill(ref: string, skills: any[], rarity: string) {
     if (ref == '入局') {
         let arr = [{}, {}, {}];
         skills.forEach(s => {
-            if(s.ref == '顺水推舟'){
+            if (s.ref == '顺水推舟') {
                 arr[1] = s;
-            }else if(s.ref == '谈话引导'){
+            } else if (s.ref == '谈话引导') {
                 arr[2] = s;
-            }else{
+            } else {
                 arr[0] = s;
             }
         })
