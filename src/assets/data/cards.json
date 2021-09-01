@@ -1923,7 +1923,7 @@
         "name": {
             "zh": "准备就绪",
             "en": "All Ready",
-            "ko": ""
+            "ko": "준비 완료"
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -2219,7 +2219,7 @@
         "name": {
             "zh": "一切有我",
             "en": "Here For You",
-            "ko": ""
+            "ko": "항상 곁에"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2515,7 +2515,7 @@
         "name": {
             "zh": "另一面",
             "en": "Another Side of You",
-            "ko": ""
+            "ko": "색다른 모습"
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -2811,7 +2811,7 @@
         "name": {
             "zh": "游刃有余",
             "en": "Practice Makes Perfect",
-            "ko": ""
+            "ko": "여유만만"
         },
         "type": "INTUITION",
         "rarity": "R",
