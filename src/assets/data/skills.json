@@ -3301,7 +3301,8 @@
         "ref": "预见之明",
         "name": {
             "zh": "预见之明 Ⅱ",
-            "en": "Premonition Ⅱ"
+            "en": "Premonition Ⅱ",
+            "ko": "선견지명 Ⅱ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
@@ -3323,7 +3324,8 @@
         "ref": "预见之明",
         "name": {
             "zh": "预见之明 Ⅲ",
-            "en": "Premonition Ⅲ"
+            "en": "Premonition Ⅲ",
+            "ko": "선견지명 Ⅲ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
