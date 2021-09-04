@@ -15,7 +15,7 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MerchListComponent } from './merch-list/merch-list.component';
 import { MerchDetailComponent } from './merch-detail/merch-detail.component';
-import { RealmAuthGuard } from './realm-auth-guard';
+// import { RealmAuthGuard } from './realm-auth-guard';
 
 const routes: Routes = [
   {

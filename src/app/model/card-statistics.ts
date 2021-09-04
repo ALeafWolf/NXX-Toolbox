@@ -90,7 +90,7 @@ export class CardInfo {
 
     private static _rBase = 78;
     private static _srBase = 98;
-    private static _mrBase = 112;
+    private static _mrBase = 173;
     private static _ssrBase = 140;
 
     static calculateInfOrDef(lv: number, rarity: string, star: number, ratio: number) {
@@ -110,7 +110,10 @@ export class CardInfo {
                 inc = this._ssrInfDefInc;
                 break;
         }
-        return Math.round((base + (lv - 1) * inc) * (1 + (star - 1) * 0.1)) * ratio;
+        let cof = (1 + (star - 1) * 0.1);
+        let starInc = Math.round(inc * cof);
+        let starBase = Math.round(base * cof);
+        return Math.round((starBase + (lv - 1) * starInc)) * ratio;
     }
 
     private static _skillRankI = 191;

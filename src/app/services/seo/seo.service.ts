@@ -9,7 +9,7 @@ export class SEOService {
   title = ["牛叉叉牌工具箱：未定事件簿(Tears of Themis)多功能辅助网站", "NXX Toolbox: Multi-functional Support Site for Tears of Themis", "NXX Toolbox: 미해결사건부 다기능 지원 사이트"];
   description = "战力计算器，思绪和技能索引，及其他功能待你探索~";
   image = "assets/images/meta-img.png";
-  url = "https://aleafwolf.github.io/NXX-Toolbox";
+  url = "https://nxxtoolbox.com";
   lang = localStorage.getItem('language')
 
   constructor(private _title: Title, private _meta: Meta) {

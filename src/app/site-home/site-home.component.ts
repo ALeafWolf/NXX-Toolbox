@@ -8,9 +8,23 @@ import { DataService } from '../services/data/data.service';
 })
 export class HomeComponent implements OnInit {
 
+  logs: any[];
+  isLoaded = false;
+
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
+    this._data.getUpdateLog().toPromise().then((logs: any[]) => {
+      // logs.forEach(l => {
+      //   if(l.date == '2021.04.08'){
+      //     l.log
+      //   }
+      // });
+      this.logs = logs;
+    }).catch(err => {
+      console.log(err);
+      this.isLoaded = true;
+    });
   }
 
   generateRandomIcon(){

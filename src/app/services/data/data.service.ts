@@ -11,6 +11,10 @@ export class DataService {
 
   constructor(private _http: HttpClient) { }
 
+  getUpdateLog(){
+    return this._http.get('assets/data/update-log.json');
+  }
+
   //load data from api
   getCards(){
     return this._http.get(this.link + "cards");
