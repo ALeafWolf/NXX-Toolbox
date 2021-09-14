@@ -184,6 +184,26 @@
         ]
     },
     {
+        "ref": "妄夜之魇",
+        "name": {
+            "zh": "妄夜之魇"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "以退为进β Ⅲ",
+            "无懈可击 Ⅲ",
+            "侦探头脑 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -1588,7 +1608,7 @@
         "rarity": "MR",
         "character": "LUKE",
         "skills": [
-            "层层深入β Ⅱ",
+            "先声夺势 Ⅱ",
             "真相还原 Ⅱ",
             "滴水不漏 Ⅱ"
         ],

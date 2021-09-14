@@ -23,7 +23,11 @@
         <div class="col-12 col-lg-6 text-center bg-dark">
             <h4 class="border-bottom border-secondary p-1">{{'HOME.UPDATE-LOG' | translate}}</h4>
             <div id="home-scrollable">
-                <!-- <div class="border-bottom border-secondary">
+                <!-- <div *ngFor="let l of logs" class="border-bottom border-secondary">
+                    <h5>{{l.date}}</h5>
+                    <p [innerHTML]="l.log"></p>
+                </div> -->
+                <div class="border-bottom border-secondary">
                     <h5>2021.08.20</h5>
                     <p>
                         <a routerLink="/card-list/">思绪列表</a>增加了思绪的满星说服力和防御力<br/>
@@ -155,10 +159,6 @@
                         针对移动端屏幕的UI适配（谢谢你，Bootstrap）
                     </p>
                 </div>
-            </div> -->
-            <div *ngFor="let l of logs" class="border-bottom border-secondary">
-                <h5>{{l.date}}</h5>
-                <p [innerHTML]="l.log"></p>
             </div>
         </div>
     </div>

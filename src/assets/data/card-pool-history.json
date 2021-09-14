@@ -593,7 +593,7 @@
     {
         "startDate": "2021-08-19",
         "endDate": "2021-08-29",
-        "type": "LIMITED-EVENT",
+        "type": "RERUN",
         "server": "CN",
         "cards": [
             "虹色心跳",
@@ -641,5 +641,51 @@
             "童心攻势"
         ],
         "twitter": "1430726700933926913"
+    },
+    {
+        "startDate": "2021-09-06",
+        "endDate": "2021-09-16",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "妄夜之魇"
+        ],
+        "bid": "KwrfImG6U"
+    },
+    {
+        "startDate": "2021-09-10",
+        "endDate": "2021-09-24",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "醉意入怀",
+            "冤家路窄",
+            "倾落心扉",
+            "指尖温度"
+        ],
+        "twitter": "1435785029297348608"
+    },
+    {
+        "startDate": "2021-09-10",
+        "endDate": "2021-09-24",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "心跳记忆",
+            "咫尺远近",
+            "倾落心扉",
+            "底比斯之梦"
+        ],
+        "bid": "Kxlq44KU9"
+    },
+    {
+        "startDate": "2021-09-17",
+        "endDate": "2020-09-22",
+        "type": "RERUN",
+        "server": "CN",
+        "cards": [
+            "舞夜流光"
+        ],
+        "bid": "Ky6YazC1b"
     }
 ]
