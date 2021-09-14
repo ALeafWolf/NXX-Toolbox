@@ -68,7 +68,9 @@
     {
         "ref": "虹色心跳",
         "name": {
-            "zh": "虹色心跳"
+            "zh": "虹色心跳",
+            "en": "Iridescent Heartbeat",
+            "ko": "무지개빛 설레임"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -182,6 +184,26 @@
         ]
     },
     {
+        "ref": "妄夜之魇",
+        "name": {
+            "zh": "妄夜之魇"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "以退为进β Ⅲ",
+            "无懈可击 Ⅲ",
+            "侦探头脑 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -250,7 +272,9 @@
     {
         "ref": "铃音予梦",
         "name": {
-            "zh": "铃音予梦"
+            "zh": "铃音予梦",
+            "en": "Dreamful Melodies",
+            "ko": "꿈속의 알람"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -429,7 +453,9 @@
     {
         "ref": "心悬一线",
         "name": {
-            "zh": "心悬一线"
+            "zh": "心悬一线",
+            "en": "Heartfelt Suspense",
+            "ko": "긴장한 마음"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -470,7 +496,7 @@
         "name": {
             "zh": "焰落琉彩"
         },
-        "type": "LOGIC",
+        "type": "EMPATHY",
         "rarity": "SSR",
         "character": "VYN",
         "skills": [
@@ -611,7 +637,9 @@
     {
         "ref": "悸乱微光",
         "name": {
-            "zh": "悸乱微光"
+            "zh": "悸乱微光",
+            "en": "In the Darkness",
+            "ko": "떨리는 빛"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -1580,7 +1608,7 @@
         "rarity": "MR",
         "character": "LUKE",
         "skills": [
-            "层层深入β Ⅱ",
+            "先声夺势 Ⅱ",
             "真相还原 Ⅱ",
             "滴水不漏 Ⅱ"
         ],
@@ -1913,7 +1941,9 @@
     {
         "ref": "准备就绪",
         "name": {
-            "zh": "准备就绪"
+            "zh": "准备就绪",
+            "en": "All Ready",
+            "ko": "준비 완료"
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -2207,7 +2237,9 @@
     {
         "ref": "一切有我",
         "name": {
-            "zh": "一切有我"
+            "zh": "一切有我",
+            "en": "Here For You",
+            "ko": "항상 곁에"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2501,7 +2533,9 @@
     {
         "ref": "另一面",
         "name": {
-            "zh": "另一面"
+            "zh": "另一面",
+            "en": "Another Side of You",
+            "ko": "색다른 모습"
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -2795,7 +2829,9 @@
     {
         "ref": "游刃有余",
         "name": {
-            "zh": "游刃有余"
+            "zh": "游刃有余",
+            "en": "Practice Makes Perfect",
+            "ko": "여유만만"
         },
         "type": "INTUITION",
         "rarity": "R",
