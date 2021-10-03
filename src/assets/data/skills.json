@@ -1554,7 +1554,8 @@
     {
         "ref": "谈话引导",
         "name": {
-            "zh": "谈话引导 Ⅱ"
+            "zh": "谈话引导 Ⅱ",
+            "en": "Conversation Guide Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1575,7 +1576,8 @@
     {
         "ref": "谈话引导",
         "name": {
-            "zh": "谈话引导 Ⅲ"
+            "zh": "谈话引导 Ⅲ",
+            "en": "Conversation Guide Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2718,7 +2720,8 @@
     {
         "ref": "自我评估",
         "name": {
-            "zh": "自我评估 Ⅱ"
+            "zh": "自我评估 Ⅱ",
+            "en": "Self-Evaluation Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2739,7 +2742,8 @@
     {
         "ref": "自我评估",
         "name": {
-            "zh": "自我评估 Ⅲ"
+            "zh": "自我评估 Ⅲ",
+            "en": "Self-Evaluation Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -3480,7 +3484,8 @@
     {
         "ref": "以德服人",
         "name": {
-            "zh": "以德服人α Ⅰ"
+            "zh": "以德服人α Ⅰ",
+            "en": "Virtuous Presence α Ⅰ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -3501,7 +3506,8 @@
     {
         "ref": "以德服人",
         "name": {
-            "zh": "以德服人α Ⅲ"
+            "zh": "以德服人α Ⅲ",
+            "en": "Virtuous Presence α Ⅲ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -3522,7 +3528,8 @@
     {
         "ref": "以德服人",
         "name": {
-            "zh": "以德服人β Ⅰ"
+            "zh": "以德服人β Ⅰ",
+            "en": "Virtuous Presence β Ⅰ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -3543,7 +3550,8 @@
     {
         "ref": "以德服人",
         "name": {
-            "zh": "以德服人γ Ⅲ"
+            "zh": "以德服人γ Ⅲ",
+            "en": "Virtuous Presence γ Ⅲ"
         },
         "character": "GENERAL",
         "type": "GENERAL",

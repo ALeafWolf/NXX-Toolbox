@@ -204,6 +204,25 @@
         ]
     },
     {
+        "ref": "昼夜余想",
+        "name": {
+            "zh": "昼夜余想"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "以理服人γ Ⅲ",
+            "真相还原 Ⅲ",
+            "引警连类 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -388,6 +407,44 @@
         ]
     },
     {
+        "ref": "炽响",
+        "name": {
+            "zh": "炽响"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "以理服人γ Ⅲ",
+            "律法全能 Ⅲ",
+            "引警连类 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "惊情",
+        "name": {
+            "zh": "惊情"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "以德服人γ Ⅲ",
+            "律法全能 Ⅲ",
+            "绝对理性 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "CHARGE"
+        ]
+    },
+    {
         "ref": "咫尺远近",
         "name": {
             "zh": "咫尺远近",
@@ -434,7 +491,9 @@
     {
         "ref": "舞夜流光",
         "name": {
-            "zh": "舞夜流光"
+            "zh": "舞夜流光",
+            "en": "A Star in the Night",
+            "ko": "찬란한 파티"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -565,6 +624,44 @@
         ],
         "influence": 2226,
         "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "昔年之缚",
+        "name": {
+            "zh": "昔年之缚"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "层层深入β Ⅲ",
+            "预见之明 Ⅲ",
+            "人格侧写 Ⅲ"
+        ],
+        "influence": 2184,
+        "defense": 996,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "渡月逐光",
+        "name": {
+            "zh": "渡月逐光"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "洞察秋毫γ Ⅲ",
+            "盛装舞步 Ⅲ",
+            "防微虑远 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -768,6 +865,25 @@
         ],
         "influence": 2014,
         "defense": 1166,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "微芒",
+        "name": {
+            "zh": "微芒"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "循循善诱γ Ⅲ",
+            "年少锋锐 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -2067,6 +2183,24 @@
         ]
     },
     {
+        "ref": "少年意气",
+        "name": {
+            "zh": "少年意气"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "LUKE",
+        "skills": [
+            "避实就虚 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "量体裁衣",
         "name": {
             "zh": "量体裁衣",
@@ -2358,6 +2492,24 @@
         ],
         "influence": 647,
         "defense": 406,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "有条不紊",
+        "name": {
+            "zh": "有条不紊"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "ARTEM",
+        "skills": [
+            "避实就虚 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -2659,6 +2811,42 @@
         ]
     },
     {
+        "ref": "纷落",
+        "name": {
+            "zh": "纷落"
+        },
+        "type": "LOGIC",
+        "rarity": "R",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 905,
+        "defense": 389,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "命运邀约",
+        "name": {
+            "zh": "命运邀约"
+        },
+        "type": "EMPATHY",
+        "rarity": "R",
+        "character": "VYN",
+        "skills": [
+            "引申归谬 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "插曲",
         "name": {
             "zh": "插曲",
@@ -2950,6 +3138,24 @@
         ],
         "influence": 889,
         "defense": 405,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "王的赞许",
+        "name": {
+            "zh": "王的赞许"
+        },
+        "type": "LOGIC",
+        "rarity": "R",
+        "character": "MARIUS",
+        "skills": [
+            "设问否定 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]

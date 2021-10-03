@@ -643,6 +643,21 @@
         "twitter": "1430726700933926913"
     },
     {
+        "startDate": "2021-09-03",
+        "endDate": "2021-09-27",
+        "type": "LIMITED-EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "虹色心跳",
+            "铃音予梦",
+            "心悬一线",
+            "悸乱微光"
+        ],
+        "twitter": "1433248312103104515",
+        "youtube": "https://www.youtube.com/watch?v=OlcoBoDy4OQ"
+
+    },
+    {
         "startDate": "2021-09-06",
         "endDate": "2021-09-16",
         "type": "EVENT",
@@ -680,12 +695,72 @@
     },
     {
         "startDate": "2021-09-17",
-        "endDate": "2020-09-22",
+        "endDate": "2021-09-22",
         "type": "RERUN",
         "server": "CN",
         "cards": [
             "舞夜流光"
         ],
         "bid": "Ky6YazC1b"
+    },
+    {
+        "startDate": "2021-09-19",
+        "endDate": "2021-09-29",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "昔年之缚"
+        ],
+        "bid": "Kyzeq1oz4"
+    },
+    {
+        "startDate": "2021-09-22",
+        "endDate": "2021-10-03",
+        "type": "BIRTHDAY",
+        "server": "GLOBAL",
+        "cards": [
+            "舞夜流光"
+        ],
+        "twitter": "1439771293457399810"
+    },
+    {
+        "startDate": "2021-09-24",
+        "endDate": "2021-10-08",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "最佳拍档",
+            "眸中景",
+            "秋叶寄梦",
+            "虚妄之泪"
+        ],
+        "twitter": "1440858456722796557"
+    },
+    {
+        "startDate": "2021-09-24",
+        "endDate": "2021-10-08",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "微醺视线",
+            "苍木为意",
+            "冷暖心知",
+            "水“逆”"
+        ],
+        "bid": "KztpJF32j"
+    },
+    {
+        "startDate": "2021-09-29",
+        "endDate": "2021-10-20",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "昼夜余想",
+            "炽响",
+            "渡月逐光",
+            "微芒"
+        ],
+        "bid": "KAeJUtUhO",
+        "bv": "BV1zq4y1o7Zc"
     }
 ]
