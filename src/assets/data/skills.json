@@ -1555,7 +1555,8 @@
         "ref": "谈话引导",
         "name": {
             "zh": "谈话引导 Ⅱ",
-            "en": "Conversation Guide Ⅱ"
+            "en": "Conversation Guide Ⅱ",
+            "ko": "대화 유도 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1577,7 +1578,8 @@
         "ref": "谈话引导",
         "name": {
             "zh": "谈话引导 Ⅲ",
-            "en": "Conversation Guide Ⅲ"
+            "en": "Conversation Guide Ⅲ",
+            "ko": "대화 유도 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2590,7 +2592,8 @@
     {
         "ref": "有条不紊",
         "name": {
-            "zh": "有条不紊 Ⅱ"
+            "zh": "有条不紊 Ⅱ",
+            "ko": "질서정연 Ⅱ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -2611,7 +2614,8 @@
     {
         "ref": "有条不紊",
         "name": {
-            "zh": "有条不紊 Ⅲ"
+            "zh": "有条不紊 Ⅲ",
+            "ko": "질서정연 Ⅲ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -2678,7 +2682,8 @@
     {
         "ref": "温文尔雅",
         "name": {
-            "zh": "温文尔雅 Ⅱ"
+            "zh": "温文尔雅 Ⅱ",
+            "ko": "온아한 자세 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2699,7 +2704,8 @@
     {
         "ref": "温文尔雅",
         "name": {
-            "zh": "温文尔雅 Ⅲ"
+            "zh": "温文尔雅 Ⅲ",
+            "ko": "온아한 자세 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2721,7 +2727,8 @@
         "ref": "自我评估",
         "name": {
             "zh": "自我评估 Ⅱ",
-            "en": "Self-Evaluation Ⅱ"
+            "en": "Self-Evaluation Ⅱ",
+            "ko": "자기 평가 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -2743,7 +2750,8 @@
         "ref": "自我评估",
         "name": {
             "zh": "自我评估 Ⅲ",
-            "en": "Self-Evaluation Ⅲ"
+            "en": "Self-Evaluation Ⅲ",
+            "ko": "자기 평가 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -3485,7 +3493,8 @@
         "ref": "以德服人",
         "name": {
             "zh": "以德服人α Ⅰ",
-            "en": "Virtuous Presence α Ⅰ"
+            "en": "Virtuous Presence α Ⅰ",
+            "ko": "성인군자α Ⅰ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -3507,7 +3516,8 @@
         "ref": "以德服人",
         "name": {
             "zh": "以德服人α Ⅲ",
-            "en": "Virtuous Presence α Ⅲ"
+            "en": "Virtuous Presence α Ⅲ",
+            "ko": "성인군자α Ⅲ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -3529,7 +3539,8 @@
         "ref": "以德服人",
         "name": {
             "zh": "以德服人β Ⅰ",
-            "en": "Virtuous Presence β Ⅰ"
+            "en": "Virtuous Presence β Ⅰ",
+            "ko": "성인군자β Ⅰ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
@@ -3551,7 +3562,8 @@
         "ref": "以德服人",
         "name": {
             "zh": "以德服人γ Ⅲ",
-            "en": "Virtuous Presence γ Ⅲ"
+            "en": "Virtuous Presence γ Ⅲ",
+            "ko": "성인군자γ Ⅲ"
         },
         "character": "GENERAL",
         "type": "GENERAL",
