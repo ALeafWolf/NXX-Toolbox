@@ -436,7 +436,7 @@
         "productSize": "马口铁徽章直径约6.5cm，金属徽章约3.6*4.5cm，亚克力挂件人物部分约6.1*8.1cm，扑克挂件约2.3*3cm",
         "productDescription": "-",
         "price": "¥68",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/438360f2e30a772e1fec543d8ba68f4d.jpg",
@@ -447,7 +447,7 @@
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
-        "tmall": "-"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.3.57c221a6frUO2O&id=627326383926&scene=taobao_shop"
     },
     {
         "name": "秘密心迹系列 莫弈生日海报",
@@ -458,7 +458,7 @@
         "productSize": "海报约29*50cm",
         "productDescription": "-",
         "price": "¥25",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0kbb7j30m80m848j.jpg",
@@ -466,7 +466,7 @@
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
-        "tmall": "-"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.4.57c221a6frUO2O&id=626437676389&scene=taobao_shop"
     },
     {
         "name": "秘密心迹系列 莫弈生日色纸",
@@ -477,7 +477,7 @@
         "productSize": "色纸约15*15cm",
         "productDescription": "-",
         "price": "¥28",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve10013j30m80m8gvb.jpg",
@@ -485,7 +485,7 @@
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
-        "tmall": "-"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.5.57c221a6frUO2O&id=627341647169&scene=taobao_shop"
     },
     {
         "name": "秘密心迹系列 莫弈生日徽章",
@@ -496,14 +496,14 @@
         "productSize": "直径约6.5cm",
         "productDescription": "-",
         "price": "¥15",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "VYN",
         "images": [
             "https://aleafwolf.github.io/IHS/TOT/merchs/006D1It9gy1gj8ve0ismij30m80m846s.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/JnOwYqtw8",
         "hoyolab": "-",
-        "tmall": "-"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.6.57c221a6frUO2O&id=626435552739&scene=taobao_shop"
     },
     {
         "name": "消失的黄金系列 马口铁徽章",
@@ -1164,70 +1164,75 @@
     {
         "name": "致斯卡提的情诗系列 Q版无痕粘贴挂钩",
         "series": "致斯卡提的情诗系列",
-        "productMaterial": "PP",
-        "productTechnology": "全彩印刷",
+        "productMaterial": "PS，PVC,无痕胶",
+        "productTechnology": "柯式印刷",
         "productPacking": "-",
-        "productSize": "50x30cm",
+        "productSize": "66x63mm",
         "productDescription": "-",
         "price": "¥15",
         "sellDate": -1,
         "character": "All",
         "images": [
-
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01xgiUcF1fEb4KWGlCG_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01DVPkQF1fEb4Mx1xU0_!!3249253975.jpg"
         ],
         "weibo": "",
         "hoyolab": "-",
-        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23977656577.5.5dbc21a6FHeuYP&id=636104230203&sku_properties=134942334:28316&scene=taobao_shop"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23977656577.5.57c221a6frUO2O&id=636104230203&sku_properties=134942334:28316&scene=taobao_shop"
     },
     {
         "name": "致斯卡提的情诗系列 亚克力装饰画",
         "series": "致斯卡提的情诗系列",
-        "productMaterial": "PP",
-        "productTechnology": "全彩印刷",
+        "productMaterial": "亚克力",
+        "productTechnology": "柯式印刷+印银",
         "productPacking": "-",
-        "productSize": "50x30cm",
+        "productSize": "190x130x7mm",
         "productDescription": "-",
         "price": "¥48",
         "sellDate": -1,
         "character": "All",
         "images": [
-
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01otTIDj1fEb4KCex7a_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01dEapto1fEb4IXsspX_!!3249253975.jpg"
         ],
         "weibo": "",
         "hoyolab": "-",
-        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23977656577.6.5dbc21a6FHeuYP&id=635396996304&sku_properties=134942334:28316&scene=taobao_shop"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23977656577.6.57c221a6frUO2O&id=635396996304&sku_properties=134942334:28316&scene=taobao_shop"
     },
     {
         "name": "致斯卡提的情诗系列 厚亚克力挂件",
         "series": "致斯卡提的情诗系列",
-        "productMaterial": "PP",
-        "productTechnology": "全彩印刷",
+        "productMaterial": "亚克力",
+        "productTechnology": "柯式印刷+烫银",
         "productPacking": "-",
-        "productSize": "50x30cm",
+        "productSize": "45x70mm",
         "productDescription": "-",
         "price": "¥28",
         "sellDate": -1,
         "character": "All",
         "images": [
-
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN018dklY31fEb4OYt5bf_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN013ZjDN31fEb4IWghRQ_!!3249253975.jpg"
         ],
         "weibo": "",
         "hoyolab": "-",
-        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23977656577.7.5dbc21a6FHeuYP&id=635757149417&sku_properties=134942334:28316&scene=taobao_shop"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23977656577.7.57c221a6frUO2O&id=635757149417&sku_properties=134942334:28316&scene=taobao_shop"
     },
     {
         "name": "致斯卡提的情诗系列 印花空调毯",
         "series": "致斯卡提的情诗系列",
-        "productMaterial": "PP",
-        "productTechnology": "全彩印刷",
+        "productMaterial": "法兰绒",
+        "productTechnology": "数码印刷，复合工艺",
         "productPacking": "-",
-        "productSize": "50x30cm",
+        "productSize": "70x140cm",
         "productDescription": "-",
         "price": "¥98",
         "sellDate": -1,
         "character": "All",
         "images": [
-
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01ITCVLk1fEb4ONyJSP_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01iCRTJk1fEb4EJ2XUo_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01U7iA3g1fEb4IYljiS_!!3249253975.jpg"
         ],
         "weibo": "",
         "hoyolab": "-",
@@ -1236,38 +1241,40 @@
     {
         "name": "2021新年系列 Q版印花方巾",
         "series": "2021新年系列",
-        "productMaterial": "PP",
-        "productTechnology": "全彩印刷",
+        "productMaterial": "超细纤维纬编毛巾布",
+        "productTechnology": "热转印",
         "productPacking": "-",
-        "productSize": "50x30cm",
+        "productSize": "28x28cm",
         "productDescription": "-",
         "price": "¥32",
         "sellDate": -1,
         "character": "All",
         "images": [
-
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01zxr2Vw1fEb4GbhZ6N_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01T1pWdl1fEb4GMUb4T_!!3249253975.jpg"
         ],
         "weibo": "",
         "hoyolab": "-",
-        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.1.5dbc21a6FHeuYP&id=636103746412&sku_properties=134942334:28316&scene=taobao_shop"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.1.57c221a6frUO2O&id=636103746412&sku_properties=134942334:28316&scene=taobao_shop"
     },
     {
         "name": "2021新年系列 Q版亚克力立牌",
         "series": "2021新年系列",
-        "productMaterial": "PP",
-        "productTechnology": "全彩印刷",
+        "productMaterial": "亚克力",
+        "productTechnology": "柯式印刷+印金",
         "productPacking": "-",
-        "productSize": "50x30cm",
+        "productSize": "约94x85mm",
         "productDescription": "-",
         "price": "¥38",
         "sellDate": -1,
         "character": "All",
         "images": [
-
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01QUrcqk1fEb4JIl0In_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01VALW2L1fEb4MRLOr9_!!3249253975.jpg"
         ],
         "weibo": "",
         "hoyolab": "-",
-        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.2.5dbc21a6FHeuYP&id=635422224902&sku_properties=134942334:28316&scene=taobao_shop"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23632853757.2.57c221a6frUO2O&id=635422224902&sku_properties=134942334:28316&scene=taobao_shop"
     },
     {
         "name": "清夏同游系列 Q版方形徽章",
@@ -2464,11 +2471,11 @@
         "sellDate": 1,
         "character": "All",
         "images": [
-            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01KBjBwM1fEb3itLWkr_!!0-item_pic.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01gDOuHA1fEb3nUS8uv_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN013G5vcd1fEb3zQJAlH_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01U8blRx1fEb3zQMapV_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01UO6OgU1fEb3re7aNE_!!3249253975.jpg_430x430q90.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01KBjBwM1fEb3itLWkr_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01gDOuHA1fEb3nUS8uv_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN013G5vcd1fEb3zQJAlH_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01U8blRx1fEb3zQMapV_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01UO6OgU1fEb3re7aNE_!!3249253975.jpg",
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01JVo8vO1fEb3x3R3PC_!!3249253975.jpg"
         ],
         "weibo": "https://weibo.com/6073483367/KuUYgx9VS",
@@ -2478,24 +2485,115 @@
     {
         "name": "沐光偕愿系列 莫弈生日徽章-昔年之缚",
         "series": "沐光偕愿系列",
-        "productMaterial": "3mm厚亚克力",
-        "productTechnology": "双层印刷",
+        "productMaterial": "马口铁",
+        "productTechnology": "镭射工艺+pet印刷",
         "productPacking": "opp袋+背卡",
-        "productSize": "人物部分高约65mm|底座约39x30mm",
-        "productDescription": "全4款",
-        "price": "¥28",
-        "sellDate": 1,
-        "character": "All",
+        "productSize": "直径约65mm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "character": "VYN",
         "images": [
-            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01KBjBwM1fEb3itLWkr_!!0-item_pic.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01gDOuHA1fEb3nUS8uv_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN013G5vcd1fEb3zQJAlH_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01U8blRx1fEb3zQMapV_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01UO6OgU1fEb3re7aNE_!!3249253975.jpg_430x430q90.jpg",
-            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01JVo8vO1fEb3x3R3PC_!!3249253975.jpg"
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01S6TpJ71fEb4ES4lv0_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01FAT6221fEb4Om4Blw_!!3249253975.jpg"
         ],
-        "weibo": "https://weibo.com/6073483367/KuUYgx9VS",
+        "weibo": "https://weibo.com/7072153506/KA5vaAwpp",
         "hoyolab": "-",
-        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-23832750726.2.2e6f21a6vf6HwA&id=651742742625&scene=taobao_shop"
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24009085648.1.57c221a6frUO2O&id=656218647096&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "沐光偕愿系列 莫弈生日徽章-纷落款",
+        "series": "沐光偕愿系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "镭射工艺+pet印刷",
+        "productPacking": "opp袋+背卡",
+        "productSize": "直径约65mm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "character": "VYN",
+        "images": [
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01whnJVA1fEb4OCe9Ym_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01mg0gov1fEb4J4G8pJ_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/KA5vaAwpp",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24009085648.2.57c221a6frUO2O&id=655452469097&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "沐光偕愿系列 莫弈生日色纸",
+        "series": "沐光偕愿系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "镭射工艺+背面可立支架",
+        "productPacking": "信封袋+封口贴纸",
+        "productSize": "约14.5x21.5cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "character": "VYN",
+        "images": [
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01xAPa4n1fEb4KScidx_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01aIzLF21fEb4Om3zLX_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/KA5vaAwpp",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24009085648.3.57c221a6frUO2O&id=655453685110&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "沐光偕愿系列 莫弈生日厚亚克力挂件",
+        "series": "沐光偕愿系列",
+        "productMaterial": "",
+        "productTechnology": "",
+        "productPacking": "",
+        "productSize": "",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "character": "VYN",
+        "images": [
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01ntehAl1fEb4Ld1vmS_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01UMTPsi1fEb4QQCJUl_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/KA5vaAwpp",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24009085648.4.57c221a6frUO2O&id=655401833152&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "沐光偕愿系列 莫弈生日金属徽章 ",
+        "series": "沐光偕愿系列",
+        "productMaterial": "锌合金",
+        "productTechnology": "仿珐琅",
+        "productPacking": "纸盒",
+        "productSize": "约45x37mm",
+        "productDescription": "-",
+        "price": "¥32",
+        "sellDate": 0,
+        "character": "VYN",
+        "images": [
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01b6v9qn1fEb49kdLtv_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01kd9GkP1fEb4LR4lkD_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/KA5vaAwpp",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24009085648.5.57c221a6frUO2O&id=655002376476&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "沐光偕愿系列 莫弈生日亚克力装饰画",
+        "series": "沐光偕愿系列",
+        "productMaterial": "7mm厚亚克力",
+        "productTechnology": "印金工艺",
+        "productPacking": "PVC盒+背卡",
+        "productSize": "约15x15cm",
+        "productDescription": "-",
+        "price": "¥48",
+        "sellDate": 0,
+        "character": "VYN",
+        "images": [
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01jby0ob1fEb4JE0cTU_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01X4khfA1fEb4MRVGqs_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/KA5vaAwpp",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24009085648.6.57c221a6frUO2O&id=656165979939&scene=taobao_shop&sku_properties=134942334:28316"
     }
 ]
