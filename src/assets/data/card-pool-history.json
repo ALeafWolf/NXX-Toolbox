@@ -762,5 +762,31 @@
         ],
         "bid": "KAeJUtUhO",
         "bv": "BV1zq4y1o7Zc"
+    },
+    {
+        "startDate": "2021-10-08",
+        "endDate": "2021-10-22",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "此心安处",
+            "危情邀约",
+            "秋叶寄梦",
+            "童心攻势"
+        ],
+        "bid": "KBBnRgMKG"
+    },
+    {
+        "startDate": "2021-10-08",
+        "endDate": "2021-10-22",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "心跳记忆",
+            "危情邀约",
+            "完美营救",
+            "底比斯之梦"
+        ],
+        "twitter": "1445946991536660480"
     }
 ]

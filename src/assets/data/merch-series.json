@@ -165,6 +165,13 @@
         ]
     },
     {
+        "name": "甜梦系列",
+        "type": "PERMANENT",
+        "sellTime": [
+            "2021-02-09"
+        ]
+    },
+    {
         "name": "2021新年系列",
         "type": "LIMITED-TIME",
         "sellTime": [
@@ -268,7 +275,8 @@
         "name": "珍藏系列",
         "type": "PERMANENT",
         "sellTime": [
-            "2021-07-20"
+            "2021-07-20",
+            "2021-09-28"
         ]
     },
     {
