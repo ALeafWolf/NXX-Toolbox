@@ -533,7 +533,9 @@
     {
         "ref": "明暗之境",
         "name": {
-            "zh": "明暗之境"
+            "zh": "明暗之境",
+            "en":"Between Good and Evil",
+            "ko": "빛과 어둠의 경계"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -755,7 +757,9 @@
     {
         "ref": "虚诞盛宴",
         "name": {
-            "zh": "虚诞盛宴"
+            "zh": "虚诞盛宴",
+            "en":"Fabulous Feast",
+            "ko": "허황된 파티"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -1044,7 +1048,9 @@
     {
         "ref": "忆中人",
         "name": {
-            "zh": "忆中人"
+            "zh": "忆中人",
+            "en":"How I Remember You",
+            "ko": "기억 속 그대"
         },
         "type": "INTUITION",
         "rarity": "SR",
@@ -1235,7 +1241,9 @@
     {
         "ref": "暇光一隅",
         "name": {
-            "zh": "暇光一隅"
+            "zh": "暇光一隅",
+            "en":"Fixated on You",
+            "ko": "빛의 일각"
         },
         "type": "LOGIC",
         "rarity": "SR",
