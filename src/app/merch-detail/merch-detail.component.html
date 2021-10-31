@@ -74,7 +74,7 @@
                         </a>
                     </td>
                 </tr>
-                <tr *ngIf="merch.weibo!='-'&&merch.hoyolab!='-'">
+                <tr *ngIf="merch.weibo!='-'||merch.hoyolab!='-'">
                     <th>{{'MERCH-DETAIL.REFERENCE' | translate}}</th>
                     <td>
                         <a *ngIf="merch.weibo!='-'" href="{{merch.weibo}}" target="_blank">
