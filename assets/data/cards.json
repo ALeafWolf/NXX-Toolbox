@@ -214,7 +214,7 @@
         "skills": [
             "以理服人γ Ⅲ",
             "真相还原 Ⅲ",
-            "引警连类 Ⅲ"
+            "引譬连类 Ⅲ"
         ],
         "influence": 2120,
         "defense": 1060,
@@ -417,7 +417,7 @@
         "skills": [
             "以理服人γ Ⅲ",
             "律法全能 Ⅲ",
-            "引警连类 Ⅲ"
+            "引譬连类 Ⅲ"
         ],
         "influence": 2120,
         "defense": 1060,
@@ -533,7 +533,9 @@
     {
         "ref": "明暗之境",
         "name": {
-            "zh": "明暗之境"
+            "zh": "明暗之境",
+            "en":"Between Good and Evil",
+            "ko": "빛과 어둠의 경계"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -755,7 +757,9 @@
     {
         "ref": "虚诞盛宴",
         "name": {
-            "zh": "虚诞盛宴"
+            "zh": "虚诞盛宴",
+            "en":"Fabulous Feast",
+            "ko": "허황된 파티"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -1044,7 +1048,9 @@
     {
         "ref": "忆中人",
         "name": {
-            "zh": "忆中人"
+            "zh": "忆中人",
+            "en":"How I Remember You",
+            "ko": "기억 속 그대"
         },
         "type": "INTUITION",
         "rarity": "SR",
@@ -1235,7 +1241,9 @@
     {
         "ref": "暇光一隅",
         "name": {
-            "zh": "暇光一隅"
+            "zh": "暇光一隅",
+            "en":"Fixated on You",
+            "ko": "빛의 일각"
         },
         "type": "LOGIC",
         "rarity": "SR",
@@ -1735,6 +1743,25 @@
         ]
     },
     {
+        "ref": "囚月",
+        "name": {
+            "zh": "囚月"
+        },
+        "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "LUKE",
+        "skills": [
+            "层层深入β Ⅱ",
+            "情感投射 Ⅱ",
+            "紧急避险 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "心意",
         "name": {
             "zh": "心意"
@@ -1783,6 +1810,25 @@
         "skills": [
             "层层深入γ Ⅱ",
             "抽丝剥茧 Ⅱ",
+            "绝对理性 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "拟心",
+        "name": {
+            "zh": "拟心"
+        },
+        "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "ARTEM",
+        "skills": [
+            "层层深入β Ⅱ",
+            "情感投射 Ⅱ",
             "绝对理性 Ⅱ"
         ],
         "influence": 1658,
@@ -1849,6 +1895,25 @@
         ]
     },
     {
+        "ref": "溯夜",
+        "name": {
+            "zh": "溯夜"
+        },
+        "type": "LOGIC",
+        "rarity": "MR",
+        "character": "VYN",
+        "skills": [
+            "层层深入β Ⅱ",
+            "抽丝剥茧 Ⅱ",
+            "箱庭疗法 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "信物",
         "name": {
             "zh": "信物"
@@ -1878,6 +1943,25 @@
         "skills": [
             "层层深入γ Ⅱ",
             "情感投射 Ⅱ",
+            "执行总裁 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "妄罪",
+        "name": {
+            "zh": "妄罪"
+        },
+        "type": "INTUITION",
+        "rarity": "MR",
+        "character": "MARIUS",
+        "skills": [
+            "层层深入β Ⅱ",
+            "直感思维 Ⅱ",
             "执行总裁 Ⅱ"
         ],
         "influence": 1658,
