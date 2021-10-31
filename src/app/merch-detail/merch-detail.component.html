@@ -29,33 +29,18 @@
                 </tr>
                 <tr>
                     <th>{{'MERCH-DETAIL.ON-SELL-DATE' | translate}}</th>
-                    <td *ngIf="isArray(merch.sellDate); else simpleSellTime">
-                        <span *ngFor="let t of merch.sellDate">
-                            {{merch.seriesObj.sellTime[t]}} <br/>
+                    <td *ngIf="merch.sellDate[0] == -1; else simpleSellTime">
+                        <span *ngFor="let t of merch.seriesObj.sellTime">
+                            {{t}} <br/>
                         </span>
                     </td>
                     <ng-template #simpleSellTime>
-                        <td *ngIf="merch.sellDate ==-1;"> 
-                            <span *ngFor="let t of merch.seriesObj.sellTime">
-                                {{t}} <br/>
+                        <td> 
+                            <span *ngFor="let t of merch.sellDate">
+                                {{merch.seriesObj.sellTime[t]}} <br/>
                             </span>
-                        </td>
-                        <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
-                            <!-- {{merch.series.sellTime[merch.sellDate]}} -->
-                            {{merch.seriesObj.sellTime[merch.sellDate]}}
                         </td>
                     </ng-template>
-                    <!-- <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
-                        {{merch.series.sellTime[merch.sellDate]}}
-                        {{merch.seriesObj.sellTime[merch.sellDate]}}
-                    </td>
-                    <ng-template #multipleSellTime>
-                        <td>
-                            <span *ngFor="let t of merch.seriesObj.sellTime">
-                                {{t}} <br/>
-                            </span>
-                        </td>
-                    </ng-template> -->
                 </tr>
                 <tr>
                     <th>{{'MERCH-DETAIL.PRICE' | translate}}</th>
