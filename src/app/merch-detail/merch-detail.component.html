@@ -29,8 +29,24 @@
                 </tr>
                 <tr>
                     <th>{{'MERCH-DETAIL.ON-SELL-DATE' | translate}}</th>
-                    <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
-                        <!-- {{merch.series.sellTime[merch.sellDate]}} -->
+                    <td *ngIf="isArray(merch.sellDate); else simpleSellTime">
+                        <span *ngFor="let t of merch.sellDate">
+                            {{merch.seriesObj.sellTime[t]}} <br/>
+                        </span>
+                    </td>
+                    <ng-template #simpleSellTime>
+                        <td *ngIf="merch.sellDate ==-1;"> 
+                            <span *ngFor="let t of merch.seriesObj.sellTime">
+                                {{t}} <br/>
+                            </span>
+                        </td>
+                        <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
+                            <!-- {{merch.series.sellTime[merch.sellDate]}} -->
+                            {{merch.seriesObj.sellTime[merch.sellDate]}}
+                        </td>
+                    </ng-template>
+                    <!-- <td *ngIf="merch.sellDate!=-1; else multipleSellTime">
+                        {{merch.series.sellTime[merch.sellDate]}}
                         {{merch.seriesObj.sellTime[merch.sellDate]}}
                     </td>
                     <ng-template #multipleSellTime>
@@ -39,7 +55,7 @@
                                 {{t}} <br/>
                             </span>
                         </td>
-                    </ng-template>
+                    </ng-template> -->
                 </tr>
                 <tr>
                     <th>{{'MERCH-DETAIL.PRICE' | translate}}</th>

@@ -4,30 +4,30 @@ import { SEOService } from '../services/seo/seo.service';
 import { Apollo, gql } from 'apollo-angular';
 import { DataService } from '../services/data/data.service';
 
-const GET_MERCH = gql`
-  query GetMerch($query: MerchQueryInput!){
-    merch(query: $query){
-      _id
-        images
-        name
-        price
-        productSize
-        productMaterial
-        productTechnology
-        productPacking
-        productDescription
-        sellDate
-        series{
-          name
-          type
-          sellTime
-        }
-        tmall
-        weibo
-        hoyolab
-    }
-  }
-`;
+// const GET_MERCH = gql`
+//   query GetMerch($query: MerchQueryInput!){
+//     merch(query: $query){
+//       _id
+//         images
+//         name
+//         price
+//         productSize
+//         productMaterial
+//         productTechnology
+//         productPacking
+//         productDescription
+//         sellDate
+//         series{
+//           name
+//           type
+//           sellTime
+//         }
+//         tmall
+//         weibo
+//         hoyolab
+//     }
+//   }
+// `;
 
 @Component({
   selector: 'app-merch-detail',
@@ -76,6 +76,10 @@ export class MerchDetailComponent implements OnInit {
       console.log(err);
       this.isLoaded = true;
     });
+  }
+
+  isArray(input){
+    return Array.isArray(input);
   }
 
   setTitle() {
