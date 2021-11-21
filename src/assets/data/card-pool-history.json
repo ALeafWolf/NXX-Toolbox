@@ -827,5 +827,82 @@
             "虚妄之泪"
         ],
         "bid": "KDJrlBQFB"
+    },
+    {
+        "startDate": "2021-11-02",
+        "endDate": "2021-11-23",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "新晴",
+            "朝华惜时",
+            "纸间情眷"
+        ],
+        "bid": "KFpt5oE6W",
+        "bv": "BV1oU4y1F7qo"
+    },
+    {
+        "startDate": "2021-11-05",
+        "endDate": "2021-11-19",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "心跳记忆",
+            "思酿",
+            "碧蓝之间",
+            "弦外之音"
+        ],
+        "bid": "KFRlBwAx7"
+    },
+    {
+        "startDate": "2021-11-05",
+        "endDate": "2021-11-19",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "最佳拍档",
+            "眸中景",
+            "秋叶寄梦",
+            "塑心"
+        ],
+        "twitter": "1456199542697648137"
+    },
+    {
+        "startDate": "2021-11-12",
+        "endDate": "2021-11-28",
+        "type": "EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "此心安处",
+            "苍木为意"
+        ],
+        "twitter": "1458615468336435205",
+        "youtube": "https://www.youtube.com/watch?v=-djv13QnOJg"
+    },
+    {
+        "startDate": "2021-11-19",
+        "endDate": "2021-12-03",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "微醺视线",
+            "冤家路窄",
+            "人间烟火",
+            "指尖温度"
+        ],
+        "bid": "L21Shsdkk"
+    },
+    {
+        "startDate": "2021-11-19",
+        "endDate": "2021-12-03",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "危情邀约",
+            "心跳记忆",
+            "斑斓光影",
+            "弦外之音"
+        ],
+        "twitter": "1461152180468027393"
     }
 ]

@@ -1646,6 +1646,27 @@
     {
         "ref": "交响奏鸣",
         "name": {
+            "zh": "交响奏鸣 Ⅱ"
+        },
+        "character": "VYN",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%",
+            "en": "Boosts this card's base Influence by X% for every Vyn card in the Primary Deck",
+            "ko": "주력 생각에 윤노아의 생각이 1장 있을 때마다 해당 생각의 기본 설득력 X% 증가"
+        },
+        "nums": [
+            1.28,
+            6.5
+        ],
+        "function": "influence up",
+        "slot": 2,
+        "id": "交响奏鸣 Ⅱ"
+    },
+    {
+        "ref": "交响奏鸣",
+        "name": {
             "zh": "交响奏鸣 Ⅲ"
         },
         "character": "VYN",
