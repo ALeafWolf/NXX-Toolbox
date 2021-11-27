@@ -1012,6 +1012,27 @@
         "id": "洞察秋毫γ Ⅲ"
     },
     {
+        "ref": "乘胜追击",
+        "name": {
+            "zh": "乘胜追击 Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "对所有观点造成说服力X%的伤害",
+            "en": "Deals X% Influence DMG to all arguments.",
+            "ko": "모두 관점에 설득력의 X% 피해를 입힌다"
+        },
+        "nums": [
+            37,
+            49.96
+        ],
+        "function": "damage up",
+        "slot": 1,
+        "id": "乘胜追击 Ⅲ"
+    },
+    {
         "ref": "张弛有度",
         "name": {
             "zh": "张弛有度 Ⅱ",

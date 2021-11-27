@@ -904,5 +904,35 @@
             "弦外之音"
         ],
         "twitter": "1461152180468027393"
+    },
+    {
+        "startDate": "2021-11-25",
+        "endDate": "2021-11-30",
+        "type": "RERUN",
+        "server": "CN",
+        "cards": [
+            "温馥予怀"
+        ],
+        "bid": "L2DZagP9Z"
+    },
+    {
+        "startDate": "2021-11-27",
+        "endDate": "2021-12-07",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "暗漪"
+        ],
+        "bid": "L36g52nLc"
+    },
+    {
+        "startDate": "2021-11-28",
+        "endDate": "2021-12-09",
+        "type": "BIRTHDAY",
+        "server": "GLOBAL",
+        "cards": [
+            "温馥予怀"
+        ],
+        "twitter": "1464421217486659585"
     }
 ]
