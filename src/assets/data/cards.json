@@ -110,7 +110,9 @@
     {
         "ref": "荧荧眸光",
         "name": {
-            "zh": "荧荧眸光"
+            "zh": "荧荧眸光",
+            "en": "Twinkling Eyes",
+            "ko": "형형한 눈빛"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -235,7 +237,7 @@
         "rarity": "SSR",
         "character": "LUKE",
         "skills": [
-            "乘胜追击 Ⅲ",
+            "层层深入β Ⅲ",
             "张弛有度 Ⅲ",
             "顺水推舟 Ⅲ"
         ],
@@ -243,6 +245,25 @@
         "defense": 996,
         "obtainedFrom": [
             "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "瑰色余温",
+        "name": {
+            "zh": "瑰色余温"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "以德服人β Ⅲ",
+            "敏锐观察 Ⅲ",
+            "紧急避险 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT"
         ]
     },
     {
@@ -335,7 +356,9 @@
     {
         "ref": "一步之遥",
         "name": {
-            "zh": "一步之遥"
+            "zh": "一步之遥",
+            "en": "Por Una Cabeza",
+            "ko": "Por Una Cabeza"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -355,7 +378,9 @@
     {
         "ref": "天心漫游",
         "name": {
-            "zh": "天心漫游"
+            "zh": "天心漫游",
+            "en": "Wandering Heart",
+            "ko": "자유로운 마음"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -598,7 +623,9 @@
     {
         "ref": "焰落琉彩",
         "name": {
-            "zh": "焰落琉彩"
+            "zh": "焰落琉彩",
+            "en": "Blazing Colors",
+            "ko": "불꽃과 흩어진 빛"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -712,6 +739,25 @@
         ]
     },
     {
+        "ref": "弦光掠影",
+        "name": {
+            "zh": "弦光掠影"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "以德服人β Ⅲ",
+            "演绎推理 Ⅲ",
+            "箱庭疗法 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT"
+        ]
+    },
+    {
         "ref": "冤家路窄",
         "name": {
             "zh": "冤家路窄",
@@ -822,7 +868,9 @@
     {
         "ref": "终夜明辉",
         "name": {
-            "zh": "终夜明辉"
+            "zh": "终夜明辉",
+            "en": "All Through the Night",
+            "ko": "밤새 비춘 불빛"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -842,7 +890,9 @@
     {
         "ref": "极光之昼",
         "name": {
-            "zh": "极光之昼"
+            "zh": "极光之昼",
+            "en": "Daytime Aurora",
+            "ko": "한낮의 오로라"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -952,6 +1002,26 @@
         ],
         "influence": 2056,
         "defense": 1124,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "潮生情动",
+        "name": {
+            "zh": "潮生情动"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "以德服人γ Ⅲ",
+            "年少锋锐 Ⅲ",
+            "防微虑远 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
         "obtainedFrom": [
             "EVENT",
             "ROTATION"
@@ -1135,7 +1205,9 @@
     {
         "ref": "掌中流光",
         "name": {
-            "zh": "掌中流光"
+            "zh": "掌中流光",
+            "en": "A Star in the Palm",
+            "ko": "빛을 담아"
         },
         "type": "EMPATHY",
         "rarity": "SR",
@@ -1385,6 +1457,25 @@
         ]
     },
     {
+        "ref": "浮情燃夜",
+        "name": {
+            "zh": "浮情燃夜"
+        },
+        "type": "EMPATHY",
+        "rarity": "SR",
+        "character": "ARTEM",
+        "skills": [
+            "以德服人β Ⅱ",
+            "情绪感染 Ⅱ",
+            "正法直度 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 791,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "虚妄之泪",
         "name": {
             "zh": "虚妄之泪",
@@ -1561,7 +1652,9 @@
     {
         "ref": "松雪童话",
         "name": {
-            "zh": "松雪童话"
+            "zh": "松雪童话",
+            "en": "Snowy Fairy Tale",
+            "ko": "겨울 이야기"
         },
         "type": "INTUITION",
         "rarity": "SR",
@@ -1790,6 +1883,26 @@
         ]
     },
     {
+        "ref": "爱之浆果",
+        "name": {
+            "zh": "爱之浆果"
+        },
+        "type": "爱之浆果",
+        "rarity": "SR",
+        "character": "MARIUS",
+        "skills": [
+            "以德服人β Ⅱ",
+            "情绪感染 Ⅱ",
+            "各方制衡 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 791,
+        "obtainedFrom": [
+            "ROTATION",
+            "EVENT"
+        ]
+    },
+    {
         "ref": "陪伴",
         "name": {
             "zh": "陪伴"
@@ -1963,7 +2076,9 @@
     {
         "ref": "朝颜",
         "name": {
-            "zh": "朝颜"
+            "zh": "朝颜",
+            "en": "Morning Glory",
+            "ko": "나팔꽃"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -2304,7 +2419,9 @@
     {
         "ref": "温馨小屋",
         "name": {
-            "zh": "温馨小屋"
+            "zh": "温馨小屋",
+            "en": "Warm Home",
+            "ko": "따뜻한 오두막"
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -2420,7 +2537,7 @@
         "rarity": "R",
         "character": "LUKE",
         "skills": [
-            "引申归谬 Ⅰ",
+            "设问否定γ Ⅰ",
             "势如破竹 Ⅰ"
         ],
         "influence": 837,
@@ -2620,7 +2737,9 @@
     {
         "ref": "心际飞行",
         "name": {
-            "zh": "心际飞行"
+            "zh": "心际飞行",
+            "en": "My Heart Is Flying",
+            "ko": "날아오른 마음"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2954,7 +3073,9 @@
     {
         "ref": "秘密贺礼",
         "name": {
-            "zh": "秘密贺礼"
+            "zh": "秘密贺礼",
+            "en": "Secret Gift",
+            "ko": "비밀 선물"
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -3268,7 +3389,9 @@
     {
         "ref": "迷思",
         "name": {
-            "zh": "迷思"
+            "zh": "迷思",
+            "en": "Myth",
+            "ko": "신화"
         },
         "type": "LOGIC",
         "rarity": "R",

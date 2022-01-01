@@ -800,7 +800,8 @@
             "忆中人",
             "暇光一隅"
         ],
-        "twitter": "1449555767028183048"
+        "twitter": "1449555767028183048",
+        "youtube": "https://www.youtube.com/watch?v=-IzbNC0PYdE"
     },
     {
         "startDate": "2021-10-22",
@@ -934,5 +935,132 @@
             "温馥予怀"
         ],
         "twitter": "1464421217486659585"
+    },
+    {
+        "startDate": "2021-12-03",
+        "endDate": "2021-12-17",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "醉意入怀",
+            "危情邀约",
+            "斑斓光影",
+            "童心攻势"
+        ],
+        "bid": "L49RqDY49"
+    },
+    {
+        "startDate": "2021-12-03",
+        "endDate": "2021-12-17",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "醉意入怀",
+            "冤家路窄",
+            "完美营救",
+            "水“逆”"
+        ],
+        "twitter": "1466346408529870853"
+    },
+    {
+        "startDate": "2021-12-09",
+        "endDate": "2021-12-19",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "潮生情动"
+        ],
+        "bid": "L4LMqowLp"
+    },
+    {
+        "startDate": "2021-12-11",
+        "endDate": "2021-01-01",
+        "type": "EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "一步之遥",
+            "终夜明辉",
+            "松雪童话"
+        ],
+        "twitter": "1468897182350987270",
+        "youtube": "https://www.youtube.com/watch?v=xX2yp9qd0pU"
+    },
+    {
+        "startDate": "2021-12-17",
+        "endDate": "2021-12-31",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "最佳拍档",
+            "心跳记忆",
+            "塑心",
+            "弦外之音"
+        ],
+        "bid": "L6hQI2YnO"
+    },
+    {
+        "startDate": "2021-12-17",
+        "endDate": "2021-12-31",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "微醺视线",
+            "咫尺远近",
+            "冷暖心知",
+            "底比斯之梦"
+        ],
+        "twitter": "1471299038519578629"
+    },
+    {
+        "startDate": "2021-12-21",
+        "endDate": "2022-01-04",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "瑰色余温",
+            "弦光掠影"
+        ],
+        "bid": "L6r4SaZ7L",
+        "bv": "BV1Xq4y1276d"
+    },
+    {
+        "startDate": "2021-12-31",
+        "endDate": "2022-01-14",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "霓光旋律",
+            "眸中景",
+            "碧蓝之间",
+            "秋叶寄梦"
+        ],
+        "bid": "L8pP5eMzf"
+    },
+    {
+        "startDate": "2022-01-01",
+        "endDate": "2022-01-24",
+        "type": "LIMITED-EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "荧荧眸光",
+            "天心漫游",
+            "焰落琉彩",
+            "极光之昼"
+        ],
+        "twitter": "1476387566353977344",
+        "youtube": "https://www.youtube.com/watch?v=IsxdSRI6Zz0"
+    },
+    {
+        "startDate": "2021-12-31",
+        "endDate": "2021-12-31",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "微醺视线",
+            "咫尺远近",
+            "冷暖心知",
+            "底比斯之梦"
+        ],
+        "twitter": "1471299038519578629"
     }
 ]
