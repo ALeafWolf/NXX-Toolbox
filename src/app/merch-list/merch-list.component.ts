@@ -2,32 +2,32 @@ import { Component, OnInit, HostListener } from '@angular/core';
 import { Apollo, gql } from 'apollo-angular';
 import { DataService } from '../services/data/data.service';
 
-const GET_MERCHES = gql`
-  query GetMerchs{
-    merches(limit: 1000, sortBy: _ID_ASC) 
-      {
-        _id
-        images
-        name
-        price
-        sellDate
-        character
-        series{
-          name
-          type
-          sellTime
-        }
-      }
-  }
-`;
+// const GET_MERCHES = gql`
+//   query GetMerchs{
+//     merches(limit: 1000, sortBy: _ID_ASC) 
+//       {
+//         _id
+//         images
+//         name
+//         price
+//         sellDate
+//         character
+//         series{
+//           name
+//           type
+//           sellTime
+//         }
+//       }
+//   }
+// `;
 
-const GET_MERCH_SERIES = gql`
-  query GetMerchSeries{
-    merch_seriess(limit: 1000, sortBy: _ID_ASC){
-      name
-    }
-  }
-`;
+// const GET_MERCH_SERIES = gql`
+//   query GetMerchSeries{
+//     merch_seriess(limit: 1000, sortBy: _ID_ASC){
+//       name
+//     }
+//   }
+// `;
 
 @Component({
   selector: 'app-merch-list',
@@ -113,12 +113,14 @@ export class MerchListComponent implements OnInit {
           //sell time type
           option = this.filterOptions[2];
           if (merch.seriesObj.type == "MIXED") {
-            let time = merch.seriesObj.sellTime[merch.sellDate];
-            if (time.includes('~') && (option == 'LIMITED-TIME' || option == 'All')) {
-              arr.push(merch);
-            } else if (!time.includes('~') && (option == 'PERMANENT' || option == 'All')) {
-              arr.push(merch);
-            }
+            merch.sellDate.forEach(index => {
+              let time = merch.seriesObj.sellTime[index];
+              if (time.includes('~') && (option == 'LIMITED-TIME' || option == 'All')) {
+                arr.push(merch);
+              } else if (!time.includes('~') && (option == 'PERMANENT' || option == 'All')) {
+                arr.push(merch);
+              }
+            });
           } else if (option == 'All' || option == merch.seriesObj.type) {
             arr.push(merch);
           }

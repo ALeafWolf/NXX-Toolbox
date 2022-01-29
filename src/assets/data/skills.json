@@ -1148,6 +1148,29 @@
         "id": "运筹帷幄 Ⅱ"
     },
     {
+        "ref": "运筹帷幄",
+        "name": {
+            "zh": "运筹帷幄 Ⅲ",
+            "en": "Strategist Ⅲ",
+            "ko": "전략 수립 Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "进入辩论时，该思绪防御力提升X",
+            "en": "Boosts this card's base Defense by X during debates",
+            "ko": "변론 입장 시 해당 생각의 기본 방어력 X 증가"
+        },
+        "nums": [
+            180,
+            963
+        ],
+        "function": "defense up",
+        "slot": 2,
+        "id": "运筹帷幄 Ⅲ"
+    },
+    {
         "ref": "趋利避害",
         "name": {
             "zh": "趋利避害 Ⅱ",

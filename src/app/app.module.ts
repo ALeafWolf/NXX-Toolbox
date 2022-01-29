@@ -9,6 +9,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { MatIconModule } from '@angular/material/icon';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatTabsModule } from '@angular/material/tabs';
+import { NgxSliderModule } from '@angular-slider/ngx-slider';
+import { GraphQLModule } from './graphql.module';
+import { NgxEchartsModule } from 'ngx-echarts';
 
 import { CardSelectionComponent } from './card-selection/card-selection.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
@@ -26,12 +32,9 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MerchListComponent } from './merch-list/merch-list.component';
 import { MerchDetailComponent } from './merch-detail/merch-detail.component';
+import { CardReleaseHistoryComponent } from './card-release-history/card-release-history.component';
 
-import { MatIconModule } from '@angular/material/icon';
-import { MatRadioModule } from '@angular/material/radio';
-import { MatTabsModule } from '@angular/material/tabs';
-import { NgxSliderModule } from '@angular-slider/ngx-slider';
-import { GraphQLModule } from './graphql.module';
+
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -55,7 +58,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     CardPoolHistoryComponent,
     CardRssCalculatorComponent,
     MerchListComponent,
-    MerchDetailComponent
+    MerchDetailComponent,
+    CardReleaseHistoryComponent
   ],
   imports: [
     BrowserModule,
@@ -73,6 +77,9 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
+    }),
+    NgxEchartsModule.forRoot({
+      echarts: () => import('echarts')
     }),
     AppRoutingModule,
     GraphQLModule

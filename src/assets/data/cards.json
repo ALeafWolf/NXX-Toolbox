@@ -267,6 +267,25 @@
         ]
     },
     {
+        "ref": "戏影入梦",
+        "name": {
+            "zh": "戏影入梦"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "真相还原 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -513,6 +532,25 @@
         ]
     },
     {
+        "ref": "野有蔓草",
+        "name": {
+            "zh": "野有蔓草"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "律法全能 Ⅲ",
+            "引譬连类 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "咫尺远近",
         "name": {
             "zh": "咫尺远近",
@@ -755,6 +793,25 @@
         "defense": 1060,
         "obtainedFrom": [
             "EVENT"
+        ]
+    },
+    {
+        "ref": "灼华于归",
+        "name": {
+            "zh": "灼华于归"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "盛装舞步 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
         ]
     },
     {
@@ -1025,6 +1082,44 @@
         "obtainedFrom": [
             "EVENT",
             "ROTATION"
+        ]
+    },
+    {
+        "ref": "画堂春",
+        "name": {
+            "zh": "画堂春"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "年少锋锐 Ⅲ",
+            "防微虑远 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "镌痕",
+        "name": {
+            "zh": "镌痕"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "层层深入γ Ⅲ",
+            "运筹帷幄 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "CHARGE"
         ]
     },
     {
@@ -2000,7 +2095,9 @@
     {
         "ref": "舒展",
         "name": {
-            "zh": "舒展"
+            "zh": "舒展",
+            "en": "Stretching",
+            "ko": "기지개"
         },
         "type": "EMPATHY",
         "rarity": "MR",
@@ -2547,6 +2644,24 @@
         ]
     },
     {
+        "ref": "侠客行",
+        "name": {
+            "zh": "侠客行"
+        },
+        "type": "LOGIC",
+        "rarity": "R",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "量体裁衣",
         "name": {
             "zh": "量体裁衣",
@@ -2858,6 +2973,24 @@
         ],
         "influence": 863,
         "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "庙堂远",
+        "name": {
+            "zh": "庙堂远"
+        },
+        "type": "EMPATHY",
+        "rarity": "R",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -3199,6 +3332,24 @@
         ]
     },
     {
+        "ref": "花影深",
+        "name": {
+            "zh": "花影深"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "插曲",
         "name": {
             "zh": "插曲",
@@ -3512,6 +3663,24 @@
         ],
         "influence": 863,
         "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "佳期会",
+        "name": {
+            "zh": "佳期会"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]

@@ -6,8 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DataService {
 
-  private link = "https://tot-data-api.herokuapp.com/api/"
-  private testLink = "http://localhost:8080/api/"
+  private link = "https://tot-data-api.herokuapp.com/api/";
+  private testLink = "http://localhost:8080/api/";
 
   constructor(private _http: HttpClient) { }
 
@@ -37,6 +37,11 @@ export class DataService {
 
   getSkillRssList(){
     return this._http.get('assets/data/skill-level-up-rss.json');
+  }
+
+  getCardReleaseHistory(){
+    return this._http.get(this.link + "cardreleasehistory");
+    // return this._http.get(this.testLink + `cardreleasehistory`);
   }
 
   getVisionHistory(){
