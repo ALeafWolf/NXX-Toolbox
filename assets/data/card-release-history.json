@@ -1,0 +1,641 @@
+[
+    {
+        "startDate": "2020-08-19",
+        "endDate": "2020-09-09",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "千灯如昼",
+            "心有千千结",
+            "凉夏",
+            "琥珀昙华"
+        ],
+        "bid": "JgC0AnO0k",
+        "bv": "BV1CD4y1U7W1"
+    },
+    {
+        "startDate": "2020-09-10",
+        "endDate": "-",
+        "type": "MAIN-STORY",
+        "server": "CN",
+        "cards": [
+            "入局"
+        ],
+        "bid": "JjEEyvgkX",
+        "bv": "BV1rV411m7z6"
+    },
+    {
+        "startDate": "2020-09-19",
+        "endDate": "2020-09-30",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "舞夜流光",
+            "装扮"
+        ],
+        "bid": "JkJ9yAIdW"
+    },
+    {
+        "startDate": "2020-09-30",
+        "endDate": "2020-10-25",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "虹色心跳",
+            "准备就绪",
+            "铃音予梦",
+            "一切有我",
+            "心悬一线",
+            "另一面",
+            "悸乱微光",
+            "游刃有余"
+        ],
+        "bid": "JmQralIgC",
+        "bv": "BV1Ek4y117wU"
+    },
+    {
+        "startDate": "2020-11-12",
+        "endDate": "2020-11-26",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "明暗之境",
+            "虚诞盛宴",
+            "忆中人",
+            "暇光一隅"
+        ],
+        "bid": "JteM4vRBV",
+        "bv": "BV1Zp4y1k7SX"
+    },
+    {
+        "startDate": "2020-11-27",
+        "endDate": "2020-12-08",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "温馥予怀",
+            "静候"
+        ],
+        "bid": "JvOEc6chC"
+    },
+    {
+        "startDate": "2020-12-16",
+        "endDate": "2021-01-06",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "一步之遥",
+            "终夜明辉",
+            "掌中流光",
+            "松雪童话"
+        ],
+        "bid": "JyHLB0Usu",
+        "bv": "BV1jA41147hh"
+    },
+    {
+        "startDate": "2020-12-31",
+        "endDate": "2021-01-14",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "心有千千结",
+            "凉夏"
+        ],
+        "bid": "JAGk45LZ9"
+    },
+    {
+        "startDate": "2021-01-14",
+        "endDate": "2021-01-28",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "千灯如昼"
+        ],
+        "bid": "JCXJwxDrw"
+    },
+    {
+        "startDate": "2021-01-29",
+        "endDate": "2021-02-22",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "荧荧眸光",
+            "温馨小屋",
+            "天心漫游",
+            "心际飞行",
+            "焰落琉彩",
+            "秘密贺礼",
+            "极光之昼",
+            "迷思"
+        ],
+        "bid": "JEWm4uBXx",
+        "bv": "BV13y4y1p79T"
+    },
+    {
+        "startDate": "2021-02-20",
+        "endDate": "2021-03-02",
+        "type": "MINIGAME",
+        "server": "CN",
+        "cards": [
+            "相伴",
+            "共赏",
+            "祈愿",
+            "胜券在握"
+        ],
+        "bid": "K2u3mgPVV"
+    },
+    {
+        "startDate": "2021-02-26",
+        "endDate": "-",
+        "type": "MAIN-STORY",
+        "server": "CN",
+        "cards": [
+            "抉择"
+        ],
+        "bid": "K3y2U221a",
+        "bv": "BV1CA411M79b"
+    },
+    {
+        "startDate": "2021-03-04",
+        "endDate": "2021-03-18",
+        "type": "BINGO",
+        "server": "CN",
+        "cards": [
+            "陪伴",
+            "心意",
+            "约定",
+            "信物"
+        ],
+        "bid": "K4jbtkpkw",
+        "bv": "BV1oU4y1H7b1"
+    },
+    {
+        "startDate": "2021-03-25",
+        "endDate": "2021-04-15",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "此心安处",
+            "注视",
+            "苍木为意",
+            "定格"
+        ],
+        "bid": "K7uLthnTW",
+        "bv": "BV1HK4y1T7yz"
+    },
+    {
+        "startDate": "2021-04-09",
+        "endDate": "2021-04-23",
+        "type": "FIELDWORK",
+        "server": "CN",
+        "cards": [
+            "朝颜"
+        ],
+        "bid": "K9Mzbb5ob"
+    },
+    {
+        "startDate": "2021-04-09",
+        "endDate": "2021-04-23",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "忆中人"
+        ],
+        "bid": "K9VBruC1P"
+    },
+    {
+        "startDate": "2021-04-18",
+        "endDate": "2021-04-29",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "两心无间",
+            "揣摩"
+        ],
+        "bid": "Kb97yCuhf"
+    },
+    {
+        "startDate": "2021-04-23",
+        "endDate": "2021-05-07",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "明暗之境"
+        ],
+        "bid": "Kc3B8D4Ls"
+    },
+    {
+        "startDate": "2021-04-29",
+        "endDate": "2021-05-20",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "惠雨归晴",
+            "品味香甜",
+            "思酿",
+            "全新体验"
+        ],
+        "bid": "KcYb30kA5",
+        "bv": "BV1g64y117DM"
+    },
+    {
+        "startDate": "2021-05-07",
+        "endDate": "2021-05-21",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "虚诞盛宴"
+        ],
+        "bid": "KebzvfGlr"
+    },
+    {
+        "startDate": "2021-05-21",
+        "endDate": "2021-06-04",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "腾霄",
+            "霓光旋律",
+            "制胜球",
+            "迷涂炫彩"
+        ],
+        "bid": "Kgawh3xYx",
+        "bv": "BV1XA411G7BX"
+    },
+    {
+        "startDate": "2021-05-21",
+        "endDate": "2021-06-04",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "暇光一隅"
+        ],
+        "bid": "Kgjyp3udq"
+    },
+    {
+        "startDate": "2021-06-13",
+        "endDate": "2021-06-24",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "荣光加冕",
+            "展颜"
+        ],
+        "bid": "KjvCZtqY7"
+    },
+    {
+        "startDate": "2021-06-25",
+        "endDate": "2021-07-05",
+        "type": "FIELDWORK",
+        "server": "CN",
+        "cards": [
+            "舒展"
+        ],
+        "bid": "KlDTYlU0u"
+    },
+    {
+        "startDate": "2021-07-02",
+        "endDate": "2021-07-16",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "终夜明辉"
+        ],
+        "bid": "Kkzw7tvC5"
+    },
+    {
+        "startDate": "2021-07-08",
+        "endDate": "2021-08-02",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "羞赧",
+            "侧目",
+            "笑意盎然",
+            "迟疑"
+        ],
+        "bid": "Knt61oxEX"
+    },
+    {
+        "startDate": "2021-07-15",
+        "endDate": "2021-08-02",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "夜落星河",
+            "千灯如昼",
+            "相思情长",
+            "心有千千结",
+            "不渝",
+            "明暗之境",
+            "意笔明心",
+            "虚诞盛宴"
+        ],
+        "bid": "KoAykpdXP",
+        "bv": "BV1Bw411d7fx"
+    },
+    {
+        "startDate": "2021-07-16",
+        "endDate": "2021-07-30",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "松雪童话"
+        ],
+        "bid": "KoPhSlkpU"
+    },
+    {
+        "startDate": "2021-07-30",
+        "endDate": "2021-08-13",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "一步之遥"
+        ],
+        "bid": "KqXt5Bzju"
+    },
+    {
+        "startDate": "2021-08-03",
+        "endDate": "2021-08-15",
+        "type": "MINIGAME",
+        "server": "CN",
+        "cards": [
+            "重逢",
+            "你的声音",
+            "甜蜜滋味",
+            "欢欣"
+        ],
+        "bid": "KqXt5Bzju"
+    },
+    {
+        "startDate": "2021-08-05",
+        "endDate": "-",
+        "type": "MAIN-STORY",
+        "server": "CN",
+        "cards": [
+            "静默之下"
+        ],
+        "bid": "KrzzKrlzc",
+        "bv": "BV1g54y177Au"
+    },
+    {
+        "startDate": "2021-08-19",
+        "endDate": "2021-08-29",
+        "type": "RERUN",
+        "server": "CN",
+        "cards": [
+            "虹色心跳",
+            "千灯如昼",
+            "准备就绪",
+            "铃音予梦",
+            "心有千千结",
+            "一切有我",
+            "心悬一线",
+            "明暗之境",
+            "另一面",
+            "悸乱微光",
+            "虚诞盛宴",
+            "游刃有余"
+        ],
+        "bid": "KtHyg4Hx4"
+    },
+    {
+        "startDate": "2021-08-27",
+        "endDate": "2021-09-06",
+        "type": "FIELDWORK",
+        "server": "CN",
+        "cards": [
+            "明熹"
+        ],
+        "bid": "KvdQ59dxQ"
+    },
+    {
+        "startDate": "2021-09-06",
+        "endDate": "2021-09-16",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "妄夜之魇"
+        ],
+        "bid": "KwrfImG6U"
+    },
+    {
+        "startDate": "2021-09-17",
+        "endDate": "2021-09-22",
+        "type": "RERUN",
+        "server": "CN",
+        "cards": [
+            "舞夜流光",
+            "装扮"
+        ],
+        "bid": "Ky6YazC1b"
+    },
+    {
+        "startDate": "2021-09-19",
+        "endDate": "2021-09-29",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "昔年之缚",
+            "纷落"
+        ],
+        "bid": "Kyzeq1oz4"
+    },
+    {
+        "startDate": "2021-09-24",
+        "endDate": "2021-10-08",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "苍木为意"
+        ],
+        "bid": "KztpJF32j"
+    },
+    {
+        "startDate": "2021-09-29",
+        "endDate": "2021-10-20",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "昼夜余想",
+            "千灯如昼",
+            "少年意气",
+            "炽响",
+            "心有千千结",
+            "有条不紊",
+            "渡月逐光",
+            "明暗之境",
+            "命运邀约",
+            "微芒",
+            "虚诞盛宴",
+            "王的赞许"
+        ],
+        "bid": "KAeJUtUhO",
+        "bv": "BV1zq4y1o7Zc"
+    },
+    {
+        "startDate": "2021-09-29",
+        "endDate": "2021-10-20",
+        "type": "CHARGE",
+        "server": "CN",
+        "cards": [
+            "惊情"
+        ],
+        "bid": "KAeRVuXjR"
+    },
+    {
+        "startDate": "2021-10-08",
+        "endDate": "2021-10-22",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "此心安处"
+        ],
+        "bid": "KBBnRgMKG"
+    },
+    {
+        "startDate": "2021-10-22",
+        "endDate": "2021-11-01",
+        "type": "BINGO",
+        "server": "CN",
+        "cards": [
+            "囚月",
+            "拟心",
+            "溯夜",
+            "妄罪"
+        ],
+        "bid": "KDAkzaMVG"
+    },
+    {
+        "startDate": "2021-10-22",
+        "endDate": "2021-11-05",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "惠雨归晴"
+        ],
+        "bid": "KDJrlBQFB"
+    },
+    {
+        "startDate": "2021-11-02",
+        "endDate": "2021-11-23",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "新晴",
+            "朝华惜时",
+            "纸间情眷",
+            "絮语无终"
+        ],
+        "bid": "KFpt5oE6W",
+        "bv": "BV1oU4y1F7qo"
+    },
+    {
+        "startDate": "2021-11-16",
+        "endDate": "2021-11-26",
+        "type": "FIELDWORK",
+        "server": "CN",
+        "cards": [
+            "初露"
+        ],
+        "bid": "L1zZ9ehML"
+    },
+    {
+        "startDate": "2021-11-25",
+        "endDate": "2021-11-30",
+        "type": "RERUN",
+        "server": "CN",
+        "cards": [
+            "温馥予怀",
+            "静候"
+        ],
+        "bid": "L2DZagP9Z"
+    },
+    {
+        "startDate": "2021-11-27",
+        "endDate": "2021-12-07",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "暗漪",
+            "角逐"
+        ],
+        "bid": "L36g52nLc"
+    },
+    {
+        "startDate": "2021-12-09",
+        "endDate": "2021-12-19",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "潮生情动"
+        ],
+        "bid": "L4LMqowLp"
+    },
+    {
+        "startDate": "2021-12-21",
+        "endDate": "2022-01-04",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "瑰色余温",
+            "弦光掠影",
+            "浮情燃夜",
+            "爱之浆果"
+        ],
+        "bid": "L6r4SaZ7L",
+        "bv": "BV1Xq4y1276d"
+    },
+    {
+        "startDate": "2022-01-14",
+        "endDate": "2022-01-28",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "腾霄"
+        ],
+        "bid": "LaxQpnpZP"
+    },
+    {
+        "startDate": "2022-01-20",
+        "endDate": "2022-02-10",
+        "type": "LIMITED-EVENT",
+        "server": "CN",
+        "cards": [
+            "戏影入梦",
+            "此心安处",
+            "侠客行",
+            "野有蔓草",
+            "惠雨归晴",
+            "庙堂远",
+            "灼华于归",
+            "思酿",
+            "花影深",
+            "画堂春",
+            "苍木为意",
+            "佳期会"
+        ],
+        "bid": "LbsDgmc7z"
+    },
+    {
+        "startDate": "2022-01-20",
+        "endDate": "2022-02-10",
+        "type": "LIMITED-EXCHANGE",
+        "server": "CN",
+        "cards": [
+            "琥珀昙华",
+            "掌中流光",
+            "制胜球",
+            "絮语无终",
+            "相伴",
+            "共赏",
+            "祈愿",
+            "胜券在握",
+            "重逢",
+            "你的声音",
+            "甜蜜滋味",
+            "欢欣"
+        ],
+        "bid": "LbjgQa3yF"
+    }
+]

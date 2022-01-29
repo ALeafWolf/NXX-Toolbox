@@ -1012,6 +1012,27 @@
         "id": "洞察秋毫γ Ⅲ"
     },
     {
+        "ref": "乘胜追击",
+        "name": {
+            "zh": "乘胜追击 Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "对所有观点造成说服力X%的伤害",
+            "en": "Deals X% Influence DMG to all arguments.",
+            "ko": "모두 관점에 설득력의 X% 피해를 입힌다"
+        },
+        "nums": [
+            37,
+            49.96
+        ],
+        "function": "damage up",
+        "slot": 1,
+        "id": "乘胜追击 Ⅲ"
+    },
+    {
         "ref": "张弛有度",
         "name": {
             "zh": "张弛有度 Ⅱ",
@@ -1125,6 +1146,29 @@
         "function": "defense up",
         "slot": 2,
         "id": "运筹帷幄 Ⅱ"
+    },
+    {
+        "ref": "运筹帷幄",
+        "name": {
+            "zh": "运筹帷幄 Ⅲ",
+            "en": "Strategist Ⅲ",
+            "ko": "전략 수립 Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "进入辩论时，该思绪防御力提升X",
+            "en": "Boosts this card's base Defense by X during debates",
+            "ko": "변론 입장 시 해당 생각의 기본 방어력 X 증가"
+        },
+        "nums": [
+            180,
+            963
+        ],
+        "function": "defense up",
+        "slot": 2,
+        "id": "运筹帷幄 Ⅲ"
     },
     {
         "ref": "趋利避害",
@@ -1642,6 +1686,27 @@
         "function": "influence up",
         "slot": 2,
         "id": "盛装舞步 Ⅲ"
+    },
+    {
+        "ref": "交响奏鸣",
+        "name": {
+            "zh": "交响奏鸣 Ⅱ"
+        },
+        "character": "VYN",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "主战思绪中每有一张莫弈的思绪，该思绪的基础说服力增加X%",
+            "en": "Boosts this card's base Influence by X% for every Vyn card in the Primary Deck",
+            "ko": "주력 생각에 윤노아의 생각이 1장 있을 때마다 해당 생각의 기본 설득력 X% 증가"
+        },
+        "nums": [
+            1.28,
+            6.5
+        ],
+        "function": "influence up",
+        "slot": 2,
+        "id": "交响奏鸣 Ⅱ"
     },
     {
         "ref": "交响奏鸣",
@@ -2590,6 +2655,48 @@
         "id": "绝对理性 Ⅲ"
     },
     {
+        "ref": "正法直度",
+        "name": {
+            "zh": "正法直度 Ⅱ"
+        },
+        "character": "ARTEM",
+        "type": "GENERAL",
+        "rarity": "MR SR",
+        "description": {
+            "zh": "主战思绪中所有左然思绪的基础防御力增加X%",
+            "en": "Boosts the base Defense of all Artem cards in the Primary Deck by X%",
+            "ko": "주력 생각 중 모든 백은후 생각의 기본 방어력 X% 증가"
+        },
+        "nums": [
+            2.56,
+            12.82
+        ],
+        "function": "defense up",
+        "slot": 3,
+        "id": "正法直度 Ⅱ"
+    },
+    {
+        "ref": "正法直度",
+        "name": {
+            "zh": "正法直度 Ⅲ"
+        },
+        "character": "ARTEM",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "主战思绪中所有左然思绪的基础防御力增加X%",
+            "en": "Boosts the base Defense of all Artem cards in the Primary Deck by X%",
+            "ko": "주력 생각 중 모든 백은후 생각의 기본 방어력 X% 증가"
+        },
+        "nums": [
+            3.2,
+            15.98
+        ],
+        "function": "defense up",
+        "slot": 3,
+        "id": "正法直度 Ⅲ"
+    },
+    {
         "ref": "有条不紊",
         "name": {
             "zh": "有条不紊 Ⅱ",
@@ -2814,6 +2921,48 @@
         "function": "defense up",
         "slot": 3,
         "id": "执行总裁 Ⅲ"
+    },
+    {
+        "ref": "各方制衡",
+        "name": {
+            "zh": "各方制衡 Ⅱ"
+        },
+        "character": "MARIUS",
+        "type": "GENERAL",
+        "rarity": "MR SR",
+        "description": {
+            "zh": "主战思绪中所有陆景和思绪的基础防御力增加X%",
+            "en": "Boosts the base Defense of all Marius cards in the Primary Deck by X%",
+            "ko": "주력 생각 중 모든 유신우 생각의 기본 방어력 X% 증가"
+        },
+        "nums": [
+            2.56,
+            12.82
+        ],
+        "function": "defense up",
+        "slot": 3,
+        "id": "各方制衡 Ⅱ"
+    },
+    {
+        "ref": "各方制衡",
+        "name": {
+            "zh": "各方制衡 Ⅲ"
+        },
+        "character": "MARIUS",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "主战思绪中所有陆景和思绪的基础防御力增加X%",
+            "en": "Boosts the base Defense of all Marius cards in the Primary Deck by X%",
+            "ko": "주력 생각 중 모든 유신우 생각의 기본 방어력 X% 증가"
+        },
+        "nums": [
+            3.2,
+            15.98
+        ],
+        "function": "defense up",
+        "slot": 3,
+        "id": "各方制衡 Ⅲ"
     },
     {
         "ref": "精英教育",
@@ -3551,12 +3700,58 @@
             "ko": "상대방의 방어력 X% 감소, 지속 시간: 2라운드"
         },
         "nums": [
+            5.4,
+            27
+        ],
+        "function": "defense down",
+        "slot": 1,
+        "id": "以德服人β Ⅰ"
+    },
+    {
+        "ref": "以德服人",
+        "name": {
+            "zh": "以德服人β Ⅱ",
+            "en": "Virtuous Presence β Ⅱ",
+            "ko": "성인군자β Ⅱ"
+        },
+        "character": "GENERAL",
+        "type": "GENERAL",
+        "rarity": "MR SR",
+        "description": {
+            "zh": "使对方防御力降低X%，持续2回合",
+            "en": "Reduces the opponent's Defense by X% for 2 turn(s)",
+            "ko": "상대방의 방어력 X% 감소, 지속 시간: 2라운드"
+        },
+        "nums": [
+            6.8,
+            33.98
+        ],
+        "function": "defense down",
+        "slot": 1,
+        "id": "以德服人β Ⅱ"
+    },
+    {
+        "ref": "以德服人",
+        "name": {
+            "zh": "以德服人β Ⅲ",
+            "en": "Virtuous Presence β Ⅲ",
+            "ko": "성인군자β Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "GENERAL",
+        "rarity": "SSR",
+        "description": {
+            "zh": "使对方防御力降低X%，持续2回合",
+            "en": "Reduces the opponent's Defense by X% for 2 turn(s)",
+            "ko": "상대방의 방어력 X% 감소, 지속 시간: 2라운드"
+        },
+        "nums": [
             9,
             45
         ],
         "function": "defense down",
         "slot": 1,
-        "id": "以德服人β Ⅰ"
+        "id": "以德服人β Ⅲ"
     },
     {
         "ref": "以德服人",
@@ -3648,7 +3843,7 @@
         ],
         "function": "defense down",
         "slot": 1,
-        "id": "设问否定β Ⅱ"
+        "id": "设问否定β Ⅲ"
     },
     {
         "ref": "设问否定",

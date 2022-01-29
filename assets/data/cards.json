@@ -89,7 +89,9 @@
     {
         "ref": "温馥予怀",
         "name": {
-            "zh": "温馥予怀"
+            "zh": "温馥予怀",
+            "en": "Warm Embrace",
+            "ko": "따뜻한 품속"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -108,7 +110,9 @@
     {
         "ref": "荧荧眸光",
         "name": {
-            "zh": "荧荧眸光"
+            "zh": "荧荧眸光",
+            "en": "Twinkling Eyes",
+            "ko": "형형한 눈빛"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -127,7 +131,9 @@
     {
         "ref": "此心安处",
         "name": {
-            "zh": "此心安处"
+            "zh": "此心安处",
+            "en": "Peaceful Place",
+            "ko": "마음의 안식처"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -223,6 +229,63 @@
         ]
     },
     {
+        "ref": "暗漪",
+        "name": {
+            "zh": "暗漪"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "层层深入β Ⅲ",
+            "张弛有度 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2184,
+        "defense": 996,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "瑰色余温",
+        "name": {
+            "zh": "瑰色余温"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "以德服人β Ⅲ",
+            "敏锐观察 Ⅲ",
+            "紧急避险 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT"
+        ]
+    },
+    {
+        "ref": "戏影入梦",
+        "name": {
+            "zh": "戏影入梦"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "真相还原 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -312,7 +375,9 @@
     {
         "ref": "一步之遥",
         "name": {
-            "zh": "一步之遥"
+            "zh": "一步之遥",
+            "en": "Por Una Cabeza",
+            "ko": "Por Una Cabeza"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -332,7 +397,9 @@
     {
         "ref": "天心漫游",
         "name": {
-            "zh": "天心漫游"
+            "zh": "天心漫游",
+            "en": "Wandering Heart",
+            "ko": "자유로운 마음"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -442,6 +509,45 @@
         "defense": 1124,
         "obtainedFrom": [
             "CHARGE"
+        ]
+    },
+    {
+        "ref": "新晴",
+        "name": {
+            "zh": "新晴"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "洞察秋毫γ Ⅲ",
+            "有条不紊 Ⅲ",
+            "见微知著 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "野有蔓草",
+        "name": {
+            "zh": "野有蔓草"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "律法全能 Ⅲ",
+            "引譬连类 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
         ]
     },
     {
@@ -555,7 +661,9 @@
     {
         "ref": "焰落琉彩",
         "name": {
-            "zh": "焰落琉彩"
+            "zh": "焰落琉彩",
+            "en": "Blazing Colors",
+            "ko": "불꽃과 흩어진 빛"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -664,6 +772,44 @@
         ],
         "influence": 2120,
         "defense": 1060,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "弦光掠影",
+        "name": {
+            "zh": "弦光掠影"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "以德服人β Ⅲ",
+            "演绎推理 Ⅲ",
+            "箱庭疗法 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT"
+        ]
+    },
+    {
+        "ref": "灼华于归",
+        "name": {
+            "zh": "灼华于归"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "盛装舞步 Ⅲ",
+            "顺水推舟 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -779,7 +925,9 @@
     {
         "ref": "终夜明辉",
         "name": {
-            "zh": "终夜明辉"
+            "zh": "终夜明辉",
+            "en": "All Through the Night",
+            "ko": "밤새 비춘 불빛"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -799,7 +947,9 @@
     {
         "ref": "极光之昼",
         "name": {
-            "zh": "极光之昼"
+            "zh": "极光之昼",
+            "en": "Daytime Aurora",
+            "ko": "한낮의 오로라"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -818,7 +968,9 @@
     {
         "ref": "苍木为意",
         "name": {
-            "zh": "苍木为意"
+            "zh": "苍木为意",
+            "en": "Will of the Trees",
+            "ko": "푸른 나무의 의미"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -890,6 +1042,84 @@
         "defense": 1060,
         "obtainedFrom": [
             "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "朝华惜时",
+        "name": {
+            "zh": "朝华惜时"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "以理服人γ Ⅲ",
+            "精英教育 Ⅲ",
+            "纵横捭阖 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "潮生情动",
+        "name": {
+            "zh": "潮生情动"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "以德服人γ Ⅲ",
+            "年少锋锐 Ⅲ",
+            "防微虑远 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "画堂春",
+        "name": {
+            "zh": "画堂春"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅲ",
+            "年少锋锐 Ⅲ",
+            "防微虑远 Ⅲ"
+        ],
+        "influence": 2226,
+        "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "镌痕",
+        "name": {
+            "zh": "镌痕"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "层层深入γ Ⅲ",
+            "运筹帷幄 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "CHARGE"
         ]
     },
     {
@@ -1070,7 +1300,9 @@
     {
         "ref": "掌中流光",
         "name": {
-            "zh": "掌中流光"
+            "zh": "掌中流光",
+            "en": "A Star in the Palm",
+            "ko": "빛을 담아"
         },
         "type": "EMPATHY",
         "rarity": "SR",
@@ -1084,6 +1316,26 @@
         "defense": 712,
         "obtainedFrom": [
             "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "纸间情眷",
+        "name": {
+            "zh": "纸间情眷"
+        },
+        "type": "EMPATHY",
+        "rarity": "SR",
+        "character": "LUKE",
+        "skills": [
+            "循循善诱α Ⅱ",
+            "瞬间捕捉 Ⅱ",
+            "击其薄弱 Ⅱ"
+        ],
+        "influence": 1536,
+        "defense": 839,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
@@ -1300,6 +1552,25 @@
         ]
     },
     {
+        "ref": "浮情燃夜",
+        "name": {
+            "zh": "浮情燃夜"
+        },
+        "type": "EMPATHY",
+        "rarity": "SR",
+        "character": "ARTEM",
+        "skills": [
+            "以德服人β Ⅱ",
+            "情绪感染 Ⅱ",
+            "正法直度 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 791,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "虚妄之泪",
         "name": {
             "zh": "虚妄之泪",
@@ -1476,7 +1747,9 @@
     {
         "ref": "松雪童话",
         "name": {
-            "zh": "松雪童话"
+            "zh": "松雪童话",
+            "en": "Snowy Fairy Tale",
+            "ko": "겨울 이야기"
         },
         "type": "INTUITION",
         "rarity": "SR",
@@ -1491,6 +1764,25 @@
         "obtainedFrom": [
             "EVENT",
             "ROTATION"
+        ]
+    },
+    {
+        "ref": "絮语无终",
+        "name": {
+            "zh": "絮语无终"
+        },
+        "type": "EMPATHY",
+        "rarity": "SR",
+        "character": "VYN",
+        "skills": [
+            "循循善诱α Ⅱ",
+            "交响奏鸣 Ⅱ",
+            "击其薄弱 Ⅱ"
+        ],
+        "influence": 1356,
+        "defense": 839,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
         ]
     },
     {
@@ -1686,6 +1978,26 @@
         ]
     },
     {
+        "ref": "爱之浆果",
+        "name": {
+            "zh": "爱之浆果"
+        },
+        "type": "爱之浆果",
+        "rarity": "SR",
+        "character": "MARIUS",
+        "skills": [
+            "以德服人β Ⅱ",
+            "情绪感染 Ⅱ",
+            "各方制衡 Ⅱ"
+        ],
+        "influence": 1583,
+        "defense": 791,
+        "obtainedFrom": [
+            "ROTATION",
+            "EVENT"
+        ]
+    },
+    {
         "ref": "陪伴",
         "name": {
             "zh": "陪伴"
@@ -1783,7 +2095,9 @@
     {
         "ref": "舒展",
         "name": {
-            "zh": "舒展"
+            "zh": "舒展",
+            "en": "Stretching",
+            "ko": "기지개"
         },
         "type": "EMPATHY",
         "rarity": "MR",
@@ -1859,7 +2173,9 @@
     {
         "ref": "朝颜",
         "name": {
-            "zh": "朝颜"
+            "zh": "朝颜",
+            "en": "Morning Glory",
+            "ko": "나팔꽃"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -1966,6 +2282,25 @@
         ],
         "influence": 1658,
         "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "初露",
+        "name": {
+            "zh": "初露"
+        },
+        "type": "LOGIC",
+        "rarity": "MR",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "年少锋锐 Ⅱ",
+            "滴水不漏 Ⅱ"
+        ],
+        "influence": 1604,
+        "defense": 928,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -2161,7 +2496,9 @@
     {
         "ref": "静候",
         "name": {
-            "zh": "静候"
+            "zh": "静候",
+            "en": "Quietly Waiting",
+            "ko": "조용한 기다림"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2179,7 +2516,9 @@
     {
         "ref": "温馨小屋",
         "name": {
-            "zh": "温馨小屋"
+            "zh": "温馨小屋",
+            "en": "Warm Home",
+            "ko": "따뜻한 오두막"
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -2215,7 +2554,9 @@
     {
         "ref": "注视",
         "name": {
-            "zh": "注视"
+            "zh": "注视",
+            "en": "Gaze",
+            "ko": "주시"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2280,6 +2621,42 @@
         ],
         "influence": 863,
         "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "角逐",
+        "name": {
+            "zh": "角逐"
+        },
+        "type": "LOGIC",
+        "rarity": "R",
+        "character": "LUKE",
+        "skills": [
+            "设问否定γ Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 837,
+        "defense": 457,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "侠客行",
+        "name": {
+            "zh": "侠客行"
+        },
+        "type": "LOGIC",
+        "rarity": "R",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -2475,7 +2852,9 @@
     {
         "ref": "心际飞行",
         "name": {
-            "zh": "心际飞行"
+            "zh": "心际飞行",
+            "en": "My Heart Is Flying",
+            "ko": "날아오른 마음"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2594,6 +2973,24 @@
         ],
         "influence": 863,
         "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "庙堂远",
+        "name": {
+            "zh": "庙堂远"
+        },
+        "type": "EMPATHY",
+        "rarity": "R",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -2789,7 +3186,9 @@
     {
         "ref": "装扮",
         "name": {
-            "zh": "装扮"
+            "zh": "装扮",
+            "en": "Dressed Up",
+            "ko": "단장"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -2807,7 +3206,9 @@
     {
         "ref": "秘密贺礼",
         "name": {
-            "zh": "秘密贺礼"
+            "zh": "秘密贺礼",
+            "en": "Secret Gift",
+            "ko": "비밀 선물"
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -2926,6 +3327,24 @@
         ],
         "influence": 863,
         "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "花影深",
+        "name": {
+            "zh": "花影深"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -3121,7 +3540,9 @@
     {
         "ref": "迷思",
         "name": {
-            "zh": "迷思"
+            "zh": "迷思",
+            "en": "Myth",
+            "ko": "신화"
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -3157,7 +3578,9 @@
     {
         "ref": "定格",
         "name": {
-            "zh": "定格"
+            "zh": "定格",
+            "en": "Freeze-Frame",
+            "ko": "정지"
         },
         "type": "INTUITION",
         "rarity": "R",
@@ -3240,6 +3663,24 @@
         ],
         "influence": 863,
         "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "佳期会",
+        "name": {
+            "zh": "佳期会"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 906,
+        "defense": 389,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
