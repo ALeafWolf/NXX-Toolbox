@@ -1139,5 +1139,130 @@
             "迷涂炫彩"
         ],
         "bid": "LcFMZBMj6"
+    },
+    {
+        "startDate": "2022-02-11",
+        "endDate": "2022-02-25",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "咫尺远近",
+            "冤家路窄",
+            "完美营救",
+            "冷暖心知"
+        ],
+        "twitter": "1491713554780770307"
+    },
+    {
+        "startDate": "2022-02-11",
+        "endDate": "2022-02-25",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "最佳拍档",
+            "眸中景",
+            "人间烟火",
+            "塑心"
+        ],
+        "bid": "LeNLWkGem"
+    },
+    {
+        "startDate": "2022-02-18",
+        "endDate": "2022-02-28",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "好愿成双",
+            "醉意入怀"
+        ],
+        "bid": "Lfzj7drPL"
+    },
+    {
+        "startDate": "2022-02-25",
+        "endDate": "2022-03-13",
+        "type": "EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "惠雨归晴",
+            "思酿"
+        ],
+        "twitter": "1496666187383644160",
+        "youtube": "https://www.youtube.com/watch?v=-_6Al9edUGc"
+    },
+    {
+        "startDate": "2022-02-25",
+        "endDate": "2022-03-10",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "微醺视线",
+            "醉意入怀",
+            "水“逆”",
+            "弦外之音"
+        ],
+        "twitter": "1496786987495276547"
+    },
+    {
+        "startDate": "2022-02-25",
+        "endDate": "2022-03-10",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "千灯如昼",
+            "危情邀约",
+            "冷暖心知",
+            "底比斯之梦"
+        ],
+        "bid": "LgVKXtkvR"
+    },
+    {
+        "startDate": "2022-03-18",
+        "endDate": "2022-03-28",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "执愿",
+            "沁甜绮想"
+        ],
+        "bid": "Lfzj7drPL",
+        "bv": "BV1kR4y1V7Z4"
+    },
+    {
+        "startDate": "2022-03-10",
+        "endDate": "2022-03-24",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "心跳记忆",
+            "危情邀约",
+            "斑斓光影",
+            "底比斯之梦"
+        ],
+        "twitter": "1501739616587628549"
+    },
+    {
+        "startDate": "2022-03-10",
+        "endDate": "2022-03-24",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "心有千千结",
+            "咫尺远近",
+            "完美营救",
+            "童心攻势"
+        ],
+        "bid": "Lj3FWfHm5"
+    },
+    {
+        "startDate": "2022-03-17",
+        "endDate": "2022-03-27",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "欲愈",
+            "咫尺远近"
+        ],
+        "bid": "Ljdz2FhNw",
+        "bv": "BV1rP4y1M7Ku"
     }
 ]
