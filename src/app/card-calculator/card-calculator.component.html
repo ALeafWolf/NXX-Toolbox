@@ -5,7 +5,7 @@
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-10 text-center bg-dark p-4 my-2">
+    <div class="col-10 text-center bg-main p-4 my-2">
         <h6 class="smallFont" [innerHTML]="'CARD-CALCULATOR.INFO' | translate"></h6>
     </div>
 </div>
@@ -14,12 +14,12 @@
         <a routerLink="/card-calculator" (click)="clearAllSavedData()">
             <img class="img-fluid" src="assets/images/btn_delete.png">
         </a>
-        <div class="bg-dark px-3 pt-2 ml-2 text-center">
+        <div class="bg-main px-3 pt-2 ml-2 text-center">
             <h4>{{'CARD-CALCULATOR.POWER' | translate}} {{totalPower}}</h4>
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-11 col-md-9 col-lg-4 bg-dark my-2 p-2 text-center" id="skill-summary">
+        <div class="col-11 col-md-9 col-lg-4 bg-main my-2 p-2 text-center" id="skill-summary">
             <div class="col border-bottom border-secondary">
                 <h5 class="font-weight-bold">{{'CARD-CALCULATOR.SKILL-SUMMARY' | translate}}</h5>
             </div>

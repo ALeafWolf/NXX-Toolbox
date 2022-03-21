@@ -21,7 +21,7 @@
     
     <div class="col-5 col-md-6 row justify-content-around">
         <div class="col-12 col-sm-11 col-md-7 col-lg-5 mb-1">
-            <div class="bg-dark text-center py-2">
+            <div class="bg-main text-center py-2">
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
                 <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
@@ -30,7 +30,7 @@
     </div>
 
     <div class="col-7 col-md-6 row justify-content-around text-center">
-        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center" id="card-info">
+        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center bg-main" id="card-info">
             <tr>
                 <th>{{'KEYWORD.RARITY' | translate}}</th>
                 <td>{{card.rarity}}</td>
@@ -68,7 +68,7 @@
                 </td>
             </tr>
         </table>
-        <table class="col-12 col-lg-6 table table-sm table-dark text-center gridItem" id="skill-info">
+        <table class="col-12 col-lg-6 table table-sm table-dark text-center gridItem bg-main" id="skill-info">
             <thead>
                 <tr>
                     <th colspan="3">
@@ -76,7 +76,6 @@
                     </th>
                 </tr>
             </thead>
-            <!-- <tbody *ngFor="let s of card.skills"> -->
             <tbody *ngFor="let s of card.skillObj">
                 <tr>
                     <td rowspan="2">
@@ -92,14 +91,12 @@
                     </td>
 
                     <td rowspan="2">
-                        <!-- {{skills[card.skills.indexOf(s)]}} -->
                         {{skills[card.skillObj.indexOf(s)]}}
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
                         <span class="smallFont">
-                            <!-- {{skillsInfo[card.skills.indexOf(s)]}} -->
                             {{skillsInfo[card.skillObj.indexOf(s)]}}
                         </span>
                     </td>
