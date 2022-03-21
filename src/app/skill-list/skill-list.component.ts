@@ -1,25 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
-import { Apollo, gql } from 'apollo-angular';
-
-const GET_SKILLS = gql`
-  query GetSkills{
-    skills(limit: 1000, sortBy: _ID_ASC){
-      name
-      _id 
-      ref
-      character
-      type
-      rarity
-      description
-      nums
-      function
-      slot
-      id
-    }
-  }
-`;
 
 @Component({
   selector: 'app-skill-list',
@@ -39,7 +20,7 @@ export class SkillListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService, private _apollo: Apollo) { }
+  constructor(private _data: DataService) { }
 
   ngOnInit(): void {
     this.lang = localStorage.getItem('language');
@@ -47,19 +28,6 @@ export class SkillListComponent implements OnInit {
   }
 
   loadData() {
-    // GraphQL
-    // const query = GET_SKILLS;
-
-    // this._apollo.query({
-    //   query
-    // }).toPromise().then((result: any) => {
-    //   this.configureSkillWithLang(result.data.skills);
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
     // RESTful
     this._data.getSkills().toPromise().then((data: any[]) => {
       this.configureSkillWithLang(data)

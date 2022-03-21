@@ -1,33 +1,5 @@
 import { Component, OnInit, HostListener } from '@angular/core';
-import { Apollo, gql } from 'apollo-angular';
 import { DataService } from '../services/data/data.service';
-
-// const GET_MERCHES = gql`
-//   query GetMerchs{
-//     merches(limit: 1000, sortBy: _ID_ASC) 
-//       {
-//         _id
-//         images
-//         name
-//         price
-//         sellDate
-//         character
-//         series{
-//           name
-//           type
-//           sellTime
-//         }
-//       }
-//   }
-// `;
-
-// const GET_MERCH_SERIES = gql`
-//   query GetMerchSeries{
-//     merch_seriess(limit: 1000, sortBy: _ID_ASC){
-//       name
-//     }
-//   }
-// `;
 
 @Component({
   selector: 'app-merch-list',
@@ -48,25 +20,13 @@ export class MerchListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _apollo: Apollo, private _data: DataService) { }
+  constructor(private _data: DataService) { }
 
   ngOnInit(): void {
     this.loadData();
   }
 
   loadData() {
-    // GraphQL
-    // this._apollo.query({
-    //   query: GET_MERCHES
-    // }).toPromise().then((result: any) => {
-    //   this.merches = result.data.merches;
-    //   this.allMerches = result.data.merches;
-    //   this.loadSeries();
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
     // RESTful
     this._data.getMerchs().toPromise().then((merchs: any[]) => {
       this.merches = merchs;
@@ -79,16 +39,6 @@ export class MerchListComponent implements OnInit {
   }
 
   loadSeries() {
-    // this._apollo.query({
-    //   query: GET_MERCH_SERIES
-    // }).toPromise().then((result: any) => {
-    //   this.allSeries = result.data.merch_seriess;
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
     this._data.getMerchSeries().toPromise().then((series: any[]) => {
       this.allSeries = series;
       this.isLoaded = true;

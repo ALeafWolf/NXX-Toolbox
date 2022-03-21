@@ -1,30 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { GlobalVariable } from '../global-variable';
-import { sortSkill } from '../model/card-statistics';
-import { Apollo, gql } from 'apollo-angular';
 import { DataService } from '../services/data/data.service';
-
-const GET_CARDS = gql`
-  query GetCards{
-    cards(limit: 1000, sortBy: _ID_ASC){
-      _id
-      id
-      name
-      type
-      rarity
-      character
-      skills
-      {
-        _id
-        ref
-        name
-        slot
-        id
-      }
-      obtainedFrom
-    }
-  }
-`;
 
 @Component({
   selector: 'app-card-list',
@@ -48,7 +24,7 @@ export class CardListComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _apollo: Apollo, private _data: DataService) {
+  constructor(private _data: DataService) {
 
   }
 
@@ -58,19 +34,7 @@ export class CardListComponent implements OnInit {
   }
 
   loadData() {
-    // GraphQL
-    // const query = GET_CARDS;
-    // this._apollo.query({
-    //   query
-    // }).toPromise().then((result: any) => {
-    //   this.loadCardWithLang(result.data.cards);
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
-    // RESTful
+  // RESTful
     this._data.getCards().toPromise().then((cards: any[]) => {
       this.loadCardWithLang(cards);
       this.isLoaded = true;
@@ -85,8 +49,6 @@ export class CardListComponent implements OnInit {
     cards.forEach(card => {
       let c = { ...card };
       c.n = card.name[this.lang] ?? card.name.zh;
-      // for GraphQL
-      // c.skills = sortSkill(card.id, card.skills, card.rarity);
       cs.push(c);
     })
     this.allCards = cs;

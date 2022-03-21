@@ -1,33 +1,7 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SEOService } from '../services/seo/seo.service';
-import { Apollo, gql } from 'apollo-angular';
 import { DataService } from '../services/data/data.service';
-
-// const GET_MERCH = gql`
-//   query GetMerch($query: MerchQueryInput!){
-//     merch(query: $query){
-//       _id
-//         images
-//         name
-//         price
-//         productSize
-//         productMaterial
-//         productTechnology
-//         productPacking
-//         productDescription
-//         sellDate
-//         series{
-//           name
-//           type
-//           sellTime
-//         }
-//         tmall
-//         weibo
-//         hoyolab
-//     }
-//   }
-// `;
 
 @Component({
   selector: 'app-merch-detail',
@@ -45,7 +19,7 @@ export class MerchDetailComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _route: ActivatedRoute, private _apollo: Apollo, private _seoService: SEOService, private _data: DataService) { }
+  constructor(private _route: ActivatedRoute, private _seoService: SEOService, private _data: DataService) { }
 
   ngOnInit(): void {
     this._id = this._route.snapshot.queryParamMap.get('id') as String;
@@ -54,20 +28,6 @@ export class MerchDetailComponent implements OnInit {
   }
 
   loadData() {
-    // this._apollo.query({
-    //   query: GET_MERCH,
-    //   variables: {
-    //     query: { _id: this._id }
-    //   },
-    // }).toPromise().then((result: any) => {
-    //   this.merch = result.data.merch;
-    //   this.setTitle();
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // })
-
     this._data.getMerch(this._id).toPromise().then((merch) => {
       this.merch = merch;
       this.setTitle();

@@ -5,31 +5,6 @@ import { DataService } from '../services/data/data.service';
 import { SEOService } from '../services/seo/seo.service';
 import { CardInfo } from '../model/card-statistics';
 import { GlobalVariable } from '../global-variable';
-import { sortSkill } from '../model/card-statistics';
-import { Apollo, gql } from 'apollo-angular';
-
-const GET_CARD = gql`
-  query GetCard($query: CardQueryInput){
-    card(query: $query){
-      id
-      name
-      type
-      rarity
-      character
-      skills{
-        _id
-        ref
-        name
-        description
-        nums
-        slot
-        id
-      }
-      influence
-      defense
-    }
-  }
-`;
 
 @Component({
   selector: 'app-card-value',
@@ -69,7 +44,7 @@ export class CardValueComponent implements OnInit {
 
   imgURL = GlobalVariable.imgURL;
 
-  constructor(private _route: ActivatedRoute, private _data: DataService, private _apollo: Apollo, private _seoService: SEOService) { }
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) { }
 
   ngOnInit(): void {
     this._id = this._route.snapshot.queryParamMap.get('id') as String;
@@ -78,36 +53,6 @@ export class CardValueComponent implements OnInit {
   }
 
   loadData() {
-    // GraphQL
-    // const query = GET_CARD;
-
-    // this._apollo.query({
-    //   query,
-    //   variables: {
-    //     query: { _id: this._id }
-    //   },
-    // }).toPromise().then((cResult: any) => {
-    //   this.card = { ...cResult.data.card };
-    //   if (this.card) {
-    //     this.card.skills = sortSkill(this.card.id, this.card.skills, this.card.rarity);
-    //     this.att = this.card.influence;
-    //     this.def = this.card.defense;
-    //     this.userData = JSON.parse(this._data.getItem(this.card.id));
-    //     if (this.userData) {
-    //       this.loadUserData();
-    //     }
-    //     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-    //     this.configureCardLanguage();
-    //     this.setTitle();
-    //     this.setSkillDisplay();
-    //     this.lv = this.card.rarity == "R" ? 70 : 100;
-    //   }
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
     this._data.getCard(this._id).toPromise().then((card: any) => {
       this.card = card;
       if (this.card) {
@@ -173,8 +118,6 @@ export class CardValueComponent implements OnInit {
       r = 2;
     }
     for (let i = 0; i < r; i++) {
-      // for GraphQL
-      // let skill = this.card.skills[i];
       let skill = this.card.skillObj[i];
       let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0];
       num = Number.parseFloat(num.toFixed(2));

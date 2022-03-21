@@ -1,28 +1,6 @@
 import { Component, OnInit, HostListener } from '@angular/core';
 import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
-import { Apollo, gql } from 'apollo-angular';
-
-const GET_POOLS = gql`
-  query GetPools{
-    card_pool_histories(limit: 1000, sortBy: _ID_ASC){
-      startDate
-      endDate
-      type
-      server
-      cards{
-        id
-        _id
-        character
-        name
-      }
-      bid 
-      bv
-      twitter 
-      youtube
-    }
-  }
-`;
 
 @Component({
   selector: 'app-card-pool-history',
@@ -51,7 +29,7 @@ export class CardPoolHistoryComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _data: DataService, private _apollo: Apollo) { }
+  constructor(private _data: DataService) { }
 
   ngOnInit(): void {
     this.lang = localStorage.getItem('language');
@@ -59,19 +37,6 @@ export class CardPoolHistoryComponent implements OnInit {
   }
 
   loadData() {
-    // GraphQL
-    // const query = GET_POOLS;
-
-    // this._apollo.query({
-    //   query
-    // }).toPromise().then((result: any) => {
-    //   this.configurePoolWithLang(result.data.card_pool_histories);
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
     // RESTful
     this._data.getVisionHistory().toPromise().then((pools: any[]) => {
       this.configurePoolWithLang(pools);

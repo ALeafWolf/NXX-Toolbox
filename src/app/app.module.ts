@@ -13,7 +13,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatTabsModule } from '@angular/material/tabs';
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
-import { GraphQLModule } from './graphql.module';
 import { NgxEchartsModule } from 'ngx-echarts';
 
 import { CardSelectionComponent } from './card-selection/card-selection.component';
@@ -82,7 +81,6 @@ export function HttpLoaderFactory(http: HttpClient) {
       echarts: () => import('echarts')
     }),
     AppRoutingModule,
-    GraphQLModule
   ],
   providers: [Meta],
   bootstrap: [AppComponent]

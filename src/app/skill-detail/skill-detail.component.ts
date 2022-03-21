@@ -3,33 +3,6 @@ import { ActivatedRoute } from '@angular/router';
 import { SEOService } from '../services/seo/seo.service';
 import { DataService } from '../services/data/data.service';
 import { GlobalVariable } from '../global-variable';
-import { Apollo, gql } from 'apollo-angular';
-
-const GET_SKILL = gql`
-  query GetSkill($query: SkillQueryInput){
-    skill(query: $query){
-      ref
-      name
-      nums
-      description
-      id
-    }
-  }
-`;
-
-const GET_CARDS = gql`
-  query GetCards{
-    cards(limit: 1000, sortBy: _ID_ASC){
-      _id
-      id
-      character
-      skills
-      {
-        id
-      }
-    }
-  }
-`;
 
 @Component({
   selector: 'app-skill-detail',
@@ -50,7 +23,7 @@ export class SkillDetailComponent implements OnInit {
   imgURL = GlobalVariable.imgURL;
   isLoaded = false;
 
-  constructor(private _route: ActivatedRoute, private _data: DataService, private _apollo: Apollo, private _seoService: SEOService) {
+  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
     this.name = this._route.snapshot.params.name;
   }
 
@@ -61,24 +34,7 @@ export class SkillDetailComponent implements OnInit {
   }
 
   loadData() {
-    // GraphQL
-    // const query = GET_SKILL;
-    // this._apollo.query({
-    //   query,
-    //   variables: {
-    //     query: { _id: this._id }
-    //   },
-    // }).toPromise().then((result: any) => {
-    //   this.configureSkillWithLang(result.data.skill);
-    //   this.setTitle();
-    //   this.getSkillStatistic();
-    //   this.getCardsWithSkill();
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
-    // RESTful
+  // RESTful
     this._data.getSkill(this._id).toPromise().then((skill: any) => {
       this.configureSkillWithLang(skill);
       this.setTitle();
@@ -123,20 +79,6 @@ export class SkillDetailComponent implements OnInit {
 
   //get card which has this skill
   getCardsWithSkill() {
-    // GraphQL
-    // this._apollo.query({
-    //   query: GET_CARDS
-    // }).toPromise().then((result: any) => {
-    //   result.data.cards.forEach((card: any) => {
-    //     card.skills.forEach(s => {
-    //       if (s.id == this.skill.id) {
-    //         this.cards.push(card);
-    //       }
-    //     })
-    //   });
-    //   this.isLoaded = true;
-    // });
-
     this._data.getCards().toPromise().then((cards: any[]) => {
       cards.forEach((card: any) => {
         card.skillObj.forEach(s => {

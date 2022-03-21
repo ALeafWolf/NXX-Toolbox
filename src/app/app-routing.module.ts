@@ -15,47 +15,39 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MerchListComponent } from './merch-list/merch-list.component';
 import { MerchDetailComponent } from './merch-detail/merch-detail.component';
-// import { RealmAuthGuard } from './realm-auth-guard';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: '',
     component: HomeComponent,
   },
   {
     path: 'card-calculator',
     component: CardCalculatorComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'cards',
     component: CardListComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'skills',
     component: SkillListComponent,
-    // canActivate: [RealmAuthGuard]
   }, 
   {
     path: 'skill',
     component: SkillDetailComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-selection',
     component: CardSelectionComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-value',
     component: CardValueComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-value-setting',
     component: CardValueSettingComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'other',
@@ -64,7 +56,6 @@ const routes: Routes = [
   {
     path: 'vision-history',
     component: CardPoolHistoryComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'card-rss-calculator',
@@ -73,14 +64,11 @@ const routes: Routes = [
   {
     path: 'merch-list',
     component: MerchListComponent,
-    // canActivate: [RealmAuthGuard]
   },
   {
     path: 'merch-detail',
     component: MerchDetailComponent,
-    // canActivate: [RealmAuthGuard]
   },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
   {
     path: '**',
     component: PageNotFoundComponent,

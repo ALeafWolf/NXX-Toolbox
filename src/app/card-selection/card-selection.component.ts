@@ -1,19 +1,6 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { GlobalVariable } from '../global-variable';
-import { Apollo, gql } from 'apollo-angular';
 import { DataService } from '../services/data/data.service';
-
-const GET_CARDS = gql`
-  query GetCards{
-    cards(limit: 1000, sortBy: _ID_ASC){
-      _id
-      id
-      type
-      rarity
-      character
-    }
-  }
-`;
 
 @Component({
   selector: 'app-card-selection',
@@ -34,7 +21,7 @@ export class CardSelectionComponent implements OnInit {
     this.setToTopButtonDisplay()
   }
 
-  constructor(private _apollo: Apollo, private _data: DataService) { }
+  constructor(private _data: DataService) { }
 
   ngOnInit(): void {
     this.userData = Object.keys(localStorage);
@@ -42,20 +29,6 @@ export class CardSelectionComponent implements OnInit {
   }
 
   loadData() {
-    // this._apollo.query({
-    //   query: GET_CARDS
-    // }).toPromise().then((result: any) => {
-    //   this.allCards = result.data.cards;
-    //   if (this.userData) {
-    //     this.removeChosenCard();
-    //   }
-    //   this.cards = this.allCards;
-    //   this.isLoaded = true;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
-
     this._data.getCards().toPromise().then((cards: any[]) => {
       this.allCards = cards;
       if (this.userData) {
