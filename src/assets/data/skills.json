@@ -1022,7 +1022,7 @@
         "description": {
             "zh": "对所有观点造成说服力X%的伤害",
             "en": "Deals X% Influence DMG to all arguments.",
-            "ko": "모두 관점에 설득력의 X% 피해를 입힌다"
+            "ko": "모든 관점에 설득력의 X% 피해를 입힌다"
         },
         "nums": [
             37,
@@ -1289,7 +1289,8 @@
         "ref": "真相还原",
         "name": {
             "zh": "真相还原 Ⅱ",
-            "en": "Truth Restorer Ⅱ"
+            "en": "Truth Restorer Ⅱ",
+            "ko": "진실 복원 Ⅱ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -1311,7 +1312,8 @@
         "ref": "真相还原",
         "name": {
             "zh": "真相还原 Ⅲ",
-            "en": "Truth Restorer Ⅲ"
+            "en": "Truth Restorer Ⅲ",
+            "ko": "진실 복원 Ⅲ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -1559,7 +1561,8 @@
         "ref": "人格侧写",
         "name": {
             "zh": "人格侧写 Ⅱ",
-            "en": "Personality Profiler Ⅱ"
+            "en": "Personality Profiler Ⅱ",
+            "ko": "인격 프로파일링 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1581,7 +1584,8 @@
         "ref": "人格侧写",
         "name": {
             "zh": "人格侧写 Ⅲ",
-            "en": "Personality Profiler Ⅱ"
+            "en": "Personality Profiler Ⅲ",
+            "ko": "인격 프로파일링 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1695,7 +1699,8 @@
         "ref": "交响奏鸣",
         "name": {
             "zh": "交响奏鸣 Ⅱ",
-            "en": "Symphony Ⅱ"
+            "en": "Symphony Ⅱ",
+            "ko": "교향 소나타 Ⅱ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1717,7 +1722,8 @@
         "ref": "交响奏鸣",
         "name": {
             "zh": "交响奏鸣 Ⅲ",
-            "en": "Symphony Ⅲ"
+            "en": "Symphony Ⅲ",
+            "ko": "교향 소나타 Ⅲ"
         },
         "character": "VYN",
         "type": "GENERAL",
@@ -1785,7 +1791,8 @@
         "ref": "名利博弈",
         "name": {
             "zh": "名利博弈 Ⅱ",
-            "en": "Game of Fortune Ⅱ"
+            "en": "Game of Fortune Ⅱ",
+            "ko": "명리 게임 Ⅱ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -1807,7 +1814,8 @@
         "ref": "名利博弈",
         "name": {
             "zh": "名利博弈 Ⅲ",
-            "en": "Game of Fortune Ⅱ"
+            "en": "Game of Fortune Ⅲ",
+            "ko": "명리 게임 Ⅲ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -2494,7 +2502,8 @@
         "ref": "体能超群",
         "name": {
             "zh": "体能超群 Ⅱ",
-            "en": "Superior Stamina Ⅱ"
+            "en": "Superior Stamina Ⅱ",
+            "ko": "뛰어난 체력 Ⅱ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2516,7 +2525,8 @@
         "ref": "体能超群",
         "name": {
             "zh": "体能超群 Ⅲ",
-            "en": "Superior Stamina Ⅲ"
+            "en": "Superior Stamina Ⅲ",
+            "ko": "뛰어난 체력 Ⅲ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2538,7 +2548,8 @@
         "ref": "古物修复",
         "name": {
             "zh": "古物修复 Ⅱ",
-            "en": "Antique Repairer Ⅱ"
+            "en": "Antique Repairer Ⅱ",
+            "ko": "골동품 복원 Ⅱ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2560,7 +2571,8 @@
         "ref": "古物修复",
         "name": {
             "zh": "古物修复 Ⅲ",
-            "en": "Antique Repairer Ⅲ"
+            "en": "Antique Repairer Ⅲ",
+            "ko": "골동품 복원 Ⅲ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2984,7 +2996,8 @@
         "ref": "精英教育",
         "name": {
             "zh": "精英教育 Ⅱ",
-            "en": "Elite Education Ⅱ"
+            "en": "Elite Education Ⅱ",
+            "ko": "엘리트 교육 Ⅱ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -3006,7 +3019,8 @@
         "ref": "精英教育",
         "name": {
             "zh": "精英教育 Ⅲ",
-            "en": "Elite Education Ⅲ"
+            "en": "Elite Education Ⅲ",
+            "ko": "엘리트 교육 Ⅲ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -3346,7 +3360,8 @@
         "ref": "因势利导",
         "name": {
             "zh": "因势利导 Ⅱ",
-            "en": "Advantage Taker Ⅱ"
+            "en": "Advantage Taker Ⅱ",
+            "ko": "유리함 유도 Ⅱ"
         },
         "character": "GENERAL",
         "type": "LOGIC",
@@ -3368,7 +3383,8 @@
         "ref": "因势利导",
         "name": {
             "zh": "因势利导 Ⅲ",
-            "en": "Advantage Taker Ⅲ"
+            "en": "Advantage Taker Ⅲ",
+            "ko": "유리함 유도 Ⅲ"
         },
         "character": "GENERAL",
         "type": "LOGIC",
@@ -3528,7 +3544,8 @@
         "ref": "本能回避",
         "name": {
             "zh": "本能回避 Ⅱ",
-            "en": "Avoidance Instinct Ⅱ"
+            "en": "Avoidance Instinct Ⅱ",
+            "ko": "본능적 회피 Ⅱ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
@@ -3550,7 +3567,8 @@
         "ref": "本能回避",
         "name": {
             "zh": "本能回避 Ⅲ",
-            "en": "Avoidance Instinct Ⅲ"
+            "en": "Avoidance Instinct Ⅲ",
+            "ko": "본능적 회피 Ⅲ"
         },
         "character": "GENERAL",
         "type": "INTUITION",
