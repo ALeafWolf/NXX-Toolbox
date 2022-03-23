@@ -11,78 +11,83 @@ export class DataService {
 
   constructor(private _http: HttpClient) { }
 
-  getUpdateLog(){
+  getUpdateLog() {
     return this._http.get('assets/data/update-log.json');
   }
 
   //load data from api
-  getCards(){
+  getCards() {
     return this._http.get(this.link + "cards");
     // return this._http.get(this.testLink + "cards");
   }
-  
-  getCard(id: String){
+
+  getCard(id: String) {
     return this._http.get(this.link + `card/${id}`);
     // return this._http.get(this.testLink + `card/${id}`);
   }
 
-  getSkills(){
+  getSkills() {
     // return this._http.get(this.testLink + "skills");
     return this._http.get(this.link + "skills");
   }
-  getSkill(id: String){
+  getSkill(id: String) {
     // return this._http.get(this.testLink + `skill/${id}`);
     return this._http.get(this.link + `skill/${id}`);
   }
 
-  getSkillRssList(){
+  getSkillRssList() {
     return this._http.get('assets/data/skill-level-up-rss.json');
   }
 
-  getCardReleaseHistory(){
+  getCardReleaseHistory() {
     return this._http.get(this.link + "cardreleasehistory");
     // return this._http.get(this.testLink + `cardreleasehistory`);
   }
 
-  getVisionHistory(){
+  getVisionHistory() {
     return this._http.get(this.link + "visionhistory");
     // return this._http.get(this.testLink + `visionhistory`);
   }
 
-  getCardEvolveRss(){
+  getCardEvolveRss() {
     return this._http.get('assets/data/card-evolve-rss.json');
   }
 
-  getCardExp(){
+  getCardExp() {
     return this._http.get('assets/data/card-exp.json');
   }
 
-  getMerchs(){
+  getMerchs() {
     // return this._http.get(this.testLink + `merchs`);
     return this._http.get(this.link + `merchs`);
   }
 
-  getMerch(id: string){
+  getMerch(id: string) {
     // return this._http.get(this.testLink + `merch/${id}`);
     return this._http.get(this.link + `merch/${id}`);
   }
 
-  getMerchSeries(){
+  getMerchSeries() {
     // return this._http.get(this.testLink + `merchseries`);
     return this._http.get(this.link + `merchseries`);
   }
 
+  getUpdateItems() {
+    // return this._http.get(this.testLink + `updateitems`);
+    return this._http.get(this.link + `updateitems`);
+  }
+
   //load data from locatStorage
-  getItem(key: string){
+  getItem(key: string) {
     return localStorage.getItem(key)
   }
-  setItem(key: string, value){
+  setItem(key: string, value) {
     localStorage.setItem(key, value)
   }
-  removeItem(key: string){
+  removeItem(key: string) {
     localStorage.removeItem(key)
   }
-  clear(){
+  clear() {
     localStorage.clear()
   }
 }

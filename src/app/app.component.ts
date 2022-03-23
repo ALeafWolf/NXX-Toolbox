@@ -1,7 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
 import { SEOService } from './services/seo/seo.service';
 import { TranslateService } from '@ngx-translate/core';
+import { BreakpointObserver } from '@angular/cdk/layout'
+import { MatSidenav } from '@angular/material/sidenav';
+import { delay } from 'rxjs/operators';
 
 declare let gtag: Function;
 
@@ -10,11 +13,14 @@ declare let gtag: Function;
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
+  @ViewChild(MatSidenav)
+  sidenav!: MatSidenav;
 
   lang;
 
-  constructor(public router: Router, private _seoService: SEOService, private _translateService: TranslateService) {
+  constructor(public router: Router, private _seoService: SEOService, private _translateService: TranslateService, private observer: BreakpointObserver) {
     this._translateService.addLangs(['zh', 'en', 'ko']);
     this._translateService.setDefaultLang('zh');
   }
@@ -51,6 +57,22 @@ export class AppComponent {
       }
     })
     this._seoService.loadTags()
+  }
+
+  ngAfterViewInit() {
+    //responsive side nav bar
+    this.observer
+      .observe(['(max-width: 800px)'])
+      .pipe(delay(1))
+      .subscribe((res) => {
+        if (res.matches) {
+          this.sidenav.mode = 'over';
+          this.sidenav.close();
+        } else {
+          this.sidenav.mode = 'side';
+          this.sidenav.open();
+        }
+      });
   }
 
   //change the title of page while routing

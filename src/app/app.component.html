@@ -1,9 +1,63 @@
 <div id="page-container">
-  <site-nav-bar></site-nav-bar>
-  <div id="main-container">
-    <div class="container-fluid" id="content-container">
-      <router-outlet></router-outlet>
-    </div>
-  </div>
+  <!-- <site-nav-bar></site-nav-bar> -->
+  <mat-toolbar class="bg-main">
+    <!-- <button mat-icon-button aria-label="Example icon button with a open in new tab icon"></button> -->
+    <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+      <mat-icon *ngIf="!sidenav.opened">
+        menu
+      </mat-icon>
+      <mat-icon *ngIf="sidenav.opened">
+        close
+      </mat-icon>
+    </button>
+    <a class="navbar-brand" href="#" routerLink="/">
+      <img id="navbar-img" src="assets/images/NXX-2.png">
+    </a>
+  </mat-toolbar>
+  <mat-sidenav-container class="bg-transparent">
+    <mat-sidenav #sidenav mode="side" opened class="bg-main p-4">
+      <div class="d-flex flex-column text-white">
+        <a mat-button routerLink="/">
+          <mat-icon aria-hidden="false">home</mat-icon>
+          {{'NAV.HOME' | translate}}
+        </a>
+        <a mat-button routerLink="/card-calculator">
+          <mat-icon aria-hidden="false">calculate</mat-icon>
+          {{'NAV.CARD-POWER' | translate}}
+        </a>
+        <a mat-button routerLink="/card-rss-calculator">
+          <mat-icon aria-hidden="false">calculate</mat-icon>
+          {{'NAV.CARD-RSS' | translate}}
+        </a>
+        <a mat-button routerLink="/cards">
+          <mat-icon aria-hidden="false">view_list</mat-icon>
+          {{'NAV.CARD-LIST' | translate}}
+        </a>
+        <a mat-button routerLink="/skills">
+          <mat-icon aria-hidden="false">view_list</mat-icon>
+          {{'NAV.SKILL-LIST' | translate}}
+        </a>
+        <a mat-button routerLink="/vision-history">
+          <mat-icon aria-hidden="false">view_list</mat-icon>
+          {{'NAV.VISION-HISTORY' | translate}}
+        </a>
+        <a mat-button routerLink="/merch-list">
+          <mat-icon aria-hidden="false">view_list</mat-icon>
+          {{'NAV.MERCH-LIST' | translate}}
+        </a>
+        <a mat-button routerLink="/update-log">
+          <mat-icon aria-hidden="false">update</mat-icon>
+          {{'KEYWORD.UPDATE-LOG' | translate}}
+        </a>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div id="main-container">
+        <div class="container-fluid" id="content-container">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
   <site-footer></site-footer>
 </div>

@@ -425,5 +425,40 @@
         "sellTime": [
             "2022-01-30"
         ]
+    },
+    {
+        "name": "童梦畅游系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2022-03-24 ~ 2022-04-06"
+        ]
+    },
+    {
+        "name": "浓情浅吻系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2022-03-24 ~ 2022-04-06"
+        ]
+    },
+    {
+        "name": "好愿成双系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2022-03-24 ~ 2022-04-06"
+        ]
+    },
+    {
+        "name": "欲愈系列",
+        "type": "LIMITED-TIME",
+        "sellTime": [
+            "2022-03-24 ~ 2022-04-06"
+        ]
+    },
+    {
+        "name": "浪漫定格系列",
+        "type": "PERMANENT",
+        "sellTime": [
+            "2022-03-24"
+        ]
     }
 ]

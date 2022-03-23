@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../services/data/data.service';
+import { GlobalVariable } from '../global-variable';
 
 @Component({
   selector: 'home',
@@ -8,18 +9,19 @@ import { DataService } from '../services/data/data.service';
 })
 export class HomeComponent implements OnInit {
 
-  logs: any[];
-  // isLoaded = false;
+  items: any;
+  isLoaded = false;
+  imgURL = GlobalVariable.imgURL;
 
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    // this._data.getUpdateLog().toPromise().then((logs: any[]) => {
-    //   this.logs = logs;
-    // }).catch(err => {
-    //   console.log(err);
-    //   this.isLoaded = true;
-    // });
+    this._data.getUpdateItems().toPromise().then((items: any[]) => {
+      this.items = items[0];
+    }).catch(err => {
+      console.log(err);
+      this.isLoaded = true;
+    });
   }
 
   generateRandomIcon(){

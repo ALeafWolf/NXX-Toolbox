@@ -21,7 +21,8 @@
     "HOME": {
         "WELCOME": "ᕕ( ᐛ )ᕗWelcome to NXX Toolbox",
         "TO-BE-IMPLEMENTED": "To be Implemented",
-        "UPDATE-LOG": "Update Log"
+        "RECENT-UPDATE": "Recent Update",
+        "MERCH": "Merch"
     },
     "KEYWORD": {
         "CARD": "Card",
@@ -66,7 +67,8 @@
         "RANK": "Rank",
         "INFLUENCE": "Influence",
         "DEFENSE": "Defense",
-        "RERUN": "Rerun"
+        "RERUN": "Rerun",
+        "UPDATE-LOG": "Update Log"
     },
     "MERCH-LIST": {
         "DECLAIM": "For now, only include the merches that are sold on <a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>Tears of Themis' Official Tmall Store</a>. Still working on enter the merches' information.",

@@ -15,6 +15,7 @@ import { CardPoolHistoryComponent } from './card-pool-history/card-pool-history.
 import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calculator.component';
 import { MerchListComponent } from './merch-list/merch-list.component';
 import { MerchDetailComponent } from './merch-detail/merch-detail.component';
+import { SiteUpdateLogComponent } from './site-update-log/site-update-log.component';
 
 const routes: Routes = [
   {
@@ -66,8 +67,8 @@ const routes: Routes = [
     component: MerchListComponent,
   },
   {
-    path: 'merch-detail',
-    component: MerchDetailComponent,
+    path: 'update-log',
+    component: SiteUpdateLogComponent,
   },
   {
     path: '**',

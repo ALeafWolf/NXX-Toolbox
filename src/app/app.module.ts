@@ -14,6 +14,9 @@ import { MatRadioModule } from '@angular/material/radio';
 import { MatTabsModule } from '@angular/material/tabs';
 import { NgxSliderModule } from '@angular-slider/ngx-slider';
 import { NgxEchartsModule } from 'ngx-echarts';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { LayoutModule } from '@angular/cdk/layout';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { CardSelectionComponent } from './card-selection/card-selection.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
@@ -32,8 +35,7 @@ import { CardRssCalculatorComponent } from './card-rss-calculator/card-rss-calcu
 import { MerchListComponent } from './merch-list/merch-list.component';
 import { MerchDetailComponent } from './merch-detail/merch-detail.component';
 import { CardReleaseHistoryComponent } from './card-release-history/card-release-history.component';
-
-
+import { SiteUpdateLogComponent } from './site-update-log/site-update-log.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -58,7 +60,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     CardRssCalculatorComponent,
     MerchListComponent,
     MerchDetailComponent,
-    CardReleaseHistoryComponent
+    CardReleaseHistoryComponent,
+    SiteUpdateLogComponent
   ],
   imports: [
     BrowserModule,
@@ -70,6 +73,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatRadioModule,
     MatTabsModule,
     NgxSliderModule,
+    MatSidenavModule,
+    LayoutModule,
+    MatToolbarModule,
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,

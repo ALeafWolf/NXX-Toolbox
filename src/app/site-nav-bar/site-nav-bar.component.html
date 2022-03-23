@@ -19,9 +19,11 @@
           {{'NAV.CALCULATOR' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/card-calculator" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-POWER' |
+          <a class="dropdown-item" routerLink="/card-calculator"
+            (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-POWER' |
             translate}}</a>
-          <a class="dropdown-item" routerLink="/card-rss-calculator" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-RSS' |
+          <a class="dropdown-item" routerLink="/card-rss-calculator"
+            (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-RSS' |
             translate}}</a>
         </div>
       </li>
@@ -31,21 +33,28 @@
           {{'NAV.INDEX' | translate}}
         </a>
         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" routerLink="/cards" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-LIST' | translate}}</a>
-          <a class="dropdown-item" routerLink="/skills" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.SKILL-LIST' | translate}}</a>
-          <!-- <div class="dropdown-divider"></div> -->
-          <a class="dropdown-item" routerLink="/vision-history" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.VISION-HISTORY' |
+          <a class="dropdown-item" routerLink="/cards" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.CARD-LIST' |
             translate}}</a>
-          <a class="dropdown-item" routerLink="/merch-list" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.MERCH-LIST' |
+          <a class="dropdown-item" routerLink="/skills" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.SKILL-LIST'
+            | translate}}</a>
+          <a class="dropdown-item" routerLink="/vision-history"
+            (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.VISION-HISTORY' |
+            translate}}</a>
+          <a class="dropdown-item" routerLink="/merch-list"
+            (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.MERCH-LIST' |
             translate}}</a>
         </div>
       </li>
-      <!-- <li class="nav-item" (click)="isMenuCollapsed = !isMenuCollapsed">
-        <a class="nav-link" routerLink="/other">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
           <mat-icon aria-hidden="false">info</mat-icon>
           {{'NAV.OTHER' | translate}}
         </a>
-      </li> -->
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" routerLink="/update-log" (click)="isMenuCollapsed = !isMenuCollapsed">{{'KEYWORD.UPDATE-LOG' | translate}}</a>
+          <a class="dropdown-item" routerLink="/other" (click)="isMenuCollapsed = !isMenuCollapsed">{{'NAV.OTHER' | translate}}</a>
+        </div>
+      </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">
           <mat-icon aria-hidden="false">translate</mat-icon>
