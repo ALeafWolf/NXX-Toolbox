@@ -33,8 +33,9 @@
     },
     "HOME": {
         "WELCOME": "牛叉叉牌工具箱，用过都说好！",
-        "TO-BE-IMPLEMENTED": "待实装的功能",
-        "UPDATE-LOG": "更新日志"
+        "TO-BE-IMPLEMENTED": "待加强/实装的功能",
+        "RECENT-UPDATE": "近期更新",
+        "MERCH": "周边"
     },
     "KEYWORD": {
         "BASE-INFLUENCE": "基础说服力",
@@ -79,7 +80,8 @@
         "RANK": "星级",
         "INFLUENCE": "说服力",
         "DEFENSE": "防御力",
-        "RERUN": "复刻"
+        "RERUN": "复刻",
+        "UPDATE-LOG": "更新日志"
     },
     "MERCH-LIST": {
         "DECLAIM": "目前仅包含售卖于<a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>未定事件簿官方天猫旗舰店</a>的周边。剩余周边信息正在录入中。",

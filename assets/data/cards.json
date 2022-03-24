@@ -153,7 +153,9 @@
     {
         "ref": "腾霄",
         "name": {
-            "zh": "腾霄"
+            "zh": "腾霄",
+            "en": "Through the Heavens",
+            "ko": "하늘 높이"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -746,7 +748,9 @@
     {
         "ref": "霓光旋律",
         "name": {
-            "zh": "霓光旋律"
+            "zh": "霓光旋律",
+            "en": "Neon Melody",
+            "ko": "네온 빛 멜로디"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -1599,7 +1603,9 @@
     {
         "ref": "抉择",
         "name": {
-            "zh": "抉择"
+            "zh": "抉择",
+            "en": "Choice",
+            "ko": "선택"
         },
         "type": "EMPATHY",
         "rarity": "SR",
@@ -1619,7 +1625,9 @@
     {
         "ref": "制胜球",
         "name": {
-            "zh": "制胜球"
+            "zh": "制胜球",
+            "en": "Winning Ball",
+            "ko": "결승골"
         },
         "type": "LOGIC",
         "rarity": "SR",
@@ -2062,7 +2070,9 @@
     {
         "ref": "迷涂炫彩",
         "name": {
-            "zh": "迷涂炫彩"
+            "zh": "迷涂炫彩",
+            "en": "Vibrant Graffiti",
+            "ko": "컬러풀 그라피티"
         },
         "type": "LOGIC",
         "rarity": "SR",

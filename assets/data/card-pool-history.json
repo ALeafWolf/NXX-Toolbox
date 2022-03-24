@@ -663,7 +663,8 @@
         "type": "EVENT",
         "server": "CN",
         "cards": [
-            "妄夜之魇"
+            "妄夜之魇",
+            "微醺视线"
         ],
         "bid": "KwrfImG6U"
     },
@@ -968,7 +969,8 @@
         "type": "EVENT",
         "server": "CN",
         "cards": [
-            "潮生情动"
+            "潮生情动",
+            "眸中景"
         ],
         "bid": "L4LMqowLp"
     },
@@ -1229,7 +1231,7 @@
     },
     {
         "startDate": "2022-03-10",
-        "endDate": "2022-03-24",
+        "endDate": "2022-03-25",
         "type": "ROTATION",
         "server": "GLOBAL",
         "cards": [
@@ -1242,7 +1244,7 @@
     },
     {
         "startDate": "2022-03-10",
-        "endDate": "2022-03-24",
+        "endDate": "2022-03-25",
         "type": "ROTATION",
         "server": "CN",
         "cards": [
@@ -1264,5 +1266,44 @@
         ],
         "bid": "Ljdz2FhNw",
         "bv": "BV1rP4y1M7Ku"
+    },
+    {
+        "startDate": "2022-03-25",
+        "endDate": "2022-04-08",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "最佳拍档",
+            "眸中景",
+            "秋叶寄梦",
+            "虚妄之泪"
+        ],
+        "twitter": "1506933846465413123"
+    },
+    {
+        "startDate": "2022-03-25",
+        "endDate": "2022-04-08",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "心跳记忆",
+            "冤家路窄",
+            "斑斓光影",
+            "凉夏"
+        ],
+        "bid": "LlbIP38Io"
+    },
+    {
+        "startDate": "2022-03-25",
+        "endDate": "2022-04-15",
+        "type": "EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "腾霄",
+            "霓光旋律",
+            "迷涂炫彩"
+        ],
+        "twitter": "1506813047482032128",
+        "youtube": "https://www.youtube.com/watch?v=gjdak_-UG7U"
     }
 ]
