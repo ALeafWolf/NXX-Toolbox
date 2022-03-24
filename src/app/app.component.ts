@@ -127,4 +127,14 @@ export class AppComponent {
     }
   }
 
+  toTopOfScreen(){
+    let content = document.getElementById("content-container");
+  }
+
+  changeLanguage(){
+    localStorage.setItem('language', this.lang)
+    this._translateService.use(localStorage.getItem('language'))
+    location.reload()
+  }
+
 }

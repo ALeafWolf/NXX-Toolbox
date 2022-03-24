@@ -1,20 +1,24 @@
+<!-- <button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
+  <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
+</button> -->
 <div id="page-container">
   <!-- <site-nav-bar></site-nav-bar> -->
-  <mat-toolbar class="bg-main">
+  <mat-toolbar class="bg-main position-sticky block-border-t">
     <!-- <button mat-icon-button aria-label="Example icon button with a open in new tab icon"></button> -->
-    <button mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()">
+    <a mat-icon-button *ngIf="sidenav.mode === 'over'" (click)="sidenav.toggle()" class="text-white mr-2"
+      style="cursor: pointer;">
       <mat-icon *ngIf="!sidenav.opened">
         menu
       </mat-icon>
       <mat-icon *ngIf="sidenav.opened">
         close
       </mat-icon>
-    </button>
+    </a>
     <a class="navbar-brand" href="#" routerLink="/">
       <img id="navbar-img" src="assets/images/NXX-2.png">
     </a>
   </mat-toolbar>
-  <mat-sidenav-container class="bg-transparent">
+  <mat-sidenav-container class="bg-transparent position-fix flex-grow-1">
     <mat-sidenav #sidenav mode="side" opened class="bg-main p-4">
       <div class="d-flex flex-column text-white">
         <a mat-button routerLink="/">
@@ -49,15 +53,33 @@
           <mat-icon aria-hidden="false">update</mat-icon>
           {{'KEYWORD.UPDATE-LOG' | translate}}
         </a>
-      </div>
-    </mat-sidenav>
-    <mat-sidenav-content>
-      <div id="main-container">
-        <div class="container-fluid" id="content-container">
-          <router-outlet></router-outlet>
+        <div class="m-1">
+          <mat-icon aria-hidden="false">translate</mat-icon>
+          {{'NAV.LANGUAGE' | translate}}
+          <form id="language-form">
+            <fieldset id="language">
+              <label><input type="radio" [(ngModel)]="lang" value="zh" (ngModelChange)="changeLanguage()"
+                  name="language">中文</label><br />
+              <label><input type="radio" [(ngModel)]="lang" value="en" (ngModelChange)="changeLanguage()"
+                  name="language">English</label><br />
+              <label><input type="radio" [(ngModel)]="lang" value="ko" (ngModelChange)="changeLanguage()"
+                  name="language">한국어</label>
+            </fieldset>
+          </form>
         </div>
       </div>
+    </mat-sidenav>
+    <mat-sidenav-content class="d-flex flex-column">
+      <div class="container-fluid flex-grow-1" id="content-container">
+        <router-outlet></router-outlet>
+      </div>
+      <footer class="text-center py-2 bg-main block-border-b">
+        <p class="smallFont">
+          <a href="https://github.com/ALeafWolf/NXX-Toolbox" target="_blank">ALeafWolf</a>，2021<br />
+          {{'FOOTER.CLAIM' | translate}}<br />
+          <span [innerHTML]="'FOOTER.COPYRIGHT' | translate"></span>
+        </p>
+      </footer>
     </mat-sidenav-content>
   </mat-sidenav-container>
-  <site-footer></site-footer>
 </div>

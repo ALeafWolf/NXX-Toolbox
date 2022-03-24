@@ -1,6 +1,6 @@
-<button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
+<!-- <button class="btn btn-dark" (click)="toTopOfScreen()" id="toTopButton" title="Go to top">
     <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
-</button>
+</button> -->
 <div *ngIf="isLoaded == false" class="loader" id="backdrop">
     <div class="spinner-border text-light" role="status">
         <span class="sr-only mx-auto">Loading...</span>
@@ -64,7 +64,7 @@
         </div>
     </div>
     <div class="col-12 col-md-10 my-2">
-        <table class="table table-sm table-dark text-center bg-main">
+        <table class="table table-sm table-dark text-center bg-main block-border">
             <thead>
                 <tr>
                     <th>{{'KEYWORD.ICON' | translate}}</th>

@@ -67,6 +67,10 @@ const routes: Routes = [
     component: MerchListComponent,
   },
   {
+    path: 'merch-detail',
+    component: MerchDetailComponent,
+  },
+  {
     path: 'update-log',
     component: SiteUpdateLogComponent,
   },

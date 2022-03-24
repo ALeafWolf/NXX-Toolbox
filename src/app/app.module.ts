@@ -20,8 +20,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 
 import { CardSelectionComponent } from './card-selection/card-selection.component';
 import { CardValueSettingComponent } from './card-value-setting/card-value-setting.component';
-import { SiteNavBarComponent } from './site-nav-bar/site-nav-bar.component';
-import { SiteFooterComponent } from './site-footer/site-footer.component';
 import { HomeComponent } from './site-home/site-home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { SkillListComponent } from './skill-list/skill-list.component';
@@ -46,8 +44,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     CardSelectionComponent,
     CardValueSettingComponent,
-    SiteNavBarComponent,
-    SiteFooterComponent,
     HomeComponent,
     PageNotFoundComponent,
     SkillListComponent,

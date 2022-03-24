@@ -8,7 +8,7 @@
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-10 text-center bg-dark p-4 my-2" [innerHTML]="'MERCH-LIST.DECLAIM' | translate">
+    <div class="col-10 text-center bg-main block-border p-4 my-2" [innerHTML]="'MERCH-LIST.DECLAIM' | translate">
     </div>
     <div class="row justify-content-center p-2" style="width: 100%;">
         <div class="col-12 col-md-10 row justify-content-around m-2">
@@ -48,9 +48,9 @@
             </div>
         </div>
         <div class="col-12 col-md-10 my-2 row">
-            <div class="col-4 col-md-3 col-lg-2" *ngFor="let m of merches">
+            <div class="col-4 col-md-3" *ngFor="let m of merches">
                 <a class="merch-link" [routerLink]="['/merch-detail/']" [queryParams]="{id: m._id}" target="_blank">
-                    <div class="bg-dark p-3 m-1 merch-card">
+                    <div class="bg-main p-3 m-1 merch-card">
                         <img class="img-fluid" src="{{m.images[0]}}">
                         {{m.name}}
                     </div>

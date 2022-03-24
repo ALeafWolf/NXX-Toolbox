@@ -21,16 +21,16 @@
     
     <div class="col-5 col-md-6 row justify-content-around">
         <div class="col-12 col-sm-11 col-md-7 col-lg-5 mb-1">
-            <div class="bg-main text-center py-2">
+            <div class="bg-main block-border-b text-center py-2">
                 <img class="img-fluid icon" src="{{'assets/images/' + card.type + '.png'}}">
                 <span style="font-size: 1.1em; padding-left: 1em;">{{power}}</span>
             </div>
-            <img class="img-fluid" src="{{imgURL + card.character + '/' + card.ref + '-full.webp'}}">
+            <img class="img-fluid block-border-t" src="{{imgURL + card.character + '/' + card.ref + '-full.webp'}}">
         </div> 
     </div>
 
     <div class="col-7 col-md-6 row justify-content-around text-center">
-        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center bg-main" id="card-info">
+        <table class="col-12 col-lg-4 col-lg-5 table table-sm table-dark text-center bg-main block-border" id="card-info">
             <tr>
                 <th>{{'KEYWORD.RARITY' | translate}}</th>
                 <td>{{card.rarity}}</td>
@@ -68,7 +68,7 @@
                 </td>
             </tr>
         </table>
-        <table class="col-12 col-lg-6 table table-sm table-dark text-center gridItem bg-main" id="skill-info">
+        <table class="col-12 col-lg-6 table table-sm table-dark text-center bg-main block-border" id="skill-info">
             <thead>
                 <tr>
                     <th colspan="3">

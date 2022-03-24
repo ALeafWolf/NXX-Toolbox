@@ -7,16 +7,16 @@
     <img class="img-fluid cardIcon" id="topBtn" src="{{'assets/images/btn_arrow.png'}}">
 </button>
 <div class="row justify-content-around py-2">
-    <div class="col-11 col-lg-5 bg-dark my-2">
+    <div class="col-11 col-lg-5 bg-main block-border my-2">
         <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
             <mat-tab *ngFor="let img of merch.images; let i = index" [label]="i+1">
-                <img class="img-fluid mt-1 merch-img" src="{{img}}">
+                <img class="img-fluid my-2 merch-img block-border" src="{{img}}">
             </mat-tab>
         </mat-tab-group>
 
     </div>
     <div class="col-11 col-lg-5 row">
-        <table class="col-12 table table-dark text-center merch-info">
+        <table class="col-12 table table-dark text-center merch-info bg-main my-2 block-border">
             <tbody>
                 <tr>
                     <th>{{'MERCH-DETAIL.PRODUCT-NAME' | translate}}</th>

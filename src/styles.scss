@@ -47,13 +47,29 @@ $nxx-toolbox-theme: mat-dark-theme((
     color: #fff;
 }
 
+.block-border{
+    border-radius: 16px;
+}
+
+.block-border-t{
+    border-radius: 0px 0px 16px 16px;
+}
+
+.block-border-b{
+    border-radius: 16px 16px 0px 0px;
+}
+
 #page-container {
-    position: relative;
-    // min-height: 100%;
-    // min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-image: url("assets/images/bg.webp");
     background-size: 100%;
-    background-position: 50% 0;
+    background-position: 50% 10%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     min-height: 100vh;
@@ -61,25 +77,8 @@ $nxx-toolbox-theme: mat-dark-theme((
 
 #main-container {
     width: 100%;
-    height: 100%;
-    min-height: 100vh;
     color: white;
-    // background-color: #f1f2f8;
     padding-bottom: 5em;
-}
-
-
-#content-container{
-    min-height: 90vh;
-    height: 100%;
-}
-
-//nav bar
-#site-navbar{
-    height: 15%;
-    @media (max-width: 700px) {
-        height: 20%;
-    }
 }
 
 #navbar-img{
@@ -87,14 +86,19 @@ $nxx-toolbox-theme: mat-dark-theme((
     width: auto;
 }
 
-//footer
-#site-footer{
-    color: white;
-    position: absolute;
-    bottom: 0;
-    height: 5em;
-    width: 100%;
-    padding: 1.5em auto;
+mat-sidenav a{
+    color: #fff;
+    display: flex;
+    margin: 0.25rem;
+}
+
+mat-sidenav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+table.bg-main th{
+    border: none;
 }
 
 // at /card-calculator
@@ -168,10 +172,6 @@ img.cardIcon {
 
 .smallFont {
     font-size: 0.75em;
-}
-
-img.calculatorIcon{
-    max-width: 90%;
 }
 
 //cutsom style for dropdown at nav-dark

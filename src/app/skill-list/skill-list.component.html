@@ -8,14 +8,16 @@
 </div>
 
 <div class="row justify-content-center">
-    <div *ngIf="lang == 'zh'" class="col-10 text-center bg-dark p-4 my-2">
+    <div *ngIf="lang == 'zh'" class="col-10 text-center bg-main p-4 my-2 block-border">
         <h5>技能数值的资料参考自：</h5>
-        <a class="smallFont" href="https://bbs.nga.cn/read.php?tid=26103617" target="_blank">[攻略] [技能] 法考真题全攻略——思绪技能详解</a><br />
+        <a class="smallFont" href="https://bbs.nga.cn/read.php?tid=26103617" target="_blank">[攻略] [技能]
+            法考真题全攻略——思绪技能详解</a><br />
         <a class="smallFont" href="https://bbs.nga.cn/read.php?tid=25852781" target="_blank">[硬核攻略] [我们的目标是变强]
             养卡宝典：全图鉴战斗数值资料库excel+自选卡组计算加成后说服力/技能升级潜力</a><br />
-        <a class="smallFont" href="https://bbs.nga.cn/read.php?tid=25503032" target="_blank">自用《未定卡牌技能表》excel分享，欢迎下载随心二改</a>
+        <a class="smallFont" href="https://bbs.nga.cn/read.php?tid=25503032"
+            target="_blank">自用《未定卡牌技能表》excel分享，欢迎下载随心二改</a>
     </div>
-    <div *ngIf="lang == 'en'" class="col-10 text-center bg-dark p-4 my-2">
+    <div *ngIf="lang == 'en'" class="col-10 text-center bg-main p-4 my-2 block-border">
         <p>The information of skill that not being implemented in Global server will remain in Chinese</p>
     </div>
 </div>
@@ -84,39 +86,37 @@
             </a>
         </div>
     </div>
-    <div class="col-12 col-md-10 my-2">
-        <table class="table table-sm table-dark text-center">
-            <tr>
-                <th rowspan="2">{{'KEYWORD.ICON' | translate}}</th>
-                <th rowspan="2">{{'KEYWORD.NAME' | translate}}</th>
-                <th colspan="2" class="d-none d-sm-table-cell">{{'KEYWORD.CARD' | translate}}</th>
-                <th rowspan="2">{{'KEYWORD.DESCRIPTION' | translate}}</th>
-                <th colspan="2">{{'KEYWORD.STATISTICS' | translate}}</th>
-            </tr>
-            <tr>
-                <th class="d-none d-sm-table-cell">{{'KEYWORD.TYPE' | translate}}</th>
-                <th class="d-none d-sm-table-cell">{{'KEYWORD.RARITY' | translate}}</th>
-                <th>LV1</th>
-                <th>LV10</th>
-            </tr>
-            <tr *ngFor="let s of skillList">
-                <td>
-                    <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
-                        <img style="height: 50px; width: 50px;" src="{{imgURL + '技能/' + s.ref + '.webp'}}">
-                    </a>
-                </td>
-                <td>
-                    <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
-                        {{s.n}}
-                    </a>
-                </td>
-                <!-- <td class="d-none d-sm-table-cell">{{'KEYWORD.' + s.character | translate}}</td> -->
-                <td class="d-none d-sm-table-cell"><img class="icon img-fluid"
-                        src="{{'assets/images/' + s.type + '.png'}}"></td>
-                <td class="d-none d-sm-table-cell">{{s.rarity}}</td>
-                <td class="smallFont">{{s.des}}</td>
-                <td *ngFor="let n of s.nums">{{n}}</td>
-            </tr>
-        </table>
-    </div>
+    <table class="col-12 col-md-10 my-2 table table-sm table-dark text-center bg-main block-border">
+        <tr>
+            <th rowspan="2">{{'KEYWORD.ICON' | translate}}</th>
+            <th rowspan="2">{{'KEYWORD.NAME' | translate}}</th>
+            <th colspan="2" class="d-none d-sm-table-cell">{{'KEYWORD.CARD' | translate}}</th>
+            <th rowspan="2">{{'KEYWORD.DESCRIPTION' | translate}}</th>
+            <th colspan="2">{{'KEYWORD.STATISTICS' | translate}}</th>
+        </tr>
+        <tr>
+            <th class="d-none d-sm-table-cell">{{'KEYWORD.TYPE' | translate}}</th>
+            <th class="d-none d-sm-table-cell">{{'KEYWORD.RARITY' | translate}}</th>
+            <th>LV1</th>
+            <th>LV10</th>
+        </tr>
+        <tr *ngFor="let s of skillList">
+            <td>
+                <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
+                    <img style="height: 50px; width: 50px;" src="{{imgURL + '技能/' + s.ref + '.webp'}}">
+                </a>
+            </td>
+            <td>
+                <a [routerLink]="['/skill/']" [queryParams]="{id: s._id}" target="_blank">
+                    {{s.n}}
+                </a>
+            </td>
+            <!-- <td class="d-none d-sm-table-cell">{{'KEYWORD.' + s.character | translate}}</td> -->
+            <td class="d-none d-sm-table-cell"><img class="icon img-fluid" src="{{'assets/images/' + s.type + '.png'}}">
+            </td>
+            <td class="d-none d-sm-table-cell">{{s.rarity}}</td>
+            <td class="smallFont">{{s.des}}</td>
+            <td *ngFor="let n of s.nums">{{n}}</td>
+        </tr>
+    </table>
 </div>

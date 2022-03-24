@@ -5,11 +5,11 @@
 </div>
 
 <div class="row justify-content-center">
-    <div class="col-10 text-center bg-main p-4 my-2">
+    <div class="col-10 text-center bg-main block-border p-4 my-2">
         <h6 class="smallFont" [innerHTML]="'CARD-CALCULATOR.INFO' | translate"></h6>
     </div>
 </div>
-<div class="row justify-content-center pt-2">
+<div class="row justify-content-center m-2 bg-main block-border">
     <div class="col-12 row justify-content-end m-2">
         <a routerLink="/card-calculator" (click)="clearAllSavedData()">
             <img class="img-fluid" src="assets/images/btn_delete.png">
@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="col-12 row justify-content-around">
-        <div class="col-11 col-md-9 col-lg-4 bg-main my-2 p-2 text-center" id="skill-summary">
+        <div class="col-11 col-md-9 col-lg-4 my-2 p-2 text-center" id="skill-summary">
             <div class="col border-bottom border-secondary">
                 <h5 class="font-weight-bold">{{'CARD-CALCULATOR.SKILL-SUMMARY' | translate}}</h5>
             </div>
@@ -48,24 +48,16 @@
         </div>
 
         <div class="col-12 col-md-10 col-lg-7 row justify-content-around">
-            <div class="col-4 col-xl-3 my-2 row justify-content-center" *ngFor="let i of userData">
-                <div class="col-12">
+            <div class="col-3 my-2" *ngFor="let i of userData">
+                <div>
                     <a [routerLink]="['/card-value/']" [queryParams]="{id: i._id}">
-                        <img class="img-fluid calculatorIcon" src="{{imgURL + i.charName + '/' + i.ref + '.webp'}}">
+                        <img class="img-fluid block-border" src="{{imgURL + i.charName + '/' + i.ref + '.webp'}}">
                     </a>
                 </div>
-                <!-- <div class="col-12 row">
-                    <div class="col-12">
-                        <img class="img-fluid icon" src="{{imgURL + '/技能/' + i.skillRefs[1] + '.webp'}}">    
-                    </div>
-                    <div class="col-12">
-                        
-                    </div>
-                </div> -->
             </div>
-            <div class="col-4 col-xl-3 my-2" *ngFor="let i of emptyHolder">
+            <div class="col-3 my-2" *ngFor="let i of emptyHolder">
                 <a routerLink="/card-selection">
-                    <img class="img-fluid calculatorIcon" src="assets/images/boxgacha_icon_frame_1.png">
+                    <img class="img-fluid" src="assets/images/boxgacha_icon_frame_1.png">
                 </a>
             </div>
         </div>
