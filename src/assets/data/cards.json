@@ -883,6 +883,26 @@
         ]
     },
     {
+        "ref": "晖染萦沙",
+        "name": {
+            "zh": "晖染萦沙"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "层层深入β Ⅲ",
+            "盛装舞步 Ⅲ",
+            "箱庭疗法 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "冤家路窄",
         "name": {
             "zh": "冤家路窄",
@@ -1205,6 +1225,26 @@
         ],
         "influence": 2056,
         "defense": 1124,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "星愿心澜",
+        "name": {
+            "zh": "星愿心澜"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "层层深入β Ⅲ",
+            "年少锋锐 Ⅲ",
+            "执行总裁 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
         "obtainedFrom": [
             "EVENT",
             "ROTATION"
@@ -2321,6 +2361,25 @@
         ],
         "influence": 1608,
         "defense": 879,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "整装待发",
+        "name": {
+            "zh": "整装待发"
+        },
+        "type": "LOGIC",
+        "rarity": "MR",
+        "character": "ARTEM",
+        "skills": [
+            "以理服人β Ⅱ",
+            "绝对理性 Ⅱ",
+            "锐辞庭辩 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]

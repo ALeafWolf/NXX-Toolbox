@@ -86,6 +86,7 @@ export class AppComponent {
     let other = ["其他", "Other", "기타"];
     let visionHistory = ["往期女神之影", "Vision History", "여신의 그림자"];
     let merchList = ["官方周边列表", "Official Merch List", "공식 굿즈"];
+    let updateLog = ["更新日志", "Update Log", "업데이트 로그"];
     let i = 0;
     if ('en' == this.lang) {
       i = 1;
@@ -94,7 +95,7 @@ export class AppComponent {
     }
     let s;
     switch (url) {
-      case '/home':
+      case '/':
         s = home[i];
         break;
       case '/cards':
@@ -120,6 +121,9 @@ export class AppComponent {
         break;
       case '/merch-list':
         s = merchList[i];
+        break;
+      case '/update-log':
+        s = updateLog[i];
         break;
     }
     if (s) {
