@@ -1305,5 +1305,17 @@
         ],
         "twitter": "1506813047482032128",
         "youtube": "https://www.youtube.com/watch?v=gjdak_-UG7U"
+    },
+    {
+        "startDate": "2022-03-31",
+        "endDate": "2022-04-14",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "晖染萦沙",
+            "星愿心澜"
+        ],
+        "bid": "Lm6H8t2eL",
+        "bv": "BV1uu411i7hu"
     }
 ]
