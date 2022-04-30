@@ -2256,7 +2256,7 @@
         "productSize": "直径约58mm",
         "productDescription": "-",
         "price": "¥15",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01XO0Xbx1fEb3O8csvq_!!0-item_pic.jpg",
@@ -2275,7 +2275,7 @@
         "productSize": "约50x60mm",
         "productDescription": "-",
         "price": "¥15",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01Hl44Bc1fEb3V49ZxA_!!0-item_pic.jpg",
@@ -2294,7 +2294,7 @@
         "productSize": "约14.5x21.5cm",
         "productDescription": "-",
         "price": "¥28",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01jwcfLK1fEb3Xfo5DF_!!0-item_pic.jpg",
@@ -2313,7 +2313,7 @@
         "productSize": "约50x60mm",
         "productDescription": "-",
         "price": "¥32",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01864I5a1fEb3W8WBQE_!!0-item_pic.jpg",
@@ -2332,7 +2332,7 @@
         "productSize": "海报约30*50cm",
         "productDescription": "-",
         "price": "¥25",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01CANOQl1fEb3QLHaY8_!!0-item_pic.jpg",
@@ -2351,7 +2351,7 @@
         "productSize": "直径约75mm",
         "productDescription": "-",
         "price": "¥18",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01qyxvVN1fEb3W9BKtA_!!0-item_pic.jpg",
@@ -2370,7 +2370,7 @@
         "productSize": "人物立牌约16x12cm | 插板约7x11.5cm",
         "productDescription": "-",
         "price": "¥54",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01MAYUVB1fEb3QLvnfO_!!0-item_pic.jpg",
@@ -2389,7 +2389,7 @@
         "productSize": "直径约75mm",
         "productDescription": "-",
         "price": "¥18",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN013oYkyh1fEb3OLdVLu_!!0-item_pic.jpg",
@@ -2408,7 +2408,7 @@
         "productSize": "约19x13cm",
         "productDescription": "-",
         "price": "¥48",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01TBQvQ01fEb3ZzDq8O_!!0-item_pic.jpg",
@@ -2484,7 +2484,7 @@
         "productSize": "人物立牌约90*85mm | 底座约80*40mm | 小立牌约35*30mm",
         "productDescription": "-",
         "price": "¥38",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01bILVfH1fEb3a21aF5_!!0-item_pic.jpg",
@@ -2503,7 +2503,7 @@
         "productSize": "直径约7.5cm",
         "productDescription": "-",
         "price": "¥18",
-        "sellDate": 0,
+        "sellDate": -1,
         "character": "All",
         "images": [
             "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01QywpmW1fEb3YOrLUs_!!0-item_pic.jpg",
@@ -4230,5 +4230,157 @@
         "weibo": "https://weibo.com/7072153506/LkThlpZYT",
         "hoyolab": "-",
         "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24284715200.6.102821a6t9EvXn&id=669785897809&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "珍藏系列 定格CG亚克力相卡 第一弹",
+        "series": "珍藏系列",
+        "productMaterial": "1mm厚亚克力",
+        "productTechnology": "柯式印刷",
+        "productPacking": "PVC盒+背卡",
+        "productSize": "约9x6cm",
+        "productDescription": "全4套，一套4张",
+        "price": "¥28",
+        "sellDate": 2,
+        "character": "All",
+        "images": [
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01Y9iaQg1fEb73wyQ6J_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN010OPs371fEb724OrHs_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/Lq3N6082A",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24356616929.1.681821a6bIAzkI&id=672247764268&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "珍藏系列 定格CG亚克力相卡 第二弹",
+        "series": "珍藏系列",
+        "productMaterial": "1mm厚亚克力",
+        "productTechnology": "柯式印刷",
+        "productPacking": "PVC盒+背卡",
+        "productSize": "约9x6cm",
+        "productDescription": "全4套，一套4张",
+        "price": "¥28",
+        "sellDate": 2,
+        "character": "All",
+        "images": [
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01QnHLLq1fEb74Unct1_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01phrEVP1fEb7ApSara_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/Lq3N6082A",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24356616929.2.681821a6bIAzkI&id=673032158409&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "韶华若岁系列 左然生日徽章日夜相生",
+        "series": "韶华若岁系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷+幻彩白沙工艺",
+        "productPacking": "OPP袋+背卡",
+        "productSize": "直径约65mm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "character": "ARTEM",
+        "images": [
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01mk86qR1fEb76I9GIx_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01tICbi31fEb75eggt2_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/LqddFvdy9",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24361132645.1.600221a6Cvbo7Y&id=672707337207&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "韶华若岁系列 左然生日徽章新锐款",
+        "series": "韶华若岁系列",
+        "productMaterial": "马口铁",
+        "productTechnology": "pet印刷+细闪工艺",
+        "productPacking": "OPP袋+背卡",
+        "productSize": "直径约65mm",
+        "productDescription": "-",
+        "price": "¥15",
+        "sellDate": 0,
+        "character": "ARTEM",
+        "images": [
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01GHrzmZ1fEb7Cuwf0Y_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN01Ca7DF51fEb74Meqxg_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/LqddFvdy9",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24361132645.2.600221a6Cvbo7Y&id=672327740303&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "韶华若岁系列 左然生日色纸",
+        "series": "韶华若岁系列",
+        "productMaterial": "进口色纸",
+        "productTechnology": "镭射工艺+背面可立支架",
+        "productPacking": "信封袋+封口贴纸",
+        "productSize": "约14.5x21.5cm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "character": "ARTEM",
+        "images": [
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01FjkDLW1fEb7BjUG65_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i2/3249253975/O1CN01XZQrdt1fEb6z5OGiU_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/LqddFvdy9",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24361132645.3.600221a6Cvbo7Y&id=673032814266&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "韶华若岁系列 左然生日厚亚克力挂件",
+        "series": "韶华若岁系列",
+        "productMaterial": "7mm厚亚克力",
+        "productTechnology": "印金工艺",
+        "productPacking": "PVC盒+背卡",
+        "productSize": "约70x45mm",
+        "productDescription": "-",
+        "price": "¥28",
+        "sellDate": 0,
+        "character": "ARTEM",
+        "images": [
+            "https://img.alicdn.com/imgextra/i3/3249253975/O1CN01MAEddf1fEb74Yt7eT_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01Frcc4t1fEb7BKLbkx_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/LqddFvdy9",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24361132645.4.600221a6Cvbo7Y&id=672329524587&scene=taobao_shop&sku_properties=134942334:28316"
+    },
+    {
+        "name": "韶华若岁系列 左然生日金属徽章",
+        "series": "韶华若岁系列",
+        "productMaterial": "锌合金",
+        "productTechnology": "仿珐琅",
+        "productPacking": "纸盒",
+        "productSize": "约48x44mm",
+        "productDescription": "-",
+        "price": "¥32",
+        "sellDate": 0,
+        "character": "ARTEM",
+        "images": [
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01NI2l3S1fEb73up5pT_!!3249253975.jpg",
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN01cfGgkQ1fEb6seEefc_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/LqddFvdy9",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24361132645.5.600221a6Cvbo7Y&id=673035050143&scene=taobao_shop&skuId=5015201342417"
+    },
+    {
+        "name": "韶华若岁系列 左然生日亚克力装饰画",
+        "series": "韶华若岁系列",
+        "productMaterial": "7mm厚亚克力",
+        "productTechnology": "印金工艺",
+        "productPacking": "PVC盒+背卡",
+        "productSize": "约15x15cm",
+        "productDescription": "-",
+        "price": "¥48",
+        "sellDate": 0,
+        "character": "ARTEM",
+        "images": [
+            "https://img.alicdn.com/imgextra/i1/3249253975/O1CN019ASl9R1fEb6vRnLvz_!!0-item_pic.jpg",
+            "https://img.alicdn.com/imgextra/i4/3249253975/O1CN016GHceI1fEb6z5OjzZ_!!3249253975.jpg"
+        ],
+        "weibo": "https://weibo.com/7072153506/LqddFvdy9",
+        "hoyolab": "-",
+        "tmall": "https://detail.tmall.com/item.htm?spm=a1z10.4-b-s.w5003-24361132645.6.600221a6Cvbo7Y&id=672710153293&scene=taobao_shop&sku_properties=134942334:28316"
     }
 ]
