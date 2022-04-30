@@ -1317,5 +1317,112 @@
         ],
         "bid": "Lm6H8t2eL",
         "bv": "BV1uu411i7hu"
+    },
+    {
+        "startDate": "2022-04-08",
+        "endDate": "2022-04-22",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "咫尺远近",
+            "冤家路窄",
+            "完美营救",
+            "人间烟火"
+        ],
+        "twitter": "1511886477357113349"
+    },
+    {
+        "startDate": "2022-04-08",
+        "endDate": "2022-04-22",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "最佳拍档",
+            "危情邀约",
+            "人间烟火",
+            "弦外之音"
+        ],
+        "bid": "LnjHKEgS2"
+    },
+    {
+        "startDate": "2022-04-16",
+        "endDate": "2022-04-21",
+        "type": "RERUN",
+        "server": "CN",
+        "cards": [
+            "两心无间"
+        ],
+        "bid": "LoeF5qmjs"
+    },
+    {
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-28",
+        "type": "BIRTHDAY",
+        "server": "CN",
+        "cards": [
+            "日夜相生"
+        ],
+        "bid": "LoGWH3RxR"
+    },
+    {
+        "startDate": "2022-04-18",
+        "endDate": "2022-04-29",
+        "type": "BIRTHDAY",
+        "server": "GLOBAL",
+        "cards": [
+            "两心无间"
+        ],
+        "twitter": "1515147969733005322"
+    },
+    {
+        "startDate": "2022-04-22",
+        "endDate": "2022-05-06",
+        "type": "ROTATION",
+        "server": "GLOBAL",
+        "cards": [
+            "微醺视线",
+            "眸中景",
+            "冷暖心知",
+            "指尖温度"
+        ],
+        "twitter": "1516959910298234880"
+    },
+    {
+        "startDate": "2022-04-22",
+        "endDate": "2022-05-06",
+        "type": "ROTATION",
+        "server": "CN",
+        "cards": [
+            "妄夜之魇",
+            "醉意入怀",
+            "塑心",
+            "童心攻势"
+        ],
+        "bid": "LprGKjnYo"
+    },
+    {
+        "startDate": "2022-04-22",
+        "endDate": "2022-05-08",
+        "type": "EVENT",
+        "server": "CN",
+        "cards": [
+            "情难自匿",
+            "冤家路窄"
+        ],
+        "bid": "LpBvNsmTv"
+    },
+    {
+        "startDate": "2022-04-29",
+        "endDate": "2022-05-20",
+        "type": "LIMITED-EVENT",
+        "server": "GLOBAL",
+        "cards": [
+            "昼夜余想",
+            "炽响",
+            "渡月逐光",
+            "微芒"
+        ],
+        "youtube": "https://www.youtube.com/watch?v=msW84nAm0xA",
+        "twitter": ""
     }
 ]
