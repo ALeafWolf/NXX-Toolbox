@@ -1,1428 +1,987 @@
 [
-    {
-        "startDate": "2020-07-30",
-        "endDate": "2020-08-14",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "醉意入怀",
-            "塑心",
-            "童心攻势"
-        ]
-    },
-    {
-        "startDate": "2020-08-14",
-        "endDate": "2020-08-28",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "咫尺远近",
-            "冤家路窄",
-            "完美营救",
-            "秋叶寄梦"
-        ],
-        "bid": "Jffszt8TG"
-    },
-    {
-        "startDate": "2020-08-19",
-        "endDate": "2020-09-09",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "千灯如昼",
-            "心有千千结",
-            "凉夏"
-        ],
-        "bid": "JgC0AnO0k",
-        "bv": "BV1CD4y1U7W1"
-    },
-    {
-        "startDate": "2020-08-28",
-        "endDate": "2020-09-11",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "倾落心扉",
-            "底比斯之梦"
-        ],
-        "bid": "JhPwtvKRM"
-    },
-    {
-        "startDate": "2020-09-11",
-        "endDate": "2020-09-25",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "人间烟火",
-            "指尖温度"
-        ],
-        "bid": "JjX7e5fLf"
-    },
-    {
-        "startDate": "2020-09-19",
-        "endDate": "2020-09-30",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "舞夜流光"
-        ],
-        "bid": "JkJ9yAIdW"
-    },
-    {
-        "startDate": "2020-09-25",
-        "endDate": "2020-10-09",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "醉意入怀",
-            "冤家路窄",
-            "碧蓝之间",
-            "虚妄之泪"
-        ],
-        "bid": "Jm5izBLoQ"
-    },
-    {
-        "startDate": "2020-09-30",
-        "endDate": "2020-10-25",
-        "type": "LIMITED-EVENT",
-        "server": "CN",
-        "cards": [
-            "虹色心跳",
-            "铃音予梦",
-            "心悬一线",
-            "悸乱微光"
-        ],
-        "bid": "JmQralIgC",
-        "bv": "BV1Ek4y117wU"
-    },
-    {
-        "startDate": "2020-10-09",
-        "endDate": "2020-10-23",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "咫尺远近",
-            "冷暖心知",
-            "弦外之音"
-        ],
-        "bid": "JodhkdOF3"
-    },
-    {
-        "startDate": "2020-10-23",
-        "endDate": "2020-11-06",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "秋叶寄梦",
-            "水“逆”"
-        ],
-        "bid": "Jqlgna3f3"
-    },
-    {
-        "startDate": "2020-11-06",
-        "endDate": "2020-11-20",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "斑斓光影",
-            "童心攻势"
-        ],
-        "bid": "Jstfyjhe3"
-    },
-    {
-        "startDate": "2020-11-12",
-        "endDate": "2020-11-26",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "明暗之境",
-            "虚诞盛宴",
-            "忆中人",
-            "暇光一隅"
-        ],
-        "bid": "JteM4vRBV",
-        "bv": "BV1Zp4y1k7SX"
-    },
-    {
-        "startDate": "2020-11-20",
-        "endDate": "2020-12-04",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "咫尺远近",
-            "人间烟火",
-            "底比斯之梦"
-        ],
-        "bid": "JuBeaDFmU"
-    },
-    {
-        "startDate": "2020-11-27",
-        "endDate": "2020-12-08",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "温馥予怀"
-        ],
-        "bid": "JvOEc6chC"
-    },
-    {
-        "startDate": "2020-12-04",
-        "endDate": "2020-12-18",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "醉意入怀",
-            "冤家路窄",
-            "完美营救",
-            "塑心"
-        ],
-        "bid": "JwJd5BckN"
-    },
-    {
-        "startDate": "2020-12-16",
-        "endDate": "2021-01-06",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "一步之遥",
-            "终夜明辉",
-            "松雪童话"
-        ],
-        "bid": "JyHLB0Usu",
-        "bv": "BV1jA41147hh"
-    },
-    {
-        "startDate": "2020-12-18",
-        "endDate": "2020-12-31",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "醉意入怀",
-            "冷暖心知",
-            "童心攻势"
-        ],
-        "bid": "JyRcdB2vf"
-    },
-    {
-        "startDate": "2020-12-31",
-        "endDate": "2021-01-14",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心有千千结",
-            "眸中景",
-            "倾落心扉",
-            "凉夏"
-        ],
-        "bid": "JAGk45LZ9"
-    },
-    {
-        "startDate": "2021-01-14",
-        "endDate": "2021-01-28",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "千灯如昼",
-            "冤家路窄",
-            "秋叶寄梦",
-            "虚妄之泪"
-        ],
-        "bid": "JCXJwxDrw"
-    },
-    {
-        "startDate": "2021-01-28",
-        "endDate": "2021-02-12",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "咫尺远近",
-            "人间烟火",
-            "弦外之音"
-        ],
-        "bid": "JF5JlkZ6Q"
-    },
-    {
-        "startDate": "2021-01-29",
-        "endDate": "2021-02-22",
-        "type": "LIMITED-EVENT",
-        "server": "CN",
-        "cards": [
-            "荧荧眸光",
-            "天心漫游",
-            "焰落琉彩",
-            "极光之昼"
-        ],
-        "bid": "JEWm4uBXx",
-        "bv": "BV13y4y1p79T"
-    },
-    {
-        "startDate": "2021-02-12",
-        "endDate": "2021-02-26",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "碧蓝之间",
-            "底比斯之梦"
-        ],
-        "bid": "K1gfLjaPZ"
-    },
-    {
-        "startDate": "2021-02-26",
-        "endDate": "2021-03-12",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "醉意入怀",
-            "眸中景",
-            "斑斓光影",
-            "塑心"
-        ],
-        "bid": "K3xESspSD"
-    },
-    {
-        "startDate": "2021-03-12",
-        "endDate": "2021-03-26",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "咫尺远近",
-            "冷暖心知",
-            "弦外之音"
-        ],
-        "bid": "K5FDw04Xl"
-    },
-    {
-        "startDate": "2021-03-25",
-        "endDate": "2021-04-15",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "此心安处",
-            "苍木为意"
-        ],
-        "bid": "K7uLthnTW",
-        "bv": "BV1HK4y1T7yz"
-    },
-    {
-        "startDate": "2021-03-26",
-        "endDate": "2021-04-09",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "冤家路窄",
-            "完美营救",
-            "指尖温度"
-        ],
-        "bid": "K7NDXrwHz"
-    },
-    {
-        "startDate": "2021-04-09",
-        "endDate": "2021-04-23",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "危情邀约",
-            "眸中景",
-            "忆中人",
-            "秋叶寄梦"
-        ],
-        "bid": "K9VBruC1P"
-    },
-    {
-        "startDate": "2021-04-18",
-        "endDate": "2021-04-29",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "两心无间"
-        ],
-        "bid": "Kb97yCuhf"
-    },
-    {
-        "startDate": "2021-04-23",
-        "endDate": "2021-05-07",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "明暗之境",
-            "人间烟火",
-            "底比斯之梦"
-        ],
-        "bid": "Kc3B8D4Ls"
-    },
-    {
-        "startDate": "2021-04-29",
-        "endDate": "2021-05-20",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "惠雨归晴",
-            "思酿"
-        ],
-        "bid": "KcYb30kA5",
-        "bv": "BV1g64y117DM"
-    },
-    {
-        "startDate": "2021-05-07",
-        "endDate": "2021-05-21",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "醉意入怀",
-            "虚诞盛宴",
-            "倾落心扉",
-            "水“逆”"
-        ],
-        "bid": "KebzvfGlr"
-    },
-    {
-        "startDate": "2021-05-21",
-        "endDate": "2021-06-04",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "腾霄",
-            "霓光旋律",
-            "迷涂炫彩"
-        ],
-        "bid": "Kgawh3xYx",
-        "bv": "BV1XA411G7BX"
-    },
-    {
-        "startDate": "2021-05-21",
-        "endDate": "2021-06-04",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "冤家路窄",
-            "暇光一隅",
-            "虚妄之泪"
-        ],
-        "bid": "Kgjyp3udq"
-    },
-    {
-        "startDate": "2021-06-04",
-        "endDate": "2021-06-18",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "完美营救",
-            "弦外之音"
-        ],
-        "bid": "KirAjtnYk"
-    },
-    {
-        "startDate": "2021-06-13",
-        "endDate": "2021-06-24",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "荣光加冕"
-        ],
-        "bid": "KjvCZtqY7"
-    },
-    {
-        "startDate": "2021-06-18",
-        "endDate": "2021-07-02",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "醉意入怀",
-            "指尖温度",
-            "童心攻势"
-        ],
-        "bid": "Kkzw7tvC5"
-    },
-    {
-        "startDate": "2021-07-02",
-        "endDate": "2021-07-16",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "咫尺远近",
-            "终夜明辉",
-            "碧蓝之间",
-            "秋叶寄梦"
-        ],
-        "bid": "Kkzw7tvC5"
-    },
-    {
-        "startDate": "2021-07-05",
-        "endDate": "2021-07-17",
-        "type": "SPECIAL",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "微醺视线",
-            "心跳记忆",
-            "醉意入怀",
-            "咫尺远近",
-            "危情邀约",
-            "冤家路窄",
-            "眸中景"
-        ],
-        "bid": "KnsTUB3LM"
-    },
-    {
-        "startDate": "2021-07-15",
-        "endDate": "2021-08-02",
-        "type": "LIMITED-EVENT",
-        "server": "CN",
-        "cards": [
-            "夜落星河",
-            "相思情长",
-            "不渝",
-            "意笔明心"
-        ],
-        "bid": "KoAykpdXP",
-        "bv": "BV1Bw411d7fx"
-    },
-    {
-        "startDate": "2021-07-16",
-        "endDate": "2021-07-30",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "冷暖心知",
-            "松雪童话"
-        ],
-        "bid": "KoPhSlkpU"
-    },
-    {
-        "startDate": "2021-07-30",
-        "endDate": "2021-08-13",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "一步之遥",
-            "危情邀约",
-            "斑斓光影",
-            "底比斯之梦"
-        ],
-        "bid": "KqXt5Bzju"
-    },
-    {
-        "startDate": "2021-07-30",
-        "endDate": "2021-08-06",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "微醺视线",
-            "醉意入怀",
-            "水“逆”",
-            "底比斯之梦"
-        ],
-        "twitter": "1420693081607782408"
-    },
-    {
-        "startDate": "2020-08-05",
-        "endDate": "2020-08-26",
-        "type": "EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "千灯如昼",
-            "心有千千结",
-            "凉夏"
-        ],
-        "twitter": "1422376674608386059",
-        "youtube": "https://www.youtube.com/watch?v=jrlg6CDYP_I"
-    },
-    {
-        "startDate": "2021-08-06",
-        "endDate": "2021-08-13",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "咫尺远近",
-            "冤家路窄",
-            "斑斓光影",
-            "秋叶寄梦"
-        ],
-        "twitter": "1423222251189538816"
-    },
-    {
-        "startDate": "2021-08-13",
-        "endDate": "2021-08-27",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "醉意入怀",
-            "水“逆”",
-            "弦外之音"
-        ],
-        "bid": "Kt5rTvPaQ"
-    },
-    {
-        "startDate": "2021-08-13",
-        "endDate": "2021-08-20",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "人间烟火",
-            "虚妄之泪"
-        ],
-        "twitter": "1425789412168781830"
-    },
-    {
-        "startDate": "2021-08-19",
-        "endDate": "2021-08-29",
-        "type": "RERUN",
-        "server": "CN",
-        "cards": [
-            "虹色心跳",
-            "铃音予梦",
-            "心悬一线",
-            "悸乱微光"
-        ],
-        "bid": "KtHyg4Hx4"
-    },
-    {
-        "startDate": "2021-08-20",
-        "endDate": "2021-08-27",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "完美营救",
-            "弦外之音"
-        ],
-        "twitter": "1428295684550168579"
-    },
-    {
-        "startDate": "2021-08-27",
-        "endDate": "2021-09-10",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "冤家路窄",
-            "人间烟火",
-            "塑心"
-        ],
-        "bid": "Kvdr17rEB"
-    },
-    {
-        "startDate": "2021-08-27",
-        "endDate": "2021-09-10",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "微醺视线",
-            "咫尺远近",
-            "冷暖心知",
-            "童心攻势"
-        ],
-        "twitter": "1430726700933926913"
-    },
-    {
-        "startDate": "2021-09-03",
-        "endDate": "2021-09-27",
-        "type": "LIMITED-EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "虹色心跳",
-            "铃音予梦",
-            "心悬一线",
-            "悸乱微光"
-        ],
-        "twitter": "1433248312103104515",
-        "youtube": "https://www.youtube.com/watch?v=OlcoBoDy4OQ"
-
-    },
-    {
-        "startDate": "2021-09-06",
-        "endDate": "2021-09-16",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "妄夜之魇",
-            "微醺视线"
-        ],
-        "bid": "KwrfImG6U"
-    },
-    {
-        "startDate": "2021-09-10",
-        "endDate": "2021-09-24",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "醉意入怀",
-            "冤家路窄",
-            "倾落心扉",
-            "指尖温度"
-        ],
-        "twitter": "1435785029297348608"
-    },
-    {
-        "startDate": "2021-09-10",
-        "endDate": "2021-09-24",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "咫尺远近",
-            "倾落心扉",
-            "底比斯之梦"
-        ],
-        "bid": "Kxlq44KU9"
-    },
-    {
-        "startDate": "2021-09-17",
-        "endDate": "2021-09-22",
-        "type": "RERUN",
-        "server": "CN",
-        "cards": [
-            "舞夜流光"
-        ],
-        "bid": "Ky6YazC1b"
-    },
-    {
-        "startDate": "2021-09-19",
-        "endDate": "2021-09-29",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "昔年之缚"
-        ],
-        "bid": "Kyzeq1oz4"
-    },
-    {
-        "startDate": "2021-09-22",
-        "endDate": "2021-10-03",
-        "type": "BIRTHDAY",
-        "server": "GLOBAL",
-        "cards": [
-            "舞夜流光"
-        ],
-        "twitter": "1439771293457399810"
-    },
-    {
-        "startDate": "2021-09-24",
-        "endDate": "2021-10-08",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "秋叶寄梦",
-            "虚妄之泪"
-        ],
-        "twitter": "1440858456722796557"
-    },
-    {
-        "startDate": "2021-09-24",
-        "endDate": "2021-10-08",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "苍木为意",
-            "冷暖心知",
-            "水“逆”"
-        ],
-        "bid": "KztpJF32j"
-    },
-    {
-        "startDate": "2021-09-29",
-        "endDate": "2021-10-20",
-        "type": "LIMITED-EVENT",
-        "server": "CN",
-        "cards": [
-            "昼夜余想",
-            "炽响",
-            "渡月逐光",
-            "微芒"
-        ],
-        "bid": "KAeJUtUhO",
-        "bv": "BV1zq4y1o7Zc"
-    },
-    {
-        "startDate": "2021-10-08",
-        "endDate": "2021-10-22",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "此心安处",
-            "危情邀约",
-            "秋叶寄梦",
-            "童心攻势"
-        ],
-        "bid": "KBBnRgMKG"
-    },
-    {
-        "startDate": "2021-10-08",
-        "endDate": "2021-10-22",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "完美营救",
-            "底比斯之梦"
-        ],
-        "twitter": "1445946991536660480"
-    },
-    {
-        "startDate": "2021-10-20",
-        "endDate": "2021-11-03",
-        "type": "EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "明暗之境",
-            "虚诞盛宴",
-            "忆中人",
-            "暇光一隅"
-        ],
-        "twitter": "1449555767028183048",
-        "youtube": "https://www.youtube.com/watch?v=-IzbNC0PYdE"
-    },
-    {
-        "startDate": "2021-10-22",
-        "endDate": "2021-11-05",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "微醺视线",
-            "醉意入怀",
-            "指尖温度",
-            "童心攻势"
-        ],
-        "twitter": "1451020414893772812"
-    },
-    {
-        "startDate": "2021-10-22",
-        "endDate": "2021-11-05",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "惠雨归晴",
-            "眸中景",
-            "完美营救",
-            "虚妄之泪"
-        ],
-        "bid": "KDJrlBQFB"
-    },
-    {
-        "startDate": "2021-11-02",
-        "endDate": "2021-11-23",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "新晴",
-            "朝华惜时",
-            "纸间情眷"
-        ],
-        "bid": "KFpt5oE6W",
-        "bv": "BV1oU4y1F7qo"
-    },
-    {
-        "startDate": "2021-11-05",
-        "endDate": "2021-11-19",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "思酿",
-            "碧蓝之间",
-            "弦外之音"
-        ],
-        "bid": "KFRlBwAx7"
-    },
-    {
-        "startDate": "2021-11-05",
-        "endDate": "2021-11-19",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "秋叶寄梦",
-            "塑心"
-        ],
-        "twitter": "1456199542697648137"
-    },
-    {
-        "startDate": "2021-11-12",
-        "endDate": "2021-11-28",
-        "type": "EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "此心安处",
-            "苍木为意"
-        ],
-        "twitter": "1458615468336435205",
-        "youtube": "https://www.youtube.com/watch?v=-djv13QnOJg"
-    },
-    {
-        "startDate": "2021-11-19",
-        "endDate": "2021-12-03",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "微醺视线",
-            "冤家路窄",
-            "人间烟火",
-            "指尖温度"
-        ],
-        "bid": "L21Shsdkk"
-    },
-    {
-        "startDate": "2021-11-19",
-        "endDate": "2021-12-03",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "危情邀约",
-            "心跳记忆",
-            "斑斓光影",
-            "弦外之音"
-        ],
-        "twitter": "1461152180468027393"
-    },
-    {
-        "startDate": "2021-11-25",
-        "endDate": "2021-11-30",
-        "type": "RERUN",
-        "server": "CN",
-        "cards": [
-            "温馥予怀"
-        ],
-        "bid": "L2DZagP9Z"
-    },
-    {
-        "startDate": "2021-11-27",
-        "endDate": "2021-12-07",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "暗漪"
-        ],
-        "bid": "L36g52nLc"
-    },
-    {
-        "startDate": "2021-11-28",
-        "endDate": "2021-12-09",
-        "type": "BIRTHDAY",
-        "server": "GLOBAL",
-        "cards": [
-            "温馥予怀"
-        ],
-        "twitter": "1464421217486659585"
-    },
-    {
-        "startDate": "2021-12-03",
-        "endDate": "2021-12-17",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "醉意入怀",
-            "危情邀约",
-            "斑斓光影",
-            "童心攻势"
-        ],
-        "bid": "L49RqDY49"
-    },
-    {
-        "startDate": "2021-12-03",
-        "endDate": "2021-12-17",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "醉意入怀",
-            "冤家路窄",
-            "完美营救",
-            "水“逆”"
-        ],
-        "twitter": "1466346408529870853"
-    },
-    {
-        "startDate": "2021-12-09",
-        "endDate": "2021-12-19",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "潮生情动",
-            "眸中景"
-        ],
-        "bid": "L4LMqowLp"
-    },
-    {
-        "startDate": "2021-12-11",
-        "endDate": "2021-01-01",
-        "type": "EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "一步之遥",
-            "终夜明辉",
-            "松雪童话"
-        ],
-        "twitter": "1468897182350987270",
-        "youtube": "https://www.youtube.com/watch?v=xX2yp9qd0pU"
-    },
-    {
-        "startDate": "2021-12-17",
-        "endDate": "2021-12-31",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "心跳记忆",
-            "塑心",
-            "弦外之音"
-        ],
-        "bid": "L6hQI2YnO"
-    },
-    {
-        "startDate": "2021-12-17",
-        "endDate": "2021-12-31",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "微醺视线",
-            "咫尺远近",
-            "冷暖心知",
-            "底比斯之梦"
-        ],
-        "twitter": "1471299038519578629"
-    },
-    {
-        "startDate": "2021-12-21",
-        "endDate": "2022-01-04",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "瑰色余温",
-            "弦光掠影"
-        ],
-        "bid": "L6r4SaZ7L",
-        "bv": "BV1Xq4y1276d"
-    },
-    {
-        "startDate": "2021-12-31",
-        "endDate": "2022-01-14",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "霓光旋律",
-            "眸中景",
-            "碧蓝之间",
-            "秋叶寄梦"
-        ],
-        "bid": "L8pP5eMzf"
-    },
-    {
-        "startDate": "2022-01-01",
-        "endDate": "2022-01-24",
-        "type": "LIMITED-EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "荧荧眸光",
-            "天心漫游",
-            "焰落琉彩",
-            "极光之昼"
-        ],
-        "twitter": "1476387566353977344",
-        "youtube": "https://www.youtube.com/watch?v=IsxdSRI6Zz0"
-    },
-    {
-        "startDate": "2021-12-31",
-        "endDate": "2022-01-14",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "心跳记忆",
-            "眸中景",
-            "倾落心扉",
-            "指尖温度"
-        ]
-    },
-    {
-        "startDate": "2022-01-06",
-        "endDate": "2022-01-16",
-        "type": "RERUN",
-        "server": "CN",
-        "cards": [
-            "荧荧眸光",
-            "天心漫游",
-            "焰落琉彩",
-            "极光之昼"
-        ],
-        "bid": "L9bmxxpDq"
-    },
-    {
-        "startDate": "2022-01-14",
-        "endDate": "2022-01-28",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "最佳拍档",
-            "危情邀约",
-            "人间烟火",
-            "童心攻势"
-        ],
-        "twitter": "1481445897909125121"
-    },
-    {
-        "startDate": "2022-01-14",
-        "endDate": "2022-01-28",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "腾霄",
-            "冤家路窄",
-            "冷暖心知",
-            "指尖温度"
-        ],
-        "bid": "LaxQpnpZP"
-    },
-    {
-        "startDate": "2022-01-20",
-        "endDate": "2022-02-10",
-        "type": "LIMITED-EVENT",
-        "server": "CN",
-        "cards": [
-            "戏影入梦",
-            "野有蔓草",
-            "灼华于归",
-            "画堂春"
-        ],
-        "bid": "LbsDgmc7z",
-        "bv": "BV1VY411h7BK"
-    },
-    {
-        "startDate": "2022-01-28",
-        "endDate": "2022-02-11",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "千灯如昼",
-            "心有千千结",
-            "凉夏"
-        ],
-        "twitter": "1486156941202055173"
-    },
-    {
-        "startDate": "2022-01-28",
-        "endDate": "2022-02-11",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "醉意入怀",
-            "咫尺远近",
-            "倾落心扉",
-            "迷涂炫彩"
-        ],
-        "bid": "LcFMZBMj6"
-    },
-    {
-        "startDate": "2022-02-11",
-        "endDate": "2022-02-25",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "咫尺远近",
-            "冤家路窄",
-            "完美营救",
-            "冷暖心知"
-        ],
-        "twitter": "1491713554780770307"
-    },
-    {
-        "startDate": "2022-02-11",
-        "endDate": "2022-02-25",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "人间烟火",
-            "塑心"
-        ],
-        "bid": "LeNLWkGem"
-    },
-    {
-        "startDate": "2022-02-18",
-        "endDate": "2022-02-28",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "好愿成双",
-            "醉意入怀"
-        ],
-        "bid": "Lfzj7drPL"
-    },
-    {
-        "startDate": "2022-02-25",
-        "endDate": "2022-03-13",
-        "type": "EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "惠雨归晴",
-            "思酿"
-        ],
-        "twitter": "1496666187383644160",
-        "youtube": "https://www.youtube.com/watch?v=-_6Al9edUGc"
-    },
-    {
-        "startDate": "2022-02-25",
-        "endDate": "2022-03-10",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "微醺视线",
-            "醉意入怀",
-            "水“逆”",
-            "弦外之音"
-        ],
-        "twitter": "1496786987495276547"
-    },
-    {
-        "startDate": "2022-02-25",
-        "endDate": "2022-03-10",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "千灯如昼",
-            "危情邀约",
-            "冷暖心知",
-            "底比斯之梦"
-        ],
-        "bid": "LgVKXtkvR"
-    },
-    {
-        "startDate": "2022-03-18",
-        "endDate": "2022-03-28",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "执愿",
-            "沁甜绮想"
-        ],
-        "bid": "Lfzj7drPL",
-        "bv": "BV1kR4y1V7Z4"
-    },
-    {
-        "startDate": "2022-03-10",
-        "endDate": "2022-03-25",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "心跳记忆",
-            "危情邀约",
-            "斑斓光影",
-            "底比斯之梦"
-        ],
-        "twitter": "1501739616587628549"
-    },
-    {
-        "startDate": "2022-03-10",
-        "endDate": "2022-03-25",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心有千千结",
-            "咫尺远近",
-            "完美营救",
-            "童心攻势"
-        ],
-        "bid": "Lj3FWfHm5"
-    },
-    {
-        "startDate": "2022-03-17",
-        "endDate": "2022-03-27",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "欲愈",
-            "咫尺远近"
-        ],
-        "bid": "Ljdz2FhNw",
-        "bv": "BV1rP4y1M7Ku"
-    },
-    {
-        "startDate": "2022-03-25",
-        "endDate": "2022-04-08",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "最佳拍档",
-            "眸中景",
-            "秋叶寄梦",
-            "虚妄之泪"
-        ],
-        "twitter": "1506933846465413123"
-    },
-    {
-        "startDate": "2022-03-25",
-        "endDate": "2022-04-08",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "心跳记忆",
-            "冤家路窄",
-            "斑斓光影",
-            "凉夏"
-        ],
-        "bid": "LlbIP38Io"
-    },
-    {
-        "startDate": "2022-03-25",
-        "endDate": "2022-04-15",
-        "type": "EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "腾霄",
-            "霓光旋律",
-            "迷涂炫彩"
-        ],
-        "twitter": "1506813047482032128",
-        "youtube": "https://www.youtube.com/watch?v=gjdak_-UG7U"
-    },
-    {
-        "startDate": "2022-03-31",
-        "endDate": "2022-04-14",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "晖染萦沙",
-            "星愿心澜"
-        ],
-        "bid": "Lm6H8t2eL",
-        "bv": "BV1uu411i7hu"
-    },
-    {
-        "startDate": "2022-04-08",
-        "endDate": "2022-04-22",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "咫尺远近",
-            "冤家路窄",
-            "完美营救",
-            "人间烟火"
-        ],
-        "twitter": "1511886477357113349"
-    },
-    {
-        "startDate": "2022-04-08",
-        "endDate": "2022-04-22",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "最佳拍档",
-            "危情邀约",
-            "人间烟火",
-            "弦外之音"
-        ],
-        "bid": "LnjHKEgS2"
-    },
-    {
-        "startDate": "2022-04-16",
-        "endDate": "2022-04-21",
-        "type": "RERUN",
-        "server": "CN",
-        "cards": [
-            "两心无间"
-        ],
-        "bid": "LoeF5qmjs"
-    },
-    {
-        "startDate": "2022-04-18",
-        "endDate": "2022-04-28",
-        "type": "BIRTHDAY",
-        "server": "CN",
-        "cards": [
-            "日夜相生"
-        ],
-        "bid": "LoGWH3RxR"
-    },
-    {
-        "startDate": "2022-04-18",
-        "endDate": "2022-04-29",
-        "type": "BIRTHDAY",
-        "server": "GLOBAL",
-        "cards": [
-            "两心无间"
-        ],
-        "twitter": "1515147969733005322"
-    },
-    {
-        "startDate": "2022-04-22",
-        "endDate": "2022-05-06",
-        "type": "ROTATION",
-        "server": "GLOBAL",
-        "cards": [
-            "微醺视线",
-            "眸中景",
-            "冷暖心知",
-            "指尖温度"
-        ],
-        "twitter": "1516959910298234880"
-    },
-    {
-        "startDate": "2022-04-22",
-        "endDate": "2022-05-06",
-        "type": "ROTATION",
-        "server": "CN",
-        "cards": [
-            "妄夜之魇",
-            "醉意入怀",
-            "塑心",
-            "童心攻势"
-        ],
-        "bid": "LprGKjnYo"
-    },
-    {
-        "startDate": "2022-04-22",
-        "endDate": "2022-05-08",
-        "type": "EVENT",
-        "server": "CN",
-        "cards": [
-            "情难自匿",
-            "冤家路窄"
-        ],
-        "bid": "LpBvNsmTv"
-    },
-    {
-        "startDate": "2022-04-29",
-        "endDate": "2022-05-20",
-        "type": "LIMITED-EVENT",
-        "server": "GLOBAL",
-        "cards": [
-            "昼夜余想",
-            "炽响",
-            "渡月逐光",
-            "微芒"
-        ],
-        "youtube": "https://www.youtube.com/watch?v=msW84nAm0xA",
-        "twitter": ""
-    }
+  {
+    "startDate": "2020-07-30",
+    "endDate": "2020-08-14",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "醉意入怀", "塑心", "童心攻势"]
+  },
+  {
+    "startDate": "2020-08-14",
+    "endDate": "2020-08-28",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["咫尺远近", "冤家路窄", "完美营救", "秋叶寄梦"],
+    "bid": "Jffszt8TG"
+  },
+  {
+    "startDate": "2020-08-19",
+    "endDate": "2020-09-09",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["千灯如昼", "心有千千结", "凉夏"],
+    "bid": "JgC0AnO0k",
+    "bv": "BV1CD4y1U7W1"
+  },
+  {
+    "startDate": "2020-08-28",
+    "endDate": "2020-09-11",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "危情邀约", "倾落心扉", "底比斯之梦"],
+    "bid": "JhPwtvKRM"
+  },
+  {
+    "startDate": "2020-09-11",
+    "endDate": "2020-09-25",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "眸中景", "人间烟火", "指尖温度"],
+    "bid": "JjX7e5fLf"
+  },
+  {
+    "startDate": "2020-09-19",
+    "endDate": "2020-09-30",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["舞夜流光"],
+    "bid": "JkJ9yAIdW"
+  },
+  {
+    "startDate": "2020-09-25",
+    "endDate": "2020-10-09",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "冤家路窄", "碧蓝之间", "虚妄之泪"],
+    "bid": "Jm5izBLoQ"
+  },
+  {
+    "startDate": "2020-09-30",
+    "endDate": "2020-10-25",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["虹色心跳", "铃音予梦", "心悬一线", "悸乱微光"],
+    "bid": "JmQralIgC",
+    "bv": "BV1Ek4y117wU"
+  },
+  {
+    "startDate": "2020-10-09",
+    "endDate": "2020-10-23",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "咫尺远近", "冷暖心知", "弦外之音"],
+    "bid": "JodhkdOF3"
+  },
+  {
+    "startDate": "2020-10-23",
+    "endDate": "2020-11-06",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "眸中景", "秋叶寄梦", "水“逆”"],
+    "bid": "Jqlgna3f3"
+  },
+  {
+    "startDate": "2020-11-06",
+    "endDate": "2020-11-20",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "危情邀约", "斑斓光影", "童心攻势"],
+    "bid": "Jstfyjhe3"
+  },
+  {
+    "startDate": "2020-11-12",
+    "endDate": "2020-11-26",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["明暗之境", "虚诞盛宴", "忆中人", "暇光一隅"],
+    "bid": "JteM4vRBV",
+    "bv": "BV1Zp4y1k7SX"
+  },
+  {
+    "startDate": "2020-11-20",
+    "endDate": "2020-12-04",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "咫尺远近", "人间烟火", "底比斯之梦"],
+    "bid": "JuBeaDFmU"
+  },
+  {
+    "startDate": "2020-11-27",
+    "endDate": "2020-12-08",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["温馥予怀"],
+    "bid": "JvOEc6chC"
+  },
+  {
+    "startDate": "2020-12-04",
+    "endDate": "2020-12-18",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "冤家路窄", "完美营救", "塑心"],
+    "bid": "JwJd5BckN"
+  },
+  {
+    "startDate": "2020-12-16",
+    "endDate": "2021-01-06",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["一步之遥", "终夜明辉", "松雪童话"],
+    "bid": "JyHLB0Usu",
+    "bv": "BV1jA41147hh"
+  },
+  {
+    "startDate": "2020-12-18",
+    "endDate": "2020-12-31",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "醉意入怀", "冷暖心知", "童心攻势"],
+    "bid": "JyRcdB2vf"
+  },
+  {
+    "startDate": "2020-12-31",
+    "endDate": "2021-01-14",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心有千千结", "眸中景", "倾落心扉", "凉夏"],
+    "bid": "JAGk45LZ9"
+  },
+  {
+    "startDate": "2021-01-14",
+    "endDate": "2021-01-28",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["千灯如昼", "冤家路窄", "秋叶寄梦", "虚妄之泪"],
+    "bid": "JCXJwxDrw"
+  },
+  {
+    "startDate": "2021-01-28",
+    "endDate": "2021-02-12",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "咫尺远近", "人间烟火", "弦外之音"],
+    "bid": "JF5JlkZ6Q"
+  },
+  {
+    "startDate": "2021-01-29",
+    "endDate": "2021-02-22",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["荧荧眸光", "天心漫游", "焰落琉彩", "极光之昼"],
+    "bid": "JEWm4uBXx",
+    "bv": "BV13y4y1p79T"
+  },
+  {
+    "startDate": "2021-02-12",
+    "endDate": "2021-02-26",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "危情邀约", "碧蓝之间", "底比斯之梦"],
+    "bid": "K1gfLjaPZ"
+  },
+  {
+    "startDate": "2021-02-26",
+    "endDate": "2021-03-12",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "眸中景", "斑斓光影", "塑心"],
+    "bid": "K3xESspSD"
+  },
+  {
+    "startDate": "2021-03-12",
+    "endDate": "2021-03-26",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "咫尺远近", "冷暖心知", "弦外之音"],
+    "bid": "K5FDw04Xl"
+  },
+  {
+    "startDate": "2021-03-25",
+    "endDate": "2021-04-15",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["此心安处", "苍木为意"],
+    "bid": "K7uLthnTW",
+    "bv": "BV1HK4y1T7yz"
+  },
+  {
+    "startDate": "2021-03-26",
+    "endDate": "2021-04-09",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "冤家路窄", "完美营救", "指尖温度"],
+    "bid": "K7NDXrwHz"
+  },
+  {
+    "startDate": "2021-04-09",
+    "endDate": "2021-04-23",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["危情邀约", "眸中景", "忆中人", "秋叶寄梦"],
+    "bid": "K9VBruC1P"
+  },
+  {
+    "startDate": "2021-04-18",
+    "endDate": "2021-04-29",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["两心无间"],
+    "bid": "Kb97yCuhf"
+  },
+  {
+    "startDate": "2021-04-23",
+    "endDate": "2021-05-07",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "明暗之境", "人间烟火", "底比斯之梦"],
+    "bid": "Kc3B8D4Ls"
+  },
+  {
+    "startDate": "2021-04-29",
+    "endDate": "2021-05-20",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["惠雨归晴", "思酿"],
+    "bid": "KcYb30kA5",
+    "bv": "BV1g64y117DM"
+  },
+  {
+    "startDate": "2021-05-07",
+    "endDate": "2021-05-21",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "虚诞盛宴", "倾落心扉", "水“逆”"],
+    "bid": "KebzvfGlr"
+  },
+  {
+    "startDate": "2021-05-21",
+    "endDate": "2021-06-04",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["腾霄", "霓光旋律", "迷涂炫彩"],
+    "bid": "Kgawh3xYx",
+    "bv": "BV1XA411G7BX"
+  },
+  {
+    "startDate": "2021-05-21",
+    "endDate": "2021-06-04",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "冤家路窄", "暇光一隅", "虚妄之泪"],
+    "bid": "Kgjyp3udq"
+  },
+  {
+    "startDate": "2021-06-04",
+    "endDate": "2021-06-18",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "危情邀约", "完美营救", "弦外之音"],
+    "bid": "KirAjtnYk"
+  },
+  {
+    "startDate": "2021-06-13",
+    "endDate": "2021-06-24",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["荣光加冕"],
+    "bid": "KjvCZtqY7"
+  },
+  {
+    "startDate": "2021-06-18",
+    "endDate": "2021-07-02",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "醉意入怀", "指尖温度", "童心攻势"],
+    "bid": "Kkzw7tvC5"
+  },
+  {
+    "startDate": "2021-07-02",
+    "endDate": "2021-07-16",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["咫尺远近", "终夜明辉", "碧蓝之间", "秋叶寄梦"],
+    "bid": "Kkzw7tvC5"
+  },
+  {
+    "startDate": "2021-07-05",
+    "endDate": "2021-07-17",
+    "type": "SPECIAL",
+    "server": "CN",
+    "cards": [
+      "最佳拍档",
+      "微醺视线",
+      "心跳记忆",
+      "醉意入怀",
+      "咫尺远近",
+      "危情邀约",
+      "冤家路窄",
+      "眸中景"
+    ],
+    "bid": "KnsTUB3LM"
+  },
+  {
+    "startDate": "2021-07-15",
+    "endDate": "2021-08-02",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["夜落星河", "相思情长", "不渝", "意笔明心"],
+    "bid": "KoAykpdXP",
+    "bv": "BV1Bw411d7fx"
+  },
+  {
+    "startDate": "2021-07-16",
+    "endDate": "2021-07-30",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "眸中景", "冷暖心知", "松雪童话"],
+    "bid": "KoPhSlkpU"
+  },
+  {
+    "startDate": "2021-07-30",
+    "endDate": "2021-08-13",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["一步之遥", "危情邀约", "斑斓光影", "底比斯之梦"],
+    "bid": "KqXt5Bzju"
+  },
+  {
+    "startDate": "2021-07-30",
+    "endDate": "2021-08-06",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "醉意入怀", "水“逆”", "底比斯之梦"],
+    "twitter": "1420693081607782408"
+  },
+  {
+    "startDate": "2020-08-05",
+    "endDate": "2020-08-26",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["千灯如昼", "心有千千结", "凉夏"],
+    "twitter": "1422376674608386059",
+    "youtube": "https://www.youtube.com/watch?v=jrlg6CDYP_I"
+  },
+  {
+    "startDate": "2021-08-06",
+    "endDate": "2021-08-13",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["咫尺远近", "冤家路窄", "斑斓光影", "秋叶寄梦"],
+    "twitter": "1423222251189538816"
+  },
+  {
+    "startDate": "2021-08-13",
+    "endDate": "2021-08-27",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "醉意入怀", "水“逆”", "弦外之音"],
+    "bid": "Kt5rTvPaQ"
+  },
+  {
+    "startDate": "2021-08-13",
+    "endDate": "2021-08-20",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "眸中景", "人间烟火", "虚妄之泪"],
+    "twitter": "1425789412168781830"
+  },
+  {
+    "startDate": "2021-08-19",
+    "endDate": "2021-08-29",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["虹色心跳", "铃音予梦", "心悬一线", "悸乱微光"],
+    "bid": "KtHyg4Hx4"
+  },
+  {
+    "startDate": "2021-08-20",
+    "endDate": "2021-08-27",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["心跳记忆", "危情邀约", "完美营救", "弦外之音"],
+    "twitter": "1428295684550168579"
+  },
+  {
+    "startDate": "2021-08-27",
+    "endDate": "2021-09-10",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "冤家路窄", "人间烟火", "塑心"],
+    "bid": "Kvdr17rEB"
+  },
+  {
+    "startDate": "2021-08-27",
+    "endDate": "2021-09-10",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "咫尺远近", "冷暖心知", "童心攻势"],
+    "twitter": "1430726700933926913"
+  },
+  {
+    "startDate": "2021-09-03",
+    "endDate": "2021-09-27",
+    "type": "LIMITED-EVENT",
+    "server": "GLOBAL",
+    "cards": ["虹色心跳", "铃音予梦", "心悬一线", "悸乱微光"],
+    "twitter": "1433248312103104515",
+    "youtube": "https://www.youtube.com/watch?v=OlcoBoDy4OQ"
+  },
+  {
+    "startDate": "2021-09-06",
+    "endDate": "2021-09-16",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["妄夜之魇", "微醺视线"],
+    "bid": "KwrfImG6U"
+  },
+  {
+    "startDate": "2021-09-10",
+    "endDate": "2021-09-24",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["醉意入怀", "冤家路窄", "倾落心扉", "指尖温度"],
+    "twitter": "1435785029297348608"
+  },
+  {
+    "startDate": "2021-09-10",
+    "endDate": "2021-09-24",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "咫尺远近", "倾落心扉", "底比斯之梦"],
+    "bid": "Kxlq44KU9"
+  },
+  {
+    "startDate": "2021-09-17",
+    "endDate": "2021-09-22",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["舞夜流光"],
+    "bid": "Ky6YazC1b"
+  },
+  {
+    "startDate": "2021-09-19",
+    "endDate": "2021-09-29",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["昔年之缚"],
+    "bid": "Kyzeq1oz4"
+  },
+  {
+    "startDate": "2021-09-22",
+    "endDate": "2021-10-03",
+    "type": "BIRTHDAY",
+    "server": "GLOBAL",
+    "cards": ["舞夜流光"],
+    "twitter": "1439771293457399810"
+  },
+  {
+    "startDate": "2021-09-24",
+    "endDate": "2021-10-08",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "眸中景", "秋叶寄梦", "虚妄之泪"],
+    "twitter": "1440858456722796557"
+  },
+  {
+    "startDate": "2021-09-24",
+    "endDate": "2021-10-08",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "苍木为意", "冷暖心知", "水“逆”"],
+    "bid": "KztpJF32j"
+  },
+  {
+    "startDate": "2021-09-29",
+    "endDate": "2021-10-20",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["昼夜余想", "炽响", "渡月逐光", "微芒"],
+    "bid": "KAeJUtUhO",
+    "bv": "BV1zq4y1o7Zc"
+  },
+  {
+    "startDate": "2021-10-08",
+    "endDate": "2021-10-22",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["此心安处", "危情邀约", "秋叶寄梦", "童心攻势"],
+    "bid": "KBBnRgMKG"
+  },
+  {
+    "startDate": "2021-10-08",
+    "endDate": "2021-10-22",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["心跳记忆", "危情邀约", "完美营救", "底比斯之梦"],
+    "twitter": "1445946991536660480"
+  },
+  {
+    "startDate": "2021-10-20",
+    "endDate": "2021-11-03",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["明暗之境", "虚诞盛宴", "忆中人", "暇光一隅"],
+    "twitter": "1449555767028183048",
+    "youtube": "https://www.youtube.com/watch?v=-IzbNC0PYdE"
+  },
+  {
+    "startDate": "2021-10-22",
+    "endDate": "2021-11-05",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "醉意入怀", "指尖温度", "童心攻势"],
+    "twitter": "1451020414893772812"
+  },
+  {
+    "startDate": "2021-10-22",
+    "endDate": "2021-11-05",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["惠雨归晴", "眸中景", "完美营救", "虚妄之泪"],
+    "bid": "KDJrlBQFB"
+  },
+  {
+    "startDate": "2021-11-02",
+    "endDate": "2021-11-23",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["新晴", "朝华惜时", "纸间情眷"],
+    "bid": "KFpt5oE6W",
+    "bv": "BV1oU4y1F7qo"
+  },
+  {
+    "startDate": "2021-11-05",
+    "endDate": "2021-11-19",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "思酿", "碧蓝之间", "弦外之音"],
+    "bid": "KFRlBwAx7"
+  },
+  {
+    "startDate": "2021-11-05",
+    "endDate": "2021-11-19",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "眸中景", "秋叶寄梦", "塑心"],
+    "twitter": "1456199542697648137"
+  },
+  {
+    "startDate": "2021-11-12",
+    "endDate": "2021-11-28",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["此心安处", "苍木为意"],
+    "twitter": "1458615468336435205",
+    "youtube": "https://www.youtube.com/watch?v=-djv13QnOJg"
+  },
+  {
+    "startDate": "2021-11-19",
+    "endDate": "2021-12-03",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "冤家路窄", "人间烟火", "指尖温度"],
+    "bid": "L21Shsdkk"
+  },
+  {
+    "startDate": "2021-11-19",
+    "endDate": "2021-12-03",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["危情邀约", "心跳记忆", "斑斓光影", "弦外之音"],
+    "twitter": "1461152180468027393"
+  },
+  {
+    "startDate": "2021-11-25",
+    "endDate": "2021-11-30",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["温馥予怀"],
+    "bid": "L2DZagP9Z"
+  },
+  {
+    "startDate": "2021-11-27",
+    "endDate": "2021-12-07",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["暗漪"],
+    "bid": "L36g52nLc"
+  },
+  {
+    "startDate": "2021-11-28",
+    "endDate": "2021-12-09",
+    "type": "BIRTHDAY",
+    "server": "GLOBAL",
+    "cards": ["温馥予怀"],
+    "twitter": "1464421217486659585"
+  },
+  {
+    "startDate": "2021-12-03",
+    "endDate": "2021-12-17",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "危情邀约", "斑斓光影", "童心攻势"],
+    "bid": "L49RqDY49"
+  },
+  {
+    "startDate": "2021-12-03",
+    "endDate": "2021-12-17",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["醉意入怀", "冤家路窄", "完美营救", "水“逆”"],
+    "twitter": "1466346408529870853"
+  },
+  {
+    "startDate": "2021-12-09",
+    "endDate": "2021-12-19",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["潮生情动", "眸中景"],
+    "bid": "L4LMqowLp"
+  },
+  {
+    "startDate": "2021-12-11",
+    "endDate": "2021-01-01",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["一步之遥", "终夜明辉", "松雪童话"],
+    "twitter": "1468897182350987270",
+    "youtube": "https://www.youtube.com/watch?v=xX2yp9qd0pU"
+  },
+  {
+    "startDate": "2021-12-17",
+    "endDate": "2021-12-31",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "心跳记忆", "塑心", "弦外之音"],
+    "bid": "L6hQI2YnO"
+  },
+  {
+    "startDate": "2021-12-17",
+    "endDate": "2021-12-31",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "咫尺远近", "冷暖心知", "底比斯之梦"],
+    "twitter": "1471299038519578629"
+  },
+  {
+    "startDate": "2021-12-21",
+    "endDate": "2022-01-04",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["瑰色余温", "弦光掠影"],
+    "bid": "L6r4SaZ7L",
+    "bv": "BV1Xq4y1276d"
+  },
+  {
+    "startDate": "2021-12-31",
+    "endDate": "2022-01-14",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["霓光旋律", "眸中景", "碧蓝之间", "秋叶寄梦"],
+    "bid": "L8pP5eMzf"
+  },
+  {
+    "startDate": "2022-01-01",
+    "endDate": "2022-01-24",
+    "type": "LIMITED-EVENT",
+    "server": "GLOBAL",
+    "cards": ["荧荧眸光", "天心漫游", "焰落琉彩", "极光之昼"],
+    "twitter": "1476387566353977344",
+    "youtube": "https://www.youtube.com/watch?v=IsxdSRI6Zz0"
+  },
+  {
+    "startDate": "2021-12-31",
+    "endDate": "2022-01-14",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["心跳记忆", "眸中景", "倾落心扉", "指尖温度"]
+  },
+  {
+    "startDate": "2022-01-06",
+    "endDate": "2022-01-16",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["荧荧眸光", "天心漫游", "焰落琉彩", "极光之昼"],
+    "bid": "L9bmxxpDq"
+  },
+  {
+    "startDate": "2022-01-14",
+    "endDate": "2022-01-28",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "危情邀约", "人间烟火", "童心攻势"],
+    "twitter": "1481445897909125121"
+  },
+  {
+    "startDate": "2022-01-14",
+    "endDate": "2022-01-28",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["腾霄", "冤家路窄", "冷暖心知", "指尖温度"],
+    "bid": "LaxQpnpZP"
+  },
+  {
+    "startDate": "2022-01-20",
+    "endDate": "2022-02-10",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["戏影入梦", "野有蔓草", "灼华于归", "画堂春"],
+    "bid": "LbsDgmc7z",
+    "bv": "BV1VY411h7BK"
+  },
+  {
+    "startDate": "2022-01-28",
+    "endDate": "2022-02-11",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["千灯如昼", "心有千千结", "凉夏"],
+    "twitter": "1486156941202055173"
+  },
+  {
+    "startDate": "2022-01-28",
+    "endDate": "2022-02-11",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "咫尺远近", "倾落心扉", "迷涂炫彩"],
+    "bid": "LcFMZBMj6"
+  },
+  {
+    "startDate": "2022-02-11",
+    "endDate": "2022-02-25",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["咫尺远近", "冤家路窄", "完美营救", "冷暖心知"],
+    "twitter": "1491713554780770307"
+  },
+  {
+    "startDate": "2022-02-11",
+    "endDate": "2022-02-25",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "眸中景", "人间烟火", "塑心"],
+    "bid": "LeNLWkGem"
+  },
+  {
+    "startDate": "2022-02-18",
+    "endDate": "2022-02-28",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["好愿成双", "醉意入怀"],
+    "bid": "Lfzj7drPL"
+  },
+  {
+    "startDate": "2022-02-25",
+    "endDate": "2022-03-13",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["惠雨归晴", "思酿"],
+    "twitter": "1496666187383644160",
+    "youtube": "https://www.youtube.com/watch?v=-_6Al9edUGc"
+  },
+  {
+    "startDate": "2022-02-25",
+    "endDate": "2022-03-10",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "醉意入怀", "水“逆”", "弦外之音"],
+    "twitter": "1496786987495276547"
+  },
+  {
+    "startDate": "2022-02-25",
+    "endDate": "2022-03-10",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["千灯如昼", "危情邀约", "冷暖心知", "底比斯之梦"],
+    "bid": "LgVKXtkvR"
+  },
+  {
+    "startDate": "2022-03-18",
+    "endDate": "2022-03-28",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["执愿", "沁甜绮想"],
+    "bid": "Lfzj7drPL",
+    "bv": "BV1kR4y1V7Z4"
+  },
+  {
+    "startDate": "2022-03-10",
+    "endDate": "2022-03-25",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["心跳记忆", "危情邀约", "斑斓光影", "底比斯之梦"],
+    "twitter": "1501739616587628549"
+  },
+  {
+    "startDate": "2022-03-10",
+    "endDate": "2022-03-25",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心有千千结", "咫尺远近", "完美营救", "童心攻势"],
+    "bid": "Lj3FWfHm5"
+  },
+  {
+    "startDate": "2022-03-17",
+    "endDate": "2022-03-27",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["欲愈", "咫尺远近"],
+    "bid": "Ljdz2FhNw",
+    "bv": "BV1rP4y1M7Ku"
+  },
+  {
+    "startDate": "2022-03-25",
+    "endDate": "2022-04-08",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "眸中景", "秋叶寄梦", "虚妄之泪"],
+    "twitter": "1506933846465413123"
+  },
+  {
+    "startDate": "2022-03-25",
+    "endDate": "2022-04-08",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["心跳记忆", "冤家路窄", "斑斓光影", "凉夏"],
+    "bid": "LlbIP38Io"
+  },
+  {
+    "startDate": "2022-03-25",
+    "endDate": "2022-04-15",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["腾霄", "霓光旋律", "迷涂炫彩"],
+    "twitter": "1506813047482032128",
+    "youtube": "https://www.youtube.com/watch?v=gjdak_-UG7U"
+  },
+  {
+    "startDate": "2022-03-31",
+    "endDate": "2022-04-14",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["晖染萦沙", "星愿心澜"],
+    "bid": "Lm6H8t2eL",
+    "bv": "BV1uu411i7hu"
+  },
+  {
+    "startDate": "2022-04-08",
+    "endDate": "2022-04-22",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["咫尺远近", "冤家路窄", "完美营救", "人间烟火"],
+    "twitter": "1511886477357113349"
+  },
+  {
+    "startDate": "2022-04-08",
+    "endDate": "2022-04-22",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "危情邀约", "人间烟火", "弦外之音"],
+    "bid": "LnjHKEgS2"
+  },
+  {
+    "startDate": "2022-04-16",
+    "endDate": "2022-04-21",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["两心无间"],
+    "bid": "LoeF5qmjs"
+  },
+  {
+    "startDate": "2022-04-18",
+    "endDate": "2022-04-28",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["日夜相生"],
+    "bid": "LoGWH3RxR"
+  },
+  {
+    "startDate": "2022-04-18",
+    "endDate": "2022-04-29",
+    "type": "BIRTHDAY",
+    "server": "GLOBAL",
+    "cards": ["两心无间"],
+    "twitter": "1515147969733005322"
+  },
+  {
+    "startDate": "2022-04-22",
+    "endDate": "2022-05-06",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "眸中景", "冷暖心知", "指尖温度"],
+    "twitter": "1516959910298234880"
+  },
+  {
+    "startDate": "2022-04-22",
+    "endDate": "2022-05-06",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["妄夜之魇", "醉意入怀", "塑心", "童心攻势"],
+    "bid": "LprGKjnYo"
+  },
+  {
+    "startDate": "2022-04-22",
+    "endDate": "2022-05-08",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["情难自匿", "冤家路窄"],
+    "bid": "LpBvNsmTv"
+  },
+  {
+    "startDate": "2022-04-29",
+    "endDate": "2022-05-20",
+    "type": "LIMITED-EVENT",
+    "server": "GLOBAL",
+    "cards": ["昼夜余想", "炽响", "渡月逐光", "微芒"],
+    "youtube": "https://www.youtube.com/watch?v=msW84nAm0xA",
+    "twitter": "1518409458883440646"
+  },
+  {
+    "startDate": "2022-05-06",
+    "endDate": "2022-05-20",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["醉意入怀", "危情邀约", "倾落心扉", "童心攻势"],
+    "twitter": "1522154134115336193"
+  },
+  {
+    "startDate": "2022-05-06",
+    "endDate": "2022-05-20",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["咫尺远近", "眸中景", "倾落心扉", "暇光一隅"],
+    "bid": "LrzG2y4Nt"
+  },
+  {
+    "startDate": "2022-05-11",
+    "endDate": "2022-05-25",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["繁荫浮岁", "愿者缱钩"],
+    "bid": "LslelsJmq",
+    "bv": "BV1i54y1f7HW"
+  },
+  {
+    "startDate": "2022-05-20",
+    "endDate": "2022-06-03",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "冤家路窄", "秋叶寄梦", "水“逆”"],
+    "twitter": "1527106768337129472"
+  },
+  {
+    "startDate": "2022-05-20",
+    "endDate": "2022-06-03",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "朝华惜时", "秋叶寄梦", "水“逆”"],
+    "bid": "LtHEEyFcE"
+  },
+  {
+    "startDate": "2022-05-25",
+    "endDate": "2022-06-04",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["夜落星河", "相思情长", "不渝", "意笔明心"],
+    "bid": "LtRtOyOqw"
+  }
 ]

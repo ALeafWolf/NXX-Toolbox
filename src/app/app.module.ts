@@ -34,6 +34,7 @@ import { MerchListComponent } from './merch-list/merch-list.component';
 import { MerchDetailComponent } from './merch-detail/merch-detail.component';
 import { CardReleaseHistoryComponent } from './card-release-history/card-release-history.component';
 import { SiteUpdateLogComponent } from './site-update-log/site-update-log.component';
+import { LazyloadDirective } from './site-directive/lazyload/lazyload.directive';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -57,7 +58,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MerchListComponent,
     MerchDetailComponent,
     CardReleaseHistoryComponent,
-    SiteUpdateLogComponent
+    SiteUpdateLogComponent,
+    LazyloadDirective
   ],
   imports: [
     BrowserModule,
