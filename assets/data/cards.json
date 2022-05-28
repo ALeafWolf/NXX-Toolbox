@@ -310,6 +310,26 @@
         ]
     },
     {
+        "ref": "繁荫浮岁",
+        "name": {
+            "zh": "繁荫浮岁"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "层层深入β Ⅲ",
+            "真相还原 Ⅲ",
+            "紧急避险 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -618,7 +638,28 @@
         "influence": 2056,
         "defense": 1124,
         "obtainedFrom": [
-            "LIMITED-EVENT"
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "愿者缱钩",
+        "name": {
+            "zh": "愿者缱钩"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "层层深入β Ⅲ",
+            "律法全能 Ⅲ",
+            "绝对理性 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
         ]
     },
     {
@@ -2283,7 +2324,9 @@
     {
         "ref": "明熹",
         "name": {
-            "zh": "明熹"
+            "zh": "明熹",
+            "en": "Shining Warmth",
+            "ko": "밝은 햇살"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -3088,6 +3131,24 @@
         ]
     },
     {
+        "ref": "循风",
+        "name": {
+            "zh": "循风"
+        },
+        "type": "EMPATHY",
+        "rarity": "R",
+        "character": "LUKE",
+        "skills": [
+            "以退为进β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "量体裁衣",
         "name": {
             "zh": "量体裁衣",
@@ -3443,6 +3504,24 @@
         ],
         "influence": 820,
         "defense": 474,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "霖雨",
+        "name": {
+            "zh": "霖雨"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "ARTEM",
+        "skills": [
+            "以退为进β Ⅰ",
+            "步步为营 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
