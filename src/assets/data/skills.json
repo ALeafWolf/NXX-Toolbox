@@ -3883,6 +3883,29 @@
         ],
         "function": "defense down",
         "slot": 1,
+        "id": "设问否定β Ⅱ"
+    },
+    {
+        "ref": "设问否定",
+        "name": {
+            "zh": "设问否定β Ⅲ",
+            "en": "Negative Interrogative β Ⅲ",
+            "ko": "질문 부정β Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "description": {
+            "zh": "使对方逻辑防御力降低X%，持续2回合",
+            "en": "Reduces the opponent's LOGIC Defense by X% for 2 turn(s)",
+            "ko": "상대방의 논리 방어력 X% 감소, 지속 시간: 2라운드"
+        },
+        "nums": [
+            13,
+            65.02
+        ],
+        "function": "defense down",
+        "slot": 1,
         "id": "设问否定β Ⅲ"
     },
     {

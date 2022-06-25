@@ -330,6 +330,26 @@
         ]
     },
     {
+        "ref": "犬梦留晞",
+        "name": {
+            "zh": "犬梦留晞"
+        },
+        "type": "INTUITION",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "层层深入β Ⅲ",
+            "真相还原 Ⅲ",
+            "紧急避险 Ⅲ"
+        ],
+        "influence": 2010,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -973,6 +993,46 @@
         ]
     },
     {
+        "ref": "浮华沉宵",
+        "name": {
+            "zh": "浮华沉宵"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "设问否定β Ⅲ",
+            "张弛有度 Ⅲ",
+            "引譬连类 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1166,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
+        "ref": "泡影抚痕",
+        "name": {
+            "zh": "泡影抚痕"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "层层深入β Ⅲ",
+            "盛装舞步 Ⅲ",
+            "箱庭疗法 Ⅲ"
+        ],
+        "influence": 2014,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "冤家路窄",
         "name": {
             "zh": "冤家路窄",
@@ -1148,7 +1208,9 @@
     {
         "ref": "荣光加冕",
         "name": {
-            "zh": "荣光加冕"
+            "zh": "荣光加冕",
+            "en": "Crown of Glory",
+            "ko": "친밀함"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -1340,6 +1402,24 @@
         "obtainedFrom": [
             "EVENT",
             "ROTATION"
+        ]
+    },    {
+        "ref": "炽盛不息",
+        "name": {
+            "zh": "炽盛不息"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "MARIUS",
+        "skills": [
+            "以德服人β Ⅲ",
+            "精英教育 Ⅲ",
+            "商业谈判 Ⅲ"
+        ],
+        "influence": 2010,
+        "defense": 1124,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
         ]
     },
     {
@@ -2305,7 +2385,9 @@
     {
         "ref": "寄意",
         "name": {
-            "zh": "寄意"
+            "zh": "寄意",
+            "en": "Entrusted Feelings",
+            "ko": "전하고픈 마음"
         },
         "type": "INTUITION",
         "rarity": "MR",
@@ -2444,7 +2526,9 @@
     {
         "ref": "眷慕",
         "name": {
-            "zh": "眷慕"
+            "zh": "眷慕",
+            "en": "Unwilling to Part",
+            "ko": "애작"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -2581,7 +2665,9 @@
     {
         "ref": "凝眸",
         "name": {
-            "zh": "凝眸"
+            "zh": "凝眸",
+            "en": "Focused Gaze",
+            "ko": "시선고정"
         },
         "type": "INTUITION",
         "rarity": "MR",
@@ -2678,7 +2764,9 @@
     {
         "ref": "悸动",
         "name": {
-            "zh": "悸动"
+            "zh": "悸动",
+            "en": "Palpitations",
+            "ko": "떨림"
         },
         "type": "EMPATHY",
         "rarity": "MR",
@@ -4155,7 +4243,9 @@
     {
         "ref": "展颜",
         "name": {
-            "zh": "展颜"
+            "zh": "展颜",
+            "en": "Perfectionist",
+            "ko": "웃는 얼굴"
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -4255,6 +4345,24 @@
         "skills": [
             "以退为进β Ⅰ",
             "步步为营 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "凝思",
+        "name": {
+            "zh": "凝思"
+        },
+        "type": "LOGIC",
+        "rarity": "R",
+        "character": "MARIUS",
+        "skills": [
+            "层层深入β Ⅰ",
+            "势如破竹 Ⅰ"
         ],
         "influence": 863,
         "defense": 431,

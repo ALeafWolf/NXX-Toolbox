@@ -6,7 +6,6 @@ import { Directive, ElementRef } from '@angular/core';
 export class LazyloadDirective {
   constructor({ nativeElement }: ElementRef<HTMLImageElement>) {
     const supports = 'loading' in HTMLImageElement.prototype;
-    console.log(nativeElement);
     if (supports) {
       nativeElement.setAttribute('loading', 'lazy');
     } else {
