@@ -1518,7 +1518,9 @@
     {
         "ref": "精益求精",
         "name": {
-            "zh": "精益求精 Ⅱ"
+            "zh": "精益求精 Ⅱ",
+            "en": "Constant Improvement Ⅱ",
+            "ko": "완벽 추구 Ⅱ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -1539,7 +1541,9 @@
     {
         "ref": "精益求精",
         "name": {
-            "zh": "精益求精 Ⅲ"
+            "zh": "精益求精 Ⅲ",
+            "en": "Constant Improvement Ⅲ",
+            "ko": "완벽 추구 Ⅲ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -1882,7 +1886,9 @@
     {
         "ref": "艺术天赋",
         "name": {
-            "zh": "艺术天赋 Ⅲ"
+            "zh": "艺术天赋 Ⅲ",
+            "en": "Artistic Talent Ⅲ",
+            "ko": "艺术天赋 Ⅲ"
         },
         "character": "MARIUS",
         "type": "GENERAL",
@@ -2341,7 +2347,7 @@
         "ref": "正本清源",
         "name": {
             "zh": "正本清源 Ⅲ",
-            "en": "Radical Reformer Ⅱ",
+            "en": "Radical Reformer Ⅲ",
             "ko": "근본적 개혁 Ⅲ"
         },
         "character": "GENERAL",
@@ -2410,7 +2416,7 @@
         "ref": "直感思维",
         "name": {
             "zh": "直感思维 Ⅱ",
-            "en": "Forward-Thinking Ⅱ",
+            "en": "Intuitive Thinking Ⅱ",
             "ko": "직감 Ⅱ"
         },
         "character": "GENERAL",
@@ -2433,7 +2439,7 @@
         "ref": "直感思维",
         "name": {
             "zh": "直感思维 Ⅲ",
-            "en": "Forward-Thinking Ⅲ",
+            "en": "Intuitive Thinking Ⅲ",
             "ko": "직감 Ⅲ"
         },
         "character": "GENERAL",
@@ -2593,7 +2599,9 @@
     {
         "ref": "好奇之心",
         "name": {
-            "zh": "好奇之心 Ⅱ"
+            "zh": "好奇之心 Ⅱ",
+            "en": "Curiosity Ⅱ",
+            "ko": "호기심 Ⅱ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2614,7 +2622,9 @@
     {
         "ref": "好奇之心",
         "name": {
-            "zh": "好奇之心 Ⅲ"
+            "zh": "好奇之心 Ⅲ",
+            "en": "Curiosity Ⅲ",
+            "ko": "호기심 Ⅲ"
         },
         "character": "LUKE",
         "type": "GENERAL",
@@ -2659,7 +2669,7 @@
         "ref": "绝对理性",
         "name": {
             "zh": "绝对理性 Ⅲ",
-            "en": "Logical Ⅲ",
+            "en": "Absolute Rationality Ⅲ",
             "ko": "절대적 이성 Ⅲ"
         },
         "character": "ARTEM",
@@ -2724,8 +2734,8 @@
         "ref": "有条不紊",
         "name": {
             "zh": "有条不紊 Ⅱ",
-            "ko": "질서정연 Ⅱ",
-            "en": "Systematic Ⅱ"
+            "en": "Systematic Ⅱ",
+            "ko": "질서정연 Ⅱ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -2747,8 +2757,8 @@
         "ref": "有条不紊",
         "name": {
             "zh": "有条不紊 Ⅲ",
-            "ko": "질서정연 Ⅲ",
-            "en": "Systematic Ⅲ"
+            "en": "Systematic Ⅲ",
+            "ko": "질서정연 Ⅲ"
         },
         "character": "ARTEM",
         "type": "GENERAL",
@@ -3291,7 +3301,7 @@
         "ref": "滴水不漏",
         "name": {
             "zh": "滴水不漏 Ⅲ",
-            "en": "Rigor Ⅲ",
+            "en": "Watertight Ⅲ",
             "ko": "용의주도 Ⅲ"
         },
         "character": "GENERAL",
@@ -3625,8 +3635,8 @@
             "ko": "상대방의 설득력 X% 감소, 지속 시간: 2라운드"
         },
         "nums": [
-            3.8,
-            19.01
+            3,
+            14.97
         ],
         "function": "influence down",
         "slot": 1,
@@ -3648,8 +3658,8 @@
             "ko": "상대방의 설득력 X% 감소, 지속 시간: 2라운드"
         },
         "nums": [
-            3,
-            14.97
+            3.8,
+            19.01
         ],
         "function": "influence down",
         "slot": 1,
@@ -3976,6 +3986,29 @@
         "function": "defense down",
         "slot": 1,
         "id": "引申归谬α Ⅰ"
+    },
+    {
+        "ref": "引申归谬",
+        "name": {
+            "zh": "引申归谬α Ⅲ",
+            "en": "Indirect Approach α Ⅲ",
+            "ko": "오류 반증α Ⅲ"
+        },
+        "character": "GENERAL",
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "description": {
+            "zh": "使对方共情防御力降低X%，持续1回合",
+            "en": "Reduces the opponent's EMPATHY Defense by X% for 1 turn(s)",
+            "ko": "상대방의 공감 방어력 X% 감소, 지속 시간: 1라운드"
+        },
+        "nums": [
+            19,
+            94.96
+        ],
+        "function": "defense down",
+        "slot": 1,
+        "id": "引申归谬α Ⅲ"
     },
     {
         "ref": "引申归谬",
