@@ -1192,7 +1192,79 @@
     "endDate": "2022-09-09",
     "type": "ROTATION",
     "server": "CN",
-    "cards": ["弦光掠影", "弦光掠影", "碧蓝之间", "秋叶寄梦"],
+    "cards": ["弦光掠影", "冤家路窄", "碧蓝之间", "秋叶寄梦"],
     "bid": "M2E50zMsR"
+  },
+  {
+    "startDate": "2022-09-09",
+    "endDate": "2022-09-23",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "眸中景", "秋叶寄梦", "塑心"],
+    "twitter": "1567331821427347457"
+  },
+  {
+    "startDate": "2022-09-09",
+    "endDate": "2022-09-23",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["瑰色余温", "醉意入怀", "水“逆”", "童心攻势"],
+    "bid": "M4LZX1zub"
+  },
+  {
+    "startDate": "2022-09-16",
+    "endDate": "2022-09-19",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["舞夜流光"],
+    "bid": "M5xkz2ATu"
+  },
+  {
+    "startDate": "2022-09-19",
+    "endDate": "2022-09-24",
+    "type": "RERUN",
+    "server": "CN",
+    "cards": ["昔年之缚"],
+    "bid": "M5xAMxHA2"
+  },
+  {
+    "startDate": "2022-09-19",
+    "endDate": "2022-09-24",
+    "type": "RERUN",
+    "server": "GLOBAL",
+    "cards": ["舞夜流光"],
+    "twitter": "1570230923152351232"
+  },
+  {
+    "startDate": "2022-09-19",
+    "endDate": "2022-09-29",
+    "type": "BIRTHDAY",
+    "server": "CN",
+    "cards": ["繁梦明辰"],
+    "bid": "M5ZSotV7m"
+  },
+  {
+    "startDate": "2022-09-21",
+    "endDate": "2022-10-01",
+    "type": "BIRTHDAY",
+    "server": "GLOBAL",
+    "cards": ["昔年之缚"],
+    "twitter": "1570714107770290178"
+  },
+  {
+    "startDate": "2022-09-23",
+    "endDate": "2022-10-07",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["醉意入怀", "终夜明辉", "斑斓光影", "指尖温度"],
+    "twitter": "1572767640191393793"
+  },
+  {
+    "startDate": "2022-09-23",
+    "endDate": "2022-10-07",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["好愿成双", "咫尺远近", "倾落心扉", "底比斯之梦"],
+    "bid": "M6U2YlQ72"
   }
 ]

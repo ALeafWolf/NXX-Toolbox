@@ -965,7 +965,9 @@
     {
         "ref": "昔年之缚",
         "name": {
-            "zh": "昔年之缚"
+            "zh": "昔年之缚",
+            "en": "Fetters of the Past",
+            "ko": "과거의 속박"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -1154,6 +1156,25 @@
         ],
         "influence": 2226,
         "defense": 954,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "繁梦明辰",
+        "name": {
+            "zh": "繁梦明辰"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "VYN",
+        "skills": [
+            "以德服人γ Ⅲ",
+            "温文尔雅 Ⅲ",
+            "人格侧写 Ⅲ"
+        ],
+        "influence": 2056,
+        "defense": 1124,
         "obtainedFrom": [
             "LIMITED-EVENT"
         ]
@@ -2679,6 +2700,25 @@
         ]
     },
     {
+        "ref": "涎涟",
+        "name": {
+            "zh": "涎涟"
+        },
+        "type": "INTUITION",
+        "rarity": "MR",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "真相还原 Ⅱ",
+            "紧急避险 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "心意",
         "name": {
             "zh": "心意",
@@ -2818,6 +2858,25 @@
         ]
     },
     {
+        "ref": "珠缀",
+        "name": {
+            "zh": "珠缀"
+        },
+        "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "律法全能 Ⅱ",
+            "绝对理性 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "约定",
         "name": {
             "zh": "约定",
@@ -2924,6 +2983,25 @@
             "zh": "旖梦"
         },
         "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "盛装舞步 Ⅱ",
+            "箱庭疗法 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "腴绵",
+        "name": {
+            "zh": "腴绵"
+        },
+        "type": "LOGIC",
         "rarity": "MR",
         "character": "VYN",
         "skills": [
@@ -3067,6 +3145,25 @@
             "循循善诱β Ⅱ",
             "精英教育 Ⅱ",
             "商业谈判 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "觅甘",
+        "name": {
+            "zh": "觅甘"
+        },
+        "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "年少锋锐 Ⅱ",
+            "执行总裁 Ⅱ"
         ],
         "influence": 1658,
         "defense": 829,
@@ -4179,7 +4276,9 @@
     {
         "ref": "纷落",
         "name": {
-            "zh": "纷落"
+            "zh": "纷落",
+            "en": "Falling",
+            "ko": "나풀나풀"
         },
         "type": "LOGIC",
         "rarity": "R",
@@ -4260,6 +4359,24 @@
         "character": "VYN",
         "skills": [
             "先声夺势 Ⅰ",
+            "势如破竹 Ⅰ"
+        ],
+        "influence": 863,
+        "defense": 431,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "浅尝",
+        "name": {
+            "zh": "浅尝"
+        },
+        "type": "INTUITION",
+        "rarity": "R",
+        "character": "VYN",
+        "skills": [
+            "层层深入α Ⅰ",
             "势如破竹 Ⅰ"
         ],
         "influence": 863,
