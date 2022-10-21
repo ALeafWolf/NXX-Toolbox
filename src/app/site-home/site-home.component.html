@@ -1,32 +1,32 @@
 <div class="row justify-content-center">
-    <div class="col-10 row justify-content-center my-4 grid-item bg-main block-border">
-        <div class="col-12 col-lg-6 row justify-content-center align-items-center mb-2">
+    <div class="col-12 col-md-10 row justify-content-center my-4 grid-item bg-main block-border py-4">
+        <div class="col-12 col-lg-6 row justify-content-center align-items-center">
             <div class="col-12 row justify-content-center">
                 <div class="col-12 text-center">
                     <h3>{{'HOME.WELCOME' | translate}}</h3>
                 </div>
-                <div class="col-12 text-center mb-2" style="max-width: 207px; max-height: 263px;">
+                <div class="col-12 text-center" style="max-width: 207px; max-height: 263px;">
                     <img class="img-fluid" src="{{generateRandomIcon()}}">
                 </div>
             </div>
-            <div class="col-12 text-center">
+            <!-- <div class="col-12 text-center">
                 <h4 class="border-bottom border-secondary pb-1">
                     {{'HOME.TO-BE-IMPLEMENTED' | translate}}
                 </h4>
                 <p>
-                    <!-- 更换css library<br />
+                    更换css library<br />
                     UI优化 <br />
-                    (主流浏览器适配+<a href="https://en.wikipedia.org/wiki/Heuristic_evaluation" target="_blank">Heuristic evaluation</a>）<br /> -->
+                    (主流浏览器适配+<a href="https://en.wikipedia.org/wiki/Heuristic_evaluation" target="_blank">Heuristic evaluation</a>）<br />
                     SEO + SSR<br />
                     In-site search
                 </p>
-            </div>
+            </div> -->
         </div>
-        <div class="col-12 col-lg-6 row text-center">
+        <div class="col-12 col-lg-6 row text-center justify-content-center">
             <h4 class="border-bottom border-secondary p-1 col-12">{{'HOME.RECENT-UPDATE' | translate}}</h4>
             <h5 class="p-1 col-12">{{'KEYWORD.CARD' | translate}}</h5>
             <div class="col-12 row justify-content-center">
-                <div class="col-5 col-md-3 my-1" *ngFor="let c of items.cardObj">
+                <div class="col-6 col-md-3 my-1" *ngFor="let c of items.cardObj">
                     <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" routerLinkActive="active">
                         <img class="img-fluid" src="{{imgURL + c.character + '/' + c.ref + '.webp'}}">
                     </a>
@@ -34,7 +34,7 @@
             </div>
             <h5 class="p-1 col-12">{{'HOME.MERCH' | translate}}</h5>
             <div class="col-12 row justify-content-center">
-                <div class="col-5 col-md-3 my-1" *ngFor="let m of items.merchObj">
+                <div class="col-6 col-md-3 my-1" *ngFor="let m of items.merchObj">
                     <a [routerLink]="['/merch-detail/']" [queryParams]="{id: m._id}" routerLinkActive="active">
                         <img class="img-fluid" src="{{m.images[0]}}">
                     </a>
