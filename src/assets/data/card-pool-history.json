@@ -1325,5 +1325,14 @@
     "server": "CN",
     "cards": ["最佳拍档", "沁甜绮想", "人间烟火", "虚妄之泪"],
     "bid": "Mba0X8ORL"
+  },
+  {
+    "startDate": "2022-11-01",
+    "endDate": "2022-11-11",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["潮生情动", "眸中景"],
+    "twitter": "1585934397848670209",
+    "youtube": "https://www.youtube.com/watch?v=qFfDvgJJH3I"
   }
 ]

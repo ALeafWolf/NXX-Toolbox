@@ -1536,7 +1536,9 @@
     {
         "ref": "潮生情动",
         "name": {
-            "zh": "潮生情动"
+            "zh": "潮生情动",
+            "en": "Tideborne Romance",
+            "ko": "요동치는 마음"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -2779,7 +2781,9 @@
     {
         "ref": "囚月",
         "name": {
-            "zh": "囚月"
+            "zh": "囚月",
+            "en": "Moonlit Prisoner",
+            "ko": "달의 족쇄"
         },
         "type": "EMPATHY",
         "rarity": "MR",
@@ -2839,6 +2843,25 @@
             "zh": "涎涟"
         },
         "type": "INTUITION",
+        "rarity": "MR",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "真相还原 Ⅱ",
+            "紧急避险 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "幻诱",
+        "name": {
+            "zh": "幻诱"
+        },
+        "type": "LOGIC",
         "rarity": "MR",
         "character": "LUKE",
         "skills": [
@@ -2918,7 +2941,9 @@
     {
         "ref": "拟心",
         "name": {
-            "zh": "拟心"
+            "zh": "拟心",
+            "en": "Imitation",
+            "ko": "가상 속 진심"
         },
         "type": "EMPATHY",
         "rarity": "MR",
@@ -3011,6 +3036,25 @@
         ]
     },
     {
+        "ref": "胧迹",
+        "name": {
+            "zh": "胧迹"
+        },
+        "type": "INTUITION",
+        "rarity": "MR",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "律法全能 Ⅱ",
+            "绝对理性 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "约定",
         "name": {
             "zh": "约定",
@@ -3076,7 +3120,9 @@
     {
         "ref": "溯夜",
         "name": {
-            "zh": "溯夜"
+            "zh": "溯夜",
+            "en": "Return to Night",
+            "ko": "깊어진 밤"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -3150,6 +3196,25 @@
         ]
     },
     {
+        "ref": "惑海",
+        "name": {
+            "zh": "惑海"
+        },
+        "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "盛装舞步 Ⅱ",
+            "箱庭疗法 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "信物",
         "name": {
             "zh": "信物",
@@ -3194,7 +3259,9 @@
     {
         "ref": "妄罪",
         "name": {
-            "zh": "妄罪"
+            "zh": "妄罪",
+            "en": "Sinful Lust",
+            "ko": "헛된 욕망"
         },
         "type": "INTUITION",
         "rarity": "MR",
@@ -3292,6 +3359,25 @@
             "zh": "觅甘"
         },
         "type": "EMPATHY",
+        "rarity": "MR",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "年少锋锐 Ⅱ",
+            "执行总裁 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "撩梦",
+        "name": {
+            "zh": "撩梦"
+        },
+        "type": "INTUITION",
         "rarity": "MR",
         "character": "MARIUS",
         "skills": [
