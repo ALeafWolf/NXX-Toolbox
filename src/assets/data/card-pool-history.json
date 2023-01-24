@@ -1465,5 +1465,89 @@
     "cards": ["瑰色余温", "弦光掠影"],
     "twitter": "1598255588349288451",
     "youtube": "https://www.youtube.com/watch?v=_QvZAjWXa2k"
+  },
+  {
+    "startDate": "2022-12-16",
+    "endDate": "2022-12-30",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "咫尺远近", "秋叶寄梦", "迷涂炫彩"],
+    "twitter": "1603208227348439040"
+  },
+  {
+    "startDate": "2022-12-16",
+    "endDate": "2022-12-30",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "一步之遥", "指尖温度", "童心攻势"],
+    "bid": "MjFWCiUtx"
+  },
+  {
+    "startDate": "2022-12-22",
+    "endDate": "2022-01-05",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["影落归声", "岂在朝暮"],
+    "bid": "MkATZabCA",
+    "bv": "BV1ee4y1K7fU"
+  },
+  {
+    "startDate": "2022-12-29",
+    "endDate": "2022-01-02",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["好愿成双", "醉意入怀"],
+    "twitter": "1607315291469500417",
+    "youtube": "https://www.youtube.com/watch?v=9Gzxq55wcNM"
+  },
+  {
+    "startDate": "2022-12-30",
+    "endDate": "2022-01-13",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["最佳拍档", "冤家路窄", "人间烟火", "指尖温度"],
+    "twitter": "1608402449043263488"
+  },
+  {
+    "startDate": "2022-12-30",
+    "endDate": "2022-01-13",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["危情邀约", "终夜明辉", "斑斓光影", "秋叶寄梦"],
+    "bid": "MlNVvw6pO"
+  },
+  {
+    "startDate": "2023-01-12",
+    "endDate": "2023-01-30",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["空烬", "尘隐烟霞", "湮索留痕", "棘途"],
+    "bid": "MnMCmzqgR",
+    "bv": "BV1Z24y1Y7zP"
+  },
+  {
+    "startDate": "2023-01-12",
+    "endDate": "2023-02-02",
+    "type": "LIMITED-EVENT",
+    "server": "GLOBAL",
+    "cards": ["戏影入梦", "野有蔓草", "灼华于归", "画堂春"],
+    "twitter": "1612992706527076356",
+    "youtube": "https://www.youtube.com/watch?v=rhikUpAt0rs"
+  },
+  {
+    "startDate": "2022-01-13",
+    "endDate": "2022-01-27",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["心跳记忆", "危情邀约", "碧蓝之间", "底比斯之梦"],
+    "twitter": "1613475883741749250"
+  },
+  {
+    "startDate": "2022-01-13",
+    "endDate": "2022-01-27",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["最佳拍档", "心跳记忆", "松雪童话", "弦外之音"],
+    "bid": "MnVUw3mub"
   }
 ]
