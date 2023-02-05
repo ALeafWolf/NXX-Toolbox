@@ -477,6 +477,25 @@
         ]
     },
     {
+        "ref": "赴心同炽",
+        "name": {
+            "zh": "赴心同炽"
+        },
+        "type": "EMPATHY",
+        "rarity": "SSR",
+        "character": "LUKE",
+        "skills": [
+            "层层深入γ Ⅲ",
+            "真相还原 Ⅲ",
+            "紧急避险 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT"
+        ]
+    },
+    {
         "ref": "心跳记忆",
         "name": {
             "zh": "心跳记忆",
@@ -1235,7 +1254,9 @@
     {
         "ref": "晖染萦沙",
         "name": {
-            "zh": "晖染萦沙"
+            "zh": "晖染萦沙",
+            "en": "Sunset-Dyed Sand",
+            "ko": "노을빛 모래사장"
         },
         "type": "LOGIC",
         "rarity": "SSR",
@@ -1772,7 +1793,9 @@
     {
         "ref": "星愿心澜",
         "name": {
-            "zh": "星愿心澜"
+            "zh": "星愿心澜",
+            "en": "Wishing Star",
+            "ko": "별빛 소원"
         },
         "type": "INTUITION",
         "rarity": "SSR",
@@ -2723,7 +2746,9 @@
     {
         "ref": "繁嚣一梦",
         "name": {
-            "zh": "繁嚣一梦"
+            "zh": "繁嚣一梦",
+            "en": "Bustling Dream",
+            "ko": "꿈속의 소란"
         },
         "type": "INTUITION",
         "rarity": "SR",

@@ -1549,5 +1549,38 @@
     "server": "CN",
     "cards": ["最佳拍档", "心跳记忆", "松雪童话", "弦外之音"],
     "bid": "MnVUw3mub"
+  },
+  {
+    "startDate": "2022-01-27",
+    "endDate": "2022-02-10",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["妄夜之魇", "咫尺远近", "秋叶寄梦", "弦外之音"],
+    "twitter": "1618428517338718209"
+  },
+  {
+    "startDate": "2022-01-27",
+    "endDate": "2022-02-10",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["醉意入怀", "情难自匿", "倾落心扉", "虚妄之泪"],
+    "bid": "Mq3TucuZm"
+  },
+  {
+    "startDate": "2022-01-30",
+    "endDate": "2022-02-06",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["赴心同炽", "千灯如昼"],
+    "bid": "Mqn968A8h"
+  },
+  {
+    "startDate": "2022-02-06",
+    "endDate": "2022-02-20",
+    "type": "EVENT",
+    "server": "GLOBAL",
+    "cards": ["晖染萦沙", "星愿心澜"],
+    "twitter": "1621327746998718465",
+    "youtube": "https://www.youtube.com/watch?v=_uqEVcl9hLU"
   }
 ]
