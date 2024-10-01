@@ -1,0 +1,60 @@
+{
+    "R": {
+        "rss": [
+            {
+                "lv": 40,
+                "coin": 4000,
+                "chip1": 6,
+                "chip2": 6,
+                "charChip": 6
+            }
+        ]
+    },
+    "MR": {
+        "rss": [
+            {
+                "lv": 70,
+                "coin": 20000,
+                "chip1": 20,
+                "chip2": 15,
+                "charChip": 15
+            }
+        ]
+    },
+    "SR": {
+        "rss": [
+            {
+                "lv": 40,
+                "coin": 5000,
+                "chip1": 6,
+                "chip2": 6,
+                "charChip": 6
+            },
+            {
+                "lv": 70,
+                "coin": 15000,
+                "chip1": 20,
+                "chip2": 10,
+                "charChip": 10
+            }
+        ]
+    },
+    "SSR": {
+        "rss": [
+            {
+                "lv": 40,
+                "coin": 7500,
+                "chip1": 10,
+                "chip2": 10,
+                "charChip": 10
+            },
+            {
+                "lv": 70,
+                "coin": 22500,
+                "chip1": 15,
+                "chip2": 15,
+                "charChip": 15
+            }
+        ]
+    }
+}

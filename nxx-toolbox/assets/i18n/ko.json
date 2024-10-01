@@ -1,0 +1,133 @@
+{
+    "CARD-CALCULATOR": {
+        "INFO": "이 계산기는 <span class='font-weight-bold'>전투력 보너스</span>와 <span class='font-weight-bold'>연수실</span>의 효과를 포함하지 않습니다.<br />참고용으로만 이용해주세요.",
+        "POWER": "전투력",
+        "SKILL-SUMMARY": "스킬 보너스",
+        "SECOND-SKILL": "두 번째 스킬",
+        "THIRD-SKILL": "세 번째 스킬"
+    },
+    "FILTER": {
+        "CHARACTER": "캐릭터",
+        "RARITY": "희귀도",
+        "TYPE": "속성",
+        "OBTAINED-FROM": "획득 방법",
+        "FUNCTION": "효과",
+        "SKILL-SLOT": "슬롯"
+    },
+    "FOOTER": {
+        "CLAIM": "이 사이트는 개인적인 사용을 위해 만들어졌습니다.",
+        "COPYRIGHT": "자료 및 콘텐츠의 소유권은 모두 miHoYo의 <a href='https://tot.mihoyo.com/ko-kr' target='_blank'>미해결사건부</a>에 있습니다."
+    },
+    "NAV": {
+        "HOME": "홈",
+        "CALCULATOR": "계산기",
+        "CARD-POWER": "전투력",
+        "CARD-RSS": "육성 재료",
+        "INDEX": "리스트",
+        "CARD-LIST": "생각",
+        "SKILL-LIST": "스킬",
+        "VISION-HISTORY": "여신의 그림자",
+        "MERCH-LIST": "공식 굿즈",
+        "LANGUAGE": "언어",
+        "OTHER": "기타"
+    },
+    "HOME": {
+        "WELCOME": "NXX Toolbox에 어서오세요!",
+        "TO-BE-IMPLEMENTED": "준비 중인 기능",
+        "RECENT-UPDATE": "최근 업데이트",
+        "MERCH": "공식 굿즈"
+    },
+    "KEYWORD": {
+        "CARD": "생각",
+        "CHARACTER": "캐릭터",
+        "RARITY": "희귀도",
+        "TYPE": "속성",
+        "EXP": "경험치",
+        "OBTAINED-FROM": "획득 방법",
+        "FUNCTION": "효과",
+        "SKILL-SLOT": "슬롯",
+        "GENERAL": "공용",
+        "LUKE": "강혁",
+        "ARTEM": "백은후",
+        "VYN": "윤노아",
+        "MARIUS": "유신우",
+        "LOGIC": "논리",
+        "EMPATHY": "공감",
+        "INTUITION": "직감",
+        "PERMENENT": "일반",
+        "ROTATION": "로테이션",
+        "CHARGE": "누적 충전",
+        "CARD-FRAGMENT": "생각 잔영",
+        "EVENT": "이벤트",
+        "LIMITED-TIME": "한정",
+        "LIMITED-EVENT": "한정 이벤트",
+        "BIRTHDAY": "생일 이벤트",
+        "SPECIAL": "특수",
+        "DAMAGE-UP": "단일 관점 피해",
+        "INFLUENCE-UP": "설득력 증가",
+        "DEFENSE-UP": "방어력 증가",
+        "INFLUENCE-DOWN": "설득력 감소",
+        "DEFENSE-DOWN": "방어력 감소",
+        "SUPPORT": "전투력 보너스",
+        "ICON": "아이콘",
+        "NAME": "이름",
+        "SKILL": "스킬",
+        "DESCRIPTION": "설명",
+        "STATISTICS": "값",
+        "LEVEL": "레벨",
+        "BASE-INFLUENCE": "기본 설득력",
+        "BASE-DEFENSE": "기본 방어력",
+        "RANK": "등급",
+        "INFLUENCE": "설득력",
+        "DEFENSE": "방어력",
+        "RERUN": "복각",
+        "UPDATE-LOG": "업데이트 로그"
+    },
+    "MERCH-LIST": {
+        "DECLAIM": "현재는 미해결사건부 공식 <a href='https://mihoyo.tmall.com/shop/view_shop.htm?spm=a230r.1.14.26.4cd54a40DmRV0E' target='_blank'>Tmall</a>샵에서 판매 중인 상품만 표시됩니다. 나머지 굿즈는 작업 중에 있습니다.",
+        "SERIES": "시리즈",
+        "SELL-TIME-TYPE": "판매 기일",
+        "OTHER": "기타",
+        "PERMANENT": "상시",
+        "LIMITED-TIME": "한정"
+    },
+    "MERCH-DETAIL": {
+        "PRODUCT-NAME": "상품명",
+        "PRODUCT-SERIES": "상품 시리즈",
+        "ON-SELL-DATE": "판매 기일",
+        "PRICE": "가격",
+        "PRODUCT-MATERIAL": "소재",
+        "PRODUCT-TECHNOLOGY": "기술",
+        "PRODUCT-PACKING": "포장",
+        "PRODUCT-SIZE": "크기",
+        "PRODUCT-DESCRIPTION": "설명",
+        "PURCHASE-LINK": "구매 링크",
+        "REFERENCE": "참고"
+    },
+    "RSS-CALCULATOR": {
+        "LV-RSS": "강화 재료",
+        "EVOLVE-RSS": "진화 재료",
+        "SKILL-LV-RSS": "스킬 레벨업 재료",
+        "CLAIM": "계산 결과는 참고용으로만 이용해주세요.",
+        "BASIC": "기본",
+        "ADVANCED": "고급",
+        "ESTIMATED": "예상",
+        "REQUIRED-EXP": "필요 경험치",
+        "EXP-CHIP": "법리적 훈계",
+        "ACTUAL-COST": "실제 소모량"
+    },
+    "SKILL-DETAIL": {
+        "SKILL-DESCRIPTION": "스킬 효과",
+        "SKILL-LEVEL": "스킬 레벨",
+        "RELATED-CARD": "관련 생각"
+    },
+    "VISION-HISTORY": {
+        "START-DATE": "시작일",
+        "END-DATE": "종료일",
+        "POOL-TYPE": "가챠 종류",
+        "RATE-UP-CARD": "픽업 대상",
+        "ANNOUNCEMENT": "공지",
+        "CN-SERVER": "중국 서버",
+        "GLOBAL-SERVER": "글로벌 서버"
+    }
+}
