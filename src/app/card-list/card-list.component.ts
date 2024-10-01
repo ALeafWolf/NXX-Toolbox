@@ -98,7 +98,7 @@ export class CardListComponent implements OnInit {
       }
     });
     this.cards = listHolder;
-    if (this.tableSortArrow != [0, 0]) {
+    if (this.tableSortArrow[0] != 0 && this.tableSortArrow[1] != 0) {
       this.sortCards(this.tableSortArrow[0] == 0 ? this.tableSortArrow[0] : this.tableSortArrow[1]);
     }
   }

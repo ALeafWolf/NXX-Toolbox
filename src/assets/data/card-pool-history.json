@@ -353,8 +353,8 @@
     "twitter": "1420693081607782408"
   },
   {
-    "startDate": "2020-08-05",
-    "endDate": "2020-08-26",
+    "startDate": "2021-08-05",
+    "endDate": "2021-08-26",
     "type": "EVENT",
     "server": "GLOBAL",
     "cards": ["千灯如昼", "心有千千结", "凉夏"],
@@ -1038,7 +1038,7 @@
     "type": "BIRTHDAY",
     "server": "GLOBAL",
     "cards": ["荣光加冕"],
-    "twitter": "1536528851542478848"
+    "twitter": "1536166466604736515"
   },
   {
     "startDate": "2022-06-17",
@@ -1572,7 +1572,8 @@
     "type": "EVENT",
     "server": "CN",
     "cards": ["赴心同炽", "千灯如昼"],
-    "bid": "Mqn968A8h"
+    "bid": "Mqn968A8h",
+    "bv": "BV1jx4y1M78T"
   },
   {
     "startDate": "2022-02-06",
@@ -1582,5 +1583,38 @@
     "cards": ["晖染萦沙", "星愿心澜"],
     "twitter": "1621327746998718465",
     "youtube": "https://www.youtube.com/watch?v=_uqEVcl9hLU"
+  },
+  {
+    "startDate": "2022-02-10",
+    "endDate": "2022-02-24",
+    "type": "ROTATION",
+    "server": "GLOBAL",
+    "cards": ["微醺视线", "新晴", "水“逆”", "底比斯之梦"],
+    "twitter": "1623501948006678528"
+  },
+  {
+    "startDate": "2022-02-10",
+    "endDate": "2022-02-24",
+    "type": "ROTATION",
+    "server": "CN",
+    "cards": ["微醺视线", "浮华沉宵", "人间烟火", "底比斯之梦"],
+    "bid": "MsbSGyLjA"
+  },
+  {
+    "startDate": "2022-02-16",
+    "endDate": "2022-02-23",
+    "type": "EVENT",
+    "server": "CN",
+    "cards": ["逐速撩欲", "心有千千结"],
+    "bid": "MsNYWlZ7R",
+    "bv": "BV1pR4y1B7Su"
+  },
+  {
+    "startDate": "2022-02-23",
+    "endDate": "2022-03-05",
+    "type": "LIMITED-EVENT",
+    "server": "CN",
+    "cards": ["戏影入梦", "野有蔓草", "灼华于归", "画堂春"],
+    "bid": "MtRYnzPVK"
   }
 ]

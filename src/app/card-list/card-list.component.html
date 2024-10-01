@@ -91,12 +91,12 @@
             <tbody>
                 <tr *ngFor="let c of cards">
                     <td>
-                        <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
+                        <a [routerLink]="['/card-value/']" [queryParams]="{id: c.ref}" target="_blank">
                             <img class="img-fluid cardIcon" src="{{imgURL + c.character + '/' + c.ref + '.webp'}}">
                         </a>
                     </td>
                     <td>
-                        <a [routerLink]="['/card-value/']" [queryParams]="{id: c._id}" target="_blank">
+                        <a [routerLink]="['/card-value/']" [queryParams]="{id: c.ref}" target="_blank">
                             {{c.n}}
                         </a>
                     </td>

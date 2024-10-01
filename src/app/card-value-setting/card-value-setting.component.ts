@@ -9,10 +9,9 @@ import { GlobalVariable } from '../global-variable';
 @Component({
   selector: 'app-card-value-setting',
   templateUrl: './card-value-setting.component.html',
-  styleUrls: ['./card-value-setting.component.scss']
+  styleUrls: ['./card-value-setting.component.scss'],
 })
 export class CardValueSettingComponent implements OnInit {
-
   char;
   id;
   lang;
@@ -21,10 +20,9 @@ export class CardValueSettingComponent implements OnInit {
   //from data service
   charRssGroup;
   card;
-  skillLevelUpRssList;  //lv2-lv10, index 0-8
+  skillLevelUpRssList; //lv2-lv10, index 0-8
   skillList;
   allSkillList;
-
 
   //for localStorage
   userData;
@@ -41,17 +39,19 @@ export class CardValueSettingComponent implements OnInit {
   skillIDs = [];
   skillNums = [];
   skillNumTypes = [];
-  skillChars = []
-  skillTypes = []
+  skillChars = [];
+  skillTypes = [];
   skillDescriptions = [];
 
   isLoaded = false;
 
   imgURL = GlobalVariable.imgURL;
 
-  constructor(private _route: ActivatedRoute, private _data: DataService, private _seoService: SEOService) {
-
-  }
+  constructor(
+    private _route: ActivatedRoute,
+    private _data: DataService,
+    private _seoService: SEOService
+  ) {}
 
   ngOnInit(): void {
     this._id = this._route.snapshot.queryParamMap.get('id') as String;
@@ -60,26 +60,44 @@ export class CardValueSettingComponent implements OnInit {
   }
 
   loadData() {
-    this._data.getCard(this._id).toPromise().then((card: any) => {
-      this.card = card;
-      if (this.card) {
-        this.att = this.card.influence;
-        this.def = this.card.defense;
-        this.userData = JSON.parse(this._data.getItem(this.card.ref));
-        if (this.userData) {
-          this.loadUserData();
-        }
-        this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
-        this.configureCardLanguage();
-        this.setTitle();
-        this.setSkillDisplay();
-        this.lv = this.card.rarity == "R" ? 70 : 100;
+    // this._data.getCard(this._id).toPromise().then((card: any) => {
+    //   this.card = card;
+    //   if (this.card) {
+    //     this.att = this.card.influence;
+    //     this.def = this.card.defense;
+    //     this.userData = JSON.parse(this._data.getItem(this.card.ref));
+    //     if (this.userData) {
+    //       this.loadUserData();
+    //     }
+    //     this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+    //     this.configureCardLanguage();
+    //     this.setTitle();
+    //     this.setSkillDisplay();
+    //     this.lv = this.card.rarity == "R" ? 70 : 100;
+    //   }
+    //   this.isLoaded = true;
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // })
+    this.card = this._data.getCard(this._id);
+    if (this.card) {
+      this.att = this.card.influence;
+      this.def = this.card.defense;
+      this.userData = JSON.parse(this._data.getItem(this.card.ref));
+      if (this.userData) {
+        this.loadUserData();
       }
-      this.isLoaded = true;
-    }).catch(err => {
-      console.log(err);
-      this.isLoaded = true;
-    })
+      this.power = CardInfo.calculatePower(
+        this.card.rarity,
+        this.star,
+        this.skills
+      );
+      this.configureCardLanguage();
+      this.setTitle();
+      this.setSkillDisplay();
+      this.lv = this.card.rarity == 'R' ? 70 : 100;
+    }
   }
 
   loadUserData() {
@@ -87,7 +105,11 @@ export class CardValueSettingComponent implements OnInit {
     this.skills = this.userData.skills;
     this.star = this.userData.star;
     this.calculateCardStatistic();
-    this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+    this.power = CardInfo.calculatePower(
+      this.card.rarity,
+      this.star,
+      this.skills
+    );
   }
 
   configureCardLanguage() {
@@ -109,11 +131,11 @@ export class CardValueSettingComponent implements OnInit {
   }
 
   setTitle() {
-    let pre = '思绪'
+    let pre = '思绪';
     if ('en' == this.lang) {
-      pre = 'Card'
+      pre = 'Card';
     } else if ('ko' == this.lang) {
-      pre = '생각'
+      pre = '생각';
     }
     this._seoService.setTitle(`${pre}：${this.card.n}`);
   }
@@ -125,35 +147,41 @@ export class CardValueSettingComponent implements OnInit {
     this.skillNumTypes = [];
     this.skillDescriptions = [];
 
-    let r = this.card.rarity == "R" ? 2 : 3;
+    let r = this.card.rarity == 'R' ? 2 : 3;
 
     for (let i = 0; i < r; i++) {
       let skill = this.card.skillObj[i];
-      let num = (this.skills[i] - 1) * (skill.nums[1] - skill.nums[0]) / 9 + skill.nums[0];
+      let num =
+        ((this.skills[i] - 1) * (skill.nums[1] - skill.nums[0])) / 9 +
+        skill.nums[0];
       num = Number.parseFloat(num.toFixed(2));
       this.skillNums.push(num);
 
       //replace X in the description with correct number
       let line = skill.des;
-      if (line.includes("%")) {
-        this.skillNumTypes.push("%")
+      if (line.includes('%')) {
+        this.skillNumTypes.push('%');
       } else {
-        this.skillNumTypes.push("")
+        this.skillNumTypes.push('');
       }
-      let str = line.replace("X", num);
+      let str = line.replace('X', num);
       this.skillDescriptions.push(str);
     }
   }
 
   calculateCardStatistic() {
-    let x = 1 + (this.star - 1) * 0.1
-    this.att = Math.round(this.card.influence * x)
-    this.def = Math.round(this.card.defense * x)
-    this.updatePower()
+    let x = 1 + (this.star - 1) * 0.1;
+    this.att = Math.round(this.card.influence * x);
+    this.def = Math.round(this.card.defense * x);
+    this.updatePower();
   }
 
   updatePower() {
-    this.power = CardInfo.calculatePower(this.card.rarity, this.star, this.skills);
+    this.power = CardInfo.calculatePower(
+      this.card.rarity,
+      this.star,
+      this.skills
+    );
   }
 
   updateData() {
@@ -180,14 +208,14 @@ export class CardValueSettingComponent implements OnInit {
       skillChar: this.skillChars,
       power: this.power,
       influence: this.att,
-      defense: this.def
-    }
+      defense: this.def,
+    };
     localStorage.setItem(this.card.ref, JSON.stringify(d));
-    console.log("saved");
+    console.log('saved');
   }
 
   deleteUserData() {
     localStorage.removeItem(this.card.ref);
-    console.log("deleted");
+    console.log('deleted');
   }
 }

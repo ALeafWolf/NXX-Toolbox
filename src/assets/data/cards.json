@@ -954,6 +954,26 @@
         ]
     },
     {
+        "ref": "逐速撩欲",
+        "name": {
+            "zh": "逐速撩欲"
+        },
+        "type": "LOGIC",
+        "rarity": "SSR",
+        "character": "ARTEM",
+        "skills": [
+            "层层深入γ Ⅲ",
+            "律法全能 Ⅲ",
+            "绝对理性 Ⅲ"
+        ],
+        "influence": 2120,
+        "defense": 1060,
+        "obtainedFrom": [
+            "EVENT",
+            "ROTATION"
+        ]
+    },
+    {
         "ref": "咫尺远近",
         "name": {
             "zh": "咫尺远近",
@@ -1234,7 +1254,9 @@
     {
         "ref": "欲愈",
         "name": {
-            "zh": "欲愈"
+            "zh": "欲愈",
+            "en": "Hungering Desire",
+            "ko": "치유의 욕망"
         },
         "type": "EMPATHY",
         "rarity": "SSR",
@@ -3090,7 +3112,9 @@
     {
         "ref": "挚切",
         "name": {
-            "zh": "挚切"
+            "zh": "挚切",
+            "en": "Passionate",
+            "ko": "진심 어린 입맞춤"
         },
         "type": "EMPATHY",
         "rarity": "MR",
@@ -3150,6 +3174,25 @@
             "zh": "幻诱"
         },
         "type": "LOGIC",
+        "rarity": "MR",
+        "character": "LUKE",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "真相还原 Ⅱ",
+            "紧急避险 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "沉溺",
+        "name": {
+            "zh": "沉溺"
+        },
+        "type": "INTUITION",
         "rarity": "MR",
         "character": "LUKE",
         "skills": [
@@ -3250,7 +3293,9 @@
     {
         "ref": "慕望",
         "name": {
-            "zh": "慕望"
+            "zh": "慕望",
+            "en": "Longing",
+            "ko": "사랑의 입맞춤"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -3329,6 +3374,25 @@
             "zh": "胧迹"
         },
         "type": "INTUITION",
+        "rarity": "MR",
+        "character": "ARTEM",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "律法全能 Ⅱ",
+            "绝对理性 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "衷情",
+        "name": {
+            "zh": "衷情"
+        },
+        "type": "LOGIC",
         "rarity": "MR",
         "character": "ARTEM",
         "skills": [
@@ -3429,7 +3493,9 @@
     {
         "ref": "勿忘",
         "name": {
-            "zh": "勿忘"
+            "zh": "勿忘",
+            "en": "Unforgettable",
+            "ko": "잊지 못할 입맞춤"
         },
         "type": "INTUITION",
         "rarity": "MR",
@@ -3522,6 +3588,25 @@
         ]
     },
     {
+        "ref": "依偎",
+        "name": {
+            "zh": "依偎"
+        },
+        "type": "INTUITION",
+        "rarity": "MR",
+        "character": "VYN",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "盛装舞步 Ⅱ",
+            "箱庭疗法 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
         "ref": "信物",
         "name": {
             "zh": "信物",
@@ -3587,7 +3672,9 @@
     {
         "ref": "诚愫",
         "name": {
-            "zh": "诚愫"
+            "zh": "诚愫",
+            "en": "Sincerity",
+            "ko": "진실된 입맞춤"
         },
         "type": "LOGIC",
         "rarity": "MR",
@@ -3687,6 +3774,25 @@
             "zh": "撩梦"
         },
         "type": "INTUITION",
+        "rarity": "MR",
+        "character": "MARIUS",
+        "skills": [
+            "先声夺势 Ⅱ",
+            "年少锋锐 Ⅱ",
+            "执行总裁 Ⅱ"
+        ],
+        "influence": 1658,
+        "defense": 829,
+        "obtainedFrom": [
+            "LIMITED-EVENT"
+        ]
+    },
+    {
+        "ref": "余韵",
+        "name": {
+            "zh": "余韵"
+        },
+        "type": "EMPATHY",
         "rarity": "MR",
         "character": "MARIUS",
         "skills": [
@@ -4967,7 +5073,9 @@
     {
         "ref": "绚焰",
         "name": {
-            "zh": "绚焰"
+            "zh": "绚焰",
+            "en": "Bright Flame",
+            "ko": "한란한 불꽃"
         },
         "type": "EMPATHY",
         "rarity": "R",
@@ -5405,7 +5513,9 @@
     {
         "ref": "闻花",
         "name": {
-            "zh": "闻花"
+            "zh": "闻花",
+            "en": "Flower Fragrance",
+            "ko": "꽃내음"
         },
         "type": "INTUITION",
         "rarity": "R",

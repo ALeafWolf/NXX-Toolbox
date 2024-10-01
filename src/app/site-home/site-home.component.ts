@@ -16,12 +16,12 @@ export class HomeComponent implements OnInit {
   constructor(private _data: DataService) { }
 
   ngOnInit(): void {
-    this._data.getUpdateItems().toPromise().then((items: any[]) => {
-      this.items = items[0];
-    }).catch(err => {
-      console.log(err);
-      this.isLoaded = true;
-    });
+    // this._data.getUpdateItems().toPromise().then((items: any[]) => {
+    //   this.items = items[0];
+    // }).catch(err => {
+    //   console.log(err);
+    //   this.isLoaded = true;
+    // });
   }
 
   generateRandomIcon(){
